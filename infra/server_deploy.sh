@@ -13,12 +13,14 @@
 #   PRIMARY_DOMAIN  new canonical domain  (default: dasmodel.co)
 #   OLD_DOMAIN      domain to redirect    (default: desciencemodel.com)
 #   EMAIL           certbot contact       (default: carla@positron.vc)
+#   SERVER_IP       this box's public IP  (default: 159.69.6.146)
 set -euo pipefail
 
 APP_DIR="${APP_DIR:-/opt/desciencemodel}"
 PRIMARY_DOMAIN="${PRIMARY_DOMAIN:-dasmodel.co}"
 OLD_DOMAIN="${OLD_DOMAIN:-desciencemodel.com}"
 EMAIL="${EMAIL:-carla@positron.vc}"
+SERVER_IP="${SERVER_IP:-159.69.6.146}"
 WEBROOT="$APP_DIR/dist"
 
 if [ ! -f "$WEBROOT/index.html" ]; then
@@ -65,18 +67,37 @@ ln -sf /etc/nginx/sites-available/desciencemodel /etc/nginx/sites-enabled/descie
 rm -f /etc/nginx/sites-enabled/default
 nginx -t && systemctl reload nginx
 
-# ── TLS for all four names in one cert; idempotent across redeploys ──────────
-# --redirect makes plain HTTP 301 to HTTPS. Requires every name below to
-# already resolve to THIS server, or the ACME challenge fails.
-echo "→ certbot (TLS for $PRIMARY_DOMAIN, www, $OLD_DOMAIN, www)"
+# ── TLS — only for names that ALREADY resolve to this box ────────────────────
+# certbot is all-or-nothing per run, so a name still pointing elsewhere (e.g.
+# desciencemodel.com on Vercel until you cut it over) must be excluded or the
+# whole request fails. We add names incrementally; re-run after each DNS cutover
+# and the cert expands. --redirect makes plain HTTP 301 to HTTPS.
+resolves_here() { getent ahostsv4 "$1" 2>/dev/null | awk '{print $1}' | grep -qx "$SERVER_IP"; }
+
+CERT_ARGS=()
+for name in "$PRIMARY_DOMAIN" "www.$PRIMARY_DOMAIN" "$OLD_DOMAIN" "www.$OLD_DOMAIN"; do
+  if resolves_here "$name"; then
+    CERT_ARGS+=(-d "$name")
+  else
+    echo "↷ skipping TLS for $name (not pointing at $SERVER_IP yet)"
+  fi
+done
+
+if ! resolves_here "$PRIMARY_DOMAIN"; then
+  echo "✗ $PRIMARY_DOMAIN does not resolve to $SERVER_IP — fix DNS, then re-run." >&2
+  exit 1
+fi
+
+echo "→ certbot (TLS for:${CERT_ARGS[*]/#-d/})"
 if certbot --nginx --non-interactive --agree-tos -m "$EMAIL" --keep-until-expiring --redirect \
-     -d "$PRIMARY_DOMAIN" -d "www.$PRIMARY_DOMAIN" \
-     -d "$OLD_DOMAIN"     -d "www.$OLD_DOMAIN"; then
+     --cert-name "$PRIMARY_DOMAIN" "${CERT_ARGS[@]}"; then
   systemctl reload nginx
-  echo "✅ $PRIMARY_DOMAIN is live (HTTPS); $OLD_DOMAIN 301s to it."
+  echo "✅ $PRIMARY_DOMAIN is live over HTTPS."
+  resolves_here "$OLD_DOMAIN" \
+    && echo "   $OLD_DOMAIN 301s to it (HTTPS)." \
+    || echo "   (point $OLD_DOMAIN at $SERVER_IP and re-run to redirect it over HTTPS.)"
 else
-  echo "⚠️  certbot failed. Confirm all four names resolve to this server:" >&2
-  echo "    dig +short $PRIMARY_DOMAIN www.$PRIMARY_DOMAIN $OLD_DOMAIN www.$OLD_DOMAIN" >&2
-  echo "    then re-run deploy.sh. The site already serves over HTTP in the meantime." >&2
+  echo "⚠️  certbot failed. Confirm these names resolve to $SERVER_IP, then re-run deploy.sh." >&2
+  echo "    The site still serves over HTTP in the meantime." >&2
   exit 1
 fi

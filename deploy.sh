@@ -14,6 +14,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 SERVER=root@159.69.6.146
+SERVER_IP=159.69.6.146
 APP_DIR=/opt/desciencemodel
 BRANCH=main
 PRIMARY_DOMAIN=dasmodel.co
@@ -40,7 +41,7 @@ rsync -az      infra/server_deploy.sh "$SERVER:$APP_DIR/server_deploy.sh"
 
 # 4. configure nginx + TLS on the server (idempotent)
 ssh "$SERVER" "
-  APP_DIR=$APP_DIR PRIMARY_DOMAIN=$PRIMARY_DOMAIN OLD_DOMAIN=$OLD_DOMAIN EMAIL=$EMAIL \
+  APP_DIR=$APP_DIR PRIMARY_DOMAIN=$PRIMARY_DOMAIN OLD_DOMAIN=$OLD_DOMAIN EMAIL=$EMAIL SERVER_IP=$SERVER_IP \
     bash $APP_DIR/server_deploy.sh
 "
 
