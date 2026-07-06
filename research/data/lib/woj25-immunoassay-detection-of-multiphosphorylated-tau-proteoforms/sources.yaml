@@ -1,0 +1,38 @@
+paper:
+  slug: woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms
+  doi: 10.1038/s41467-024-54878-8
+  title: "Immunoassay detection of multiphosphorylated tau proteoforms as cerebrospinal fluid and plasma Alzheimer's disease biomarkers"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.nature.com/articles/s41467-024-54878-8.pdf
+  source: publisher
+code: []
+data:
+  - name: "Source Data file (raw assay measurements)"
+    identifier: "s41467-024-54878-8 Supplementary/Source Data (MOESM files)"
+    repository: "Nature Communications (article supplementary information)"
+    access: open
+    verified: true
+  - name: "Discovery and validation patient cohorts (CSF/plasma; AD continuum + FTD; discovery n=55, validation n=118)"
+    identifier: null
+    repository: "Corresponding authors on request (University of Perugia / Amsterdam UMC)"
+    access: request
+    verified: true
+clinical_trials: []
+notes: >
+  Open-access Nature Communications article (gold OA, CC BY-NC-ND); PMID 39747866,
+  PMC11696609. PDF downloaded from publisher (6.5 MB, 11 pages, valid PDF).
+  Data availability statement (verbatim): "Source Data are provided with this paper.
+  The raw data are provided in the Source Data file and Supplementary Information file.
+  Any other blinded anonymized data is available on request from the corresponding
+  authors." No dedicated Code availability section and no code/software repository
+  (GitHub/GitLab/Zenodo/OSF) found or referenced — verified via full-text and web
+  search; reporting none is correct. No external dataset accessions (no
+  GEO/SRA/PRIDE/ProteomeXchange/EGA/Dryad/figshare/Zenodo). Study uses in-house
+  patient cohorts (CSF and plasma across the AD continuum and FTD) — not a public
+  cohort like ADNI/BioFINDER — with anonymized data available on request subject to
+  EU data-protection review. No clinical trial registration (no NCT) is associated
+  with this observational biomarker study. Grants: Parkinson's Foundation
+  PF-PRF-934916; EU Horizon 2020 grant 860197.

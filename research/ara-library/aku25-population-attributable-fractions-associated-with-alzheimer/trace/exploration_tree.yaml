@@ -1,0 +1,88 @@
+# Exploration Tree — Aku25 (Population Attributable Fractions Associated with AD Risk Factors)
+# Research DAG: nested tree with cross-edges (also_depends_on).
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# NOTE ON SUPPORT LEVELS: The source is a two-page conference abstract with no methods section and
+# no session record. The analytical PIPELINE STEPS (univariable Cox, multivariable Cox, total-PAF,
+# age stratification, race/sex decomposition) are each stated explicitly in the abstract and are
+# marked `explicit`. The two `decision` nodes are marked `inferred`: the study clearly made these
+# choices, but the abstract does not enumerate the rejected alternatives, so the alternatives are a
+# reconstruction. No dead_end or pivot nodes are included — the abstract reveals none, and inventing
+# them would violate the no-fabrication rule.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract, p. 743"]
+    title: "What is the combined attributable contribution of comorbid diseases (and low income) to AD/ADRD risk?"
+    description: "Numerous individual AD/ADRD risk factors are known, but their combined influence on risk is uncertain. Quantify the joint and disease-specific population attributable fraction of comorbid diseases (plus low income, proxied by dual Medicare eligibility) for clinical AD/ADRD diagnosis in the general older-adult Medicare population."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        source_refs: ["Abstract, p. 743"]
+        title: "Use a high-power 5% Medicare sample as the analytic cohort"
+        choice: "Draw the cohort, outcomes, comorbidities, dual-eligibility flag, and race/sex/age strata from a 5% sample of CMS Medicare administrative data (controlled access via ResDAC)."
+        alternatives:
+          - "A smaller prospective cohort study (better phenotyping but under-powered for race/sex subpopulation PAFs)"
+          - "A different administrative source without national coverage"
+        evidence: "Medicare's scale makes jointly-adjusted survival modeling and subpopulation PAF decomposition feasible; the abstract states the study 'leverage[s] a high-power 5%-sample of the Medicare population'."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Abstract, p. 743–744"]
+            title: "Univariable Cox screening of candidate AD/ADRD risk-related diseases"
+            result: "Individual disease associations with AD/ADRD risk are estimated to identify the 'most powerful predictors' carried forward to multivariable modeling."
+            evidence: [C01]
+            children:
+
+              - id: N04
+                type: decision
+                support_level: inferred
+                source_refs: ["Abstract, p. 744"]
+                title: "Select a compact nine-disease predictor set"
+                choice: "Retain nine diseases — heart failure, hypertension, arrhythmia, stroke, hypotension, renal disease, depression, traumatic brain injury, diabetes mellitus — as the primary determinants of AD/ADRD risk variation."
+                alternatives:
+                  - "A larger predictor set including additional comorbidities"
+                  - "A smaller set of only the top one or two diseases"
+                  - "Explicitly retaining the dual-eligibility low-income indicator as a modeled predictor (its inclusion in the final model is not stated)"
+                evidence: "The abstract reports 'The identified model included nine diseases … as primary determinants of variation in AD/ADRD risk'; the exact selection criterion is not specified."
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract, p. 744"]
+                    title: "Construct the multivariable Cox model over the nine diseases"
+                    result: "A jointly-adjusted multivariable Cox model retains the nine diseases and yields the risk estimates that feed PAF computation."
+                    evidence: [C01]
+                    children:
+
+                      - id: N06
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Abstract, p. 744"]
+                        title: "Compute total PAF and analyze its age gradient"
+                        result: "The total PAF explained by the predictor set is computed for the general older-adult population; the explained fraction of total PAF increases with age."
+                        evidence: [C02, C03]
+
+  - id: N08
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract, p. 743–744"]
+    title: "How does the attributable burden differ across race- and sex-specific subpopulations?"
+    description: "Beyond the pooled estimate, quantify how the disease-specific PAF decomposition varies across sex (male/female) and race groups (Black, Asian, Hispanic, White, Native American) to reveal disparities in modifiable attributable AD/ADRD burden."
+    children:
+
+      - id: N07
+        type: experiment
+        support_level: explicit
+        source_refs: ["Abstract, p. 744"]
+        title: "Race- and sex-specific PAF decomposition and contributor ranking"
+        also_depends_on: [N05]
+        result: "Disease-specific PAFs are decomposed and ranked within each subpopulation: hypertension/stroke/depression dominate throughout (hypertension 45-50% for Black/Asian/Hispanic; stroke >30% for males; depression ~30% for females and White; hypertension+depression ~30% each for Native Americans); heart failure ranks fourth for all (>5% for Native Americans); a subpopulation-specific tail (hypotension, diabetes, arrhythmia, TBI) exceeds 3%."
+        evidence: [C03, C04, C05, C06, C07, C08, C09]

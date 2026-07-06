@@ -1,0 +1,204 @@
+# RC7 semantic grounding findings (frozen [sem] pass) for huu25-apoe-e4-alzheimer-s-risk-converges.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. All cited sources here are
+# §-section pointers into the source PDF (no in-repo evidence/*.md path is cited in any Sources
+# line for this ARA), so string_present is judged on plausibility of genuine PDF-extracted text
+# (mid-token spacing artifacts like "Sp 9 D 8", "Figure 5A ," are a strong tell of real OCR/text-layer
+# extraction rather than paraphrase) rather than an in-repo re-open. No local paper.pdf was available
+# under research/data/lib/<slug>/ to mechanically re-verify.
+- claim_id: C01
+  number: "679 up / 343 down"
+  quote: "The majority of DEGs were found in oligodendrocyte subcluster Oligo.3 ( Figure 5A , Fig S41 , Table S13 , 679 upregulated and 343 downregulated genes, FDR<0.05)"
+  source: "§2.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Quote states the exact counts and directly names Oligo.3; matches Statement precisely."
+
+- claim_id: C02
+  number: "downregulated set (PLP1, MAG, MAL, MBP, SOX10, OPALIN)"
+  quote: "Downregulated genes in Oligo.3 were implicated in myelination and oligodendrocyte differentiation, such as PLP1 , MAG , MAL , MBP , SOX10 , and OPALIN"
+  source: "§2.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Gene list and direction (downregulated) match Statement exactly."
+
+- claim_id: C02
+  number: "upregulated set (FOS, TLR2, STAT1, STAT4)"
+  quote: "Upregulated Oligo.3 DEGs included FOS , TLR2 , STAT1 , and STAT4 , which are all involved in response to calcium ion"
+  source: "§2.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Statement's upregulated gene list and 'calcium-ion response' framing. Statement's added 'inflammation' framing for this gene set is a reasonable paraphrase (STAT1/TLR2 are also inflammation-associated) but is not itself in this quote -- borderline but not flagged as unrelated since the genes and their calcium-response function are directly supported."
+
+- claim_id: C03
+  number: "22 up / 8 down in Vasc~Sp9D8"
+  quote: "The highest number of differentially expressed genes (DEGs, FDR < 0.05, 22 upregulated and 8 downregulated) was localized to Vasc~Sp 9 D 8"
+  source: "§2.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact count and domain name match; figure3.md Panel A table independently corroborates."
+
+- claim_id: C03
+  number: "WM.uf~Sp9D7 second most"
+  quote: "the U-fiber WM SpD (WM.uf~Sp 9 D 7 ) had the second most DEGs"
+  source: "§2.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Directly supports the 'second most' ranking claim for WM.uf~Sp9D7."
+
+- claim_id: C04
+  number: "Oligo.3 most OPC-proximal"
+  quote: "Trajectory analysis revealed that Oligo.3 was most closely related to oligodendrocyte precursor cells (OPC), suggesting Oligo.3 represented a more immature cell state compared with Oligo.1 and Oligo.2, the most mature Oligo subclusters"
+  source: "§2.6"
+  string_present: true
+  verdict: supports
+  value_match: derived
+  polarity_ok: true
+  context_match: true
+  note: "value_match=derived (no single numeric value here, a qualitative ranking) but the ranking/comparison in the quote directly matches the Statement."
+
+- claim_id: C05
+  number: "WM.uf AA 15 vs EA 2"
+  quote: "we identified 15 DEGs in WM.uf~Sp 9 D 7 for AA, while EA donors only had 2 downregulated DEGs (1 in each WM SpD, Fig S37A )"
+  source: "§2.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Statement correctly preserves the quote's asymmetry (AA=15 total DEGs vs EA=2 specifically downregulated DEGs) rather than flattening it into a same-units comparison -- a careful, honest paraphrase."
+
+- claim_id: C05
+  number: "Astro AA 98"
+  quote: "Ancestry-specific analysis identified 98 DEGs in Astro in AA donors"
+  source: "§2.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; figure4.md independently corroborates 'Astro AA = 98 DEGs'."
+
+- claim_id: C06
+  number: "91 male vs 1 female (PAX6)"
+  quote: "we identified 91 male DEGs in WM.uf~Sp 9 D 7 , and 1 female DEG, PAX6 , in WM~Sp 9 D 6"
+  source: "§2.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "MINOR FIDELITY FLAG: the quote shows the 91 male DEGs are in WM.uf~Sp9D7 while the 1 female DEG (PAX6) is in a DIFFERENT domain, WM~Sp9D6. The Statement paraphrases both as '...in WM domains for Visium', which is technically true (both are WM domains) but flattens a domain distinction a careless reader could miss. Not a fabrication, but context_match marked false to surface the flattening; numbers and direction are otherwise correct."
+
+- claim_id: C06
+  number: "70% male"
+  quote: "uneven representation of sexes across the cohort (21/30 male; 70%)"
+  source: "§2.4 (cohort description)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches PAPER.md's stated cohort composition (21 male / 9 female of 30)."
+
+- claim_id: C06
+  number: "948 male vs 2 female"
+  quote: "Sex-specific DEGs were detected mostly in males (948 DEGs)... Only 2 DEGs were detected in females"
+  source: "§2.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match for the broad-cell-type-level counts."
+
+- claim_id: C06
+  number: "1,830 male DEGs in Oligo.3"
+  quote: "Oligo.3 sex-specific DEGs were only detected in males (1,830 DEGs, Fig S38C )"
+  source: "§2.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match."
+
+- claim_id: C07
+  number: "7 MOFA factors"
+  quote: "We calculated 7 MOFA factors from both snRNA-seq subclusters and SRT SPDs"
+  source: "§2.8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match."
+
+- claim_id: C07
+  number: "p=0.014, FDR=0.095 (E4+ vs E2+)"
+  quote: "Higher factor 3 scores were nominally associated with E4+ vs. E2+ (p = 0.014, FDR = 0.095, Figure 6B )"
+  source: "§2.8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; Statement's own 'nominally associated' hedge matches the quote's 'nominally' -- honest, not inflated."
+
+- claim_id: C07
+  number: "pTau negative association, FDR<0.05"
+  quote: "MOFA factor 3 donor-level scores also had a significant negative association (FDR< 0.05) with pTau scores in adjacent ERC tissue sections"
+  source: "§2.8"
+  string_present: true
+  verdict: supports
+  value_match: rounded
+  polarity_ok: true
+  context_match: true
+  note: "value_match=rounded because evidence/figures/figure6.md's own table gives the more precise underlying FDR=2.16e-02, which the claims.md Source line rounds to the bound 'FDR<0.05' actually printed in the quote -- consistent, not a discrepancy."
+
+- claim_id: C08
+  number: "Grubman 6 AD + 6 controls"
+  quote: "cell type DEGs from Grubman et al., which included 6 AD donors and 6 controls"
+  source: "§2.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match."
+
+- claim_id: C08
+  number: "Blanchard 20 AD + 12 controls (PFC)"
+  quote: "cell type DEGs from Blanchard et al., which analyzed gene expression differences... in the prefrontal cortex (PFC) of 20 AD and 12 control donors"
+  source: "§2.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match."
+
+- claim_id: C08
+  number: "shared PLP1/OPALIN downregulation, FDR<0.05"
+  quote: "significant overlap (FDR < 0.05) between downregulated Oligo DEGs in AD donors and downregulated Oligo.3 DEGs in APOE E4+ carriers, including a shared decrease in PLP1 and OPALIN"
+  source: "§2.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; Statement correctly scopes to 'including' these two genes rather than claiming full DEG-set overlap."

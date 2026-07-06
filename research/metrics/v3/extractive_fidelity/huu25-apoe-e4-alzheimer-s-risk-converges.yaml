@@ -1,0 +1,30 @@
+slug: huu25-apoe-e4-alzheimer-s-risk-converges
+fulltext_file: research/metrics/v3/fulltext/huu25.txt
+n_claims_checked: 8
+n_faithful: 8
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Fulltext line 69 (§2.6): 'The majority of DEGs were found in oligodendrocyte subcluster Oligo.3 (..., 679 upregulated and 343 downregulated genes, FDR<0.05)' matches the Statement's counts and FDR threshold exactly."
+  - claim_id: "C02"
+    faithful: true
+    note: "Downregulated myelination genes (PLP1, MAG, MAL, MBP, SOX10, OPALIN) and upregulated inflammation genes (FOS, TLR2, STAT1, STAT4) both confirmed verbatim in fulltext line 69. The flagged 'MAPT also downregulated' clause is ALSO supported: the local fulltext extraction stripped italicized gene symbols (a known PMC-XML extraction artifact visible throughout the document, e.g. 'such as,,,,, and(,,)'), which deleted the word MAPT from this file, but the surrounding sentence skeleton survives intact at line 69: 'The gene encoding tau,, is expressed in oligodendrocytes and has a significant developmental role in oligodendrocyte maturation and myelin synthesis.was downregulated in Oligo.3 (), suggesting a link between AD risk and impaired oligodendrocyte differentiation.' 'The gene encoding tau' unambiguously refers to MAPT. I independently fetched the live PMC12667772 article (https://pmc.ncbi.nlm.nih.gov/articles/PMC12667772/) to confirm the exact original wording, which reads: 'The gene encoding tau, MAPT, is expressed in oligodendrocytes and has a significant developmental role in oligodendrocyte maturation and myelin synthesis. MAPT was downregulated in Oligo.3, suggesting a link between AD risk and impaired oligodendrocyte differentiation.' This directly and explicitly confirms MAPT downregulation in Oligo.3. Verdict: the MAPT clause is NOT an unsupported addition -- it is directly stated in the paper. The earlier judge's flag was an artifact of the local fulltext file's lossy italics-stripping (which also deleted MAPT from the compiler's own Sources-quote candidate pool), not a genuine compiler fabrication."
+  - claim_id: "C03"
+    faithful: true
+    note: "Fulltext line 51 (§2.4): 'The highest number of differentially expressed genes (DEGs, FDR < 0.05, 22 upregulated and 8 downregulated) was localized to Vasc~SpD' and 'the U-fiber WM SpD (WM.uf~SpD) had the second most DEGs' -- both match the Statement exactly, including the 22/8 counts and the vascular-then-WM.uf ranking."
+  - claim_id: "C04"
+    faithful: true
+    note: "Fulltext line 75 (§2.6): 'Trajectory analysis revealed that Oligo.3 was most closely related to oligodendrocyte precursor cells (OPC), suggesting Oligo.3 represented a more immature cell state compared with Oligo.1 and Oligo.2, the most mature Oligo subclusters' matches the Statement directly. The marker genes LINGO2, GPM6A, KCNJ3 are stripped from the local fulltext by the same italics-extraction artifact as C02, but I confirmed via live PMC fetch that the original text reads 'Top Oligo.3 enrichment marker genes, including LINGO2, GPM6A, and KCNJ3, were implicated in neuronal communication' and confirms these are 'shared with OPC.5' -- exact match to the Statement."
+  - claim_id: "C05"
+    faithful: true
+    note: "Fulltext line 55 (§2.4): 'we identified 15 DEGs in WM.uf~SpD for AA, while EA donors only had 2 downregulated DEGs' and line 63 (§2.5): 'Ancestry-specific analysis identified 98 DEGs in Astro in AA donors' both match exactly. Line 77 confirms Oligo.3 ancestry-specific DEGs 'with some genes regulated in opposite directions,' matching the Statement's final clause."
+  - claim_id: "C06"
+    faithful: true
+    note: "Fulltext line 55: 'we next examined risk difference between males and females, and in total identified 91 male DEGs in WM.uf~SpD, and 1 female DEG,, in WM~SpD' and 'uneven representation of sexes across the cohort (21/30 male; 70%)' match; the stripped female-DEG gene name was confirmed via live PMC fetch as PAX6, matching the Statement. Line 63: 'Sex-specific DEGs were detected mostly in males (948 DEGs)... Only 2 DEGs were detected in females' matches. Line 77: 'Oligo.3 sex-specific DEGs were only detected in males (1,830 DEGs)' matches."
+  - claim_id: "C07"
+    faithful: true
+    note: "Fulltext line 93 (§2.8): 'We calculated 7 MOFA factors from both snRNA-seq subclusters and SRT SPDs' matches. Line 95: 'Higher factor 3 scores were nominally associated with E4+ vs. E2+ (p = 0.014, FDR = 0.095...)' and 'MOFA factor 3 donor-level scores also had a significant negative association (FDR< 0.05) with pTau scores' both match exactly, including the nominal/non-significant framing for the APOE association vs. significant framing for pTau."
+  - claim_id: "C08"
+    faithful: true
+    note: "Fulltext line 83 (§2.7): 'cell type DEGs from Grubman et al., which included 6 AD donors and 6 controls' matches; line 85: 'gene expression differences between E3/E3 against E3/E4 and E4/E4 Oligos in the prefrontal cortex (PFC) of 20 AD and 12 control donors' matches Blanchard cohort sizes exactly. The shared-gene names were stripped by the italics-extraction artifact ('including a shared decrease inand'), but live PMC fetch confirmed the original reads 'including a shared decrease in PLP1 and OPALIN,' matching the Statement's named overlap genes exactly."
+infidelities: []

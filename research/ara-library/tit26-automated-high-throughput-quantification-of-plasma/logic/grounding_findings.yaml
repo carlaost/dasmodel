@@ -1,0 +1,280 @@
+# RC7 semantic grounding findings (frozen [sem] pass) for
+# tit26-automated-high-throughput-quantification-of-plasma.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. All quotes were re-verified
+# against the local paper.pdf (research/data/lib/tit26-automated-high-throughput-quantification-of-plasma/paper.pdf,
+# extracted via pypdf) and, where applicable, against the filed evidence/tables/*.md transcriptions.
+
+- claim_id: C01
+  number: "AUC 0.939 (0.895-0.969), cut-off 0.371, sens 92.2%, spec 89.2%"
+  quote: "Elecsys p-tau217 | 186 | 0.939 (0.895–0.969) | 0.371 | 92.2% ... | 89.2% ..."
+  source: "Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Condensed table-row extraction (ellipses replace intervening CI text); every value matches evidence/tables/table2.md and paper.pdf Table 2 row 1 exactly."
+
+- claim_id: C01
+  number: "cut-off 0.371 pg/mL"
+  quote: "Optimal cut-off values were 0.371 pg/mL for Elecsys p-tau217"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim substring of paper.pdf p.5: 'Optimal cut-off values were 0.371 pg/mL for Elecsys p-tau217, 1.150 pg/mL for Elecsys p-tau181, and 0.246 pg/mL for Lumipulse p-tau217.'"
+
+- claim_id: C01
+  number: "sensitivity 92.2%, specificity 89.2%"
+  quote: "92.2% (85.3–96.6%) | 89.2% (80.4–94.9%)"
+  source: "Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 2 row 1 sensitivity/specificity cells exactly."
+
+- claim_id: C02
+  number: "Lumipulse p-tau217 AUC 0.950 (0.907-0.976)"
+  quote: "Lumipulse p-tau217 | 186 | 0.950 (0.907–0.976)"
+  source: "Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 2 row 3 exactly."
+
+- claim_id: C02
+  number: "DeLong p = 0.485"
+  quote: "comparable discriminatory performance between the two p-tau217 assays (p = 0.485)"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5: 'The DeLong test showed comparable discriminatory performance between the two p-tau217 assays (p = 0.485)'."
+
+- claim_id: C03
+  number: "Elecsys p-tau181 AUC 0.903 (0.852-0.942)"
+  quote: "Elecsys p-tau181 | 187 | 0.903 (0.852–0.942)"
+  source: "Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 2 row 2 exactly."
+
+- claim_id: C03
+  number: "DeLong p = 0.043"
+  quote: "the AUC of Elecsys p-tau181 was significantly lower than that of Elecsys p-tau217 (p = 0.043)"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5. Note this is the least robust of the paper's ~9 uncorrected DeLong comparisons (see sem_findings C03 scope_calibration flag), but the quote itself accurately supports the stated number/direction."
+
+- claim_id: C04
+  number: "AUC 0.939 -> 0.970 (0.943-0.992), p = 0.02"
+  quote: "for Elecsys p-tau217 (AUC 0.939 to 0.970; p = 0.02)"
+  source: "§Results p.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.6 Diagnostic value of plasma APOE ε4 section."
+
+- claim_id: C04
+  number: "intermediate 20.0% -> 11.0%"
+  quote: "Elecsys p-tau217 from 20.0% to 11.0%"
+  source: "§Results p.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.6-7. Flagged in compilation_fidelity_samples: this '20.0%' baseline figure conflicts with Table 3's '19.9%' for what should be the identical Elecsys p-tau217 baseline grey-zone proportion -- an inconsistency present in the source paper itself, faithfully (not silently corrected) reproduced here."
+
+- claim_id: C05
+  number: "AUC 0.950 vs 0.957; p = 0.058 and p = 0.322"
+  quote: "did not result in a statistically significantly increase the AUC (0.950 vs. 0.957; p = 0.058 and p = 0.322, respectively)"
+  source: "§Results p.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.7. Correctly captures this as a genuine null/non-significant result rather than inflating it."
+
+- claim_id: C05
+  number: "intermediates 11.9% vs 10.0% vs 10.5%"
+  quote: "slightly reduced the proportion of intermediate results (11.9% vs. 10.0% vs. 10.5%)"
+  source: "§Discussion p.9"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.9-10 Discussion."
+
+- claim_id: C06
+  number: "Elecsys p-tau217 grey zone 19.9% (37/186), cut-offs 0.275/0.497"
+  quote: "Elecsys p-tau217 | 0.275 | 0.497 | ... | 19.9%"
+  source: "Table 3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches evidence/tables/table3.md and paper.pdf Table 3 row 1 exactly."
+
+- claim_id: C06
+  number: "19.9% (37/186)"
+  quote: "19.9% (37/186)"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5-6: 'This range encompassed 19.9% (37/186) of patients, of whom 32.4% (12/37) were AD and 67.6% (25/37) non-AD.'"
+
+- claim_id: C06
+  number: "Lumipulse p-tau217 11.9% (22/186), 0.130/0.246"
+  quote: "Lumipulse p-tau217 | 0.130 | 0.246 | ... | 11.9%"
+  source: "Table 3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 3 row 3 exactly."
+
+- claim_id: C06
+  number: "Elecsys p-tau181 33.2% (62/187), 0.936/1.505"
+  quote: "Elecsys p-tau181 | 0.936 | 1.505 | ... | 33.2%"
+  source: "Table 3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 3 row 2 exactly."
+
+- claim_id: C07
+  number: "rs = 0.88, slope 1.363 (1.251-1.484), intercept 0.113 (0.098-0.133)"
+  quote: "proportional (slope = 1.363; 95% CI: 1.251–1.484) and systematic (intercept = 0.113; 95% CI: 0.098–0.133) differences ... (r = 0.88, p < 0.0001)"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5. Minor notation nuance: the source text and figure both print 'r = 0.88' / 'r_s' inconsistently across caption vs body; the Statement's 'Pearson rs' label is a reasonable normalization of the source's own inconsistent subscripting, not a fabricated value."
+
+- claim_id: C07
+  number: "differences up to 59%"
+  quote: "indicated discrepancies of up to 59% between the assays (Fig. 1B)"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5."
+
+- claim_id: C08
+  number: "baseline MoCA association p < 0.001, β = -0.267"
+  quote: "Significant associations were observed with diagnostic group and baseline MoCA score (p < 0.001, β=-0.267)"
+  source: "§Results p.7-8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.8, Influence of clinical cofactors section."
+
+- claim_id: C08
+  number: "decline trend n = 69, median 2.1 years, p = 0.07"
+  quote: "Among AD patients with longitudinal follow-up (n = 69; median follow up 2.1 years) ... trend toward faster cognitive decline over time (p = 0.07)"
+  source: "§Results p.8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.8 Cognitive decline and p-tau217 section; ellipsis compresses intervening clause about baseline MoCA. Correctly reported as non-significant (p=0.07), not inflated."
+
+- claim_id: C09
+  number: "age p=0.449 β=0.064; sex p=0.054 β=0.154; eGFR p=0.918 β=-0.009; Fazekas p=0.072 β=0.142; CAA p=0.308 β=0.079"
+  quote: "no significant associations were found with age (p = 0.449, β = 0.064), sex (p = 0.054, β = 0.154), renal function (eGFR) (p = 0.918, β=-0.009), severe white-matter hyperintensities (Fazekas score = 3) (p = 0.072, β = 0.142), or the presence of two or more strictly lobar microbleeds indicative of CAA (p = 0.308, β = 0.079)"
+  source: "§Results p.8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.8. Genuine multi-part null result, accurately reproduced."
+
+- claim_id: C09
+  number: "21 with eGFR < 60, none < 30"
+  quote: "Twenty-one patients had an eGFR below 60 mL/min/1.73 m² ... and none had an eGFR below 30"
+  source: "§Results p.8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.8 (ellipsis compresses 'in our cohort, consistent with chronic kidney disease (CKD stage 3), and')."
+
+- claim_id: C10
+  number: "imprecision 0.5-3.8% (p-tau181), 0.5-8.6% (p-tau217)"
+  quote: "imprecision for p-tau181 ranged from 0.5 to 3.8%, whereas for p-tau217 it ranged from 0.5 to 8.6%"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5 Precision, linearity and limit of quantification section."
+
+- claim_id: C10
+  number: "linearity 0.30/0.12 pg/mL; LLOQ 0.32/0.10 pg/mL"
+  quote: "Linearity was maintained down to 0.30 pg/mL and 0.12 pg/mL ... The LLOQ was estimated at 0.32 pg/mL for p-tau181 and 0.10 pg/mL for p-tau217"
+  source: "§Results p.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.5 (ellipsis compresses 'for p-tau181 and p-tau217, respectively (Supplementary Figure S1).')."
+
+- claim_id: C11
+  number: "15 A+T-N-, 1 other; p < 0.001 vs AD"
+  quote: "amyloid abnormal without CSF tau abnormality (A + T−N−, ... n = 15) or other discordant AT(N) profiles (n = 1). Overall, discordant cases differed clearly from the AD group across plasma p-tau measures (p < 0.001)"
+  source: "§Results p.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.7 Discordant CSF biomarker profiles section (ellipsis compresses 'potentially reflecting an early amyloid-positive stage and/or mixed pathology;')."
+
+- claim_id: C11
+  number: "62.5% below / 37.5% above threshold"
+  quote: "62.5% discordant cases were below and 37.5% were above the threshold"
+  source: "§Results p.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match to paper.pdf p.7."

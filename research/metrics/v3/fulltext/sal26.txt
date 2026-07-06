@@ -1,0 +1,331 @@
+Introduction
+
+Alzheimer disease (AD) is a neurodegenerative disease biologically characterized by the pathological accumulation of aggregated amyloid-β (Aβ) plaques and tau neurofibrillary tangles in the brain. Building on this knowledge, the Alzheimer’s Association (AA) work group recently proposed revised diagnostic and staging criteria centered on these 2 hallmark pathologies.This biologically driven framework describes 4 disease stages of AD, beginning with Aβ positivity alone and progressing with increasing regional extension and load of tau deposition as measured by positron emission tomography (PET). This staging approach not only reflects disease biology, but also relates to clinical severity, although presence of other copathologies increases discrepancies between biological and clinical stages.Importantly, a similar stratification strategy has already proven clinically useful, as treatment responses have been shown to differ depending on stage.With the growing development of diverse therapeutic options,accurate biological staging across the AD continuum is becoming increasingly important for guiding patient care.However, PET imaging is costly and infrastructure intensive and therefore is not feasible for widespread routine clinical practice. For this reason, the AA work group has emphasized the need for developing a more scalable staging model with the potential for more global implementation.
+
+Recently developed high-performing blood-based biomarkers provide a scalable alternative for this challenge. Plasma phosphorylated tau at threonine 217 (p-tau217, or %p-tau217 when assessed as a percentage of its unphosphorylated form) has demonstrated excellent performance for identifying Aβ pathology,with similar performance to clinically used cerebrospinal fluid (CSF) biomarkersand excellent performance in primary and secondary care populations.Although plasma p-tau217 is also associated with early-stage aggregated tau pathology, its accuracy declines in more advanced disease stages.Complementing this marker, microtubule-binding region containing residue 243 (MTBR-tau243) measured in CSF has shown a stronger association to aggregated tau pathology.Recently, we validated the new plasma-based assay of endogenously cleaved MTBR-tau243 (eMTBR-tau243), demonstrating similar performance to CSF MTBR-tau243.Together, %p-tau217 and eMTBR-tau243 provide a minimally invasive and highly accurate means of predicting both Aβ-PET and tau-PET status.
+
+Therefore, our objective was to develop a plasma %p-tau217 and eMTBR-tau243–based staging model aligned with the AA PET framework. To this end, we first optimized the model in a large cohort spanning the full AD continuum (BioFINDER-2, n = 872), internally validated it cross-sectionally and longitudinally against PET and other AD biomarkers, and then tested its generalizability in an independent cohort from the Knight Alzheimer Disease Research Center (ADRC), which included both in vivo imaging (n = 156) and neuropathological data (n = 80).
+
+Methods
+
+Participants
+
+BioFINDER-2 ()participants were recruited at Skåne University Hospital and Hospital of Ängelholm, Sweden. Knight ADRC participants were community-dwelling volunteers enrolled in memory and aging studies at Washington University in St Louis, Missouri.Details on recruitment and exclusion and inclusion criteria have been described previously.In both cases, individuals had to have available both plasma %p-tau217 and eMTBR-tau243 data to be included in the study.
+
+In accordance with the research framework by the National Institute on Aging–AA (NIA-AA) study, individuals with subjective cognitive decline and cognitively healthy controls were classified as cognitively unimpaired (CU). All participants provided written informed consent, and ethical approval was granted by the Regional Ethical Committee in Lund, Sweden, and the Washington University Human Research Protection Office, respectively. This study followed the Standards for Reporting of Diagnostic Accuracy () reporting guideline.
+
+Plasma Measurements
+
+Plasma measurements of %p-tau217 and eMTBR-tau243 were measured using immunoprecipitation–mass spectrometry performed at Washington University.Plasma %p-tau217 was calculated as the ratio of p-tau217 to non–p-tau217. In a subset of individuals from Knight ADRC (n = 62), %p-tau217 was only measured using a C2N Diagnostics platform (and not at Washington University). In these cases, %p-tau217 values were imputed using a linear transformation derived from a high-correlation subset (n = 90;= 0.95). Data measurements were performed blinded to diagnostic characteristics.
+
+CSF Measurements
+
+CSF Aβ42/40 levels were used in both cohorts to assess Aβ positivity. In the BioFINDER-2 cohort, CSF levels of Aβ42/40 were measured as previously explained.A predefined threshold of 0.080, based on a Gaussian mixture model, determined Aβ positivity.In the Knight ADRC cohort, CSF Aβ42/40 levels were measuredwith the Fujirebio Lumipulse assay and were dichotomized to determine Aβ status using a predefined threshold of 0.0673.
+
+Imaging Measurements
+
+Detailed descriptions of imaging procedures in the BioFINDER-2 and Knight ADRC cohorts were previously reported.In BioFINDER-2, Aβ PET was performed with [F]flutemetamol, and in Knight ADRC with [F]florbetapir (AV45) or [C]Pittsburgh Compound B (PiB). Mean cortical standardized uptake value ratio (SUVR) was calculated from the average signal in neocortical regions of interest (ROIs) using cerebellar gray matter as the reference region. SUVR values were then transformed to Centiloids to harmonize measurements from different tracers and studies.
+
+Tau PET scans were acquired with the [F]RO948 tracer in the BioFINDER-2 cohort and with the [F]flortaucipir tracer in Knight ADRC. These PET tracers are structurally similar and yielded comparable cortical results in head-to-head comparisons.SUVR values were calculated, using inferior (BioFINDER-2) or whole (Knight ADRC) cerebellar gray matter as reference, for the following 3 regions: (1) a medial temporal lobe (MTL) composite (unweighted average uptake in the entorhinal cortex and amygdala); (2) a temporal lobe composite (volume-weighted average uptake in the inferior and middle temporal gyri); and (3) the multiblock barycentric discriminant analysis (MUBADA)region, which identifies the regions that provide maximal differences across diagnostic groups.
+
+To construct the PET-based staging system, we used amyloid PET to determine amyloid status and tau-PET SUVR values in the MTL, the temporal lobe, and the MUBADA regions to determine T status following a previously validated approach.In brief, initial or A stage (A+T−) was defined by a positive Aβ status with the absence of elevated tau-PET signal. Early or B stage (A+T+) was characterized by increased tau-PET uptake restricted to the MTL. Intermediate or C stage (A+T+) represented moderate tau-PET uptake extending into the neocortex, operationalized as tau positivity in the temporal lobe outside of the MTL. Finally, advanced or D stage (A+T+) reflected high neocortical tau-PET signal operationalized as tau positivity in the MUBADA region (outside of the temporal lobes). As this measure was not available in the Knight ADRC cohort, a higher threshold was used in the neocortical temporal lobe. Previously validated Aβ-PET thresholds were applied to define A status (BioFINDER-2: SUVR >1.03; Knight ADRC: Centiloid >20). Because most individuals with dementia in BioFINDER-2 and some others in Knight ADRC did not undergo amyloid-PET testing, dichotomized CSF Aβ42/40 levels were used as an alternative measure of A status when amyloid-PET data were unavailable. Tau-PET measures were categorized in BioFINDER-2 using previously defined cutoffs (T+: SUVR >1.34; T+: SUVR >1.36; and T+: SUVR >1.46).In brief, cutoffs for the T+ and T+ were calculated as 2 standard deviations from the mean of Aβ-negative individuals. For the threshold of the MUBADA region (T+), the threshold was based on the highest tertile in that region on tau-PET–positive individuals, similarly to the original study.The same approach was used to derive these thresholds for Knight ADRC (T+: SUVR >1.25; T+: SUVR >1.30; and T+: SUVR >1.71). Participants whose biomarker profile did not follow the expected sequential trajectory were classified as not stageable but were included in the training sample (BioFINDER-2: 23 of 776 [3%]; Knight ADRC: 7 of 99 [7%]), most often due to positivity in the temporal lobe outside the MTL while negative in the MTL.
+
+T1-weighted anatomical magnetization-prepared rapid gradient echo scans (1-mm isotropic voxels) were used to assess cortical thickness. A cortical thickness meta-ROI, comprising the entorhinal, fusiform, inferior temporal, and middle temporal regions, which are known to be susceptible to AD-related atrophy,was extracted using FreeSurfer version 6.0 (Laboratory for Computational Neuroimaging).
+
+Cognition
+
+Global cognition was assessed in BioFINDER-2 using the Mini-Mental State Examination (MMSE) and a modified version of the Preclinical Alzheimer Cognitive Composite-5 (mPACC-5), which are sensitive to early cognitive impairment.The mPACC-5 composite was calculated as the mean ofscores from the AD Assessment Scale–Cognitive Subscale delayed recall (double weighted), animal fluency, MMSE, and Trail Making Test A.
+
+Neuropathological Measurements
+
+The neuropathologic data included in this study were generated by the Knight ADRC Neuropathology Core between 2018 and 2024 following an established protocol.Briefly, each brain was bisected. The right half was sliced and frozen; the left was formalin fixed, sliced, and sampled for histology. Fixed samples from 17 regions were stained for morphology (hematoxylin and eosin), and immunohistochemistry was performed for Aβ (10D5), phosphorylated tau (PHF-1), α-synuclein (LB509), and phosphorylated TDP-43. Slides were manually and systematically evaluated by an experienced neuropathologist to generate semiquantitative scores for observed neurodegenerative features, including those directly relevant to staging Alzheimer Disease Neuropathologic Change (ADNC; Aβ plaques, neuritic plaques, neurofibrillary tangles)and other relevant findings. These regional semiquantitative scores were then evaluated according to established historical and contemporary neuropathologic criteria to render all appropriate neuropathologic diagnoses and stages for each case. The resulting neuropathology data were assembled and encoded using standardized National Alzheimer’s Coordinating Center (NACC) Neuropathology Forms and Coding Guidebooks.Twelve of the 80 included cases were evaluated and encoded using NACC Neuropathology form version 9, prior to the inclusion of Thal Aβ phases and the NIA-AA staging system for ADNC in versions 10 and 11.Mean (SD) time between blood draw and brain extraction was 4.9 (2.3) years.
+
+Model Training and Testing
+
+BioFINDER-2 participants were randomly assigned to a training set (70%) and a test set (30%), stratified only by AA PET stage distribution. Contrary to our previous CSF staging where we derived the model in a completely data-driven fashion,here we aimed to create a plasma staging system that optimally replicated the staging derived from PET as proposed by the AA.To this aim, logistic regression models were built in the training set for each AA staging category (ie, 4 different models, 1 for each of A− status, Tstatus, Tstatus, and Tstatus) using only plasma %p-tau217 and eMTBR-tau243 as predictors, without any covariate. All individuals with PET data available were included in this step, even when not following the stereotypical AA biological staging. Optimal probability thresholds were determined by maximizing the Youden index (using theandR packages) for each category. Shapley additive explanations (SHAP) valueswere calculated to investigate each biomarker’s contribution to the final model (using theand thepackages in R).
+
+The models were applied to the BioFINDER-2 training and test sets, as well to the Knight ADRC cohort, to derive predicted probabilities, which were dichotomized using the thresholds derived in the training set. These binary classifications were then combined to determine the final plasma stage. Individuals were categorized as plasma stage 0 if all probabilities were below all thresholds. Participants with nonstereotypical profiles using the plasma classification (eg, A-T+) were classified as unstageable (BioFINDER-2 training set: 10 [1.6%]; BioFINDER-2 test set: 5 [1.9%]; Knight ADRC: 0) and not compared to the PET stages. Importantly, most individuals not conforming to the stereotypical profile demonstrated a mismatch in the Tcategory (eg, A−T+ or A+T− but T+), similarly to when using PET for categorization.
+
+As an additional analysis, the procedure was repeated using only %p-tau217 as a predictor to evaluate the added value of eMTBR-tau243.
+
+Statistical Analysis
+
+Ordinal logistic regression (andR packages) was used to assess the associations with ordinal categories (ie, clinical and biological stages). In cases with ordinal outcomes, model performance was evaluated using the C index, a multiclass analogue to the area under the curve (AUC), with 95% confidence intervals computed via bootstrapping (1000 resamples;package in R). Group differences in biomarker levels by plasma stage were tested with the Kruskal-Wallis test, followed by Wilcoxon post hoc comparisons with false discovery rate (FDR) correction. Locally estimated scatterplot smoothing (LOESS) regression was applied to model biomarker progression across stages. Longitudinal rates of change were computed using participant-level linear regressions for each biomarker. Statistical differences of these rates of change were assessed as in the cross-sectional case. Differences in performance of a 2-biomarker vs a %p-tau217–only staging model were assessed through their concordance to PET-based biological and clinical staging models. Differences in C index were calculated testing statistical differences through bootstrapping; thesevalues were not adjusted for multiple comparisons. Results are shown for the whole BioFINDER-2 sample unless explicitly mentioned.
+
+Analyses were conducted in R version 4.3.1. (R Foundation). Unless explicitly mentioned otherwise, 2-sided<.05 was considered statistically significant. Plots were generated using thepackage.
+
+Results
+
+In the BioFINDER-2 cohort, participants included 150 cognitively unimpaired Aβ-negative (CU−) individuals, 233 Aβ-positive (CU+) individuals, 182 individuals with mild cognitive impairment (MCI), 151 individuals with AD dementia, and 156 individuals with non-AD neurodegenerative diseases (). Mean (SD) age was 72.8 (9.2) years, 438 participants (50.2%) were women, and 516 participants (59.2%) were apolipoprotein E () carriers. Participant characteristics for the Knight ADRC replication cohort are provided in eTable 1 in. Briefly, there were 42 CU− individuals, 26 CU+ individuals, 43 individuals with very mild dementia who were Aβ positive, and 22 individuals with AD dementia. The mean (SD) age was 74.3 (7.3) years, 62 participants (39.7%) were women, and 72 (46.2%) werecarriers.
+
+Table.
+
+Demographic Characteristics of BioFINDER-2 Participants
+
+Characteristic
+
+No. (%)
+
+All (n = 872)
+
+CU− (n = 150)
+
+CU+ (n = 233)
+
+MCI+ (n = 182)
+
+AD dem+ (n = 151)
+
+Non-AD+ (n = 19)
+
+Non-AD− (n = 137)
+
+Age, mean (SD), y
+
+72.8 (9.19)
+
+69.1 (11.9)
+
+74.3 (8.51)
+
+74.1 (7.21)
+
+74.8 (7.61)
+
+75.2 (4.21)
+
+70.0 (9.55)
+
+Gender
+
+Men
+
+434 (49.8)
+
+61 (40.7)
+
+110 (47.2)
+
+96 (52.7)
+
+64 (42.4)
+
+13 (68.4)
+
+90 (65.7)
+
+Women
+
+438 (50.2)
+
+89 (59.3)
+
+123 (52.8)
+
+86 (47.3)
+
+87 (57.6)
+
+6 (31.6)
+
+47 (34.3)
+
+Education, mean (SD), y
+
+12.8 (3.71)
+
+12.8 (3.37)
+
+12.8 (3.80)
+
+12.8 (3.82)
+
+12.2 (3.60)
+
+13.9 (4.57)
+
+13.0 (3.74)
+
+carriers
+
+516 (59.2)
+
+62 (41.3)
+
+165 (70.8)
+
+133 (73.1)
+
+112 (74.2)
+
+12 (63.2)
+
+32 (23.4)
+
+Aβ positive
+
+584 (67.0)
+
+0
+
+233 (100)
+
+182 (100)
+
+150 (99.3)
+
+19 (100)
+
+0
+
+Tau-PET
+
+339 (38.9)
+
+4 (2.7)
+
+93 (39.9)
+
+108 (59.3)
+
+119 (78.8)
+
+4 (21.1)
+
+11 (8.0)
+
+Tau-PET
+
+232 (26.6)
+
+0
+
+40 (17.2)
+
+79 (43.4)
+
+108 (71.5)
+
+2 (10.5)
+
+3 (2.2)
+
+Tau-PET
+
+149 (17.1)
+
+0
+
+13 (5.6)
+
+48 (26.4)
+
+87 (57.6)
+
+0
+
+1 (0.7)
+
+Abbreviations: AD dem+, Alzheimer disease dementia Aβ positive; APOE, apolipoprotein E; CU−, cognitively unimpaired Aβ negative; CU+, cognitively unimpaired Aβ positive; MCI+, mild cognitive impairment Aβ positive; MTL, medial temporal lobe; non-AD+, non-Alzheimer disease Aβ positive; non-AD−, non-Alzheimer disease Aβ negative; PET, positron emission tomography; Tau-PET, tau-PET uptake restricted to the MTL; Tau-PET, PET uptake extending into the neocortex; Tau-PET, tau-PET uptake in the multiblock barycentric discriminant analysis region.
+
+a
+
+Seven participants missing.
+
+b
+
+One participant missing.
+
+c
+
+Four participants missing.
+
+d
+
+Aβ positivity was assessed with cerebrospinal fluid or PET.
+
+e
+
+Ninety-two participants missing.
+
+f
+
+Eighty-three participants missing.
+
+Model Creation and Validation
+
+The PET-based AA staging system comprised the following 4 stages: A (initial), defined by Aβ positivity without elevated tau-PET; B (early), characterized by tau-PET uptake confined to the MTL; C (intermediate), marked by tau-PET spread into the temporal neocortex outside the MTL; and D (advanced), defined by high neocortical tau-PET uptake beyond the temporal lobes. Plasma %p-tau217 levels were incrementally increased across PET-based AA staging models (A). In contrast, eMTBR-tau243 remained low until biological stages C and D, with 92 of 128 (72%) of the intermediate (C or A+T+) and all of the advanced (D or A+T+; 83 of 83 [100%]) individuals having abnormal eMTBR-tau243 levels (B). As shown inC, participants with intermediate but similar %p-tau217 levels showed different AA PET-based stages, suggesting that this marker may not be sufficient to differentiate advanced tau-positive stages in isolation. In the same plot, a clearer division of advanced PET stages can be observed drawing horizontal lines instead, thus supporting the utility of eMTBR-tau243 levels (eFigure 1 in).
+
+To develop the plasma staging model, independent logistic regression models were used including %p-tau217 and eMTBR-tau243 as predictors to classify participants into the PET categories. Class probabilities for each participant were derived from the logistic regression model. For the lower categories (A and B), probabilities were primarily driven by %p-tau217, as can be seen in eTable 2 and eFigure 2A and B in, whereas higher categories (C and D) were more influenced by eMTBR-tau243 (eFigure 2C and D in), especially for the C category, indicating its importance for classifying advanced tau-PET stages. This can also be observed in the SHAP value plots for each category (eFigure 3 in). We derived the thresholds for these probabilities to optimally reproduce each stage in the training sample, which we applied to the test set to categorize participants into 1 plasma stage.
+
+In the full BioFINDER-2 sample, representing in-sample performance, plasma-based stages were strongly associated with higher PET-based stages (C index, 0.91; 95% CI, 0.90-0.92) (D). Confusion matrices for each subsample are presented in eTable 3 in, and specific metrics of accuracy, sensitivity, and specificity for plasma-based stages on predicting same or higher PET-based stages are included in eTable 4 in. Plasma stages were also associated with worse clinical stages among CU− participants and those within the AD continuum (C index, 0.84; 95% CI, 0.82-0.86) (E). When using only the test set, associations with PET-based stages (C index, 0.91; 95% CI, 0.89-0.92) and clinical stages (C index, 0.84; 95% CI, 0.80-0.88) were also high (eFigure 4A in).
+
+The strong comparability between plasma-based stages and PET-based stages was confirmed with the voxelwise comparison of Aβ-PET and tau-PET images of each plasma positive stage vs plasma stage 0. Individuals in plasma-based stage 1 already showed elevated Aβ-PET uptake compared to individuals in stage 0, although the uptake continued to increase in later stages (A and B). For tau-PET, initial increases were observed in the MTL area in individuals at plasma-based stages 1 and 2, which become prominent in temporal areas outside the MTL in stage 3 and even more pronounced and spread in stage 4 (C). Mean Aβ-PET and tau-PET images of individuals classified in each plasma stage are shown in eFigure 5 in.
+
+Plasma %p-tau217 and eMTBR-tau243 levels by plasma stage are shown in eFigure 6 in, and differences in demographics are shown in eFigure 7 in.
+
+Figure 1.
+
+Scatterplots and Component Bar Graphs Showing Plasma Biological Staging Model Creation and Validation
+
+Plasma %p-tau217 (A) and plasma eMTBR-tau243 (B) levels by Alzheimer’s Association (AA) positron emission tomography (PET)–based stages. Horizontal dashed lines represent cutoffs of abnormality previously validated.C, Associations between plasma eMTBR-tau243 and %p-tau217 levels by AA criteria. Actual proportion of individuals (left) and predicted proportion of individuals (right) by AA PET-based stages are shown in panel D. Actual proportion of individuals (left) and predicted proportion of individuals (right) by clinical stages are shown in panel E. %p-tau217 indicates phosphorylated tau at threonine 217 expressed as a percentage of its unphosphorylated form; A+T+ (stage D), Aβ positive status and positive tau-PET status in the multiblock barycentric discriminant analysis (MUBADA) region (outside of the temporal lobes); A+T+ (stage C), Aβ positive status and positive tau-PET status extending in the temporal lobe outside of the medial temporal lobe (MTL); A+T+ (stage B), Aβ positive status and positive tau-PET status restricted to the MTL; A+T− (stage A), positive Aβ status with the absence of elevated tau-PET signal; A−T− (negative), negative Aβ status with the absence of elevated tau-PET signal; AD dem+, Alzheimer disease dementia Aβ positive; CU−, cognitively unimpaired Aβ negative; CU+, cognitively unimpaired Aβ positive; eMTBR-tau243, plasma endogenously cleaved microtubule-binding region tau containing residue 243; MCI, mild cognitive impairment Aβ positive; NA, not applicable.
+
+Figure 2.
+
+Representational Models of Regional Aβ and Tau Deposition Across Plasma Stages
+
+A, Representation of Aβ–positron emission tomography (PET) and tau-PET deposition for each Alzheimer’s Association (AA) PET-based stage by design. Voxelwise comparison of Aβ-PET (B) and tau-PET (C) burden between each positive plasma stage and plasma stage 0. Only significant voxels are shown, colored by their significance (T-value). Significance was set at uncorrected< .001 within a gray matter mask, with a minimum cluster size of k >100. PET-based stages correspond to: A, initial or A+T− (positive Aβ status with the absence of elevated tau-PET signal); B, early or A+T+ (Aβ positive status and positive tau-PET status restricted to the medial temporal lobe [MTL]); C, intermediate or A+T+ (Aβ positive status and positive tau-PET status extending in the temporal lobe outside of the MTL); and D, advanced or A+T+ (Aβ positive status and positive tau-PET status in the multiblock barycentric discriminant analysis [MUBADA] region [outside of the temporal lobes]).
+
+Associations With Continuous AD-Related Biomarkers
+
+Next, we investigated the association between our plasma-based staging classification and continuous measures of AD biomarkers, including but not limited to PET measures. Plasma staging was significantly associated with cross-sectional measures of AD-related biomarkers, including continuous measures of Aβ-PET and tau-PET, but also cognition (MMSE and mPACC-5) and cortical thickness (A). All biomarkers except neocortical temporal tau-PET (fold change [FC], 3.45;= .07) showed significant differences between stage 0 and stage 1 (eTable 5 in). Differences between stage 1 and stage 2 were significant only for Aβ-PET (FC, 0.59;< .001), MTL (FC, 1.15;= .001), and temporal neocortex tau-PET (FC, 2.4;= .04). Significant differences between stage 2 and stage 3 were observed for all biomarkers except cortical thickness (FC, 0.31;= .06) and between stage 3 and stage 4 for all biomarkers. The largest late-stage differences were in neocortical temporal tau-PET (stages 2 vs 3: FC, 3.04;< .001; stages 3 vs 4: FC, 2.59;< .001).
+
+Longitudinal analyses showed the expected trajectory by plasma stage (B). Aβ-PET rates of change followed an inverted U-shape, peaking at plasma stage 2 (mean [SD], 0.80 [0.42]) (eTable 6 in). Mean (SD) rates of change for MTL tau-PET (0.55 [0.68]), temporal neocortex tau-PET (1.82 [1.26]), atrophy (0.48 [0.33]), and cognitive decline (MMSE: 1.52 [1.44]; mPACC: 1.93 [1.54]) were highest at plasma stage 4, with significant differences from the preceding stage. MTL tau-PET longitudinal changes at this latest stage were not significantly different from stage 3 (mean [SD], 0.52 [0.63];= .84), suggesting tau saturation in this region.
+
+Figure 3.
+
+Scatterplots and Line Graphs Showing Cross-Sectional and Longitudinal Alzheimer Disease (AD) Biomarker Levels by Plasma Stages
+
+Depiction of individual cross-sectional (A) and longitudinal (C) biomarker levels by plasma stages in BioFINDER-2 participants. These include biomarkers of amyloid (Aβ–positron emission tomography [PET]) and tau (tau-PET in the medial temporal lobe [MTL] and temporal neocortex regions of interest) pathologies, cognition (modified Preclinical Alzheimer Cognitive Composite-5 [mPACC-5] and Mini-Mental State Examination [MMSE]), and neurodegeneration (cortical thickness in the AD signature areas). Biomarkers arescored based on a group of cognitively unimpaired (CU−) participants, and all increases represent increase in abnormality. The horizontal line is drawn atscore = 1.96, which represents 95% confidence intervals of the reference group (CU−). Colored lines and bands represent the locally estimated scatterplot smoothing (LOESS) regression and its 95% confidence intervals, respectively. Smoothed LOESS lines of all AD biomarkers are shown on the right for comparison. All participants with available data were included in Aβ-PET and tau-PET analyses. For neurodegeneration and cognitive measures, patients with non-AD dementia were excluded to avoid bias. Of note, only a few AD dementia cases had Aβ-PET available due to study design. Plasma stage 0 represents being classified as normal by the model. Black dots and vertical lines represent mean and 2 SD per plasma stage, respectively.
+
+Significant differences in contiguous plasma stages (2-sided, false discovery rate corrected) (< .001).
+
+< .05.
+
+< .01.
+
+Validation in External Replication Sample
+
+When applying thresholds derived from the training set in the primary cohort (BioFINDER-2) to the validation cohort (Knight ADRC), high concordance was found between plasma-based staging and PET (C index, 0.91; 95% CI, 0.87-0.94) and clinical categorization (C index, 0.86; 95% CI, 0.82-0.89) (eFigure 4B in). These results represent out-of-sample performance under similar analytical conditions and should be interpreted as external replication.
+
+In the Knight ADRC neuropathology subsample (n = 80; mean [SD] time between blood draw and death, 4.9 [2.3] years) (eTable 7 in), participants were classified using Consortium to Establish a Registry for Alzheimer’s Disease (CERAD, neuritic plaques),Braak staging (tau tangles topography),and ADNC (presence of AD pathology including plaques and tangles)frameworks. Most individuals below plasma stage 2 (13 of 19 [68%]) were ADNC negative (ie, none or low; AUC, 0.96; 95% CI, 0.91-1.00) (), with this proportion increasing to 89% (8 of 9) when restricted to those with less than 5 years between blood draw and autopsy. Higher plasma stages were associated with more advanced pathology: 44 of 50 (88%) of those with plasma stages 3 and 4 had moderate or frequent CERAD scores (C index, 0.81; 95% CI, 0.75-0.86) and 41 of 50 (82%) had Braak stage V or VI (C index, 0.86; 95% CI, 0.79-0.91). Continuous biomarker measures showed stepwise increases in %p-tau217 across all scales, whereas eMTBR-tau243 elevations were mainly observed in Braak V or VI cases (eFigure 8 in).
+
+Figure 4.
+
+Component Bar Graphs Showing Neuropathological Scales by Plasma Stages
+
+Proportion of individuals by Alzheimer Disease Neuropathologic Change (ADNC, A), Consortium to Establish a Registry for Alzheimer’s Disease (CERAD, B), and Braak staging (C) per plasma stage. First row shows all individuals with available data (n = 68 for ADNC; n = 80 for CERAD and Braak staging), whereas the lower row represents individuals with time between plasma draw and neuropathological examination of less than 5 years (n = 31 for ADNC [D]; n = 42 for CERAD [E] and Braak stage [F]).
+
+Comparison Against a %p-tau217–Only Model
+
+A %p-tau217–only staging model was constructed using the same procedure and compared to our original 2-biomarker model. The 2-biomarker model showed greater performance for predicting PET-based stages (ΔC index, 0.014; 95% CI, 0.009-0.020; 1-sided< .001), primarily due to misclassification of A+T+ participants for the %p-tau217–only staging model. Notably, very few individuals (25 vs 120 in the original model) were assigned to the plasma stage 3 in the %p-tau217–only model. This resulted in a large decrease in the A+T+ correctly assessed individuals with plasma (from 9.4% with %p-tau217 only vs 44.0% with the full model) (see confusion matrices in eTable 8 in). This was also the case in the Knight ADRC cohort (ΔC index, 0.018; 95% CI, −0.004 to 0.040; 1-sided= .025) and when only using the test sample (ie, individuals not used for the creation of the model) of the BioFINDER-2 cohort (ΔC index, 0.018; 95% CI, 0.006-0.030; 1-sided= .001) (eFigure 4 in) that represent more unbiased estimates of model performance. We also compared the 2 fluid models for predicting clinical staging, and the 2-biomarker model was also superior in all cases (all BioFINDER-2 participants: ΔC index, 0.019; 95% CI, 0.010-0.027; 1-sided< .001; Knight ADRC: ΔC index, 0.024; 95% CI, −0.000 to 0.050; 1-sided= .02; and BioFINDER-2 test set: ΔC index, 0.032; 95% CI, 0.017-0.051; 1-sided< .001) (eFigure 4 in).
+
+Discussion
+
+We developed and validated a biological staging model for AD using 2 plasma biomarkers that have previously been linked to distinct aspects of AD biology: %p-tau217 (for Aβ) and eMTBR-tau243 (for tau). Our primary aim was to optimally replicate the AA PET-based staging framework while reducing costs and burden for patients, thereby enhancing scalability for clinical practice. Across 2 independent cohorts, a very high concordance was observed between plasma-based and PET-based staging. This study’s plasma staging system also demonstrated strong associations with continuous AD-related measures, both cross-sectionally and longitudinally, and showed high accuracy in predicting AD pathology confirmed by neuropathological examination. These findings support the feasibility of plasma-based staging as a proxy of biological disease severity, although further work is required before clinical implementation.
+
+This work extends our earlier CSF-based staging framework,which was based on %p-tau217 and MTBR-tau243, among other markers, and demonstrated strong biological and clinical validity, but was limited in scalability because MTBR-tau243 was, at that time, only measurable in CSF.A recent methodological advance enabling the measurement of an endogenously cleaved MTBR-tau243variant in plasma has made it possible for the first time to examine whether biological staging can be achieved using blood biomarkers that jointly capture Aβ- and tau-related pathological processes. This development allows the present plasma-based approach to preserve key biological features of the earlier CSF model while substantially improving accessibility and scalability.
+
+Consistent with previous studies, %p-tau217 levels increased across PET-based stagesbut showed substantial overlap between intermediate and advanced disease groups, reflecting known limitations of Aβ-sensitive plasma tau markers in distinguishing later stages of AD.The incorporation of eMTBR-tau243 addressed this limitation, as plasma eMTBR-tau243 levels increased predominantly in individuals with more advanced tau pathology, with only a subset of intermediate-stage cases showing abnormal values. The complementary dynamics of %p-tau217, which is more sensitive to early changes, and eMTBR-tau243, which is more specific to later-stage pathology, allowed for a more granular staging system.
+
+Our approach deliberately mirrored the established PET-based staging system, given its strong evidence-based utilityand the consensus reached in the AA diagnostic criteria.When applied to BioFINDER-2, the plasma staging system showed excellent performance against both biological PET-based and clinical staging, with replication in an independent cohort despite differences in tracers and diagnostic frameworks. Importantly, a simplified %p-tau217–only model, although accurate, failed to adequately classify intermediate (stage C or A+T+) individuals, leaving plasma stage 3, aimed to mirror that PET-based stage, almost unpopulated. This is extremely relevant, as these individuals may have the most favorable benefit-risk ratio for receiving current anti-amyloid treatments.While these results highlight a potential role for plasma staging in identifying individuals within a therapeutically relevant window, the model’s current performance suggests that further fine-tuning is needed for precise stage-level clinical decision-making. In a potential future clinical workflow, plasma staging could be considered as an initial stratification tool to guide further confirmatory testing, rather than as a stand-alone diagnostic or staging method.
+
+Evaluation against continuous biomarker trajectories further reinforced biological validity. Plasma stages mapped onto the expected sequence of pathological events: Aβ-PET uptake abnormalities emerged at early stages, followed by tau-PET elevations in the medial temporal lobe and later in the temporal neocortex (), and finally cognitive decline and cortical atrophy. Longitudinally, the Aβ-PET accumulation rate exhibited the anticipated inverted U-shaped trajectory,while tau-PET, cortical atrophy, and cognitive decline progressed steadily through later plasma stages.These results are also in line with those presented when using the biological staging based on PET in individuals from the Mayo Clinic,supporting the validity of the AA staging model.
+
+Strengths and Limitations
+
+Compared with previously proposed PET-basedstaging models and our earlier CSF-based framework,the present approach represents a major advance in accessibility, scalability, and patient acceptability, while maintaining biological specificity. However, this should be interpreted as an approximation of PET-based staging rather than a direct substitute. In contrast to recently published plasma staging models that rely on more Aβ-sensitive tau markers, the inclusion of plasma eMTBR-tau243 allows for better separation of intermediate and advanced PET-based stages, which is critical for clinical decision-making and trial enrichment.Validation across multiple cohorts, including neuropathological confirmation, further strengthens confidence in its validity. However, the limited number of individuals with CSF MTBR-tau243 and plasma eMTBR-tau243 prevented a direct comparison between both staging methods. Several other limitations must be considered. First, while previous CSF studies suggested the inclusion of p-tau205 to refine intermediate- or late-stage classification,its plasma analogue has not shown comparable performance.Second, measurement of plasma eMTBR-tau243 currently relies on immunoprecipitation–mass spectrometry and requires relatively large plasma volumes, limiting immediate scalability. However, ongoing efforts to translate this biomarker into immunoassay-based platforms are expected to improve accessibility and facilitate broader clinical implementation. Third, differences in PET tracers and diagnostic criteria across cohorts may have introduced heterogeneity; nonetheless, this reinforces the robustness of our results. Fourth, we used an approach based on several dichotomizations rather than an ordinal model, which allows the appearance of nonstereotypical classifications. This decision was taken to maximally resemble the PET-based stages. Importantly, such profiles were also present in PET-based staging (30 of 875 [3.4%]) and were mainly driven by the medial temporal lobe tau category, suggesting that this issue may reflect biological and measurement variability rather than solely model construction. Fifth, there were some individuals in whom Aβ-PET was not available and CSF Aβ42/40 was used instead to assess A status. Although this does not strictly follow the AA definition, previous work has demonstrated high concordance between these 2 measures for determining Aβ positivity, especially in advanced cases,which comprised most of the individuals missing Aβ-PET in BioFINDER-2. Sixth, classification performance was lower for adjacent stages, indicating that the current model is better suited for stratification across broader disease phases rather than precise stage assignment. Finally, fluid and imaging biomarkers capture different pathological pools, and complete equivalence between staging systems should not be expected.Replication in more diverse populations will be critical to confirm generalizability.
+
+Conclusions
+
+In conclusion, in this longitudinal cohort study, we propose and validate a plasma-based biological staging system for AD that leverages %p-tau217 and eMTBR-tau243. This model captures the biological severity continuum and approximates PET-based staging, aligns with established biomarker trajectories, and provides a minimally invasive, scalable alternative to PET-based staging. At its current stage of development, it may be most useful as a research and stratification tool, with further refinement and validation required before routine clinical implementation, which could be used in the future for enable precise patient characterization, inform treatment decisions, and streamline recruitment for clinical trials.

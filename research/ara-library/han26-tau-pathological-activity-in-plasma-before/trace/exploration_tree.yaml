@@ -1,0 +1,132 @@
+# Exploration Tree — han26-tau-pathological-activity-in-plasma-before
+# Research DAG reconstructed from the paper's Introduction (aims), Statistical Analysis plan,
+# Results section structure, and Discussion. Node count/types are source-bounded: only
+# decisions/dead-ends the paper's own narrative and results support are included.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Introduction §, PDF p.6-7", "Abstract, PDF p.3"]
+    title: "Can a plasma functional tau-seeding assay (VeraBIND Tau) outperform existing pTau-species biomarkers for detecting AD tau pathology, particularly in cognitively unimpaired individuals?"
+    description: "The paper's stated aim is to assess VeraBIND Tau's diagnostic performance against [18F]MK6240 tau-PET (gold standard) in a mixed CU/CI cohort, benchmarked against plasma pTau217/181/231 and the Aβ42/Aβ40 ratio, across clinical groups and Braak-like tau-PET stages, and to test cross-sectional/longitudinal associations with cognition and tau-PET burden."
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["Table 2", "Results, PDF p.18-19"]
+        title: "Cross-tabulate VeraBIND Tau result against concordant and discordant amyloid/tau-PET (A/T) groups"
+        result: "VeraBIND Tau tracked tau-PET status closely in concordant cases (96.7% accuracy in A-T-/A+T+, similar in CU and CI) and was far more often positive in discordant A-T+ cases (77.8%) than in discordant A+T- cases (7.7%; Fisher p=0.001), indicating tau-specific rather than amyloid-driven positivity."
+        evidence: [C11, "Table 2"]
+        children:
+
+          - id: N03
+            type: decision
+            support_level: inferred
+            title: "Interpret VeraBIND Tau as a tau-specific signal, not a generic AD-pathology (amyloid+tau) marker"
+            choice: "Frame and analyze VeraBIND Tau throughout the paper as a tau-pathology-specific biomarker"
+            alternatives:
+              - "Treat elevated VeraBIND Tau as a nonspecific marker of general AD pathology (amyloid or tau)"
+            evidence: "Discordant-group asymmetry in Table 2 (C11); this framing choice is not narrated explicitly as a decision moment but is the interpretive stance adopted throughout Results/Discussion."
+
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["Table 2 footnote, PDF p.41", "Discussion, PDF p.25"]
+            title: "Attribute the single A-T- VeraBIND-Tau-positive case to tau-PET tracer insensitivity, not assay error"
+            choice: "Explain the one discordant A-T- positive case (clinically suspected corticobasal degeneration) as a false tau-PET negative — [18F]MK6240 has limited affinity for primary 4R tauopathies — rather than a VeraBIND Tau false positive"
+            alternatives:
+              - "Treat the case as a true VeraBIND Tau assay false positive"
+            evidence: "Gérard et al. 2025 (ref 51) on [18F]MK6240's limited affinity for primary tauopathies (RW12); motivates Claim C12."
+
+      - id: N05
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 2", "Results, PDF p.19"]
+        title: "Compare ROC/AUC of VeraBIND Tau against pTau217, pTau181, pTau231, and Aβ42/Aβ40 ratio for both tau-PET and amyloid outcomes"
+        result: "VeraBIND Tau had the highest AUC for tau-PET positivity (0.974, vs. 0.924 for pTau217, DeLong p=0.049), but plasma pTau217 retained the highest AUC for amyloid positivity (0.932 vs. 0.866 for VeraBIND Tau, DeLong p=0.058)."
+        evidence: [C01, C02, "Figure 2"]
+        children:
+
+          - id: N06
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Results, PDF p.19", "Discussion, PDF p.24-25", "Figure 2B"]
+            title: "VeraBIND Tau as a stand-alone replacement for pTau217 in amyloid detection"
+            hypothesis: "If VeraBIND Tau's functional seeding signal is a strong general marker of AD pathology, it might also match or beat pTau217 for predicting amyloid-PET/CSF status, potentially serving as a single all-purpose plasma test."
+            failure_mode: "Plasma pTau217 retained the highest AUC for amyloid status (0.932 vs. 0.866 for VeraBIND Tau; DeLong z=1.89, p=0.058, borderline but favoring pTau217), so VeraBIND Tau does not surpass pTau217 as an amyloid biomarker."
+            lesson: "VeraBIND Tau's advantage is specific to detecting tau pathology, not general AD-biomarker positivity. This motivates the paper's proposed two-test workflow (pTau217 as a Core 1 amyloid marker + VeraBIND Tau as a Core 2 tau marker) rather than a single-assay replacement strategy (Discussion, PDF p.24-25)."
+
+      - id: N07
+        type: experiment
+        support_level: explicit
+        source_refs: ["Table 3", "Results, PDF p.19"]
+        title: "Compare threshold-stratified diagnostic performance (sensitivity/specificity/accuracy/PPV/NPV) of VeraBIND Tau vs. pTau217 at 3 clinically-derived thresholds, by clinical subgroup"
+        result: "VeraBIND Tau's PPV in CU individuals (85.9%) far exceeded the best pTau217 threshold's CU PPV (57.5% at 0.256 pg/mL), regardless of which pTau217 threshold was used for comparison."
+        evidence: [C01, C03, "Table 3"]
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 3", "Results, PDF p.19-21"]
+        title: "Stratify biomarker levels and diagnostic performance by Braak-like tau-PET stage group (0 / 1-3 / 4-6, and fine-grained 0-6)"
+        result: "VeraBIND Tau outperformed pTau217 specifically at low Braak-like stages 1-3 (AUC 0.96 vs. 0.74, DeLong p=0.003); performance converged at high stages 4-6 (AUC 0.98 for both, DeLong p=0.66). VeraBIND Tau score was similarly elevated at both low and high stages relative to Braak 0 (regression b=0.24 and b=0.29, both p<0.001, not different from each other, p=0.98), while pTau217 rose specifically at high stages only."
+        evidence: [C04, C05, C06, "Figure 3"]
+        children:
+
+          - id: N09
+            type: decision
+            support_level: inferred
+            title: "Interpret VeraBIND Tau's stage-dependent pattern as an early presence/absence seeding signal, not a graded severity marker"
+            choice: "Characterize VeraBIND Tau cross-sectional score as reflecting whether pathological tau seeding activity is present (an early on/off signal) rather than how much tau pathology has accumulated"
+            alternatives:
+              - "Expect VeraBIND Tau score to keep rising with Braak-like stage the way pTau217 concentration does"
+            evidence: "Regression coefficients showing no significant VeraBIND Tau difference between Braak 1-3 and 4-6 groups, contrasted with pTau217's continued rise at Braak 4-6 (Claim C06)."
+            children:
+
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results, PDF p.21"]
+                title: "Regress continuous entorhinal tau-PET SUVr on VeraBIND Tau and pTau217, restricted to Braak-like stage 0-3 individuals"
+                result: "VeraBIND Tau significantly predicted continuous entorhinal tau-PET signal in this early-stage-only subset (β=1.69, 95% CI [1.27-2.10], p<0.001), while plasma pTau217 did not (β=0.31, 95% CI [-0.06-0.68], p=0.10)."
+                evidence: [C07]
+
+      - id: N11
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 4", "Results, PDF p.21-22"]
+        title: "Correlate cross-sectional VeraBIND Tau score with cognition, tau-PET burden, and other plasma biomarkers, in the entire sample and in CU alone"
+        result: "VeraBIND Tau correlated significantly with MMSE, episodic memory, entorhinal/inferior-temporal tau-PET SUVr, and plasma pTau217/pTau181 across the entire sample (all p<0.001); restricted to CU participants, correlations with tau-PET SUVr and plasma pTau217/pTau181 remained significant, but the MMSE association did not (rs=0.10, p=0.38), consistent with a cognitive ceiling effect in CU individuals."
+        evidence: [C08, "Figure 4"]
+
+      - id: N12
+        type: experiment
+        support_level: explicit
+        source_refs: ["Results, PDF p.21-22"]
+        title: "Correlate each participant's annual VeraBIND Tau rate of change with cross-sectional disease-severity proxies (longitudinal subsample, n=88)"
+        result: "Annual VeraBIND Tau rate of change correlated modestly (age-adjusted |rs| 0.21-0.38) with entorhinal tau-PET SUVr, Braak-like stage, MMSE, episodic memory, plasma pTau217, and pTau181; the association with plasma pTau231 was not significant."
+        evidence: [C09]
+        also_depends_on: [N11]
+        children:
+
+          - id: N13
+            type: experiment
+            support_level: explicit
+            source_refs: ["Figure 5", "Results, PDF p.22", "Discussion, PDF p.25-26"]
+            title: "Characterize longitudinal test-retest stability and conversion of VeraBIND Tau positivity status"
+            result: "5.7% of longitudinal participants (5/88) converted from VeraBIND-Tau-negative to -positive over follow-up (mean 1.72±0.94 years); 94.3% (83/88) maintained a stable positive or negative result, supporting good test-retest reproducibility."
+            evidence: [C10, "Figure 5"]
+            children:
+
+              - id: N14
+                type: decision
+                support_level: explicit
+                source_refs: ["Discussion, PDF p.25-26"]
+                title: "Frame longitudinal rate-of-change findings as preliminary/hypothesis-generating for anti-tau therapy monitoring, not as established utility"
+                choice: "State explicitly that further longitudinal work is required before VeraBIND Tau rate of change can be used to monitor anti-tau treatment effects"
+                alternatives:
+                  - "Claim VeraBIND Tau's longitudinal rate of change is already validated for monitoring anti-tau therapy response"
+                evidence: "Modest correlation magnitudes in N12/Claim C09, and the authors' own explicit caveat in the Discussion."

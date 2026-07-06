@@ -1,0 +1,38 @@
+# Exploration Tree — iac25-a-practical-overview-of-the-use
+# Research DAG reconstructed from ABSTRACT/METADATA ONLY.
+# Node types: question | experiment | dead_end | decision | pivot
+# No dead_end or pivot nodes are included because the provided source exposes none.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract"]
+    title: "How should amyloid-PET Centiloid values be used in trials and research?"
+    description: "The paper is a practical overview of Centiloid values for amyloid-PET use in clinical trials and research."
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md Abstract"]
+        title: "Assess adoption and harmonization role"
+        result: "The abstract states that amyloid-PET quantitation is increasingly adopted and that the Centiloid scale harmonizes data from different tracers and methods."
+        evidence: ["C01", "C02"]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract"]
+            title: "Compare Centiloid thresholds under comparable standards of truth"
+            result: "The abstract states that studies with comparable standards of truth reported similar Centiloid thresholds."
+            evidence: ["C03"]
+
+      - id: N04
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md Abstract"]
+        title: "Evaluate applied use with caveat-aware interpretation"
+        result: "The abstract states that Centiloid values can be robustly used for patient selection and characterization, while methodological caveats should be considered."
+        evidence: ["C04"]

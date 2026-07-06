@@ -1,0 +1,34 @@
+paper:
+  slug: ala26-trends-in-alzheimer-s-disease-mortality
+  doi: 10.1177/13872877261445035
+  title: "Trends in Alzheimer's disease mortality with metabolic syndrome-related conditions among older adults in the United States, 1999-2020."
+
+pdf:
+  oa: false
+  downloaded: false
+  path: null
+  url: null
+  source: none
+
+code: []
+
+data:
+  - name: "CDC WONDER Multiple Cause of Death database (death certificates, 1999-2020)"
+    identifier: null
+    repository: "CDC WONDER (https://wonder.cdc.gov/)"
+    access: open
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  Retrospective epidemiological/mortality-trends study using US death-certificate
+  data from the CDC WONDER Multiple Cause of Death database (1999-2020), analyzed
+  with Joinpoint regression. No data-availability or code-availability statement is
+  present; CDC WONDER is a publicly queryable database but the study reports no
+  specific accession/query identifier. Unpaywall reports the article as closed
+  (is_oa:false, no OA locations, no repository copy); Europe PMC confirms
+  isOpenAccess:N and inPMC:N. No open-access or preprint PDF was found, so nothing
+  was downloaded. Not a clinical trial or systematic review — no NCT/PROSPERO
+  registration applies. No associated software repository located or expected for
+  this type of study.

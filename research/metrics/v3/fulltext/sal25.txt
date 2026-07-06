@@ -1,0 +1,778 @@
+Received: 7 February 2025         Revised: 25 April 2025   Accepted: 25 April 2025
+
+DOI: 10.1002/alz.70293
+
+
+RESEARCH ARTICLE
+
+
+
+
+TRAILBLAZER-ALZ 4: A phase 3 trial comparing donanemab
+with aducanumab on amyloid plaque clearance in early,
+symptomatic Alzheimer’s disease
+
+Stephen Salloway1,2   Andrew Pain3                                          Elly Lee4  Michelle Papka5
+Margaret B. Ferguson3   Hong Wang3                                          Haoyan Hu3   Ming Lu3      Ena Oru3
+Paul A. Ardayfio3                       Deirdre B. Hoban3                    Emily C. Collins3                   Dawn A. Brooks3
+John R. Sims3
+
+1
+ Department of Neurology and Department of
+Psychiatry, Alpert Medical School of Brown             Abstract
+University, Providence, Rhode Island, USA
+                                                       INTRODUCTION: The phase 3, open-label TRAILBLAZER-ALZ 4 study compared
+2
+ Butler Hospital, Providence, Rhode Island,
+USA
+                                                       the effect of donanemab versus aducanumab on amyloid plaque (AP) clearance in
+3
+ Eli Lilly and Company, Indianapolis, Indiana,         participants with early symptomatic Alzheimer’s disease.
+USA                                                    METHODS: Participants (n = 148) were randomized 1:1 to receive intravenous
+4
+ Irvine Clinical Research, Irvine, California,         donanemab (700 mg every 4 weeks for three doses, then 1400 mg every 4 weeks
+USA
+5
+                                                       thereafter) or aducanumab (per label). AP was measured with florbetapir F 18 positron
+ The Cognitive and Research Center of New
+Jersey LLC, Springfield, New Jersey, USA               emission tomography. AP clearance was defined as < 24.1 Centiloids.
+                                                       RESULTS: At 6, 12, and 18 months, AP clearance was achieved in 37.9%, 70.0%,
+Correspondence
+Andrew Pain, Eli Lilly and Company, Lilly              and 76.8%, respectively, of donanemab-treated participants versus 1.6%, 24.6%,
+Corporate Center, 893 S Delaware St,                   and 43.1% of aducanumab-treated participants (P < 0.001). Median time to clear-
+Indianapolis, IN 46285, USA.
+Email: pain_andrew@lilly.com                           ance was 359 versus 568 days for donanemab- versus aducanumab-treated par-
+                                                       ticipants (P < 0.001). Amyloid-related imaging abnormality (ARIA)-edema/effusion
+Funding information
+                                                       occurred in 23.9% and 34.8% of donanemab- and aducanumab-treated participants,
+Eli Lilly and Company
+                                                       respectively.
+                                                       DISCUSSION: Donanemab treatment resulted in earlier and greater AP clearance
+                                                       compared to aducanumab. ARIA frequencies were consistent with prior studies.
+                                                       Clinical trial registration: No: NCT05108922, TRAILBLAZER-ALZ 4
+
+                                                       KEYWORDS
+                                                       aducanumab, amyloid clearance, amyloid-related imaging abnormalities, amyloid-targeting ther-
+                                                       apies, donanemab, infusion-related reaction
+
+
+                                                       Highlights
+                                                       ∙ Here we report the first direct comparator study of two amyloid-targeting therapies.
+
+
+
+
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided
+the original work is properly cited.
+© 2025 Eli Lilly and Company. Alzheimer’s & Dementia published by Wiley Periodicals LLC on behalf of Alzheimer’s Association.
+
+Alzheimer’s Dement. 2025;21:e70293.                                                                                  wileyonlinelibrary.com/journal/alz      1 of 11
+https://doi.org/10.1002/alz.70293
+2 of 11                                                                                                                                SALLOWAY ET AL.
+
+
+
+
+                                                ∙ This was the first investigation of donanemab on biomarker efficacy regardless of
+                                                   tau levels.
+                                                ∙ Donanemab demonstrated superiority over aducanumab in amyloid plaque (AP)
+                                                   clearance.
+                                                ∙ The depth and speed of AP removal did not affect amyloid-related imaging abnor-
+                                                   mality risk or incidence.
+
+
+
+
+1         BACKGROUND                                                       report the results of TRAILBLAZER-ALZ 4 (NCT05108922), a phase 3,
+                                                                           open-label, active-comparator study that assessed the superiority of
+In the amyloid cascade, the accumulation of amyloid beta (Aβ) peptide      donanemab versus aducanumab on brain AP clearance in participants
+in the form of amyloid plaques (APs) in the brain is an early and neces-   with early symptomatic AD.
+sary event in Alzheimer’s disease (AD), leading to downstream events
+including tau pathology, synaptic loss, and neuronal death resulting in
+                                                                           2       METHODS
+clinical symptoms of cognitive impairment and eventually dementia.1,2
+Given that an abnormal level of Aβ is one of the key pathological
+                                                                           2.1         Trial conduct and oversight
+hallmarks of AD, as defined by the 2018 National Institute on Aging–
+Alzheimer’s Association (NIA-AA) research framework,3 Aβ has been a
+                                                                           The TRAILBLAZER-ALZ 4 study was a 76-week, randomized, open-
+major target and focus of AD research.
+                                                                           label, parallel, multicenter, active-comparator, phase 3 trial conducted
+    Several phase 3 trials that are ongoing (recruiting or active) or
+                                                                           at 31 sites in the United States. The study was initiated on Septem-
+have recently been completed aim to assess the efficacy of amyloid-
+                                                                           ber 24, 2021, and was completed on September 19, 2023. The trial
+targeting therapies (ATTs). The therapeutic agents aducanumab,
+                                                                           was conducted in accordance with the Declaration of Helsinki, the
+donanemab, and lecanemab each target different epitopes or have dif-
+                                                                           International Council for Harmonisation of Technical Requirements
+ferent binding affinities to the various forms of Aβ.4–7 Although there
+                                                                           for Pharmaceuticals for Human Use Good Clinical Practice guidelines,
+has been mixed success of these therapies to remove amyloid, a new
+                                                                           and local regulatory requirements. The study protocol and statistical
+era of ATTs has begun with the regulatory approvals of aducanumab in
+                                                                           analysis plan were approved by an independent ethics committee or
+2021, lecanemab in 2023, and donanemab in 2024.
+                                                                           institutional review board at each study site. All participants provided
+    Aducanumab is a human amyloid-targeting monoclonal antibody
+                                                                           written informed consent before the start of the study.
+that selectively targets aggregated forms of Aβ, including soluble
+oligomers and insoluble fibrils.8 The efficacy of aducanumab has pre-
+viously been described. The EMERGE phase 3 trial of aducanumab             2.2         Trial design and participants
+demonstrated a significant reduction in clinical decline, while the
+ENGAGE phase 3 study did not replicate this finding.9 The US Food          The trial included participants 50 to 85 years of age who had
+and Drug Administration granted accelerated approval for clinical use      early symptomatic AD (mild cognitive impairment15 or AD with mild
+of aducanumab based on its capability to reduce AP levels and because      dementia3 ). Eligible participants had a Mini-Mental State Examination
+of the need for disease-modifying therapies at that time.10 However, in    (MMSE) score of 20 to 30, Clinical Dementia Rating Global Score of 0.5
+January 2024, the manufacturer of aducanumab chose to discontinue          or 1.0, and evidence of amyloid pathology as assessed by florbetapir
+the development and commercialization of aducanumab globally.11            18 F positron emission tomography (PET) imaging (positive visual scan
+Donanemab is a humanized immunoglobulin G1 monoclonal anti-                and ≥ 37 Centiloids [CL] or negative visual scan and ≥ 50 CL). Baseline
+body that selectively binds the insoluble N-terminal truncated form        flortaucipir 18 F PET imaging was performed but not used for eligibility
+of Aβ (third amino acid, pyroglutamate formation [N3pG]) that is only      purposes.
+present in mature Aβ plaques in the brain. The Aβ-bound donanemab              Key exclusion criteria included the presence of amyloid-related
+complex is cleared by microglial-mediated phagocytosis.12 In the phase     imaging abnormalities (ARIAs) of edema/effusion (ARIA-E), more than
+3 TRAILBLAZER-ALZ 2 study, treatment with donanemab reduced                four cerebral microhemorrhages, more than one area of superficial
+brain AP levels that resulted in slowing of clinical progression at the    siderosis, and any intracerebral hemorrhage > 1 cm or severe white
+end of 18 months13 as a clinically meaningful benefit, replicating the     matter disease at screening. Participants were also excluded from the
+results of the phase 2 TRAILBLAZER-ALZ study.14                            study if they had a history of bleeding disorder or use of medications
+    Although both donanemab and aducanumab have demonstrated               with platelet antiaggregant or anticoagulant properties (aspirin at ≤
+amyloid reduction and potential clinical benefits,9,13,14 indirect com-    325 mg daily was an exception to be consistent with prior aducanumab
+parisons on amyloid-lowering outcomes between ATTs are not advised         clinical trials). A full list of inclusion/exclusion criteria can be found at
+due to differences in the study population and trial designs. Herein, we   ClinicalTrials.gov/study/NCT05108922.
+SALLOWAY ET AL.                                                                                                                              3 of 11
+
+
+                                                                            low–medium tau subpopulation was defined by visual and quantitative
+
+      RESEARCH IN CONTEXT                                                   reads as previously described.13,14,19,20 The key secondary outcomes
+                                                                            were the superiority of donanemab versus aducanumab in the time
+      1. Systematic review: Although multiple amyloid-targeting
+                                                                            to reach AP clearance and in the mean absolute change from base-
+         therapies (ATTs) have been shown to reduce amyloid
+                                                                            line in brain AP level at 6, 12, and 18 months. Safety outcomes
+         plaque (AP) in the brain, comparing results in the absence
+                                                                            included spontaneously reported adverse events (AEs), clinical labo-
+         of active-comparator trials is challenging due to differ-
+                                                                            ratory test results, body-weight measurements (only for participants
+         ences in study populations and clinical trial designs.
+                                                                            receiving aducanumab, per weight-based dosing),10 findings on locally
+      2. Interpretation: In this first active-comparator study
+                                                                            read 12-lead electrocardiography (at screening), physical and neuro-
+         between two ATTs, donanemab showed superiority over
+                                                                            logical examinations, centrally read magnetic resonance imaging (MRI),
+         aducanumab in AP clearance, and results revealed that
+                                                                            and the Columbia–Suicide Severity Rating Scale score. ARIA-E, ARIA
+         the speed and depth of amyloid removal did not have
+                                                                            of microhemorrhage and hemosiderin deposits (ARIA-H), and infusion-
+         a relationship with increased risk/incidence of amyloid-
+                                                                            related reactions were AEs of special interest because they were
+         related imaging abnormalities.
+                                                                            considered class effects or observed in previous trials.13,14,21,22 To
+      3. Future directions: Donanemab will continue to be
+                                                                            comprehensively evaluate ARIAs, treatment-emergent AE (TEAE) clus-
+         assessed and monitored in clinical practice. Ongoing
+                                                                            ter and MRI data were used to identify ARIA cases. The TEAE cluster
+         and future studies will investigate AP removal in pre-
+                                                                            for ARIA-E included ARIAs of edema/effusion, brain edema, and vaso-
+         clinical Alzheimer’s disease and explore different dosing
+                                                                            genic cerebral edema. The TEAE cluster for ARIA-H included ARIAs
+         methods.
+                                                                            of microhemorrhage and hemosiderin deposits, brainstem microhem-
+                                                                            orrhage, cerebellar microhemorrhage, cerebral hemosiderin deposit,
+                                                                            cerebral microhemorrhage, and superficial siderosis of the central
+                                                                            nervous system. A full list of safety assessments can be found at
+  Participants who met the eligibility criteria were randomly               clinicaltrials.gov/study/NCT05108922.
+assigned in a 1:1 ratio to receive either open-label donanemab
+once every 4 weeks (700 mg for the first three doses and 1400 mg
+thereafter) or aducanumab according to the US package insert                2.4       Statistical analyses
+(ADUHELM [aducanumab-avwa])10 via intravenous infusion. For
+between-group       comparability,   participant   randomization      was   Statistical analyses were performed on the following predefined anal-
+stratified by amyloid level and apolipoprotein E (APOE) ε4 status           ysis sets: (1) the overall population, defined as all randomized partic-
+(non-carrier/heterozygous/homozygous). Donanemab-treated par-               ipants with a baseline and at least one postbaseline florbetapir PET
+ticipants who met donanemab cessation criteria discontinued further         result; (2) the low–medium tau subpopulation, defined as all partici-
+infusions but continued all other assessments for the remaining             pants in the overall population with a baseline flortaucipir PET who met
+duration of the open-label period. Achievement of stopping criteria         the low–medium tau criteria; and (3) the safety analysis set, defined as
+was assessed by florbetapir PET (performed at 24 and 52 weeks) and          all participants who were exposed to study treatment.
+defined as an AP level < 11 CL on any one scan or ≥ 11 to < 25 CL on           Approximately 200 participants were planned to be enrolled and
+two consecutive scans. Change in AP level was assessed with florbe-         randomized in a 1:1 ratio. It was further anticipated that approximately
+tapir PET by personnel blinded to treatment assignment. Florbetapir         50% of participants randomized would belong to the low–medium
+PET images were processed using established pipelines. The 5 minute         tau subpopulation. This sample size was determined to provide at
+frames were motion corrected and averaged to create a static image.         least 98% power to demonstrate that donanemab is superior to adu-
+Each static image was then spatially aligned to the standard brain          canumab in achieving amyloid brain plaque clearance individually at
+template, and the mean cortical standardized uptake value ratio with a      6 months in both the overall population and the low–medium tau
+whole cerebellar reference region was measured16 and converted to           subpopulation. Power estimates were obtained using specific con-
+CL.                                                                         trasts for the 6 month time point of the treatment-by-time interaction
+                                                                            effect within the framework of the generalized linear mixed-effect
+                                                                            model, assuming a logit link. The assumptions for this power calculation
+2.3       Outcomes/endpoints                                                were that 35.7%, 50.1%, and 54.6% of donanemab-treated participants
+                                                                            would reach AP clearance at 6, 12, and 18 months, respectively. The
+The two coprimary outcomes assessed in participants with early symp-        corresponding AP clearance proportions for aducanumab-treated par-
+tomatic AD were the superiority of donanemab versus aducanumab              ticipants were assumed to be 3.0%, 22.8%, and 27.8%, respectively. The
+as assessed by the proportion of participants to reach AP clearance         simulation for the power calculation and sample size determination
+(< 24.1 CL)17,18 using florbetapir PET at 6 months in (1) the overall       was performed in SAS version 9.4 (SAS Institute Inc.), and all sam-
+population (including the low–medium tau subpopulation and other            ple size estimates were obtained by assuming a two-sided significance
+tau subpopulations) and (2) the low–medium tau subpopulation. The           level of 0.05.
+4 of 11                                                                                                                             SALLOWAY ET AL.
+
+
+   The prespecified comparison of donanemab to aducanumab in                log-transformed for analyses. An MMRM analysis was used to compare
+AP clearance (defined as < 24.1 CL as measured by florbetapir               the change from baseline to scheduled collection times in the overall
+PET13,14,17,18 ) at 6 months was performed using logistic regression.       population. The model included the treatment, visit, and treatment-by-
+The logistic regression model included the treatment, APOE ε4 carrier       visit interaction as fixed categorical effects and the baseline biomarker
+status, baseline amyloid level, and baseline age as fixed effects. Treat-   level and baseline age as continuous effects.
+ment effects from these logistic regression models were summarized              AEs were evaluated in the safety analysis set and according to event
+using estimated probabilities within each treatment group, along with       frequency.
+odds ratios and 100*(1−α)% confidence intervals (CIs), where α was the          Statistical analyses were performed using SAS version 9.4. Fur-
+two-sided significance level for the primary endpoints.                     ther details regarding statistical analyses can be found at ClinicalTri-
+   For the prespecified analyses of mean change at 6, 12, and               als.gov/study/NCT05108922.
+18 months, change from baseline was defined as the PET CL value at
+the specific time point minus the baseline PET CL value. Mean percent
+change from baseline in brain AP was defined as the PET CL value at         3       RESULTS
+the specific time point minus the baseline PET CL value, divided by the
+baseline PET CL value. For the prespecified analysis of time to AP clear-   3.1          Trial population and baseline characteristics
+ance, participants were categorized as either meeting or not meeting
+the criterion for AP clearance based on florbetapir F18 PET CL val-         Of the 441 patients assessed for eligibility, 148 were enrolled in the
+ues or not meeting this criterion. Time to event was defined as the         trial and randomly assigned 1:1 to receive donanemab or aducanumab
+difference between the date of the PET scan that showed AP clear-           (Figure 1). In the donanemab group, the mean (standard deviation
+ance and the date of the first dose of study treatment. Participants        [SD]) age was 74.1 (6.9) years, 53.5% were female, and 69.0% were
+who did not meet this criterion were censored at the time of their          APOE ε4 carriers. In the aducanumab group, the mean (SD) age was
+final PET scan. As there was only one postbaseline PET assessment           72.7 (6.8) years, 60.9% were female, and 71.0% were APOE ε4 carriers.
+within the first 6 months of the trial, mean change from baseline in        The mean (SD) baseline MMSE score was 25.0 (2.7) in the donanemab
+AP levels at 6 months was analyzed using an analysis of covariance          group and 24.4 (2.9) in the aducanumab group. The mean (SD) AP
+model with the treatment group as the fixed-effect variable of inter-       level on florbetapir PET was 97.2 (29.2) CL and 102.3 (34.6) CL in
+est and APOE ε4 carrier status, baseline amyloid level, and baseline        the donanemab and aducanumab groups, respectively. The mean (SD)
+age as covariates. For the prespecified analysis of mean change from        AD-signature weighted neocortical standardized uptake value ratio
+baseline at 12 and 18 months, a separate mixed model for repeated           using flortaucipir PET was 1.3 (0.3) in the donanemab group and 1.3
+measures (MMRM) analysis with data up to and including that spe-            (0.3) in the aducanumab group. Relative to the overall population, the
+cific time point was used. This model included the treatment, time, and     low–medium tau subpopulation was numerically comparable in age,
+treatment-by-time interaction as fixed effects and the APOE ε4 car-         sex, and APOE ε4 carrier status. Participants in the low–medium tau
+rier status, baseline amyloid level, and baseline age as covariates. Mean   subpopulation had a similar baseline MMSE score and AP level to
+percent change from baseline was modeled with the same approach             those in the overall population, but they had a lower baseline tau level
+as that outlined for the mean change analyses. Time to AP clearance         (Table 1).
+between the two treatment groups was analyzed and compared using
+a log-rank test for survival data. Kaplan–Meier estimates of the pro-
+portion of participants reaching AP clearance and the P value from the      3.2          Coprimary outcomes
+log-rank test were used to determine the superiority of donanemab
+versus aducanumab in lowering time to AP clearance.                         AP clearance was defined as < 24.1 CL as assessed by florbetapir PET.
+   For the prespecified assessments relating to the low–medium tau          In the overall population, 37.9% (25 of 66) of donanemab-treated par-
+subpopulation, the statistical models were identical to those of the        ticipants versus 1.6% (1 of 64) of aducanumab-treated participants
+overall population, with analysis of covariance applied to the 6-month      reached AP clearance at 6 months (P < 0.001; Figure 2A). In the low–
+data and an MMRM analysis applied to the 12- and 18-month data.             medium tau subpopulation, 38.5% (10 of 26) of donanemab-treated
+Both primary and key secondary endpoints were adjusted for multi-           participants versus 3.8% (1 of 26) of aducanumab-treated participants
+plicity. If both co-primary endpoints were statistically significant, key   reached AP clearance at 6 months (P = 0.008; Figure 2B).
+secondary endpoints were evaluated in a gated manner as follows:
+mean change from baseline in AP levels at 6 months, then at 12 months,
+the time to AP clearance was tested at study completion, and the mean       3.3          Secondary outcomes
+change from baseline in AP level at 18 months.
+   Exploratory biomarker samples, including neurofilament light chain       3.3.1         AP clearance
+(NfL) and plasma tau analyses, were collected throughout the study.
+Prespecified analyses were performed in both the overall study popu-        At 12 months, 70.0% (42 of 60) of donanemab-treated participants
+lation and the low–medium tau subpopulation. Biomarker values were          and 24.6% (15 of 61) of aducanumab-treated participants reached AP
+SALLOWAY ET AL.                                                                                                                                                                    5 of 11
+
+
+
+                                                                    Assessed for eligibility                  Screen failed (N=293)
+                                                                          (N=441)
+                                                                                                              Florbetapir (n=201)
+                                                                                                              MMSE (n=16)
+                                                                                                              CDR-GS (n=15)
+                                                                                                              MRI (n=14)
+                                                                   Underwent randomization                    Withdrawal by participant (n=13)
+                                                                          (N=148)                             Other (n=34)
+
+
+
+
+        Allocated to donanemab                                                                                                Allocated to aducanumab
+                 (N=74)                                                                                                                (N=74)
+
+                                 Withdrawal by participant (n=2)                                                                                         Withdrawal by participant (n=3)
+                                 Other (n=1)                                                                                                             Screen failure (n=1)
+                                                                                                                                                         Physician decision (n=1)
+
+    Overall population – donanemab                                                                                        Overall population – aducanumab
+                (N=71)                                                                                                                 (N=69)
+
+
+
+                       Discontinued study                                                                                                        Discontinued study
+                       (n=13, 18.3%)                                                                                                             (n=14, 20.3%)
+
+                       Withdrawal by participant (n=6)                                                                                           Withdrawal by participant (n=8)
+                       Adverse event (n=3)                                                                                                       Adverse event (n=2)
+                       Physician decision (n=3)                                                                                                  Physician decision (n=1)
+                       Lost to follow-up (n=1)                                                                                                   Lost to follow-up (n=2)
+                       Protocol deviation (n=0)                                                                                                  Protocol deviation (n=1)
+
+
+
+           Completed study                                                                                                         Completed study
+            (n=58, 81.7%)                                                                                                           (n=55, 79.7%)
+
+
+
+                                                                      Completed study
+                                                                      (N=113, 80.7%)
+
+
+
+F I G U R E 1 CONSORT diagram. CDR-GS; Clinical Dementia Rating Scale Global Score; CONSORT, Consolidated Standards of Reporting Trials;
+MMSE, Mini-Mental State Examination; MRI, magnetic resonance imaging
+
+
+
+
+clearance (P < 0.001) in the overall population (Figure 3A). Similarly, at                     treatment. The adjusted mean change difference versus aducanumab
+18 months, 76.8% (43 of 56) of donanemab-treated participants ver-                             was −0.148 (95% CI, −0.202 to −0.093; P < 0.001) at 6 months, −0.081
+sus 43.1% (25 of 58) of aducanumab-treated participants reached AP                             (95% CI, −0.132 to −0.030; P = 0.002) at 12 months, and −0.046 (95%
+clearance (P < 0.001; Figure 3B). In the low–medium tau subpopulation,                         CI, −0.100 to 0.009; P = 0.098) at 18 months (Figure 4A).
+76.0% (19 of 25) and 72.0% (18 of 25) of donanemab-treated partic-                               Plasma p-tau181 levels in the overall population were 18.0%
+ipants versus 18.5% (5 of 27) and 43.5% (10 of 23) of aducanumab-                              lower with donanemab treatment compared to 14.3% lower
+treated participants reached AP clearance at 12 months (P < 0.001)                             with aducanumab treatment at 18 months versus baseline.
+and 18 months (P = 0.022).                                                                     The adjusted mean change difference versus aducanumab was
+                                                                                               −0.070 (95% CI, −0.109 to −0.030; P < 0.001) at 6 months,
+                                                                                               −0.009 (95% CI, −0.046 to 0.029; P = 0.651) at 12 months,
+3.3.2        Amyloid lowering                                                                  and −0.019 (95% CI, −0.060 to 0.023; P = 0.372) at 18 months
+                                                                                               (Figure 4B).
+Absolute and relative amyloid lowering at 6, 12, and 18 months is                                Plasma levels of glial fibrillary acidic protein (GFAP) in the overall
+illustrated in Table 2. The median time to achieve AP clearance was                            population were 20.0% lower with donanemab treatment compared to
+359 days for donanemab-treated participants versus 568 days for                                13.7% lower with aducanumab treatment at 18 months versus base-
+aducanumab-treated participants (P < 0.001; Figure 3C).                                        line. The adjusted mean change difference versus aducanumab was
+                                                                                               −0.073 (95% CI, −0.110 to −0.036; P < 0.001) at 6 months, −0.051
+                                                                                               (95% CI, −0.090 to −0.013; P = 0.010) at 12 months, and −0.032 (95%
+3.3.3        Biomarker assessments                                                             CI, −0.079 to 0.014; P = 0.171) at 18 months (Figure 4C).
+                                                                                                 In the overall population, plasma levels of NfL at 18 months were
+In the overall population, compared to baseline levels, plasma phos-                           8.9% higher with donanemab treatment compared to 14.0% higher
+phorylated tau (p-tau)217 levels at 18 months were 33.2% lower with                            with aducanumab treatment versus baseline. The adjusted mean
+donanemab treatment compared to 25.7% lower with aducanumab                                    change difference versus aducanumab was −0.025 (95% CI, −0.062
+6 of 11                                                                                                                                                                                  SALLOWAY ET AL.
+
+
+TA B L E 1     Baseline demographics and clinical characteristics.
+
+                                                       Overall population (n = 140)                                                            Low–medium tau subpopulation (n = 55)
+ Demographic/scale                                     Donanemab (n = 71)               Aducanumab (n = 69)                                    Donanemab (n = 27)         Aducanumab (n = 28)
+ Female, n (%)                                          38 (53.5)                          42 (60.9)                                              14 (51.9)                  15 (53.6)
+ Age, years, mean (SD)                                 74.1 (6.9)                        72.7 (6.8)                                             76.1 (5.6)                 72.9 (6.4)
+ Race, n (%)
+    Asian                                                 0 (0.0)                           2 (2.9)                                                0 (0.0)                     2 (7.1)
+    Black or African                                      0 (0.0)                           5 (7.2)                                                0 (0.0)                     2 (7.1)
+    American
+    White                                               71 (100)                           61 (88.4)                                              27 (100)                   24 (85.7)
+    Multiple                                              0 (0.0)                           1 (1.4)                                                0 (0.0)                     0 (0.0)
+ Hispanic/Latino                                          3 (4.2)                           4 (5.8)                                                0 (0.0)                     1 (3.6)
+ ethnicity, n (%)
+ APOE genotype, n (%)
+    ε2/ε3                                                 1 (1.4)                           0 (0.0)                                                0 (0.0)                     0 (0.0)
+    ε2/ε4                                                 2 (2.8)                           3 (4.3)                                                0 (0.0)                     1 (3.6)
+    ε3/ε3                                               21 (29.6)                          20 (29.0)                                               5 (18.5)                    9 (32.1)
+    ε3/ε4                                               38 (53.5)                          36 (52.2)                                              18 (66.7)                  14 (50.0)
+    ε4/ε4                                                 9 (12.7)                         10 (14.5)                                               4 (14.8)                    4 (14.3)
+ AChEI use, n (%)                                       28 (39.4)                          38 (55.1)                                              14 (51.9)                  15 (53.6)
+ Memantine use, n (%)                                   13 (18.3)                          18 (26.1)                                               8 (29.6)                    7 (25.0)
+ CDR-GS, n (%)
+    0.5                                                 55 (77.5)                          47 (68.1)                                              20 (74.1)                  19 (67.9)
+    1.0                                                 16 (22.5)                          22 (31.9)                                               7 (25.9)                    9 (32.1)
+ MMSE score, mean (SD)                                 25.0 (2.7)                        24.4 (2.9)                                             24.0 (2.2)                 23.9 (2.6)
+ Amyloid level on PET,                                 97.2 (29.2)                      102.3 (34.6)                                           104.2 (25.5)               101.8 (28.1)
+ CL, mean (SD)
+ Tau PET MUBADA                                         1.3 (0.3)                         1.3 (0.3)                                              1.2 (0.1)                   1.2 (0.1)
+ SUVR, mean (SD)
+
+Abbreviations: AChEI, acetylcholinesterase inhibitor; APOE, apolipoprotein E; CDR-GS, Clinical Dementia Rating Global Score; CL, Centiloids; MMSE, Mini-
+Mental State Examination; MUBADA, multiblock barycentric discriminant analysis; PET, positron emission tomography; SD, standard deviation; SUVR,
+standardized uptake value ratio.
+
+
+
+
+                    (A)                                                                    (B)
+
+
+                    Amyloid Clearance <24.1 CL                                                Amyloid Clearance <24.1 CL
+                                                 100                                                                       100
+                                                                                                                                                                     Aducanumab
+                                                  80                                                                        80                P=.008
+                                                                                                                                                                     Donanemab
+                                                                    P<.001
+                                                  60                                                                        60
+
+
+
+
+                        (% of participants)                                                       (% of participants)
+                                                  40                                                                        40
+                                                                             37.9%                                                                     38.5%
+                                                  20                                                                        20         3.8%
+                                                            1.6%
+                                                  0                                                                         0
+                                                          Overall Population                                                     Low-Medium Tau Subpopulation
+
+                                                       Aducanumab n/N=           1/64                                              Aducanumab n/N=        1/26
+                                                       Donanemab n/N=           25/66                                              Donanemab n/N=        10/26
+
+
+
+F I G U R E 2 Superiority of donanemab versus aducanumab in AP clearance at 6 months in the (A) overall population and (B) low–medium tau
+subpopulation. AP, amyloid plaque; CL, Centiloids; n, number of participants; N, number of participants in the analysis population
+SALLOWAY ET AL.                                                                                                                                   7 of 11
+
+
+
+
+F I G U R E 3 Superiority of donanemab versus aducanumab in AP clearance at (A) 12 months and (B) 18 months, and (C) time to achieve AP
+clearance. P value for (A) and (B) derived from a longitudinal logistic regression model. P value for (C): 2-sided log-rank unstratified P value
+comparing donanemab versus aducanumab.*One participant who achieved amyloid clearance (< 24.1 CL) at week 52 did not meet the threshold
+for amyloid clearance at week 76. AP, amyloid plaque; CI, confidence interval; CL, Centiloids; LS, least squares; n, number of participants; N,
+number of participants in the analysis population
+
+
+
+
+TA B L E 2     Mean change in amyloid PET from baseline.
+
+                          Overall population                                                 Low–medium tau subpopulation
+ Months                   Donanemab               Aducanumab               P value           Donanemab               Aducanumab               P value
+ 6
+ LS mean                  −65.17                 −16.96                    <0.001            −63.91                 −25.37                       .001
+ percent change
+ LS mean                  −62.10                 −16.41                    <0.001            −64.08                 −23.82                    <0.001
+ change (CL)
+ 12
+ LS mean                  −82.79                 −56.97                    <0.001            −82.74                 −56.98                    <0.001
+ percent change
+ LS mean                  −80.03                 −56.06                    <0.001            −84.53                 −57.77                    <0.001
+ change (CL)
+ 18
+ LS mean                  −86.29                 −72.84                       .002           −84.64                 −70.98                       .042
+ percent change
+ LS mean                  −84.22                 −72.18                       .004           −86.57                 −72.24                       .028
+ change (CL)
+
+NOTE: Percent change in brain AP was defined as the postbaseline PET CL value minus the baseline PET CL value, divided by the baseline PET CL value.
+Abbreviations: AP, amyloid plaque; CL, Centiloids; LS, least squares; PET, positron emission tomography.
+8 of 11                                                                                                                                                     SALLOWAY ET AL.
+
+
+
+(A)                                            Plasma P-tau217
+                                                                             (B)                                           Plasma P-tau181
+                                                                                                                                                              Aducanumab
+                                                       Weeks
+                                                                                                                   0.05
+
+
+
+        Plasma log10 P-tau217                                                        Plasma log10 P-tau181
+                                                24             52    76                                                                                       Donanemab
+                                                                                                                                    Weeks
+                                   0.00
+                                                                                                                   0.00
+                                   -0.05                                                                                    24               52       76
+                                   -0.10                                                                           -0.05
+
+
+
+
+      (LSM change from baseline)                                                   (LSM change from baseline)
+                                   -0.15
+                                                                                                                   -0.10   P<.001
+                                              P<.001
+                                   -0.20                                                                                                 P=.651      P=.372
+                                                                    P=.098
+                                                           P=.002
+                                   -0.25                                                                           -0.15
+
+ Aducanumab n= 59                               52             48     47       Aducanumab n= 63                            59                58       54
+ Donanemab n= 54                                47             51     45       Donanemab n= 64                             62                62       54
+
+
+
+(C)                                                                          (D)
+                                                Plasma GFAP                                                                     Plasma NfL
+
+                                                                                                                   0.10
+
+
+
+                                                                                          Plasma log10 NfL
+                                   0.05
+
+
+
+         Plasma log10 GFAP
+                                                       Weeks
+                                                24             52    76                                            0.08
+                                   0.00
+                                                                                                                   0.06
+                                                                                                                                                                +14.0%
+                                   -0.05                                                                                                                          from
+
+
+
+
+                                                                                      (LSM change from baseline)
+                                                                                                                   0.04
+
+
+
+      (LSM change from baseline)
+                                                                                                                                                                baseline
+                                   -0.10                                                                                   P=.168
+                                              P<.001                                                               0.02                                          +8.9%
+                                                                                                                                                     P=.339
+                                                           P=.010   P=.171                                                                  P=.350                from
+                                   -0.15                                                                           0.00                                         baseline
+                                                                                                                            24
+                                                                                                                                    Weeks 52          76
+ Aducanumab n= 63                               59             58     54       Aducanumab n= 63                              59               58       54
+ Donanemab n= 64                                62             61     54       Donanemab n= 64                               62               61       54
+
+
+
+F I G U R E 4 Donanemab and aducanumab treatment demonstrated changes in plasma biomarkers of (A) p-tau217, (B) p-tau181, (C) GFAP, and
+(D) NfL at 6, 12, and 18 months in the overall population. Data are shown as LSM (standard error). GFAP, glial fibrillary acidic protein; LS, least
+squares mean; n, number of participants; NfL, neurofilament light chain; PET, positron emission tomography; p-tau181, phosphorylated tau 181;
+p-tau217, phosphorylated tau 217
+
+
+
+
+to 0.011; P = 0.168) at 6 months, −0.018 (95% CI, −0.055 to 0.020;             canumab group), chest pain (two participants [2.9%] in the aducanumab
+P = 0.350) at 12 months, and −0.020 (95% CI, −0.062 to 0.022;                  group), pneumonia (three participants [4.2%] in the donanemab group),
+P = 0.339) at 18 months (Figure 4D). Biomarker assessment details              and COVID-19 (two participants [2.8%] in the donanemab group and
+for the low–medium tau subpopulation are shown in Figure S1 in                 one participant [1.4%] in the aducanumab group; Table 3).
+supporting information.                                                              The most commonly reported TEAEs among participants in the
+                                                                               donanemab and aducanumab groups, respectively, were ARIA-E
+                                                                               (23.9% and 34.8%), COVID-19 (31.0% and 20.3%), ARIA-H (22.5%
+3.4                                AEs and tolerability                        and 33.3%), headache (11.3% and 14.5%), and fall (11.3% and 7.2%;
+                                                                               Table 3). The occurrence of infusion-related reactions was higher
+There were no deaths in this study. The overall incidence of one or            in the donanemab group (8.5%) versus the aducanumab group
+more serious AE (SAE) in the donanemab and aducanumab treat-                   (2.9%), whereas there were seven cases (10.1%) of superficial sidero-
+ment groups was 18.3% (13 of 71) and 11.6% (8 of 69), respectively.            sis in the aducanumab group and none in the donanemab group
+Overall, TEAEs were reported for 59 of 71 donanemab-treated partic-            (Table 3).
+ipants (83.1%) and 60 of 69 aducanumab-treated participants (87.0%),                 The incidence of ARIA-E was higher in the aducanumab group
+of which 26 (36.6%) in the donanemab group and 32 (46.4%) in                   versus the donanemab group. One case (1.4%) of ARIA-E (based on
+the aducanumab group were considered related to study treatment                TEAE cluster) in the donanemab group versus two cases (2.9%) in the
+(Table 3).                                                                     aducanumab group were considered serious. Events of ARIA-E with
+   The most commonly reported SAEs (≥ 2% incidence in either treat-            donanemab and aducanumab were mostly of mild to moderate radio-
+ment group) were ARIA-E (one participant [1.4%] in the donanemab               graphic severity (88.2% and 82.6% of ARIA-E events, respectively)
+group [reported as brain edema] and two participants [2.9%] in the adu-        based on central MRI readings. Symptomatic ARIA-E was reported
+SALLOWAY ET AL.                                                                                                                               9 of 11
+
+
+TA B L E 3         Summary of AEs.                                          incidence of ARIA-H was higher in the aducanumab group versus the
+                                                                            donanemab group, and no serious cases were reported (Table 3). Symp-
+                                      Donanemab           Aducanumab        tomatic ARIA-H was reported for one participant (1.4%) each in the
+    Event                             (n = 71)            (n = 69)          donanemab and aducanumab groups (Table 3).
+    Overview of AEs, n (%)                                                      ARIA-E and ARIA-H were numerically less common among APOE
+    Deaths                             0 (0.0)             0 (0.0)          ε4 non-carriers than among carriers in both treatment groups, with a
+                                                                            higher frequency observed among APOE ε4 homozygotes than among
+    Participants with ≥ 1 SAE         13 (18.3)            8 (11.6)
+                                                                            APOE ε4 heterozygotes. One brain macrohemorrhage, which was
+    Treatment discontinuations         5 (7.0)             4 (5.8)
+    due to AE                                                               asymptomatic, occurred in a heterozygous APOE ε4 carrier in the
+                                                                            aducanumab group (Table S1 in supporting information).
+    Study discontinuations due to      3 (4.2)             2 (2.9)
+    AE
+    TEAEs                             59 (83.1)           60 (87.0)
+                                                                            4       DISCUSSION
+      TEAEs related to study          26 (36.6)           32 (46.4)
+      treatment
+                                                                            TRAILBLAZER-ALZ 4 is the first study to directly compare ATTs.
+    ARIA-E or ARIA-Ha                 21 (29.6)           28 (40.6)
+                                                                            Compared to aducanumab-treated participants, significantly more
+    SAE incidence of ≥2%, n (%)
+                                                                            donanemab-treated participants met the coprimary endpoints, with a
+    ARIA-E                             1 (1.4)b            2 (2.9)
+                                                                            higher proportion of participants reaching AP clearance in the overall
+    Chest pain                         0 (0.0)             2 (2.9)
+                                                                            population and the low–medium tau subpopulation at 6 months. Sim-
+    COVID-19                           2 (2.8)             1 (1.4)          ilarly, donanemab-treated participants had a statistically significantly
+    Pneumonia                          3 (4.2)             0 (0.0)          greater reduction in AP levels compared to aducanumab-treated par-
+    TEAE incidence of ≥ 5%, n (%)                                           ticipants at 12 and 18 months. In addition to these amyloid findings,
+    ARIA-E   a
+                                      17 (23.9)           24 (34.8)         consistent changes were observed with plasma biomarkers. The inci-
+
+    Symptomatic    a
+                                       2 (2.8)             5 (7.2)          dence of ARIA was consistent with prior reports for each molecule
+             a,c                                                            and numerically higher in the aducanumab group, suggesting that
+    ARIA-H                            16 (22.5)           23 (33.3)
+                                                                            the amount and rapidity of amyloid clearance do not necessarily cor-
+    Symptomatica,c                     1 (1.4)             1 (1.4)
+                                                                            respond to an increased occurrence of ARIA. These data warrant
+    Arthralgia                         5 (7.0)             2 (2.9)
+                                                                            exploration of novel approaches for implementing ATTs to enhance
+    Chest pain                         1 (1.4)             4 (5.8)
+                                                                            amyloid removal while reducing ARIA risk.
+    COVID-19                          22 (31.0)           14 (20.3)             Moreover, the AP clearance observed in the low–medium tau sub-
+    Dizziness                          6 (8.5)             3 (4.3)          population recapitulates the data seen in analogous groups in both the
+    Fall                               8 (11.3)            5 (7.2)          TRAILBLAZER-ALZ and TRAILBLAZER-ALZ 2 trials.13,14
+    Headache                           8 (11.3)           10 (14.5)             At 18 months, donanemab showed a greater numerical decrease
+
+    Hypotension                        4 (5.6)             0 (0.0)          in plasma p-tau217, p-tau181, and GFAP than aducanumab, but did
+                                                                            not achieve statistical significance. This is perhaps because plasma
+    Infusion-related reaction (all     6 (8.5)             2 (2.9)
+    mild/moderate)                                                          biomarker levels tend to be more variable, limiting their statistical
+                                                                            power. Additionally, the remaining AD pathology may continue to
+    Nausea                             2 (2.8)             4 (5.8)
+                                                                            contribute to the elevation of these plasma biomarkers even after
+    Superficial siderosis of CNS       0 (0.0)             7 (10.1)
+                                                                            achieving AP clearance (< 24.1 CL). No significant treatment effect on
+    Upper respiratory tract            4 (5.6)             3 (4.3)
+                                                                            NfL was observed in TRAILBLAZER-ALZ 4. Further research is needed
+    infection
+                                                                            to understand how treatment with ATTs affects NfL.
+    Urinary tract infection            5 (7.0)             2 (2.9)
+                                                                                TRAILBLAZER-ALZ 4 had several limitations. The trial was an open-
+a
+  Based on MRI or TEAE cluster.                                             label study, enabling awareness of treatment allocation for both trial
+b
+  Reported as brain edema.
+c
+                                                                            participants and investigators, which may have impacted safety report-
+  ARIA-H includes microhemorrhage and superficial siderosis.
+Abbreviations: AE, adverse event; ARIA-E, amyloid-related imaging abnor-    ing. However, MRI schedules were identical for both treatment groups
+malities of edema/effusion; ARIA-H, amyloid-related imaging abnormalities   of the study, and a centrally blinded review of MRI scans and amy-
+of microhemorrhage and hemosiderin deposits; CNS, central nervous sys-      loid PET scans were performed. Due to the nature of an open-label
+tem; MRI, magnetic resonance imaging; SAE, serious adverse event; TEAE,
+                                                                            investigation, cognitive and functional measures were not performed,
+treatment-emergent adverse event.
+                                                                            rendering any conclusions of greater or rapid amyloid clearance of
+                                                                            unclear clinical significance. However, it is commonly accepted that if a
+for two participants (2.8%) in the donanemab group and five partici-        particular drug requires a prolonged period to affect a positive change,
+pants (7.2%) in the aducanumab group (Table 3). Approximately 80%           then that therapy is less preferable than a drug with a similar safety
+of the first observed ARIA-E events occurred by weeks 24 and 34 in          profile that requires less time to achieve the same effect. Another limi-
+the donanemab and aducanumab groups, respectively (Figure 5). The           tation was that mechanistic differences in therapies may not have been
+10 of 11                                                                                                                                SALLOWAY ET AL.
+
+
+
+
+F I G U R E 5 Time to first ARIA-E based on safety magnetic resonance imaging: Kaplan–Meier analysis. ARIA-E, amyloid-related imaging
+abnormalities of edema/effusion
+
+
+
+detected by amyloid PET alone. However, no methodology currently                John R. Sims. Interpretation of data: Stephen Salloway, Andrew Pain,
+exists to measure soluble oligomers and insoluble fibrils. In addition to       Margaret B. Ferguson, Hong Wang, Haoyan Hu, Ming Lu, Paul A. Arday-
+trial design limitations, the diversity of trial participants remains a chal-   fio, Deirdre B. Hoban, Emily C. Collins, Dawn A. Brooks, John R. Sims.
+lenge in this therapeutic space. There is a need for an improved scale          Drafting of the work: Andrew Pain, Hong Wang, Haoyan Hu, Ena Oru,
+of participant reach, diversity of trial sites and locations, improved          Paul A. Ardayfio, Deirdre B. Hoban. Critical revision of the work for
+community outreach and retention, and a better understanding of the             important intellectual content: Stephen Salloway, Andrew Pain, Elly
+variables for screening failures for interested participants.23 Finally,        Lee, Michelle Papka, Margaret B. Ferguson, Hong Wang, Haoyan Hu,
+the clinical relevance of this comparison is uncertain given that adu-          Ming Lu, Paul A. Ardayfio, Deirdre B. Hoban, Emily C. Collins, Dawn A.
+canumab is no longer available. However, at the time of conception and          Brooks, John R. Sims. All authors provided input and gave final approval
+design of TRAILBLAZER ALZ 4 it was anticipated aducanumab would                 for the work to be published.
+become the standard of care for early symptomatic AD.
+   TRAILBLAZER-ALZ 4 is the first study to directly compare ATTs.               ACKNOWLEDGMENTS
+In this phase 3 trial in participants with early symptomatic AD,                We thank all the patients and their families and caregivers who partici-
+donanemab demonstrated superiority over aducanumab in AP clear-                 pated in the TRAILBLAZER-ALZ 4 trial, as well as the site staff and site
+ance in both the overall population and the low–medium tau subpop-              investigators. This work was funded by Eli Lilly and Company.
+ulation. Moreover, the amount and speed at which AP was cleared
+did not result in an increased frequency and/or risk of ARIAs. Ongo-            CONFLICT OF INTEREST STATEMENT
+ing studies are assessing the impact of donanemab in AP removal in              Stephen Salloway: Butler Hospital receives research support for con-
+preclinical AD and exploring different dosing paradigms. The effect             ducting clinical trials through grants or contracts from Biogen, Eisai,
+of donanemab in clinical practice will continue to be evaluated and             Genentech, Roche, CognitionRx, Eli Lilly and Company, and Janssen.
+monitored.                                                                      He has received consulting fees from Abbvie, Acumen, Alector, Biogen,
+                                                                                Biohaven, Cognition, Eisai, Fujirebio, Genentech, Kisbee, Laqbcorp,
+AUTHOR CONTRIBUTIONS                                                            Lilly, Merck, Neurophet, NovoNordisk, Prothena, Quest, and Roche.
+Conception: Andrew Pain, Margaret B. Ferguson, Ena Oru. Design of               Dr. Salloway is an author for the Appropriate Use Recommendations
+the work: Andrew Pain, Margaret B. Ferguson, Hong Wang, Ena Oru,                for aducanumab, lecanemab, and donanemab. Elly Lee: Irvine Clinical
+Emily C. Collins, Dawn A. Brooks, John R. Sims. Acquisition of data:            research receives study-related funds from Eli and Company, Eisai, Bio-
+Stephen Salloway, Andrew Pain, Elly Lee, Michelle Papka, Margaret B.            gen, Prothena, Abbvie, BMS, Janssen, Acumen, Roche, and Neumora.
+Ferguson, Hong Wang, Paul A. Ardayfio, Emily C. Collins. Analysis of            Michelle Papka received consulting fees from Eli Lilly and Company.
+data: Stephen Salloway, Andrew Pain, Elly Lee, Hong Wang, Haoyan Hu,            Andrew Pain, Margaret B. Ferguson, Hong Wang, Haoyan Hu, Ming Lu,
+Paul A. Ardayfio, Deirdre B. Hoban, Emily C. Collins, Dawn A. Brooks,           Ena Oru, Paul A. Ardayfio, Deirdre B. Hoban, Emily C. Collins, Dawn
+SALLOWAY ET AL.                                                                                                                                    11 of 11
+
+
+A. Brooks, and John R. Sims are employees of and minor sharehold-              11. Biogen. Biogen to realign resources for Alzheimer’s disease franchise.
+ers of Eli Lilly and Company. Author disclosures are available in the              2024. Accessed March 31, 2025. https://investors.biogen.com/node/
+                                                                                   27501/pdf
+supporting information.
+                                                                               12. Demattos RB, Lu J, Tang Y, et al. A plaque-specific antibody clears
+                                                                                   existing beta-amyloid plaques in Alzheimer’s disease mice. Neuron.
+CONSENT STATEMENT                                                                  2012;76:908-920. doi:10.1016/j.neuron.2012.10.029
+All participants provided written informed consent before the start of         13. Sims JR, Zimmer JA, Evans CD, et al. Donanemab in early symptomatic
+                                                                                   Alzheimer’s disease: the TRAILBLAZER-ALZ 2 randomized clinical
+the study.
+                                                                                   trial. JAMA. 2023;330:512-527. doi:10.1001/jama.2023.13239
+                                                                               14. Mintun MA, Lo AC, Duggan et al. Donanemab in early
+DATA AVAILABILITY STATEMENT                                                        Alzheimer’s Disease. N Engl J Med. 2021;384:1691-1704.
+Lilly provides access to all individual participant data collected during          doi:10.1056/NEJMoa2100708
+                                                                               15. Albert MS, DeKosky ST, Dickson D, et al. The diagnosis of mild cog-
+the trial, after anonymization, with the exception of pharmacokinetic
+                                                                                   nitive impairment due to Alzheimer’s disease: recommendations from
+or genetic data. Data are available to request 6 months after the indi-            the national institute on aging-Alzheimer’s association workgroups
+cation studied has been approved in the United States and EU and after             on diagnostic guidelines for Alzheimer’s disease. Alzheimers Dement.
+primary publication acceptance, whichever is later. No expiration date             2011;7:270-279. doi:10.1016/j.jalz.2011.03.008
+of data requests is currently set once data are made available. Access is      16. Joshi AD, Pontecorvo MJ, Lu M, Skovronsky DM, Mintun MA. A semi-
+                                                                                   automated method for quantification of F 18 Florbetapir PET images.
+provided after a proposal has been approved by an independent review
+                                                                                   J Nucl Med. 2015;56:1736-1741. doi:10.2967/jnumed.114.153494
+committee identified for this purpose and after receipt of a signed data       17. Clark CM, Pontecorvo MJ, Beach TG, et al. Cerebral PET with flor-
+sharing agreement. Data and documents, including the study protocol,               betapir compared with neuropathology at autopsy for detection of
+statistical analysis plan, clinical study report, and blank or annotated           neuritic amyloid-beta plaques: a prospective cohort study. Lancet
+                                                                                   Neurol. 2012;11:669-678. doi:10.1016/S1474-4422(12)70142-4
+case report forms, will be provided in a secure data sharing environ-
+                                                                               18. Navitsky M, Joshi AD, Kennedy I, et al. Standardization of amyloid
+ment. For details on submitting a request, see the instructions provided           quantitation with florbetapir standardized uptake value ratios to the
+at www.vivli.org.                                                                  Centiloid scale. Alzheimers Dement. 2018;14:1565-1571. doi:10.1016/
+                                                                                   j.jalz.2018.06.1353
+                                                                               19. Fleisher AS, Pontecorvo MJ, Devous MD Sr, et al. Positron emission
+ORCID
+                                                                                   tomography imaging with [18F]flortaucipir and postmortem assess-
+Andrew Pain     https://orcid.org/0009-0009-6913-7578                              ment of Alzheimers disease neuropathologic changes. JAMA Neurol.
+                                                                                   2020;77:829-839. doi:10.1001/jamaneurol.2020.0528
+REFERENCES                                                                     20. Pontecorvo MJ, Devous MD, Kennedy I, et al. A multicentre longitudi-
+                                                                                   nal study of flortaucipir (18F) in normal ageing, mild cognitive impair-
+ 1. Hardy JA, Higgins GA. Alzheimer’s disease: the amyloid cascade
+                                                                                   ment and Alzheimer’s disease dementia. Brain. 2019;142:1723-1735.
+    hypothesis. Science. 1992;256:184-185. doi:10.1126/science.
+                                                                                   doi:10.1093/brain/awz090
+    1566067
+                                                                               21. Barakos J, Purcell D, Suhy J, et al. Detection and management of
+ 2. Selkoe DJ. The origins of Alzheimer disease: a is for amyloid. JAMA.
+                                                                                   amyloid-related imaging abnormalities in patients with Alzheimer’s
+    2000;283:1615-1617. doi:10.1001/jama.283.12.1615
+                                                                                   disease Treated with anti-amyloid beta therapy. J Prev Alzheimers Dis.
+ 3. Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA research frame-
+                                                                                   2022;9:211-220. doi:10.14283/jpad.2022.21
+    work: toward a biological definition of Alzheimer’s disease. Alzheimers
+                                                                               22. Barakos J, Sperling R, Salloway S, et al. MR imaging features of amyloid-
+    Dement. 2018;14:535-562. doi:10.1016/j.jalz.2018.02.018
+                                                                                   related imaging abnormalities. AJNR Am J Neuroradiol. 2013;34:1958-
+ 4. Jeremic D, Jimenez-Diaz L, Navarro-Lopez JD. Past, present and future
+                                                                                   1965. doi:10.3174/ajnr.A3500
+    of therapeutic strategies against amyloid-beta peptides in Alzheimer’s
+                                                                               23. Wise-Brown A, Brangman SA, Henderson JN, et al. Promoting diver-
+    disease: a systematic review. Ageing Res Rev. 2021;72:101496. doi:10.
+                                                                                   sity in clinical trials: insights from planning the ALUMNI AD study in
+    1016/j.arr.2021.101496
+                                                                                   historically underrepresented US populations with early symptomatic
+ 5. Aisen PS, Cummings J, Doody R, et al. The future of anti-amyloid trials.
+                                                                                   Alzheimer’s disease. EClinicalMedicine. 2024;73:102693. doi:10.1016/
+    J Prev Alzheimers Dis. 2020;7:146-151. doi:10.14283/jpad.2020.24
+                                                                                   j.eclinm.2024.102693
+ 6. Vogt AS, Jennings GT, Mohsen MO, Vogel M, Bachmann MF.
+    Alzheimer’s Disease: a brief history of immunotherapies targeting
+    amyloid beta. Int J Mol Sci. 2023;24:3895. doi:10.3390/ijms24043895
+ 7. Plotkin SS, Cashman NR. Passive immunotherapies targeting Abeta            SUPPORTING INFORMATION
+    and tau in Alzheimer’s disease. Neurobiol Dis. 2020;144:105010.
+                                                                               Additional supporting information can be found online in the Support-
+    doi:10.1016/j.nbd.2020.105010
+ 8. Ferrero J, Williams L, Stella H, et al. First-in-human, double-blind,      ing Information section at the end of this article.
+    placebo-controlled, single-dose escalation study of aducanumab
+    (BIIB037) in mild-to-moderate Alzheimer’s disease. Alzheimer’s
+    Dement (N Y). 2016;2:169-176. doi:10.1016/j.trci.2016.06.002
+ 9. Budd Haeberlein S, Aisen PS, Barkhof F, et al. Two randomized phase 3         How to cite this article: Salloway S, Pain A, Lee E, et al.
+    studies of aducanumab in early Alzheimer’s disease. J Prev Alzheimers         TRAILBLAZER-ALZ 4: A phase 3 trial comparing donanemab
+    Dis. 2022;9:197-210. doi:10.14283/jpad.2022.30
+                                                                                  with aducanumab on amyloid plaque clearance in early,
+10. ADUHELM™ (aducanumab-avwa) injection, for intravenous use:
+    US prescribing information. 2021. Accessed December 17, 2024.                 symptomatic Alzheimer’s disease. Alzheimer’s Dement.
+    https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/                    2025;21:e70293. https://doi.org/10.1002/alz.70293
+    761178s000lbl.pdf
+

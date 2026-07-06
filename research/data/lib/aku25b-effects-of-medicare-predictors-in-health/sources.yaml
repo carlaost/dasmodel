@@ -1,0 +1,34 @@
+paper:
+  slug: aku25b-effects-of-medicare-predictors-in-health
+  doi: 10.1002/trc2.70078
+  title: "Effects of Medicare predictors in health disparities in the risk of Alzheimer's disease"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC11982180?pdf=render
+  source: pmc
+
+code: []
+
+data:
+  - name: Medicare 5% sample administrative claims (1991-2020)
+    identifier: null
+    repository: CMS (Centers for Medicare & Medicaid Services) / ResDAC
+    access: controlled
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  Observational study using a nationally representative 5% sample of US Medicare
+  administrative claims records (1991-2020) to analyze Alzheimer's disease/ADRD
+  disparities via population attributable fraction (PAF). Open access (gold, CC BY-NC)
+  via Wiley; PMC copy PMC11982180 / PMID 40225237. PDF downloaded from Europe PMC
+  (11 pages, valid). No explicit Data Availability or Code Availability statement in
+  the article; no public code repository (GitHub/GitLab/Zenodo/OSF) found. Medicare
+  claims data are not publicly released — access is controlled/restricted through CMS
+  (typically via ResDAC data-use agreements). No clinical trial (NCT) or PROSPERO
+  registration (not a trial or systematic review). Funding: NIA R01-AG057801,
+  R01-AG066133; DoD W81XWH-20-1-0253, HT9425-24-1-0255.

@@ -1,0 +1,124 @@
+# Exploration Tree — sal25-trailblazer-alz-4-a-phase-3
+# Research DAG: nested tree with typed nodes.
+# Node types: question | experiment | dead_end | decision | pivot
+# evidence: refs are claim IDs (C##); source_refs cite the paper's tables/figures/sections.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1", "Research in Context"]
+    title: "Can two amyloid-targeting therapies be compared head-to-head on amyloid plaque clearance?"
+    description: >
+      Cross-trial comparisons of ATTs (aducanumab, donanemab, lecanemab) are confounded by
+      differing populations and designs. TRAILBLAZER-ALZ 4 asks whether donanemab is superior
+      to aducanumab on brain amyloid plaque clearance in early symptomatic AD.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§2.1", "§2.2"]
+        title: "Trial design: open-label active-comparator, donanemab vs aducanumab"
+        choice: "76-week randomized, open-label, parallel-group, active-comparator phase 3 (1:1), 31 US sites, aducanumab per US label as comparator"
+        alternatives:
+          - "Placebo-controlled design (rejected: aducanumab expected to be standard of care at conception)"
+          - "Double-blind design (not feasible given differing dosing regimens/administration)"
+        evidence: "Aducanumab anticipated to become standard of care; central blinded imaging reads mitigate open-label bias"
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["§2.3", "§2.4"]
+            title: "Two co-primary endpoints (overall + low–medium tau) with gated multiplicity control"
+            choice: "Co-primary AP clearance (<24.1 CL) at 6 months in overall population and low–medium tau subpopulation; key secondaries gated"
+            alternatives:
+              - "Single primary endpoint (overall population only)"
+              - "Cognitive/functional co-primary (rejected due to open-label design)"
+            evidence: "Prespecified in SAP; both co-primary endpoints significant unlock gated secondary testing"
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 2", "§3.2"]
+                title: "Co-primary: proportion reaching AP clearance at 6 months (logistic regression)"
+                result: >
+                  Donanemab superior in both analysis sets — overall 37.9% vs 1.6% (P<0.001);
+                  low–medium tau 38.5% vs 3.8% (P=0.008). Both co-primary endpoints met.
+                evidence: [C01, C02, "Figure 2"]
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Figure 3", "§3.3.1"]
+                    title: "Secondary: AP clearance at 12 and 18 months"
+                    result: >
+                      Donanemab superiority persists — overall 70.0% vs 24.6% (12mo, P<0.001) and
+                      76.8% vs 43.1% (18mo, P<0.001); low–med tau 76.0% vs 18.5% (P<0.001) and
+                      72.0% vs 43.5% (P=0.022).
+                    evidence: [C03, "Figure 3"]
+
+                  - id: N06
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Figure 3C", "§3.3.2"]
+                    title: "Key secondary: time to AP clearance (Kaplan–Meier, log-rank)"
+                    result: "Median 359 vs 568 days favoring donanemab (P<0.001); 51/67 vs 25/65 clearance events."
+                    evidence: [C04, "Figure 3C"]
+
+                  - id: N07
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Table 2", "§3.3.2"]
+                    title: "Key secondary: mean absolute/percent amyloid change (ANCOVA/MMRM)"
+                    result: >
+                      Donanemab greater lowering at all timepoints, both populations (e.g. 6mo overall
+                      percent change −65.17 vs −16.96, P<0.001; 18mo −86.29 vs −72.84, P=.002).
+                    evidence: [C05, "Table 2"]
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 4", "§3.3.3"]
+        title: "Exploratory: plasma biomarker trajectories (MMRM)"
+        also_depends_on: [N04]
+        result: >
+          p-tau217/p-tau181/GFAP numerically lower with donanemab, significant at 6 months but
+          NOT at 18 months (p-tau217 P=.098; p-tau181 P=.372; GFAP P=.171); NfL rose in both arms
+          with no significant treatment effect at any timepoint.
+        evidence: [C06, "Figure 4"]
+
+      - id: N09
+        type: question
+        support_level: explicit
+        source_refs: ["§4", "Research in Context"]
+        title: "Does faster/deeper amyloid clearance increase ARIA risk?"
+        description: >
+          A central safety question given donanemab's greater and faster clearance — whether the
+          amount and rapidity of amyloid removal corresponds to increased ARIA occurrence.
+        children:
+
+          - id: N10
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 3", "Figure 5", "§3.4"]
+            title: "Safety: AE, ARIA incidence, and time-to-first-ARIA-E"
+            also_depends_on: [N06]
+            result: >
+              No deaths. ARIA-E TEAE lower with donanemab (23.9% vs 34.8%), ARIA-H lower
+              (22.5% vs 33.3%); time-to-first-ARIA-E not different (P=0.438). Faster/deeper clearance
+              did not increase ARIA. Distinct signatures: donanemab infusion reactions 8.5% vs 2.9%;
+              aducanumab superficial siderosis 10.1% vs 0%.
+            evidence: [C07, C08, "Table 3", "Figure 5"]
+
+      - id: N11
+        type: dead_end
+        support_level: explicit
+        source_refs: ["§4 (Discussion)", "ref 11"]
+        title: "Clinical relevance limited by aducanumab withdrawal from market"
+        hypothesis: "Aducanumab would become the standard of care for early symptomatic AD (basis for choosing it as comparator)."
+        failure_mode: "In January 2024 the manufacturer discontinued development and commercialization of aducanumab globally, making the comparator unavailable in practice."
+        lesson: "The direct comparison remains the only ATT-vs-ATT biomarker head-to-head, but its clinical relevance is now uncertain; future work targets preclinical AD and alternative dosing paradigms."

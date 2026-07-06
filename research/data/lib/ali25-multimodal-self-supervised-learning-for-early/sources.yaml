@@ -1,0 +1,60 @@
+paper:
+  slug: ali25-multimodal-self-supervised-learning-for-early
+  doi: 10.3390/diagnostics15243135
+  title: "Multimodal Self-Supervised Learning for Early Alzheimer’s: Cross-Modal MRI–PET, Longitudinal Signals, and Site Invariance"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.mdpi.com/2075-4418/15/24/3135/pdf
+  source: publisher   # OA gold (CC-BY) via MDPI; MDPI/PMC direct downloads were Cloudflare-blocked, obtained identical PDF from Semantic Scholar mirror
+
+code: []   # No code/software repository released. Paper claims it "releases" CV split files and seeds for reproducibility, but no GitHub/GitLab/Zenodo/OSF/Bitbucket URL is given anywhere in the article, data-availability statement, or supplementary material. Web search found none.
+
+data:
+  - name: ADNI (Alzheimer's Disease Neuroimaging Initiative)
+    identifier: null
+    repository: adni.loni.usc.edu (LONI IDA)
+    access: request   # public but requires registration/data-use agreement
+    verified: true
+  - name: OASIS-3
+    identifier: null
+    repository: oasis-brains.org (NITRC / central.xnat.org)
+    access: request
+    verified: true
+  - name: AIBL (Australian Imaging, Biomarker & Lifestyle Study)
+    identifier: null
+    repository: aibl.org.au / LONI IDA
+    access: request
+    verified: true
+  - name: BioFINDER
+    identifier: null
+    repository: biofinder.se
+    access: request   # available on reasonable request to the study PI
+    verified: true
+  - name: TADPOLE (The Alzheimer's Disease Prediction Of Longitudinal Evolution challenge)
+    identifier: null
+    repository: tadpole.grand-challenge.org (derived from ADNI)
+    access: request
+    verified: true
+  - name: MIRIAD (Minimal Interval Resonance Imaging in Alzheimer's Disease)
+    identifier: null
+    repository: miriad.drc.ion.ucl.ac.uk
+    access: request
+    verified: true
+
+clinical_trials: []   # Methods/ML paper on public neuroimaging cohorts; no interventional trial, no NCT id, no PROSPERO registration.
+
+notes: >
+  MDPI Diagnostics 2025, Gold OA (CC-BY). PMID 41464136, PMCID PMC12732103.
+  Data Availability Statement reads only: "The data presented in this study are openly
+  available in [refs 27-37]" — i.e. it points to the six public benchmark cohorts by
+  citation rather than to a new release. The six datasets (ADNI, OASIS-3, AIBL, BioFINDER,
+  TADPOLE, MIRIAD) are all secondary-use, publicly available but registration/DUA-gated
+  (recorded as access: request). The authors state they release site-stratified 5-fold CV
+  split files, seeds and preprocessing versions "for reproducibility," but NO repository
+  URL is provided in the paper, DAS, or supplement, and none was found via web search —
+  so no code/data artifact could be verified. No clinical trial or PROSPERO registration
+  (not applicable to this study type). Funding: Prince Sattam Bin Abdulaziz University
+  (PSAU/2025/03/33734). PDF verified: 24 pages, %PDF header, matches title/authors.

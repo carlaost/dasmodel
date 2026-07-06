@@ -1,0 +1,139 @@
+# Exploration Tree — ahm26 (Ahmad et al., 2026 survey)
+# Reconstruction of the SURVEY's organizing logic (a review has no authors' own experiments/dead-ends).
+# "experiment" nodes = the survey's synthesis analyses (see logic/experiments.md).
+# dead_end nodes are field-level superseded approaches surfaced by the survey's synthesis -> support_level: inferred.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§Introduction (p.623)", "§Scope and Selection (p.623)"]
+    title: "How has ML/DL for Alzheimer's diagnosis evolved, and which directions are clinically promising?"
+    description: >
+      Central survey question: synthesize representative ML/DL work on AD diagnosis (neuroimaging +
+      multimodal), organize it into method families, and appraise which advances have genuine clinical
+      value rather than only high benchmark accuracy.
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Taxonomy of Methods (p.629-633)", "Figure 4", "Figure 5"]
+        title: "Map the methodological evolution and build a five-group taxonomy (E02)"
+        result: >
+          Identifies a clear transition from handcrafted-feature ML to end-to-end deep learning
+          (CNN -> multimodal -> transformer/GNN -> trustworthy/clinical AI).
+        evidence: [C02, "Figure 4", "Figure 5"]
+        children:
+
+          - id: N03
+            type: dead_end
+            support_level: inferred
+            title: "Handcrafted-feature ML pipelines as the primary paradigm"
+            hypothesis: "Expert-engineered features (cortical thickness, volumetrics, texture, network stats) + SVM/RF suffice to capture AD-related patterns."
+            failure_mode: "Cannot auto-learn hierarchical features; miss subtle/distributed pathology; feature pipelines vary across studies, hurting reproducibility."
+            lesson: "Superseded (as the primary approach) by CNNs; traditional ML retained as interpretable baselines."
+
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["§Convolutional neural networks (p.629-630)"]
+            title: "Adopt CNNs as the deep-learning backbone for imaging"
+            choice: "End-to-end CNNs learning features directly from MRI/PET (2D then 3D)."
+            alternatives:
+              - "Continue handcrafted-feature ML pipelines"
+              - "Stay with 2D slice models only (vs. 3D volumetric)"
+            evidence: "CNNs outperformed feature-engineered pipelines and established DL as the dominant direction (Islam & Zhang, 2018)."
+
+      - id: N05
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Comparison of Representative Studies (p.637)", "Figure 6", "Table 1"]
+        title: "Build a comparative framework across six model families (E01)"
+        result: >
+          Multimodal families rate higher than single-modality on complementary-information use;
+          transformer and GNN families rate as 'emerging' rather than dominant vs. multimodal CNNs.
+        evidence: [C01, C03, "Figure 6", "Table 1"]
+        children:
+
+          - id: N06
+            type: decision
+            support_level: explicit
+            source_refs: ["§Multimodal fusion methods (p.630-631)", "§Why multimodal methods matter (p.638-640)"]
+            title: "Favor multimodal fusion over single-modality diagnosis"
+            choice: "Integrate MRI + PET (+ clinical/cognitive/genetic) as complementary evidence."
+            alternatives:
+              - "Single-modality MRI-only or PET-only classification"
+              - "Simple feature concatenation without learned fusion"
+            evidence: "MRI and PET are complementary; multimodal fusion often yields stronger, more clinically relevant performance (C01)."
+
+          - id: N07
+            type: dead_end
+            support_level: inferred
+            title: "Naive concatenation-based multimodal fusion"
+            hypothesis: "Concatenating modality-specific features at the input suffices to exploit multimodal information."
+            failure_mode: "Poorly preserves complementary information and cross-modal nonlinear dependencies; sensitive to missing/misaligned modalities."
+            lesson: "Superseded by learned fusion (attention-based, intermediate, graph-based relational fusion)."
+
+          - id: N08
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 1", "§Scope (p.623)"]
+            title: "Curate and cross-compare 8 representative primary studies (E05)"
+            result: >
+              Eight studies (2018-2024) span the field's main directions and substantiate the
+              multimodal-advantage and transformer/GNN-caution conclusions.
+            evidence: [C07, "Table 1"]
+
+      - id: N09
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Why accuracy alone is not enough (p.640-641)", "§Reproducibility and generalizability (p.641-642)", "§Open Challenges (p.645-646)", "Figure 4"]
+        title: "Appraise evaluation heterogeneity and generalizability (E03)"
+        result: >
+          Reported accuracy is not directly comparable across studies; external validation is
+          uncommon; benchmark dependence (esp. ADNI) limits real-world generalization.
+        evidence: [C04, C06, "Figure 4"]
+        children:
+
+          - id: N10
+            type: decision
+            support_level: explicit
+            source_refs: ["§Why accuracy alone is not enough (p.640-641)"]
+            title: "Judge models by robustness/generalizability/reproducibility, not headline accuracy"
+            choice: "Prioritize task difficulty, external validation, robustness, and reproducibility alongside conventional metrics."
+            alternatives:
+              - "Rank models by reported accuracy / AUC (leaderboard style)"
+            evidence: "Direct comparison based solely on reported accuracy can be misleading (C04)."
+
+      - id: N11
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Explainable AI (p.633-635)", "§Explainability and trust (p.642-643)", "Figure 7"]
+        title: "Assess explainability rigor across surveyed studies (E04)"
+        result: >
+          Explainability is widely claimed but rarely evaluated for stability, reproducibility,
+          plausibility, or cross-cohort consistency; visual plausibility != trustworthiness.
+        evidence: [C05, "Figure 7"]
+        children:
+
+          - id: N12
+            type: decision
+            support_level: explicit
+            source_refs: ["§Explainability and trust (p.643)"]
+            title: "Shift from post hoc visualization to architecture-level self-explainable models"
+            choice: "Prefer model-intrinsic interpretability (self-explainable GNNs, relation importance, graph attention) evaluated rigorously."
+            alternatives:
+              - "Rely on post hoc heatmaps (Grad-CAM/SHAP/saliency) alone"
+            evidence: "Post hoc explanations can appear convincing while the model relies on spurious signals (C05); Hu et al., 2024 exemplifies self-explainable GNN."
+
+      - id: N13
+        type: question
+        support_level: explicit
+        source_refs: ["§Future Directions (p.646-647)", "Figure 8"]
+        title: "What is needed to move ML/DL AD diagnosis toward clinical usefulness?"
+        description: >
+          Future roadmap: routine external validation; robust multimodal fusion beyond MRI+PET with
+          principled missing-data handling; longitudinal/prognostic modeling; rigorous explainability
+          evaluation; reproducible open benchmarking.

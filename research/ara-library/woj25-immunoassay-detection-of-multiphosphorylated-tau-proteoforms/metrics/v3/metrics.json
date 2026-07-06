@@ -1,0 +1,114 @@
+{
+  "slug": "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms",
+  "genre": "primary_experimental",
+  "genre_source": "gold",
+  "coarse": "PRIMARY_LAB",
+  "n_claims": 8,
+  "n_experiments": 7,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": true,
+    "n_trials": 0
+  },
+  "abstract_bound": false,
+  "extractive_fidelity": {
+    "value": 0.625,
+    "validity": "source_bound",
+    "n_claims_checked": 8,
+    "n_faithful": 5,
+    "infidelities": [
+      {
+        "claim_id": "C02",
+        "type": "number_mismatch",
+        "paper_quote": "ROC analysis performed for CSF p-tau181, p-tau231, and p-tau181&231 measured in the validation cohort confirmed high accuracy of all three assays in discriminating NDC vs. MCI-AD and NDC vs. AD-dem (AUC range = 0.991\u20131.000; Supplementary Table 15, 16). ... ROC analysis performed for CSF p-tau217, p-tau231, and p-tau217&231 measured in the validation cohort confirmed the high accuracy of all three assays ... (AUC range = 0.927\u20131.000), with CSF p-tau217 showing the highest AUC values for all comparisons",
+        "note": "The discovery-cohort range (0.986-1.000) is verbatim-identical in the paper for both the {p181,p231,p181&231} group and the {p217,p231,p217&231} group, so that half of the claim is faithful. But in the validation cohort the paper reports two DIFFERENT ranges: 0.991-1.000 for the {p181,p231,p181&231} trio (which includes CSF p-tau181&231) and 0.927-1.000 for the {p217,p231,p217&231} trio (which includes CSF p-tau217&231). The claim collapses these into a single \"validation CSF AUC range 0.927-1.000\" attributed to both p-tau181&231 and p-tau217&231 together, which understates/misstates the validation-cohort accuracy actually reported for CSF p-tau181&231 (whose own group's floor is 0.991, not 0.927). The number 0.927 exists in the paper but is drawn from the wrong marker's range.\n"
+      },
+      {
+        "claim_id": "C03",
+        "type": "polarity_inversion",
+        "paper_quote": "In the ROC analysis for NDC vs. all combined AD continuum groups (MCI-AD and AD-dem), plasma p-tau217&231 resulted in the highest nominal AUC (AUC = 0.979, 95% CI 0.945\u20131.000) among the compared plasma markers but no statistically significant difference was observed in comparison with AUC values obtained for plasma p-tau217 or p-tau231 (Fig. 3a).",
+        "note": "The claim cites AUC = 0.979 (discovery) and 0.968 (validation) for \"NDC vs all combined AD continuum\" and then asserts \"a statistically significant difference from plasma p-tau217 but not always from plasma p-tau231\" for that same comparison. For the discovery-cohort AUC=0.979 figure specifically, the paper explicitly states the OPPOSITE: \"no statistically significant difference was observed ... with plasma p-tau217 or p-tau231\" -- i.e. NOT significant vs either marker, contradicting the claim's assertion of significance vs p-tau217. Separately, for the validation-cohort AUC=0.968 figure, the paper states it \"was significantly different from AUCs obtained for plasma p-tau217 AND p-tau231\" (i.e. significant vs BOTH), which contradicts the claim's \"not always ... from plasma p-tau231\" for that same data point. The \"significant vs p217, not vs p231\" wording the claim uses is a real paper quote, but it describes a different analysis entirely (validation-cohort NDC-vs-MCI-AD / NDC-vs-AD-dem individual-stage comparisons, Supplementary Table 16), not the \"NDC vs all combined AD continuum\" AUC values (0.979/0.968) the Statement pairs it with.\n"
+      },
+      {
+        "claim_id": "C05",
+        "type": "unsupported_addition",
+        "paper_quote": "In CSF, the biggest median concentration fold change was reported for p-tau217&231 in the discovery cohort (CSF p-tau217&231 discovery cohort AD-dem/NDC = 18.13) and p-tau217 (CSF p-tau217 validation cohort AD-dem/NDC = 8.51) (Supplementary Table 17).",
+        "note": "The Statement asserts p-tau217&231 \"showed the highest median concentration fold change ... among all measured markers in both CSF and plasma,\" implying dominance across both matrices in both cohorts. The individual numeric examples given (plasma discovery 13.63, plasma validation 20.6, CSF discovery 18.13) are all accurate, but the paper explicitly states that in the VALIDATION cohort's CSF measurements, p-tau217 (not p-tau217&231) had the biggest AD-dem/NDC fold change (8.51) -- an exception the claim never surfaces despite the Statement's blanket \"in both CSF and plasma\" wording (notably, the compiler's own examples conspicuously omit a validation-CSF p-tau217&231 number). This is an unsupported over-generalization not backed by the full text.\n"
+      }
+    ],
+    "detail": "5/8 claims in logic/claims.md judged faithful (load-bearing numbers AND asserted direction/polarity both match, no unsupported added clauses) against the actual full paper text (research/metrics/v3/fulltext/woj25.txt), per a frozen independent adversarial check (extractive_fidelity/woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms.yaml) run by a different pass than the compiler that wrote claims.md. Infidelity types found: number_mismatch, polarity_inversion, unsupported_addition. source_bound, not validated: this measures fidelity TO THE PAPER, not the paper's scientific validity (compiler-model.md's independent-axes caveat) \u2014 no paper-ranker should be treated as sound on this axis alone."
+  },
+  "fidelity_hard_fail": true,
+  "rank_eligible": false,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/8 rw_blocks qualify (1 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.375,
+      "validity": "pending_sem",
+      "n_negative": 3,
+      "detail": "C04 (semantic null despite status='supported'); C06 (semantic null despite status='supported'); C07 (semantic null despite status='supported')"
+    },
+    "dead_end_density": {
+      "value": 0.125,
+      "validity": "source_bound",
+      "n_genuine": 1,
+      "n_synthetic": 0,
+      "source_binding_ratio": 1.0,
+      "detail": "N12: genuine"
+    },
+    "translation_trial_linkage": {
+      "value": 0.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [],
+        "verified": [],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": "pending",
+      "validity": "pending_sem",
+      "detail": "logic/grounding_findings.yaml present but empty/malformed; degrading to pending"
+    },
+    "novel_claim_count": {
+      "value": 3.0,
+      "validity": "pending_sem",
+      "verdict_counts": {
+        "novel": 3,
+        "incremental": 4,
+        "restatement": 1
+      },
+      "detail": "3/8 claims judged genuinely novel (within-ARA judge approximation only; real D4 needs cross-library FOL-dedup of Claim.original against the oshima store, not available on this corpus); verdict breakdown: {'novel': 3, 'incremental': 4, 'restatement': 1} (frozen judge findings, woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms.yaml)."
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.673,
+    "components": {
+      "grounding_trust": null,
+      "environment_completeness": 0.429,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": 0.9583,
+      "gate_pass_ratio": 0.5
+    },
+    "gates": {
+      "seal_L1": true,
+      "all_links_resolve": false,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": false
+    },
+    "falsification_writing_quality_reportonly": 0.125,
+    "grounding_detail": {
+      "value": null,
+      "trust_class": "no_source",
+      "self_contained_ratio": null,
+      "coverage": 0,
+      "detail": "quotes_present=0, checkable=0 (in-repo .md pointer), unverifiable=0 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=0, quote_not_found_extraction=0 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=no_source."
+    },
+    "low_trust": false
+  }
+}

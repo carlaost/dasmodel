@@ -1,0 +1,30 @@
+slug: sal25-trailblazer-alz-4-a-phase-3
+fulltext_file: research/metrics/v3/fulltext/sal25.txt
+n_claims_checked: 8
+n_faithful: 8
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Fulltext §3.2 (line ~257-262) states verbatim: '37.9% (25 of 66) of donanemab-treated participants versus 1.6% (1 of 64) of aducanumab-treated participants reached AP clearance at 6 months (P < 0.001; Figure 2A)' in the overall population. Numbers, denominators, direction, and P-value all match the Statement exactly."
+  - claim_id: "C02"
+    faithful: true
+    note: "Fulltext §3.2 (line ~259-262) states verbatim: 'In the low-medium tau subpopulation, 38.5% (10 of 26) of donanemab-treated participants versus 3.8% (1 of 26) of aducanumab-treated participants reached AP clearance at 6 months (P = 0.008; Figure 2B).' Exact match to Statement."
+  - claim_id: "C03"
+    faithful: true
+    note: "Fulltext §3.3.1 (line ~269-271, 326-333) gives: 12-mo overall 70.0% (42/60) vs 24.6% (15/61) P<0.001; 18-mo overall 76.8% (43/56) vs 43.1% (25/58) P<0.001; low-medium tau '76.0% (19 of 25) and 72.0% (18 of 25)... versus 18.5% (5 of 27) and 43.5% (10 of 23)... at 12 months (P<0.001) and 18 months (P=0.022).' All numbers and directions match the Statement exactly."
+  - claim_id: "C04"
+    faithful: true
+    note: "Fulltext §3.3.2 (line ~339-341) states 'The median time to achieve AP clearance was 359 days for donanemab-treated participants versus 568 days for aducanumab-treated participants (P < 0.001; Figure 3C).' Core Statement numbers verified. The parenthetical clearance-event counts (51/67 vs 25/65) are sourced from the Figure 3C on-plot KM table, which is a rasterized image element not captured by pdftotext extraction; I could not independently confirm these two counts against the fulltext, but found nothing in the extractable text that contradicts them, and they are plausible (a pooled time-to-event denominator can differ from any single timepoint's cross-sectional N)."
+  - claim_id: "C05"
+    faithful: true
+    note: "Table 2 (fulltext line ~433-451) gives overall-population 6-mo LS mean percent change -65.17 vs -16.96 (P<0.001) and 18-mo -86.29 vs -72.84 (P=.002), matching the Statement's cited examples exactly. Checked all six rows across both populations/timepoints in Table 2: the worst (largest) P-value across the whole table is .042 (18-mo low-medium-tau LS mean percent change), confirming the Statement's 'all P values significant (P ≤ .042)' is accurate, not an overstatement."
+  - claim_id: "C06"
+    faithful: true
+    note: "Fulltext §3.3.3 (line ~326-349) gives p-tau217 18-mo: 33.2% vs 25.7% lower, adjusted diff P=0.098; p-tau181 18-mo: 18.0% vs 14.3% lower, P=0.372; GFAP 18-mo: 20.0% vs 13.7% lower, P=0.171 — all matching the Statement. All three biomarkers show P<0.001 at 6 months per the same paragraphs, matching 'differences were significant at 6 months for all three.' NfL: 'plasma levels of NfL at 18 months were 8.9% higher with donanemab... compared to 14.0% higher with aducanumab' with per-timepoint P=0.168/0.350/0.339 (Figure 4D text) and Discussion's explicit 'No significant treatment effect on NfL was observed' — all matches Statement exactly."
+  - claim_id: "C07"
+    faithful: true
+    note: "Table 3 (fulltext line ~595-601) gives ARIA-E TEAE 17 (23.9%) donanemab vs 24 (34.8%) aducanumab, and ARIA-H 16 (22.5%) vs 23 (33.3%), matching the Statement exactly, with donanemab numerically lower in both as claimed. Discussion (line ~599-604) confirms direction: 'incidence of ARIA... numerically higher in the aducanumab group, suggesting that the amount and rapidity of amyloid clearance do not necessarily correspond to an increased occurrence of ARIA' — matches the Statement's polarity (faster/deeper clearance did not increase ARIA). The P=0.438 time-to-first-ARIA-E value is an on-plot Figure 5 annotation not captured by pdftotext, so it could not be independently confirmed from extractable text, but nothing in the fulltext contradicts a non-significant result."
+  - claim_id: "C08"
+    faithful: true
+    note: "Fulltext §3.4 (line ~551-561) and Table 3 confirm all cited figures verbatim: 'There were no deaths in this study'; TEAEs 59/71 (83.1%) donanemab vs 60/69 (87.0%) aducanumab; SAE 13/71 (18.3%) vs 8/69 (11.6%); ARIA-E 'mostly of mild to moderate radiographic severity (88.2% and 82.6%...)'; infusion-related reactions 'higher in the donanemab group (8.5%) versus the aducanumab group (2.9%)'; superficial siderosis 'seven cases (10.1%) ...in the aducanumab group and none in the donanemab group.' All numbers and directions match exactly."
+infidelities: []

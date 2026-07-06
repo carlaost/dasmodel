@@ -1,0 +1,22 @@
+{
+  "nct": "NCT05108922",
+  "trial": "TRAILBLAZER-ALZ 4 (donanemab vs aducanumab head-to-head, amyloid plaque clearance)",
+  "source": "ClinicalTrials.gov internal history API (https://clinicaltrials.gov/api/int/studies/NCT05108922/history and /history/{version}) -- captured live by the agent building outcome_switching.py.",
+  "n_history_versions": 32,
+  "initial_registration": {
+    "version": 0,
+    "date": "2021-10-26",
+    "primary_outcomes": [
+      {"measure": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 Positron Emission Tomography (PET) Scan (Superiority) on donanemab versus aducanumab", "time_frame": "6 Months"},
+      {"measure": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 PET Scan in the Intermediate Subpopulation (Superiority) on donanemab versus aducanumab", "time_frame": "6 Months"}
+    ]
+  },
+  "primary_outcome_amendment": null,
+  "checked_versions_for_amendment": [0, 29, 30],
+  "amendment_check_note": "Versions 30 (2023-10-11) and 31 (2024-11-04) touch the 'Outcome Measures' module label, but this coincides exactly with results-posting (study completed 2023-09-19; both versions also add 'Outcome Measures (Results)', 'Participant Flow', 'Adverse Events'), not a change to the pre-specified endpoint definitions. Diffing version 0 against version 30's protocolSection.outcomesModule.primaryOutcomes text confirms both co-primary measure names are unchanged in substance across the trial's entire pre-completion history (only trivial capitalization differences: 'donanemab'->'Donanemab').",
+  "current_registered_primary_outcomes": [
+    {"measure": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 Positron Emission Tomography (PET) Scan (Superiority) on Donanemab Versus Aducanumab"},
+    {"measure": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 PET Scan in the Low/Medium (Intermediate) Subpopulation (Superiority) on Donanemab Versus Aducanumab"}
+  ],
+  "analysis_note": "No primary-outcome amendment ever occurred for this trial. The co-primary pair registered at inception (overall population + intermediate/low-medium-tau subpopulation amyloid-clearance) is identical, in substance, to the co-primary pair the trial completed and posted results against."
+}

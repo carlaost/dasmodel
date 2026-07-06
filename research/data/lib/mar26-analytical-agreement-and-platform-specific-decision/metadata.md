@@ -1,0 +1,13 @@
+# Analytical agreement and platform-specific decision thresholds for plasma p-tau217 measured on Lumipulse G600II and Cobas e801 in a paired CSF–plasma cohort
+
+- **Cite key**: Mar26
+- **Authors**: María Martínez-Bujidos; A. Menendez; Jose Arnau Pulido-Gracia; D. Vilas; Daniela Samaniego; L. Ispierto; Cristian Morales-Indiano; P. Pástor
+- **Year**: 2026  (2026-05-05)
+- **Journal**: Clinical Chemistry and Laboratory Medicine (CCLM)
+- **DOI**: 10.1515/cclm-2026-0395
+- **URL**: https://doi.org/10.1515/cclm-2026-0395
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Abstract Objectives Plasma phosphorylated tau at threonine 217 (p-tau217) has emerged as a highly accurate blood-based biomarker of Alzheimer’s disease (AD) pathology. As disease-modifying anti-amyloid therapies enter clinical practice, scalable biomarkers with robust and clinically interpretable decision thresholds are required. However, evidence on inter-platform comparability and threshold transferability across automated assays remains limited. Methods We conducted a head-to-head comparison of two automated platforms – Lumipulse® G600II and Cobas® e801 – for plasma p-tau217 measurement in 157 consecutive patients undergoing lumbar puncture. Amyloid status was defined by the CSF Aβ42/Aβ40 ratio. Agreement was assessed using intraclass correlation coefficients and Bland–Altman analysis. Diagnostic performance was evaluated using receiver operating characteristic curves. Optimal thresholds were derived using the Youden index. Predefined rule-out (≥95 % sensitivity) and rule-in (≥95 % specificity) thresholds were explored, alongside alternative ≥90 % thresholds. Results Agreement between platforms was excellent (Spearman ρ=0.922; ICC(3,1)=0.922), although Bland–Altman analysis revealed a small systematic difference in absolute concentrations. Both assays showed comparable diagnostic accuracy for amyloid positivity (AUC=0.923 for both platforms; DeLong p>0.99), but required platform-specific thresholds. Rule-out and rule-in thresholds achieved ≥95 % sensitivity and specificity, with strong likelihood ratios and excellent categorical agreement (weighted κ=0.870). Approximately 30 % of individuals were classified in the grey zone. Using ≥90 % thresholds reduced the grey zone to 9–13 % while maintaining excellent agreement. Conclusions Plasma p-tau217 demonstrates high analytical concordance and comparable diagnostic performance across automated platforms despite systematic concentration differences. Platform-specific dual-threshold strategies may support structured and clinically interpretable implementation, pending prospective multicenter validation.

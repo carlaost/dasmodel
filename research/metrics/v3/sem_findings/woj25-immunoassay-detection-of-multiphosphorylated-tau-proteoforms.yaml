@@ -1,0 +1,176 @@
+claims:
+  - claim_id: C01
+    evidence_relevance:
+      relevant: true
+      note: >
+        Evidence basis (blank-signal-with-single-phosphorylated-peptide-mix control; LLOQ/ULOQ,
+        CV, linearity, spike-recovery) directly addresses the specificity + analytical-validation
+        statement.
+    falsifiability:
+      criteria_present: true
+      verdict: real_precommitted
+      note: >
+        Unlike most other claims in this ARA, the first half of the criterion ("signal is produced
+        by a mix of single-site phosphorylated peptides") names a distinct, independently run
+        mechanistic control experiment (a specificity spike test) rather than a bare negation of
+        the statement text -- a genuine pre-committable analytical-validation test. The second half
+        ("precision/linearity/sensitivity fall outside acceptable ranges") is closer to a standard
+        assay-QC gate than an invented straw test.
+    scope_calibration:
+      verdict: over_claim
+      note: >
+        Statement itself is well scoped (two specific assays, CSF+plasma). But Interpretation
+        oversells it: "a general, flexible platform for measuring any multiphosphorylated
+        proteoform" is asserted from validating exactly two dual-site assays -- no other
+        proteoform combination was built or tested.
+    novelty:
+      verdict: novel
+      note: >
+        RW01/RW02 only established doubly-phosphorylated tau *indirectly* (immunoprecipitation +
+        targeted MS); this paper's direct dual-site sandwich Simoa assay is a genuinely new method,
+        not a restatement.
+  - claim_id: C02
+    evidence_relevance:
+      relevant: true
+      note: "Figure 2a/4a elevation + text AUC ranges (0.986-1.000 discovery, 0.927-1.000 validation) directly support the CSF discrimination statement."
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"Fails to separate any group, or AUC drops to chance\" is the direct negation of the statement; no independent test design or new threshold is specified beyond what the statement already asserts."
+    scope_calibration:
+      verdict: calibrated
+      note: "Claim is bounded to CSF, both cohorts, with explicit AUC ranges; no universal-scope language beyond that."
+    novelty:
+      verdict: incremental
+      note: "Extends the well-established fact that CSF p-tau discriminates AD (RW04 baseline: single-site CSF p-tau217) to the new doubly-phosphorylated proteoform combination; the general phenomenon (CSF p-tau works) is not new, the specific combo assay's performance is."
+  - claim_id: C03
+    evidence_relevance:
+      relevant: true
+      note: "Figure 3a/3b ROC AUC comparisons directly address the plasma-outperformance statement, including the caveat that significance vs p-tau231 is not always present -- matches Evidence basis exactly."
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"AUC is not higher, or improvement never significant\" is a direct negation of the statement, not an independent pre-registered test."
+    scope_calibration:
+      verdict: calibrated
+      note: "Statement explicitly caveats \"not always\" significant vs p-tau231 -- this is a well-calibrated, non-oversold claim given the evidence (Supplementary Table 16)."
+    novelty:
+      verdict: novel
+      note: "The central novel finding of the paper: the new doubly-phosphorylated proteoform beats single-site plasma markers, motivated by but not previously shown in RW04's single-site benchmark."
+  - claim_id: C04
+    evidence_relevance:
+      relevant: true
+      note: >
+        KNOWN STATUS-HONESTY DEFECT: this is a genuine negative/null result (Cohen's d < 0.2,
+        AUC 0.514 essentially chance-level for NDC vs MCI-AD) yet the claims.md `Status` field
+        reads "supported" rather than "refuted" or a null-specific status. The Statement text
+        itself is honestly worded as a negative finding ("did not significantly differ... did not
+        correlate"), so evidence *content* is faithfully relevant and accurately transcribed --
+        the defect is purely in the Status field/taxonomy, not in the Statement or Evidence basis.
+        This matches the compiler-model's documented pattern (a real null filed as "supported"
+        because the claim as *stated* was confirmed, even though the underlying finding is a null).
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"Separates any AD group from NDC, or correlates strongly with CSF equivalent\" is the direct negation of the (already-negative) statement -- the post-hoc-inversion pattern applies even to the one authentically negative claim in this ARA."
+    scope_calibration:
+      verdict: calibrated
+      note: >
+        Not an over-claim: the negative finding is stated plainly with numbers (d<0.2, AUC~0.5),
+        not dressed up in positive-sounding language. The Interpretation ("matrix-dependently...
+        uninformative in plasma") matches the evidence's actual scope.
+    novelty:
+      verdict: novel
+      note: "A surprising, paper-specific negative finding not restating any RW edge -- genuinely new information (this specific proteoform's plasma non-utility was not previously known)."
+  - claim_id: C05
+    evidence_relevance:
+      relevant: true
+      note: "Fold-change numbers and Cohen's d values in Evidence basis directly support the ranking statement; verified against Fig 2/4 and page-5 body text (13.63, 20.6 for plasma; 18.13 for CSF)."
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"Another marker shows a larger fold change\" is a direct negation, not an independent pre-specified test."
+    scope_calibration:
+      verdict: calibrated
+      note: "Scoped explicitly to \"both CSF and plasma\" with concrete fold-change numbers per matrix; matches what was measured."
+    novelty:
+      verdict: incremental
+      note: "Expected direction (a doubly-phosphorylated species amplifying signal dynamic range) given the paper's own design rationale (RW03 staging framing); a refinement/confirmation rather than a surprising new mechanism."
+  - claim_id: C06
+    evidence_relevance:
+      relevant: true
+      note: "Evidence basis is explicitly a contrast between C02 and C04 plus the correlation heatmap (Fig 1a) -- internally consistent cross-reference, appropriately relevant."
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"Plasma and CSF show equivalent behavior and strong correlation\" is the direct negation of the statement."
+    scope_calibration:
+      verdict: calibrated
+      note: >
+        The ARA's own Interpretation explicitly flags this as \"a mechanistic hypothesis requiring
+        further study (interpretive, not directly measured here)\" -- an unusually well-calibrated,
+        self-limiting scope statement rather than an over-claim.
+    novelty:
+      verdict: restatement
+      note: "Discussion attributes the matrix divergence to already-known differential tau truncation/fragmentation (refs 16, 35-37, 39 cited directly in Evidence basis) -- the mechanism invoked is borrowed, not newly proposed here."
+  - claim_id: C07
+    evidence_relevance:
+      relevant: true
+      note: "Figure 2/4 elevation-vs-NDC plus explicit AD-dem-vs-FTD AUC ranges (CSF 0.934-0.978, plasma 0.803-0.904) directly support the differential-diagnosis statement."
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"Markers separate NDC from FTD, or fail to separate AD-dem from FTD where reported\" is a direct negation of the statement."
+    scope_calibration:
+      verdict: calibrated
+      note: "Statement is carefully qualified per-marker and per-matrix (which markers do/don't discriminate NDC-vs-FTD vs AD-dem-vs-FTD) rather than a blanket claim."
+    novelty:
+      verdict: incremental
+      note: "A specificity/differential-diagnosis extension of the core diagnostic-accuracy result (C02/C03) to a second clinical comparator (FTD); follows expectably from AD-specific tau pathology framing, not a standalone new finding."
+  - claim_id: C08
+    evidence_relevance:
+      relevant: true
+      note: "Text figures for AT-profile-based AUCs (0.979/0.973 discovery, 0.914/0.894 validation) directly match the statement's numbers."
+    falsifiability:
+      criteria_present: true
+      verdict: post_hoc_inversion
+      note: "\"Another plasma marker exceeds plasma p-tau217&231 AUC under AT-profile grouping\" is a direct negation of the statement."
+    scope_calibration:
+      verdict: calibrated
+      note: "Explicitly scoped to \"plasma markers\" and to the AT-profile grouping scheme; matches what was tested."
+    novelty:
+      verdict: incremental
+      note: "A robustness/sensitivity-analysis check on the same C03 finding under an alternative grouping scheme -- confirmatory, not a new result."
+compilation_fidelity_samples:
+  - fact: "Plasma p-tau181&231 Cohen's d: MCI-AD/NDC = 0.00, AD-dem/NDC = 0.17 (discovery cohort)"
+    pdf_location: "p.4, Fig. 2b Cohen's d table"
+    captured_in_ara: true
+    note: "Exact match to C04 Evidence basis."
+  - fact: "Plasma p-tau181&231 ROC: NDC vs MCI-AD AUC = 0.514 (95% CI 0.320-0.709); NDC vs AD-dem AUC = 0.579 (95% CI 0.383-0.775)"
+    pdf_location: "p.3, body text under 'Diagnostic performance in the discovery cohort'"
+    captured_in_ara: true
+    note: "Exact match to C04 Evidence basis, including CIs."
+  - fact: "Plasma p-tau181&231 correlation with plasma p-tau217&231 = -0.06 (Spearman rho, discovery)"
+    pdf_location: "p.3, Fig. 1a heatmap"
+    captured_in_ara: true
+    note: "Exact match to C04 Evidence basis (-0.06 figure)."
+  - fact: "Discovery plasma AUCs: p-tau217&231 = 0.979 (0.945-1.000) > p-tau231 = 0.936 (0.875-0.997) > p-tau217 = 0.913 (0.837-0.990)"
+    pdf_location: "p.5, Fig. 3a"
+    captured_in_ara: true
+    note: "Exact match to C03 Evidence basis."
+  - fact: "Validation plasma AUCs: p-tau217&231 = 0.968 (0.929-1.000) > p-tau231 = 0.910 (0.846-0.975) > p-tau217 = 0.856 (0.768-0.943)"
+    pdf_location: "p.5, Fig. 3b"
+    captured_in_ara: true
+    note: "Exact match to C03 Evidence basis."
+  - fact: "Plasma p-tau217&231 fold change AD-dem/NDC: discovery = 13.63, validation = 20.6"
+    pdf_location: "p.5, body text under 'In the validation cohort...'"
+    captured_in_ara: true
+    note: "Exact match to C05 Evidence basis."
+  - fact: "AT-profile plasma p-tau217&231 AUCs: A+ vs A- = 0.979 (0.945-1.000); A+T+ vs other = 0.973 (0.934-1.000); validation A+ vs A- = 0.914 (0.855-0.973); A+T+ vs other = 0.894 (0.831-0.957)"
+    pdf_location: "p.5, body text under 'Also in the ROC analysis...'"
+    captured_in_ara: true
+    note: "Exact match to C08 Evidence basis (discovery numbers appear on p.3; validation numbers on p.5)."
+  - fact: "Cohort sizes: discovery n=55 (NDC=15, MCI-AD=21, AD-dem=19); validation n=118 (NDC=24, pre-AD=19, MCI-AD=16, AD-dem=... , FTD=39)"
+    pdf_location: "PAPER.md frontmatter / Fig. 2 and Fig. 4 captions"
+    captured_in_ara: true
+    note: "Consistent across PAPER.md overview and figure captions; no discrepancy found."

@@ -1,0 +1,113 @@
+{
+  "slug": "che26-diagnostic-performance-of-plasma-p-tau217",
+  "genre": "systematic_review_meta_analysis",
+  "genre_source": "gold",
+  "coarse": "SYNTHESIS",
+  "n_claims": 8,
+  "n_experiments": 6,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": true,
+    "n_trials": 0
+  },
+  "abstract_bound": false,
+  "extractive_fidelity": {
+    "value": 0.625,
+    "validity": "source_bound",
+    "n_claims_checked": 8,
+    "n_faithful": 5,
+    "infidelities": [
+      {
+        "claim_id": "C01",
+        "type": "unsupported_addition",
+        "paper_quote": "Forest plots indicated that p217_MS and p217_Ratio provided the most substantial improvements in Area Under the Curve (AUC) relative to the p-tau181 benchmark (Figure 3A). ... (A) Forest plot showing the mean difference (MD) in AUC for detecting amyloid-\u03b2 pathology relative to the p181_IA baseline, using a random-effects model",
+        "note": "All P-score numbers (0.859/0.783/0.686/0.117) exactly match Table 2 Outcome 1 and the running text (lines 199-208). However the added sentence 'In the forest plot vs. the p181_IA baseline, p217_MS had a mean AUC difference of MD = 0.10 (95% CI 0.04-0.16)' has no textual support anywhere in the paper: the fulltext (main text + Figure 3 caption) only describes the forest plot qualitatively ('most substantial improvements'), and no numeric MD or CI value for p217_MS vs p181_IA appears anywhere in the extracted text (searched '0.10', '0.04', '0.16' and bracket-CI patterns \u2014 no hits tied to this comparison). The only MD figure ever given anywhere in the paper is MD=0.025 for the ratio-vs-single-analyte gain (a different comparison, used correctly in C02)."
+      },
+      {
+        "claim_id": "C03",
+        "type": "unsupported_addition",
+        "paper_quote": "Forest plots confirmed that p217_MS and p217_Lumi provided significantly higher AUCs for Tau-PET recognition compared to p181_IA (Figure 3B). Notably, p-tau181 failed to reliably discriminate Tau-PET status (P-score = 0.090)",
+        "note": "P-scores (0.907 rank1 Tau-PET, 0.821 rank1 MCI-to-AD, 0.814 p217_Ratio, 0.090 p181_IA) all match Table 2 and \u00a73.3/\u00a73.4 text exactly. But the added clause 'In the Tau-PET forest plot, p217_MS had the largest AUC improvement over p181_IA (MD = 0.13, 95% CI 0.05-0.22)' is not supported anywhere in the fulltext \u2014 the paper only states the Figure 3B comparison qualitatively ('significantly higher AUCs'), with no numeric MD/CI value given in text for this comparison (searched '0.13', '0.05', '0.22' \u2014 no matching hits)."
+      },
+      {
+        "claim_id": "C08",
+        "type": "unsupported_addition",
+        "paper_quote": "Effect size: The primary effect size was the Mean Difference (MD) in AUC... Plasma p-tau181 measured by standard immunoassay (p181_IA) was set as the reference comparator.",
+        "note": "The four P-score numbers (0.117/0.159/0.090/0.006) and the '<0.20 across all outcomes' framing are all directly supported (Table 2 and \u00a74.1 'our results (P-score < 0.20) suggest it is effectively obsolete'). However the added clause 'its AUC advantage over baseline was non-significant where measured' has no support: the word 'significant'/'non-significant' in this context never appears in the paper (grep for 'non-significant', 'not significant' returns zero hits), and the framing is incoherent given p181_IA was itself set as the reference/baseline comparator (lines 192-194), not a node being compared against a baseline for 'AUC advantage'. This looks like a fabricated statistical claim layered onto an otherwise faithful statement."
+      }
+    ],
+    "detail": "5/8 claims in logic/claims.md judged faithful (load-bearing numbers AND asserted direction/polarity both match, no unsupported added clauses) against the actual full paper text (research/metrics/v3/fulltext/che26.txt), per a frozen independent adversarial check (extractive_fidelity/che26-diagnostic-performance-of-plasma-p-tau217.yaml) run by a different pass than the compiler that wrote claims.md. Infidelity types found: unsupported_addition. source_bound, not validated: this measures fidelity TO THE PAPER, not the paper's scientific validity (compiler-model.md's independent-axes caveat) \u2014 no paper-ranker should be treated as sound on this axis alone."
+  },
+  "fidelity_hard_fail": false,
+  "rank_eligible": true,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/16 rw_blocks qualify (1 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.125,
+      "validity": "pending_sem",
+      "n_negative": 1,
+      "detail": "C08 (semantic null despite status='supported')"
+    },
+    "dead_end_density": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_genuine": 0,
+      "n_synthetic": 2,
+      "source_binding_ratio": 0.0,
+      "detail": "N11: synthetic (source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt)); N12: synthetic (source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt))"
+    },
+    "translation_trial_linkage": {
+      "value": 0.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [],
+        "verified": [],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": 0.926,
+      "validity": "judge_scored",
+      "detail": "25/27 (number,quote) findings pass string_present \u2227 verdict==supports \u2227 value_match\u2208{exact,rounded,derived} \u2227 polarity_ok \u2227 context_match, scored deterministically from the frozen logic/grounding_findings.yaml (a prior [sem] pass's output -- this module does not itself call an LLM, so self-grading is avoided by construction)."
+    },
+    "novel_claim_count": {
+      "value": 0.0,
+      "validity": "pending_sem",
+      "verdict_counts": {
+        "restatement": 5,
+        "incremental": 3
+      },
+      "detail": "0/8 claims judged genuinely novel (within-ARA judge approximation only; real D4 needs cross-library FOL-dedup of Claim.original against the oshima store, not available on this corpus); verdict breakdown: {'restatement': 5, 'incremental': 3} (frozen judge findings, che26-diagnostic-performance-of-plasma-p-tau217.yaml)."
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.944,
+    "components": {
+      "grounding_trust": 0.917,
+      "environment_completeness": 1.0,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": 0.8194,
+      "gate_pass_ratio": 1.0
+    },
+    "gates": {
+      "seal_L1": true,
+      "all_links_resolve": true,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": true
+    },
+    "falsification_writing_quality_reportonly": 0.0,
+    "grounding_detail": {
+      "value": 0.917,
+      "trust_class": "mixed",
+      "self_contained_ratio": 0.889,
+      "coverage": 24,
+      "detail": "quotes_present=27, checkable=24 (in-repo .md pointer or PyMuPDF-resolved PDF, +3 boosted), unverifiable=3 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=22, quote_not_found_extraction=2 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=mixed."
+    },
+    "low_trust": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "idx": 272,
+  "cite_key": "Hao25",
+  "title": "Trend analysis and future predictions of global burden of alzheimer’s disease and other dementias: a study based on the global burden of disease database from 1990 to 2021",
+  "authors": "Miao Hao; Jiajun Chen",
+  "year": "2025",
+  "pub_date": "2025-07-01",
+  "journal": "BMC Medicine",
+  "abstract": "As the global aging issue grows, dementia, particularly Alzheimer’s disease (AD), has become a major public health challenge for everyone. This study utilizes the Global Burden of Disease (GBD) database to analyze trends in the epidemiology of AD and other dementias from 1990 to 2021 and to predict future burdens to 2040. We examined global, regional, and national data on AD and other dementias, focusing on incidence, prevalence, and Disability-Adjusted Life Years (DALYs). Joinpoint regression analysis was employed to identify significant changes in trends over time. The effects of age, period, and birth cohort on the risk of AD and other dementias were analyzed. Additionally, the impact of aging, population growth, and epidemiological changes on DALYs was assessed across different Socio-demographic Index (SDI) quintiles. The global burden of AD and other dementias has significantly increased, with the highest incidence, prevalence, and DALYs observed in East Asia. A notable increase in prevalence was observed in females over 65 years compared to males. Joinpoint regression analysis revealed substantial changes in trends in 1995, 2005, 2011, and 2019, with a noticeable acceleration post-2011, especially after 2019. Age was a significant risk factor, with a sharp increase in risk after 60 years of age. Epidemiological changes had a minor impact globally but varied by region and gender. Bayesian age-period-cohort modeling predicts sustained growth through 2040, with age-standardized incidence and prevalence rates projected to reach 144.85 and 821.80 per 100,000 respectively, driven predominantly by aging populations in high SDI regions and demographic expansion in low SDI regions. The global burden of AD and other dementias is escalating, with a pronounced increase expected by 2040. This study highlights the need for targeted interventions, particularly in regions with higher burdens and among older populations. The findings underscore the importance of considering SDI, age, and gender when planning public health strategies to address the growing challenge of AD and other dementias.",
+  "citation_count": "51",
+  "citations_per_year": "50.4",
+  "doi": "10.1186/s12916-025-04169-w",
+  "url": "https://doi.org/10.1186/s12916-025-04169-w",
+  "slug": "hao25-trend-analysis-and-future-predictions-of"
+}

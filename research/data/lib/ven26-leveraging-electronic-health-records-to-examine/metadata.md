@@ -1,0 +1,13 @@
+# Leveraging electronic health records to examine differential clinical outcomes in people with Alzheimer’s disease
+
+- **Cite key**: Ven26
+- **Authors**: S. Venkatesh; Linshanshan Wang; M. Morris; Mohammed Moro; R. Srivastava; Yunqing Han; Riddhi Patira; Sarah Berman; O. Lopez; Shyam Visweswaran; T. Cai; Tianxi Cai; Zongqi Xia
+- **Year**: 2026  (2026-03-12)
+- **Journal**: Communications Medicine
+- **DOI**: 10.1038/s43856-026-01443-7
+- **URL**: https://doi.org/10.1038/s43856-026-01443-7
+- **Citations**: 1 (3.2/yr)
+
+## Abstract
+
+Background Alzheimer’s disease (AD) carries a high societal burden inequitably distributed across demographic groups. Using real-world electronic health record (EHR) data with accurate population identification, we examine demographic differences and potentially modifiable drivers of AD decline. Methods Leveraging EHR data (1994–2022) from two large independent healthcare systems, we applied an unsupervised phenotyping algorithm to predict AD diagnosis and validated using gold-standard chart-reviewed and registry-derived diagnosis labels. Among patients with ≥24 months of EHR data not living in nursing homes pre-AD diagnosis, we estimated the time-to-decline (nursing home admission, death) in healthcare system-specific covariate-adjusted competing risk survival analyses stratified by demographic groups. We then performed covariate-adjusted fixed-effects meta-analyses using inverse variance weighting. Results The algorithm demonstrates robust performance in identifying AD populations across healthcare systems and demographic groups (AUROC score range: 0.835-0.923). Of the 29,262 AD patients in both healthcare systems (61% women, 90% non-Hispanic White, 79.52 ± 9.39 years of age at AD diagnosis), 49% transition to nursing homes and 52% die during follow-up. In covariate-adjusted fixed-effects meta-analysis, women have higher nursing home admission risk (HR [95% CI] = 1.061 [1.024-1.100], p = 1.203×10-3) but lower death risk (HR [95% CI] = 0.856 [0.811-0.904], p = 2.434×10-8) than men. Non-Hispanic White individuals have similar nursing home risk (HR [95% CI] = 1.006 [0.952-1.063], p = 8.306×10-1) but higher death risk (HR [95% CI] = 1.376 [1.245-1.521], p = 4.084×10-10) than racial and ethnic minorities. Older age at AD diagnosis and greater comorbidity burden increase both nursing home admission and death risk. Conclusions We provide real-world evidence of drivers of demographic differences in AD decline that could inform individual clinical management and public health policies.

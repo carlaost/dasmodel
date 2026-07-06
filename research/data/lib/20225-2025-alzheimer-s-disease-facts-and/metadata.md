@@ -1,0 +1,22 @@
+# 2025 Alzheimer's disease facts and figures
+
+- **Cite key**: 20225
+- **Authors**: 
+- **Year**: 2025  (2025-04-01)
+- **Journal**: Alzheimer's & Dementia
+- **DOI**: 10.1002/alz.70235
+- **URL**: https://doi.org/10.1002/alz.70235
+- **Citations**: 346 (274.4/yr)
+
+## Abstract
+
+This article describes the public health impact of Alzheimer's disease (AD), including prevalence and incidence, mortality and morbidity, use and costs of care, and the ramifications of AD for family caregivers, the dementia workforce, and society. The Special Report discusses Americans’ attitudes about early diagnosis and treatment of AD. An estimated 7.2 million Americans age 65 and older live with Alzheimer's dementia today. This number could grow to 13.8 million by 2060, barring the development of medical breakthroughs to prevent or cure AD. Official AD death certificates recorded 120,122 deaths from AD in 2022. Since 2020, when COVID‐19 became one of the top 10 causes of death in the United States, AD has ranked as the seventh‐leading cause of death. However, 2023 data indicate that Alzheimer's will probably become the sixth‐leading cause of death in the near future. Between 2000 and 2022, deaths from stroke, heart disease, and HIV decreased, whereas reported deaths from AD increased by more than 142%. Nearly 12 million family members and other unpaid caregivers provided an estimated 19.2 billion hours of care to people with Alzheimer's or other dementias in 2024. These figures reflect a decline in the number of caregivers compared with a decade earlier and an increase in the amount of care provided by each remaining caregiver. Unpaid dementia caregiving was valued at $413.5 billion in 2024. Its costs, however, extend to unpaid caregivers’ increased risk for emotional distress and negative mental and physical health outcomes. Members of the paid health care and broader community‐based workforce are involved in diagnosing, treating, and caring for people with dementia. However, the United States faces growing shortages across many segments of the dementia care workforce due to a combination of factors, including the absolute increase in the number of people living with dementia. Therefore, targeted programs and care delivery models are urgently needed to attract, better train, and effectively deploy health care and community‐based workers to provide dementia care. Average per‐person Medicare payments for services to beneficiaries age 65 and older with AD or other dementias are almost three times as great as payments for beneficiaries without these conditions, and Medicaid payments are more than 22 times as great. Total payments in 2025 for health care, long‐term care, and hospice services for people age 65 and older with dementia are estimated to be $384 billion. The Special Report examines how Americans feel about new developments in diagnosing and treating AD. Based on survey results, most Americans believe early detection of Alzheimer's is important, and nearly all would want a simple diagnostic test if it were available to allow for early diagnosis and treatment. About two‐thirds of Americans are aware that new medications exist to slow the progression of AD, and most feel optimistic about the future of new Alzheimer's treatments over the next decade.
+
+## Discovered sources
+
+- **PDF**: Open access (CC BY-NC-ND). Downloaded to `paper.pdf` (13 pages, ~13.9 MB) from the Europe PMC render endpoint (`https://europepmc.org/articles/PMC12040760?pdf=render`). PMCID: PMC12040760. Unpaywall reports `oa_status: green`.
+- **Code**: None found. This is an annual public-health report, not original computational research; no software repository exists.
+- **Data**: None released as a citable accession. The report is an epidemiological/health-economics synthesis drawing on aggregate public sources (U.S. Census projections, CDC/NCHS mortality data, CMS Medicare/Medicaid claims, Chicago Health and Aging Project prevalence estimates, and an Alzheimer's Association-commissioned opinion survey). No Data Availability or Code Availability statement is present (confirmed via Europe PMC core metadata).
+- **Clinical trials**: None. No NCT identifiers appear in the abstract or article; this report does not register or report a trial.
+- **Notable**: Authored corporately by the Alzheimer's Association (no individual author list in metadata). Annual recurring report series in Alzheimer's & Dementia.
+

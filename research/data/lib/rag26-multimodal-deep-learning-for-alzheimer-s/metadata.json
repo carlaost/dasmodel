@@ -1,0 +1,15 @@
+{
+  "idx": 416,
+  "cite_key": "Rag26",
+  "title": "Multimodal Deep Learning for Alzheimer’s Disease Detection using MRI and PET Imaging",
+  "authors": "S. Ragavarthini; Aariya Tharshan V; A. S",
+  "year": "2026",
+  "pub_date": "2026-04-21",
+  "journal": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+  "abstract": "The proposed system presents a deep learning framework for diagnosing Alzheimer’s disease, aiming to enhance both diagnostic precision and model transparency. The methodology combines convolutional neural networks (CNNs) for extracting local spatial patterns with transformer architectures for modeling long-range dependencies in neuroimaging data. To mitigate challenges posed by insufficient annotated samples, unsupervised representation learning techniques are incorporated, enabling the model to leverage unlabeled data effectively. Evaluation results indicate that fusing MRI and PET modalities yields substantially higher classification performance than single-modality methods across various stages of the disease spectrum. Explainability techniques, particularly saliency visualization, are employed to highlight brain regions that contribute most significantly to diagnostic decisions, thereby facilitating clinical validation and enhancing confidence in automated predictions. The proposed framework is optimized for deployment on conventional computing infrastructure, making it suitable for both research environments and clinical practice.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1109/ICOEI68323.2026.11541674",
+  "url": "https://doi.org/10.1109/ICOEI68323.2026.11541674",
+  "slug": "rag26-multimodal-deep-learning-for-alzheimer-s"
+}

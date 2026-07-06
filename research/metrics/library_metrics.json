@@ -1,0 +1,1160 @@
+{
+  "n_aras": 10,
+  "aggregates": {
+    "cross_layer_binding_resolvability": {
+      "mean": 0.988,
+      "median": 1.0,
+      "min": 0.933,
+      "max": 1.0,
+      "n": 10
+    },
+    "environment_completeness": {
+      "mean": 0.814,
+      "median": 0.928,
+      "min": 0.429,
+      "max": 1.0,
+      "n": 10
+    },
+    "claim_grounding_ratio": {
+      "mean": 0.796,
+      "median": 0.889,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 10
+    },
+    "falsifiability_presence": {
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 10
+    },
+    "dead_end_density_per_claim": {
+      "mean": 0.086,
+      "median": 0.045,
+      "min": 0.0,
+      "max": 0.25,
+      "n": 10
+    },
+    "decision_branching_factor": {
+      "mean": 1.361,
+      "median": 1.75,
+      "min": 0,
+      "max": 3,
+      "n": 9
+    },
+    "explicit_vs_inferred_ratio": {
+      "mean": 0.841,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 10
+    },
+    "corrective_science_score": {
+      "mean": 4.6,
+      "median": 3.5,
+      "min": 0,
+      "max": 12,
+      "n": 10
+    },
+    "clinical_trials_linked": {
+      "mean": 1.1,
+      "median": 0.0,
+      "min": 0,
+      "max": 8,
+      "n": 10
+    },
+    "seal_L1_structural_score": {
+      "mean": 0.98,
+      "median": 1.0,
+      "min": 0.8,
+      "max": 1.0,
+      "n": 10
+    }
+  },
+  "D5_library_graph": {
+    "n_papers": 10,
+    "n_claims_total": 84,
+    "shared_trial_clusters": {},
+    "n_shared_trial_clusters": 0,
+    "in_library_citation_reuse_edges": [],
+    "claim_redundancy": {
+      "near_duplicate_pairs": 0,
+      "redundancy_rate_proxy": 0.0,
+      "examples": [],
+      "method": "token Jaccard >=0.5 over claim statements (proxy; FOL dedup pending)"
+    },
+    "corroboration_via_shared_trials": {},
+    "fol_claim_graph": {
+      "status": "pending_model",
+      "note": "corroboration/contradiction/replication need oshima typed evidence + fol_json"
+    }
+  },
+  "per_ara": [
+    {
+      "slug": "che26-diagnostic-performance-of-plasma-p-tau217",
+      "doi": "10.3389/fnagi.2026.1834591",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 26,
+        "n_links_total": 26,
+        "environment_completeness": 1.0,
+        "env_fields_present": 7,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.0,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.921,
+        "grounded_numbers": 35,
+        "statement_numbers": 38,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 8
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 8,
+        "n_experiments": 6,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.25,
+        "n_dead_ends": 2,
+        "n_dead_ends_complete": 2,
+        "decision_branching_factor": 1.75,
+        "explicit_vs_inferred_ratio": 0.929,
+        "failure_knowledge_preservation": 0.214,
+        "negative_result_share": 0.2,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 4,
+          "experiment": 6,
+          "dead_end": 2,
+          "pivot": 1
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 14,
+          "extends": 1,
+          "refutes": 0,
+          "bounds": 1,
+          "baseline": 0
+        },
+        "corrective_science_score": 3,
+        "n_related_work_blocks": 16,
+        "concept_count": 13,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 8,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 2,
+        "n_datasets_verified": 2,
+        "n_clinical_trials_linked": 0,
+        "verified_ncts": [],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "cum26-alzheimer-s-disease-drug-development-pipeline",
+      "doi": "10.1002/trc2.70251",
+      "n_claims": 10,
+      "n_experiments": 8,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 26,
+        "n_links_total": 26,
+        "environment_completeness": 0.857,
+        "env_fields_present": 6,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.031,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.857,
+        "grounded_numbers": 24,
+        "statement_numbers": 28,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 10
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 10,
+        "n_experiments": 8,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.0,
+        "n_dead_ends": 0,
+        "n_dead_ends_complete": 0,
+        "decision_branching_factor": 3,
+        "explicit_vs_inferred_ratio": 1.0,
+        "failure_knowledge_preservation": 0.0,
+        "negative_result_share": 0.0,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 1,
+          "experiment": 8
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 7,
+          "extends": 2,
+          "refutes": 0,
+          "bounds": 1,
+          "baseline": 0
+        },
+        "corrective_science_score": 4,
+        "n_related_work_blocks": 10,
+        "concept_count": 9,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 10,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 3,
+        "n_datasets_verified": 2,
+        "n_clinical_trials_linked": 8,
+        "verified_ncts": [
+          "NCT05026866",
+          "NCT03887455",
+          "NCT04468659",
+          "NCT05463731",
+          "NCT04777396",
+          "NCT05531526",
+          "NCT06709014",
+          "NCT05564169"
+        ],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+      "doi": "10.1016/j.tjpad.2026.100605",
+      "n_claims": 10,
+      "n_experiments": 8,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 31,
+        "n_links_total": 31,
+        "environment_completeness": 1.0,
+        "env_fields_present": 7,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.25,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.939,
+        "grounded_numbers": 108,
+        "statement_numbers": 115,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 10
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 10,
+        "n_experiments": 8,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.0,
+        "n_dead_ends": 2,
+        "n_dead_ends_complete": 0,
+        "decision_branching_factor": 0,
+        "explicit_vs_inferred_ratio": 1.0,
+        "failure_knowledge_preservation": 0.143,
+        "negative_result_share": 0.0,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 3,
+          "experiment": 8,
+          "dead_end": 2
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 4,
+          "extends": 2,
+          "refutes": 0,
+          "bounds": 5,
+          "baseline": 0
+        },
+        "corrective_science_score": 12,
+        "n_related_work_blocks": 11,
+        "concept_count": 14,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 10,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 1,
+        "n_datasets_verified": 1,
+        "n_clinical_trials_linked": 1,
+        "verified_ncts": [
+          "NCT04437511"
+        ],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "kes25-the-alzheimer-s-disease-diagnosis-and",
+      "doi": "10.1002/alz.71147",
+      "n_claims": 10,
+      "n_experiments": 9,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 0.971,
+        "n_links_resolved": 33,
+        "n_links_total": 34,
+        "environment_completeness": 0.714,
+        "env_fields_present": 5,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.0,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.722,
+        "grounded_numbers": 57,
+        "statement_numbers": 79,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 10
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 10,
+        "n_experiments": 9,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.0,
+        "n_dead_ends": 3,
+        "n_dead_ends_complete": 0,
+        "decision_branching_factor": 0,
+        "explicit_vs_inferred_ratio": 1.0,
+        "failure_knowledge_preservation": 0.143,
+        "negative_result_share": 0.0,
+        "node_type_counts": {
+          "question": 7,
+          "experiment": 8,
+          "decision": 3,
+          "dead_end": 3
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 1,
+          "extends": 2,
+          "refutes": 0,
+          "bounds": 2,
+          "baseline": 4
+        },
+        "corrective_science_score": 6,
+        "n_related_work_blocks": 9,
+        "concept_count": 9,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 10,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 4,
+        "n_datasets_verified": 4,
+        "n_clinical_trials_linked": 0,
+        "verified_ncts": [],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+      "doi": "10.1002/alz.70535",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 24,
+        "n_links_total": 24,
+        "environment_completeness": 0.429,
+        "env_fields_present": 3,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.0,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 1.0,
+        "grounded_numbers": 24,
+        "statement_numbers": 24,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported (as a conditional, low-certainty recommendation)": 2,
+          "supported": 6
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 8,
+        "n_experiments": 6,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.0,
+        "n_dead_ends": 0,
+        "n_dead_ends_complete": 0,
+        "decision_branching_factor": null,
+        "explicit_vs_inferred_ratio": 0.0,
+        "failure_knowledge_preservation": 0.0,
+        "negative_result_share": 0.0,
+        "node_type_counts": {}
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 6,
+          "extends": 2,
+          "refutes": 0,
+          "bounds": 2,
+          "baseline": 1
+        },
+        "corrective_science_score": 6,
+        "n_related_work_blocks": 11,
+        "concept_count": 10,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 8,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 0,
+        "n_datasets_verified": 0,
+        "n_clinical_trials_linked": 0,
+        "verified_ncts": [],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 0.8,
+        "core_files_present": 8,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "sal25-trailblazer-alz-4-a-phase-3",
+      "doi": "10.1002/alz.70293",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 24,
+        "n_links_total": 24,
+        "environment_completeness": 1.0,
+        "env_fields_present": 7,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.0,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.725,
+        "grounded_numbers": 58,
+        "statement_numbers": 80,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 8
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 8,
+        "n_experiments": 6,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.125,
+        "n_dead_ends": 1,
+        "n_dead_ends_complete": 1,
+        "decision_branching_factor": 2,
+        "explicit_vs_inferred_ratio": 1.0,
+        "failure_knowledge_preservation": 0.091,
+        "negative_result_share": 0.111,
+        "node_type_counts": {
+          "question": 2,
+          "decision": 2,
+          "experiment": 6,
+          "dead_end": 1
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 5,
+          "extends": 2,
+          "refutes": 0,
+          "bounds": 0,
+          "baseline": 1
+        },
+        "corrective_science_score": 2,
+        "n_related_work_blocks": 8,
+        "concept_count": 10,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 8,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 1,
+        "n_datasets_verified": 1,
+        "n_clinical_trials_linked": 1,
+        "verified_ncts": [
+          "NCT05108922"
+        ],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+      "doi": "10.1001/jamaneurol.2026.1405",
+      "n_claims": 4,
+      "n_experiments": 4,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 0.933,
+        "n_links_resolved": 14,
+        "n_links_total": 15,
+        "environment_completeness": 1.0,
+        "env_fields_present": 7,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.25,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 1.0,
+        "grounded_numbers": 2,
+        "statement_numbers": 2,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported (per abstract; effect sizes not available from provided input)": 3,
+          "hypothesis (interpretive \"meaning\" statement; not directly tested in the abstract's": 1
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 4,
+        "n_experiments": 4,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.25,
+        "n_dead_ends": 1,
+        "n_dead_ends_complete": 1,
+        "decision_branching_factor": 2,
+        "explicit_vs_inferred_ratio": 0.667,
+        "failure_knowledge_preservation": 0.222,
+        "negative_result_share": 0.2,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 2,
+          "experiment": 4,
+          "dead_end": 1,
+          "pivot": 1
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 3,
+          "extends": 0,
+          "refutes": 0,
+          "bounds": 0,
+          "baseline": 0
+        },
+        "corrective_science_score": 0,
+        "n_related_work_blocks": 3,
+        "concept_count": 7,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 4,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 2,
+        "n_datasets_verified": 2,
+        "n_clinical_trials_linked": 1,
+        "verified_ncts": [
+          "NCT03174938"
+        ],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": false,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+      "doi": "10.1016/S1474-4422(25)00227-3",
+      "n_claims": 7,
+      "n_experiments": 4,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 26,
+        "n_links_total": 26,
+        "environment_completeness": 1.0,
+        "env_fields_present": 7,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.125,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 1.0,
+        "grounded_numbers": 89,
+        "statement_numbers": 89,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 6,
+          "hypothesis": 1
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 7,
+        "n_experiments": 4,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.143,
+        "n_dead_ends": 1,
+        "n_dead_ends_complete": 1,
+        "decision_branching_factor": 2,
+        "explicit_vs_inferred_ratio": 0.818,
+        "failure_knowledge_preservation": 0.182,
+        "negative_result_share": 0.125,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 4,
+          "experiment": 4,
+          "dead_end": 1,
+          "pivot": 1
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 4,
+          "extends": 0,
+          "refutes": 0,
+          "bounds": 1,
+          "baseline": 0
+        },
+        "corrective_science_score": 2,
+        "n_related_work_blocks": 5,
+        "concept_count": 9,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 7,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 0,
+        "n_datasets_verified": 0,
+        "n_clinical_trials_linked": 0,
+        "verified_ncts": [],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": false,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "tit26-automated-high-throughput-quantification-of-plasma",
+      "doi": "10.1186/s13195-026-01996-8",
+      "n_claims": 11,
+      "n_experiments": 9,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 1.0,
+        "n_links_resolved": 32,
+        "n_links_total": 32,
+        "environment_completeness": 0.714,
+        "env_fields_present": 5,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.0,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.796,
+        "grounded_numbers": 78,
+        "statement_numbers": 98,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 11
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 11,
+        "n_experiments": 9,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.091,
+        "n_dead_ends": 1,
+        "n_dead_ends_complete": 1,
+        "decision_branching_factor": 1.5,
+        "explicit_vs_inferred_ratio": 1.0,
+        "failure_knowledge_preservation": 0.077,
+        "negative_result_share": 0.083,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 2,
+          "experiment": 9,
+          "dead_end": 1
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 3,
+          "extends": 1,
+          "refutes": 0,
+          "bounds": 4,
+          "baseline": 5
+        },
+        "corrective_science_score": 9,
+        "n_related_work_blocks": 13,
+        "concept_count": 13,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 11,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 1,
+        "n_datasets_verified": 1,
+        "n_clinical_trials_linked": 0,
+        "verified_ncts": [],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    },
+    {
+      "slug": "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms",
+      "doi": "10.1038/s41467-024-54878-8",
+      "n_claims": 8,
+      "n_experiments": 7,
+      "D1_reproducibility": {
+        "cross_layer_binding_resolvability": 0.974,
+        "n_links_resolved": 37,
+        "n_links_total": 38,
+        "environment_completeness": 0.429,
+        "env_fields_present": 3,
+        "env_fields_total": 7,
+        "spec_completeness_setup_proxy": 0.0,
+        "spec_completeness_rubric": {
+          "status": "pending_model",
+          "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+        },
+        "executable_reproduction_L3": {
+          "status": "pending_exec",
+          "has_code_repo": false,
+          "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+        }
+      },
+      "D2_claim_evidence_integrity": {
+        "claim_grounding_ratio": 0.0,
+        "grounded_numbers": 0,
+        "statement_numbers": 35,
+        "falsifiability_presence_proxy": 1.0,
+        "status_honesty_mix": {
+          "supported": 8
+        },
+        "orphan_claims_no_proof": [],
+        "orphan_experiments_no_claim": [],
+        "n_claims": 8,
+        "n_experiments": 7,
+        "evidence_relevance_D1": {
+          "status": "pending_model"
+        },
+        "falsifiability_quality_D2": {
+          "status": "pending_model"
+        },
+        "scope_calibration_D3": {
+          "status": "pending_model"
+        }
+      },
+      "D3_process_transparency": {
+        "dead_end_density_per_claim": 0.0,
+        "n_dead_ends": 1,
+        "n_dead_ends_complete": 0,
+        "decision_branching_factor": 0,
+        "explicit_vs_inferred_ratio": 1.0,
+        "failure_knowledge_preservation": 0.077,
+        "negative_result_share": 0.0,
+        "node_type_counts": {
+          "question": 1,
+          "decision": 3,
+          "experiment": 8,
+          "dead_end": 1
+        }
+      },
+      "D4_novelty_dependency": {
+        "typed_delta_profile": {
+          "imports": 6,
+          "extends": 0,
+          "refutes": 0,
+          "bounds": 1,
+          "baseline": 1
+        },
+        "corrective_science_score": 2,
+        "n_related_work_blocks": 8,
+        "concept_count": 12,
+        "novel_claim_count": {
+          "status": "pending_model",
+          "authored_claims": 8,
+          "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+        }
+      },
+      "D6_realworld_grounding": {
+        "n_datasets_linked": 2,
+        "n_datasets_verified": 2,
+        "n_clinical_trials_linked": 0,
+        "verified_ncts": [],
+        "n_code_repos": 0,
+        "pdf_open_access": true,
+        "pdf_downloaded": true,
+        "claim_vs_endpoint_concordance": {
+          "status": "pending_external",
+          "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+        },
+        "target_compound_resolvability": {
+          "status": "pending_external",
+          "note": "needs ChEMBL resolution"
+        }
+      },
+      "D7_artifact_quality": {
+        "seal_L1_structural_score": 1.0,
+        "core_files_present": 10,
+        "core_files_total": 10,
+        "auditor_blindspot_orphan_experiments": [],
+        "compilation_fidelity": {
+          "status": "pending_model",
+          "note": "needs source-vs-ARA recall sampling"
+        }
+      }
+    }
+  ]
+}

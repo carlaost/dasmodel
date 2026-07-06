@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+    "cite_key": "The25",
+    "doi": "10.1016/S1474-4422(25)00227-3",
+    "status": "no-pdf",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 0,
+    "resolve_url": "https://doi.org/10.1016/S1474-4422(25)00227-3",
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1474442225002273",
+    "note": " (got text/html;charset=UTF-8, 2658 bytes — likely paywall/landing page)"
+  },
+  {
+    "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+    "cite_key": "Sal26",
+    "doi": "10.1001/jamaneurol.2026.1405",
+    "status": "error",
+    "http_status": null,
+    "content_type": null,
+    "bytes": 0,
+    "resolve_url": "https://doi.org/10.1001/jamaneurol.2026.1405",
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "slug": "han26-tau-pathological-activity-in-plasma-before",
+    "cite_key": "Han26",
+    "doi": "10.64898/2026.04.03.26350110",
+    "status": "downloaded",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 1041701,
+    "resolve_url": "https://doi.org/10.64898/2026.04.03.26350110",
+    "final_url": "https://www.medrxiv.org/content/medrxiv/early/2026/04/04/2026.04.03.26350110.full.pdf",
+    "note": "followed citation_pdf_url -> https://www.medrxiv.org/content/medrxiv/early/2026/04/04/2026.04.03.26350110.full.pdf"
+  },
+  {
+    "slug": "val25-blood-biomarkers-of-alzheimer-s-disease",
+    "cite_key": "Val25",
+    "doi": "10.1038/s41467-025-66728-2",
+    "status": "downloaded",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 868848,
+    "resolve_url": "https://doi.org/10.1038/s41467-025-66728-2",
+    "final_url": "https://www.nature.com/articles/s41467-025-66728-2.pdf?error=cookies_not_supported&code=2cca61bf-ed1b-49ae-9be2-d452e770ff6b",
+    "note": "followed citation_pdf_url -> https://www.nature.com/articles/s41467-025-66728-2.pdf"
+  },
+  {
+    "slug": "ave25-uncovering-plaque-glia-niches-in-human",
+    "cite_key": "Ave25",
+    "doi": "10.1186/s44477-025-00002-z",
+    "status": "downloaded",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 3442550,
+    "resolve_url": "https://doi.org/10.1186/s44477-025-00002-z",
+    "final_url": "https://link.springer.com/content/pdf/10.1186/s44477-025-00002-z.pdf?error=cookies_not_supported&code=c0071cd8-a80c-400c-881e-6f1c23f91d15",
+    "note": "followed citation_pdf_url -> https://link.springer.com/content/pdf/10.1186/s44477-025-00002-z.pdf"
+  },
+  {
+    "slug": "zim25-donanemab-in-early-symptomatic-alzheimer-s",
+    "cite_key": "Zim25",
+    "doi": "10.1016/j.tjpad.2025.100446",
+    "status": "no-pdf",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 0,
+    "resolve_url": "https://doi.org/10.1016/j.tjpad.2025.100446",
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2274580725003875",
+    "note": " (got text/html;charset=UTF-8, 2751 bytes — likely paywall/landing page)"
+  },
+  {
+    "slug": "sal26b-integrated-multi-tissue-transcriptomics-reveals-antagonistic",
+    "cite_key": "Sal26b",
+    "doi": "10.34133/csbj.0134",
+    "status": "error",
+    "http_status": null,
+    "content_type": null,
+    "bytes": 0,
+    "resolve_url": "https://doi.org/10.34133/csbj.0134",
+    "final_url": null,
+    "note": "HTTPError: HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,13 @@
+# Single-cell RNA sequencing decodes celltype- specific pathogenesis in Alzheimer’s disease
+
+- **Cite key**: Wu26
+- **Authors**: Jiale Wu
+- **Year**: 2026  (2026-02-28)
+- **Journal**: MedScien
+- **DOI**: 10.61173/vcqdw178
+- **URL**: https://doi.org/10.61173/vcqdw178
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Alzheimer ’s disease (AD) is the most prevalent neurodegenerative dementia, characterized by progressive cognitive decline, amyloid-beta (Aβ) plaques, and neurofibrillary tangles. Its cell-type-specific pathogenic mechanisms remain unclear due to conventional bulk sequencing’s limitation of averaging gene expression across heterogeneous brain tissues, hindering curative therapy development. Single-cell RNA sequencing (scRNA-seq) has emerged as a transformative tool to dissect AD’s cellular heterogeneity, enabling highresolution analysis of cell-type-specific transcriptional changes. This paper synthesizes key scRNA-seq findings in AD: it reveals region-dependent vulnerability of excitatory and inhibitory neurons, leading to disrupted excitatoryinhibitory (E/I) balance, identifies dynamic transitions of disease-associated microglia (DAM) from protective phagocytosis to maladaptive neuroinflammation, and uncovers disease-associated astrocytes (DAA) contributing to pathology via excitotoxicity, inflammation, and lipid dysregulation. It also discusses scRNA-seq limitations (e.g., postmortem sample reliance, high costs) and proposes future directions like spatial transcriptomics integration. By summarizing scRNA-seq-driven insights, this paper provides a foundation for cell-type-specific therapeutic strategies and precision medicine in AD.

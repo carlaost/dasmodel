@@ -1,0 +1,13 @@
+# Cell type–specific gene regulatory atlas prioritizes drug targets and repurposable medicines in Alzheimer's disease
+
+- **Cite key**: Ren26
+- **Authors**: Yunxiao Ren; Ming Hu; Yang E. Li; Andrew A. Pieper; J. Cummings; Feixiong Cheng
+- **Year**: 2026  (2026-01-21)
+- **Journal**: Genome Research
+- **DOI**: 10.1101/gr.280436.125
+- **URL**: https://doi.org/10.1101/gr.280436.125
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Alzheimer's disease (AD) is a complex and poorly understood neurodegenerative disorder that lacks sufficiently effective treatments. Computational and integrative analyses that leverage multiomic data provide a promising strategy to uncover disease mechanisms and identify therapeutic opportunities. Here, we develop a cell type–specific regulatory atlas of the human middle temporal gyrus via leveraging single-nucleus RNA-seq (1,197,032 nuclei) and ATAC-seq (740,875 nuclei) data sets from 84 donors across four stages of AD neuropathological change (ADNC). We observe differential gene expression for six major cell types intensified at severe ADNC. Integrating peak-to-gene linkages and motif enrichment analyses, we reconstruct transcription factor (TF)–target gene networks across six major brain cell types. By integrating genome-wide association study (GWAS) loci with cell type–specific cis-regulatory DNA elements (CREs), we pinpoint 141 ADNC-associated genes. Using gene set enrichment analysis (GSEA) and network proximity analysis, we further identify nine candidate repurposable drugs that were associated with these ADNC-related genes. In summary, this cell type–specific multiomic atlas provides a comprehensive resource for mechanistic understanding, target prioritization, and therapeutic hypothesis generation in AD and AD-related dementia if broadly applied.

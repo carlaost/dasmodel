@@ -1,0 +1,105 @@
+# Exploration Tree — alb26-early-detection-of-alzheimer-s-disease
+# Research DAG reconstructed from the ABSTRACT ONLY (no full text available).
+# Nodes grounded directly in abstract sentences are marked support_level: explicit
+# (source_refs: "Abstract"); nodes reconstructing plausible research structure not stated
+# in the abstract are marked support_level: inferred. No dead_end/decision is invented — only
+# the transform choice (CWT>STFT) and model choice (ViT best) are stated as outcomes, so they
+# appear as decisions grounded in the abstract's own comparative statements.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract"]
+    title: "Can olfactory-evoked EEG enable reliable early detection of Alzheimer's disease?"
+    description: "Central objective: develop a reliable approach for early AD detection by analysing EEG evoked by olfactory stimuli, motivated by the reported smell-impairment/early-AD correlation."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Abstract"]
+        title: "Use olfactory-stimulus-evoked EEG as the biomarker signal"
+        choice: "Record/reuse EEG evoked by olfactory stimuli (rose/lemon oddball) rather than resting-state EEG."
+        alternatives:
+          - "Resting-state EEG"
+          - "Non-EEG modalities (imaging, fluid biomarkers)"
+        evidence: "Abstract: 'a significant correlation between an impaired sense of smell and the onset of early AD'; approach 'analyzes EEG signals generated in response to olfactory stimuli'."
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Abstract", "sources.yaml"]
+            title: "Reuse the public olfactory-EEG cohort (35 seniors)"
+            choice: "Use the Sedghizadeh/Aghajan/Vahabi Mendeley dataset (DOI 10.17632/sgzbgwjfkr.5): 13 AD, 7 aMCI, 15 healthy."
+            alternatives:
+              - "Collect a new EEG cohort"
+            evidence: "Verified via the paper's Semantic Scholar reference list (sources.yaml data entry)."
+            children:
+
+              - id: N04
+                type: question
+                support_level: inferred
+                title: "Which EEG-to-image transform best preserves discriminative structure?"
+                description: "Reconstructed sub-question: convert EEG to 2-D time-frequency images and choose between STFT and CWT."
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract"]
+                    title: "Compare STFT vs CWT time-frequency images, patient-wise"
+                    result: "Patient-wise performance was highest using the CWT (CWT > STFT)."
+                    evidence: [C03]
+                    children:
+
+                      - id: N06
+                        type: decision
+                        support_level: explicit
+                        source_refs: ["Abstract"]
+                        title: "Adopt CWT as the EEG-to-image transform"
+                        choice: "Use CWT scalograms for the best-performing configuration."
+                        alternatives:
+                          - "STFT spectrograms"
+                        evidence: "Abstract: 'patient-wise performance was highest using the CWT'."
+
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract"]
+                title: "Compare deep image classifiers on the time-frequency images"
+                result: "ViT best; image-level CNN family: CNN+CatBoost 81.66%, CNN 81.25%, ResNet50 80.69%, VGG16 79.82%."
+                also_depends_on: [N05]
+                evidence: [C01, C02]
+                children:
+
+                  - id: N08
+                    type: decision
+                    support_level: explicit
+                    source_refs: ["Abstract"]
+                    title: "Select the Vision Transformer as the classifier"
+                    choice: "Use ViT on CWT images — best diagnostic accuracy (91.43% patient-level, 85.18% image-level)."
+                    alternatives:
+                      - "Custom CNN"
+                      - "Custom CNN + CatBoost"
+                      - "ResNet50 (transfer learning)"
+                      - "VGG16 (transfer learning)"
+                    evidence: "Abstract: ViT 'produced the best diagnostic accuracy'; all CNN-family models below 85.18% at image level."
+
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract"]
+                title: "Evaluate at both image level and patient level"
+                result: "Best config (CWT+ViT) reached 91.43% at the patient level and 85.18% at the image level; patient-wise foregrounded as primary."
+                also_depends_on: [N06, N08]
+                evidence: [C01, C02, C04]
+
+      - id: N10
+        type: question
+        support_level: inferred
+        title: "Do the accuracies establish olfactory-evoked EEG as a usable early-AD biomarker?"
+        description: "Reconstructed synthesis question: whether above-chance multi-model accuracy on this cohort supports the biomarker claim, given the small single-site sample."
+        also_depends_on: [N09]

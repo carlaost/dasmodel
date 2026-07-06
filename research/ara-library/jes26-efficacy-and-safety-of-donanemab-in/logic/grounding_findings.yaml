@@ -1,0 +1,263 @@
+# RC7 semantic grounding findings (frozen [sem] pass) for jes26-efficacy-and-safety-of-donanemab-in.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. All 23 quotes were checked
+# against `research/data/lib/jes26-efficacy-and-safety-of-donanemab-in/paper.pdf` (extracted via
+# pdftotext -layout, cross-referenced against evidence/tables/*.md and evidence/figures/*.md). This
+# is a well-behaved compilation: essentially every quote is a verbatim (or near-verbatim,
+# minus-sign/OCR-hyphen-level) extraction from the source text or tables. The one notable issue is
+# outside these quotes entirely: claims.md C09's Statement contains an added clause ("amyloid
+# clearance was maintained after treatment completion") with no corresponding Sources quote, which
+# mischaracterizes the paper's actual Discussion text (amyloid reaccumulates post-treatment at a
+# natural pace) -- flagged in sem_findings.yaml, not reproducible here since no quote exists for it.
+
+- claim_id: C01
+  number: "-13.0 (0.6) / -10.6 (0.6); difference 2.3 [0.7, 3.9]; p=0.005; 18% [5.2, 30.6]"
+  quote: "the adjusted mean (SE) change from baseline in the iADRS score in the EU-eligible population using the hybrid imputation method was −13.0 (0.6) and −10.6 (0.6) in the placebo and donanemab arms, respectively (difference, 2.3 [95% CI: 0.7, 3.9]; p=0.005), representing an 18% (95% CI: 5.2, 30.6) slowing of disease progression"
+  source: "paper.pdf p3 §3.1.2.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match against pdftotext extraction (line 212-217 of extracted text); only difference is typographic minus sign vs ASCII hyphen."
+
+- claim_id: C01
+  number: "2.32 (0.69, 3.95); p=0.005; 17.9% (5.2, 30.6)"
+  quote: "2.32 (0.69, 3.95) … 0.005 … 17.9% (5.2, 30.6)"
+  source: "paper.pdf p6 Table 2, iADRS Conservative hybrid imputation row"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 2 iADRS row exactly; independently corroborated by evidence/tables/table2.md."
+
+- claim_id: C02
+  number: "-0.7 (95% CI: -1.0, -0.4); p<0.001; 28% (15.2, 41.3)"
+  quote: "the adjusted mean change from baseline difference in the CDR-SB score between the donanemab and placebo arms was −0.7 (95% CI: −1.0, −0.4; p<0.001), with a 28% (95% CI: 15.2, 41.3) slowing of disease progression"
+  source: "paper.pdf p3 §3.1.2.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match against extracted text."
+
+- claim_id: C02
+  number: "-0.67 (-0.97, -0.37); 28.2% (15.2, 41.3)"
+  quote: "−0.67 (−0.97, −0.37) … 28.2% (15.2, 41.3)"
+  source: "paper.pdf p6 Table 2, CDR-SB Conservative hybrid imputation row"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 2 CDR-SB row exactly."
+
+- claim_id: C03
+  number: "40.3% lower; N=581/174 events vs N=581/247 events; HR=0.597 [0.5, 0.8]; p<0.001"
+  quote: "40.3% lower with donanemab (N=581; 174 events) compared with placebo (N=581; 247 events) over the 76-week trial in the EU-eligible population (HR=0.597 [95% CI: 0.5, 0.8]; p<0.001)"
+  source: "paper.pdf p4 §3.1.2.1.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match."
+
+- claim_id: C03
+  number: "47.2%; HR=0.528 [0.3, 0.9]; p=0.024; N=565/41 events, N=567/65 events"
+  quote: "reduced by 47.2% (donanemab, N=565 [41 events]; placebo, N=567 [65 events]; HR=0.528 [95% CI: 0.3, 0.9]; p=0.024)"
+  source: "paper.pdf p4 §3.1.2.1.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match."
+
+- claim_id: C03
+  number: "HR 0.597 (0.473, 0.754); HR 0.528 (0.303, 0.919)"
+  quote: "CDR-G score (95% CI) … 0.597 (0.473, 0.754) … CDR-G score ≥2 (95% CI) … 0.528 (0.303, 0.919)"
+  source: "paper.pdf p7 Table 3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 3 exactly, giving the more precise CIs than the narrative text's rounded [0.5,0.8]/[0.3,0.9]."
+
+- claim_id: C04
+  number: "memory 29.3% p<0.001; orientation 25.5% p=0.005; judgement/problem solving 29.9% p=0.002; home and hobbies 28.1% p<0.001; personal care 31.4% p=0.011; community affairs 16.2% p=0.052"
+  quote: "the percent slowing was 29.3% (p<0.001) for memory, 25.5% (p=0.005) for orientation, and 29.9% (p=0.002) for judgement and problem solving. The percent slowing for functional domains was 28.1% (p<0.001) for home and hobbies and 31.4% (p=0.011) for personal care … community affairs showed a favourable trend for donanemab (16.2% slowing), the difference did not reach statistical significance (p=0.052)"
+  source: "paper.pdf p3 §3.1.2.1.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All six domain values verbatim; correctly preserves community affairs as non-significant (p=0.052) rather than rounding to significant."
+
+- claim_id: C05
+  number: "37% vs 22% at 52 weeks p<0.001; 25% vs 18% at 76 weeks p=0.006"
+  quote: "37% of donanemab-treated participants … were shown to be clinically stable … at 52 weeks compared with 22% of participants who received placebo (p<0.001). Furthermore, 25% of donanemab-treated participants versus 18% of participants who received placebo had not progressed by 76 weeks (p=0.006)"
+  source: "paper.pdf p4 §3.1.2.1.3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match."
+
+- claim_id: C05
+  number: "117/478, 193/481; 91/451, 128/439"
+  quote: "at 52 weeks n/N 117/478 193/481 … at 76 weeks n/N 91/451 128/439"
+  source: "paper.pdf p7 Table 3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 3 n/N rows exactly."
+
+- claim_id: C06
+  number: "4.9 months (3.1, 6.8); 6.9 months (4.9, 8.9), additional 2 months"
+  quote: "delayed by 4.9 months (95% CI: 3.1, 6.8), as assessed by the CDR-SB … the low-medium population was delayed by an additional 2 months (for a total of 6.9 months [95% CI: 4.9, 8.9])"
+  source: "paper.pdf p4 §3.1.2.1.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match; independently corroborated by evidence/figures/figure2.md's panel table."
+
+- claim_id: C07
+  number: "-75.8 CL [-79.4, -72.2]; p<0.001; 33.5%, 69.7%, 80.5% at weeks 24, 52, 76; P-tau217 -0.20 [-0.22, -0.17]"
+  quote: "adjusted mean change difference from placebo: −75.8 CL [95% CI: −79.4, −72.2]; p<0.001), resulting in 33.5%, 69.7%, and 80.5% of donanemab-treated participants achieving amyloid clearance (<24.1 CL) at weeks 24, 52, and 76 … difference from that of placebo of −0.20 (95% CI, −0.22, −0.17)"
+  source: "paper.pdf p4 §3.1.2.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match."
+
+- claim_id: C07
+  number: "0/464 (0.0%), 363/451 (80.5% [76.6, 83.9])"
+  quote: "0/464 (0.0%), 363/451 (80.5% [76.6, 83.9])"
+  source: "paper.pdf p7 Table 3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 3 amyloid-clearance-at-76-weeks row exactly."
+
+- claim_id: C08
+  number: "ARIA-E 19.5% (119/609); symptomatic 4.9% (30/609); serious 1.0% (6/609); no ARIA deaths"
+  quote: "incidence of ARIA-E … was 2.0% (12/603) and 19.5% (119/609) … symptomatic and serious ARIA-E in donanemab-treated participants was 4.9% (30/609) and 1.0% (6/609) … no ARIA-related deaths"
+  source: "paper.pdf p4 §3.1.3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All numeric fragments are genuine paper text, but the quote's ellipsis splices sentences in a different order than they appear in the source (the 'no ARIA-related deaths' sentence actually precedes the ARIA-E incidence sentence in the original text, discussing a different topic -- overall death rate -- in between). Content and polarity are unaffected; flagged as a minor reordering, not a distortion."
+
+- claim_id: C08
+  number: "ARIA-H 26.4% (161/609); IRR 8.0% (49)"
+  quote: "ARIA-H incidence was 11.1% (67/603) and 26.4% (161/609) … Infusion-related reactions were reported for one participant (0.2%) who received placebo and 49 (8.0%) who received donanemab"
+  source: "paper.pdf p4 §3.1.3"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match (ellipsis correctly elides an intervening sentence about isolated ARIA-H without reordering)."
+
+- claim_id: C08
+  number: "32.0% vs 36.8%; 74.8% asymptomatic; 94.9% mild-moderate"
+  quote: "overall frequency of ARIA events was reduced by approximately 5% … (32.0% vs 36.8%, respectively) … majority of ARIA-E events … being asymptomatic (74.8%) and of mild to moderate radiographic severity (94.9%)"
+  source: "paper.pdf p4 §4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match against Discussion text (source PDF renders '32.0%vs 36.8%' with a missing space -- an OCR/typesetting artifact -- which the quote normalizes with a space; not a content change."
+
+- claim_id: C08
+  number: "deaths 7 (1.2) / 8 (1.3); any ARIA 75 (12.4) / 195 (32.0)"
+  quote: "Deaths 7 (1.2) 8 (1.3) … Any ARIA (ARIA-E or ARIA-H) 75 (12.4) 195 (32.0)"
+  source: "paper.pdf p8 Table 4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 4 rows exactly."
+
+- claim_id: C09
+  number: "increasing effect over 154 weeks; early-start met criteria by 52/76 weeks"
+  quote: "An increasing treatment effect was demonstrated over 154 weeks for donanemab-treated participants compared to the untreated propensity-weighted ADNI cohort, including for early-start participants who met treatment completion criteria by 52 weeks and 76 weeks"
+  source: "paper.pdf p6 §4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match against Discussion text."
+
+- claim_id: C09
+  number: "29% lower risk early-start vs delayed-start at 154 weeks"
+  quote: "At 154 weeks, participants who were treated earlier with donanemab (early-start group) demonstrated a 29% lower risk of progressing to the next stage of disease than participants who started donanemab treatment later (delayed-start group)"
+  source: "paper.pdf p6 §4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match."
+
+- claim_id: C09
+  number: "74.8% of early-start received placebo for entire LTE"
+  quote: "most (74.8%) of the early-start participants received placebo for the entirety of the LTE"
+  source: "paper.pdf p6 §4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match. NOTE: none of C09's three Sources quotes support the Statement's additional clause 'and amyloid clearance was maintained after treatment completion' -- no quote exists for that clause and it is not grounded; see sem_findings.yaml for the fidelity issue (the source actually describes post-treatment amyloid REACCUMULATION at a natural pace, not maintained clearance)."
+
+- claim_id: C10
+  number: "28.2% (with) / 30.8% (without) hybrid imputation vs 28.9% overall population"
+  quote: "donanemab-mediated slowing of disease progression, as measured by CDR-SB, was 28.2% and 30.8% in the EU-eligible population with and without the hybrid imputation method respectively, compared to 28.9% in the overall TRAILBLAZER-ALZ 2 population (without imputation)"
+  source: "paper.pdf p5 §4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match against Discussion text."
+
+- claim_id: C10
+  number: "18% to 28% slowing at week 76"
+  quote: "with an 18% to 28% slowing of disease progression compared to placebo at week 76"
+  source: "paper.pdf p4 §4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match; consistent with Table 2's actual conservative-imputation range of 17.9%-28.2% across the five scales."
+
+- claim_id: C10
+  number: "Original vs conservative full row set (iADRS 2.52 vs 2.32; CDR-SB -0.73 vs -0.67; ADAS-Cog13 -1.64 vs -1.37; ADCS-iADL 1.25 vs 1.24; MMSE 0.73 vs 0.61)"
+  quote: "iADRS 2.52 (0.89, 4.14) … 2.32 (0.69, 3.95) … CDR-SB −0.73 (−1.03, −0.43) … −0.67 (−0.97, −0.37) …"
+  source: "paper.pdf p6 Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Table 2 rows exactly for the two named scales; the claims.md parenthetical also cites ADAS-Cog13/ADCS-iADL/MMSE values, all independently verified against the same table."

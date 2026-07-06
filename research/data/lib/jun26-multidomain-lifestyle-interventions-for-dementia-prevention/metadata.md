@@ -1,0 +1,13 @@
+# MULTIDOMAIN LIFESTYLE INTERVENTIONS FOR DEMENTIA PREVENTION: FROM MECHANISMS TO CLINICAL IMPLEMENTATION A NARRATIVE REVIEW
+
+- **Cite key**: Jun26
+- **Authors**: Tipatat Junhasavasdikul
+- **Year**: 2026  (2026-03-31)
+- **Journal**: International Journal of Advanced Research
+- **DOI**: 10.21474/ijar01/22982
+- **URL**: https://doi.org/10.21474/ijar01/22982
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background: Dementia represents one of the most pressing global health challenges of the 21st century, with over 55 million people currently affected and projections exceeding 150 million by 2050. Given the multifactorial etiology of late-onset dementia, interventions targeting multiple modifiable risk factors simultaneously have emerged as the most promising prevention strategy. The 2024 Lancet Commission on dementia identified 14 modifiable risk factors accounting for approximately 45% of global dementia cases, providing a strong rationale for multidomain approaches. Methods: We conducted a narrative review of the literature by searching PubMed, Web of Science, and Google Scholar databases using combinations of the following terms: multidomain intervention, dementia prevention, lifestyle intervention, cognitive decline, FINGER trial, modifiable risk factors, and neuroplasticity. We included randomized controlled trials, systematic reviews, meta-analyses, and observational studies published primarily between 2014 and 2025. Landmark trials and their subgroup analyses, biological mechanism studies, and global adaptation initiatives were prioritized. Reference lists of key articles were additionally hand-searched for relevant publications.

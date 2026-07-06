@@ -1,0 +1,78 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Quote is the exact abstract sentence reporting AAPC=3.18; directly addresses the Statement's trend claim."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Names a reproducible protocol (rerun joinpoint regression on CDC WONDER with the same codes/ages/years) but the pass/fail bar is just 'materially different from 3.18' with no pre-specified tolerance — a negation of the Statement dressed as a method, not an independent pre-registered threshold."}
+    scope_calibration: {verdict: calibrated, note: "Claims a US 1999-2020 trend only, matching the CDC WONDER query scope; no universal/causal overreach."}
+    novelty: {verdict: novel, note: "No related_work edge reports this specific AAPC; it is this paper's own first tabulation of the trend from CDC WONDER, though the novelty is purely descriptive/registry-statistical, not mechanistic."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Quote is the exact sentence reporting both the death count and overall AAMR."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'A materially different death count or overall AAMR' just restates 'refuted if the number were different', no new threshold or independent design beyond re-running the same defined query."}
+    scope_calibration: {verdict: calibrated, note: "Scope matches: US, same ICD-10 codes/ages/years as the data source."}
+    novelty: {verdict: novel, note: "First reported tabulation of this specific 22-year AD death count/AAMR in this dataset; no prior-work edge claims it."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "Quote directly gives both sex-specific AAMRs cited."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Materially different' / 'males >= females' is a direct negation of the Statement with no independent threshold specified."}
+    scope_calibration: {verdict: calibrated, note: "Sex-stratified claim matches the sex-stratified evidence exactly, no overreach."}
+    novelty: {verdict: novel, note: "Sex-disparity figures specific to this cohort/window; not attributed to any RW edge."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "Quote lists all five race/ethnicity AAMRs in the exact rank order claimed."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'A different ordering, or materially different values' is a mechanical negation of the stated ranking, no new operationalization."}
+    scope_calibration: {verdict: calibrated, note: "Claim is explicitly descriptive/correlational ('by race/ethnicity, AAMR was...'), matching the abstract; Interpretation field itself flags it does not adjust for confounders, so no causal overreach in the Statement."}
+    novelty: {verdict: novel, note: "First race/ethnicity-stratified AD AAMR ranking for this window; no competing RW claim."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "Quote directly states the 85+ CMR value."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the stated ranking/value, no independent threshold."}
+    scope_calibration: {verdict: calibrated, note: "Explicitly a crude (not age-adjusted) rate for one age band, and the Interpretation field notes this — scope matches what's reported."}
+    novelty: {verdict: novel, note: "Age-stratified CMR peak for AD in this dataset; not previously reported per related_work.md."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "Quote gives both rural and urban AAMRs cited."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Urban >= rural, or materially different values' just negates the Statement; no urbanization classification or threshold is pinned down (Interpretation admits the classification scheme isn't even reported)."}
+    scope_calibration: {verdict: calibrated, note: "Rural/urban comparison matches the stratification actually reported."}
+    novelty: {verdict: novel, note: "First rural/urban AD-mortality comparison in this cohort/window per available related work."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Quote gives both regional AAMRs (Midwest, Northeast) cited."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the stated highest/lowest region, no independent threshold."}
+    scope_calibration: {verdict: calibrated, note: "Statement explicitly limits to the two extreme regions reported (South/West values are noted as unavailable in Interpretation) -- no overreach to a full ranking."}
+    novelty: {verdict: novel, note: "First census-region AD AAMR comparison in this dataset per available related work."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "Quote gives all four state AAMRs cited."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Clustered together, or materially different values' negates the Statement; Interpretation itself notes only 4 illustrative states are named, not a full ranking, so the falsification test can't even be run against a full state list."}
+    scope_calibration: {verdict: calibrated, note: "Statement says 'varied substantially' and names only the four illustrative states actually reported -- matches evidence, does not claim a full 50-state ranking."}
+    novelty: {verdict: novel, note: "First state-level illustrative AD AAMR comparison in this dataset per available related work."}
+compilation_fidelity_samples:
+  - fact: "6,697,209 deaths attributed to AD, 1999-2020, AAMR 90.727"
+    pdf_location: "no paper.pdf available (paywalled, oa_status closed per metadata.md/sources.yaml); source is research/data/lib/.../metadata.md abstract RESULTS section"
+    captured_in_ara: true
+    note: "Verbatim match between metadata.md RESULTS and claims.md C02 Sources quote."
+  - fact: "AAPC 3.18 for the 1999-2020 trend"
+    pdf_location: "metadata.md abstract RESULTS"
+    captured_in_ara: true
+    note: "Verbatim match with claims.md C01."
+  - fact: "Female AAMR 94.31 vs male 83.23"
+    pdf_location: "metadata.md abstract RESULTS"
+    captured_in_ara: true
+    note: "Verbatim match with claims.md C03."
+  - fact: "Race/ethnicity AAMRs: NH Black 94.53, NH White 93.73, NH American Indian 66.80, Hispanic 66.33, NH Asian 46.16"
+    pdf_location: "metadata.md abstract RESULTS"
+    captured_in_ara: true
+    note: "Verbatim match with claims.md C04, same rank order preserved."
+  - fact: "Rural 95.080 vs urban 89.772 AAMR"
+    pdf_location: "metadata.md abstract RESULTS"
+    captured_in_ara: true
+    note: "Verbatim match with claims.md C06."
+  - fact: "Midwest 96.131 vs Northeast 78.564 AAMR"
+    pdf_location: "metadata.md abstract RESULTS"
+    captured_in_ara: true
+    note: "Verbatim match with claims.md C07."
+  - fact: "State AAMRs: SC 119.789, TN 113.624, NY 64.16, FL 68.677"
+    pdf_location: "metadata.md abstract RESULTS"
+    captured_in_ara: true
+    note: "Verbatim match with claims.md C08."
+  - fact: "Methods: ICD-10 codes F01/F03/G30/G31.1, ages 45+, joinpoint regression, CDC WONDER"
+    pdf_location: "metadata.md abstract METHODS"
+    captured_in_ara: true
+    note: "Faithfully reflected in logic/related_work.md RW01-RW04 (data source, case definition, joinpoint method, age-standardization)."
+  - fact: "No PDF/full-text was accessible (paywalled, HTTP 402); no tables/figures beyond the abstract"
+    pdf_location: "metadata.md 'Discovered sources' section"
+    captured_in_ara: true
+    note: "evidence/README.md and claims.md's own preamble both honestly flag the abstract-only grounding rather than fabricating table/figure evidence -- this is the compiler behaving correctly under a genuine source-access constraint, not a fidelity failure."

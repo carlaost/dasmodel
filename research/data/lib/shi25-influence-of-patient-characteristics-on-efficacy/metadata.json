@@ -1,0 +1,15 @@
+{
+  "idx": 81,
+  "cite_key": "Shi25",
+  "title": "Influence of patient characteristics on efficacy and safety of anti-amyloid monoclonal antibodies in Alzheimer's disease: A systematic review and meta-analysis.",
+  "authors": "Grace H. Shim; Edward C. Y. Lau; A. Huynh; Christine Y. Lu; Edwin C. K. Tan",
+  "year": "2025",
+  "pub_date": "2025-12-04",
+  "journal": "Ageing research reviews",
+  "abstract": "BACKGROUND\nLecanemab and donanemab are the first anti-amyloid monoclonal antibodies (mAbs) clinically available as disease-modifying therapies for Alzheimer's disease (AD). However, it remains unclear whether their treatment effects differ across demographic, clinical, or genetic subgroups.\n\n\nOBJECTIVE\nThis systematic review aimed to explore how patient characteristics modify the efficacy, safety and humanistic outcomes of anti-amyloid mAbs lecanemab and donanemab in patients with early AD.\n\n\nMETHODS\nA systematic search of MEDLINE, Embase, Scopus, Web of Science, and Cochrane Library was conducted from database inception to July 30th, 2025, using a combination of keywords and Medical Subject Heading terms relating to lecanemab and donanemab. Meta-analyses were conducted for safety outcomes where sufficient data was available.\n\n\nRESULTS\nSixteen studies representing six randomised clinical trials (total N=5633) were included. Both lecanemab and donanemab showed the greatest slowing of cognitive decline in White/Caucasian patients and apolipoprotein E4 (ApoE4) non-carriers. Amyloid-related imaging abnormalities with edema/effusion (ARIA-E) and microhemorrhages (ARIA-H) were more prevalent in ApoE4 carriers. The risk of ARIA-E was 2.19 times higher (95%CI:1.91-2.50) and ARIA-H was 3.45 times higher (95%CI:1.35-8.72) in ApoE4 carriers versus non-carriers. Statistically significant improvements in health-related quality of life were observed with lecanemab in ApoE4 heterozygous participants and in those aged 65-74 years.\n\n\nCONCLUSIONS\nThe efficacy and safety of anti-amyloid mAbs in AD may differ based on patients' demographic and genetic factors. These findings highlight the potential for personalised treatment strategies and inform national drug policies. Further research is needed to evaluate long-term outcomes and address under-studied patient populations.\n\n\nSUMMARY\nThe efficacy and safety of lecanemab and donanemab varied across patient subgroups, including age, sex, race/ethnicity and genetic factors such as ApoE4 genotype status. The risk of ARIA was higher in ApoE4 carriers, particularly the homozygous.",
+  "citation_count": "4",
+  "citations_per_year": "6.8",
+  "doi": "10.1016/j.arr.2025.102981",
+  "url": "https://doi.org/10.1016/j.arr.2025.102981",
+  "slug": "shi25-influence-of-patient-characteristics-on-efficacy"
+}

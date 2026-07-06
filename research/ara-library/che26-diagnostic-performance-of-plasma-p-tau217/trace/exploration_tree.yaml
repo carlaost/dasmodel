@@ -1,0 +1,134 @@
+# Exploration Tree — che26-diagnostic-performance-of-plasma-p-tau217
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Introduction", "§2 Methods", "Abstract"]
+    title: "Which plasma p-tau isoform, platform, and matrix is optimal across the AD continuum?"
+    description: "No consensus exists on the optimal p-tau isoform (217/181/231), analytical platform (MS vs. immunoassay), or matrix (plasma vs. serum) for detecting Abeta pathology, tau pathology, and predicting cognitive decline. The review asks this simultaneously via network meta-analysis."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§2.5", "Figure 2"]
+        title: "Model each biomarker+platform combination as a distinct NMA node"
+        choice: "Bayesian/frequentist network meta-analysis with nodes categorized by epitope (217 vs. 181) and platform (MS vs. AutoIA), combining direct and indirect evidence."
+        alternatives:
+          - "Traditional pairwise meta-analysis of one assay pair at a time"
+          - "Narrative review of single-center studies"
+        evidence: "Enables ranking all options simultaneously against a common comparator (P-scores)."
+        children:
+
+          - id: N08
+            type: decision
+            support_level: explicit
+            source_refs: ["§2.5", "Figure 3"]
+            title: "Set p181_IA (standard p-tau181 immunoassay) as the reference comparator"
+            choice: "Use p181_IA as the baseline node against which all AUC mean differences are computed."
+            alternatives:
+              - "Use p217_MS (best performer) as reference"
+              - "No fixed reference (all pairwise contrasts)"
+            evidence: "p-tau181 was the prior clinical standard, so contrasts vs. it are clinically interpretable."
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["§2.3"]
+            title: "Hierarchical de-overlapping of shared cohorts (crucial step)"
+            choice: "For each shared cohort (BioFINDER-1/2, ADNI, TRIAD, WRAP), select only the single most comprehensive dataset (or one per distinct clinical outcome)."
+            alternatives:
+              - "Pool all studies naively (double-counts patients)"
+              - "Exclude all overlapping cohorts entirely"
+            evidence: "Yielded 24 statistically independent datasets from 18 publications; preserves statistical independence."
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 2 Outcome 1", "Figure 3A", "§3.2"]
+                title: "NMA of diagnostic accuracy for amyloid-beta positivity (E01)"
+                result: "p217_MS ranked first (P-score 0.859), then p217_Ratio (0.783) and p217_ALZpath (0.686); p181_IA ranked last (0.117). p217_MS AUC advantage vs. baseline MD 0.10 [0.04; 0.16]."
+                evidence: [C01, C08]
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 2 Outcome 2", "Table 2 Outcome 3", "Figure 3B", "§3.3", "§3.4"]
+                title: "NMA for Tau-PET recognition and MCI-to-AD progression (E03)"
+                result: "p217_MS ranked first for both Tau-PET recognition (P-score 0.907) and MCI-to-AD progression (0.821); p181_IA failed to discriminate Tau-PET (0.090). p217_MS Tau-PET AUC improvement MD 0.13 [0.05; 0.22]."
+                evidence: [C03, C08]
+
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 2 Outcome 4", "§3.5"]
+                title: "NMA of technical platform and matrix efficiency (E06)"
+                result: "MS ranked first for precision (P-score 0.953); automated IA (Lumipulse) second (0.706), outperforming manual IA (0.268); serum p-tau217 comparable to plasma (0.568)."
+                evidence: [C06, C07]
+
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["§4.2", "§3.6"]
+                title: "Disease-stage subgroup analysis (preclinical vs. symptomatic) (E04)"
+                result: "In the preclinical subgroup for Abeta detection, p-tau231 achieved the highest rank (P-score 0.66); p217_MS remained top-performing in the symptomatic subgroup (stability)."
+                evidence: [C04]
+
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["§4.3", "§3.6", "Abstract"]
+                title: "Ethnicity subgroup analysis (Han Chinese vs. Western) (E05)"
+                result: "p-tau217 achieved a P-score of 1.00 across the Han Chinese cohorts (Huashan, GBA); performance consistent with Western cohorts."
+                evidence: [C05]
+
+      - id: N13
+        type: decision
+        support_level: explicit
+        source_refs: ["§3.6", "§4.1"]
+        title: "Adopt ratio-based (p-tau217/Abeta42) over single-analyte measurement on automated platforms"
+        choice: "Recommend the p-tau217/Abeta42 ratio for automated platforms."
+        alternatives:
+          - "Single-analyte p-tau217 only"
+        evidence: "Pooled incremental AUC gain MD 0.025 (95% CI 0.005-0.045; I2 = 0%), bridging the gap with MS."
+        children:
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.6", "Supplementary Table S2"]
+            title: "Meta-analysis of the incremental AUC gain from the ratio (E02)"
+            result: "Ratio vs. single-analyte gave a significant MD of 0.025 (95% CI 0.005-0.045) with zero heterogeneity (I2 = 0%)."
+            also_depends_on: [N04]
+            evidence: [C02]
+
+      - id: N11
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Table 2", "§4.1"]
+        title: "Standard p-tau181 immunoassay as a high-precision AD marker"
+        hypothesis: "p-tau181 (the historical plasma standard) would remain competitive for high-precision diagnosis and staging."
+        failure_mode: "p181_IA ranked last or near-last on every outcome (Abeta 0.117; MCI-to-AD 0.159; Tau-PET 0.090; platform 0.006) and failed to discriminate Tau-PET status."
+        lesson: "Standard p-tau181 is effectively obsolete for high-precision AD diagnostics (P-score < 0.20); use p-tau217 variants instead."
+
+      - id: N12
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Table 2 Outcome 1", "Table 2 Outcome 2", "§4.2"]
+        title: "p-tau231 as a general-purpose marker across the whole AD continuum"
+        hypothesis: "p-tau231 might rank highly across all disease stages given its early-rise biology."
+        failure_mode: "Across the full continuum p231_UGOT ranked near-last (Abeta 0.145; MCI-to-AD 0.042); its advantage was confined to the preclinical subgroup."
+        lesson: "p-tau231 is a specialized early-amyloidosis 'smoke detector', not a general staging/prognosis marker — supporting a stage-specific 'relay' strategy."
+
+      - id: N14
+        type: pivot
+        support_level: inferred
+        title: "Reframe isoform choice as a stage-dependent 'relay' rather than a single winner"
+        from: "Seeking one universally optimal p-tau isoform"
+        to: "A relay: p-tau231 for earliest asymptomatic amyloidosis, p-tau217 for symptomatic diagnosis/staging/prognosis"
+        trigger: "Divergent subgroup rankings (N09, N12): p-tau231 tops the preclinical subgroup while p-tau217 dominates symptomatic outcomes."
+        also_depends_on: [N09, N12]

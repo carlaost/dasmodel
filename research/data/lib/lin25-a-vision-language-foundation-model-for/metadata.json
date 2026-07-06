@@ -1,0 +1,15 @@
+{
+  "idx": 340,
+  "cite_key": "Lin25",
+  "title": "A vision–language foundation model for Alzheimer's disease diagnosis using MRI and clinical data",
+  "authors": "Ping-Ju Lin; Zhaowei Jiang; Yingxu Liu; Wei Li; Yining Qi; Jinyao Sun; Shuo Ni; Liqi Shu; Mingyang Xia; A. Toga",
+  "year": "2025",
+  "pub_date": "2025-12-01",
+  "journal": "Alzheimer's & Dementia",
+  "abstract": "Reliable early detection of Alzheimer's disease (AD) remains difficult due to heterogeneous progression trajectories and variability in clinical presentation. Multimodal approaches leveraging neuroimaging and clinical data offer promise but often struggle with effective integration and generalization.",
+  "citation_count": "2",
+  "citations_per_year": "3.4",
+  "doi": "10.1002/alz.71029",
+  "url": "https://doi.org/10.1002/alz.71029",
+  "slug": "lin25-a-vision-language-foundation-model-for"
+}

@@ -1,0 +1,22 @@
+paper:
+  slug: als25-the-role-of-glial-cell-senescence
+  doi: 10.1111/jnc.70051
+  title: "The Role of Glial Cell Senescence in Alzheimer's Disease"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC11934031?pdf=render
+  source: pmc
+code: []
+data: []
+clinical_trials: []
+notes: >
+  Narrative review article (Journal of Neurochemistry, 2025) on glial cell
+  senescence in Alzheimer's disease. No original data, code, or datasets are
+  generated or released; no Data Availability or Code Availability statement is
+  present, consistent with a review. No clinical trial (NCT) or PROSPERO
+  registration is referenced. Open access under CC BY-NC-ND; full text
+  available via PMC (PMC11934031). Verified via Europe PMC and Unpaywall
+  (is_oa=true, oa_status=hybrid). OA PDF downloaded from the Europe PMC render
+  endpoint (18 pages, ~790 KB, valid %PDF).

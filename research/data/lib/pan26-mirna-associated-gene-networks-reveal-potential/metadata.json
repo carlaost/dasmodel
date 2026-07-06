@@ -1,0 +1,15 @@
+{
+  "idx": 106,
+  "cite_key": "Pan26",
+  "title": "miRNA-associated gene networks reveal potential candidate markers for Alzheimer’s disease",
+  "authors": "Shujuan Pan; Yanfang Zhou; Xiaoyu Wang; Jinghui Tong; Yanli Li; Junchao Huang; Song Chen; Yimin Cui; Zhiren Wang; Yunlong Tan",
+  "year": "2026",
+  "pub_date": "2026-03-06",
+  "journal": "Frontiers in Molecular Biosciences",
+  "abstract": "Introduction Alzheimer’s disease (AD) is a progressive neurodegenerative disorder characterized by memory and cognitive decline. Recent studies highlight the significant role of microRNAs (miRNAs) in regulating genes related to AD. This research aims to develop miRNA-associated gene regulatory networks as candidate AD biomarkers. Methods We recruited 85 AD patients and 74 healthy controls, conducting whole blood miRNA sequencing and applying machine learning to identify differentially expressed miRNAs, which were validated by quantitative reverse transcription polymerase chain reaction (qRT-PCR). We used bioinformatics databases to predict target genes for these miRNAs and obtained gene expression data from the Gene Expression Omnibus (GEO) database (GSE122063 and GSE18309). Using the ggplot2 package in R, we discovered the overlap between miRNA target genes and differentially expressed genes (DEGs) from the GSE datasets. Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) enrichment analyses of the DEGs were then conducted using the Metascape database. Key hub genes were pinpointed by constructing a protein–protein interaction (PPI) network with the Retrieval of Interacting Genes (STRING) database and analyzing it with cytoHubba. Drug-gene interactions were predicted and examined using the Drug–Gene Interaction database (DGIdb) (http://www.dgidb.org/). Results qRT-PCR was used to confirm the expression of the hub genes. The results showed that four miRNAs (miR-192-5p, miR-484, miR-21-5p, and miR-24-2-5p) were downregulated, while two target RNAs (SLC32A1 and GAD1) were upregulated. Discussion This regulatory network, which is strongly linked to AD, has been initially identified as a candidate biomarker for AD. Our research provides new insights into the pathogenic mechanisms of AD, potentially improving the understanding of miRNAs’ role in the disease.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.3389/fmolb.2025.1699404",
+  "url": "https://doi.org/10.3389/fmolb.2025.1699404",
+  "slug": "pan26-mirna-associated-gene-networks-reveal-potential"
+}

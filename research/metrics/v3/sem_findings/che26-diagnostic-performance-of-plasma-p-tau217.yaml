@@ -1,0 +1,66 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Table 2 Outcome 1 P-scores and Figure 3A MD match the ranking and forest-plot numbers cited exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Refuted if ... p181_IA or another isoform outranked p217_MS ... or non-significant' is a grammatical negation of the Statement's own ranking/CI, run on an independent cohort only in name -- no new cohort, threshold, or design is actually specified beyond 'the same NMA'."}
+    scope_calibration: {verdict: calibrated, note: "Claim is scoped to this NMA's pooled ranking across the included cohorts, matching Table 2/Figure 3A; no universal overreach beyond what's tabulated."}
+    novelty: {verdict: restatement, note: "Every RW edge (RW01-RW10) is typed 'imports (data source)'; this ranking is the NMA's pooled restatement of those primary studies' own reported AUCs, not a new empirical finding."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Sources quotes (§3.6, Supplementary Table S2 reference) directly report the MD=0.025 and I2=0% figures asserted."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Refuted if ... CI included 0 ... or substantial heterogeneity' negates the Statement's own two numbers with no independent replication design."}
+    scope_calibration: {verdict: calibrated, note: "Scoped to 'ratio vs single-analyte' AUC gain as reported; matches §3.6 exactly."}
+    novelty: {verdict: incremental, note: "RW05/RW06 (imports) already supply ratio-vs-single-analyte cohort data; this claim's I2=0 pooled synthesis across cohorts is the NMA's own contribution, an aggregation not a new mechanism."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "Table 2 Outcome 2/3 and Figure 3B numbers match the Statement's P-scores and MD exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the stated ranking/MD, no new operationalization."}
+    scope_calibration: {verdict: over_claim, note: "Interpretation extrapolates to 'potentially reducing the need for tau-PET scans by 80%' (citing Therriault 2021, RW16) -- this specific quantitative claim is imported from a different paper's estimate, not something this NMA's own evidence (P-scores/MD) directly measures or supports; the Statement blends a measured ranking with a borrowed clinical-impact number."}
+    novelty: {verdict: restatement, note: "Pooled ranking synthesis of RW05 (imports) Tau-PET data; the 80%-reduction figure is imported wholesale from RW16, not derived here."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "§4.2 quote and Table 2 Outcome 1/2 rows for p231_UGOT match the preclinical-vs-pooled contrast asserted."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Refuted if p-tau231 did not achieve the top rank ... or no early advantage' is NOT(Statement), same subgroup analysis."}
+    scope_calibration: {verdict: calibrated, note: "Explicitly scoped to the preclinical subgroup (Outcome 1) vs the full-continuum pooled result -- the claim itself distinguishes the two, not conflating them."}
+    novelty: {verdict: incremental, note: "RW07 (Mila-Aloma et al., imports) is the primary evidence for the 'relay hypothesis' this claim restates in NMA form; not a new hypothesis, an NMA-level corroboration of RW07/RW15."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "§4.3 quote gives the P-score=1.00 figure cited; abstract/§3.6 support the cross-ethnic consistency framing."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Refuted if ... materially different between Han Chinese and Western cohorts' is a direct negation, no new independent cohort specified beyond the existing subgroup split."}
+    scope_calibration: {verdict: over_claim, note: "Statement asserts consistency was 'confirmed' across Han Chinese AND Western cohorts, but the only Sources quote given is the Han-Chinese-only P-score=1.00 statistic; no quote/number is cited for the Western-cohort side of the comparison, so the cross-ethnic-consistency half of the claim rests on an uncited abstract assertion rather than a tabulated statistic."}
+    novelty: {verdict: restatement, note: "RW11/RW12 (Huashan, GBA cohorts, imports) supply the underlying data directly synthesized here."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "Table 2 Outcome 4 row for p217_Serum (0.568) matches exactly; §4.4 cites RW08 (Benedet et al.) for serum-plasma equivalence."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the stated rank/comparability, no new design."}
+    scope_calibration: {verdict: calibrated, note: "Claim says 'viable matrix' and 'comparable diagnostic potential', matching a 3rd-place P-score rather than overstating equivalence to 1st place."}
+    novelty: {verdict: restatement, note: "RW08 (imports) is the direct primary source for serum-plasma equivalence; this is a pooled restatement."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Table 2 Outcome 4 and §3.5 quotes match the full platform ranking (MS/AutoIA/IA/p181_IA) cited exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the stated platform ranking, no independent test."}
+    scope_calibration: {verdict: calibrated, note: "Claim matches the tabulated platform-efficiency ranking exactly, no overreach into clinical-outcome claims."}
+    novelty: {verdict: restatement, note: "RW10 (Silva-Spinola et al., imports) supplies the automated-IA (Lumipulse) primary data; NMA restates/pools it."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "Table 2 rows across all 4 outcomes for p181_IA match the 'lowest/near-lowest' Statement exactly; §3.4/§4.1 quotes corroborate."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Refuted if p181_IA achieved a mid/high rank on any outcome, or significantly outperformed a p217 variant' is a direct negation of the tabulated result, no new data."}
+    scope_calibration: {verdict: over_claim, note: "'Effectively obsolete for high-precision AD diagnostics' (Interpretation, echoing §4.1) is an authors'-own editorializing conclusion beyond the P-score<0.20 statistic itself -- ranking last in a network meta-analysis of THESE particular cohorts is being generalized to a blanket 'obsolete' verdict about the whole diagnostic-use-case; the underlying statistic supports 'lowest-ranked in this NMA', not literal obsolescence for all uses."}
+    novelty: {verdict: incremental, note: "RW14 (Karikari et al., typed 'bounds', prior standard) is the baseline this claim explicitly supersedes; the claim's contribution is the pooled cross-outcome demonstration, not a new marker."}
+compilation_fidelity_samples:
+  - fact: "Table 2 full P-score matrix across 4 outcomes (8/7/6/5 ranked nodes respectively)"
+    pdf_location: "research/data/lib/che26-diagnostic-performance-of-plasma-p-tau217/paper.pdf, p.6 Table 2"
+    captured_in_ara: true
+    note: "evidence/tables/table2.md is a cell-for-cell transcription of the PDF table; verified against claims.md C01/C03/C04/C06/C07/C08 citations, all exact."
+  - fact: "PRISMA flow: 601 screened -> 106 full-text -> 18 included studies"
+    pdf_location: "paper.pdf Figure 1 / evidence/README.md completeness note"
+    captured_in_ara: true
+    note: "Correctly captured in evidence/README.md figure1.md description; not itself claim-cited (process metadata, not a substantive finding) but faithfully filed."
+  - fact: "Supplementary Table S2 (ratio AUC-gain meta-analysis) and Supplementary Figures S1-S4 are referenced in the main text but not filed"
+    pdf_location: "main PDF references to online Supplementary material"
+    captured_in_ara: false
+    note: "evidence/README.md itself HONESTLY flags this gap ('not present in the main PDF ... noted for follow-up') rather than fabricating a transcription -- correctly reported as an acknowledged omission, not a silent fidelity failure. Still logged here as captured_in_ara:false because the underlying PDF fact (S2's exact per-cohort numbers) is not independently re-derivable from what's filed, only from the §3.6 prose quote used in C02."
+  - fact: "PROSPERO registration CRD420261327845"
+    pdf_location: "paper.pdf abstract/§2 Methods"
+    captured_in_ara: true
+    note: "Captured in logic/related_work.md 'Review registration' section verbatim."
+  - fact: "18 included studies span BioFINDER, WRAP, SPIN, Clarity AD, ALZAN, ALFA+, TRIAD, MCSA, Coimbra, Huashan, GBA cohorts"
+    pdf_location: "paper.pdf Table 1 / §3.1"
+    captured_in_ara: true
+    note: "All 12 cohort-supplying RW01-RW12 blocks in related_work.md name matching cohorts/Ns/platforms consistent with claims.md citations."
+  - fact: "p-tau181 (p181_IA) is explicitly framed by the paper's own Discussion (§4.1) as the prior standard now argued obsolete"
+    pdf_location: "paper.pdf §4.1 Discussion"
+    captured_in_ara: true
+    note: "Faithfully carried into C08 and RW14 (typed 'bounds', 'prior standard'); the ARA does not soften or omit this framing."

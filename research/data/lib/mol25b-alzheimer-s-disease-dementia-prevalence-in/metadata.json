@@ -1,0 +1,15 @@
+{
+  "idx": 384,
+  "cite_key": "Mol25b",
+  "title": "Alzheimer’s Disease Dementia Prevalence in the United States: A County-Level Spatial Machine Learning Analysis",
+  "authors": "A. Mollalo; G. Grekousis; H. Florez; B. Neelon; Leslie A Lenert; A. Alekseyenko",
+  "year": "2025",
+  "pub_date": "2025-04-01",
+  "journal": "American Journal of Alzheimer's Disease and Other Dementias",
+  "abstract": "A growing body of literature has examined the impact of neighborhood characteristics on Alzheimer’s disease (AD) dementia, yet the spatial variability and relative importance of the most influential factors remain underexplored. We compiled various widely recognized factors to examine spatial heterogeneity and associations with AD dementia prevalence via geographically weighted random forest (GWRF) approach. The GWRF outperformed conventional models with an out-of-bag R2 of 74.8% in predicting AD dementia prevalence and the lowest error (MAE = 0.34, RMSE = 0.45). Key findings showed that mobile homes were the most influential factor in 19.9% of U.S. counties, followed by NDVI (17.4%), physical inactivity (12.9%), households with no vehicle (11.3%), and particulate matter (10.4%), while other primary factors affecting <10% of U.S. counties. Findings highlight the need for county-specific interventions tailored to local risk factors. Policies should prioritize increasing affordable housing stability, expanding green spaces, improving transportation access, promoting physical activity, and reducing air pollution exposure.",
+  "citation_count": "9",
+  "citations_per_year": "7.1",
+  "doi": "10.1177/15333175251335570",
+  "url": "https://doi.org/10.1177/15333175251335570",
+  "slug": "mol25b-alzheimer-s-disease-dementia-prevalence-in"
+}

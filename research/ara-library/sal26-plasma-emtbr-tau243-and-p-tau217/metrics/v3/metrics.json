@@ -1,0 +1,99 @@
+{
+  "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+  "genre": "diagnostic_accuracy_study",
+  "genre_source": "gold",
+  "coarse": "PRIMARY_CLINICAL",
+  "n_claims": 4,
+  "n_experiments": 4,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_trials": 1
+  },
+  "abstract_bound": false,
+  "extractive_fidelity": {
+    "value": 1.0,
+    "validity": "source_bound",
+    "n_claims_checked": 4,
+    "n_faithful": 4,
+    "infidelities": [],
+    "detail": "4/4 claims in logic/claims.md judged faithful (load-bearing numbers AND asserted direction/polarity both match, no unsupported added clauses) against the actual full paper text (research/metrics/v3/fulltext/sal26.txt), per a frozen independent adversarial check (extractive_fidelity/sal26-plasma-emtbr-tau243-and-p-tau217.yaml) run by a different pass than the compiler that wrote claims.md. Infidelity types found: none. source_bound, not validated: this measures fidelity TO THE PAPER, not the paper's scientific validity (compiler-model.md's independent-axes caveat) \u2014 no paper-ranker should be treated as sound on this axis alone."
+  },
+  "fidelity_hard_fail": false,
+  "rank_eligible": true,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/3 rw_blocks qualify (0 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.0,
+      "validity": "pending_sem",
+      "n_negative": 0,
+      "detail": "no semantic nulls, refuted claims, or genuine dead-ends found"
+    },
+    "dead_end_density": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_genuine": 0,
+      "n_synthetic": 1,
+      "source_binding_ratio": 0.0,
+      "detail": "N08: synthetic (source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt))"
+    },
+    "translation_trial_linkage": {
+      "value": 1.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [
+          "NCT03174938"
+        ],
+        "verified": [
+          "NCT03174938"
+        ],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": 0.8,
+      "validity": "judge_scored",
+      "detail": "4/5 (number,quote) findings pass string_present \u2227 verdict==supports \u2227 value_match\u2208{exact,rounded,derived} \u2227 polarity_ok \u2227 context_match, scored deterministically from the frozen logic/grounding_findings.yaml (a prior [sem] pass's output -- this module does not itself call an LLM, so self-grading is avoided by construction)."
+    },
+    "novel_claim_count": {
+      "value": 1.0,
+      "validity": "pending_sem",
+      "verdict_counts": {
+        "novel": 1,
+        "incremental": 2,
+        "restatement": 1
+      },
+      "detail": "1/4 claims judged genuinely novel (within-ARA judge approximation only; real D4 needs cross-library FOL-dedup of Claim.original against the oshima store, not available on this corpus); verdict breakdown: {'novel': 1, 'incremental': 2, 'restatement': 1} (frozen judge findings, sal26-plasma-emtbr-tau243-and-p-tau217.yaml)."
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.944,
+    "components": {
+      "grounding_trust": 1.0,
+      "environment_completeness": 1.0,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": 1.0,
+      "gate_pass_ratio": 0.75
+    },
+    "gates": {
+      "seal_L1": true,
+      "all_links_resolve": false,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": true
+    },
+    "falsification_writing_quality_reportonly": 0.25,
+    "grounding_detail": {
+      "value": 1.0,
+      "trust_class": "self_contained",
+      "self_contained_ratio": 1.0,
+      "coverage": 5,
+      "detail": "quotes_present=5, checkable=5 (in-repo .md pointer), unverifiable=0 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=5, quote_not_found_extraction=0 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=self_contained."
+    },
+    "low_trust": false
+  }
+}

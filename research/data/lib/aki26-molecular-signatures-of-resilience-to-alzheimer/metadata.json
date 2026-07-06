@@ -1,0 +1,15 @@
+{
+  "idx": 149,
+  "cite_key": "Aki26",
+  "title": "Molecular signatures of resilience to Alzheimer’s disease in neocortical layer 4 neurons",
+  "authors": "S. Akila; P. Dharshini; Jorge Sanz-Ros; Jie Pan; Weijing Tang; Kristen Vallejo; Yu Liu; Marcos Otero-Garcia; Inma Cobos",
+  "year": "2026",
+  "pub_date": "2026-01-31",
+  "journal": "Nature Communications",
+  "abstract": "Selective neuronal vulnerability is a hallmark of Alzheimer’s disease (AD), yet the molecular basis of resilience remains poorly understood. Using single-nucleus and spatial transcriptomics to compare neocortical regions affected early (prefrontal cortex, precuneus) or late (primary visual cortex) in AD, we identified a resilient excitatory population in layer 4 of the primary visual cortex expressing RORB, CUX2, and EYA4. Layer 4 neurons in association neocortex shared molecular signatures of resilience. Early-stage resilient neurons upregulated genes associated with synapse maintenance, synaptic plasticity, calcium homeostasis, and neuroprotection (GRIN2A, RORA, NRXN1, NLGN1, NCAM2, FGF14, NRG3, NEGR1, CSMD1). We identified KCNIP4, which encodes a voltage-gated potassium channel-interacting protein, as a key resilience factor consistently upregulated during early stages of AD pathology. AAV-mediated overexpression of Kcnip4 in male AppSAA mice reduced the expression of activity-dependent genes Arc and c-Fos, suggesting compensatory mechanisms against neuronal hyperexcitability. Our dataset provides a resource for investigating mechanisms underlying resilience to neurodegeneration.",
+  "citation_count": "1",
+  "citations_per_year": "2.3",
+  "doi": "10.1038/s41467-026-68920-4",
+  "url": "https://doi.org/10.1038/s41467-026-68920-4",
+  "slug": "aki26-molecular-signatures-of-resilience-to-alzheimer"
+}

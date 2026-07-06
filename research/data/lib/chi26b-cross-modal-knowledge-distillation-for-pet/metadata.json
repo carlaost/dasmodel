@@ -1,0 +1,15 @@
+{
+  "idx": 209,
+  "cite_key": "Chi26b",
+  "title": "Cross-Modal Knowledge Distillation for PET-Free Amyloid-Beta Detection from MRI",
+  "authors": "Francesco Chiumento; Julia Dietlmeier; R. Killeen; Kathleen M. Curran; Noel E. O'Connor; Mingming Liu",
+  "year": "2026",
+  "pub_date": "2026-04-14",
+  "journal": "",
+  "abstract": "Detecting amyloid-$\\beta$ (A$\\beta$) positivity is crucial for early diagnosis of Alzheimer's disease but typically requires PET imaging, which is costly, invasive, and not widely accessible, limiting its use for population-level screening. We address this gap by proposing a PET-guided knowledge distillation framework that enables A$\\beta$ prediction from MRI alone, without requiring non-imaging clinical covariates or PET at inference. Our approach employs a BiomedCLIP-based teacher model that learns PET-MRI alignment via cross-modal attention and triplet contrastive learning with PET-informed (Centiloid-aware) online negative sampling. An MRI-only student then mimics the teacher via feature-level and logit-level distillation. Evaluated across four MRI contrasts (T1w, T2w, FLAIR, T2*) and two independent datasets, our approach demonstrates effective knowledge transfer (best AUC: 0.74 on OASIS-3, 0.68 on ADNI) while maintaining interpretability and eliminating the need for clinical variables. Saliency analysis confirms that predictions focus on anatomically relevant cortical regions, supporting the clinical viability of PET-free A$\\beta$ screening. Code is available at https://github.com/FrancescoChiumento/pet-guided-mri-amyloid-detection.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "",
+  "url": "https://arxiv.org/abs/2604.12574",
+  "slug": "chi26b-cross-modal-knowledge-distillation-for-pet"
+}

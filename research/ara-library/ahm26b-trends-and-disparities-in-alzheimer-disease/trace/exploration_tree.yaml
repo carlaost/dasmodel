@@ -1,0 +1,132 @@
+# Exploration Tree — ahm26b-trends-and-disparities-in-alzheimer-disease
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. No full text and no session/lab record were available, so EVERY node is
+# support_level: inferred — reconstructed from the abstract's stated objective and methods. These
+# are NOT literal historical events; source_refs point to the abstract sections that motivate the
+# reconstruction. No dead_end nodes are asserted (the abstract reveals no failed approaches; Rule 9).
+
+tree:
+  - id: N01
+    type: question
+    support_level: inferred
+    source_refs: ["Abstract BACKGROUND", "Abstract OBJECTIVE"]
+    title: "How has AD-related mortality trended and how is it distributed across US subgroups, 1999-2020?"
+    description: >
+      Central question reconstructed from the objective: evaluate AD-related mortality trends from
+      1999 to 2020 and assess disparities by demographic and geographic factors, given that
+      population-level AD mortality trends/disparities were underexplored.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        source_refs: ["Abstract METHODS"]
+        title: "Choose a data source for nationwide AD mortality"
+        choice: "CDC WONDER Multiple Cause of Death database (public, 1999-2020)"
+        alternatives:
+          - "Primary cohort data collection"
+          - "NHANES or other survey linkage"
+          - "Medicare/administrative claims"
+        evidence: "Abstract METHODS: 'Data were obtained from the CDC WONDER database.'"
+        children:
+
+          - id: N03
+            type: decision
+            support_level: inferred
+            source_refs: ["Abstract METHODS"]
+            title: "Define the AD case set and population filter"
+            choice: "ICD-10 codes F01, F03, G30, G31.1; decedents aged 45+"
+            alternatives:
+              - "G30 (Alzheimer disease) only"
+              - "No lower age restriction"
+            evidence: "Abstract METHODS lists the four ICD-10 codes and the 45+ age filter."
+            children:
+
+              - id: N04
+                type: decision
+                support_level: inferred
+                source_refs: ["Abstract METHODS"]
+                title: "Choose mortality-rate metrics"
+                choice: "Crude Mortality Rate (CMR) and Age-Adjusted Mortality Rate (AAMR) per 100,000"
+                alternatives:
+                  - "Crude rates only"
+                  - "Standardized mortality ratios"
+                evidence: "Abstract METHODS: CMRs and AAMRs per 100,000 were calculated."
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract RESULTS"]
+                    title: "Quantify overall AD mortality burden"
+                    result: >
+                      6,697,209 AD-attributed deaths over 1999-2020; overall AAMR 90.727 per 100,000.
+                    evidence: [C02]
+
+                  - id: N06
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract METHODS", "Abstract RESULTS"]
+                    title: "Estimate the temporal trend via joinpoint regression"
+                    result: "Significant increase over the period; AAPC 3.18."
+                    evidence: [C01]
+
+                  - id: N07
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract RESULTS"]
+                    title: "Stratify by sex"
+                    result: "Female AAMR 94.31 > male AAMR 83.23."
+                    evidence: [C03]
+
+                  - id: N08
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract RESULTS"]
+                    title: "Stratify by race/ethnicity"
+                    result: >
+                      AAMR: NH Black 94.53 > NH White 93.73 > NH American Indian 66.80 >
+                      Hispanic 66.33 > NH Asian 46.16.
+                    evidence: [C04]
+
+                  - id: N09
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract RESULTS"]
+                    title: "Stratify by age band"
+                    result: "Adults aged 85+ had the highest CMR, 3574.928 per 100,000."
+                    evidence: [C05]
+
+                  - id: N10
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract RESULTS"]
+                    title: "Stratify by urbanization"
+                    result: "Rural AAMR 95.080 > urban AAMR 89.772."
+                    evidence: [C06]
+
+                  - id: N11
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract RESULTS"]
+                    title: "Stratify by census region and state"
+                    result: >
+                      Midwest highest regional AAMR 96.131, Northeast lowest 78.564; wide state
+                      spread (SC 119.789, TN 113.624 high; NY 64.16, FL 68.677 lower).
+                    evidence: [C07, C08]
+
+      - id: N12
+        type: decision
+        support_level: inferred
+        source_refs: ["Abstract CONCLUSIONS"]
+        title: "Interpret disparities as public-health action targets"
+        choice: >
+          Conclude that significant demographic/geographic disparities exist and call for targeted
+          public-health interventions, improved health care access, and early diagnostic efforts.
+        alternatives:
+          - "Attribute differences primarily to coding/reporting artifacts"
+          - "Defer interpretation pending individual-level data"
+        evidence: "Abstract CONCLUSIONS."
+        also_depends_on: [N06, N07, N08, N09, N10, N11]

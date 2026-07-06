@@ -1,0 +1,672 @@
+                                                       The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+                                                                      Contents lists available at ScienceDirect
+
+
+                                       The Journal of Prevention of Alzheimer's Disease
+                                                             journal homepage: www.elsevier.com/locate/tjpad
+
+
+Original Article
+
+Efficacy and safety of donanemab in the European eligible population:
+TRAILBLAZER-ALZ 2 post-hoc analyses
+Frank Jessen a,b,c , Grazia Dell’Agnello d,* , Jennifer A. Zimmer d , Christophe Sapin d ,
+Sascha Dichter d, Erin Doty d , Stéphane Epelbaum d , Cynthia D. Evans d , Paula M. Hauck d ,
+Rashna Khanna d , Dawn A. Brooks d , John R. Sims d , Federica Agosta e,f , for the
+Alzheimer’s Disease Neuroimaging Initiative (ADNI)1
+a
+  Department of Psychiatry, Medical Faculty, University of Cologne, Cologne, Germany
+b
+  German Center for Neurodegenerative Diseases, Bonn, Germany
+c
+  Excellence Cluster on Cellular Stress Responses in Aging-Associated Diseases, University of Cologne, Cologne, Germany
+d
+  Eli Lilly and Company, Indianapolis, IN, USA
+e
+  Unit of Neurology and Neuroimaging of Neurodegenerative Diseases, IRCCS Ospedale San Raffaele, Milano, Italy
+f
+  “Vita-Salute San Raffaele” University, Milano, Italy
+
+
+
+
+A R T I C L E I N F O                                       A B S T R A C T
+
+Keywords:                                                   Background: In the European Union (EU), donanemab is indicated in adults with early symptomatic Alzheimer’s
+Apolipoprotein E                                            disease who are apolipoprotein E ε4 non-carriers or heterozygotes. Among these, patients without superficial
+Alzheimer’s disease                                         siderosis at baseline, uncontrolled hypertension, or anticoagulant use are eligible.
+Donanemab
+                                                            Objective: To assess efficacy and safety of donanemab in the EU-eligible population.
+EU-eligible population
+                                                            Methods: A post-hoc conservative hybrid imputation method was implemented for clinical efficacy analyses
+                                                            during the TRAILBLAZER-ALZ 2 placebo-controlled period. In the 78-week long-term extension (LTE) partici­
+                                                            pants in the early-start (randomised to donanemab) and delayed-start (randomised to placebo with donanemab
+                                                            initiation during the LTE) groups were compared to a propensity-weighted external control. Participants were
+                                                            switched to placebo after meeting amyloid-based treatment course completion criteria.
+                                                            Results: By 76 weeks, donanemab-treated participants in the EU-eligible population had a mean Clinical De­
+                                                            mentia Rating Scale (CDR)-Sum of Boxes change from baseline difference from placebo of -0.7 points (95%
+                                                            confidence interval, -1.0, -0.4) and a 40.3% lower risk of disease progression to the next stage (per CDR-Global
+                                                            score). Treatment benefit increased over 154 weeks for non-carriers and heterozygotes, including those meeting
+                                                            treatment course completion criteria by 52 or 76 weeks. In the placebo-controlled period, 119 (19.5%) and 49
+                                                            (8.0%) donanemab-treated eligible participants experienced amyloid-related imaging abnormalities-edema/
+                                                            effusion and infusion-related reactions, respectively. Safety findings were similar among donanemab-treated
+                                                            participants in the placebo-controlled period and LTE delayed-start group.
+                                                            Conclusions: Consistent with previous TRAILBLAZER-ALZ 2 and LTE findings, donanemab significantly slowed
+                                                            disease progression compared to controls with a manageable safety profile in non-carriers and heterozygotes.
+
+
+
+
+    Abbreviations: AD, Alzheimer’s disease; ADAS-Cog13, 13-Item cognitive subscale of the Alzheimer’s Disease Assessment Scale; ADCS-iADL, Alzheimer’s Disease
+Cooperative Study–Instrumental Activities of Daily Living; ADNI, Alzheimer’s Disease Neuroimaging Initiative; AE, Adverse event; APOE, Apolipoprotein E; ARIA,
+Amyloid-related imaging abnormalities; ARIA-E, Amyloid-related imaging abnormality–edema/effusion; ARIA-H, Amyloid-related imaging abnormali­
+ty–microhemorrhages and hemosiderin deposits; CDR-G, Clinical Dementia Rating Scale–Global; CDR-SB, Clinical Dementia Rating Scale–Sum of Boxes I; CI,
+Confidence interval; CIR, Copy increment reference; CL, Centiloids; EMA, European Medicines Agency; EU, European Union; HR, Hazard ratio; iADRS, Integrated
+Alzheimer’s Disease Rating Scale; J2R, Jump to reference; LTE, Long-term extension; MMSE, Mini–Mental State Examination; SE, Standard error; TEAE, Treatment-
+emergent adverse event.
+  * Corresponding author at: Via Gramsci 731, Sesto Fiorentino, FI, Italy.
+    E-mail address: dell_agnello_grazia@lilly.com (G. Dell’Agnello).
+  1
+    Data used in preparation of this article were obtained from the ADNI database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the
+design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report. A complete listing of ADNI investigators can be
+found at: http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf.
+
+https://doi.org/10.1016/j.tjpad.2026.100605
+Received 31 January 2026; Received in revised form 11 May 2026; Accepted 12 May 2026
+2274-5807/© 2026 Eli Lilly and Company. Published by Elsevier Masson SAS on behalf of SERDI Publisher. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+F. Jessen et al.                                                                                     The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+1. Introduction                                                                   2.2. Efficacy analyses
+
+    After decades of research in Alzheimer’s disease (AD), disease-                   Clinical outcome assessments, including the integrated AD Rating
+modifying treatments are now available. Donanemab, a monoclonal                   Scale (iADRS; range 0–144, lower scores indicate greater impairment),
+antibody directed against a form of β-amyloid that is only present in             Clinical Dementia Rating Scale–Sum of Boxes (CDR-SB; range 0–18,
+brain amyloid plaques (the accumulation of which is a hallmark pa­                higher scores indicate greater impairment), 13-item cognitive subscale
+thology of AD), has demonstrated significant slowing of cognitive and             of the Alzheimer’s Disease Assessment Scale (ADAS-Cog13; range 0–85,
+functional decline in people with early symptomatic AD (AD with mild              higher scores indicate greater impairment), Alzheimer’s Disease Coop­
+cognitive impairment or mild dementia) [1,2].                                     erative Study–Instrumental Activities of Daily Living (ADCS-iADL; range
+    Donanemab has received marketing authorisation in several coun­               0–59, lower scores indicate greater impairment), and the Mini–Mental
+tries and regions including the United States, Japan, China, the United           State Examination (MMSE; range 0–30, lower scores indicate greater
+Kingdom (UK) [3], and the European Union (EU) [4,5]. Although the                 impairment), were conducted in both the EU-eligible and EU-indicated
+EU- and UK-indicated populations are similar in that donanemab                    subsets of the randomised TRAILBLAZER-ALZ 2 population [2]. Partic­
+treatment is approved only for non-carriers or heterozygotes of the               ipants with low-medium tau pathology (as determined by 18F-flortauci­
+apolipoprotein E (APOE) ε4 allele, eligibility in clinical practice differs       pir positron emission tomography; see Sims et al. [2] were also assessed.
+slightly due to modest differences in contraindications. In the EU, these             A mixed model for repeated measures was used to assess all clinical
+include superficial siderosis, concomitant use of anticoagulants, and             outcomes in the EU-indicated and EU-eligible populations, as well as the
+uncontrolled hypertension.                                                        low-medium tau-indicated subpopulation. This model included treat­
+    The rationale for the exclusion of patients who are homozygous for            ment, visit, baseline tau category, pooled investigator, and concomitant
+the APOE ε4 allele is that the risk of amyloid-related imaging abnor­             use of symptomatic treatment (acetylcholinesterase inhibitors and/or
+malities (ARIA), a known treatment-related adverse event (AE) with this           memantine) as factors; baseline age and baseline score as covariates; and
+class of amyloid-targeting therapies, increases with increasing number            treatment-by-visit and baseline score-by-visit interaction terms.
+of APOE ε4 alleles [2,6].                                                             For change from baseline differences from placebo in clinical scales,
+    The main objective of this post-hoc analysis was to analyse the               the EMA requested implementation of a hybrid imputation method for
+treatment effects of donanemab in the EU-eligible population during the           handling missing values that combines both jump-to-reference (J2R)
+placebo-controlled period of the TRAILBLAZER-ALZ 2 trial. Efficacy                and copy increment reference (CIR) imputation methods [8,9]. The J2R
+outcomes were assessed using the conservative statistical approach for            method replaces a missing value with the reference (i.e., placebo cohort)
+handling missing data required by the Committee for Medicinal Prod­               value at that timepoint. The CIR method replaces a missing value with a
+ucts for Human Use of the European Medicines Agency (EMA) for the                 value that has been estimated to reflect observed trends (changes over
+EU-indicated population. Outcomes in the EU-indicated population are              time) in the reference arm. As the imputed values are derived from the
+reported in the Supplement to allow evaluation of consistency with the            reference cohort, both methods minimise the differences due to treat­
+EU-eligible population. Furthermore, analyses of the non-carrier and              ment effect and thus are considered more conservative compared to the
+heterozygote population from the TRAILBLAZER-ALZ 2 long-term                      original methodology (which does not employ any imputation). The J2R
+extension (LTE) were also conducted to provide long-term efficacy and             method was used for missing values due to serious, severe, or symp­
+safety data for donanemab in this population and are likewise presented           tomatic ARIA (ARIA includes ARIA–edema/effusion [ARIA-E] and
+in the Supplement.                                                                ARIA–microhemorrhages and hemosiderin deposits [ARIA-H]), or
+    This report complements the EU summary of product characteristics             deaths, while the CIR method was applied for missing values due to all
+[5] by including additional efficacy and safety data, such as data on the         other causes.
+EU-eligible population, which can enhance benefit–risk and treatment                  As there was no internal placebo control in the LTE, participants
+decision-making discussions between clinicians and their patients.                from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) were
+                                                                                  utilised as an external comparison cohort to evaluate efficacy (see also
+2. Methods                                                                        Zimmer et al. [7] and Supplemental Methods). A propensity score
+                                                                                  weighting method was applied to ensure that baseline disease charac­
+2.1. Participants and study design                                                teristics of the TRAILBLAZER-ALZ 2 arms were balanced with the
+                                                                                  external control population from the ADNI used for comparison. A full
+    The phase 3 TRAILBLAZER-ALZ 2 trial (NCT04437511) was a                       description of the propensity score weighting method was previously
+randomised, double-blind, multicentre, placebo-controlled study that              published [7]. Selection of an EU-eligible propensity-weighted ADNI
+assessed the efficacy and safety of donanemab for the treatment of early          control group was not possible because superficial siderosis, anticoag­
+symptomatic AD (mild cognitive impairment or mild dementia due to                 ulant use, and blood pressure were not collected as part of the ADNI data
+AD) over 76 weeks [2]. Treatment course completion criteria (with                 set. Therefore, assessments of an EU-eligible population during the LTE
+success resulting in a blinded switch to placebo) and additional details,         period were not conducted. However, results from both the EU-indicated
+such as trial eligibility criteria and dosing information, can be found in        population and the LTE population can be found in the Supplement for
+the primary report [2].                                                           reference. In addition, the simultaneous application of both propensity
+    The EU-indicated population included APOE ε4 non-carriers or het­             score reweighting and multiple imputation with J2R /CIR is not meth­
+erozygotes. The EU-eligible population excluded those of the indicated            odologically possible. Therefore, the hybrid imputation methodology
+population with superficial siderosis, anticoagulant use, or uncontrolled         was not applied to any LTE analyses.
+hypertension (for the purposes of these analyses, systolic and diastolic              The CDR–Global (CDR-G) score was used to analyse the risk of pro­
+blood pressure while seated of ≥140 and ≥90 mm Hg, respectively) at               gressing to the next stage of disease or to moderate AD dementia (CDR-G
+baseline.                                                                         score ≥2). CDR-G total scores range from 0 (no dementia) to 3 (severe
+    Participants who completed the placebo-controlled period of                   dementia), with higher scores indicating greater impairment. A Cox
+TRAILBLAZER-ALZ 2 were eligible to enrol in the LTE, a 78-week                    proportional hazards model was used to estimate the hazard ratio (HR)
+blinded study to assess the long-term efficacy and safety of donane­              of progression to the next clinical stage (defined as any increase in the
+mab. Details regarding the study design can be found in the Supple­               CDR-G score at two consecutive visits from baseline) and to moderate or
+mental Methods and Zimmer et al. [7].                                             severe dementia (defined as a CDR-G score of ≥2 at two consecutive
+                                                                                  visits from baseline for participants with a baseline CDR-G score of ≤1).
+                                                                                  Finally, the time-progression model for repeated measures was used to
+
+                                                                              2
+F. Jessen et al.                                                                                       The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+estimate the difference in time taken for participants in the placebo arm        Table 1
+to reach the same change in score that was observed in the donanemab             Demographics and baseline characteristics of the EU-eligible population.
+arm at the conclusion of the placebo-controlled period of the trial, as                                                  EU-eligible population
+described in Sims et al. [2].
+                                                                                  Variable                               Placebo (N = 604)      Donanemab (N = 614)
+    The adjusted means, standard errors (SEs), 95% confidence intervals
+(CIs), and p values for change from baseline in Centiloids (CL) were              Sex, n (%)                             ​                      ​
+                                                                                    Female                               358 (59.3)             376 (61.2)
+estimated using amyloid positron emission tomography and a mixed                    Male                                 246 (40.7)             238 (38.8)
+model for repeated measures with treatment, visit, and treatment-by-              Age, mean (SD), years                  73.5 (6.1)             73.3 (6.3)
+visit interaction as fixed factors, and score, score-by-visit interaction,        Country, n (%)                         ​                      ​
+age, and tau category as baseline covariates. Amyloid clearance was                 Australia                            2 (0.3)                10 (1.6)
+                                                                                    Canada                               55 (9.1)               51 (8.3)
+defined as achieving an amyloid plaque level <24.1 CL.
+                                                                                    Czech Republic                       10 (1.7)               5 (0.8)
+    All analyses were post-hoc in nature and were not controlled for                Japan                                28 (4.6)               35 (5.7)
+multiplicity. Most statistical analyses were done with SAS version 9.4.             Netherlands                          3 (0.5)                6 (1.0)
+Some time-based progression analyses were analysed with R version                   Poland                               62 (10.3)              57 (9.3)
+4.3.0.                                                                              United Kingdom                       15 (2.5)               10 (1.6)
+                                                                                    United States                        429 (71.0)             440 (71.7)
+                                                                                  Race, n (%)a                           ​                      ​
+                                                                                    Asian                                31 (5.1)               45 (7.3)
+2.3. Safety analyses                                                                Black or African American            13 (2.2)               14 (2.3)
+                                                                                    White                                560 (92.7)             553 (90.2)
+   Safety was evaluated in all participants exposed to the study drug. All          American Indian or Alaska Native     0                      1 (0.2)
+                                                                                    Missing                              0                      1 (0.2)
+analyses were descriptive.
+                                                                                  Ethnicity, n (%)b                      ​                      ​
+                                                                                    Hispanic/Latino                      26 (6.1)               27 (6.2)
+3. Results                                                                          Not Hispanic/Latino                  403 (93.9)             411 (93.8)
+                                                                                  Education of ≥13 years, n (%)          435 (72.1)             426 (69.4)
+                                                                                  APOE ε4 carrier, n (%)                 394 (65.6)             399 (65.2)
+3.1. TRAILBLAZER-ALZ 2: 76-week placebo-controlled treatment period
+                                                                                    ε2/ε2                                1 (0.2)                0
+                                                                                    ε2/ε3                                18 (3.0)               16 (2.6)
+3.1.1. Participants                                                                 ε2/ε4                                22 (3.7)               18 (2.9)
+    Of the 1736 participants randomised in the 76-week, placebo-                    ε3/ε3                                188 (31.3)             197 (32.2)
+controlled treatment period of the TRAILBLAZER-ALZ 2 study, 1447                    ε3/ε4                                372 (61.9)             381 (62.3)
+                                                                                    ε4/ε4                                —                      —
+participants were APOE ε4 non-homozygotes. Demographics and base­                   Missing                              3 (0.5)                2 (0.3)
+line characteristics, including the baseline iADRS score, were generally          AChEI/memantine use, n (%)             366 (60.6)             369 (60.1)
+similar between the placebo and donanemab treatment arms in the EU-               Clinical scalesc                       ​                      ​
+eligible population (Table 1). A results section pertaining to the EU-              iADRS score, mean (SD)                 103.5 (14. 5)          104.7 (14.4)
+                                                                                    CDR-SB score, mean (SD)                4.0 (2.1)              3.9 (2.1)
+indicated population and the LTE period of TRAILBLAZER-ALZ 2 can
+                                                                                    ADAS-Cog13 score, mean (SD)          29.3 (9.2)             28.3 (9.0)
+be found in the Supplement. Notably, 80% of participants in the EU-                 ADCS-ADL total score, mean (SD)      66.3 (8.5)             66.5 (8.5)
+indicated and EU-eligible populations fell within a 36-point range on               ADCS-iADL score, mean (SD)           47.8 (8.0)             48.0 (7.9)
+the iADRS (range, 85–121), covering about one-quarter of the total score            MMSE total score, mean (SD)d           22.1 (4.0)             22.4 (3.9)
+                                                                                    MMSE category, n (%)e
+range (0–144).                                                                                                             ​                      ​
+                                                                                       ≥27                                   98 (16.3)              97 (15.8)
+                                                                                       20–26                                 505 (83.7)             516 (84.0)
+3.1.2. Efficacy                                                                        <20                                   0                      1 (0.2)
+                                                                                    CDR-G score, n (%)                       ​                      ​
+                                                                                       0                                       2 (0.3)                2 (0.3)
+3.1.2.1. Clinical outcomes. At 76 weeks, the adjusted mean (SE) change
+                                                                                       0.5                                     367 (61.2)             366 (60.4)
+from baseline in the iADRS score in the EU-eligible population using the               1                                       215 (35.8)             219 (36.1)
+hybrid imputation method was − 13.0 (0.6) and − 10.6 (0.6) in the                      2                                       16 (2.7)               19 (3.1)
+placebo and donanemab arms, respectively (difference, 2.3 [95% CI:                Biomarker measures, mean (SD)                ​                      ​
+0.7, 3.9]; p=0.005), representing an 18% (95% CI: 5.2, 30.6) slowing of             Amyloid plaque level, Centiloidse,           101.6 (33.6)           102.6 (34.2)
+                                                                                    f
+disease progression (Fig. 1A). At 76 weeks, the adjusted mean change
+                                                                                    Taue,g                               1.35 (0.27)            1.34 (0.26)
+from baseline difference in the CDR-SB score between the donanemab
+and placebo arms was − 0.7 (95% CI: − 1.0, − 0.4; p<0.001), with a 28%           Notes: The EU-eligible population excluded participants with superficial side­
+(95% CI: 15.2, 41.3) slowing of disease progression. (Fig. 1B). Similar          rosis, anticoagulant use, and uncontrolled BP (systolic BP≥140 mmHg and
+                                                                                 diastolic BP≥90 mmHg). Numbers of participants with non-missing data were
+results were observed with the ADAS-Cog13 (Fig. 1C), ADCS-iADL
+                                                                                 used as denominators to calculate percentages. This analysis included partici­
+(Fig. 1D) and MMSE (Fig. 1E) clinical scales. A comparison of these
+                                                                                 pants with missing APOE ε4 genotype data.
+results obtained using the hybrid imputation method to those obtained              a
+                                                                                     Participants self-reported race data within fixed categories. bEthnicity
+using the original statistical methodology is reported in Table 2.               reporting was limited to only participants in the United States/Puerto Rico.
+    3.1.2.1.1. CDR-SB domains. Donanemab was associated with over­               c
+                                                                                  Clinical outcome ranges were as follows: ADAS-Cog13 scores range from 0 to 85,
+all better outcomes versus placebo on all individual CDR-SB domains              with higher scores indicating greater overall cognition deficit; ADCS-ADL scores
+with statistically significant separation on five out of six domains. For        range from 0 to 78, with lower scores indicating greater level of impairment;
+the cognitive domains, the percent slowing was 29.3% (p<0.001) for               ADCS-iADL scores range from 0 to 59, with lower scores indicating greater
+memory, 25.5% (p=0.005) for orientation, and 29.9% (p=0.002) for                 impairment in daily function; CDR-G scores range from 0 (no dementia) to 3
+judgement and problem solving. The percent slowing for functional                (severe dementia); CDR-SB scores range from 0 to 18, with higher scores indi­
+domains was 28.1% (p<0.001) for home and hobbies and 31.4%                       cating greater clinical impairment; iADRS scores range from 0 to 144, with lower
+                                                                                 scores indicating greater impairment; and MMSE scores range from 0 to 30, with
+(p=0.011) for personal care (Fig. 1F). Although the treatment effect for
+                                                                                 lower scores indicating greater level of impairment. dLast non-missing MMSE
+community affairs showed a favourable trend for donanemab (16.2%
+                                                                                 score before or at the start of study treatment. eBased on screening data. fAs­
+slowing), the difference did not reach statistical significance (p=0.052)        sessed with 18F-florbetapir or 18F-florbetaben PET scan. gAssessed with 18F-
+(Fig. 1F).                                                                       flortaucipir PET scan. Global tau uptake was measured using a composite AD-
+    3.1.2.1.2. Disease progression to the next clinical stage. The risk of
+
+                                                                             3
+F. Jessen et al.                                                                                         The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+signature weighted neocortical standardised uptake value ratio with white            related reactions were reported for one participant (0.2%) who
+matter signal reference.                                                             received placebo and 49 (8.0%) who received donanemab (Table 4).
+    AChEI: acetylcholinesterase inhibitor; AD: Alzheimer’s disease; ADAS-
+Cog13: 13-item cognitive subscale of the Alzheimer’s Disease Assessment Scale;
+                                                                                     4. Discussion
+ADCS-ADL: Alzheimer’s Disease Cooperative Study–Activities of Daily Living;
+ADCS-iADL: Alzheimer’s Disease Cooperative Study–Instrumental Activities of
+Daily Living; APOE: apolipoprotein E; BP: blood pressure; CDR-G: Clinical De­
+                                                                                         In the TRAILBLAZER-ALZ 2 study, treatment with donanemab
+mentia Rating Scale–Global; CDR-SB: Clinical Dementia Rating Scale–Sum of            resulted in significant and clinically relevant slowing of cognitive and
+Boxes; EU: European Union; iADRS: integrated Alzheimer’s Disease Rating              functional decline in participants with early symptomatic AD [2].
+Scale; MMSE: Mini–Mental State Examination; N: number of participants in the         Following EMA approval of donanemab, additional analyses were con­
+analysis population; n: number of participants within each specific category;        ducted in the EU-eligible population—participants who were APOE ε4
+PET: positron emission tomography; SD: standard deviation.                           non-carriers or heterozygotes and without superficial siderosis, antico­
+                                                                                     agulant use, or uncontrolled hypertension at baseline—reflecting the
+disease progression to the next clinical stage of disease, as assessed by            patients expected to be treated in clinical practice in Europe.
+the CDR-G, was 40.3% lower with donanemab (N=581; 174 events)                            Primary and secondary endpoints in this EU-eligible population were
+compared with placebo (N=581; 247 events) over the 76-week trial in                  evaluated using the post-hoc hybrid conservative imputation (J2R/CIR)
+the EU-eligible population (HR=0.597 [95% CI: 0.5, 0.8]; p<0.001)                    —the same method requested by the EMA for assessing efficacy in the
+(Table 3). The risk of progression to moderate dementia (CDR-G score                 EU-indicated population—and the original statistical method. Across
+≥2) was significantly reduced by 47.2% (donanemab, N=565 [41                         both analytical approaches, donanemab consistently demonstrated
+events]; placebo, N=567 [65 events]; HR=0.528 [95% CI: 0.3, 0.9];                    clinical benefit. Specifically, using the conservative imputation method
+p=0.024).                                                                            in the EU-eligible population, donanemab showed statistically signifi­
+    3.1.2.1.3. Disease stabilisation. An estimated 37% of donanemab-                 cant benefits compared with placebo across multiple clinical efficacy
+treated participants in the EU-eligible population were shown to be                  measures, including the iADRS, CDR-SB, ADAS-Cog13, ADCS-iADL, and
+clinically stable (showed no decline on the CDR-SB from baseline) at 52              MMSE, with an 18% to 28% slowing of disease progression compared to
+weeks compared with 22% of participants who received placebo                         placebo at week 76.
+(p<0.001). Furthermore, 25% of donanemab-treated participants versus                     When assessing treatment effect versus placebo, it is important to
+18% of participants who received placebo had not progressed by 76                    note that some clinical scales have a wide scoring range because they are
+weeks (p=0.006) (Table 3).                                                           intended to capture the disease continuum (i.e., from no impairment to
+    3.1.2.1.4. Time saved. At 76 weeks, disease progression among                    severe AD) [10]. For example, the iADRS score ranges from 0 to 144.
+participants treated with donanemab in the EU-eligible population was                However, only a small portion of the iADRS scale is relevant for the
+delayed by 4.9 months (95% CI: 3.1, 6.8), as assessed by the CDR-SB                  interpretation of treatment effects in patients with mild cognitive
+(Fig. 2). Disease progression for the low-medium population was                      impairment or mild dementia due to AD. For most EU-eligible partici­
+delayed by an additional 2 months (for a total of 6.9 months [95% CI:                pants of TRAILBLAZER-ALZ 2, baseline scores were clustered within a
+4.9, 8.9]).                                                                          relatively narrow segment of the iADRS scale (36 points), and this
+                                                                                     restricted range (rather than the full 0—144 iADRS range) should be
+3.1.2.2. Biomarker outcomes. In the EU-eligible population, treatment                considered when interpreting the treatment effect.
+with donanemab was significantly more effective than placebo in                          The clinical efficacy demonstrated with donanemab in the
+reducing amyloid plaque levels (adjusted mean change difference from                 TRAILBLAZER-ALZ 2 study aligns with patients’, caregivers’, and cli­
+placebo: − 75.8 CL [95% CI: − 79.4, − 72.2]; p<0.001), resulting in                  nicians’ desire to slow clinical progression, enabling patients to remain
+33.5%, 69.7%, and 80.5% of donanemab-treated participants achieving                  at earlier, more highly functional clinical stages of disease for longer
+amyloid clearance (<24.1 CL) at weeks 24, 52, and 76, respectively                   [11,12]. Donanemab-treated participants in the EU-eligible population
+(Table 3). Donanemab treatment significantly reduced plasma P-tau217                 had a significantly lower risk of progressing to the next clinical disease
+at all timepoints in the EU-eligible population (all p<0.001), with an               stage and to moderate disease over the 76-week placebo-controlled
+adjusted mean change from baseline to 76 weeks (log10-based) differ­                 study as determined by the CDR-G score, and a significant proportion
+ence from that of placebo of − 0.20 (95% CI, − 0.22, − 0.17).                        of participants who received donanemab remained stable at 52 weeks
+                                                                                     with no progression of disease as measured on the CDR-SB. Maintaining
+3.1.3. Safety                                                                        a milder stage of disease has a clinically meaningful impact on practical
+    In the EU-eligible population, treatment-emergent AEs (TEAEs) were               aspects of daily living for patients with AD and their care partners,
+reported by 79.8% and 87.5% of participants who received placebo and                 including the ability to maintain their current level of independence,
+donanemab, respectively. The incidence of death with placebo and                     spend more time with loved ones, and participate in activities that
+donanemab was 1.2% and 1.3%, respectively. There were no ARIA-                       matter most to them for longer. Along with the individual-level benefits,
+related deaths reported in the EU-eligible population. Treatment                     remaining at a milder stage for additional time also translates into
+discontinuation due to AEs was reported for 22 participants (3.6%) in                meaningful societal advantages. As noted by the European Alzheimer’s
+the placebo arm and 73 participants (12.0%) in the donanemab arm. The                Disease Consortium, “from the societal point of view, this risk reduction
+most common TEAEs are shown in Table 4.                                              is important given the increase of care-related costs with advancing
+    The incidence of ARIA-E based on magnetic resonance imaging or                   disease stages” [13].
+TEAE cluster was 2.0% (12/603) and 19.5% (119/609) in the placebo                        The benefit of donanemab cannot be appropriately characterised
+and donanemab arms, respectively. The incidence of symptomatic and                   without integrating safety considerations. In the EU-eligible population,
+serious ARIA-E in donanemab-treated participants was 4.9% (30/609)                   the overall frequency of ARIA events was reduced by approximately 5%
+and 1.0% (6/609), respectively. No cases of serious or symptomatic                   compared with the overall TRAILBLAZER-ALZ 2 study population
+ARIA-E were reported in the placebo arm.                                             (32.0%vs 36.8%, respectively) [2].The enhanced safety in the
+    ARIA-H incidence was 11.1% (67/603) and 26.4% (161/609) in the                   EU-eligible population is also reflected by the majority of ARIA-E events
+placebo and donanemab arms, respectively, of which 0.2% (1/603) and                  experienced by participants treated with donanemab being asymptom­
+1.0% (6/609) were symptomatic, and none were serious in either arm.                  atic (74.8%) and of mild to moderate radiographic severity (94.9%). In
+The proportion of participants with isolated ARIA-H was 10.3% and                    addition, nearly half of the observed ARIA-H events were isolated. Iso­
+12.5% in the placebo and donanemab arms, respectively. Infusion-                     lated ARIA-H events were reported for 10.3% and 12.5% of participants
+                                                                                     who received placebo and donanemab, respectively, reflecting the risk
+
+                                                                                 4
+F. Jessen et al.                                                                                          The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+
+
+Fig. 1. Clinical outcomes in the EU-eligible population.
+Donanemab was significantly better than placebo in slowing disease progression at 76 weeks as measured with all five clinical scales: (A) iADRS; (B) CDR-SB; (C)
+ADAS-Cog13; (D) ADCS-iADL; and (E) MMSE. *p<0.05, **p<0.01, ***p<0.001, ****p<0.0001. (F) Assessment of individual CDR-SB domains at week 76. Notes: The
+EU-eligible population excluded participants with superficial siderosis, anticoagulant use, and uncontrolled BP (systolic BP ≥140 mmHg and diastolic BP ≥90
+mmHg). Analyses for all panels except for (F) did not include participants with missing APOE ε4 genotype data. Analyses presented in all panels were conducted using
+the conservative methodology for handling missing data (multiple imputation with jump-to-reference and copy increment reference methods). ADAS-Cog13: 13-item
+cognitive subscale of the Alzheimer’s Disease Assessment Scale; ADCS-iADL: Alzheimer’s Disease Cooperative Study–Instrumental Activities of Daily Living; APOE:
+apolipoprotein E; BP: blood pressure; CDR-SB: Clinical Dementia Rating Scale–Sum of Boxes; CI: confidence interval; EU: European Union; iADRS: integrated Alz­
+heimer’s Disease Rating Scale; MMSE: Mini–Mental State Examination; N: number of randomised participants; SE: standard error.
+
+
+associated with the underlying disease even in the absence of donane­                compared to 28.9% in the overall TRAILBLAZER-ALZ 2 population
+mab treatment. No deaths related to ARIA and/or intracerebral hem­                   (without imputation). The reduced ARIA risk, together with significant
+orrhage occurred in the EU-eligible population.                                      efficacy, confirms a positive risk–benefit profile in the EU-eligible pop­
+    Although the safety profile of donanemab was enhanced in the EU-                 ulation. Notably, in the phase 3 TRAILBLAZER-ALZ 6 study evaluating
+eligible population, the clinical benefits were consistent with those                different dosing regimens of donanemab in adults with early symp­
+observed in the broader overall population of TRAILBLAZER-ALZ 2 [2].                 tomatic AD, modified titration resulted in an even lower percentage of
+For example, donanemab-mediated slowing of disease progression, as                   participants reporting ARIA-E, corresponding to a 41% relative risk
+measured by CDR-SB, was 28.2% and 30.8% in the EU-eligible popu­                     reduction in the study population at 24 weeks [14,15]. This more
+lation with and without the hybrid imputation method respectively,                   gradual titration corresponds to the dosing regimen approved by the
+
+                                                                                 5
+F. Jessen et al.                                                                                                   The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+Table 2
+Impact of imputation method on clinical outcomes in the EU-eligible population at week 76.
+                         Difference from placebo at 76 weeks in the EU-eligible population
+
+                         Original statistical methodologya                                             Conservative hybrid imputationb
+                     c                                                                           d
+  Clinical outcome       Adjusted mean difference (95% CI)       p value       Percent slowing         Adjusted mean difference (95% CI)        p value       Percent slowingd
+                                                                               (95% CI)                                                                       (95% CI)
+
+  iADRS                  2.52 (0.89, 4.14)e                      0.002e        19.9% (7.0, 32.8)e      2.32 (0.69, 3.95)f                       0.005f        17.9% (5.2, 30.6)f
+  CDR-SB                 − 0.73 (− 1.03, − 0.43)f                <0.001f       30.8% (17.7, 43.9)f     − 0.67 (− 0.97, − 0.37)f                 <0.001f       28.2% (15.2, 41.3)f
+  ADAS-Cog13             − 1.64 (− 2.53, − 0.74)e                <0.001e       23.5% (10.5, 36.6)e     − 1.37 (− 2.28, − 0.45)f                 0.003f        19.7% (6.4, 33.1)f
+  ADCS-iADL              1.25 (0.24, 2.26)e                      0.015e        21.8% (4.1, 39.5)e      1.24 (0.23, 2.26)f                       0.016f        20.9% (3.7, 38.2)f
+  MMSE                   0.73 (0.30, 1.16)e                      <0.001e       23.9% (9.5, 38.3)e      0.61 (0.16, 1.06)f                       0.009f        19.5% (4.9, 34.2)f
+
+Notes: The EU-eligible population excluded participants with superficial siderosis, anticoagulant use, and uncontrolled BP (systolic BP≥140 mmHg and diastolic
+BP≥90 mmHg).
+  a
+    No formal imputation was used. Analyses did not include participants with missing APOE ε4 genotype data. bConservative hybrid imputation was used: If the
+participant discontinued due to serious/severe/symptomatic ARIA-E/ARIA-H or death, the jump-to-reference method was used; the copy increment reference method
+was used for all other missing data. Analyses did not include participants with missing APOE ε4 genotype data. cClinical outcomes were scored as follows: ADAS-Cog13
+scores range from 0 to 85, with higher scores indicating greater overall cognition deficit; ADCS-iADL scores range from 0 to 59, with lower scores indicating greater
+impairment in daily function; CDR-SB scores range from 0 to 18, with higher scores indicating greater clinical impairment; iADRS scores range from 0 to 144, with
+lower scores indicating greater impairment; and MMSE scores range from 0 to 30, with lower scores indicating greater level of impairment. dPercent slowing was
+calculated by dividing the adjusted mean CFB treatment differences at 76 weeks by the adjusted mean CFB with placebo at 76 weeks and multiplying by 100. The 95%
+CIs were estimated using the Delta method. eNCS2: Adjusted mean change from baseline, SE, 95% CI, and p values were derived using the NCS model with 2 degrees of
+freedom. The model was adjusted for basis expansion terms (two terms), basis expansion term-by-treatment interaction and covariates for age at baseline, pooled
+investigator, baseline tau category, and baseline AChEI/memantine use. fMMRM: Adjusted mean CFB, 95% CIs, and p values were derived using an MMRM with
+treatment, visit, baseline tau category, pooled investigator, and concomitant use of symptomatic treatment (acetylcholinesterase inhibitors and/or memantine) as
+factors, baseline age and baseline score as covariates, and treatment-by-visit and baseline score-by-visit interaction terms. The 95% CIs for adjusted mean changes were
+calculated with the normal approximation method.
+    AChEI: acetylcholinesterase inhibitor; ADAS-Cog13: 13-item cognitive subscale of the Alzheimer’s Disease Assessment Scale; ADCS-iADL: Alzheimer’s Disease
+Cooperative Study–Instrumental Activities of Daily Living; APOE: apolipoprotein E; ARIA-E: amyloid-related imaging abnormality–edema/effusion; ARIA-H: amyloid-
+related imaging abnormality–microhemorrhages and hemosiderin deposits; BP: blood pressure; CDR-SB: Clinical Dementia Rating Scale–Sum of Boxes; CFB: change
+from baseline; CI: confidence interval; EU: European Union; iADRS: integrated Alzheimer’s Disease Rating Scale; MMRM: mixed model for repeated measures; MMSE:
+Mini–Mental State Examination; NCS: natural cubic spline.
+
+
+EMA [5].                                                                                         Importantly, the safety findings observed in the LTE were consistent
+    The results of the LTE reported in the Supplement provide evidence                       with the previously established safety profile, with safety of the delayed-
+supporting the favourable benefit–risk profile in APOE ε4 non-carriers                       start group generally similar to that of the donanemab arm during the
+and heterozygotes over the long term. An increasing treatment effect                         first 76 weeks of treatment.
+was demonstrated over 154 weeks for donanemab-treated participants                               Participants who did not meet treatment course completion criteria
+compared to the untreated propensity-weighted ADNI cohort, including                         and thus continued to receive donanemab for more than 76 weeks,
+for early-start participants who met treatment completion criteria by 52                     showed reduced frequencies of ARIA and infusion-related reactions
+weeks and 76 weeks. These findings support the ability of donanemab to                       during the LTE compared with donanemab-treated participants during
+successfully modify the course of disease in APOE ε4 non-carriers and                        the placebo-controlled period.
+heterozygotes similarly to the overall study population and demonstrate                          All analyses in this report are post-hoc, exploratory, and not
+the durability of the treatment effect of donanemab with limited-                            controlled for multiplicity. Exclusion of APOE ε4 homozygotes and those
+duration dosing.                                                                             with contraindications resulted in a smaller subpopulation than in the
+    Additional efficacy results from the LTE show that treating AD earlier                   primary study [2]. Additionally, the LTE study was not designed to
+on the disease continuum is more likely to result in better long-term                        include an internal placebo comparator [7]. The external comparison
+outcomes. At 154 weeks, participants who were treated earlier with                           cohort may have differed from the LTE cohort due to variations in study
+donanemab (early-start group) demonstrated a 29% lower risk of pro­                          conduct and assessments, time periods and geographic regions of data
+gressing to the next stage of disease than participants who started                          collection, and other potential unmeasured confounding factors. Dif­
+donanemab treatment later (delayed-start group), as assessed by the                          ferences in disease severity between participants in the early- and
+CDR-G score. Progression to the next stage of disease is more appropriate                    delayed-start groups at the time of donanemab initiation makes com­
+for comparing the early-start and delayed-start groups over the whole                        parisons between these two groups challenging due to potential bias.
+study period than directly comparing the mean changes from baseline.                         Furthermore, the rate of clinical decline [18,19] and treatment benefit
+The requirement of two consecutive visits to characterize progression                        varies depending on disease stage [2]. It is also important to note that
+makes this outcome less sensitive to random fluctuations compared to                         the study design transitioned participants to placebo once treatment
+mean change from baseline. The appropriate statistical model for such                        completion criteria were met. As a result, most (74.8%) of the early-start
+an outcome measure is a Cox proportional hazard model. Risk of pro­                          participants received placebo for the entirety of the LTE. The complex­
+gression to next stage of disease also supports ease of communication of                     ities of the study design, population differences, and unequal treatment
+treatment efficacy to people living with AD and their care partners, as                      exposure, should be considered when interpreting the LTE data. Lastly,
+any change in the CDR-G score reflects a clinically meaningful shift. The                    all results included reflect the TRAILBLAZER-ALZ 2 donanemab dosing
+clinical efficacy of donanemab observed during the LTE period is sup­                        regimen, whereas a more gradual titration will be used in clinical
+ported by the robust amyloid reduction in both early- and delayed-start                      practice.
+groups at 76 weeks after donanemab treatment was initiated and by the
+similar percentage of participants who achieved amyloid clearance at                         5. Conclusions
+each time point. After completing donanemab treatment, the rate of
+amyloid reaccumulation was comparable to that seen with the natural                              Donanemab demonstrates a favourable benefit-risk profile in the EU-
+history of the disease [16,17].                                                              eligible population, with efficacy supported by robust clinical and
+
+                                                                                         6
+F. Jessen et al.                                                                                              The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+Table 3
+Additional clinical and biomarker outcomes in the EU-eligible population.
+                                              EU-eligible population
+
+  Category                                    Placebo           Donanemab
+
+  Clinical outcomes                           ​                 ​
+    Hazard ratio for progression on CDR-      ​                 ​
+    Ga
+      CDR-G score (95% CI)b,c                 —                 0.597 (0.473,
+                                                                0.754)
+         p value vs placebo                   ​                 <0.001
+         Number of events/n                   247/581           174/581
+       CDR-G score ≥2 (95% CI)d               —                 0.528 (0.303,
+                                                                0.919)
+        p value vs placebo                    ​                 0.024
+        Number of events/n                    65/567            41/565
+    No progression as measured by CDR-        ​                 ​
+    SBd,e
+      at 52 weeks                             ​                 ​
+        n/N                                   117/478           193/481
+        Estimated percent of no progression   22% (0.19,        37% (0.3, 0.4)
+    (95% CI)                                  0.26)
+        p value vs placebo                    —                 <0.001
+      at 76 weeks                             ​                 ​
+        n/N                                   91/451            128/439
+        Estimated percent of no progression   18% (0.15,        25% (0.2, 0.3)
+    (95% CI)                                  0.22)
+        p value vs placebo                    —                 0.006
+  Biomarker outcomes at 76 weeksd             ​                 ​
+    Amyloid (CL)f                             ​                 ​
+      n                                       601               612
+      Adjusted mean CFB difference vs         —                 − 75.8
+    placebo
+      95% CI                                  —                 (− 79.4, − 72.2)
+      p value                                 —                 <0.001
+    Amyloid <24.1 CL at 76 weeksd             ​                 ​
+      n/N                                     0/464             363/451
+      Percentage (95% CI)g                    0.0% (0.0,        80.5% (76.6, 83.9)
+                                              0.8)
+       p valueh
+                                                                                         Fig. 2. Time saved in the EU-eligible population.
+                                              ​                 <0.001
+
+Notes: The EU-eligible population excluded participants with superficial side­           Results of the CDR-SB progression model for repeated measures analysis with
+rosis, anticoagulant use, and uncontrolled BP (systolic BP≥140 mmHg and                  the conservative hybrid imputation methodology, illustrating the time saved
+diastolic BP≥90 mmHg).                                                                   with donanemab treatment in (A) the EU-eligible overall population and (B) the
+   a
+     CDR-G scores range from 0 to 3 as follows: 0 = no impairment, 0.5 = mild            EU-eligible low-medium tau population. Notes: The EU-eligible population
+cognitive impairment, 1 = mild dementia, 2 = moderate dementia, and 3 =                  excluded participants with superficial siderosis, anticoagulant use, and uncon­
+severe dementia; ≥2 means progression to moderate or severe dementia. Hazard             trolled BP (systolic BP≥140 mmHg and diastolic BP≥90 mmHg). These ana­
+ratio, 95% CI, and p value were calculated using a Cox proportional hazards              lyses did not include participants with missing APOE ε4 genotype data. APOE:
+model stratified by pooled investigator and baseline tau level that included             apolipoprotein E; CDR-SB: Clinical Dementia Rating Scale–Sum of Boxes; CI:
+baseline covariates of age, AChEI/memantine use, and clinical outcome score.             confidence interval; EU: European Union; N: number of participants; n: number
+b
+  Discontinuations due to death and ARIA are counted as events. cAnalysis                of participants at risk; SE: standard error.
+included participants with missing APOE ε4 genotype data. dAnalysis did not
+include participants with missing APOE ε4 genotype data. eCDR-SB scores range            biomarker outcomes using multiple endpoints and an enhanced safety
+from 0 to 18, with higher scores indicating greater clinical impairment. No              profile. Most ARIA events were clinically asymptomatic and radio­
+progression was defined as a CDR-SB score CFB of ≤0. Probability of no pro­
+                                                                                         graphically mild to moderate in severity compared with the overall
+gression, 95% CI, and p value were derived using a generalized mixed model
+                                                                                         population.
+with factors for treatment, visit, and treatment-by-visit interaction and baseline
+covariates of age, tau category, AChEI/memantine use, clinical outcome score,
+and clinical outcome score-by-visit interaction. fHybrid imputation method               Funding
+implemented (if the participant discontinued due to serious/severe/symptom­
+atic ARIA-E/ARIA-H or death, the jump-to-reference method was used; the copy                This work was supported by Eli Lilly and Company.
+increment reference method was used for all other missing data). Adjusted mean
+change from baseline, 95% CI, and p value were derived using a mixed model for           Authorship / credit authorship contribution statement
+repeated measures with fixed factors for treatment, visit, and treatment-by-visit
+interaction and baseline covariates of age, tau category, clinical outcome score,           Writing -Review and editing was conducted by Frank Jessen, Grazia
+and clinical outcome score-by-visit interaction. g95% CIs were calculated using
+                                                                                         Dell’Agnello, Jennifer A. Zimmer, Christophe Sapin, Sascha Dichter,
+the Wilson score method. hp value from one sample frequency test evaluating if
+                                                                                         Erin Doty, Stéphane Epelbaum, Cynthia D. Evans, Paula M. Hauck,
+the percent amyloid negative equals 0.
+                                                                                         Rashna Khanna, Dawn A. Brooks, John R. Sims, and Federica Agosta.
+     AChEI: acetylcholinesterase inhibitor; APOE: apolipoprotein E; BP: blood
+pressure; CDR-G: Clinical Dementia Rating Scale–Global; CDR-SB: Clinical De­                Validation and formal analyses were conducted by Christophe Sapin.
+mentia Rating Scale–Sum of Boxes; CFB: change from baseline; CI: confidence                 The original draft was written by Grazia Dell’Agnello and Paula
+interval; CL: Centiloids; EU: European Union; N: number of participants in the           Hauck.
+analysis population; n: number of participants within each specific category.               Visualizations were created by Paula Hauck.
+
+
+
+
+                                                                                     7
+F. Jessen et al.                                                                                           The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+Table 4                                                                                Declaration of the use of generative AI and AI-assisted
+Safety summary for the EU-eligible population.                                         technologies in scientific writing and in figures, images and
+                                               EU-eligible population                  artwork
+                    a
+  Category, n (%)                              Placebo (N =       Donanemab (N =
+                                               603)               609)                    No generative AI or AI-assisted technologies were used in the prep­
+              b
+                                                                                       aration of this manuscript.
+  Overview                                     ​                  ​
+    Deathsc                                    7 (1.2)            8 (1.3)
+      Deaths associated with any ARIA/         0                  0                    Ethical statement
+    ICH >1 cm
+    Participants with ≥1 SAE                   74 (12.3)          89 (14.6)               The TRAILBLAZER-ALZ 2 phase 3 trial (ClinicalTrials.gov Identifier:
+    Treatment discontinuations due to AEs      22 (3.6)           73 (12.0)
+                                                                                       NCT04437511) was conducted according to the Declaration of Helsinki,
+    Study discontinuations due to AEs          21 (3.5)           39 (6.4)
+    Participants with ≥1 TEAE                  481 (79.8)         533 (87.5)           the International Conference on Harmonization Good Clinical Practice
+  TEAEs with ≥5 % incidence in any             ​                  ​                    guidelines, and local regulatory requirements. An independent ethics
+    armb,d                                                                             committee/institutional review board at each site approved the study
+    ARIA-E                                     12 (2.0)           119 (19.5)           protocols. Participants and study partners provided written consent. No
+    ARIA-H                                     39 (6.5)           100 (16.4)
+    COVID-19                                   106 (17.6)         95 (15.6)
+                                                                                       animal studies were conducted for this report.
+    Headache                                   66 (10.9)          89 (14.6)
+    Fall                                       68 (11.3)          85 (14.0)            Data statement
+    Infusion-related reaction                  1 (0.2)            49 (8.0)
+    Arthralgia                                 33 (5.5)           41 (6.7)
+                                                                                           Lilly provides access to all individual participant data collected
+    Diarrhoea                                  35 (5.8)           36 (5.9)
+    Superficial siderosis of central nervous   4 (0.7)            34 (5.6)             during the trial, after anonymization, with the exception of pharmaco­
+    system                                                                             kinetic or genetic data. Data are available to request 6 months after the
+    Urinary tract infection                    39 (6.5)           32 (5.3)             indication studied has been approved in the US and EU and after primary
+    Dizziness                                  32 (5.3)           30 (4.9)             publication acceptance, whichever is later. No expiration date of data
+    Fatigue                                    33 (5.5)           29 (4.8)
+  ARIA overview                                ​                  ​
+                                                                                       requests is currently set once data are made available. Access is provided
+    Any ARIA (ARIA-E or ARIA-H)b,e             75 (12.4)          195 (32.0)           after a proposal has been approved by an independent review committee
+      SAE of any ARIAf                         0                  6 (1.0)              identified for this purpose and after receipt of a signed data sharing
+    ARIA-Eb,e                                  12 (2.0)           119 (19.5)           agreement. Data and documents, including the study protocol, statistical
+      SAE of ARIA-Eb,f                         0                  6 (1.0)
+                                                                                       analysis plan, clinical study report, blank or annotated case report
+      Asymptomaticb                            12 (2.0)           89 (14.6)
+      Symptomaticb                             0                  30 (4.9)             forms, will be provided in a secure data sharing environment. For details
+      Maximum radiographic severityg,h         ​                  ​                    on submitting a request, see the instructions provided at www.vivli.org.
+         Mild                                  10 (1.7)           35 (5.8)
+         Moderate                              1 (0.2)            76 (12.5)
+                                                                                       Declaration of Competing Interest
+         Severe                                0                  6 (1.0)
+    ARIA-Hb.e                                  67 (11.1)          161 (26.4)
+      SAE of ARIA-Hb,f                         0                  0                       Frank Jessen reports personal fees for advice from (2022–2026):
+      Asymptomaticb                            66 (10.9)          155 (25.5)           Abbvie, AC immune, Biogen, Eli Lilly, Eisai, GE Healthcare, Grifols,
+      Symptomaticb                             1 (0.2)            6 (1.0)              Janssen-Cilag, Novo Nordisk, Priavoid, Roche, and Sanofi.
+      Maximum radiographic severityg,h
+                                                                                          Grazia Dell’Agnello, Jennifer A. Zimmer, Christophe Sapin, Sascha
+                                               ​                  ​
+         Mild                                  51 (8.5)           81 (13.3)
+         Moderate                              11 (1.8)           34 (5.6)             Dichter, Erin Doty, Stéphane Epelbaum, Cynthia D. Evans, Paula M.
+         Severe                                3 (0.5)            44 (7.2)             Hauck, Rashna Khanna, Dawn A. Brooks, and John R. Sims are em­
+      Isolated ARIA-Hb,e,i                     62 (10.3)          76 (12.5)            ployees and shareholders of Eli Lilly and Company.
+      Microhemorrhageb,g                       62 (10.3)          132 (21.7)              Federica Agosta is Associate Editor of NeuroImage: Clinical and the
+      Superficial siderosisb,g                 10 (1.7)           76 (12.5)
+    Macrohemorrhageb,e                         1 (0.2)            2 (0.3)
+                                                                                       European Journal of Neurology; has received speaker honoraria from
+      SAE of macrohemorrhageb,f                0                  0                    Biogen Idec, Bristol Myers Squibb, Eisai, Eli Lilly, GE Healthcare, Neu­
+                                                                                       raxpharm, and Roche; and receives or has received research supports
+Note: The EU-eligible population excluded participants with superficial side­
+                                                                                       from the Italian Ministry of Health, the Italian Ministry of University and
+rosis, anticoagulant use, and uncontrolled BP (systolic BP≥140 mmHg and
+diastolic BP≥90 mmHg).                                                                 Research, AriSLA (Fondazione Italiana di Ricerca per la SLA), the Eu­
+  a
+    Participants may have been counted in more than one category. bAnalyses            ropean Research Council (ERC), the EU Joint Programme – Neurode­
+included participants with missing APOE ε4 genotype data. cDeaths are also             generative Disease Research (JPND), and Foundation Research on
+included as serious AEs and discontinuations due to AEs. dTEAEs were coded             Alzheimer Disease (France).
+using the Medical Dictionary for Adverse Events version 25.1. eBased on MRI or
+TEAE cluster. fBased on TEAE cluster. gBased on MRI only. hAnalysis did not            Acknowledgements
+include participants with missing APOE ε4 genotype data iIsolated ARIA-H
+means no ARIA-E events based on MRI or TEAE cluster in the same analysis                   The authors thank the participants, caregivers, and investigators.
+period. AE: adverse event; APOE: apolipoprotein E; ARIA: amyloid-related im­
+                                                                                       The authors would like to thank the following salaried employees of Eli
+aging abnormalities; ARIA-E: amyloid-related imaging abnormality–edema/
+                                                                                       Lilly and Company who received no additional compensation: Hong
+effusion; ARIA-H: amyloid-related imaging abnormality–microhemorrhages and
+                                                                                       Wang and Emel Serap Nery for their contributions to TRAILBLAZER-ALZ
+hemosiderin deposits; BP: blood pressure; COVID-19: coronavirus disease 2019;
+EU: European Union; ICH: intracerebral hemorrhage; MRI: magnetic resonance             2, and Carol Qiao, Marie-Ange Paget, Fan Yang, and Lars Raket for
+imaging; N: number of participants in the analysis population; n: number of            statistical analysis support. The authors would also like to thank Can
+participants within each specific category; SAE: serious adverse event; TEAE:          Mert of HaaPACS GmbH (Schriesheim, Germany) for statistical analysis
+treatment-emergent adverse event.                                                      support and Raena Fernandes and Adrienne Schreiber of Syneos Health
+                                                                                       who provided quality review and editorial assistance, funded by Eli Lilly
+                                                                                       and Company.
+                                                                                           Data collection and sharing for the Alzheimer’s Disease Neuro­
+                                                                                       imaging Initiative (ADNI) is funded by the National Institute on Aging
+                                                                                       (National Institutes of Health Grant U19AG024904). The grantee
+
+                                                                                   8
+F. Jessen et al.                                                                                                  The Journal of Prevention of Alzheimer’s Disease 13 (2026) 100605
+
+
+organization is the Northern California Institute for Research and Edu­                        monitoring of amyloid-related imaging abnormalities. AJNR Am J Neuroradiol
+                                                                                               2025;46:24–32. https://doi.org/10.3174/ajnr.A8469.
+cation. In the past, ADNI has also received funding from the National
+                                                                                           [7] Zimmer JA, Sims JR, Evans CD, et al. Donanemab in early symptomatic Alzheimer's
+Institute of Biomedical Imaging and Bioengineering, the Canadian In­                           disease: results from the TRAILBLAZER-ALZ 2 long-term extension. J Prev
+stitutes of Health Research, and private sector contributions through the                      Alzheimers Dis 2026;13:100446. https://doi.org/10.1016/j.tjpad.2025.100446.
+Foundation for the National Institutes of Health including generous                        [8] Carpenter JR, Roger JH, Kenward MG. Analysis of longitudinal trials with protocol
+                                                                                               deviation: a framework for relevant, accessible assumptions, and inference via
+contributions from the following: AbbVie, Alzheimer’s Association,                             multiple imputation. J Biopharm Stat 2013;23:1352–71. https://doi.org/10.1080/
+Alzheimer’s Drug Discovery Foundation, Araclon Biotech, Bioclinica,                            10543406.2013.834911.
+Biogen, Bristol Myers Squibb, CereSpir, Cogstate, Eisai, Elan Pharma­                      [9] Mallinckrodt CH, Lin Q, Lipkovich I, Molenberghs G. A structured approach to
+                                                                                               choosing estimands and estimators in longitudinal clinical trials. Pharm Stat 2012;
+ceuticals, Eli Lilly and Company, Euroimmun, Fujirebio, GE HealthCare,                         11:456–61. https://doi.org/10.1002/pst.1536.
+IXICO, Janssen Alzheimer Immunotherapy Research & Development,                            [10] Buracchio T, Campbell M, Krudys K. Assessing clinical meaningfulness in clinical
+Johnson & Johnson Pharmaceutical Research & Development, Lumos­                                trials for Alzheimer's disease: a U.S. regulatory perspective. Alzheimers Dement (N
+                                                                                               Y) 2025;11:e70113. https://doi.org/10.1002/trc2.70113.
+ity, Lundbeck, Merck, Meso Scale Diagnostics, NeuroRx, Neurotrack                         [11] DiBenedetti DB, Slota C, Wronski SL, et al. Assessing what matters most to patients
+Technologies, Novartis, Pfizer, Piramal Imaging, Roche (and its affili­                        with or at risk for Alzheimer's and care partners: a qualitative study evaluating
+ated company Genentech), Servier, Takeda Pharmaceuticals, and                                  symptoms, impacts, and outcomes. Alzheimers Res Ther 2020;12:90. https://doi.
+                                                                                               org/10.1186/s13195-020-00659-6.
+Transition Therapeutics.                                                                  [12] Hauber B, Paulsen R, Krasa HB, et al. Assessing what matters to people affected by
+                                                                                               Alzheimer's disease: a quantitative analysis. Neurol Ther 2023;12:505–27. https://
+Supplementary materials                                                                        doi.org/10.1007/s40120-023-00445-0.
+                                                                                          [13] Jessen F, Kramberger MG, Angioni D, et al. Progress in the treatment of Alzheimer's
+                                                                                               Disease is needed - position statement of European Alzheimer's Disease Consortium
+   Supplementary material associated with this article can be found, in                        (EADC) investigators. J Prev Alzheimers Dis 2024;11:1212–8. https://doi.org/
+the online version, at doi:10.1016/j.tjpad.2026.100605.                                        10.14283/jpad.2024.153.
+                                                                                          [14] Wang H, Serap Monkul Nery E, Ardayfio P, et al. Modified titration of donanemab
+                                                                                               reduces ARIA risk and maintains amyloid reduction. Alzheimers Dement 2025;21:
+References                                                                                     e70062. https://doi.org/10.1002/alz.70062.
+                                                                                          [15] Wang H, Nery ESM, Ardayfio P, et al. The effect of modified donanemab titration
+ [1] Mintun MA, Lo AC, Duggan Evans C, et al. Donanemab in early Alzheimer's                   on amyloid-related imaging abnormalities with edema/effusions and amyloid
+     Disease. N Engl J Med 2021;384:1691–704. https://doi.org/10.1056/                         reduction: 18-month results from TRAILBLAZER-ALZ 6. J Prev Alzheimers Dis
+     NEJMoa2100708.                                                                            2025;12:100266. https://doi.org/10.1016/j.tjpad.2025.100266.
+ [2] Sims JR, Zimmer JA, Evans CD, et al. Donanemab in early symptomatic Alzheimer        [16] Elhefnawy ME, Patson N, Mouksassi S, Pillai G, Shcherbinin S, Chigutsa E,
+     disease: the TRAILBLAZER-ALZ 2 randomized clinical trial. JAMA 2023;330:512.              Gueorguieva I. Quantifying natural amyloid plaque accumulation in the continuum
+     https://doi.org/10.1001/jama.2023.13239.                                                  of Alzheimer's disease using ADNI. J Pharmacokinet Pharmacodyn 2025;52:15.
+ [3] Electronic Medicines Compendium. Kisunla 350 mg concentrate for solution for              https://doi.org/10.1007/s10928-024-09959-y.
+     infusion. Accessed July 5, https://www.medicines.org.uk/emc/product/1601             [17] Jagust WJ, Landau SM. Alzheimer's Disease neuroimaging I. Temporal dynamics of
+     4/smpc; 2025.                                                                             beta-amyloid accumulation in aging and Alzheimer Disease. Neurology 2021;96:
+ [4] European Medicines Agency. Kisunla - assessment report 2025. Accessed January             e1347. https://doi.org/10.1212/WNL.0000000000011524. –57.
+     12, 2026. https://www.ema.europa.eu/en/documents/assessment-report/kisunla           [18] Potashman M, Buessing M, Levitchi Benea M, Cummings J, Borson S, Pemberton-
+     -epar-public-assessment-report_en.pdf.                                                    Ross P, Epstein AJ. Estimating progression rates across the spectrum of Alzheimer's
+ [5] European Medicines Agency. Kisunla - product information. Accessed January 21,            Disease for amyloid-positive individuals using National Alzheimer's Coordinating
+     https://www.ema.europa.eu/en/documents/product-information/kisunla-epar-pr                Center data. Neurol Ther 2021;10:941–53. https://doi.org/10.1007/s40120-021-
+     oduct-information_en.pdf; 2026.                                                           00272-1.
+ [6] Cogswell PM, Andrews TJ, Barakos JA, et al. Alzheimer Disease Anti-Amyloid           [19] Trudel L, Therriault J, Macedo AC, et al. Rates of clinical progression according to
+     immunotherapies: imaging recommendations and practice considerations for                  biological Alzheimer's disease stages. Alzheimers Dement 2025;21:e70624.
+                                                                                               https://doi.org/10.1002/alz.70624.
+
+
+
+
+                                                                                      9
+

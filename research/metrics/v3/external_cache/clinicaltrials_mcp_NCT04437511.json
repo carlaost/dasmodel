@@ -1,0 +1,24 @@
+{
+  "nct_id": "NCT04437511",
+  "title": "Assessment of Safety, Tolerability, and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
+  "brief_title": "A Study of Donanemab (LY3002813) in Participants With Early Alzheimer's Disease (TRAILBLAZER-ALZ 2)",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "phase": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "conditions": [
+    "Alzheimer Disease"
+  ],
+  "interventions": [
+    "Donanemab",
+    "Placebo"
+  ],
+  "sponsor": "Eli Lilly and Company",
+  "enrollment": 1736,
+  "start_date": "2020-06-19",
+  "primary_completion_date": "2023-04-14",
+  "completion_date": "2028-11",
+  "has_results": true,
+  "note": "primary_outcomes list omitted here (verbose); registered PRIMARY iADRS result values (overall trial population, from resultsSection, already cached in NCT04437511.json via external.py's REST fetch): Donanemab -10.19, Placebo -13.11 (Change from Baseline iADRS, Overall Population). jes26's ARA claims (C01) are computed on the EU-eligible POST-HOC SUBGROUP (-10.6/-13.0), not the full trial population registered as primary -- close in magnitude/direction but not the same population."
+}

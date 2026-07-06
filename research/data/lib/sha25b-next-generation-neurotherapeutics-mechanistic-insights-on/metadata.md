@@ -1,0 +1,13 @@
+# Next-generation neurotherapeutics: mechanistic insights on monoclonal antibodies in Alzheimer's disease.
+
+- **Cite key**: Sha25b
+- **Authors**: Akhil Sharma; T. Singh
+- **Year**: 2025  (2025-11-13)
+- **Journal**: Brain research
+- **DOI**: 10.1016/j.brainres.2025.150047
+- **URL**: https://doi.org/10.1016/j.brainres.2025.150047
+- **Citations**: 2 (3.1/yr)
+
+## Abstract
+
+Monoclonal antibodies (mAbs) for Alzheimer's disease (AD) present a fundamental translational challenge, as demonstrated by amyloid-beta (Aβ)-targeting mAbs that successfully employed Fragment crystallizable gamma receptor (FcγR)/Immunoreceptor tyrosine-based activation motif (ITAM)-mediated microglial phagocytosis yet achieved only modest cognitive improvements while introducing significant Amyloid-related imaging abnormalities (ARIA) risk, thereby highlighting inherent single-therapy limitations. Building on these findings, tau-directed antibodies show preclinical promise by targeting pathological seeding and propagation, but face translational challenges including limited extracellular accessibility and variable efficacy across disease stages, necessitating expansion beyond single-target approaches. Consequently, the translational field is advancing toward innovative multi-mechanistic strategies, including synaptic restoration through anti-PrP and neurotrophic receptor agonists that provide functional benefits independent of plaque reduction, neuroinflammation modulation via anti-CD33 and complement inhibitors requiring careful patient selection due to variable outcomes, and emerging anti-TREM2 and anti-APOE4 mAbs enabling precision medicine tailored to individual genetic profiles. Importantly, comparative studies also reveal that combination therapies-especially dual Aβ/tau targeting-demonstrate superior synergistic effectiveness, driving next-generation engineering advances including Fc modifications that reduce ARIA risk, nanobodies/single-chain variable fragments (scFvs) with enhanced blood-brain barrier (BBB) penetration, cell-penetrating formats for intracellular tau access, and pH-sensitive glycoengineering for optimized tissue-specific binding. Ultimately, successful clinical translation depends on integrating biomarker-guided patient selection, optimized dosing strategies, and disease-stage-appropriate timing, with future progress anticipated through bispecific/multispecific antibodies targeting complementary pathways alongside personalized biomarker approaches, collectively providing realistic potential for achieving genuine neuroprotection and meaningful disease modification beyond symptomatic treatment in AD patients.

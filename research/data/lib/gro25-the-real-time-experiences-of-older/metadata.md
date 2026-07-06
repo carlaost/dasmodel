@@ -1,0 +1,13 @@
+# The real-time experiences of older people with dementia, informal caregivers and professional caregivers during the transition from home to a nursing home: multiple longitudinal cases
+
+- **Cite key**: Gro25
+- **Authors**: Lindsay Groenvynck; Bram de Boer; Audrey Beaulen; Erica de vries; Jan Hamers; T. van Achterberg; E. van Rossum; H. Verbeek
+- **Year**: 2025  (2025-08-27)
+- **Journal**: BMC Health Services Research
+- **DOI**: 10.1186/s12913-025-13113-w
+- **URL**: https://doi.org/10.1186/s12913-025-13113-w
+- **Citations**: 1 (1.2/yr)
+
+## Abstract
+
+Retrospective research has shown that the transition from home to a nursing home is a complex and often fragmented care process, which can lead to negative outcomes for the entire care triad: older people with dementia, informal caregivers, and professional caregivers. At present, comprehensive and real-time research covering the entire transitional care process is lacking in the literature. This study aimed to follow the experiences of the care triad during the transition from home to a nursing home in real time. This real-time, multiple-case study employed the patient journey mapping methodology. Participants were recruited in the province of Limburg, the Netherlands, through partner healthcare organisations affiliated with the Living Lab in Ageing and Long-Term Care. Five care triads were included, each consisting of an older person with dementia awaiting nursing home placement, their informal caregivers, and the professional caregivers involved in the transition process. A total of 26 participants were interviewed. Data were collected between October 2021 and March 2023 through semi-structured interviews, follow-up moments, and detailed logbooks. Data analysis involved both individual and cross-case analysis. Care triads experienced an overarching sense of uncontrollability throughout the transition process. This was linked to three key factors. First, dependency within the care triad was marked by each participant feeling reliant on others. Second, transitions were crisis-driven rather than planned, as participants struggled to identify the right timing. This was influenced by uncertainty, societal taboos, and government policy. Third, the transition process was largely discontinued, with different professionals responsible for separate parts of the process and the dementia case manager becoming absent after the move. Policymakers and professional caregivers should collaborate to establish a more gradual transition process. Professional caregivers should adopt a guiding role and ensure continuity of care after the move. Future research should explore how to empower care triads throughout the transition from home to a nursing home.

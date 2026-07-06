@@ -1,0 +1,213 @@
+# Exploration Tree - ave25-uncovering-plaque-glia-niches-in-human
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Background, Page 2 of 23", "Abstract"]
+    title: "How do glial cells interact with Aβ plaques within plaque-glia niches to influence local cellular composition and gene expression in the human brain?"
+    description: >
+      Central question motivating the study, decomposed into two sub-questions stated explicitly
+      in the Background: (1) What transcriptomic responses are associated with Aβ plaques in human
+      brains? (2) How do plaque-associated glia cells influence these responses?
+    children:
+
+      - id: N02
+        type: pivot
+        support_level: explicit
+        source_refs: ["Methods, Immunofluorescence assay of ST-adjacent sections, Page 3 of 23"]
+        title: "From same-section IHC to paired adjacent-section IHC"
+        from: "Perform IHC staining directly on the sequenced Visium ST section, following 10X Genomics recommendations"
+        to: "Perform IHC on two sections immediately adjacent to (flanking) the ST section, then register them back to the ST section's H&E image via manual landmark correspondence"
+        trigger: >
+          The RNA-preserving fixation protocol required for the ST section (methanol instead of
+          PFA, no antigen retrieval, shorter blocking/antibody incubation) could not yield adequate
+          IHC staining quality.
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods, ST analysis pipeline benchmarking, Page 5-6 of 23", "Results, Page 10 of 23"]
+            title: "Choice of Harmony for donor/batch integration prior to spot clustering"
+            choice: "Harmony (v0.1.0), used only to derive spot clusters (not for downstream quantitative contrasts)"
+            alternatives:
+              - "scANVI"
+              - "fastMNN"
+              - "ComBat"
+              - "Seurat v3 RPCA"
+              - "scVI"
+              - "BBKNN"
+            evidence: >
+              Benchmarked on 16 representative sections from 4 individuals using the scib
+              snakemake pipeline (batch-correction metrics: PCR batch, graph iLISI, graph
+              connectivity, kBET; biological-conservation metrics: isolated-label F1, isolated-label
+              silhouette, graph cLISI; 40/60 weighted mean). Harmony was one of the top performers
+              on both batch correction and biological conservation (Supplementary Fig. 2).
+            children:
+
+              - id: N04
+                type: decision
+                support_level: explicit
+                source_refs: ["Results, Page 10 of 23"]
+                title: "Retain Louvain (not BayesSpace) for final spot clustering"
+                choice: "Louvain clustering (SNN graph, resolution 0.3) on Harmony-integrated embeddings"
+                alternatives:
+                  - "BayesSpace (spatial-aware clustering method, q=8)"
+                evidence: >
+                  BayesSpace produced more spatially contiguous clusters but failed to identify
+                  clusters with sporadic spatial distributions (Blood Vessel, Interneuron) that
+                  Louvain captured; 99% of Louvain-labeled gray-matter spots were also labeled gray
+                  matter by BayesSpace, indicating high concordance where both methods agree.
+
+              - id: N05
+                type: dead_end
+                support_level: explicit
+                source_refs: ["Methods, Spot stratifications, Page 7 of 23"]
+                title: "Stricter/single-positive glia-intensity thresholds reduce DEG-detection power"
+                hypothesis: >
+                  Increasing the stringency of the glia-high/glia-low intensity thresholds, or
+                  isolating single-positive spots (e.g., GFAP+/IBA1- or GFAP-/IBA1+ only), would
+                  yield a cleaner, more cell-type-specific glial stratification.
+                failure_mode: >
+                  Stricter thresholds and single-positive-only stratification reduced the number of
+                  brain sections retaining ≥50 spots per group, shrinking the pseudobulk sample
+                  size available for LMM contrasts and thus reducing statistical power to detect
+                  DEGs.
+                lesson: >
+                  The originally reported (looser, OR-combined) glia-high/glia-low thresholds were
+                  retained as the power-preserving choice, accepting some loss of cell-type
+                  specificity (a glia-high spot may contain both reactive astrocytes and microglia)
+                  in exchange for adequate statistical power.
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["Fig. 2", "Supplementary Fig. 6", "Results, Page 10-11 of 23"]
+                title: "Aβ IHC-intensity spot stratification and plaque-type validation"
+                result: >
+                  ST spots stratified into no/low/high Aβ groups by adjacent-section IHC intensity;
+                  high-Aβ spots enriched for compact/dense-core plaques and low-Aβ spots for
+                  diffuse plaques in the primary frozen cohort (781 annotated plaques, OR=3.02,
+                  p=3.21e-9), replicated in an independent FFPE cohort (722 plaques from 9 AD
+                  participants, OR=14.98, p=4.89e-38).
+                evidence: ["C05", "Fig. 2C", "Supplementary Fig. 6C"]
+                children:
+
+                  - id: N07
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Fig. 3", "Results, Page 11-13 of 23"]
+                    title: "Aβ-load pseudobulk differential expression and GSEA"
+                    result: >
+                      Low-vs-high-Aβ pseudobulk LMM contrasts yielded 93/140/159 FDR-significant
+                      DEGs (combined/glia-low/glia-high; only 18 genes shared across all three);
+                      GSEA showed reduced synaptic-function and elevated apoptosis/immune pathway
+                      enrichment, and positive enrichment of PIG/OLIG/DAM/DAA modules and most
+                      human MG states (MG3 strongest), in low-Aβ spots.
+                    evidence: ["C01", "C02", "C04", "Fig. 3B-G"]
+                    children:
+
+                      - id: N08
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Fig. 4", "Results, Page 13 of 23"]
+                        title: "NICHES ligand-receptor analysis of Aβ-load contrasts"
+                        result: >
+                          Low-vs-no-Aβ and low-vs-high-Aβ LR contrasts positively correlated
+                          (R=0.85); low-Aβ spots showed elevated synapse/neuron-differentiation/ECM
+                          LR dysregulation plus vesicle-transport (APP-DCC, APP-VLDLR, APOE-LDLR)
+                          and immune/MAPK-cascade (C1QA-CD93, CD99-PILRA) LR upregulation.
+                        evidence: ["C06", "Fig. 4A-C"]
+
+                      - id: N09
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Fig. 3H-I", "Methods, Immunostaining quantification for FFPE tissue sections"]
+                        title: "IHC validation of apoptosis near low- vs. high-Aβ plaques"
+                        result: >
+                          FFPE IHC (10 AD individuals) showed more cleaved-caspase-3 puncta
+                          co-localized with NeuN+ nuclei (p=0.041) and total nuclei (p=2.61e-4)
+                          near low-Aβ than high-Aβ plaques, corroborating the ST-derived apoptosis
+                          signature.
+                        evidence: ["C02", "Fig. 3H-I"]
+
+                  - id: N10
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Fig. 5", "Results, Page 13-16 of 23"]
+                    title: "Glia-abundance pseudobulk differential expression and GSEA"
+                    result: >
+                      Glia-high-vs-glia-low pseudobulk LMM contrasts yielded 230/241/63
+                      FDR-significant DEGs (combined/low-Aβ/high-Aβ); glia-high spots showed
+                      elevated glial markers and reduced neuronal/synaptic/ion-channel markers;
+                      GSEA showed negative enrichment of synapse/vesicle/channel pathways and
+                      positive enrichment of immune/inflammatory/complement pathways and of
+                      PIG/OLIG/DAM/DAA modules and most human MG states (MG3 strongest) in
+                      glia-high spots.
+                    evidence: ["C03", "C04", "Fig. 5B-G"]
+                    children:
+
+                      - id: N11
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Fig. 6", "Results, Page 16 of 23"]
+                        title: "NICHES ligand-receptor analysis of glia-abundance contrasts"
+                        result: >
+                          Glia-high-vs-glia-low LR contrasts under low-Aβ and high-Aβ conditions
+                          positively correlated (R=0.41); synaptic LR pairs (RPH3A-NRXN1,
+                          DSCAM-DCC, GNB3-GABBR2, RIMS1-SLC17A7, CXCR16-GRM7) downregulated in
+                          glia-high spots across conditions; high-Aβ condition additionally showed
+                          upregulated immune/TREM2 and ECM LRs and downregulated TGF-β1 signaling.
+                        evidence: ["C07", "Fig. 6A-D"]
+
+                      - id: N12
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Fig. 5H", "Supplementary Fig. 9C"]
+                        title: "IHC validation of synaptic/neuronal loss and CD68 near glia-high vs. glia-low plaques"
+                        result: >
+                          FFPE IHC (10 AD individuals) showed reduced synaptophysin (SYP) and NeuN
+                          staining and greater CD68 abundance surrounding glia-high vs. glia-low
+                          plaques, especially for low-Aβ plaques, corroborating the ST-derived
+                          neurodegeneration/neuroinflammation signature.
+                        evidence: ["C03", "Fig. 5H"]
+
+                      - id: N13
+                        type: dead_end
+                        support_level: explicit
+                        source_refs: ["Results, Page 13 of 23", "Supplementary Table 9"]
+                        title: "Fine-grained 6-way Aβ×GFAP×IBA1 stratification is underpowered"
+                        hypothesis: >
+                          Further stratifying spots into 6 joint Aβ/GFAP/IBA1-intensity groups
+                          (e.g., HHL, HLH, HLL, LHL, LLH, LLL) would reveal cell-type-specific
+                          (astrocyte-independent vs. microglia-independent) transcriptomic effects
+                          beyond the combined glia-high/glia-low stratification.
+                        failure_mode: >
+                          After retaining only sections with ≥50 spots per group, available donor
+                          counts per group were very limited (1, 5, 5, 6, 11, and 15 individuals
+                          across the six groups), yielding minimal DEGs for nearly all contrasts
+                          except LHL vs. LLL (133 DEGs).
+                        lesson: >
+                          The ~55 µm Visium spot resolution combined with co-occurring astrocytes
+                          and microglia in most plaque-containing spots limits how finely the
+                          in-tissue glial contribution can be decomposed by IHC intensity alone;
+                          the paper instead pursued cell-type resolution via the iPSC in vitro
+                          system (N14).
+
+              - id: N14
+                type: experiment
+                support_level: explicit
+                source_refs: ["Fig. 7", "Results, Page 16-19 of 23"]
+                title: "iPSC co-culture Aβ-oligomer treatment + scRNA-seq cross-validation of the ST glial signature"
+                also_depends_on: ["N07", "N10"]
+                result: >
+                  Of neurons/astrocytes/iMGLs (199/58/271 Aβ-response DEGs respectively, from
+                  13,740 total co-culture cells), only iMGL Aβ-response genes were positively
+                  enriched for the ST-derived glia-high-vs-glia-low signature; sub-clustering
+                  Aβ-treated iMGLs (iMGL1-4) showed iMGL1 most closely resembling the human MG3
+                  (DAM-like) state that was the strongest-enriched state in the in vivo ST data,
+                  while iMGL2 resembled MG4/MG5/MG7/MG10.
+                evidence: ["C08", "C09", "Fig. 7C-J"]

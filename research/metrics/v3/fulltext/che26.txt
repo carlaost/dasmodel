@@ -1,0 +1,562 @@
+                                                                                                                   TYPE Systematic Review
+                                                                                                                   PUBLISHED 03 June 2026
+                                                                                                                   DOI 10.3389/fnagi.2026.1834591
+
+
+
+
+                                             Diagnostic performance of
+OPEN ACCESS
+                                             plasma p-Tau217, p-Tau181, and
+EDITED BY
+Umesh K. Jinwal,
+                                             p-Tau231 across the Alzheimer’s
+University of South Florida, United States
+
+REVIEWED BY
+                                             disease continuum: a network
+Ram J. Bishnoi,
+University of South Florida, United States
+Miren Altuna,
+                                             meta-analysis
+Fundacion CITA Alzheimer, Spain
+
+*CORRESPONDENCE                              Xiaofen Chen *, Tingting Huang , Chao Shi , Shuizhi Xu and
+Xiaofen Chen
+   cxf243445210@163.com                      Shuwei Fan
+RECEIVED 19 March 2026                       Department of Clinical Laboratory, Affiliated Jinhua Hospital, Zhejiang University School of Medicine
+REVISED 07 May 2026                          (Jinhua Municipal Central Hospital), Jinhua, China
+ACCEPTED 18 May 2026
+PUBLISHED 03 June 2026
+
+CITATION
+Chen X, Huang T, Shi C, Xu S and             Importance: Blood-based biomarkers (BBMs) are transforming the diagnostic
+Fan S (2026) Diagnostic performance of       workflow for Alzheimer’s disease (AD). However, there is no consensus on the
+plasma p-Tau217, p-Tau181, and               optimal phosphorylated tau (p-tau) isoform (217, 181, or 231) or analytical plat-
+p-Tau231 across the Alzheimer’s disease
+continuum: a network meta-analysis.          form [mass spectrometry (MS) vs. immunoassay (IA)] for clinical implementation
+Front. Aging Neurosci. 18:1834591.           across different disease stages.
+doi: 10.3389/fnagi.2026.1834591              Objective: To systematically compare the diagnostic accuracy and prognostic
+COPYRIGHT                                    value of plasma p-tau isoforms using different technical platforms for detecting
+© 2026 Chen, Huang, Shi, Xu and Fan.         amyloid-β (Aβ) pathology, tau pathology, and predicting cognitive decline.
+This is an open-access article distributed
+under the terms of the Creative              Study selection: Studies reporting diagnostic accuracy [Area Under the Curve
+Commons Attribution License (CC BY).         (AUC)] of plasma p-tau against cerebrospinal fluid (CSF) or Positron Emission
+The use, distribution or reproduction in     Tomography (PET) standards were included. To ensure statistical independence,
+other forums is permitted, provided the
+original author(s) and the copyright         overlapping cohorts (e.g., BioFINDER, ADNI) were rigorously screened, selecting
+owner(s) are credited and that the           only the most comprehensive dataset per cohort.
+original publication in this journal is      Results: A total of 18 high-quality studies comprising 24 independent datasets and
+cited, in accordance with accepted
+academic practice. No use, distribution      4,736 participants were included. For detecting Aβ pathology, p-tau217 measured
+or reproduction is permitted which does      by MS (p217_MS) demonstrated the highest diagnostic accuracy (P-score = 0.86),
+not comply with these terms.                 followed by p-tau217 ratio (p217_Ratio) (P-score = 0.78) and automated immu-
+                                             noassays (P-score = 0.67–0.69), all of which significantly outperformed standard
+                                             p-tau181 immunoassays (P-score = 0.12). Notably, the p-tau217/Aβ 42 ratio on
+                                             automated platforms provided a significant incremental AUC gain of 0.025 (95%
+                                             CI: 0.005 to 0.045; I2 = 0%) compared to single-analyte assays, effectively bridg-
+                                             ing the performance gap with MS. In disease staging, while p-tau231 showed
+                                             potential in detecting early amyloidosis, p-tau217_MS was superior for identifying
+                                             advanced Tau-PET pathology (P-score = 0.91) and predicting MCI-to-dementia
+                                             conversion (P-score = 0.82). Subgroup analyses confirmed consistent perfor-
+                                             mance of p-tau217 across Han Chinese and Western cohorts, and demonstrated
+                                             the diagnostic potential of serum-based assays as a viable matrix.
+                                             Conclusions and relevance: Plasma p-tau217, particularly when measured by
+                                             mass spectrometry or as a ratio on fully automated platforms, offers the high-
+                                             est accuracy for AD diagnosis and staging. While p-tau231 may serve as an early
+                                             indicator of amyloidosis, p-tau217 is the most robust marker for tau pathology
+                                             and disease progression. These findings support the integration of automated
+                                             p-tau217 assays into routine clinical care to streamline patient stratification for
+                                             disease-modifying therapies.
+                                             Systematic review registration: https://www.crd.york.ac.uk/prospero/, identifier
+                                             (CRD420261327845).
+
+
+Frontiers in Aging Neuroscience                                     01                                                               frontiersin.org
+Chen et al.                                                                                                                       10.3389/fnagi.2026.1834591
+
+
+
+
+                                                      KEYWORDS
+
+                                                      Alzheimer’s disease continuum, diagnostic performance, network meta-analysis,
+                                                      plasma biomarkers, plasma phosphorylated tau 181, plasma phosphorylated tau 217,
+                                                      plasma phosphorylated tau 231
+
+
+
+                                                                                     (Brum et al., 2023). Most existing studies are single-center or compare
+1 Introduction                                                                       limited assay pairs, making it difficult to draw definitive conclusions for
+                                                                                     clinical guidelines. To address this gap, we conducted a Bayesian network
+      Alzheimer’s disease (AD) is a progressive neurodegenerative dis-               meta-analysis (NMA) integrating data from 24 independent datasets
+order defined biologically by the accumulation of amyloid-β (Aβ)                     across 18 high-impact studies. This approach allows for both direct and
+plaques and tau neurofibrillary tangles. The shifting of diagnostic cri-             indirect comparisons to: (1) rank the diagnostic accuracy of p-tau217,
+teria from a clinical syndrome to a biological construct [AT(N) frame-               p-tau181, and p-tau231 for detecting Aβ and tau pathology; (2) evaluate
+work] has revolutionized the identification of AD, emphasizing the                   the incremental gain of ratio-based metrics and mass spectrometry over
+necessity of objective biomarkers (Jack Jr et al., 2018). While cerebro-             automated immunoassays; and (3) assess the prognostic value of these
+spinal fluid (CSF) analysis and positron emission tomography (PET)                   markers for determining the risk of progression from mild cognitive
+remain the gold standards for diagnosing Aβ and tau pathology, their                 impairment (MCI) to AD dementia.
+high cost, invasiveness, and limited accessibility hinder their wide-
+spread use in primary care and population-based screening (Hansson
+et al., 2023; Teunissen et al., 2022). Consequently, the validation of
+high-performance blood-based biomarkers (BBMs) has become a                          2 Methods
+critical priority for the global AD research community (Schindler et
+al., 2021).                                                                              This systematic review and network meta-analysis was conducted
+      Among candidate BBMs, plasma phosphorylated tau (p-tau) spe-                   in accordance with the Preferred Reporting Items for Systematic
+cies have emerged as the most promising indicators of AD pathology.                  Reviews and Meta-Analyses (PRISMA) guidelines for Diagnostic Test
+Initial studies highlighted plasma p-tau181 as a scalable marker                     Accuracy (DTA). The protocol was registered with PROSPERO
+(Karikari et al., 2020), yet recent evidence suggests that other epitopes,           [Registration number: CRD420261327845].
+particularly p-tau217 and p-tau231, may offer superior diagnostic
+accuracy and dynamic range (Mila-Aloma et al., 2022; Janelidze et al.,               2.1 Search strategy and data sources
+2023). Specifically, plasma p-tau217 has demonstrated exceptional
+concordance with CSF and PET measures, distinguishing AD from                             We systematically searched PubMed, Embase, Web of Science,
+other neurodegenerative disorders with accuracies rivaling approved                  and the Cochrane Library for articles published from January 1, 2020,
+CSF assays (Palmqvist et al., 2024; Ashton et al., 2024a,b).                         to March 2026. The search strategy combined controlled vocabulary
+Furthermore, emerging evidence indicates that p-tau231 may rise ear-                 (MeSH/Emtree) and free-text terms related to: (1) biomarkers (e.g.,
+liest in the preclinical continuum (Ashton et al., 2021), whereas                    “plasma p-tau,” “p-tau217,” “p-tau181,” “p-tau231,” “blood-based bio-
+p-tau217 correlates more strongly with longitudinal cognitive decline                markers”); (2) diagnosis/prognosis (e.g., “diagnostic accuracy,” “sensi-
+and pathological staging (Mattsson-Carlgren et al., 2023). However,                  tivity,” “specificity,” “AUC,” “prediction”); and (3) disease spectrum
+inconsistent findings across cohorts have sparked an ongoing debate                  (e.g., “Alzheimer’s disease,” “mild cognitive impairment,” “preclinical
+regarding which isoform represents the optimal choice for clinical                   AD”). No language restrictions were applied. We also manually
+implementation.                                                                      screened the reference lists of relevant reviews and the Alzheimer’s
+      Beyond the choice of epitope, the analytical platform and mea-                 Association Global Biomarker Standardization Consortium (GBSC)
+surement method constitute a major source of heterogeneity.                          reports.
+Immunoprecipitation mass spectrometry (IP-MS) is currently
+regarded as the benchmark for quantification due to its high specificity             2.2 Inclusion and exclusion criteria
+(Schindler et al., 2019; Ashton et al., 2024a,b), but its complexity limits
+throughput. Conversely, novel ultrasensitive immunoassays (e.g.,                          Studies were included if they met the following criteria:
+Simoa, Meso Scale Discovery) and fully automated platforms (e.g.,                         Population: individuals across the AD continuum, including cog-
+Lumipulse) offer greater clinical accessibility (Silva-Spinola et al.,               nitively unimpaired (CU) with AD pathology (preclinical AD), mild
+2026; Benedet et al., 2026). Recent studies have also suggested that                 cognitive impairment (MCI), and AD dementia.
+using the ratio of p-tau to Aβ42 (or non-phosphorylated tau) can miti-                    Index test: blood-based p-tau biomarkers (plasma or serum) tar-
+gate confounding factors such as chronic kidney disease, thereby                     geting specific phosphorylation sites (p-tau217, p-tau181, p-tau231),
+enhancing diagnostic stability (Lehmann et al., 2025; Devanarayan et                 analyzed via specific platforms (e.g., Mass Spectrometry, Simoa,
+al., 2025). Furthermore, while most validation studies have been con-                Lumipulse, MSD).
+ducted in Western populations (Mielke et al., 2022), data on the per-                     Reference standard: a biologically defined “gold standard”
+formance of these biomarkers in diverse ethnic groups, particularly in               using either cerebrospinal fluid (CSF) biomarkers (Aβ42/40 ratio,
+Asian populations, remain sparse but are essential for global standard-              p-tau) or positron emission tomography (amyloid-PET or tau-
+ization (Brickman et al., 2021).                                                     PET). Studies relying solely on clinical diagnosis without bio-
+      Despite the explosion of individual studies, there is a lack of system-        marker confirmation were excluded to avoid misclassification bias.
+atic, quantitative comparisons that simultaneously evaluate different p-tau               Outcome: reported diagnostic accuracy metrics, specifically the
+isoforms, technical platforms, and sample matrices (plasma vs. serum)                Area Under the Curve (AUC), sensitivity, and specificity.
+Frontiers in Aging Neuroscience                                                 02                                                               frontiersin.org
+Chen et al.                                                                                                                           10.3389/fnagi.2026.1834591
+
+
+
+
+2.3 Management of overlapping cohorts                                                     Assay type: Single analyte vs. Ratio-based approaches (e.g.,
+(crucial step)                                                                       p-tau217/Aβ42).
+                                                                                          Heterogeneity: Statistical heterogeneity was assessed using the I2
+     Given that many high-impact studies utilize shared datasets from                statistic.
+major longitudinal cohorts (e.g., BioFINDER-1/2, ADNI, TRIAD, and
+WRAP), simply pooling all studies would violate the assumption of
+statistical independence. To address this, we applied a rigorous hier-
+archical selection strategy.                                                         3 Results
+     For studies reporting on the same cohort, we selected the publica-
+tion with the largest sample size or the most comprehensive head-to-                 3.1 Study selection and cohort
+head comparison of assays (e.g., Janelidze et al., 2023 for BioFINDER                characteristics
+and Ashton et al., 2024a,b for Round Robin comparisons).
+     Data from the same cohort were included only if they addressed dis-                  The systematic literature search initially identified 601 records.
+tinct clinical outcomes (e.g., Palmqvist et al., 2024 for primary care imple-        Following the removal of duplicates and rigorous title/abstract screening,
+mentation vs. Janelidze et al., 2023 for assay technical comparison).                106 full-text articles were evaluated for eligibility. Based on strict inclusion
+     This selection process resulted in 24 statistically independent                 criteria requiring high-quality reference standards (CSF biomarkers or
+datasets from 18 publications, ensuring no patient was counted twice                 PET imaging) and data independence, 18 studies comprising 24 indepen-
+in the network geometry.                                                             dent datasets were finalized for the network meta-analysis (Figure 1). To
+                                                                                     mitigate the risk of overestimating effect sizes due to overlapping popula-
+2.4 Data extraction and quality assessment                                           tions, core cohorts such as BioFINDER, ADNI, and TRIAD were meticu-
+                                                                                     lously screened, selecting only the most comprehensive or largest
+     Two independent reviewers extracted data using a standardized                   longitudinal datasets per outcome.
+form. Information collected included: cohort name, sample size, age,                      The demographic and clinical profiles of the included cohorts are
+sex, disease stage, assay platform (e.g., IP-MS vs. Automated                        detailed in Table 1. The total pooled population comprised 4,736 partici-
+Immunoassay), manufacturer (e.g., C2N, Fujirebio, ALZpath, and                       pants across six representative international cohorts, including
+Lilly), and reference standard.                                                      BioFINDER-1/2, ADNI, TRIAD, WRAP, ALFA+, and two Han Chinese
+     For diagnostic accuracy, we extracted the AUC and its 95% confi-                cohorts (Huashan and GBA study). The participants spanned the entire
+dence interval (CI). If 95% CIs were not reported, they were calculated              AD continuum, from preclinical AD (cognitively unimpaired, Aβ+) to
+from the standard error (SE) or estimated based on sample size and                   symptomatic stages (MCI and AD dementia), with mean ages ranging
+p-values. The methodological quality of included studies was assessed                from 61.1 to 74.2 years. Quality assessment via the QUADAS-2 tool dem-
+using the QUADAS-2 (Quality Assessment of Diagnostic Accuracy                        onstrated a low risk of bias across most domains for the majority of
+Studies-2) tool, focusing on risk of bias in patient selection, index test,          included studies (Supplementary Table S1).
+reference standard, and flow/timing (Supplementary Table S1).
+                                                                                     3.2 Diagnostic accuracy for amyloid-β
+2.5 Statistical analysis                                                             pathology
+
+     We performed a Network Meta-Analysis (NMA) to compare mul-                          The network geometry for detecting Aβ positivity included 8 dis-
+tiple biomarker classes simultaneously, incorporating both direct                    tinct biomarker/platform nodes, with p-tau181 immunoassay (p181_
+(head-to-head) and indirect evidence.                                                IA) serving as the common comparator (Figure 2A). Network
+     Network geometry: We constructed network plots to visualize the                 meta-analysis revealed that p-tau217-based biomarkers significantly
+available comparisons, where node size reflects sample size and edge                 outperformed all other isoforms. Mass spectrometry-derived p-tau217
+thickness represents the number of studies. Nodes were categorized                   (p217_MS) and the p-tau217 ratio (p217_Ratio) exhibited the highest
+by both epitope (e.g., 217 vs. 181) and platform (e.g., MS vs. AutoIA).              diagnostic performance.
+     Effect size: The primary effect size was the Mean Difference (MD)                   According to the SUCRA ranking (Table 2, Outcome 1), p217_MS
+in AUC. Plasma p-tau181 measured by standard immunoassay (p181_                      achieved the highest rank (P-score = 0.859), followed by p217_Ratio
+IA) was set as the reference comparator.                                             (P-score = 0.783) and the ALZpath-based p-tau217 immunoassay (p217_
+     Model specification: A random-effects frequentist NMA model                     ALZpath, P-score = 0.686). Forest plots indicated that p217_MS and
+was fitted using the netmeta package (version 4.5.2) in R statistical                p217_Ratio provided the most substantial improvements in Area Under
+software (Foundation for Statistical Computing). This approach                       the Curve (AUC) relative to the p-tau181 benchmark (Figure 3A).
+accounts for between-study heterogeneity.                                            Conversely, p181_IA consistently ranked as the least effective marker for
+     Ranking: We calculated P-scores (analogous to SUCRA in                          Aβ detection (P-score = 0.117; Table 2).
+Bayesian frameworks) to rank the diagnostic performance of each
+biomarker. P-scores range from 0 to 1, with higher values indicating a               3.3 Prognostic value for MCI-to-AD
+higher probability of being the best diagnostic test.                                dementia progression
+     Subgroup analysis: To test robustness, analyses were stratified by:
+     Disease stage: Preclinical (asymptomatic) vs. Symptomatic (MCI/                      For the prediction of clinical progression from MCI to AD dementia
+Dementia).                                                                           (Table 2, Outcome 2), the network integrated longitudinal evidence from
+     Ethnicity: Han Chinese cohorts vs. Western cohorts.                             key cohorts (Supplementary Figure S2) p217_MS maintained its superi-
+     Outcome type: Aβ pathology (early diagnosis) vs. Tau-PET posi-                  ority as the most robust prognostic indicator (P-score = 0.821), followed
+tivity (staging).                                                                    closely by p217_Ratio (P-score = 0.814) (Table 2).
+Frontiers in Aging Neuroscience                                                 03                                                                   frontiersin.org
+Chen et al.                                                                                                                      10.3389/fnagi.2026.1834591
+
+
+
+
+   FIGURE 1
+   PRISMA flow diagram of study selection. Selection process of the included studies. A total of 20 + high-impact publications were initially screened, with
+   24 independent datasets finally included for the network meta-analysis after excluding overlapping cohorts (e.g., BioFINDER, ADNI, and TRIAD).
+
+
+
+
+    Automated immunoassays (p217_Lumi) also demonstrated high                      positivity. The diagnostic gap between p-tau217 and other isoforms
+predictive accuracy (P-score = 0.660), notably exceeding the perfor-               was most pronounced in this context (Figure 2B) p217_MS yielded
+mance of manual p-tau217 assays (p217_Lilly, P-score = 0.583). In                  the highest diagnostic utility (P-score = 0.907), with the fully auto-
+contrast, p-tau181 (P-score = 0.159) and p-tau231 (P-score = 0.042)                mated Lumipulse assay (p217_Lumi) ranking second
+exhibited limited utility in identifying individuals at high risk of near-         (P-score = 0.723) (Table 2, Outcome 3).
+term conversion to dementia (Supplementary Figure S3). The relative                     Forest plots confirmed that p217_MS and p217_Lumi provided sig-
+predictive performance for MCI-to-AD conversion is further illus-                  nificantly higher AUCs for Tau-PET recognition compared to p181_IA
+trated in Supplementary Figure S3, where p-tau217-based metrics                    (Figure 3B). Notably, p-tau181 failed to reliably discriminate Tau-PET
+consistently showed superior AUC improvement compared to the                       status (P-score = 0.090), underscoring its limitations in pathological
+p-tau181 baseline.                                                                 staging.
+
+3.4 Identification of advanced tau-PET                                             3.5 Comparative analysis of technical
+pathology                                                                          platforms and matrices
+
+   We evaluated the efficacy of plasma biomarkers in identifying                       To facilitate clinical implementation, we benchmarked various
+advanced neurofibrillary tangle pathology, defined by Tau-PET                      analytical platforms and sample matrices (Table 2, Outcome 4). The
+
+
+Frontiers in Aging Neuroscience                                               04                                                                 frontiersin.org
+Chen et al.                                                                                                                                       10.3389/fnagi.2026.1834591
+
+
+
+TABLE 1 Characteristics of the included studies and cohorts.
+
+
+
+    Study ID                     Cohort                   N     Disease stage         Age,         Sex,              p-Tau           Technology            Reference
+                                                                                      mean         female %                                                standard
+                                                                MCI (Prodromal                                       217, 181,
+    Janelidze et al. (2023)      BioFINDER-1             135                          72.4         60.70%                            IP-MS and Simoa       CSF Aβ42/40
+                                                                AD)                                                  231
+
+                                                                Primary care (SCD/
+    Palmqvist et al. (2024)      BioFINDER-PC            307                          74.2         48.00%            217 (APS2)      IP-MS (C2N)           CSF Aβ42/40
+                                                                MCI)
+
+    Ashton et al. (2024a)        WRAP                    323    Preclinical AD (CU)   65.3         67.20%            217             Simoa (ALZpath)       Amyloid-PET
+
+    Ashton et al. (2024b)        SPIN                    195    AD continuum          63.5         61.50%            217             Simoa (ALZpath)       CSF Aβ42/40
+
+    Devanarayan et al.
+                                 Clarity AD               98    MCI and Mild AD       70.5         55.00%            217 (Ratio)     IP-MS (C2N)           Tau-PET
+    (2025)
+
+                                                                Cognitive
+    Lehmann et al. (2025)        ALZAN                   423                          71.1         53.40%            217, 181        Simoa (Fujirebio)     CSF Aβ42/40
+                                                                complaints
+
+    Mila-Aloma et al.
+                                 ALFA+                   397    Preclinical AD (CU)   61.1         65.60%            217, 231        Simoa and MSD         CSF Aβ42/40
+    (2022)
+
+                                                                                                                     217 (Serum
+    Benedet et al. (2026)        TRIAD                   100    AD continuum          72.5         54.00%                            Automated IA          Amyloid-PET
+                                                                                                                     focus)
+
+                                                                Community (CU/                                                                             Amyloid/Tau-
+    Mielke et al. (2022)         MCSA                   1,051                         73.2         45.10%            217, 181        MSD (Lilly)
+                                                                MCI/Dem)                                                                                   PET
+
+    Silva-Spinola et al.
+                                 Coimbra                 395    Tertiary clinic       67           57.00%            217, 181        Automated IA          CSF Aβ42/40
+    (2026)
+
+                                                                Clinic (MCI/
+    Huashan Cohort*              Huashan                 297                          71.6         58.60%            217, 231        AutoIA (Lilly)        Amyloid-PET
+                                                                Dementia)
+
+                                                                Community-based
+    GBA Study*                   Greater-Bay             425                          65.7         62.60%            217, 181        AutoIA (ALZpath)      Amyloid-PET
+                                                                (CU)
+Demographic and clinical characteristics of the 6 core representative cohorts (BioFINDER, ADNI, TRIAD, WRAP, ALFA+, and Han Chinese cohorts).
+
+
+
+
+    FIGURE 2
+    Evidence network for comparative diagnostic accuracy. (A) Network plot for Amyloid-β positivity detection; (B) Network plot for Tau-PET positivity
+    recognition. The size of the nodes is proportional to the total number of participants, and the thickness of the edges represents the number of direct
+    head-to-head comparisons.
+
+
+
+SUCRA ranking for technical efficiency (Table 2) and ranking curves                          3.6 Subgroup and sensitivity analyses
+(Supplementary Figure S4) identified:
+    Mass Spectrometry (MS) as the gold standard for precision                                    Subgroup analyses confirmed the robustness of our primary find-
+(P-score = 0.953).                                                                           ings across different clinical settings and demographics:
+    Automated Immunoassays (AutoIA), such as the Lumipulse plat-                                 Subgroup analysis restricted to the symptomatic phase (MCI and
+form, as the superior non-MS approach (P-score = 0.706), signifi-                            dementia) confirmed the stability of p-tau217_MS as the top-performing
+cantly outperforming manual IAs (P-score = 0.268).                                           marker (Supplementary Figure S1), while automated assays maintained
+    Serum p-tau217 (P-score = 0.568) demonstrated comparable diag-                           high accuracy across diverse clinical settings.
+nostic potential to plasma-based assays, suggesting that serum is a viable                       Incremental gain of ratios: A meta-analysis of the AUC gain
+matrix for clinical settings where rapid plasma processing is unavailable.                   when utilizing the p-tau217/Aβ42 ratio instead of single-analyte
+
+
+Frontiers in Aging Neuroscience                                                         05                                                                       frontiersin.org
+Chen et al.                                                                                                                               10.3389/fnagi.2026.1834591
+
+
+
+
+    FIGURE 3
+    Relative diagnostic performance of plasma p-tau biomarkers compared to p-Tau181 (IA). (A) Forest plot showing the mean difference (MD) in AUC for
+    detecting amyloid-β pathology relative to the p181_IA baseline, using a random-effects model; (B) Forest plot showing the mean difference (MD) in
+    AUC improvement for recognizing Tau-PET positivity relative to the p181_IA baseline, using a random-effects model. All biomarkers are ranked by their
+    diagnostic performance in the network meta-analysis.
+
+
+TABLE 2 Ranking of diagnostic accuracy based on SUCRA values.
+
+
+
+    Rank           Outcome 1: diagnostic                       Outcome 2:                              Outcome 3:                   Outcome 4: technical
+                       accuracy (Aβ                       progression prediction                   pathological staging              platform and matrix
+                        pathology)                        (MCI to AD dementia)                    (Tau-PET recognition)                   efficiency
+
+                      Biomarker (P-score)                   Biomarker (P-score)                     Biomarker (P-score)           Platform/matrix (P-score)
+    1                       p217_MS (0.859)                        p217_MS (0.821)                        p217_MS (0.907)                 p217_MS (0.953)
+
+    2                      p217_Ratio (0.783)                     p217_Ratio (0.814)                     p217_Lumi (0.723)              p217_AutoIA (0.706)
+
+    3                    p217_ALZpath (0.686)                     p217_Lumi (0.660)                      p217_Ratio (0.538)              p217_Serum (0.568)
+
+    4                      p217_Lumi (0.667)                      p217_Lilly (0.583)                      p217_Lilly (0.479)              p217_IA (0.268)
+
+    5                       p217_IA (0.412)                        p217_IA (0.421)                         p217_IA (0.264)                p181_IA (0.006)
+
+    6                      p217_Lilly (0.331)                      p181_IA (0.159)                         p181_IA (0.090)                      —
+
+    7                     p231_UGOT (0.145)                      p231_UGOT (0.042)                                   —                          —
+
+    8                       p181_IA (0.117)                                —                                         —                          —
+SUCRA (surface under the cumulative ranking) and P-scores for each biomarker across different diagnostic outcomes.
+
+
+
+
+p-tau217 showed a significant mean difference of 0.025 (95% CI:                                4 Discussion
+0.005–0.045) (Supplementary Table S2). The zero heterogeneity
+(I2 = 0%) observed in this gain across cohorts supports the rou-                                   In this systematic review and network meta-analysis of 24 indepen-
+tine adoption of ratio-based measurements to optimize diagnos-                                 dent datasets involving 4,736 participants, we provide the most compre-
+tic precision on automated platforms.                                                          hensive comparative assessment of plasma p-tau biomarkers to date. Our
+
+
+
+
+Frontiers in Aging Neuroscience                                                           06                                                             frontiersin.org
+Chen et al.                                                                                                                       10.3389/fnagi.2026.1834591
+
+
+
+
+findings crystallize a clear hierarchy: p-tau 217 (especially via MS or auto-        4.4 Clinical implementation and matrix
+mated ratios) is the gold standard for diagnosis and staging, while p-tau            flexibility
+231 emerges as a specialized tool for the earliest detection of
+amyloidosis.                                                                              For clinical feasibility, the matrix must be flexible. Our analysis of
+                                                                                     the Benedet et al., 2026 dataset (Table 1, Outcome 4) provides compel-
+4.1 The dominance of p-tau 217 and the                                               ling evidence that serum p-tau 217 performs equivalently to plasma
+“ratio effect”                                                                       (O'Bryant et al., 2023). This equivalence, likely due to the high sensi-
+                                                                                     tivity and optimized buffers of modern automated platforms (e.g.,
+     Our analysis confirms that p-tau 217 is superior to p-tau 181                   Lumipulse), has significant logistical benefits. Serum is the standard
+across all major diagnostic outcomes. Phosphorylation at threonine                   matrix in routine hospital chemistry panels, allowing for easier inte-
+217 reflects a specific cellular response to amyloid plaques with a                  gration into existing diagnostic workflows (Bayoumy et al., 2021).
+larger dynamic range than other epitopes (Suárez-Calvet et al., 2020;
+Grothe et al., 2021). While p-tau 181 was once the standard, our                     4.5 Limitations
+results (P-score < 0.20) suggest it is effectively obsolete for high-pre-
+cision AD diagnostics (Thijssen et al., 2021; Barthélemy et al., 2020).                    Despite the strengths, some limitations remain. First, while we
+     Crucially, we resolve the technical debate between mass spectrom-               adjusted for platforms, batch effects in manual immunoassays may
+etry (MS) and immunoassays. While p217_MS (P-score = 0.86)                           still exist. Second, the definition of amyloid positivity varied slightly
+remains the benchmark, automated immunoassays (AutoIA) utilizing                     between CSF and PET standards across studies. Finally, longitudinal
+the p-tau 217/Aβ42 ratio effectively bridge the performance gap. As                  “slope” data remain limited; future research should focus on how these
+shown in Supplementary Table S2, the ratio approach provides a sig-                  isoforms change over time during disease-modifying therapies
+nificant incremental AUC gain (MD = 0.025). This is likely because                   (Teunissen et al., 2022).
+the ratio normalizes for individual differences in protein clearance and
+constitutional tau levels (Mielke et al., 2022; Rissman et al., 2024).
+
+4.2 Differential utility and the “relay”                                             5 Conclusion
+hypothesis: the role of p-tau 231
+                                                                                          In conclusion, this network meta-analysis establishes p-tau217 as
+      A pivotal insight from our study is the distinct temporal performance          the premier blood-based biomarker for Alzheimer’s disease. While
+of p-tau isoforms. Vero noted whether the role of p-tau 231 is merely cited          Mass Spectrometry remains the analytical gold standard, Ratio-based
+from literature; however, our results provide primary evidence: in the pre-          Automated Immunoassays offer a diagnostic accuracy that is sufficient
+clinical subgroup (Outcome 1), p-tau 231 achieved the highest rank                   for routine clinical use. The demonstrated stability of these markers
+(P-score = 0.66) for detecting early Aβ pathology (Hansson et al., 2022).            across disease stages, technical platforms, and ethnic groups supports
+      This supports a “Relay” Hypothesis: p-tau 231 rises earliest, pos-             their immediate integration into diagnostic guidelines to streamline
+sibly triggered by soluble Aβ aggregates before significant plaque                   the identification of patients eligible for disease-modifying therapies.
+deposition (Mila-Aloma et al., 2022; Ashton et al., 2021). This makes
+p-tau 231 the ideal “smoke detector” for asymptomatic screening.
+Once the disease progresses to MCI and dementia, p-tau 217 takes
+over as the robust “fire monitor,” showing a steep rise that correlates              Data availability statement
+strongly with neurofibrillary tangles (Doré et al., 2022).
+      For clinical trials, this suggests a stratified approach: p-tau 231 for             The original contributions presented in the study are included in
+secondary prevention trials (pre-amyloid stage), and p-tau 217 for                   the article/Supplementary material, further inquiries can be directed
+therapeutic monitoring in symptomatic stages (Mattsson-Carlgren et                   to the corresponding author.
+al., 2020; Triana-Baltzer et al., 2021). Our Tau-PET network (Outcome
+3) results (p217_MS, P-score = 0.907) reinforce that plasma p-tau 217
+is a high-fidelity proxy for Braak stages V-VI, potentially reducing the
+need for PET scans by 80% (Therriault et al., 2021).                                 Author contributions
+4.3 Cross-ethnic validity and global                                                      XC: Formal analysis, Project administration, Supervision, Data
+applicability                                                                        curation, Methodology, Conceptualization, Visualization, Validation,
+                                                                                     Funding acquisition, Writing – review & editing, Software, Writing –
+     To address concerns about generalizability (Schindler et al., 2022),            original draft, Investigation, Resources. TH: Writing – review & edit-
+we meta-analyzed data from large Han Chinese cohorts (Huashan and                    ing, Investigation, Project administration, Methodology, Visualization.
+GBA Study). The P-score of 1.00 for p-tau 217 in these cohorts indi-                 CS: Formal analysis, Writing – original draft, Validation, Funding
+cates it was the top-performing marker across all Asian datasets                     acquisition, Data curation, Conceptualization. SX: Software,
+included. This suggests that p-tau 217’s diagnostic performance and                  Visualization, Writing – review & editing, Funding acquisition,
+cut-offs are remarkably robust across ethnicities, potentially more so               Validation, Conceptualization, Supervision. SF: Resources, Validation,
+than genetic markers like APOE ε4 (Wang et al., 2024). This is essen-                Project administration, Writing – review & editing, Methodology,
+tial for the global implementation of blood-based biomarkers.                        Investigation, Software, Funding acquisition.
+
+
+
+Frontiers in Aging Neuroscience                                                 07                                                               frontiersin.org
+Chen et al.                                                                                                                                                       10.3389/fnagi.2026.1834591
+
+
+
+
+Funding                                                                                                    Any alternative text (alt text) provided alongside figures in this
+                                                                                                       article has been generated by Frontiers with the support of artificial
+     The author(s) declared that financial support was not received for                                intelligence and reasonable efforts have been made to ensure accuracy,
+this work and/or its publication.                                                                      including review by the authors wherever possible. If you identify any
+                                                                                                       issues, please contact us.
+
+
+
+Conflict of interest
+                                                                                                       Publisher’s note
+    The author(s) declared that this work was conducted in the
+absence of any commercial or financial relationships that could be                                          All claims expressed in this article are solely those of the
+construed as a potential conflict of interest.                                                         authors and do not necessarily represent those of their affiliated
+                                                                                                       organizations, or those of the publisher, the editors and the review-
+                                                                                                       ers. Any product that may be evaluated in this article, or claim that
+                                                                                                       may be made by its manufacturer, is not guaranteed or endorsed
+Generative AI statement                                                                                by the publisher.
+
+     The author(s) declared that Generative AI was used in the cre-
+ation of this manuscript. During the preparation of this manuscript,
+we used ChatGPT for translation and language polishing to improve                                      Supplementary material
+the readability of the manuscript. After utilizing this service, we care-
+fully and thoroughly reviewed and revised the content as necessary.                                         The Supplementary material for this article can be found online
+We take full responsibility for the integrity and accuracy of this                                     at: https://www.frontiersin.org/articles/10.3389/fnagi.2026.1834591/
+publication.                                                                                           full#supplementary-material
+
+
+
+
+References
+Ashton, N. J., Brum, W. S., Di Molfetta, G., Benedet, A. L., Arslan, B., Jonaitis, E., et al.          Hansson, O., Blennow, K., Zetterberg, H., and Dage, J. (2023). Blood biomarkers for
+(2024a). Diagnostic accuracy of a plasma phosphorylated tau 217 immunoassay for                        Alzheimer's disease in clinical practice and trials. Nat. Aging 3, 506–519. doi: 10.1038/
+Alzheimer disease pathology. JAMA Neurol. 81, 255–263. doi: 10.1001/                                   s43587-023-00403-3
+jamaneurol.2023.5319
+                                                                                                       Hansson, O., Edelmayer, R. M., Boxer, A. L., Carrillo, M. C., Mielke, M. M.,
+Ashton, N. J., Keshavan, A., Brum, W. S., Andreasson, U., Arslan, B., Droescher, M., et al.            Rabinovici, G. D., et al. (2022). The Alzheimer's Association appropriate use recommen-
+(2024b). The Alzheimer’s association global biomarker standardization consortium                       dations for blood biomarkers in Alzheimer's disease. Alzheimers Dement. 18, 2669–2686.
+(GBSC) plasma phospho-tau round Robin study. MedRxiv. 22:2244. doi:                                    doi: 10.1002/alz.12756
+10.1101/2024.08.22.24312244
+                                                                                                       Jack, C. R. Jr., Bennett, D. A., Blennow, K., Carrillo, M. C., Dunn, B., Haeberlein, S. B.,
+Ashton, N. J., Pascoal, T. A., Karikari, T. K., Benedet, A. L., Lantero-Rodriguez, J.,                 et al. (2018). NIA-AA research framework: toward a biological definition of Alzheimer's
+Brinkmalm, G., et al. (2021). Plasma p-tau231: a new biomarker for incipient Alzheimer's               disease. Alzheimers Dement. 14, 535–562. doi: 10.1016/j.jalz.2018.02.018
+disease pathology. Acta Neuropathol. 141, 709–724. doi: 10.1007/s00401-021-02275-6
+                                                                                                       Janelidze, S., Bali, D., Ashton, N. J., Barthélemy, N. R., Vanbrabant, J., Stoops, E., et al.
+Barthélemy, N. R., Horie, K., Sato, C., and Bateman, R. J. (2020). Blood plasma phosphor-              (2023). Head-to-head comparison of 10 plasma phospho-tau assays in prodromal
+ylated-tau isoforms track CNS change in Alzheimer's disease. J. Exp. Med. 217:e20200861.               Alzheimer's disease. Brain 146, 1592–1601. doi: 10.1093/brain/awac333
+doi: 10.1084/jem.20200861
+                                                                                                       Karikari, T. K., Pascoal, T. A., Ashton, N. J., Janelidze, S., Benedet, A. L., Rodriguez, J. L.,
+Bayoumy, S., Verberk, I. M. W., den Dulk, B., Hussainali, Z., Zwan, M., van der                        et al. (2020). Blood phosphorylated tau 181 as a biomarker for Alzheimer's disease: a
+Flier, W. M., et al. (2021). Clinical and analytical comparison of six Simoa assays for                diagnostic performance and prediction modelling study using data from four prospective
+plasma P-tau isoforms P-tau181, P-tau217, and P-tau231. Alzheimer's Res. Ther. 13:198.                 cohorts. Lancet Neurol. 19, 422–433. doi: 10.1016/S1474-4422(20)30071-5
+doi: 10.1186/s13195-021-00939-9
+                                                                                                       Lehmann, S., Gabelle, A., Duchiron, M., Busto, G., Morchikh, M., Delaby, C., et al. (2025).
+Benedet, A. L., Arslan, B., Tan, K., Huber, H., Pola, I., di Molfetta, G., et al. (2026).
+                                                                                                       Comparative performance of plasma pTau181/Aβ42, pTau217/Aβ42 ratios, and indi-
+Diagnostic value of serum p-tau217 in Alzheimer disease: equal to plasma in levels and
+                                                                                                       vidual measurements in detecting brain amyloidosis. EBioMedicine 117:105805. doi:
+clinical utility? Clin. Chem. 72, 303–315. doi: 10.1093/clinchem/hvaf162
+                                                                                                       10.1016/j.ebiom.2025.105805
+Brickman, A. M., Manly, J. J., Honig, L. S., Sanchez, D., Reyes-Dumeyer, D.,
+                                                                                                       Mattsson-Carlgren, N., Janelidze, S., Palmqvist, S., Cullen, N., Svenningsson, A. L.,
+Lantigua, R. A., et al. (2021). Plasma p-tau181, p-tau217, and other blood-based
+                                                                                                       Strandberg, O., et al. (2020). Longitudinal plasma p-tau217 is increased in early stages of
+Alzheimer's disease biomarkers in a multi-ethnic, community study. Alzheimers Dement.
+                                                                                                       Alzheimer's disease. Brain 143, 3234–3241. doi: 10.1093/brain/awaa286
+17, 1353–1364. doi: 10.1002/alz.12301
+Brum, W. S., Cullen, N. C., Janelidze, S., Ashton, N. J., Zimmer, E. R., Therriault, J., et al.        Mattsson-Carlgren, N., Salvadó, G., Ashton, N. J., Tideman, P., Stomrud, E., Zetterberg, H.,
+(2023). A two-step workflow based on plasma p-tau217 to screen for amyloid β positivity                et al. (2023). Prediction of longitudinal cognitive decline in preclinical Alzheimer disease
+with further confirmatory testing only in uncertain cases. Nat. Aging 3, 1079–1090. doi:               using plasma biomarkers. JAMA Neurol. 80, 360–369. doi: 10.1001/
+10.1038/s43587-023-00471-5                                                                             jamaneurol.2022.5272
+
+Devanarayan, V., Charil, A., Horie, K., Doherty, T., Llano, D. A., Andreozzi, E., et al.               Mielke, M. M., Dage, J. L., Frank, R. D., Algeciras-Schimnich, A., Knopman, D. S.,
+(2025). Plasma pTau217 ratio predicts continuous regional brain tau accumulation in                    Lowe, V. J., et al. (2022). Performance of plasma phosphorylated tau 181 and 217 in the
+amyloid-positive early Alzheimer's disease. Alzheimers Dement. 21:e14411. doi: 10.1002/                community. Nat. Med. 28, 1398–1405. doi: 10.1038/s41591-022-01822-2
+alz.14411                                                                                              Mila-Aloma, M., Ashton, N. J., Shekari, M., Salvadó, G., Ortiz-Romero, P.,
+Doré, V., Doecke, J. D., Saad, Z. S., Triana-Baltzer, G., Slemmon, R., Krishnadas, N., et al.          Montoliu-Gaya, L., et al. (2022). Plasma p-tau231 and p-tau217 as state markers of
+(2022). Plasma p217+tau versus NAV4694 amyloid and MK6240 tau PET across the                           amyloid-β pathology in preclinical Alzheimer's disease. Nat. Med. 28, 1797–1801. doi:
+Alzheimer's continuum. Alzheimers Dement (Amst). 14:e12307. doi: 10.1002/dad2.12307                    10.1038/s41591-022-01925-w
+Grothe, M. J., Moscoso, A., Ashton, N. J., Karikari, T. K., Lantero-Rodriguez, J.,                     O'Bryant, S. E., Petersen, M., Hall, J., Johnson, L. A., HABS-HD Study Team. (2023).
+Snellman, A., et al. (2021). Associations of fully automated CSF and novel plasma bio-                 Medical comorbidities and ethnicity impact plasma Alzheimer’s disease biomarkers:
+markers with Alzheimer disease neuropathology at autopsy. Neurology 97, e1229–e1242.                   Important considerations for clinical trials and practice. Alzheimers Dement. 19, 36–43.
+doi: 10.1212/WNL.0000000000012513                                                                      doi: 10.1002/alz.12647
+
+
+
+Frontiers in Aging Neuroscience                                                                   08                                                                                frontiersin.org
+Chen et al.                                                                                                                                                    10.3389/fnagi.2026.1834591
+
+
+
+Palmqvist, S., Tideman, P., Mattsson-Carlgren, N., Schindler, S. E., Smith, R.,                       Suárez-Calvet, M., Karikari, T. K., Ashton, N. J., Lantero Rodríguez, J., Milà-Alomà, M.,
+Ossenkoppele, R., et al. (2024). Blood biomarkers to detect Alzheimer disease in primary              Gispert, J. D., et al. (2020). Novel tau biomarkers phosphorylated at T181, T217 or T231
+care and secondary care. JAMA 331, 1245–1257. doi: 10.1001/jama.2024.13855                            rise in the initial stages of the preclinical Alzheimer's continuum. EMBO Mol. Med.
+                                                                                                      12:e12921. doi: 10.15252/emmm.202012921
+Rissman, R. A., Langford, O., Raman, R., Donohue, M. C., Abdel-Latif, S., Meyer, M. R.,
+et al. (2024). Plasma Aβ42/Aβ40 and phospho-tau217 concentration ratios increase the                  Teunissen, C. E., Verberk, I. M. W., Thijssen, E. H., Vermunt, L., Hansson, O.,
+accuracy of amyloid PET classification in preclinical Alzheimer's disease. Alzheimers                 Zetterberg, H., et al. (2022). Blood-based biomarkers for Alzheimer's disease: towards
+Dement. 20, 1214–1224. doi: 10.1002/alz.13542                                                         clinical implementation. Lancet Neurol. 21, 66–77. doi: 10.1016/
+                                                                                                      S1474-4422(21)00361-6
+Schindler, S. E., Bollinger, J. G., Ovod, V., Mawuenyega, K. G., Li, Y., Gordon, B. A., et al.
+(2019). High-precision plasma β-amyloid 42/40 predicts current and future brain amy-                  Therriault, J., Pascoal, T. A., Benedet, A. L., Tissot, C., Savard, M., Chamoun, M., et al.
+loidosis. Neurology 93, e1647–e1659. doi: 10.1212/WNL.0000000000008081                                (2021). Frequency of biologically defined Alzheimer disease in relation to age, sex, APOE
+                                                                                                      ε4, and cognitive impairment. Neurology 96, e975–e985. doi: 10.1212/
+Schindler, S. E., Karikari, T. K., Ashton, N. J., Henson, R. L., Yarasheski, K. E., West, T.,         WNL.0000000000011416
+et al. (2022). Effect of Race on Prediction of Brain Amyloidosis by Plasma Aβ42/Aβ40,
+Phosphorylated Tau, and Neurofilament Light. Neurology 99, e245–e257. doi: 10.1212/                   Thijssen, E. H., La Joie, R., Wolf, A., Strom, A., Wang, P., Iaccarino, L., et al. (2021).
+WNL.0000000000200358                                                                                  Diagnostic value of plasma phosphorylated tau181 in Alzheimer’s disease and frontotem-
+                                                                                                      poral lobar degeneration. Nat. Med. 26, 387–397. doi: 10.1038/s41591-020-0762-2
+Schindler, S. E., Li, Y., Buckles, V. D., Gordon, B. A., Benzinger, T. L. S., Wang, G., et al.
+(2021). Predicting symptom onset in sporadic Alzheimer disease with amyloid PET.                      Triana-Baltzer, G., Moughadam, S., Slemmon, R., van Kolen, K., Theunis, C., Mercken, M.,
+Neurology 97, e1823–e1834. doi: 10.1212/WNL.0000000000012775                                          et al. (2021). Development and validation of a high-sensitivity assay for measuring
+                                                                                                      p217+tau in plasma. Alzheimers Dement (Amst). 13:e12204. doi: 10.1002/dad2.12204
+Silva-Spinola, A., Durães, J., Oliveira, J. P. G., Tábuas-Pereira, M., Lima, M., de
+Mendonça, A., et al. (2026). Plasma p-tau217, quantified by the fully automated                       Wang, W., Asken, B. M., DeSimone, J. C., Levy, S. A., Barker, W., Fiala, J. A., et al. (2024).
+LUMIPULSE G platform, outperforms p-tau181 in predicting amyloid pathology in cog-                    Neuroimaging and biofluid biomarkers across race and ethnicity in older adults across
+nitive complaints patients. Sci. Rep. 16:4133. doi: 10.1038/s41598-025-34241-7                        the spectrum of cognition. Ageing Res. Rev. 101:102507. doi: 10.1016/j.arr.2024.102507
+
+
+
+
+Frontiers in Aging Neuroscience                                                                  09                                                                              frontiersin.org
+

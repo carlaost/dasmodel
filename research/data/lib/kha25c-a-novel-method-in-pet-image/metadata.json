@@ -1,0 +1,15 @@
+{
+  "idx": 308,
+  "cite_key": "Kha25c",
+  "title": "A Novel Method in PET Image Reconstruction Using MRI Anatomical Priors",
+  "authors": "M. Khalighi; Christina B. Young; M. Spangler-Bickell; T. Deller; Floris Jansen; Dawn Holley; H. Vossler; Moss Y. Zhao; Feliks Kogan; Gary K Steinberg; Elizabeth C. Mormino; Michael Moseley; G. Zaharchuk",
+  "year": "2025",
+  "pub_date": "2025-03-20",
+  "journal": "IEEE transactions on radiation and plasma medical sciences",
+  "abstract": "The current spatial resolution of positron emission tomography (PET) images is 3–4 mm for whole body PET/MR. Anatomical MR images with higher resolution and superior image quality have been used in PET reconstruction to improve the image quality and spatial resolution; however, mismatches between MR priors and actual tracer distribution can hinder accuracy. A novel PET reconstruction with MR priors, magnetic resonance-guided block sequential regularized expectation maximum (MRgBSREM), that is robust to mismatches between anatomical priors and true activity distribution is proposed. This method is evaluated in diverse clinical settings using various tracers: 18F-florbetaben (FBB) in 373 subjects from a dementia study, 18F-FDG in a patient with chronic ischemic stroke, 18F-NaF in a knee study, and 15O-water in a patient with Moyamoya disease. Reconstruction using MRgBSREM visually improved both spatial resolution and image quality in all studies. In the 18FBB study, it mitigated white-matter spill-in into gray-matter as well as gray-matter spill over to the adjacent tissues, potentially leading to more accurate measurement of FBB uptake in the gray-matter. Visual assessment suggests that the proposed PET reconstruction enhances spatial resolution, which may contribute to improved diagnostic accuracy, while it displays robustness to mismatches between MR priors and true activity distribution.",
+  "citation_count": "3",
+  "citations_per_year": "2.3",
+  "doi": "10.1109/TRPMS.2025.3553409",
+  "url": "https://doi.org/10.1109/TRPMS.2025.3553409",
+  "slug": "kha25c-a-novel-method-in-pet-image"
+}

@@ -1,0 +1,39 @@
+paper:
+  slug: amo25-regional-differences-in-the-incidence-of
+  doi: 10.3389/fneur.2025.1584127
+  title: "Regional differences in the incidence of Alzheimer's disease and related dementias in South Carolina"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1584127/pdf
+  source: unpaywall
+
+code: []
+
+data:
+  - name: South Carolina Alzheimer's Disease Registry (SCADR)
+    identifier: null
+    repository: osa-sc.org/programs/alzheimers-disease-registry
+    access: request
+    verified: true
+  - name: Annual County Resident Population Estimates (ACRPE)
+    identifier: null
+    repository: US Census Bureau
+    access: open
+    verified: false
+
+clinical_trials: []
+
+notes: >
+  Observational epidemiological study (not a clinical trial) using 2021 data from the
+  South Carolina Alzheimer's Disease Registry (SCADR) and the Annual County Resident
+  Population Estimates (ACRPE). Data Availability statement (verbatim): "The datasets
+  presented in this article are not readily available because the data used for this
+  study is subject to licenses and restrictions." Data requests go through the SCADR
+  (osa-sc.org/programs/alzheimers-disease-registry; contact Maggi Miller,
+  CHANDLMJ@email.sc.edu). No code availability statement, no software repository, and
+  no clinical trial registration are present. Geographic visualization used US Census
+  TIGER/Line shapefiles (public). PMID 40979202, PMC12447272. Open-access (CC-BY);
+  PDF verified from Frontiers.

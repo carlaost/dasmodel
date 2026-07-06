@@ -1,0 +1,13 @@
+# Cerebellar Resistance to Amyloid Plaque Deposition and Elevated Microglial ECM Proteoglycan Uptake in 5xFAD Mice
+
+- **Cite key**: Can26
+- **Authors**: Carla Cangalaya; H. Düsedau; I. Dunay; A. Dityatev; S. Stoyanov
+- **Year**: 2026  (2026-01-01)
+- **Journal**: Cells
+- **DOI**: 10.3390/cells15020182
+- **URL**: https://doi.org/10.3390/cells15020182
+- **Citations**: 2 (3.9/yr)
+
+## Abstract
+
+In both Alzheimer’s disease (AD) patients and animal models, senile plaques are generally observed in the cerebral cortex rather than the cerebellum. The mechanisms underlying the regional resistance of the cerebellum to amyloid plaque deposition remain poorly understood. We investigated this cerebellar resistance using 5xFAD mice, an amyloidosis model with high expression of mutant human APP and PSEN1 in the cortex and cerebellum. In aged 5xFAD mice, the cerebellum had minimal amyloid-β (Aβ) deposition despite robust transgene expression, correlating with lower expression levels of IBA1, CD68, TREM2, and CD36 (although elevated expression of CD45 and MHC I) compared to the cortex. Consistent with the absence of plaques, cerebellar tissue lacked the dystrophic VGLUT1-positive synaptic accumulations prominent in the cortex. Cerebellar microglia maintained a distinct, less inflammatory phenotype yet displayed efficient clearance activity. Notably, ASC inflammasome specks—capable of seeding Aβ aggregation—were paradoxically more abundant in the cerebellum, implying that rapid Aβ clearance prevents these seeds from driving plaque formation. Furthermore, key extracellular matrix (ECM) proteoglycans brevican and aggrecan were elevated in the 5xFAD cerebellum. Cerebellar microglia showed enhanced internalization of brevican alongside small Aβ aggregates, exceeding that in cortical microglia. These findings indicate that region-specific microglial and ECM interactions—particularly efficient uptake and degradation of ECM–Aβ co-aggregates—may underlie the cerebellum’s resilience to amyloid plaque pathology.

@@ -1,0 +1,15 @@
+{
+  "idx": 452,
+  "cite_key": "Sun25b",
+  "title": "Senescence in Aging and Alzheimer's Disease.",
+  "authors": "Li Sun; Chu Chen",
+  "year": "2025",
+  "pub_date": "2025-11-25",
+  "journal": "Aging and disease",
+  "abstract": "Cellular senescence, once considered a protective mechanism against oncogenesis, is now recognized as a key driver of aging and age-related diseases, including Alzheimer's disease (AD). In the central nervous system (CNS), senescence-like states emerge in both proliferative and post-mitotic cells-astrocytes, microglia, oligodendrocyte lineage cells, endothelial cells, pericytes, and even neurons-contributing to chronic dysfunction. Canonical pathways, such as p16INK4a-pRB and p53-p21, enforced by persistent DNA damage responses, lead to irreversible cell-cycle arrest. The senescence-associated secretory phenotype (SASP) links intracellular stress to extracellular inflammation, tissue remodeling, and bystander senescence. CNS senescence is triggered by diverse insults, including amyloid-β and tau pathology, oxidative stress, mitochondrial dysfunction, NF-κB and cGAS-STING signaling, impaired proteostasis and autophagy, telomere attrition, and genomic instability. Senescence markers in the CNS are heterogeneous, ranging from p16/p21 expression and lamin B1 loss to lipofuscin accumulation and cell type-specific SASP profiles, highlighting the need for multiplexed detection strategies. Targeting senescence has emerged as a promising therapeutic avenue in AD. Senolytics selectively eliminate senescent cells and improve cognition in preclinical models, while senomorphics aim to suppress harmful phenotypes without inducing cell loss. Early clinical trials suggest feasibility, but challenges remain, including biomarker development, blood-brain barrier penetration, long-term safety, and optimal timing of intervention. This review summarizes recent advances in understanding CNS senescence in aging and AD, explores emerging therapeutic strategies, and outlines future directions emphasizing precision medicine through multi-omic biomarkers, advanced imaging, and stage-specific interventions. Targeting CNS senescence holds potential to delay or alter the course of AD.",
+  "citation_count": "4",
+  "citations_per_year": "6.6",
+  "doi": "10.14336/AD.2025.1201",
+  "url": "https://doi.org/10.14336/AD.2025.1201",
+  "slug": "sun25b-senescence-in-aging-and-alzheimer-s"
+}

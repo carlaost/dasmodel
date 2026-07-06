@@ -1,0 +1,13 @@
+# Rural-urban differences in modifiable dementia risk factors among U.S. populations aged 45 years or older
+
+- **Cite key**: Xie25
+- **Authors**: Zhigang Xie; Jiamin Hu; S. Stallings-Smith; Ambar Kulshreshtha; Young-Rock Hong
+- **Year**: 2025  (2025-01-01)
+- **Journal**: Journal of Alzheimer's Disease Reports
+- **DOI**: 10.1177/25424823251395318
+- **URL**: https://doi.org/10.1177/25424823251395318
+- **Citations**: 2 (1.3/yr)
+
+## Abstract
+
+Background Alzheimer's disease and related dementias (ADRD) have become a significant public health concern, and the burden is disproportionately concentrated in rural areas. Objective To examine rural-urban differences in the prevalence of modifiable dementia risk factors and their treatment among U.S. adults aged 45 years and older, and to investigate how these disparities vary by age group and geographic region. Methods This cross-sectional study analyzed nationally representative data from the 2023 National Health Interview Survey in 2025. Prevalence of 11 modifiable dementia risk factors (hypertension, high cholesterol, diabetes, obesity, hearing loss, visual impairment, traumatic brain injury, low education, depression, social isolation, smoking) and 7 corresponding treatments were assessed via self-report. Adjusted rate ratios (aRR) were estimated using robust Poisson regression models. Results The study population consisted of 16,981 individuals (mean age: 62.4, 51.6% female, 68.7% non-Hispanic White, 15.5% in rural areas). Rural residents had significantly higher prevalence of hypertension (aRR, 1.11; 95% CI, 1.06–1.17), obesity (aRR, 1.22; 95% CI, 1.15–1.30), diabetes (aRR, 1.29; 95% CI, 1.15–1.45), and hearing loss (aRR, 1.22; 95% CI, 1.12–1.34) compared to urban residents. Disparities were most significant among adults aged 45–64 years and in South/Midwest regions. Treatment rates for cardiometabolic conditions were high (>85%) and similar across regions, but treatment for sensory/behavioral risk factors remained low. Conclusions Rural U.S. adults face higher burden of modifiable dementia risk factors, particularly cardiometabolic and sensory impairments. Targeted public health strategies are needed to address structural inequities and improve dementia prevention in rural communities.

@@ -1,0 +1,15 @@
+{
+  "idx": 469,
+  "cite_key": "Vil25",
+  "title": "Introducing Q Amyloid: a tool for automated PET‐based amyloid‐beta quantification",
+  "authors": "C. Villa; Benedetta Marin; Francesco Piva; Lucia Maccioni; Manuela Moretto; Luigi Lorenzini; Mattia Veronese",
+  "year": "2025",
+  "pub_date": "2025-12-01",
+  "journal": "Alzheimer's & Dementia",
+  "abstract": "The deposition of amyloid‐beta (Aβ) plaques is one of the earliest neuropathological hallmarks of Alzheimer's disease (AD) and precedes cognitive decline. Positron Emission Tomography (PET) is commonly adopted for in vivo Aβ detection and plays a pivotal role in preventing and enabling early intervention in AD. However, an accurate, efficient, and automated PET‐based pipeline to detect brain Aβ accumulation is still missing. The Q Amyloid platform will address this need. It will be tracer and scanning‐site agnostic, and enable the automated identification and quantification of Aβ burden through PET.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1002/alz70862_110093",
+  "url": "https://doi.org/10.1002/alz70862_110093",
+  "slug": "vil25-introducing-q-amyloid-a-tool-for"
+}

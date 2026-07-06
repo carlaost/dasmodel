@@ -1,0 +1,13 @@
+# Multi-region spatial transcriptomics reveals region specific differences in response to amyloid beta (Aβ) plaque induced changes in Alzheimer’s disease (AD)
+
+- **Cite key**: Bay25
+- **Authors**: O. Bayaraa; Michael Aksu; E. DeBose-Scarlett; Emily Hocke; Vaibhav Jain; Shih-Hsiu J. Wang; Dianne A. Cruz; S. Gregory
+- **Year**: 2025  (2025-11-29)
+- **Journal**: Human Genomics
+- **DOI**: 10.1186/s40246-025-00875-x
+- **URL**: https://doi.org/10.1186/s40246-025-00875-x
+- **Citations**: 1 (1.7/yr)
+
+## Abstract
+
+Alzheimer’s disease (AD) is the leading cause of dementia affecting 55 million people worldwide. The pathological hallmarks of AD, beta-amyloid (Aβ) plaques and neurofibrillary tangles (NFT), follow distinct stereotypical patterns of progression across brain regions and trigger a multicellular response that ultimately leads to neuronal loss and cognitive decline. Despite the uniform spread of Aβ plaque across the cortex during AD progression, different regions demonstrate varying levels of vulnerability and resilience to temporal Aβ plaque induced changes, such as NFT accumulation. There is a critical gap in our understanding of the cell types and molecular mechanisms that underlie these region-specific differences in resilience to Aβ plaque induced changes. In this study, we hypothesized that brain region and cell type specific transcriptional responses within the Aβ microenvironment, and more broadly within the grey matter, may contribute to this variation. We carried out matched multi-region spatial transcriptomics and Aβ immunofluorescence staining from the entorhinal, occipito-temporal, dorsolateral prefrontal, and striate cortices from two individuals with Braak III and Thal 4 AD. Spatiotemporal comparisons of cell type proportions, gene expression, and cell–cell communication revealed differences in the vulnerability of somatostatin and somatostatin chondrolectin inhibitory neurons and the expression of endosomal and lysosomal trafficking and metallothionein genes within the Aβ plaque microenvironment. We also observed variations in blood–brain-barrier dysfunction, fibroblast growth factor signaling, and vascular impairment and repair related cell–cell communication networks within the grey matter across the four regions. Our results demonstrate the value of simultaneously profiling AD-omic and spatial modalities in multiple regions to elucidate how cortical region-specific differences contribute to selective vulnerability and resilience during neurodegeneration. These cortical region and Aβ microenvironment-specific transcriptional changes during AD neurodegeneration highlight the potential for spatially targeted therapeutic approaches.

@@ -1,0 +1,123 @@
+# Exploration graph for Palmqvist et al. (2025), Alzheimer's Association Clinical Practice
+# Guideline on blood-based biomarkers (BBMs) for suspected AD in specialized care.
+# doi:10.1002/alz.70535. evidence: fields reference claim IDs (C##) in logic/claims.md.
+# support_level: explicit = grounded in the guideline text/tables; inferred = reconstructed.
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction"]
+    title: "How should blood-based biomarkers be used in the diagnostic workup of suspected AD in specialized care?"
+    description: >
+      For patients with objective cognitive impairment (MCI or dementia) evaluated in specialized
+      memory care, when and how should BBM tests be incorporated relative to CSF biomarkers and
+      amyloid PET?
+    status: resolved
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Methods", "Table 1"]
+        title: "Use a systematic review + GRADE evidence-to-decision framework"
+        choice: >
+          Convene a panel of clinicians, subject-matter experts, and guideline methodologists;
+          base recommendations on a systematic review of BBM diagnostic test accuracy graded with
+          GRADE (certainty of evidence) and an Evidence-to-Decision form.
+        alternatives:
+          - "Expert consensus without a graded systematic review"
+          - "Narrative review only"
+        evidence: [C05]
+        status: resolved
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Methods", "Table 3"]
+            title: "Systematic review of BBM assay/analyte diagnostic test accuracy"
+            result: >
+              Catalogued assay/analyte combinations (Aβ42/40, p-tau181/217/231, %p-tau217 across
+              IP-MS and immunoassay platforms; Table 3) and synthesized sensitivity/specificity
+              against reference standards (CSF AD biomarkers, amyloid PET, AD neuropathology).
+            evidence: [C03, C04]
+            status: resolved
+            children:
+              - id: N04
+                type: dead_end
+                support_level: explicit
+                source_refs: ["Results (study selection)"]
+                title: "Studies with non-separable mixed populations excluded"
+                hypothesis: "All eligible test-accuracy studies could contribute to the pooled estimates."
+                failure_mode: >
+                  84 studies that otherwise met eligibility were excluded because cognitively impaired
+                  and unimpaired populations were analyzed together and could not be separated,
+                  shrinking the usable evidence base.
+                lesson: "Report test accuracy separately for cognitively impaired individuals so guideline synthesis can use it."
+                status: resolved
+          - id: N05
+            type: decision
+            support_level: explicit
+            source_refs: ["Table 2 (footnotes b, e)"]
+            title: "Set a-priori acceptable-accuracy thresholds for triaging vs confirmatory use"
+            choice: >
+              Triaging: ≥90% sensitivity and ≥75% specificity. Confirmatory: ≥90% sensitivity and
+              ≥90% specificity. Both against a reference test (CSF AD biomarkers, amyloid PET, or
+              AD neuropathology).
+            alternatives:
+              - "A single accuracy bar for all use cases"
+              - "No pre-specified threshold (case-by-case judgment)"
+            evidence: [C01, C02, C04]
+            status: resolved
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2 (triaging recommendation)"]
+            title: "Grade the triaging-test question (PICO 1)"
+            result: "Conditional recommendation for a high-sensitivity BBM triaging test; low certainty."
+            evidence: [C01, C04]
+            status: resolved
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2 (confirmatory recommendation)"]
+            title: "Grade the confirmatory-test question (PICO 2)"
+            result: "Conditional recommendation for a high-sensitivity + high-specificity BBM confirmatory test; low certainty."
+            evidence: [C02, C04]
+            status: resolved
+          - id: N08
+            type: experiment
+            support_level: explicit
+            source_refs: ["Discussion (predictive values / pretest probability)"]
+            title: "Assess dependence of predictive value on pretest probability"
+            result: "Predictive values depend strongly on the pretest probability of AD pathology; clinicians must weigh it per patient."
+            evidence: [C06]
+            status: resolved
+          - id: N09
+            type: experiment
+            support_level: explicit
+            source_refs: ["Discussion (resource use / cost)"]
+            title: "Consider resource implications vs PET/CSF"
+            result: "BBMs offer moderate resource savings relative to amyloid PET / CSF workflows."
+            evidence: [C07]
+            status: resolved
+          - id: N10
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Table 2 (Remarks)"]
+            title: "Two-cutoff (grey-zone) approach deferred"
+            hypothesis: "A two-cutoff scheme (confirm above upper, rule out below lower) could be recommended now."
+            failure_mode: >
+              Only a limited number of studies used a two-cutoff approach; most reported a single
+              Youden-based cutoff, so the panel deferred a recommendation.
+            lesson: "Revisit the two-cutoff approach as more peer-reviewed publications accumulate."
+            status: open
+          - id: N11
+            type: decision
+            support_level: explicit
+            source_refs: ["Table 2 (Good practice statement)"]
+            title: "Issue a good-practice statement gating BBM use behind clinical evaluation"
+            choice: >
+              A BBM test should not be obtained before a comprehensive clinical evaluation and must
+              be interpreted within clinical context; several conditions/medications warrant caution.
+            alternatives: ["Recommend BBM testing without a clinical-evaluation prerequisite"]
+            evidence: [C08]
+            status: resolved

@@ -1,0 +1,35 @@
+paper:
+  slug: ali26-privacy-preserving-multimodal-fusion-for-alzheimer
+  doi: 10.1016/j.compmedimag.2026.102730
+  title: "Privacy-preserving multimodal fusion for Alzheimer's staging: A federated vision transformer framework with explainable AI"
+
+pdf:
+  oa: false
+  downloaded: false
+  path: null
+  url: https://linkinghub.elsevier.com/retrieve/pii/S0895611126000339
+  source: none
+
+code: []
+
+data:
+  - name: Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort
+    identifier: ADNI
+    repository: LONI Image and Data Archive (adni.loni.usc.edu)
+    access: controlled
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  Closed-access Elsevier article (Computerized Medical Imaging and Graphics, vol 129, 102730;
+  PMID 41723900). Unpaywall reports oa_status "closed" with no OA locations; Europe PMC shows
+  "Subscription required" and inPMC:N. No licit OA PDF available, so nothing was downloaded.
+  No explicit Data Availability or Code Availability statement was found in the available
+  metadata (Elsevier landing, Europe PMC, PubMed). No code repository was located via web
+  search; a GitHub user "marwabentaleb" surfaced but is a different person (Marwa BEN TALEB
+  ALI, unrelated repos) and does not host this work. Authors: Marwa Ben Gara Ali and Abir
+  Smiti, LARODEC, Higher Institute of Management of Tunis. The only dataset is a stratified
+  four-client federation derived from the ADNI cohort (controlled/request access via
+  adni.loni.usc.edu); no new data or accessions were released. This is a methods/imaging AI
+  paper, not a clinical trial, and it references no NCT registration.

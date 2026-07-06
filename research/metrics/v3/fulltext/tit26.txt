@@ -1,0 +1,754 @@
+Titeca et al. Alzheimer's Research & Therapy                (2026) 18:99                                                                                    Alzheimer's Research &
+https://doi.org/10.1186/s13195-026-01996-8
+                                                                                                                                                                          Therapy
+
+
+    RESEARCH                                                                                                                                                                    Open Access
+
+
+Automated high-throughput quantification
+of plasma p-tau217 and APOE-ε4
+for Alzheimer’s disease diagnosis
+and cognitive decline in a memory cohort
+Jochen Titeca1 , Marta Scarioni1, Matthijs Oyaert2†                                       and Tim Van Langenhove1*†
+
+
+    Abstract
+    Background Blood-based biomarkers could improve the precision of Alzheimer’s disease (AD) clinical diagnosis and
+    expand access to targeted treatments. Therefore, we evaluated the diagnostic accuracy of plasma Elecsys p-tau217
+    (Roche) and compared it with Elecsys p-tau181 (Roche) and Lumipulse p-tau217 (Fujirebio). We also assessed
+    the added value of APOE-ε4 carrier status, plasma Aβ42 and Aβ42/40 in a memory-clinic cohort and evaluated
+    associations with longitudinal cognition.
+    Materials and methods A total of 187 patients from the Cognitive Centre Ghent University (CCUG) biobank,
+    classified as AD (n = 103) or non-AD cognitive disorders (n = 84) based on CSF biomarkers (CSF Aβ42/40 ratio, total tau
+    and p-tau181), were included. Plasma Elecsys p-tau181, p-tau217, and APOE-ε4 were measured on the Roche cobas®
+    pro e801, and p-tau217, Aβ42, and Aβ40 on the Fujirebio LUMIPULSE G1200. ROC analyses and single- and two-cut-
+    off strategies (95% sensitivity/specificity) were applied. Subgroup analyses examined APOE-ε4 status, renal function,
+    cerebral amyloid angiopathy (CAA) features, Fazekas score, and longitudinal cognition.
+    Results Elecsys plasma p-tau217 showed high discriminative performance for AD versus non-AD (AUC 0.939),
+    comparable to Lumipulse p-tau217 (AUC 0.950; p = 0.485). Elecsys p-tau181 performed lower than Elecsys p-tau217
+    (AUC 0.903; p = 0.043). Using a two-cut-off strategy, the intermediate proportion was 19.9% for Elecsys p-tau217,
+    11.9% for Lumipulse p-tau217, and 33.2% for Elecsys p-tau181. Adding APOE-ε4 to Elecsys p-tau217 improved
+    discriminative performance (AUC 0.970, p = 0.02) and reduced intermediates to 11.0%. Adjustment for Aβ42 on
+    the Fujirebio platform did not significantly increase the AUC (0.950 vs. 0.957; p = 0.322) and modestly reduced
+    intermediate classifications (11.9% to 10.0%). Higher baseline Elecsys p-tau217 was associated with lower baseline
+    MoCA and a trend towards faster MoCA decline (p = 0.07). Age, sex, renal function, Fazekas score, and CAA were not
+    significantly associated with Elecsys p-tau217 concentrations.
+
+
+
+†
+ Matthijs Oyaert and Tim Van Langenhove contributed equally to
+this work.
+*Correspondence:
+Tim Van Langenhove
+tim.vanlangenhove@uzgent.be
+Full list of author information is available at the end of the article
+
+
+                                             © The Author(s) 2026. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+                                             International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you
+                                             give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the
+                                             licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or
+                                             other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+                                             material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or
+                                             exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​​:​/​/​​c​r​e​a​​t​i​​
+                                             v​e​c​​o​m​m​​o​n​s​.​​o​r​​g​/​l​​i​c​e​​n​s​e​s​​/​b​​y​-​n​c​-​n​d​/​4​.​0​/.
+Titeca et al. Alzheimer's Research & Therapy   (2026) 18:99                                                    Page 2 of 12
+
+
+
+
+ Conclusion Plasma Elecsys p-tau217 measured on an automated high-throughput platform shows excellent
+ diagnostic accuracy for AD. Incorporating APOE-ε4 further improves classification, while Aβ42 adjustment had only
+ limited additional impact. Baseline p-tau217 also reflects cognitive severity and may relate to subsequent cognitive
+ decline in the memory-clinic setting.
+ Keywords Alzheimer’s disease, blood biomarkers, plasma p-tau217, diagnostic performance, cognitive decline
+
+
+Background                                                    and establishing its diagnostic performance is a key next
+Blood biomarkers for Alzheimer’s disease (AD) have            step [20].
+advanced rapidly over the past decade and are now               Several factors may influence plasma biomarker lev-
+increasingly implemented in research, clinical trials, and,   els and their interpretation. The incremental value
+more recently, routine clinical practice [1, 2]. Compared     of APOE-ε4 testing remains uncertain, with some
+with cerebrospinal fluid (CSF) analysis and positron          cohorts reporting modest effects on p-tau concentra-
+emission tomography (PET) imaging, blood-based mea-           tions and diagnostic accuracy [21–24]. The contribu-
+sures are less invasive, more accessible, less costly, and    tion of Aβ42/40 ratios to p-tau217 performance also
+generally more acceptable to patients, making them par-       varies across studies [14, 25]. Furthermore, physiologi-
+ticularly attractive for large-scale application in memory    cal and vascular conditions may modulate plasma con-
+clinics [3].                                                  centrations. p-tau levels tend to rise with age, although
+  Recent literature highlights the value of plasma            this may reflect increasing amyloid burden rather than
+biomarkers such as phosphorylated tau (p-tau181,              ageing itself, and may also be influenced by renal func-
+p-tau217), amyloid-β42/40 ratio, neurofilament light          tion, with more pronounced effects reported from CKD
+chain (NfL), and glial fibrillary acidic protein (GFAP)       stage 3 onward, while effects in mild impairment appear
+[4–12]. Among these, plasma p-tau217 has consistently         limited for amyloid prediction models [24, 26–29]. Mag-
+emerged as the most accurate blood marker for AD              netic resonance imaging (MRI) markers of small-vessel
+pathology, with multiple studies demonstrating better         disease, such as white-matter hyperintensities or lobar
+discriminative ability than p-tau181 [13–15], whereas         microbleeds, have shown weak associations in some
+plasma NfL reflects neurodegeneration and plasma GFAP         studies with higher p-tau217 and lower Aβ42/40, pos-
+has been associated with astrocytic injury and reactive       sibly reflecting mixed vascular–amyloid co-pathology
+astrogliosis. Reported areas under the receiver operating     such as cerebral amyloid angiopathy (CAA) [27, 30, 31].
+characteristic (ROC) curve for p-tau217 typically exceed      Finally, although the cross-sectional diagnostic accuracy
+0.90 for distinguishing AD from other non-AD cognitive        of plasma p-tau217 is well established, longitudinal stud-
+disorders, approaching the diagnostic accuracy of CSF         ies indicate associations with faster cognitive decline
+and PET biomarkers [14].                                      and clinical progression, but its prognostic value in real-
+  However, most published studies of p-tau217 have            world settings remains to be determined [32–34].
+relied on research-use assays (e.g., Fujirebio, Quanterix,      In this study, we assessed the diagnostic performance
+ALZPath) that require batch processing and are less           of plasma p-tau217 measured on the Roche Elecsys
+suited for large-scale routine use, limiting their applica-   platform in a memory-clinic cohort using CSF bio-
+bility in clinical practice [14]. Automated, high-through-    markers as the reference standard. We benchmarked
+put platforms are essential for implementation in routine     Elecsys p-tau217 against Fujirebio p-tau217 and Elec-
+practice. The Roche Elecsys system is already widely          sys p-tau181, assessed the added value of APOE-ε4 car-
+available in clinical laboratories and provides fully auto-   rier status and amyloid measures (Aβ42 and Aβ42/40
+mated, high-throughput immunoassays. Elecsys plasma           measured on Lumipulse), and explored the influence of
+p-tau181 has been evaluated in several clinical cohorts,      clinical covariates. Finally, we evaluated whether baseline
+showing moderate-to-high accuracy for Aβ-PET and CSF          Elecsys p-tau217 is associated with longitudinal cognitive
+positivity (AUCs 0.80–0.89), with further improvement         decline.
+when combined with Elecsys Aβ42/40 or in multipara-
+metric panels (AUCs up to 0.93) [16–19]. Very recently,       Materials and methods
+in October 2025, the FDA cleared the Elecsys Phospho-         Study population
+Tau 181P (p-tau181) assay as a rule-out test (negative        Patients were selected from the Cognitive Centre Ghent
+predictive value 97.9%) for adults aged ≥ 55 years present-   University (CCUG)-Biobank, an ongoing prospective
+ing with complaints of cognitive decline in primary care.     study initiated in 2021. The biobank collects blood and
+By contrast, data on plasma p-tau217 on the Elecsys plat-     CSF samples, along with detailed clinical, neuropsy-
+form, although potentially more accurate, remain scarce,      chological, and imaging data from individuals referred
+                                                              for evaluation of cognitive complaints at the Cognitive
+Titeca et al. Alzheimer's Research & Therapy   (2026) 18:99                                                   Page 3 of 12
+
+
+
+
+Centre of Ghent University Hospital. The cohort was           5086), Aβ40 (Lumipulse G β-Amyloid 1-40-N Plasma
+predominantly of Belgian background. For the present          RUO; V&V lot# 5), and Aβ42 (Lumipulse G β-Amyloid
+study, we included consecutively enrolled participants        1-42-N Plasma RUO; V&V lot# 8) concentrations were
+up to the date of data extraction (n = 187) with available    additionally measured using chemiluminescent enzyme
+plasma, in whom the presence of underlying AD pathol-         immunoassays (CLEIA) on the LUMIPULSE G1200 plat-
+ogy was determined based on CSF biomarker results             form (Fujirebio Europe). On the day of analysis, plasma
+(CSF Aβ42/40 ratio, total tau, and p-tau181) (n = 180)        samples were allowed to reach room temperature, thor-
+or, in a minority of cases, amyloid-PET (n = 7). Based on     oughly mixed, centrifuged at 2000g for 5 min, and then
+these results, patients were categorized into those having    transferred into dedicated cuvettes for analysis on both
+AD (n = 103) or non-AD cognitive disorders (n = 84). The      platforms.
+non-AD group consisted of patients with cognitive com-          CSF biomarkers (Aβ42, Aβ42/40 ratio, p-tau181, and
+plaints attributed to non-AD neurodegenerative or other       total tau) were measured on the LUMIPULSE G1200
+neurological disorders (n = 54), and patients with psy-       platform (Fujirebio, Ghent, Belgium) in a blinded man-
+chiatric or psychological causes of cognitive complaints      ner. The diagnosis of AD pathology was based on vali-
+(n = 30). In addition, 16 participants with discordant CSF    dated cut-off values according to the reference laboratory
+AT(N) profiles were identified but excluded from these        standards (Aβ42/Aβ40 ratio ≤ 0.070, Aβ42 ≤ 722 pg/mL,
+comparisons; these cases are described separately in the      p-tau181 ≥ 50 pg/mL, and total tau ≥ 403 pg/mL) [35].
+Results (Sect. 3.6).                                          Plasma creatinine was determined using the Jaffe reac-
+                                                              tion on the cobas® pro c703 platform (Roche Diagnos-
+Ethical approval                                              tics), and eGFR was calculated with the CKD-EPI 2009
+This study was approved by the local ethics commit-           equation. Plasma creatinine was measured on the same
+tee of the Ghent University Hospital (ONZ-2024-0422).         blood samples.
+All procedures were conducted in accordance with the
+World Medical Association Declaration of Helsinki.            Statistical analysis
+Written informed consent was obtained from all par-           Baseline demographic and clinical characteristics were
+ticipants before inclusion in the study. When decision-       compared between the AD and non-AD groups using
+making capacity was lacking, consent was obtained from        appropriate statistical tests (χ² for categorical variables
+a legally authorised representative.                          and independent-samples t-tests or Mann–Whitney U
+                                                              tests for continuous variables, as appropriate). Estimated
+Blood collection and storage                                  effect sizes (ES) are reported if relevant, considering 0.2
+Blood samples were collected in 4mL K2 EDTA tubes             as a small effect, 0.5 as medium, and 0.8 as large.
+and subsequently centrifuged (2000g x 10 min, 4 °C)              The sample size (AD = 103, non-AD = 84) provides suf-
+within 2 h after extraction. Next, plasma was aliquoted       ficient statistical power to detect differences in plasma
+into polypropylene cryotubes and directly stored at           p-tau levels between the two groups. Assuming a two-
+-80 °C until analysis. All blood samples were collected,      sided significance level of 0.05 and a medium to large,
+processed, and stored at − 80 °C in the CCUG-Biobank at       expected effect size (Cohen’s d = 0.5-0,8), the calculated
+Ghent University Hospital, following standardized proce-      statistical power is approximately between 90% and 99%.
+dures. On the day of analysis, the plasma samples were           The precision of the p-tau181 and p-tau217 assays was
+brought to room temperature. Following the manufac-           determined using commercial quality control (QC) solu-
+turer’s instructions, plasma samples were centrifuged at      tions (PreciControl pT181p Elecsys RUO and Phospho-
+2000g for 5 min. The plasma was then transferred to the       Tau (217P) PreciControl Elecsys RUO, respectively)
+instrument cuvettes for analysis.                             following the CLSI EP15-A3 protocol [36] with five mea-
+                                                              surements in a single run during five non-consecutive
+Biomarker measurements                                        days. Linearity was measured by diluting a sample con-
+Plasma concentrations of p-tau181 (Elecsys Phospho-           taining a high concentration (p-tau 181 and p-tau 217)
+Tau (181P) Plasma RUO; lot# 99065201), p-tau217 (Elec-        according to the manufacturer’s instructions. Each dilu-
+sys Phospho-Tau (217P) Plasma RUO, lot# 990760), and          tion was determined in triplicate, and the mean value was
+APOE-ε4 (Elecsys APOE-ε4 Plasma RUO, lot# 99065401)           considered the correct result. The lower limit of quanti-
+were measured using electrochemiluminescence immu-            tation (LLOQ) was determined using a predefined CV
+noassays (ECLIA) on the cobas® pro e801 Elecsys immu-         specification of 20% [35]. Samples with a measured con-
+nochemistry analyser (Roche Diagnostics, Mannheim,            centration below the LLOQ were interpreted using the
+Germany). For APOE-ε4, this plasma proteotyping assay         LLOQ value.
+yields ε4 carrier status (carrier vs. non-carrier). Plasma       The diagnostic accuracy for distinguishing AD from
+p-tau217 (Lumipulse G pTau217 Plasma RUO; lot#                non-AD cognitive disorders was assessed using the area
+Titeca et al. Alzheimer's Research & Therapy            (2026) 18:99                                                          Page 4 of 12
+
+
+
+
+under the ROC curve (AUC). Optimal diagnostic cut-off                         concentrations were evaluated using Spearman rank
+values for individual biomarkers and their combinations                       correlation and, where appropriate, multivariable linear
+were identified by maximizing the Youden index. The                           regression analysis.
+added diagnostic value of APOE-ε4 carrier status was                            Longitudinal associations between baseline plasma
+examined by including it as a binary covariate in logistic                    p-tau217 and Montreal Cognitive Assessment (MoCA)
+regression models predicting AD status. AUCs for dif-                         scores were evaluated using linear mixed-effects models
+ferent biomarkers and models were compared using the                          with random intercepts and slopes, including an inter-
+DeLong test.                                                                  action between baseline p-tau217 and time to assess
+   In addition, a two-cut-off approach was applied, defin-                    whether baseline p-tau217 is associated with the rate of
+ing cut-offs at 95% sensitivity and 95% specificity to                        MoCA change over follow-up, adjusted for age, sex, and
+account for an intermediate biomarker zone. These cutoff                      baseline MoCA.
+values are presented alongside corresponding sensitivity,                       All statistical analyses were conducted using SPSS ver-
+specificity, and likelihood ratios (calculated as sensitivity                 sion 29.0, except for the Passing–Bablok and Bland–Alt-
+/ (1 − specificity)).                                                         man analyses, which were performed with MedCalc
+   Data are reported as medians with interquartile ranges                     (version 15.6.1., Mariakerke, Belgium). A p-value of
+(IQR). Quantitative comparisons between methods were                          < 0.05 was considered statistically significant.
+conducted using Passing–Bablok regression and Bland–
+Altman analysis.                                                              Results
+   The impact of patient-related factors, such as age, sex,                   Description of study population
+kidney function, and APOE-ε4 status, on biomarker                             The study included 187 patients with cognitive com-
+                                                                              plaints referred to the Cognitive Centre, Ghent University
+Table 1 Demographic, clinical and neurological characteristics                Hospital comprising 103 with AD and 84 with non-AD
+of study cohort (AD vs. Non-AD)                                               cognitive disorders (AD prevalence 55.1%). Classification
+Age, median (IQR,      AD (n = 103)     Non-AD          p-value        ES     was based on a CSF biomarker reference standard, with
+Q1, Q3)                                 (n = 84)
+                                                                              amyloid-PET used in a minority of patients. Baseline
+                     72                 70              0.132          0,11
+                     (10, 67, 77)       (13, 63, 76)                          demographic and clinical characteristics are summarized
+Male, n (%)          49%                64%             0.031          0,16   in Table 1.
+MoCA at baseline,    19                 22              0.015          0,18     There was no significant age difference between the AD
+median (IQR, Q1, Q3) (7, 16.5, 23.5)    (9, 17.5,                             and non-AD group (median [IQR] 72 [67–77] years vs.
+                                        26.5)                                 70 [63–76] years; p = 0.132). The proportion of men was
+eGFR, median (IQR,     86               86,5            0.881          0,01   lower in the AD group (49% vs. 64%; p = 0.031). Median
+Q1, Q3)                (22, 71, 93)     (25, 68, 93)                          estimated glomerular filtration rate (eGFR) values were
+2 or more lobar mi-    9,8%             7,3%            0.552          0,04   comparable between groups (86 [71–93] vs. 86.5 [68–93]
+crobleeds on MRI
+                                                                              mL/min/1.73 m²; p = 0.881). Cognitive performance at
+Fazekas grade 3,       2,9%             4,7%            0.508          0,05
+n (%)
+                                                                              baseline, as measured by the MoCA, was lower in the AD
+APOE ε4 carrier        74.7%            13.1%           < 0.001        0.61   group (median [IQR] 19 [16.5–23.5]) than in the non-AD
+status, n (%)                                                                 group (22 [17.5–26.5]; p = 0.015). MRI markers of small
+Elecsys p-tau181,      1.600            0.855           < 0.001        0,69   vessel disease showed similar distributions across groups,
+median (IQR, Q1, Q3)   (0.710, 1.370,   (0.350,                               with two or more lobar microbleeds observed in 9.8% of
+                       2.080)           0.690, 1.040)                         AD and 7.3% of non-AD patients (p = 0.552) and severe
+Elecsys p-tau217,      0.791            0.242           < 0.001        0,75   white-matter hyperintensities (Fazekas grade 3) in 2.9%
+median (IQR, Q1, Q3)   (0.499, 0.581,   (0.094,
+                                                                              and 4.7%, respectively (p = 0.508). There was a significant
+                       1.080)           0.199, 0.293)
+Lumipulse p-tau217,    0.495 (0.453,    0.094 (0.054,   < 0.001        0,77
+                                                                              difference between the AD and non-AD groups for the
+median (IQR, Q1, Q3)   0.312, 0.765)    0.073, 0.127)                         plasma biomarkers, with higher p-tau concentrations and
+Lumipulse Aβ42, me-    16.3 (3.8,       21.3 (5.3,      < 0.001        0,59   lower amyloid-β levels observed in the AD group.
+dian (IQR, Q1, Q3)     14.4, 18.2)      18.2, 23.5)                             Within the non-AD group, cognitive disorders com-
+Lumipulse Aβ40, me-    250.4 (41.9,     264.0 (77.5,    0.037          0,15   prised non-AD neurological disorders (ND, n = 54),
+dian (IQR, Q1, Q3)     230.9, 272.8)    228.2, 305.7)                         including other neurodegenerative and vascular aetiolo-
+Lumipulse p-tau217     0.03 (0.033,     0.04 (0.02,     < 0.001        0.78   gies, and psychiatric or psychological causes of cognitive
+/ Aβ42 (IQR, Q1, Q3)   0.019, 0.052)    0.04, 0.06)
+                                                                              complaints (PSY, n = 30). The diagnostic composition and
+Lumipulse p-tau217     7.642 (7.64,     1,199 (0.78,    < 0,001        0,77
+                                                                              clinical characteristics of the ND and PSY subgroups are
+/ (Aβ42/ Aβ40) (IQR,   4.856, 11.904)   0.871, 1.650)
+Q1, Q3)                                                                       provided in the Supplementary file. Briefly, ND patients
+IQR Interquartile range, ES Estimated effect size, MOCA Montreal Cognitive    were older and had lower baseline MoCA scores than
+Assessment                                                                    PSY patients (age 71.5 [65.0–77.25] vs. 66.0 [61.75–72.25]
+Titeca et al. Alzheimer's Research & Therapy          (2026) 18:99                                                                               Page 5 of 12
+
+
+
+
+years, p = 0.012; MoCA 19.5 [15.25–23.75] vs. 26.0                               Diagnostic accuracy of Elecsys p-tau217 compared with
+[23.0–27.0], p < 0.001), and baseline plasma biomarker                           Lumipulse p-tau217 and Elecsys p-tau181
+distributions differed modestly between subgroups (Sup-                          ROC analyses showed good discrimination between AD
+plementary Table 2).                                                             and non-AD cases, with AUCs of 0.939 (95% CI 0.895–
+                                                                                 0.969) for Elecsys p-tau217, 0.950 (95% CI 0.907–0.976)
+Analytical performance                                                           for Lumipulse p-tau217, and 0.903 (95% CI 0.852–0.942)
+Precision, linearity and limit of quantification                                 for Elecsys p-tau181 (Table 2; Fig. 2). All assays achieved
+Imprecision was estimated using commercially available                           Youden-derived cut-offs with both sensitivity and speci-
+QC solutions (PreciControl pT181p Elecsys RUO and                                ficity ≥ 83% [35], with Elecsys p-tau217 providing the
+Phospho-Tau (217P) PreciControl Elecsys RUO, Roche                               highest sensitivity (92.2%) and Lumipulse p-tau217 pro-
+Diagnostics, Mannheim, Germany). Depending on the                                viding the highest specificity (96.2%). Optimal cut-off
+concentration, imprecision for p-tau181 ranged from                              values were 0.371 pg/mL for Elecsys p-tau217, 1.150 pg/
+0.5 to 3.8%, whereas for p-tau217 it ranged from 0.5 to                          mL for Elecsys p-tau181, and 0.246 pg/mL for Lumipulse
+8.6% (Supplemental Table 1). Linearity was maintained                            p-tau217. The DeLong test showed comparable discrimi-
+down to 0.30 pg/mL and 0.12 pg/mL for p-tau181 and                               natory performance between the two p-tau217 assays
+p-tau217, respectively (Supplementary Figure S1). The                            (p = 0.485) while the AUC of Elecsys p-tau181 was signifi-
+LLOQ was estimated at 0.32 pg/mL for p-tau181 and                                cantly lower than that of Elecsys p-tau217 (p = 0.043).
+0.10 pg/mL for p-tau217.                                                            To further refine diagnostic classification, a two-cut-
+                                                                                 off approach was applied to define a grey zone separat-
+Method comparison                                                                ing clearly normal and abnormal results (Table 3). For
+Passing–Bablok regression analysis demonstrated both                             Elecsys p-tau217, the upper cut-off (95% specificity)
+proportional (slope = 1.363; 95% CI: 1.251–1.484) and                            was 0.497 pg/mL and the lower cut-off (95% sensitiv-
+systematic (intercept = 0.113; 95% CI: 0.098–0.133) dif-                         ity) was 0.275 pg/mL. This range encompassed 19.9%
+ferences in p-tau217 concentrations between the two                              (37/186) of patients, of whom 32.4% (12/37) were AD and
+assays (Fig. 1A). A statistically significant correlation was                    67.6% (25/37) non-AD (Fig. 3). For Lumipulse p-tau217,
+observed between the assays (r = 0.88, p < 0.0001). Fur-                         the upper cut-off was 0.246 pg/mL and the lower cut-
+thermore, Bland–Altman analysis, performed by plot-                              off 0.130 pg/mL, defining a grey zone including 11.9%
+ting the differences between measurements against their                          (22/186) of patients, of whom 45.5% (10/22) were AD and
+means, indicated discrepancies of up to 59% between the                          54.5% (12/22) non-AD. For Elecsys p-tau181, the upper
+assays (Fig. 1B). Five out of the 187 included samples had                       cut-off was 1.505 pg/mL and the lower cut-off 0.936 pg/
+a concentration below the LOQ (0.10 pg/mL).                                      mL, defining a grey zone including 33.2% (62/187) of
+
+
+
+
+Fig. 1 Comparison of p-tau217 between ECLIA (Roche; Elecsys) and CLEIA (Fujirebio; Lumipulse). Passing-Bablok regression analysis (1). The bold line
+shows the fitted regression line. The green line indicates the line of identify. The 95%CI of the regression curve is shown as small, dashed lines. The regres-
+sion equation (slope and intercept with corresponding 95%CI) and the Pearson correlation coefficient (rs) are indicated. Bland-Altman plot demonstrat-
+ing the relative difference obtained with ECLIA (Roche) against CLEIA (Fujirebio) (2). Horizontal lines are drawn at the mean difference between the two
+methods, and at the limits of agreement, which are defined as the mean difference plus and minus 1.96 times the standard deviation of the differences.
+The dotted horizontal lines present the 95% confidence intervals around the mean difference and the upper and lower limits of agreement. Abbrevia-
+tions: ECLIA: electrochemiluminescence immunoassays; CLEIA: Chemiluminescence enzyme immunoassay
+Titeca et al. Alzheimer's Research & Therapy           (2026) 18:99                                                                              Page 6 of 12
+
+
+
+
+Table 2 Diagnostic performance using single cut-off approach
+Parameter                   n     AUC                 Optimal            Sensitivity      Specificity      Accuracies PPV                NPV            TP
+                                  (95%CI)             cut-off            (95% CI)         (95% CI)         (95% CI)   (95% CI)           (95% CI)       /
+                                                      value (pg/mL)                                                                                     TN
+Elecsys p-tau217            186 0.939                 0.371              92.2%            89.2%            91%           91.3%           90.4%          95 /
+                                (0.895–0.969)                            (85.3–96.6%)     (80.4–94.9%)     (87–95%)      (84.1–95,3%)    (82,1–94.7%)   75
+Elecsys p-tau181            187 0.903 (0.852          1.150              85.4%            86.9%            86%           88.9%           93.0%          88 /
+                                0.942)                                   (77.1–91.6%)     (77.8–93.3%)     (81–91%)      (91.0–94.3%)    (73.4–90.1%)   73
+Lumipulse p-tau217          186 0.950                 0.246              85.4%            96.2%            88%           93,6%           83.8%          86 /
+                                (0.907–0.976)                            (77.1–91.6%)     (89.3–99.2%)     (83–92%)      (86,7–97,0%)    (75,1–90,0%)   78
+Lumipulse p-tau217/         182 0.957                 0.0115             89.3%            94.9%            95%           95.8%           87.2%          92 /
+Aβ42                            (0.916–0.981)                            (81.7–94.5%)     (87.5–98.6%)     (80–98%)      (89.7–98.9%)    (78.3–93.4%)   80
+Lumipulse p-tau217/         182 0.957                 3.891              85.4%            96.2%            92%           96.7%           83.5%          88 /
+(Aβ42/Aβ40)                     (0.917–0.982)                            (77.1–91.6%)     (89.3–99.2%)     (87–96%)      (90.7–99.3%)    (74.3–90.5%)   80
+Elecsys                     187 0.943                 N.A.               96.1%            85.2%            91%           88.4%           94.7%          99 /
+p-tau181 + APOE-ε4              (0.907–0.978)                            (91.2–99.4%)     (76.0–92.0%)     (87–95%)      (83.1–94.2%)    (90.2–99.6%)   75
+Elecsys                     187 0.970                 N.A.               90.2%            92.7%            91%           92.9%           93.9%          92 /
+p-tau217 + APOE-ε4              (0.943–0.992)                            (83.2–95.2%)     (87.1–98.3%)     (87–95%)      (88.2–97.6%)    (88.0–98.8%)   78
+Lumipulse                   186 0.959                 N.A.               95.1%            91.6%            93%           92.4%           90,2%          97 /
+p-tau217 + APOE-ε4              (0.928–0.989)                            (89.1–96.4%)     (83.7–95.6%      (88–96%)      (85.7–96.1%     (84.9–96.6%)   76
+Lumipulse (p-tau217 /       182 0.965                 N.A.               94.2%            92.4%            96%           94.2%           92.9%          97 /
+Aβ42) + APOE-ε4                 (0.938–0.993)                            (87.9–96.4%)     (84.7–95.6%)     (92–98%)      (87.9–96.4%)    (89.3–96.2%)   78
+Abbreviations: CI Confidence interval, AUC Area under the ROC curve, ROC Receiver operating characteristics curve, N.A. Not applicable
+
+
+
+                                                                                   the two-cut-off approach, intermediate rates differed by
+                                                                                   subgroup and biomarker: in AD vs. ND, intermediates
+                                                                                   were 31.8% for Elecsys p-tau217 and 26.1% for Lumi-
+                                                                                   pulse p-tau217, while Lumipulse p-tau217/Aβ42 yielded
+                                                                                   3.8% intermediates; in AD vs. PSY, intermediates were
+                                                                                   5–6% for p-tau217 and < 1% for the p-tau217/Aβ42 ratio
+                                                                                   (Supplementary Tables 3 and 4). Using this two-cut-
+                                                                                   off approach, sensitivity and specificity were ≥ 90% for
+                                                                                   Elecsys p-tau217, Lumipulse p-tau217 and Lumipulse
+                                                                                   p-tau217/Aβ42.
+
+                                                                                   Diagnostic value of plasma APOE ε4 carrier status
+                                                                                   To explore the added diagnostic value of APOE ε4 car-
+                                                                                   rier status, we examined its contribution in combination
+                                                                                   with plasma biomarker measures. In logistic regres-
+                                                                                   sion models, adding APOE ε4 increased discrimina-
+                                                                                   tive performance for Elecsys p-tau181 (AUC 0.903 to
+                                                                                   0.943; p = 0.010) and for Elecsys p-tau217 (AUC 0.939 to
+                                                                                   0.970; p = 0.02), while AUC changes were more modest
+Fig. 2 ROC curves demonstrating the diagnostic performance of Elecsys              for Lumipulse p-tau217 (AUC 0.950 to 0.959; p = 0.101)
+p-tau 217, Lumipulse p-tau 217 and Elecsys p-tau 181                               and Lumipulse p-tau217/Aβ42 (AUC 0.957 to 0.965;
+                                                                                   p = 0.121). In the two-cutoff approach, the proportion
+patients, of whom 54.8% (34/62) were AD and 45.2%                                  of patients classified in the intermediate zone decreased
+(28/62) non-AD.                                                                    when APOE ε4 was incorporated (Elecsys p-tau181 from
+  Given the heterogeneous composition of the non-AD                                33.2% to 18.2%, Elecsys p-tau217 from 20.0% to 11.0%,
+group, we performed subgroup analyses comparing AD                                 Lumipulse p-tau217 from 11.9% to 8.7%, and Lumipulse
+with the ND and PSY groups (Supplementary Tables                                   p-tau217/Aβ42 from 10.0% to 8.7%). Across these com-
+3 and 4). Using the single cut-off approach, AUCs for                              bined models, positive and negative predictive values
+Elecsys p-tau217, Lumipulse p-tau217 and Lumipulse                                 were 92.4% or higher.
+p-tau217/Aβ42 ranged from 0.932 to 0.947 for AD vs.                                  Subgroup analyses for p-tau217 showed that APOE-ε4
+ND and from 0.953 to 0.970 for AD vs. PSY, consistent                              carriers had higher PPV (95–100%) but lower NPV (53–
+with the overall AD vs. non-AD analysis (Table 2). Using                           60%), whereas non-carriers showed the opposite pattern,
+Titeca et al. Alzheimer's Research & Therapy           (2026) 18:99                                                                                Page 7 of 12
+
+
+
+
+Table 3 Diagnostic performance using two cut-off approach (95% sensitivity/specificity thresholds)
+Parameter                                Lower          Upper           Accuracy           PPV (95% CI)            NPV (95% CI)          TP / TN      % in-
+                                         cut-off        cut-off         (95% CI)                                                                      terme-
+                                         (pg/mL)        (pg/mL)                                                                                       diates
+Elecsys p-tau217                         0.275          0.497           94% (90–98%)       95.6% (89.6–98.2%)      91.5% (81.8–96.1%)    86 / 54      19.9%
+Elecsys p-tau181                         0.936          1.505           93% (88–97%)       94.1% (85.8–97.6%)      91.2% (80.1–96.3%)    64 / 52      33.2%
+Lumipulse p-tau217                       0.130          0.246           93% (89–97%)       93.6% (86.7–97.0%)      92.8% (84.3–96.9%)    88 / 65      11.9%
+Lumipulse p-tau217/Aβ42                  0.0071         0.0139          95% (91–98%)       95.7% (89.6–98.6%)      93.0% (84.6–97.3%)    89 / 66      10.0%
+Lumipulse p-tau217/ (Aβ42/Aβ40)          0.912          3.841           90% (85–94%)       95.7% (89.4–98.6%)      81.7% (71.1–89.4%)    88 / 58      10.5%
+Elecsys p-tau217 + APOE-ε4               N.A.           N.A.            94% (90–98%)       94.4% (87.5–97.9%)      93.4% (85.5–97.3%)    85 / 71      11.0%
+Elecsys p-tau181 + APOE-ε4               N.A.           N.A.            93% (90–98%)       93.4% (87.8–99.0%)      93.4% (87.8–99.0%)    71 / 71      18.2%
+Lumipulse p-tau217 + APOE-ε4             N.A.           N.A.            95% (89–96%)       92.4% (85.7–96.1%)      92.7% (84.9–96.6%)    83 / 76      8.7%
+Lumipulse (p-tau217 / Aβ42) +            N.A.           N.A.            95% (90–97%)       95.7% (89.5–96.1%)      93.2% (85.1–95.1%)    90 / 69      8.7%
+APOE-ε4
+Abbreviations: CI Confidence interval, AUC Area under the ROC curve, ROC Receiver operating characteristics curve, N.A. Not applicable
+
+
+
+
+Fig. 3 Distribution of plasma Elecsys p-tau181 (A), Elecsys p-tau217 (B), and Fujirebio Lumipulse p-tau217 (C) in AD and non-AD patients. For each bio-
+marker, the optimal single cut-off is indicated by the solid blue line; dashed lines indicate thresholds corresponding to 95% sensitivity (lower dashed line)
+and 95% specificity (upper dashed line). Far-out values, defined as values below Q1 minus 3×IQR or above Q3 plus 3×IQR, are indicated by red triangles
+
+
+with NPV up to 98% and PPV around 80–85%. These                                    an early amyloid-positive stage and/or mixed pathology;
+findings indicate that APOE-ε4 primarily reduces diag-                             n = 15) or other discordant AT(N) profiles (n = 1). Over-
+nostic uncertainty by shifting the interpretation of inter-                        all, discordant cases differed clearly from the AD group
+mediate p-tau217 results toward AD positivity in carriers                          across plasma p-tau measures (p < 0.001). Compared
+and toward AD negativity in non-carriers.                                          with the non-AD group, Elecsys p-tau181 and Elecsys
+                                                                                   p-tau217 levels were similar, while small differences were
+Adjustment with Aβ42 or the Aβ42/40 ratio                                          observed for Lumipulse p-tau217 (p = 0.039). Apply-
+Within the Fujirebio platform, where Aβ42 and Aβ40                                 ing the Elecsys p-tau217 single cut-off from the primary
+measurements were available, combining plasma                                      AD versus non-AD analysis, 62.5% discordant cases
+p-tau217 with Aβ42 and Aβ42/40 ratio did not result                                were below and 37.5% were above the threshold, indicat-
+in a statistically significantly increase the AUC (0.950                           ing substantial heterogeneity within this subgroup. In
+vs. 0.957; p = 0.058 and p = 0.322, respectively). The pro-                        sensitivity analyses, classifying discordant cases as AD
+portion of intermediate cases, PPV and NPV remained                                resulted in only modest changes in AUC, sensitivity and
+unchanged (Tables 2 and 3), while accuracy increased                               specificity and did not materially alter the optimal single
+(95% and 92% vs. 88%). Comparing Lumipulse p-tau217/                               cut-off values (Supplementary Table 5). Overall, these
+Aβ42 and Elecsys p-tau217, there was no significant dif-                           exploratory findings indicate substantial heterogene-
+ference in diagnostic performance (AUC 0.957 vs. 0.939;                            ity among discordant CSF profiles, with elevated plasma
+p = 0.320), with Lumipulse p-tau/ Aβ42 having a slightly                           p-tau217 in a subset despite normal CSF tau cut-offs and
+higher positive predictive value (95.8% vs. 91.3%) and                             support the robustness of the main diagnostic cut-offs.
+slightly lower negative predictive value (87.2% vs. 90.4%).
+                                                                                   Influence of clinical cofactors on Elecsys p-tau217
+Discordant CSF biomarker profiles                                                  Linear regression analyses were performed to evalu-
+Discordant CSF profiles were excluded from the primary                             ate the impact of clinical cofactors on baseline Elecsys
+analyses and were defined as amyloid abnormal without                              p-tau217 levels. Significant associations were observed
+CSF tau abnormality (A + T−N−, potentially reflecting                              with diagnostic group and baseline MoCA score
+Titeca et al. Alzheimer's Research & Therapy   (2026) 18:99                                                       Page 8 of 12
+
+
+
+
+(p < 0.001, β=-0.267), consistent with higher p-tau217          assays and automated immunoassay platforms, includ-
+concentrations in patients with AD and in those with            ing Fujirebio Lumipulse based testing in clinical care set-
+lower cognitive performance. In contrast, no significant        tings [24, 37]. A recent head-to-head comparison showed
+associations were found with age (p = 0.449, β = 0.064),        consistently high diagnostic performance across multiple
+sex (p = 0.054, β = 0.154), renal function (eGFR) (p = 0.918,   plasma p-tau217 assays, including immunoassays (ALZ-
+β=-0.009), severe white-matter hyperintensities (Faze-          path, Lilly, and Janssen/J&J) and a Washington University
+kas score = 3) (p = 0.072, β = 0.142), or the presence of       mass spectrometry assay, for detecting amyloid PET pos-
+two or more strictly lobar microbleeds indicative of            itivity (AUC 0.91 to 0.96), with classification accuracies of
+CAA (p = 0.308, β = 0.079). Twenty-one patients had             83% to 93%, sensitivities of 84% to 91% and specificities
+an eGFR below 60 mL/min/1.73 m² in our cohort, con-             of 85% to 94% [38]. Our findings build on these obser-
+sistent with chronic kidney disease (CKD stage 3), and          vations by showing that comparable performance can be
+none had an eGFR below 30 mL/min/1.73 m² (CKD stage             achieved on a fully automated, high-throughput analyser
+4–5). Plasma Elecsys p-tau217 did not differ significantly      platform used in routine laboratory workflows, with an
+across eGFR categories in the overall cohort (p = 0.07).        AUC of 0.939 (sensitivity 92%, specificity 89%) for Elec-
+  Baseline MoCA scores were significantly lower in the          sys p-tau217. Importantly, implementation on such plat-
+AD group than in the non-AD group, raising the pos-             forms facilitates routine clinical use by streamlining assay
+sibility of confounding by cognitive severity. Therefore,       execution, reducing operator-dependent variability, and
+we performed MoCA-adjusted logistic regression analy-           enabling high-throughput testing within existing labora-
+ses for each plasma biomarker. After MoCA adjustment,           tory workflows.
+higher levels of Elecsys p-tau181 (OR 1.49, 95% CI 1.32–           While plasma p-tau217 distinguished between the
+1.69, p < 0.001), Elecsys p-tau217 (OR 3.33, 95% CI 2.22–       AD and non-AD groups, absolute concentrations dif-
+5.00, p < 0.001) and Lumipulse p-tau217 (OR 4.55, 95% CI        fered between the evaluated assays, consistent with prior
+2.78–7.69, p < 0.001), and lower levels of Aβ42 (OR 0.96,       reports [39–41]. Differences in sample matrix (for exam-
+95% CI 0.95–0.98, p < 0.001) remained associated with           ple serum versus plasma) may also contribute to variabil-
+AD diagnosis. MoCA was not independently associated             ity in measured concentrations [42, 43]. The development
+with diagnosis in the p-tau analyses, whereas it remained       of certified reference materials would be an important
+independently associated in the amyloid analyses (Aβ42:         step toward assay standardization, improved calibration
+OR 0.93, 95% CI 0.85–1.00, p = 0.045; Aβ40: OR 0.92, 95%        and analytical sensitivity, and reduced fixed and propor-
+CI 0.85–0.99, p = 0.019).                                       tional bias [39]. Such harmonization is essential to ensure
+                                                                accurate and reproducible results across laboratories and
+Cognitive decline and p-tau217                                  platforms and to enable reliable interpretation and com-
+Among AD patients with longitudinal follow-up (n = 69;          parison of biomarker concentrations across studies.
+median follow up 2.1 years), higher baseline plasma Elec-          The blood based biomarker (BBM) workgroup sug-
+sys p-tau217 levels were associated with lower MoCA             gested that the minimal acceptable performance for
+scores at baseline and showed a trend toward faster cog-        blood biomarkers as a confirmatory test should be
+nitive decline over time (p = 0.07) in models adjusted for      equivalent to CSF tests with a sensitivity and specificity
+age and sex.                                                    of 90% or higher [44]. In our cohort, Elecsys p-tau217
+                                                                nearly met these criteria using a single cutoff (sensitiv-
+Discussion                                                      ity 92.2%, specificity 89.2%). To further optimize diag-
+In this study, we provide one of the first comprehensive        nostic performance, we applied a two-cut-off approach
+evaluations of plasma p-tau217 measured on the fully            defining an intermediate range. Using thresholds cor-
+automated Roche Elecsys platform in a large real-world          responding to 95% sensitivity and specificity resulted in
+memory-clinic cohort. Our results demonstrate that              19.9% intermediate results, within the range of 15–20%
+Elecsys p-tau217 shows excellent diagnostic accuracy            as recommended by the BBM workgroup. For Lumipulse
+for distinguishing AD from non-AD cognitive disorders           p-tau217, using a 95% sensitivity/specificity threshold
+(AUC 0.939), outperforming Elecsys p-tau181 (AUC                showed 11.9% intermediates. These findings illustrate the
+0.903; p = 0.043) and showing comparable performance            trade-off between diagnostic stringency and the number
+to the Fujirebio Lumipulse p-tau217 assay (AUC 0.950;           of intermediate results, underscoring that cut-off selec-
+p = 0.485). A recent meta-analysis reported a pooled            tion should balance false positives against indetermi-
+AUC of 0.911 (95% CI 0.889–0.924) for p-tau217 and              nate outcomes, particularly in the context of high-cost
+0.815 (95% CI 0.802–0.829) for p-tau181 in cognitively          disease-modifying therapies. Patients with intermediate
+impaired patients across a broad range of plasma p-tau          values should undergo confirmatory testing using CSF or
+assays. Notably, Elecsys p-tau217 was not included [14].        amyloid-PET to establish the underlying pathology.
+Much of the existing evidence comes from research
+Titeca et al. Alzheimer's Research & Therapy   (2026) 18:99                                                      Page 9 of 12
+
+
+
+
+   The importance of defining clinically meaningful            Janssen/J&J SIMOA p-tau217 assay correlated closely
+thresholds is exemplified by the recent FDA approval of        with the ALZpath p-tau217 assay (Spearman ρ = 0.85),
+the Elecsys Phospho-Tau 181 (p-tau181) assay as an aid         with > 95% individual-level agreement [48]. Together,
+for evaluating cognitive complaints in adults aged ≥ 55        these findings indicate that across cohorts and assay plat-
+years undergoing assessment for AD in primary care             forms, plasma p-tau217 measurements are strongly cor-
+settings. The FDA-approved cut-off (0.934 pg/mL) dif-          related, show high agreement, and provide comparable
+fers notably from our study threshold (1.150 pg/mL),           diagnostic performance.
+reflecting fundamental differences in intended use. As a         Our findings further suggest that incorporating
+rule-out test, the FDA-cleared assay prioritizes sensitiv-     APOE-ε4 status with plasma p-tau217 improves over-
+ity (91.0%) over specificity (69.8%), aiming to minimize       all discrimination and reduces the proportion of inter-
+false negatives in a screening context. Similarly, Hibar       mediate results. Adding APOE-ε4 to Elecsys p-tau217
+et al. [20] positioned Elecsys p-tau217 as a prescreen-        increased the AUC from 0.939 to 0.970 (p = 0.02) and
+ing tool for amyloid-beta pathology, selecting a low           decreased the proportion of grey-zone results from 20%
+threshold (p-tau217 < 0.189 pg/mL) that maximized sen-         to 11%. In carriers of the ε4 allele, positive predictive
+sitivity (95.5–98.6%) and NPV at the cost of low speci-        values reached 95–100%, whereas non-carriers showed
+ficity (29.2–50.7%) in both cognitively unimpaired and         the highest negative predictive values (up to 98%). These
+impaired individuals.                                          findings indicate that integrating APOE carrier status,
+   In contrast, our memory-clinic cohort required thresh-      determined from blood, with plasma biomarkers could
+olds with confirmatory intent for cognitively impaired         enhance clinical interpretation by refining the classifica-
+patients, where higher specificity is essential to support     tion of borderline results. Plasma-based APOE-ε4 pro-
+diagnostic confirmation and inform therapeutic deci-           teotyping has shown high agreement with genotyping in
+sion-making. Applying a higher cutoff (< 0.371 pg/mL)          recent studies, supporting its use for risk stratification in
+for p-tau217, we achieved a more balanced diagnostic           clinical workflows [49]. In practice, this approach may
+performance with 96% sensitivity and 88% specificity.          help avoid unnecessary confirmatory CSF or PET inves-
+These findings underscore that threshold selection must        tigations in ε4 carriers with an amnestic presentation,
+align with clinical context and the relative consequences      while maintaining a cautious approach for non-carriers
+of false-positive versus false-negative results. While Elec-   in the same range. Broader validation and careful inte-
+sys p-tau181 offers an FDA-cleared option for primary          gration into clinical workflows will be required before
+care screening, p-tau217 may serve as the preferred con-       routine implementation. Particular attention should be
+firmatory blood-based marker when available, consistent        given to ethical and communication aspects surrounding
+with BBM workgroup recommendations targeting ≥ 90%             disclosure of genetic-risk information, even when carrier
+sensitivity and specificity for confirmatory biomarkers        status is inferred from blood-based assays rather than
+[44, 45].                                                      direct genotyping.
+   Given the heterogeneous composition of the non-               Combining plasma Lumipulse p-tau217 with Aβ42
+AD group, we performed subgroup analyses and found             or the Aβ42/Aβ40 ratio has been proposed to improve
+broadly similar AUCs for AD versus both non-AD neu-            diagnostic performance [25]. In May 2025, the Lumi-
+rological and psychiatric/psychological subgroups.             pulse plasma p-tau217/Aβ42 assay became the first FDA-
+However, intermediate rates were higher in the non-AD          cleared blood biomarker test to aid the diagnosis of AD
+neurological subgroup, suggesting that confirmatory CSF        in symptomatic patients aged ≥ 55 years and showed high
+or amyloid-PET may be more frequently be required in           agreement with CSF biomarkers or amyloid PET in the
+this group.                                                    pivotal study [50]. In our cohort measured on the Lumi-
+   The analytical evaluation of the cobas® pro Elec-           pulse platform, adding Aβ42 or the Aβ42/Aβ40 ratio to
+sys p-tau181 and p-tau217 assays revealed coefficients         p-tau217 slightly reduced the proportion of intermediate
+of variation (CVs) ranging from 0.5 to 3.8% and 0.5 to         results (11.9% vs. 10.0% vs. 10.5%) without a meaningful
+8.6%, respectively. These values are consistent with pre-      gain in overall discrimination (AUC 0.950 vs. 0.957 vs.
+cision estimates reported for other immunoassay plat-          0.957). Diagnostic performance of Lumipulse p-tau217/
+forms, including SIMOA, MSD, and CLEIA [27, 37, 46].           Aβ42 was comparable to Elecsys p-tau217 in our cohort.
+Method-comparison analyses showed that Elecsys and             Sensitivity and specificity were 89.3% and 94.9% for
+Lumipulse yielded different absolute p-tau217 concentra-       p-tau217/Aβ42 and 85.4% and 96.2% for p-tau217/(Aβ42/
+tions but were highly correlated. This aligns with a Swed-     Aβ40), broadly in line with the performance reported in
+ish head-to-head comparison of the Janssen/J&J SIMOA           the FDA-cleared setting. In our cohort, p-tau217/Aβ42
+p-tau217 and Lilly MSD p-tau217 assays, which reported         and p-tau217/(Aβ42/Aβ40) performed similarly, how-
+strong correlations (Spearman ρ = 0.69–0.71) and good          ever, the incremental value of Aβ42/Aβ40 may differ by
+agreement on Bland–Altman analyses [47]. Similarly, the        cohort and analytical platform [51]. Overall, adding Aβ42
+Titeca et al. Alzheimer's Research & Therapy   (2026) 18:99                                                      Page 10 of 12
+
+
+
+
+or Aβ42/Aβ40 may help classify borderline cases depend-           with emerging longitudinal evidence linking higher
+ing on the cohort, although the incremental benefit over          p-tau217 to subsequent cognitive worsening and increas-
+p-tau217 alone was small in our cohort.                           ing tau burden over time [31–33]. Importantly, our lon-
+   Discordant CSF ATN profiles, particularly A + T−N−,            gitudinal outcome was limited to MoCA, which has
+are often interpreted as an early Alzheimer continuum             limited sensitivity for subtle within-subject change and
+stage in which amyloid pathology is present while CSF             may show floor effects in AD. More sensitive repeated
+tau biomarkers remain below established cut-offs. In              neuropsychological measures were not available in a suf-
+our cohort, such CSF profiles, while on average similar           ficiently large subset for robust modelling. Therefore,
+to the non-AD group, showed substantial heterogene-               these longitudinal findings should be viewed as explor-
+ity, with elevated plasma p-tau217 in a subset despite            atory, and larger studies with repeated sensitive cognitive
+normal CSF p-tau181 and total tau. This pattern is com-           assessments are needed to clarify the strength and clini-
+patible with published trajectory data suggesting that            cal relevance of this association.
+plasma p-tau217 can become abnormal at relatively low
+amyloid burden and may signal emerging AD-related tau             Strengths and limitations
+pathophysiology before conventional CSF tau cut-offs              The main strengths of this study are the relatively large,
+are crossed in some individuals [52]. Alternative con-            well-characterised memory-clinic cohort with a CSF-
+tributors to plasma and CSF discordance include epitope           based reference standard, and the direct head-to-head
+and assay differences (p-tau217 versus p-tau181), cut-off         comparison across assays supported by method-com-
+dependence and preanalytical variability, and, in selected        parison analyses (Passing Bablok and Bland Altman). We
+cases, peripheral influences on plasma tau measures.              also report clinically interpretable measures such as grey-
+Clinically, these observations underscore that an isolated        zone proportions and evaluate the added value of inte-
+elevation of plasma p-tau217 should be interpreted in the         grating APOE ε4 status in diagnostic models. Limitations
+context of phenotype and other AD indicators, and that            include the single-centre design, the lack of cross-val-
+confirmatory CSF or amyloid-PET should be considered              idation in an independent cohort, and a more extensive
+when results are discordant or when the clinical picture          analytical evaluation in line with international validation
+is atypical.                                                      criteria (e.g., interference testing, multi-lot and multi-
+   Physiological and vascular factors have been pro-              operator precision, and assessment of the upper limit of
+posed to influence plasma p-tau levels, including age-            quantification) was not performed, which was beyond
+ing, reduced renal clearance, and small-vessel disease            the scope of this clinical performance study. Finally, the
+[24, 27, 28]. In our memory-clinic cohort, with a median          longitudinal follow-up subset was modest and relied on
+age of approximately 70 years, Elecsys p-tau217 con-              MoCA, so longitudinal findings should be considered
+centrations were not significantly affected by age, sex,          exploratory.
+renal function, severe white-matter hyperintensities, or
+the presence of two or more strictly lobar microbleeds,           Conclusion
+which may indicate concomitant CAA. The absence of                Together, these findings highlight the potential of Elecsys
+an association between p-tau217 and eGFR in our study             p-tau217 as a scalable and clinically applicable biomarker
+may therefore reflect the relatively small number of par-         for AD, with high diagnostic accuracy and possible asso-
+ticipants with impaired renal function and the absence of         ciations with cognitive severity and longitudinal cognitive
+cases with advanced CKD, in whom stronger effects have            change. Future work should focus on multicentre valida-
+been reported [26, 29]. Recent studies have indicated that        tion in larger and more diverse populations, the harmon-
+using p-tau217/total tau ratios, as determined by mass            isation of assay-specific thresholds, and the development
+spectrometry–based assays, may mitigate the impact of             of longitudinal frameworks for clinical implementation.
+kidney dysfunction on plasma p-tau217, but such nor-
+                                                                  Abbreviations
+malized ratios are not currently available for the Elecsys        AD	Alzheimer’s disease
+and Lumipulse immunoassays and were therefore not                 AUC	Area under the ROC curve
+evaluated here [53]. Overall, these findings suggest that         CAA	Cerebral amyloid angiopathy
+                                                                  CSF	Cerebrospinal fluid
+p-tau217 values primarily reflect disease-related rather          PET	Positron emission tomography
+than physiological variation in typical memory-clinic             IQR	Interquartile range
+populations.                                                      MOCA	Montreal Cognitive Assessment
+                                                                  eGFR	Estimated glomerular filtration rate
+   Higher plasma p-tau217 levels were associated with             MRI	Magnetic resonance imaging
+poorer baseline cognition, and baseline p-tau217 showed           ROC	Receiver operating characteristic
+a trend toward faster MoCA decline over time in our               ECLIA	Electrochemiluminescence immunoassays
+                                                                  PPV	Positive predictive value
+cohort. While this longitudinal association did not reach         NPV	Negative predictive value
+statistical significance, the direction of effect is consistent   CI	Confidence interval
+Titeca et al. Alzheimer's Research & Therapy                         (2026) 18:99                                                                                                                   Page 11 of 12
+
+
+
+
+ES	Estimated effect size                                                                                 transformed global healthcare landscape. Neuron. 2023;111(18):2781–99. ​h​t​t​
+CKD	Chronic kidney disease                                                                               p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​1​6​​/​j​​.​n​e​​u​r​o​​n​.​2​0​​2​3​​.​0​5​.​0​1​7.
+CCUG	Cognitive Centre Ghent University                                                             3.    Hansson O, Edelmayer RM, Boxer AL, Carrillo MC, Mielke MM, Rabinovici GD,
+GFAP	Glial fibrillary acidic protein                                                                     et al. The Alzheimer’s Association appropriate use recommendations for
+NfL	Neurofilament light chain                                                                            blood biomarkers in Alzheimer’s disease. Alzheimer’s & dementia: the journal
+QC	Quality control                                                                                       of the Alzheimer’s Association; 2022.
+LoQ	Limit of Quantification                                                                        4.    Blennow K, Galasko D, Perneczky R, Quevenco F-C, van der Flier WM,
+                                                                                                          Akinwonmi A, et al. The potential clinical value of plasma biomarkers in
+                                                                                                          Alzheimer’s disease. Alzheimers Dement. 2023;19(12):5805–16. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​
+Supplementary Information                                                                                 g​/​​1​0​.​​1​0​0​2​​/​a​​l​z​.​1​3​4​5​5.
+The online version contains supplementary material available at ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​   5.    Alcolea D, Beeri MS, Rojas JC, et al. Blood biomarkers in neurodegen-
+g​/​​1​0​.​​1​1​8​6​​/​s​​1​3​1​9​5​-​0​2​6​-​0​1​9​9​6​-​8.                                              erative diseases: implications for the clinical neurologist. Neurology.
+                                                                                                          2023;101:172–80.
+  Supplementary Material 1                                                                          6.    Karikari TK∙, Pascoal TA∙, Ashton NJ∙, et al. Blood phosphorylated tau 181 as a
+                                                                                                          biomarker for Alzheimer’s disease: a diagnostic performance and prediction
+                                                                                                          modelling study using data from four prospective cohorts. Lancet Neurol.
+Acknowledgements                                                                                          2020;19:422–33.
+Not applicable.                                                                                     7.    Ashton NJ, ∙ Brum WS∙, Di Molfetta G, ∙, et al. Diagnostic accuracy of a plasma
+                                                                                                          phosphorylated tau 217 immunoassay for Alzheimer disease pathology.
+Authors’ contributions                                                                                    JAMA Neurol. 2024;81:255–63.
+Jochen Titeca performed the main statistical analyses, data visualization, and                      8.    Palmqvist S, Janelidze S, Quiroz YT, et al. Discriminative accuracy of plasma
+figure preparation, and contributed to data interpretation and manuscript                                 phospho-tau217 for Alzheimer disease vs other neurodegenerative disorders.
+writing.Marta Scarioni contributed to patient selection, clinical assessment,                             JAMA. 2020;324:772–81.
+and inclusion of participants in the Cognitive Centre Ghent University (CCUG)                       9.    Benedet AL∙, Milà-Alomà M, ∙ Vrillon A∙, et al. Differences between plasma and
+biobank and critically reviewed the manuscript.Matthijs Oyaert supervised                                 cerebrospinal fluid glial fibrillary acidic protein levels across the Alzheimer
+and performed biomarker analyses, including sample processing and quality                                 disease continuum. JAMA Neurol. 2021;78:1471–83.
+control of the Elecsys and Lumipulse assays, contributed to the statistical                         10.   Palmqvist S∙, Tideman P, ∙ Cullen N∙, et al. Prediction of future Alzheimer’s dis-
+analyses, data visualization, and study design, and co-wrote and revised the                              ease dementia using plasma phospho-tau combined with other accessible
+manuscript.Tim Van Langenhove conceived the study design, supervised the                                  measures. Nat Med. 2021;27:1034–42.
+overall project, contributed to the statistical analyses and data interpretation,                   11.   Nakamura A, Kaneko N, Villemagne VL, et al. High performance plasma
+and co-wrote and revised the manuscript.                                                                  amyloid-β biomarkers for Alzheimer’s disease. Nature. 2018;554:249–54.
+                                                                                                    12.   Cogswell PM, Lundt ES, Therneau TM, et al. Modeling the temporal evolution
+Funding                                                                                                   of plasma p-tau in relation to amyloid beta and tau PET. Alzheimers Dement.
+Roche and Fujirebio provided the biomarker testing tools free of charge for                               2024;20:1225–38.
+this study. The companies had no role in study design, data collection, data                        13.   Therriault J, Servaes S, Tissot C, Rahmouni N, Ashton NJ, Benedet AL, Karikari
+analysis, interpretation, or manuscript preparation.                                                      TK, Macedo AC, Lussier FZ, Stevenson J, Wang YT, Fernandez-Arias J, Ste-
+                                                                                                          venson A, Socualaya KQ, Haeger A, Nazneen T, Aumont É, Hosseini A, Rej S,
+Data availability                                                                                         Vitali P, Triana-Baltzer G, Kolb HC, Soucy JP, Pascoal TA, Gauthier S, Zetterberg
+The datasets used and/or analysed during the current study are available from                             H, Blennow K, Rosa-Neto P. Equivalence of plasma p-tau217 with cerebro-
+the corresponding author on reasonable request.                                                           spinal fluid in the diagnosis of Alzheimer’s disease. Alzheimers Dement.
+                                                                                                          2023;19(11):4967–77.
+                                                                                                    14.   Therriault J, Brum WS, Trudel L, Macedo AC, Bitencourt FV, Martins-Pfeifer CC,
+Declarations                                                                                              et al. Blood phosphorylated tau for the diagnosis of Alzheimer’s disease: a
+                                                                                                          systematic review and meta-analysis. Lancet Neurol. 2025;24(9):740–52.
+Ethics approval and consent to participate
+                                                                                                    15.   Janelidze S, Bali D, Ashton NJ, Barthélemy NR, Vanbrabant J, Stoops E, et al.
+This study was approved by the local ethics committee of the Ghent
+                                                                                                          Head-to-head comparison of 10 plasma phospho-tau assays in prodromal
+University (ONZ-2024-0422). All procedures were conducted in accordance
+                                                                                                          Alzheimer’s disease. Brain. 2022;146(4):1592–601. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​9​3​​/​b​​r​a​i​
+with the World Medical Association Declaration of Helsinki. Written informed
+                                                                                                          n​/​a​w​a​c​3​3​3.
+consent was obtained from all participants before inclusion in the study.
+                                                                                                    16.   Palmqvist S, Stomrud E, Cullen N, Janelidze S, Manuilova E, Jethwa A, et al. An
+                                                                                                          accurate fully automated panel of plasma biomarkers for Alzheimer’s disease.
+Consent for publication
+                                                                                                          Alzheimers Dement. 2023;19(4):1204–15.
+Not applicable.
+                                                                                                    17.   Schindler SE, Petersen KK, Saef B, Tosun D, Shaw LM, Zetterberg H, et al. Head-
+                                                                                                          to-head comparison of leading blood tests for Alzheimer’s disease pathology.
+Competing interests
+                                                                                                          Alzheimers Dement. 2024;20(11):8074–96.
+The authors declare no competing interests.
+                                                                                                    18.   Kirste I, Hortsch S, Baez-Torres S, Boada Rovira M, Crane M, Frederiksen KS,
+                                                                                                          Hanson K, et al. Evaluating future IVD plasma p-tau 181 and ApoE4 immu-
+Author details
+1                                                                                                         noassays for rule out of amyloid pathology in a multi-center study reflective
+  Cognitive Centre, Department of Neurology, Ghent University Hospital,
+                                                                                                          of routine clinical practice (P7-3.017). Neurology. 2025;104(7Supplement
+C. Heymanslaan 10, Ghent, Belgium
+2                                                                                                         1):2653. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​2​1​2​​/​W​​N​L​.​​0​0​0​​0​0​0​0​​0​0​​0​2​1​0​4​9​0.
+  Department of Laboratory Medicine, Ghent University Hospital, Ghent,
+                                                                                                    19.   Anastasi F, Fernández-Lebrero A, Ashton NJ, Ortiz-Romero P, Torres-Torron-
+Belgium
+                                                                                                          teras J, González-Escalante A, et al. A head-to-head comparison of plasma
+                                                                                                          biomarkers to detect Alzheimer’s disease in a memory clinic. Alzheimers
+Received: 6 November 2025 / Accepted: 22 February 2026                                                    Dement. 2025;21(2):e14609.
+                                                                                                    20.   Hibar DP, Bauer A, Rabe C, Borlinghaus N, Jethwa A, Kollmorgen G, et al. Elec-
+                                                                                                          sys pTau217 plasma immunoassay detection of amyloid pathology in clinical
+                                                                                                          cohorts. Alzheimers Dement. 2026;22(1):e71009. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​0​2​​/​a​​l​z​.​7​
+                                                                                                          1​0​0​9.
+References                                                                                          21.   Cooper JG, Ghodsi M, Stukas S, Leach S, Brooks-Wilson A, Wellington CL.
+1. Hansson O, Blennow K, Zetterberg H, Dage J. Blood biomarkers for Alzheim-                              APOE ε4 carrier status modifies plasma p-tau181 concentrations in cogni-
+    er’s disease in clinical practice and trials. Nat Aging. 2023;3:506–19.                               tively healthy super-seniors. Alzheimers Dement. 2024;20(6):4373–80.
+2. Hampel H, Hu Y, Cummings J, Mattke S, Iwatsubo T, Nakamura A, et al. Blood-
+    based biomarkers for Alzheimer’s disease: current state and future use in a
+Titeca et al. Alzheimer's Research & Therapy                          (2026) 18:99                                                                                                                                                        Page 12 of 12
+
+
+
+
+22. Contreras JA, Ortega NE, Espejo K, Aslanyan V, Pa J, HABS-HD Study Team.                                 p-tau217. Alzheimers Res Ther. 2024;16(1):266. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​1​8​6​​/​s​​1​3​1​9​
+    The effect of APOE4 on Alzheimer’s plasma biomarkers among Mexican                                       5​-​0​2​4​-​0​1​6​3​0​-​5. PMID: 39702308; PMCID: PMC11660642.
+    Americans in the HABS-HD cohort. Alzheimers Res Ther. 2025;17(1):208.                              40.   Arslan B, Gobom J, Andreasson U, Gonzalez-Ortiz F, Ashton NJ, Zetterberg
+23. Cody KA, Du L, Studer RL, Jonaitis EM, Asthana S, Christian BT, et al. Accuracy                          H, Kvartsberg H. Comparative analysis of plasma p-tau217 immunoassays:
+    of plasma biomarkers to detect Alzheimer’s disease proteinopathy prior to                                challenges for standardization and harmonization. Clin Chem Lab Med. 2025
+    dementia. Alzheimers Dement. 2025;21(3):e14570.                                                          Nov 10. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​5​1​5​​/​c​​c​l​m​-​2​0​2​5​-​1​1​9​2. Epub ahead of print. PMID:
+24. Palmqvist S, Warmenhoven N, Anastasi F, Pilotto A, Janelidze S, Tide-                                    41202177.
+    man P, et al. Plasma phospho-tau217 for Alzheimer’s disease diagnosis in                           41.   Ashton NJ, Keshavan A, Brum WS, Andreasson U, Arslan B, Droescher M,
+    primary and secondary care using a fully automated platform. Nat Med.                                    Barghorn S, Vanbrabant J, Lambrechts C, Van Loo M, Stoops E, Iyengar S, Ji H,
+    2025;31(6):2036–43.                                                                                      Xu X, Forrest-Hay A, Zhang B, Luo Y, Jeromin A, Vandijck M, Bastard NL, Kolb
+25. Lehmann S, Gabelle A, Duchiron M, Busto G, Morchikh M, Delaby C, et al.                                  H, Triana-Baltzer G, Bali D, Janelidze S, Yang SY, Demos C, Romero D, Sigal G,
+    Comparative performance of plasma pTau181/Aβ42, pTau217/Aβ42 ratios,                                     Wohlstadter J, Malyavantham K, Khare M, Jethwa A, Stoeckl L, Gobom J, Kac
+    and individual measurements in detecting brain amyloidosis. EBioMedicine.                                PR, Gonzalez-Ortiz F, Montoliu-Gaya L, Hansson O, Rissman RA, Carrillo MC,
+    2025;117:105805.                                                                                         Shaw LM, Blennow K, Schott JM, Zetterberg H. The Alzheimer’s Association
+26. Hazan J, Liu KY, Zetterberg H, Fox N, Howard R. Associations of Plasma                                   Global Biomarker Standardization Consortium (GBSC) plasma phospho-tau
+    p-tau181 With Age, Adjusted for Kidney Function and Sociodemographic                                     Round Robin study. Alzheimers Dement. 2025;21(2):e14508. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​
+    Factors. Int J Geriatr Psychiatry. 2025;40(8):e70138.                                                    0​.​​1​0​0​2​​/​a​​l​z​.​1​4​5​0​8. Epub 2025 Feb 5. PMID: 39907496; PMCID: PMC11851162.
+27. Mielke MM, Aakre JA, Algeciras-Schimnich A, Proctor NK, Machulda MM,                               42.   Chen Y, Albert AL, Sehrawat A, Farinas MF, Lopez OL, Zeng X, et al. Equiva-
+    Eichenlaub U, Knopman DS, Vemuri P, Graff-Radford J, Jack CR Jr, Petersen RC,                            lence of plasma and serum for clinical measurement of p-tau217: compara-
+    Dage JL. Comparison of CSF phosphorylated tau 181 and 217 for cognitive                                  tive analyses of four blood-based assays. J Neurochem. 2025;169(7):e70114. ​h​
+    decline. Alzheimers Dement. 2022;18(4):602–11. Epub 2021 Jul 26. PMID:                                   t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​1​1​1​​/​j​​n​c​.​7​0​1​1​4.
+    34310832; PMCID: PMC8789950.                                                                       43.   Benedet AL, Arslan B, Tan K, Huber H, Pola I, Di Molfetta G, et al. Diagnostic
+28. Janelidze S, Mattsson N, Palmqvist S, Smith R, Beach TG, Serrano GE, Chai X,                             value of serum p-tau217 in Alzheimer disease: equal to plasma in levels and
+    Proctor NK, Eichenlaub U, Zetterberg H, Blennow K, Reiman EM, Stomrud E,                                 clinical utility? Clin Chem. 2025;hvaf162. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​9​3​​/​c​​l​i​n​c​h​e​m​/​h​v​
+    Dage JL, Hansson O. Plasma P-tau181 in Alzheimer’s disease: relationship to                              a​f​1​6​2.
+    other biomarkers, differential diagnosis, neuropathology and longitudinal                          44.   Schindler SE, Galasko D, Pereira AC, et al. Acceptable performance of blood
+    progression to Alzheimer’s dementia. Nat Med. 2020;26(3):379–86.                                         biomarker tests of amyloid pathology—recommendations from the Global
+29. Bornhorst JA, Lundgreen CS, Weigand SD, Figdore DJ, Wiste H, Griswold M,                                 CEO Initiative on Alzheimer’s disease. Nat Rev Neurol. 2024;20(7):426–39. ​h​t​t​p​​
+    et al. Quantitative Assessment of the Effect of Chronic Kidney Disease on                                s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​3​8​​/​s​​4​1​5​8​2​-​0​2​4​-​0​0​9​7​7​-​5.
+    Plasma P-Tau217 Concentrations. Neurology. 2025;104(3):e210287.                                    45.   Elecsys Phospho-Tau. (181P) Plasma leaflet, reference: 09697870500V1.0. ​h​t​t​p​​
+30. Twait EL, Gerritsen L, Moonen JEF, Verberk IMW, Teunissen CE, Visser PJ, et al.                          s​:​/​​/​e​l​a​​b​d​​o​c​-​​p​r​o​​d​.​r​o​​c​h​​e​.​c​​o​m​/​​e​L​D​/​​a​p​​i​/​d​​o​w​n​​l​o​a​d​​s​/​​e​2​1​​9​3​6​​a​3​-​0​​b​6​​c​-​f​​0​1​1​​-​3​0​9​​1​
+    Plasma Markers of Alzheimer’s Disease Pathology, Neuronal Injury, and Astro-                             -​​0​0​5​​0​5​6​​a​7​7​2​​f​d​​?​c​o​u​n​t​r​y​I​s​o​C​o​d​e​=​b​e, accessed November 2nd 2025.
+    cytic Activation and MRI Load of Vascular Pathology and Neurodegeneration:                         46.   Ashton NJ, Brum WS, Molfetta G, et al. Diagnostic accuracy of a plasma phos-
+    The SMART-MR Study. J Am Heart Assoc. 2024;13(4):e032134.                                                phorylated tau 217 immunoassay for Alzheimer disease pathology. JAMA
+31. Kang SH, Lee EH, Kim YJ, Jang H, Shin D, Zetterberg H, et al. Cerebral Amyloid                           Neurol. 2024;81:255–63.
+    Angiopathy and Downstream Alzheimer Disease Plasma Biomarkers. JAMA                                47.   Groot C, Cicognola C, Bali D, et al. Diagnostic and prognostic performance
+    Netw Open. 2025;8(5):e258842.                                                                            to detect Alzheimer’s disease and clinical progression of a novel assay for
+32. Mattsson-Carlgren N, Salvadó G, Ashton NJ, Tideman P, Stomrud E, Zetterberg                              plasma p-tau217. Alzheimers Res Ther. 2022;14:67. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​1​8​6​​/​s​​1​
+    H, et al. Prediction of Longitudinal Cognitive Decline in Preclinical Alzheimer                          3​1​9​5​-​0​2​2​-​0​1​0​0​5​-​8.
+    Disease Using Plasma Biomarkers. JAMA Neurol. 2023;80(4):360–9.                                    48.   Therriault J, Ashton NJ, Pola I, et al. Comparison of two plasma p-tau217
+33. Ossenkoppele R, Salvadó G, Janelidze S, Pichet Binette A, Bali D, Karlsson L,                            assays to detect and monitor Alzheimer’s pathology. EBioMedicine.
+    et al. Plasma p-tau217 and tau-PET predict future cognitive decline among                                2024;102:105046.
+    cognitively unimpaired individuals: implications for clinical trials. Nat Aging.                   49.   Dittrich A, Blennow K, Tan K, Benedet AL, Skoog I, Höglund K, et al. Evaluation
+    2025;5(5):883–96.                                                                                        of two plasma-based proteotyping assays against APOE ε4 genotyping in
+34. Du L, Langhough RE, Wilson RE, Reyes RER, Hermann BP, Jonaitis EM, et al.                                a memory clinic setting: the Gothenburg H70 Clinical Studies. Alzheimers
+    Longitudinal plasma phosphorylated-tau217 and other related biomarkers                                   Dement. 2025;21(2):e14610. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​0​2​​/​a​​l​z​.​1​4​6​1​0.
+    in a non-demented Alzheimer’s risk-enhanced sample. Alzheimers Dement.                             50.   Hu S, Yu H, Gao J. The pTau217/Aβ1–42 plasma ratio: the first FDA-cleared
+    2024;20(9):6183–204.                                                                                     blood biomarker test for diagnosis of Alzheimer’s disease. Drug Discov Ther.
+35. Clinical and Laboratory Standards Institute (CLSI). User verification of preci-                          2025;19(3):208–9.
+    sion and estimation of bias; approved guideline—Third edition. CLSI docu-                          51.   Hu Y, Cho M, Sachdev P, Dage J, Hendrix S, Hansson O, et al. Fluid biomark-
+    ment EP15-A3. Wayne (PA): Clinical and Laboratory Standards Institute; 2017.                             ers in the context of amyloid-targeting disease-modifying treatments in
+36. Leitão MJ, Silva-Spínola A, Santana I, Olmedo V, Nadal A, Le Bastard N, et al.                           Alzheimer’s disease. Med. 2024;5(10):1206–26. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​1​6​​/​j​​.​m​e​d​j​.​
+    Clinical validation of the Lumipulse G cerebrospinal fluid assays for routine                            2​0​2​4​.​0​8​.​0​0​4.
+    diagnosis of Alzheimer’s disease. Alzheimers Res Ther. 2019;11(1):91.                              52.   Milà-Alomà M, Ashton NJ, Shekari M, Salvadó G, Ortiz-Romero P, Montoliu-
+37. Pilotto A, Quaresima V, Trasciatti C, Tolassi C, Bertoli D, Mordenti C, Galli A, Riz-                    Gaya L, et al. Plasma p-tau231 and p-tau217 as state markers of amyloid-β
+    zardi A, Caratozzolo S, Zancanaro A, Contador J, Hansson O, Palmqvist S, De                              pathology in preclinical Alzheimer’s disease. Nat Med. 2022;28(9):1797–801. ​h​
+    Santis G, Zetterberg H, Blennow K, Brugnoni D, Suárez-Calvet M, Ashton NJ,                               t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​3​8​​/​s​​4​1​5​9​1​-​0​2​2​-​0​1​9​2​5​-​w.
+    Padovani A. Plasma p-tau217 in Alzheimer’s disease: Lumipulse and ALZpath                          53.   Janelidze S, Barthélemy NR, He Y, Bateman RJ, Hansson O. Mitigating the
+    SIMOA head-to-head comparison. Brain. 2025;148(2):408–415. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​           associations of kidney dysfunction with blood biomarkers of Alzheimer
+    /​​1​0​.​​1​0​9​3​​/​b​​r​a​i​n​/​a​w​a​e​3​6​8. Erratum in: Brain. 2025;148(4):e29.                     disease by using phosphorylated tau to total tau ratios. JAMA Neurol.
+38. Warmenhoven N, Salvadó G, Janelidze S, Mattsson-Carlgren N, Bali D, Orduña                               2023;80(5):516–22. ​h​t​t​p​s​:​​​/​​/​d​o​​i​.​​o​r​​g​​/​​1​0​​.​1​0​​​0​1​​/​j​a​​m​a​n​​e​u​​r​​o​l​​.​2​​0​2​3​.​0​1​9​9.
+    Dolado A, et al. A comprehensive head-to-head comparison of key plasma
+    phosphorylated tau 217 biomarker tests. Brain. 2025;148(2):416–31. ​h​t​t​p​​s​:​/​​/​d​
+    o​i​​.​o​​r​g​/​​1​0​.​​1​0​9​3​​/​b​​r​a​i​n​/​a​w​a​e​3​4​6. PMID:39468767; PMCID:PMC11788211.   Publisher’s Note
+39. Wojdała AL, Vanbrabant J, Bayoumy S, Antwi-Berko D, Bastard NL, van der                            Springer Nature remains neutral with regard to jurisdictional claims in
+    Flier WM, Jeromin A, Lambrechts C, Van Loo M, Vandijck M, Stoops E, Verberk                        published maps and institutional affiliations.
+    IMW, Teunissen CE. Analytical and clinical performance of eight Simoa® and
+    Lumipulse® assays for automated measurement of plasma p-tau181 and
+

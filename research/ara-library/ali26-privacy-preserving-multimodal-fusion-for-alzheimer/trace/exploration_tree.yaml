@@ -1,0 +1,115 @@
+# Exploration Tree — ali26-privacy-preserving-multimodal-fusion-for-alzheimer
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. The full text was unavailable (closed-access; no licit OA copy).
+# Every node is therefore support_level: inferred — reconstructed from the abstract's stated
+# challenges, innovations, and results. No dead-end or ablation node is asserted as an observed
+# historical event; where the abstract implies a design choice, it is captured as an inferred
+# decision. source_refs point to the abstract (the only available source).
+
+tree:
+  - id: N01
+    type: question
+    support_level: inferred
+    source_refs: ["abstract"]
+    title: "Can AD staging be accurate, private, communication-efficient, and interpretable at once?"
+    description: >
+      The abstract frames three interconnected obstacles to AD staging AI — data-privacy
+      regulations, multimodal data heterogeneity, and model opacity. The driving question is
+      whether a single federated framework can address all three without sacrificing accuracy.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        source_refs: ["abstract"]
+        title: "Adopt a privacy-preserving federated learning setup over centralized training"
+        choice: "Federated learning across a stratified four-client ADNI federation (no raw-data sharing)"
+        alternatives:
+          - "Centralized training on pooled multi-site data (privacy-violating; used only as an upper bound)"
+        evidence: "Abstract: privacy regulations 'hamper' staging; framework trains without sharing raw data"
+        children:
+
+          - id: N03
+            type: decision
+            support_level: inferred
+            source_refs: ["abstract"]
+            title: "Fuse four clinically relevant modalities in a Swin-UNet transformer"
+            choice: "3D MRI + IBSI-compliant radiomics + cognitive assessments + FDA-cleared plasma biomarkers in a parameter-efficient Swin-UNet"
+            alternatives:
+              - "Single-modality (e.g. MRI-only) model"
+              - "Non-standardized radiomics (not IBSI-compliant)"
+            evidence: "Abstract: multimodal heterogeneity is a stated challenge; four modalities named"
+            children:
+
+              - id: N04
+                type: decision
+                support_level: inferred
+                source_refs: ["abstract"]
+                title: "Reduce federated communication via LoRA + dynamic token gating"
+                choice: "Parameter-efficient adaptation (LoRA) plus dynamic token gating"
+                alternatives:
+                  - "Standard federated averaging with full-parameter update exchange"
+                evidence: "Abstract: communication overhead reduced 99% (to 140 KB/round) vs FedAvg"
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["abstract"]
+                    title: "Measure per-round communication overhead vs standard federated averaging"
+                    result: "Reported 99% reduction, to 140 KB/round, relative to standard federated averaging"
+                    evidence: [C02]
+
+              - id: N06
+                type: decision
+                support_level: inferred
+                source_refs: ["abstract"]
+                title: "Weight modalities dynamically by predictive uncertainty (hierarchical attention fusion)"
+                choice: "Uncertainty-driven hierarchical attention fusion"
+                alternatives:
+                  - "Static / uniform modality fusion"
+                evidence: "Abstract: fusion 'dynamically weights modalities based on predictive uncertainty'"
+                children:
+
+                  - id: N07
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["abstract"]
+                    title: "Evaluate staging accuracy and domain-shift robustness on the ADNI federation"
+                    result: >
+                      Balanced accuracy 80.7% (federated) vs 82.1% centralized upper bound; reported
+                      superior robustness to simulated domain shifts
+                    evidence: [C01, C05]
+
+              - id: N08
+                type: decision
+                support_level: inferred
+                source_refs: ["abstract"]
+                title: "Reconcile per-client explanations without sharing raw data"
+                choice: "Fuzzy-rough hybrid explainability pipeline synthesizing client saliency maps into a consensus"
+                alternatives:
+                  - "Per-client saliency maps left unreconciled"
+                  - "Centralized explanation requiring raw-data pooling (privacy-violating)"
+                evidence: "Abstract: model opacity ('black-box') is a stated challenge"
+                children:
+
+                  - id: N09
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["abstract"]
+                    title: "Quantify cross-site interpretability of the consensus explanations"
+                    result: "Consistent cross-site interpretability at Dice similarity 0.84"
+                    evidence: [C04]
+
+      - id: N10
+        type: experiment
+        support_level: inferred
+        source_refs: ["abstract"]
+        title: "Assess whether the federated framework approaches the centralized upper bound"
+        also_depends_on: [N05, N07, N09]
+        result: >
+          Federated framework (80.7% balanced accuracy) closely approaches centralized upper bound
+          (82.1%) while adding communication efficiency (C02) and cross-site interpretability (C04)
+        evidence: [C01, C02, C04]

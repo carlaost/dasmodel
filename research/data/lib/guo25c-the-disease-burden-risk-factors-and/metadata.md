@@ -1,0 +1,13 @@
+# The disease burden, risk factors and future predictions of Alzheimer's disease and other types of dementia in Asia from 1990 to 2021
+
+- **Cite key**: Guo25c
+- **Authors**: Jinxuan Guo; Pin Wang; Jin Gong; Wenxian Sun; Xiaodong Han; Chang Xu; Aidi Shan; Xin Wang; Heya Luan; Shaoqi Li; Ruina Li; Boye Wen; Runqi Chen; Sirong Lv; Cuibai Wei
+- **Year**: 2025  (2025-03-01)
+- **Journal**: The Journal of Prevention of Alzheimer's Disease
+- **DOI**: 10.1016/j.tjpad.2025.100122
+- **URL**: https://doi.org/10.1016/j.tjpad.2025.100122
+- **Citations**: 26 (19.3/yr)
+
+## Abstract
+
+Background There is a lack of analysis and prediction of the disease burden of Alzheimer's disease and other dementias (ADOD) in Asia. Objectives This study aims to explore the impact of ADOD on the Asian region during the period from 1990 to 2021. Design Data on ADOD in Asia from 1990 to 2021 were collected from the Global Burden of Disease (GBD) Study 2021. We analyzed the number and age-standardized rates (ASRs) of incidence, prevalence, mortality, and disability-adjusted life-years (DALYs) of ADOD from 1990 to 2021. Joinpoint regression analysis was performed, and the average annual percent changes (AAPCs) were calculated to evaluate the trends during this period. Subsequently, an auto - regressive integrated moving average (ARIMA) prediction model analysis was conducted to assess the trends in the next 30 years, aiming to report the epidemiology and disease burden of ADOD in Asia. Results According to the analysis of the GBD database in 2021, the deaths, DALYs, incidence, and prevalence of ADOD increased by 297.34 %, 249.54 %, 244.73 %, and 250.44 % in Asia from 1990 to 2021. The ASRs of incidence, prevalence, death, and DALYs in both males and females, which consistently increased over the study period, showed that the ASRs of all females were consistently higher than those of males in Asia from 1990 to 2021. During the period from 1990 to 2021, Qatar and the United Arab Emirates witnessed the greatest changes in the number of DALYs, incidence, and prevalence. Afghanistan and China had the highest age-standardized mortality rate (ASMR) in 2021. It is worth noting that high fasting blood glucose is the top risk factor for the onset of ADOD. Females are more susceptible to the risk factor of high body-mass index (BMI), while males are more likely to be affected by smoking. According to the analysis of the ARIMA prediction model, the disease burden of ADOD in Asia will continue to show an upward trend in the next 30 years. Conclusions We should pay attention to the issue of population aging, attach importance to the intervention measures targeting the risk factors of ADOD, and formulate action plans to address the rising incidence of ADOD.

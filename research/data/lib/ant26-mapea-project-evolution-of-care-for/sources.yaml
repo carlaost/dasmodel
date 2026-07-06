@@ -1,0 +1,28 @@
+paper:
+  slug: ant26-mapea-project-evolution-of-care-for
+  doi: 10.1016/j.regg.2026.101787
+  title: "[MapEA Project: evolution of care for Alzheimer disease and other dementias in Spain (2017-2024)]."
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: "https://www.elsevier.es/es-revista-revista-espanola-geriatria-gerontologia-124-pdf-download-S0211139X26000466"
+  source: publisher
+code: []
+data: []
+clinical_trials: []
+notes: >
+  Observational, survey-based mapping study (Review/English-abstract per Europe PMC)
+  describing the evolution of Alzheimer/dementia care in Spain (MapEA project, 2017 vs 2024).
+  Four-phase design: literature review, development/validation of a digital questionnaire
+  distributed to 138 professionals, analysis by autonomous community, and thematic/descriptive
+  integration with a multidisciplinary Advisory Committee. NO patient-level data collected
+  (professional surveys only); authors state it did not require ethics committee approval.
+  No Data Availability statement, no Code Availability statement, and no dataset/accession
+  or repository is released or referenced. No clinical trial (NCT) or PROSPERO registration —
+  not a trial and not a registered systematic review. Funded by Lilly Spain (Lilly España),
+  technical office support from SILO Company.
+  OA: Unpaywall reports is_oa=true, oa_status=hybrid, CC-BY published version at publisher
+  (Elsevier), but returned no direct PDF URL; Europe PMC lists it as subscription/not in PMC.
+  ScienceDirect blocked scraping (HTTP 403), but the Spanish Elsevier mirror (elsevier.es)
+  provides a free CC-BY PDF, which was downloaded and verified (10-page PDF v1.7, %PDF header, ~1.2 MB).

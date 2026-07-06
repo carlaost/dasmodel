@@ -1,0 +1,26 @@
+{
+  "count": 1,
+  "total": 1,
+  "mechanisms": [
+    {
+      "mec_id": 5947,
+      "molecule_chembl_id": "CHEMBL3039540",
+      "mechanism_of_action": "Amyloid-beta A4 protein binding agent",
+      "target_chembl_id": "CHEMBL2487",
+      "action_type": "BINDING AGENT",
+      "direct_interaction": true,
+      "disease_efficacy": true,
+      "mechanism_comment": "Reduces brain disease-relevant aggregated forms of amyloid-beta (Abeta) in a dose- and time-dependent manner.",
+      "selectivity_comment": "Shows >10,000-fold selectivity for aggregated Abeta over monomer",
+      "molecular_mechanism": 1,
+      "max_phase": 4,
+      "mechanism_refs": [
+        {
+          "ref_id": "27582220",
+          "ref_type": "PubMed"
+        }
+      ]
+    }
+  ],
+  "summary": "Primary action types: BINDING AGENT (1)"
+}

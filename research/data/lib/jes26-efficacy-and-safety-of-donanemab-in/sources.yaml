@@ -1,0 +1,36 @@
+paper:
+  slug: jes26-efficacy-and-safety-of-donanemab-in
+  doi: 10.1016/j.tjpad.2026.100605
+  title: "Efficacy and safety of donanemab in the European eligible population: TRAILBLAZER-ALZ 2 post-hoc analyses"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC13234467?pdf=render
+  source: pmc
+code: []
+data:
+  - name: "TRAILBLAZER-ALZ 2 individual participant data (donanemab Phase 3 trial, EU-eligible post-hoc population)"
+    identifier: NCT04437511
+    repository: Vivli (www.vivli.org)
+    access: request
+    verified: true
+clinical_trials:
+  - nct: NCT04437511
+    title: "Assessment of Safety, Tolerability, and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 2)"
+    phase: PHASE3
+    status: ACTIVE_NOT_RECRUITING
+    sponsor: "Eli Lilly and Company"
+    source: clinicaltrials.gov
+    verified: true
+notes: >
+  Post-hoc analysis of the TRAILBLAZER-ALZ 2 Phase 3 trial (NCT04437511), sponsored by
+  Eli Lilly, examining donanemab efficacy/safety in the European (EMA)-eligible population.
+  Data availability (from PMC PMC13234467): "Lilly provides access to all individual
+  participant data collected during the trial, after anonymization, with the exception of
+  pharmacokinetic or genetic data." Data available 6 months after US/EU approval and
+  primary publication acceptance, subject to independent review committee approval; requests
+  via www.vivli.org (controlled/request access). No code availability statement present and
+  no public code repository found (expected for a clinical-trial post-hoc analysis).
+  Open access (gold, CC-BY); full 9-page PDF downloaded from Europe PMC render endpoint.
+  Verified IDs: PMID 42202469, PMCID PMC13234467, NCT04437511.

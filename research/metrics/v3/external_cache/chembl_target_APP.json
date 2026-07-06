@@ -1,0 +1,20 @@
+{
+  "query": {
+    "gene_symbol": "APP",
+    "organism": "Homo sapiens"
+  },
+  "note": "Filtered projection of the full ChEMBL target_search response (52659 chars, count=1); see MAPT note for rationale.",
+  "count_full_response": 1,
+  "targets_homo_sapiens": [
+    {
+      "target_chembl_id": "CHEMBL2487",
+      "pref_name": "Amyloid-beta precursor protein",
+      "target_type": "SINGLE PROTEIN",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "APP"
+      ]
+    }
+  ]
+}

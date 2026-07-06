@@ -1,0 +1,29 @@
+{
+  "count": 1,
+  "total": 1,
+  "mechanisms": [
+    {
+      "mec_id": 8080,
+      "molecule_chembl_id": "CHEMBL4297245",
+      "mechanism_of_action": "Amyloid-beta A4 protein disrupting agent",
+      "target_chembl_id": "CHEMBL2487",
+      "action_type": "DISRUPTING AGENT",
+      "direct_interaction": true,
+      "disease_efficacy": true,
+      "mechanism_comment": "Specifically binds the N-terminal pyroglutamate for of beta-amyloid.",
+      "molecular_mechanism": 1,
+      "max_phase": 4,
+      "mechanism_refs": [
+        {
+          "ref_id": "https://investor.lilly.com/news-releases/news-release-details/lillys-donanemab-slowed-alzheimers-disease-progression-phase-2",
+          "ref_type": "Other"
+        },
+        {
+          "ref_id": "33614890",
+          "ref_type": "PubMed"
+        }
+      ]
+    }
+  ],
+  "summary": "Primary action types: DISRUPTING AGENT (1)"
+}

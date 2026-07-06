@@ -1,0 +1,29 @@
+paper:
+  slug: 20225-2025-alzheimer-s-disease-facts-and
+  doi: 10.1002/alz.70235
+  title: "2025 Alzheimer's disease facts and figures"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC12040760?pdf=render
+  source: pmc
+code: []
+data: []
+clinical_trials: []
+notes: >
+  This is the Alzheimer's Association's annual public-health report ("2025
+  Alzheimer's disease facts and figures"), published in Alzheimer's & Dementia
+  (2025). It is an epidemiological/health-economics report and Special Report on
+  public attitudes, not an original research study. Open access via PubMed Central
+  (PMCID: PMC12040760) under a CC BY-NC-ND license; Unpaywall reports oa_status
+  "green". OA PDF successfully downloaded from the Europe PMC render endpoint
+  (13 pages, ~13.9 MB). No Data Availability or Code Availability statement is
+  present (Europe PMC core metadata confirms none). No software/code repository
+  exists for this report. No dataset accessions are released; the report draws on
+  aggregate public sources (e.g., U.S. Census population projections, CDC/NCHS
+  mortality and death-certificate data, Medicare/Medicaid claims/CMS data,
+  Chicago Health and Aging Project prevalence estimates, and an
+  Association-commissioned public opinion survey), none of which are deposited as
+  a citable dataset with an accession. No clinical trials are registered to or
+  reported by this article, and no NCT identifiers appear in the abstract or text.

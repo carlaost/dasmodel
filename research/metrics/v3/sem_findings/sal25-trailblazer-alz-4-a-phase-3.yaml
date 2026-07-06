@@ -1,0 +1,74 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Figure 2A + §3.2 numbers (37.9% vs 1.6%, P<0.001) are exactly the co-primary overall-population endpoint the Statement asserts; design-appropriate (RCT head-to-head proportion comparison)."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Criteria is a mechanical negation: 'If the between-arm difference ... were non-significant ... or favored aducanumab' restates NOT(Statement) with no independent operationalization beyond the trial's own prespecified test."}
+    scope_calibration: {verdict: calibrated, note: "Explicitly scoped to 'overall population'; matches the evidence's population exactly, no generalization beyond the tested arm/cohort."}
+    novelty: {verdict: novel, note: "First-ever direct head-to-head ATT comparison (RW02/RW03 established donanemab efficacy only vs placebo/natural history, never vs another ATT); this is the trial's own co-primary result, not a restatement."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Figure 2B + §3.2 (38.5% vs 3.8%, P=0.008) directly addresses the low-medium-tau co-primary Statement."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Same negation pattern as C01, applied to the subgroup."}
+    scope_calibration: {verdict: calibrated, note: "Scoped correctly to the low-medium tau subpopulation only."}
+    novelty: {verdict: novel, note: "Second co-primary endpoint; first head-to-head ATT data in this tau-defined subgroup."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "Figure 3A/3B + §3.3.1 give exactly the 12- and 18-month overall and low-medium-tau clearance proportions cited."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'If clearance proportions ... did not significantly favor donanemab' is the direct negation of the Statement."}
+    scope_calibration: {verdict: calibrated, note: "Interpretation honestly notes the overall-population gap narrows by 18 months (43.1% aducanumab catches up) rather than overstating a widening advantage."}
+    novelty: {verdict: incremental, note: "Extends the same core C01 head-to-head comparison to later timepoints; not a new comparison, an elaboration of it."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "Figure 3C + §3.3.2 (median 359 vs 568 days, P<0.001, log-rank) matches the time-to-clearance Statement; KM design is appropriate for a time-to-event claim."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'If the log-rank comparison ... were non-significant, or the donanemab median were >= aducanumab's' is NOT(Statement)."}
+    scope_calibration: {verdict: calibrated, note: "Claim is limited to the tested trial population, no overreach."}
+    novelty: {verdict: incremental, note: "A different statistical framing (time-to-event) of the same core donanemab-vs-aducanumab clearance comparison as C01/C03, not an independently new finding."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "Table 2's LS-mean absolute/percent change rows at 6/12/18 months match the cited numbers exactly (verified against evidence/tables/table2.md verbatim)."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'If any timepoint's between-arm difference ... were non-significant' is NOT(Statement)."}
+    scope_calibration: {verdict: calibrated, note: "Statement says 'all P values significant (P <= .042)' — accurately reflects Table 2's worst-case P=.042, not rounded up to overstate significance."}
+    novelty: {verdict: incremental, note: "Depth-of-clearance (mean-change) view of the same C01 comparison; extends rather than introduces a new comparison."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "Figure 4A-D + §3.3.3/§4 directly address the plasma-biomarker Statement, including the loss of significance at 18 months and the null NfL result — matches source language almost verbatim."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'If the 18-month adjusted mean differences ... were reported as statistically significant, or if a significant NfL effect had been observed' is NOT(Statement)."}
+    scope_calibration: {verdict: calibrated, note: "Statement is unusually well-calibrated for a trial-sponsor-authored artifact: explicitly reports the NON-significant 18-month P-values (0.098/0.372/0.171) rather than only highlighting the significant 6-month result — no over-claim."}
+    novelty: {verdict: incremental, note: "Plasma p-tau/GFAP/NfL response to anti-amyloid treatment is already established in single-arm donanemab/aducanumab trials (RW02-RW04); this applies it to a head-to-head comparator design, an extension not a new mechanism/finding."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Table 3 (ARIA-E 23.9%/34.8%, ARIA-H 22.5%/33.3%) and Figure 5 (P=.438 time-to-first-ARIA-E) directly support the Statement."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'If donanemab had shown significantly higher ARIA-E incidence or significantly earlier time-to-ARIA-E' is NOT(Statement)."}
+    scope_calibration: {verdict: over_claim, note: "Statement asserts ARIA risk 'was not increased' but the only formal test is a non-significant log-rank on time-to-first-ARIA-E (P=.438) in a safety set of n=71/69 — a trial sized for the amyloid co-primary (98% power), not for an ARIA non-inferiority/equivalence claim. Numerically-lower point estimates plus a non-significant underpowered test is being read as evidence of no increased risk, which over-states what an underpowered null result licenses (absence of significance != absence of effect). The paper's own Discussion is more guarded ('does not necessarily correspond to') than the claims.md Statement's flatter 'did not increase ARIA frequency or risk.'"}
+    novelty: {verdict: novel, note: "Directly resolves problem.md G2 (relationship between clearance speed/depth and ARIA risk was previously unknown) — this is the paper's own headlined 'Critically...' finding, not a restatement of prior single-arm ARIA data."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "Table 3 rows (TEAEs 83.1/87.0%, SAEs 18.3/11.6%, ARIA-E severity 88.2/82.6%, infusion reactions 8.5/2.9%, siderosis 10.1/0%) and §3.4 quotes match exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'If any deaths occurred, or if ... profiles diverged materially' is NOT(Statement); low evidentiary bar but still a mechanical negation, not an independent pre-registered test."}
+    scope_calibration: {verdict: calibrated, note: "Claim itself says 'consistent with prior reports' — appropriately modest, does not over-generalize tolerability beyond this trial's AE table."}
+    novelty: {verdict: restatement, note: "Statement explicitly frames this as consistent with the already-known donanemab/aducanumab safety profiles (RW04); a descriptive AE summary, not a new finding."}
+compilation_fidelity_samples:
+  - fact: "441 participants assessed for eligibility -> 148 randomized (71 donanemab / 69 aducanumab in the analysis population; 74/74 randomized per arm)."
+    pdf_location: "p.2 Fig.1 CONSORT / §2 Methods"
+    captured_in_ara: true
+    note: "Matches logic/solution/study_design.md Disposition line and evidence/figures/figure1.md exactly."
+  - fact: "Dosing: donanemab 700 mg IV q4wk x3 doses then 1400 mg q4wk; aducanumab per US ADUHELM label (weight-based)."
+    pdf_location: "p.1 Abstract METHODS"
+    captured_in_ara: true
+    note: "Matches study_design.md Arms section verbatim in substance."
+  - fact: "Eligibility: age 50-85, MMSE 20-30, CDR-GS 0.5 or 1.0, florbetapir PET positive (>=37 CL) or negative (>=50 CL)."
+    pdf_location: "p.2 §2.2 Trial design and participants"
+    captured_in_ara: true
+    note: "Matches study_design.md Population/Inclusion exactly, including the >=37/>=50 CL asymmetric cutoffs."
+  - fact: "Trial conducted at 31 US sites, Sept 24 2021 - Sept 19 2023; DOI 10.1002/alz.70293."
+    pdf_location: "p.1-2 header / §2.1"
+    captured_in_ara: true
+    note: "Matches PAPER.md frontmatter (doi, venue) and study_design.md Dates/Sites exactly."
+  - fact: "Table 1 baseline race: donanemab arm 100% White (71/71); aducanumab arm 88.4% White, 7.2% Black, 2.9% Asian."
+    pdf_location: "Table 1, §3.1 (evidence/tables/table1.md)"
+    captured_in_ara: true
+    note: "This striking imbalance is explicitly surfaced in logic/solution/constraints.md ('donanemab arm 100% White') under Known limitations -- a good-faith, non-flattering fact was NOT dropped."
+  - fact: "Author-stated limitations: open-label design may bias safety reporting; no cognitive/functional outcomes measured; reduced enrollment (148 vs ~200 planned) reduces power; aducanumab discontinued Jan 2024 (uncertain ongoing clinical relevance)."
+    pdf_location: "§4 Discussion"
+    captured_in_ara: true
+    note: "All four limitations captured verbatim-in-substance in constraints.md 'Known limitations' block -- no cherry-picking of only favorable framing."
+  - fact: "Table 2 all six LS-mean absolute/percent change rows (6/12/18 mo, overall + low-medium tau)."
+    pdf_location: "Table 2, §3.3.2"
+    captured_in_ara: true
+    note: "Direct cell-for-cell match against evidence/tables/table2.md; only the overall-population 6-mo and 18-mo rows are actually cited in claims.md C05 Sources, so the 12-mo and low-medium-tau rows are captured in evidence/ but not individually source-quoted in a claim -- a minor under-use of filed evidence, not a fidelity defect."
+  - fact: "Table 3 full AE list (SAE incidence >=2%, TEAE incidence >=5%, including infusion-related reaction and superficial siderosis of CNS rows)."
+    pdf_location: "Table 3, §3.4"
+    captured_in_ara: true
+    note: "Exact match; C08 Sources cite a representative subset (TEAEs, ARIA-E severity) rather than every row, which is a normal/expected claims-writing choice, not a mis-transcription."

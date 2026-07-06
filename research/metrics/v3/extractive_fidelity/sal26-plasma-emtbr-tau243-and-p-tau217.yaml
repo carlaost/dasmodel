@@ -1,0 +1,18 @@
+slug: sal26-plasma-emtbr-tau243-and-p-tau217
+fulltext_file: research/metrics/v3/fulltext/sal26.txt
+n_claims_checked: 4
+n_faithful: 4
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Full text confirms both cohort sizes verbatim ('optimized the model in a large cohort spanning the full AD continuum (BioFINDER-2, n = 872)... tested its generalizability in an independent cohort from the Knight Alzheimer Disease Research Center (ADRC), which included both in vivo imaging (n = 156)'). The abstract-only 'strong concordance' qualifier is now backed by concrete numbers not available at abstract-only compile time: in-sample plasma-vs-PET concordance C index 0.91 (95% CI, 0.90-0.92), and out-of-sample replication in Knight ADRC C index 0.91 (95% CI, 0.87-0.94), explicitly described in the paper as 'high concordance... external replication.' A C index of ~0.91 is a strong quantitative result that confirms rather than contradicts the qualitative 'strong concordance' claim."
+  - claim_id: "C02"
+    faithful: true
+    note: "Full text's 'Comparison Against a %p-tau217-Only Model' section confirms the combined 2-biomarker model outperforms the %p-tau217-only model on PET-based staging (ΔC index, 0.014; 95% CI, 0.009-0.020; P<.001, replicated in Knight ADRC ΔC index 0.018 and BioFINDER-2 test set ΔC index 0.018) and clinical staging (ΔC index 0.019-0.032 across samples), and explicitly attributes this 'primarily due to misclassification of A+T+ [intermediate/stage C] participants' -- only 25 individuals were assigned to plasma stage 3 under the %p-tau217-only model vs 120 under the full model, with correct A+T+ classification dropping to 9.4% (%p-tau217-only) from 44.0% (full model). This directly confirms the abstract's qualitative claim of outperformance 'particularly for identifying the intermediate tau stage' with concrete numbers now available."
+  - claim_id: "C03"
+    faithful: true
+    note: "Full text confirms all three components with concrete new numbers: (1) clinical severity -- plasma stage vs clinical stage C index 0.84 (95% CI, 0.82-0.86); (2) other biomarker abnormalities -- 'Plasma staging was significantly associated with cross-sectional measures of AD-related biomarkers, including continuous measures of Abeta-PET and tau-PET, but also cognition (MMSE and mPACC-5) and cortical thickness,' with stepwise increases (fold-change) across most stage transitions; (3) neuropathologic burden -- in the n=80 Knight ADRC autopsy subsample, higher plasma stages tracked worse pathology: 44 of 50 (88%) with plasma stages 3-4 had moderate/frequent CERAD scores (C index 0.81) and 41 of 50 (82%) had Braak stage V or VI (C index 0.86), while most below plasma stage 2 (13 of 19, 68%) were ADNC-negative (AUC 0.96). All three legs of the qualitative claim are confirmed and monotonic."
+  - claim_id: "C04"
+    faithful: true
+    note: "The forward-looking framing survives full-text scrutiny: the Discussion explicitly stays hedged, stating plasma staging 'may be most useful as a research and stratification tool, with further refinement and validation required before routine clinical implementation, which could be used in the future for enable precise patient characterization, inform treatment decisions, and streamline recruitment for clinical trials,' and separately notes individuals near the intermediate stage 'may have the most favorable benefit-risk ratio for receiving current anti-amyloid treatments' while cautioning 'further fine-tuning is needed for precise stage-level clinical decision-making.' This matches the ARA's 'hypothesis, not directly tested' status and the Statement's 'may provide... potential value' hedging -- no upgrade to a tested outcome is warranted or made."
+infidelities: []

@@ -1,0 +1,30 @@
+{
+  "nct_id": "NCT03174938",
+  "title": "The Swedish BioFINDER 2 Study",
+  "brief_title": "The Swedish BioFINDER 2 Study",
+  "acronym": "BioFINDER2",
+  "status": "RECRUITING",
+  "phase": [
+    "NA"
+  ],
+  "study_type": "OBSERVATIONAL-style natural history cohort (registered as INTERVENTIONAL due to PET tracer administration)",
+  "sponsor": "Skane University Hospital",
+  "collaborators": [
+    "Lund University"
+  ],
+  "enrollment": 2950,
+  "start_date": "2017-05-15",
+  "primary_completion_date": "2036-12",
+  "has_results": false,
+  "primary_outcomes": [
+    {
+      "measure": "Clinical diagnosis",
+      "type": "PRIMARY"
+    },
+    {
+      "measure": "Clinical Dementia Rating-Sum of Boxes (CDR-SB)",
+      "type": "PRIMARY"
+    }
+  ],
+  "note": "Registry-defined primary outcomes (clinical diagnosis, CDR-SB change) do NOT correspond to sal26's claim subject (plasma eMTBR-tau243 + %p-tau217 staging concordance with PET/tau staging) -- sal26 is a secondary/exploratory biomarker analysis nested in this parent cohort, not testing the registry's own primary endpoint. has_results=False. Endpoint concordance: not_applicable, not 'discordant' or 'pending' -- the registered primary endpoint is simply not the thing the claim is about."
+}

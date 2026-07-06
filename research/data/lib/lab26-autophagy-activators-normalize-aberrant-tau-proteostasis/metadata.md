@@ -1,0 +1,13 @@
+# Autophagy Activators Normalize Aberrant Tau Proteostasis and Rescue Synapses in Human Familial Alzheimer's Disease iPSC‐Derived Cortical Organoids
+
+- **Cite key**: Lab26
+- **Authors**: Sergio R. Labra; Jadon Compher; Akhil Prabhavalkar; Mireya Almaraz; Claudia Cedeño Kwong; Christine Baal; M. Talantova; Nima Dolatabadi; Julian Piña-Sanz; Yubo Wang; Leonard Yoon; Swagata Ghatak; Zi Gao; Yuting Zhang; Dorit Trudler; Lynée A. Massey; Wei Lin; Anthony Balistreri; Michael Bula; NJ Schork; Tony S. Mondala; Steven R. Head; Jeffery W. Kelly; Stuart A. Lipton
+- **Year**: 2026  (2026-01-27)
+- **Journal**: Advanced Science
+- **DOI**: 10.1002/advs.202514783
+- **URL**: https://doi.org/10.1002/advs.202514783
+- **Citations**: 1 (2.3/yr)
+
+## Abstract
+
+Alzheimer's disease (AD) is the leading cause of dementia worldwide. Nevertheless, its cellular and molecular mechanisms remain incompletely understood, partially due to inadequate disease models. To illuminate early changes in AD, we developed a cerebrocortical organoid (CO) model with improved methodology. Our COs produce excitatory and inhibitory neurons alongside glia, utilizing established isogenic wild‐type and diseased human induced pluripotent stem cells (hiPSCs) carrying heterozygous familial AD mutations in PSEN1ΔE9/WT, PSEN1M146V/WT, or APPSwe/WT. In addition to amyloid‐beta (Aβ) accumulation, the AD COs display time‐progressive loss of monomeric Tau, and accumulation of aggregated high‐molecular‐weight (HMW) phospho(p)‐Tau species (pT181 and pT217). They also exhibit neuronal hyperexcitability reminiscent of early electroencephalography (EEG) clinical findings and synapse loss in AD patient brains. Single‐cell RNA‐sequencing analyses of AD and WT control COs reveal significant divergent molecular abnormalities in excitatory vs. inhibitory neurons, with several pathways being upregulated in one while downregulated in the other, providing insight into AD phenotypes. Finally, we show that chronic dosing with autophagy activators, including a novel mTOR inhibitor‐independent drug candidate, prevents pathologic Aβ and HMW p‐Tau accumulation, normalizes hyperexcitability, and rescues synaptic loss in AD COs. Collectively, our results demonstrate this CO model as a useful platform for assessing early features of familial AD pathogenesis and for testing small‐molecule candidate therapeutics.

@@ -1,0 +1,27 @@
+{
+  "queries_tried": [
+    {
+      "gene_symbol": "GFAP",
+      "organism": "Homo sapiens",
+      "result": {
+        "count": 0,
+        "total": 0
+      }
+    },
+    {
+      "target_name": "GFAP",
+      "result": {
+        "count": 0,
+        "total": 0
+      }
+    },
+    {
+      "target_name": "Glial fibrillary acidic protein",
+      "result": {
+        "count": 0,
+        "total": 0
+      }
+    }
+  ],
+  "conclusion": "GFAP does NOT resolve to a ChEMBL target via gene_symbol or target_name search in this tool. Reported as unresolved -- not fabricated as resolved. GFAP is an astrocyte structural/damage biomarker, not a drug target, so absence from a drug-target database is expected and not itself a finding about the claim's validity."
+}

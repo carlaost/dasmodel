@@ -1,0 +1,183 @@
+# Exploration Tree — aki26 (Molecular signatures of resilience to AD in neocortical L4 neurons)
+# Research DAG: nested tree with cross-edges (also_depends_on). Reconstructed from the paper's
+# narrative; support_level reflects whether a node is directly reported (explicit) or a
+# reconstruction of the paper's logic (inferred). No dead-ends/decisions invented.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction", "§Results"]
+    title: "What neurons and molecular mechanisms confer resilience to AD in the neocortex?"
+    description: "Selective vulnerability is well studied; the molecular basis of resilience is not. Use the association→primary AD gradient to find resilient subtypes and genes."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Introduction", "Fig. 1a"]
+        title: "Design: compare early-affected (BA9, BA7) vs late-affected (BA17) neocortex across Braak 0–VI"
+        choice: "Region × pathology-stage snRNA-seq of 3 regions from 46 donors, enriching neurons by FANS"
+        alternatives:
+          - "Single-region deep profiling (loses the spatiotemporal contrast)"
+          - "Bulk RNA-seq (loses cell-type resolution)"
+        evidence: "AD spreads association→primary (refs 9–12); L4 differs across regions (refs 3,6,16–19)"
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 1", "§Methods QC"]
+            title: "snRNA-seq QC, integration, clustering"
+            result: "424,528 QC nuclei (362,224 neuronal); 18 Ex + 19 In clusters; Ex5 (RORB/CUX2/EYA4) overrepresented in BA17"
+            evidence: [C02, C10, "Figure 1"]
+            children:
+
+              - id: N04
+                type: decision
+                support_level: explicit
+                source_refs: ["§Methods QC", "Supplementary Fig. 8"]
+                title: "Gene-count cutoff choice for Ex5 (low-gene-count) neurons"
+                choice: "Final cutoff 300 genes; rescue-verify 200–300-gene nuclei via scANVI"
+                alternatives: ["200 genes", "500 genes"]
+                evidence: "Ex5 has small somata / low counts; sensitivity analysis confirmed preservation robust to cutoff"
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["Fig. 2", "Supplementary Fig. 4"]
+                title: "Xenium (+Visium) spatial validation of subtype laminar distribution"
+                result: "765,992 Xenium cells; Ex5 enriched in BA17 L4 (deep, sharp L5 boundary), Ex6/Ex7 in BA9 L4; reproduced in independent Visium panel"
+                evidence: [C01, C10, "Figure 2", "Figure 3"]
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["Fig. 3l", "Supplementary Fig. 6", "§Methods scANVI"]
+                title: "Cross-dataset scANVI prediction of Ex5"
+                result: "Ex5 = 34.42% of excitatory cells in BA17 reference vs 0.33% in SEA-AD DLPFC, ~3% in other prefrontal refs — BA17-specialized L4 IT"
+                evidence: [C10, "Figure 3"]
+
+      - id: N07
+        type: experiment
+        support_level: explicit
+        source_refs: ["Fig. 4", "§Methods composition"]
+        title: "Compositional analysis (scCODA + GLMM) of subtype proportions across pathology"
+        also_depends_on: [N03]
+        result: "Ex5 relatively increases with pathology: scCODA log2FC BA9 1.75 / BA17 0.46; GLMM BA9 FDR=0.008, BA17 p=0.06 (trend). L4 IT preserved; L2/3 IT & SST trend down."
+        evidence: [C01, C02, "Figure 4"]
+        children:
+
+          - id: N08
+            type: decision
+            support_level: explicit
+            source_refs: ["Fig. 4", "§Discussion (limitations)"]
+            title: "Guard against platform/QC artifact in BA17 (Drop-seq)"
+            choice: "Run two independent models (scCODA + GLMM), a min-500-gene subclass re-analysis, and a sign-constrained loss-only scCODA stress test"
+            alternatives: ["Trust a single compositional model", "Ignore platform confound"]
+            evidence: "BA17 predominantly Drop-seq → possible platform-specific bias"
+
+          - id: N09
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Fig. 4a", "§Discussion", "refs 2,4,5,23,57"]
+            title: "SST interneurons and L2/3 IT vulnerability not robustly detected"
+            hypothesis: "Known-vulnerable SST interneurons and L2/3 IT neurons should show robust depletion"
+            failure_mode: "Only trends (not robust changes) observed — attributed to small/different donor subsets, heterogeneity, and gradient-like (not discrete) expression"
+            lesson: "Limited power for rare/gradient populations; findings framed as conservative & hypothesis-generating; Ex3 (SV2C deep-L3) vulnerability was detectable by contrast"
+
+      - id: N10
+        type: experiment
+        support_level: explicit
+        source_refs: ["Fig. 5", "§Methods DGE"]
+        title: "High-confidence DGE across region × stage (LMM ∩ bootstrap/pseudobulk)"
+        also_depends_on: [N03]
+        result: "986 high-confidence DE genes; 54 shared across all 4 conditions; more DE genes in BA9 than BA17 and late>early; Ex5 uniquely >50% upregulated early in BA9"
+        evidence: [C03, "Figure 5"]
+        children:
+
+          - id: N11
+            type: decision
+            support_level: explicit
+            source_refs: ["§Methods DGE", "§Discussion"]
+            title: "Define 'high-confidence' by multi-method consensus"
+            choice: "Require mixed model ∩ (bootstrap OR pseudobulk OR hdWGCNA top-50)"
+            alternatives: ["Single-method DE calls", "Union of methods"]
+            evidence: "Reduces false positives from technical/biological heterogeneity; acknowledged to underrepresent subtle changes"
+
+          - id: N12
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 6a,b", "Fig. 5f,g", "§Results resilience genes"]
+            title: "Contrast prototype vulnerable (Ex2) vs resilient (Ex5) to isolate resilience genes"
+            result: "Early Ex5 upregulates GRIN2A, RORA, NRXN1, NLGN1, NCAM2, FGF14, NRG3, NEGR1, CSMD1, KCNIP4; pathways = synapse/calcium/excitability; several are AD risk genes"
+            evidence: [C04, C05, "Figure 6"]
+
+          - id: N13
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 6c,d", "§Methods hdWGCNA"]
+            title: "hdWGCNA co-expression modules for Ex2 vs Ex5"
+            result: "Ex5 candidate resilience modules (BA17 M2/M3; BA9 M2/M3/M4) up early; KCNIP4 a hub gene; enriched for trans-synaptic signaling / calcium / excitability"
+            evidence: [C09, "Figure 6"]
+
+      - id: N14
+        type: decision
+        support_level: explicit
+        source_refs: ["§Results KCNIP4", "refs 45,48"]
+        title: "Select KCNIP4 as proof-of-principle resilience factor"
+        choice: "Focus on KCNIP4 — consistently upregulated in Ex5 early, a Kv4-interacting excitability regulator, EF-hand Ca2+-binding, presenilin-interacting, AD-risk-associated"
+        alternatives: ["GRIN2A", "CSMD1", "NRG3", "FGF14 (other candidates)"]
+        evidence: "Mechanistic link to hyperexcitability (early AD feature) and prior AD association (refs 45,46)"
+        children:
+
+          - id: N15
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 7a,b", "§Methods MAST"]
+            title: "Confirm KCNIP4 upregulation across disease stages (MAST LMM)"
+            result: "KCNIP4 consistently increases in Ex5 with pathology; predominantly in excitatory neurons/OPCs; diverges from vulnerable Ex2"
+            evidence: [C05, "Figure 7"]
+
+          - id: N16
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 7c,d"]
+            title: "KCNIP4 protein IHC (KCNIP4/EYA4/NeuN), n=6/group"
+            result: "KCNIP4 significantly higher in L4 EYA4+ neurons at intermediate stage; lower in L2/3 at intermediate/high"
+            evidence: [C06, "Figure 7"]
+
+          - id: N17
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 8a–c", "Supplementary Fig. 11a"]
+            title: "In vitro AAV Kcnip4 overexpression + calcium imaging"
+            result: "Kcnip4 reduced Ca2+ transient frequency basally and under 200 nM Aβ1–42; no TUNEL+ neurons (no toxicity)"
+            evidence: [C07, "Figure 8"]
+
+          - id: N18
+            type: experiment
+            support_level: explicit
+            source_refs: ["Fig. 8d–u"]
+            title: "In vivo AAV Kcnip4 in 12-mo AppSAA mice"
+            also_depends_on: [N17]
+            result: "Higher-dose AAV raised KCNIP4 (WB); ~10% GFP+ in SSC; c-Fos and Arc reduced in GFP+ vs GFP− AppSAA neurons and AppSAA elevation reversed; IBA1 reduced; amyloid & GFAP unchanged"
+            evidence: [C08, "Figure 8"]
+
+          - id: N19
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Fig. 8g,h", "§Results in vivo"]
+            title: "Kcnip4 overexpression did not reduce amyloid burden or astrogliosis"
+            hypothesis: "Lowering hyperexcitability might also reduce amyloid plaques / reactive astrogliosis"
+            failure_mode: "No significant change in anti-human amyloid-β area or GFAP; effect limited to activity markers (c-Fos/Arc) and a small IBA1 (microglia) reduction"
+            lesson: "KCNIP4's benefit is on neuronal excitability, not upstream amyloid pathology; broad CaMKIIa overexpression only partially models cell-type-specific human regulation"
+
+      - id: N20
+        type: pivot
+        support_level: inferred
+        source_refs: ["§Discussion", "refs 52–54,66–68"]
+        title: "From descriptive resource to therapeutic hypothesis"
+        from: "Cataloguing resilient neurons and resilience genes (descriptive atlas)"
+        to: "Positioning neuronal hyperexcitability (and KCNIP4-like regulators) as an early biomarker and therapeutic target (cf. levetiracetam, brain stimulation)"
+        trigger: "KCNIP4 overexpression functionally lowered hyperexcitability in an AD model"

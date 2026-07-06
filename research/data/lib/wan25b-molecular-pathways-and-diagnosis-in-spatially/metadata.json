@@ -1,0 +1,15 @@
+{
+  "idx": 474,
+  "cite_key": "Wan25b",
+  "title": "Molecular pathways and diagnosis in spatially resolved Alzheimer's hippocampal atlas.",
+  "authors": "Pan Wang; Lei Han; Lifang Wang; Quyuan Tao; Zhen Guo; Ting Luo; Youzhe He; Zhi Xu; Jiayi Yu; Yuyang Liu; Zihan Wu; Bin Xu; Bufan Jin; Yanrong Wei; Ying Yang; Mengnan Cheng; Yujia Jiang; C. Tian; Huiwen Zheng; Zhongqin Fan; Peiran Jiang; Yue Gao; Juanli Wu; Shengpeng Wang; Bing Sun; Zheng Fang; Junjie Lei; Benyan Luo; Huiying Wen; Guoping Peng; Yuanchun Tang; Tao Yang; Jing Chen; Zhenkun Zhuang; X. Su; C. Pan; Keqing Zhu; Yi Shen; Shiping Liu; A. Bao; Jianhua Yao; Jian Wang; Xun Xu; Xiao-ming Li; Longqi Liu; Shumin Duan; Jing Zhang",
+  "year": "2025",
+  "pub_date": "2025-03-01",
+  "journal": "Neuron",
+  "abstract": "We employed Stereo-seq combined with single-nucleus RNA sequencing (snRNA-seq) to investigate the gene expression and cell composition changes in human hippocampus with or without Alzheimer's disease (AD). The transcriptomic map, with single-cell precision, unveiled AD-associated alterations with spatial specificity, which include the following: (1) elevated synapse pruning gene expression in the fimbria of AD, with disrupted microglia-astrocyte communication likely leading to disorganized synaptic structure; (2) a globally increased energy generation in the cornu ammonis (CA) region, with varying degrees across its subregions; (3) a significant reduction in the number of CA1 neurons in AD, while CA4 neurons remained largely unaffected, potentially due to gene alterations in CA4 conferring resilience to AD; and (4) aggravated amyloid-beta (Aβ) plaques in CA1 and stratum lucidum, radiatum, and moleculare (SLRM), and integration of Stereo-seq map with Aβ staining revealed a sequential enrichment of microglia and astrocytes around Aβ plaques. Finally, reduced brain-derived extracellular vesicles carrying cholecystokinin (CCK) and peripheral myelin protein 2 (PMP2) in AD plasma highlighted their diagnostic potential for clinical applications.",
+  "citation_count": "16",
+  "citations_per_year": "11.9",
+  "doi": "10.1016/j.neuron.2025.03.002",
+  "url": "https://doi.org/10.1016/j.neuron.2025.03.002",
+  "slug": "wan25b-molecular-pathways-and-diagnosis-in-spatially"
+}

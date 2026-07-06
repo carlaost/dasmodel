@@ -1,0 +1,13 @@
+# Lipid and lipoprotein metabolism in microglia: Alzheimer’s disease mechanisms and interventions
+
+- **Cite key**: Spr25
+- **Authors**: Kayla G. Sprenger; Emma.E. Leitzke; John T. Melchior; Kimberley D. Bruce
+- **Year**: 2025  (2025-08-01)
+- **Journal**: Journal of Lipid Research
+- **DOI**: 10.1016/j.jlr.2025.100872
+- **URL**: https://doi.org/10.1016/j.jlr.2025.100872
+- **Citations**: 15 (16.2/yr)
+
+## Abstract
+
+Alzheimer's disease (AD) presents a significant challenge owing to its widespread prevalence and complex neuropathogenesis, affecting millions worldwide. Current therapeutic strategies that predominantly target amyloid-beta accumulation are insufficient, particularly for ApoE4 carriers. Alterations in lipid composition are well documented in AD, characterized by reductions in phospholipids and sulfatides, along with increases in cholesterol, cholesteryl esters, and triglycerides (TGs). Microglia, the brain's resident immune cells, link dysfunctional lipid processing to AD neuropathogenesis. For example, genetic studies have pointed to microglial lipid and lipoprotein processing gene variants as some of the strongest risk factors for AD. In addition, microglial dysfunction, characterized by lipid droplet accumulation, increased cholesterol and TG levels, and altered lipid transport, may exacerbate the pathological hallmarks of AD, such as amyloid-beta and tau accumulation. Conversely, emerging studies have shown that strategies aimed at inhibiting lipid droplet accumulation in microglia, reducing TG synthesis, and promoting the activity of lipoprotein receptors expressed by microglia can improve cell functions and markers of AD pathology. This review dissects the interplay between microglial lipid metabolism and AD, highlighting the significance of lipid transport and trafficking within the CNS. Given the intrinsic link between microglial metabolism and AD progression, emerging and potential therapeutic strategies aimed at restoring lipid handling and improving microglial function are explored. This review provides a comprehensive examination of the emerging literature, detailing the current state of knowledge on microglial lipid metabolism, its genetic underpinnings, and the potential for novel interventions targeting these mechanisms to ameliorate AD pathology.

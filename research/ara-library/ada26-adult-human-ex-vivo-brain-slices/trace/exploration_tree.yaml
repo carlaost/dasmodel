@@ -1,0 +1,130 @@
+# Exploration Tree — ada26-adult-human-ex-vivo-brain-slices
+# Research DAG reconstructed from the ABSTRACT + the verified analysis repository
+# (github.com/naomihabiblab/HumanOrganotypicTNF). No full text was available, so the paper's own
+# narrative of decisions/dead-ends is unknown: nodes are mostly `inferred`. No dead_end nodes are
+# asserted because the abstract/repo expose none (Rule 9 — honesty over a node quota).
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract"]
+    title: "How can glial responses and multicellular crosstalk be dissected in adult HUMAN brain tissue?"
+    description: >
+      Glia modulate brain function in health, aging, and disease, but cell-type-specific
+      interrogation of glial responses and crosstalk in human tissue with preserved architecture is
+      not routinely available. Central driver of the study.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        title: "Use adult human organotypic brain slice cultures from neurosurgical resections as the platform"
+        choice: "Ex vivo organotypic slices from living resection tissue, cultured for weeks"
+        alternatives:
+          - "Dissociated primary cultures (lose architecture/multicellularity)"
+          - "iPSC-derived glia (lose adult human tissue context)"
+          - "Rodent slices (lose human relevance)"
+          - "Postmortem human tissue only (static, no controlled perturbation)"
+        evidence: "Abstract frames establishing the platform as the contribution"
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["src/execution/sNucRNAseq_plots.R:31", "Abstract"]
+            title: "Characterize the platform: does it preserve mature multicellular identity?"
+            result: >
+              Cultures preserve tissue architecture and mature cell identities over weeks; snRNA-seq
+              resolves 8 mature CNS cell types via canonical markers (astrocytes, endothelial,
+              excitatory/inhibitory neurons, microglia, oligodendrocytes, OPCs, perivascular cells).
+            evidence: [C01]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["src/execution/bulk_treatments_plots.R:20", "src/execution/bulk_treatments_plots.R:55"]
+            title: "Do the slices mount stimulus-specific transcriptional programs? (bulk RNA-seq + WGCNA/LDA)"
+            result: >
+              Bulk RNA-seq across Control/BLM/H2O2/LPS/TNF analysed by LDA and WGCNA; five programs
+              (Prog.1–Prog.5) correlated with treatments and functionally annotated, defining shared
+              and stimulus-specific responses.
+            evidence: [C02, C05]
+            children:
+
+              - id: N05
+                type: decision
+                support_level: explicit
+                source_refs: ["src/execution/bulk_treatments_plots.R:20"]
+                title: "Choose the stressor panel"
+                choice: "Five arms: Control, BLM, H2O2, LPS, TNFα"
+                alternatives:
+                  - "Single stressor only (cannot establish stimulus specificity)"
+                  - "A different/larger stressor set (not used in released analysis)"
+                evidence: "treatments vector hard-coded in the bulk analysis script"
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["src/execution/sNucRNAseq_plots.R:158", "Abstract"]
+            title: "Resolve the cell-type-specific TNFα response (snRNA-seq DE)"
+            result: >
+              Per-cell-type TNFα-vs-control differential expression computed for microglia,
+              astrocytes, and OPCs (volcano + pathway enrichment; shared TNF-response gene heatmap).
+            evidence: [C03]
+            children:
+
+              - id: N07
+                type: decision
+                support_level: explicit
+                source_refs: ["src/execution/sNucRNAseq_plots.R:158", "Abstract"]
+                title: "Focus the coordinated-response analysis on three glial types"
+                choice: "Microglia, astrocytes, OPCs"
+                alternatives:
+                  - "All cell types equally (dilutes the glial-crosstalk focus)"
+                  - "A single glial type (misses multicellular coordination)"
+                evidence: "glia_types vector in the snRNA-seq script; abstract names the same three types"
+
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["README.md", "Abstract"]
+                title: "Validate slice-derived TNFα signatures externally"
+                result: >
+                  Signatures tested against postmortem human brain (abstract) and external datasets
+                  (README): mouse microglia, human iPSC-derived astrocytes, COVID-19 postmortem
+                  brain, and large AD snRNA-seq cohorts.
+                evidence: [C04]
+
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["README.md"]
+                title: "Infer coordinated glial crosstalk (MultiNicheNet, TNFα vs control)"
+                result: >
+                  MultiNicheNet compares TNFα-treated vs control slices and prioritizes
+                  ligand–receptor interactions (Supplementary Table 5).
+                evidence: [C06]
+                children:
+
+                  - id: N10
+                    type: question
+                    support_level: inferred
+                    title: "Do the prioritized interactions form pro-/anti-inflammatory loops among the glia?"
+                    description: >
+                      Interpretation step linking prioritized ligand–receptor edges to coordinated
+                      pro- and anti-inflammatory feedback among microglia, astrocytes, and OPCs
+                      (as summarized in the abstract).
+                    also_depends_on: [N06]
+
+  - id: N11
+    type: decision
+    support_level: inferred
+    title: "Release analysis code but not (yet) raw sequencing data"
+    choice: "Public R analysis/plotting scripts + Supplementary Tables 1–5; no public raw-data accession"
+    alternatives:
+      - "Deposit raw bulk/snRNA-seq to GEO/SRA/EGA at preprint time"
+    evidence: >
+      No accession located (Europe PMC PPR1228173 hasData=N; empty GEO); consistent with embargo for
+      a v1 preprint. Inferred from sources.yaml, not stated in the abstract.

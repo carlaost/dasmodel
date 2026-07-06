@@ -1,0 +1,1066 @@
+Received: 18 June 2025           Revised: 11 July 2025          Accepted: 14 July 2025
+
+DOI: 10.1002/alz.70535
+
+
+GUIDELINES
+
+
+
+
+Alzheimer’s Association Clinical Practice Guideline on the use
+of blood-based biomarkers in the diagnostic workup of
+suspected Alzheimer’s disease within specialized care settings
+
+Sebastian Palmqvist1,2                                Heather E. Whitson3,4    Laura A. Allen5
+Marc Suarez-Calvet6,7                                 Douglas Galasko8      Thomas K. Karikari9,10,11
+Hamid R. Okrahvi12       Madeline Paczynski13   Suzanne E. Schindler13
+Charlotte E. Teunissen14    Henrik Zetterberg15    Maria C. Carrillo16
+Rebecca M. Edelmayer16    Simin Mahinrad16    Mary Beth McAteer17
+Lara A. Kahale18  Sarah Pahlke16    Malavika P. Tampi16
+1
+    Clinical Memory Research Unit, Department of Clinical Sciences Malmö, Lund University, Lund, Sweden
+2
+    Memory Clinic, Skåne University Hospital, Malmö, Sweden
+3
+    Departments of Opthalmology, Medicine, and Neurology, Duke School of Medicine, Durham, North Carolina, USA
+4
+    Geriatrics Research and Education and Clinical Center, Durham VA Medical Center, Durham, North Carolina, USA
+5
+    Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA
+6
+    Barcelonaβeta Brain Research Center (BBRC), Pasqual Maragall Foundation, Barcelona, Spain
+7
+    Servei de Neurologia, Hospital del Mar, Barcelona, Spain
+8
+    Department of Neurosciences, University of California, San Diego, La Jolla, California, USA
+9
+    Department of Psychiatry, School of Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA
+10
+     Alzheimer’s Disease Research Center, University of Pittsburgh, Pittsburgh, Pennsylvania, USA
+11
+     Biofluid Biomarker Laboratory, Western Psychiatric Hospital, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA
+12
+     Department of Medicine: Glennan Center for Geriatrics and Gerontology, Eastern Virginia Medical School, Norfolk, Virginia, USA
+13
+     Department of Neurology, Washington University School of Medicine, St. Louis, Missouri, USA
+14
+     Department of Clinical Chemistry, Amsterdam University Medical Centre, Amsterdam, Netherlands
+15
+     Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, Sahlgrenska Academy, University of Gothenburg, Mölndal, Sweden
+16
+     Alzheimer’s Association, Chicago, Illinois, USA
+17
+     Jones Learning Center, Virginia Mason Franciscan Health, Seattle, Washington, USA
+18
+     Clinical Affairs and Practice Guidelines, Infectious Diseases Society of America, Arlington, Virginia, USA
+
+
+Correspondence
+Malavika P. Tampi, Alzheimer’s Association,                    Abstract
+225 N Michigan Avenue, Chicago, IL 60601,
+USA.
+                                                               OBJECTIVE AND SCOPE: A panel of clinicians, subject-matter experts, and guide-
+Email: mptampi@alz.org                                         line methodologists convened by the Alzheimer’s Association conducted a system-
+                                                               atic review and formulated evidence-based recommendations for using blood-based
+
+
+
+
+Sebastian Palmqvist and Heather E. Whitson co-chaired this guideline. Lara A. Kahale and Sarah Pahlke contributed equally to this work.
+
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any
+medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+© 2025 The Author(s). Alzheimer’s & Dementia published by Wiley Periodicals LLC on behalf of Alzheimer’s Association.
+
+Alzheimer’s Dement. 2025;21:e70535.                                                                                                       wileyonlinelibrary.com/journal/alz   1 of 17
+https://doi.org/10.1002/alz.70535
+2 of 17                                                                                                                               PALMQVIST ET AL .
+
+
+Funding information
+Alzheimer’s Association                         biomarkers (BBMs) in the diagnostic workup of suspected Alzheimer’s disease (AD)
+                                                within specialized care settings. The scope focuses on individuals with objective cog-
+                                                nitive impairment, including those with mild cognitive impairment (MCI) or dementia,
+                                                who are undergoing evaluation by providers trained and experienced in memory
+                                                disorders, where AD is the suspected underlying etiology.
+                                                METHODS: The panel conducted a systematic review to assess the diagnostic accu-
+                                                racy of BBMs in detecting AD pathology. The BBMs of interest included plasma
+                                                phosphorylated-tau (p-tau) and amyloid-beta (Aβ) tests measuring the following ana-
+                                                lytes: p-tau217, ratio of p-tau217 to non-p-tau217 ×100 (%p-tau17), p-tau181,
+                                                p-tau231, and ratio of Aβ42 to Aβ40. The reference standard tests included cere-
+                                                brospinal fluid (CSF) AD biomarkers, amyloid positron emission tomography (PET),
+                                                or neuropathology. The panel applied the Grading of Recommendations, Assess-
+                                                ment, Development, and Evaluation (GRADE) approach to assess the certainty of
+                                                the evidence and the GRADE evidence-to-decision (EtD) Framework to develop its
+                                                recommendations.
+                                                RECOMMENDATIONS: The key recommendations in this Clinical Practice Guideline
+                                                (CPG) are: (1) BBM tests with ≥90% sensitivity and ≥75% specificity can be used as a
+                                                triaging test and (2) BBM tests with ≥90% sensitivity and specificity can serve as a sub-
+                                                stitute for amyloid PET imaging or CSF AD biomarker testing in patients with cognitive
+                                                impairment presenting to specialized care for memory disorders. The panel cautions
+                                                users of this guideline that there is significant variability in diagnostic test accuracy and
+                                                many commercially available BBM tests do not meet these thresholds, especially using
+                                                a single cutoff. Additionally, these tests do not serve as a substitute for comprehensive
+                                                clinical evaluation by a healthcare professional and should be used only as part of a full
+                                                diagnostic workup of patients with cognitive impairment presenting to specialized care
+                                                settings, and with careful consideration of pretest probability of AD pathology.
+                                                CONCLUSIONS AND PRACTICAL IMPLICATIONS: This CPG provides performance-
+                                                based, brand-agnostic recommendations for the use of BBMs in the diagnostic workup
+                                                of suspected AD within specialized care settings. By linking recommendations to a
+                                                systematic review and associated living updates, and using a robust and transpar-
+                                                ent methodology, the guideline ensures scientific rigor, adaptability, and sustained
+                                                relevance as evidence evolves. Clinicians are encouraged to stay informed about
+                                                emerging paradigms—such as biomarker combinations or ratios and multi-threshold
+                                                testing—that may further refine the diagnostic accuracy of BBMs as the field evolves.
+
+                                                KEYWORDS
+                                                Alzheimer’s disease, blood-based biomarkers, clinical practice guideline, diagnosis
+
+
+
+
+1         INTRODUCTION                                                      as the population ages.1 Pathologically, AD is defined by the accu-
+                                                                            mulation of extracellular cortical plaques composed of amyloid beta
+Alzheimer’s disease (AD) is the leading cause of dementia, contribut-       (Aβ) fibrils and intracellular neurofibrillary tangles containing abnor-
+ing to an estimated 60% to 80% of all dementias. According to the           mal hyperphosphorylated tau protein.2 These pathologies manifest
+Alzheimer’s Association Facts & Figures report, approximately 7.2 mil-      many years or even decades before the onset of clinical symptoms,
+lion Americans are living with AD dementia in 2025. This number is          marking a prolonged preclinical phase during which progressive brain
+projected to double by 2060, highlighting a growing public health crisis    damage occurs.3
+PALMQVIST ET AL .                                                                                                                          3 of 17
+
+
+                                                                           For decades, the options for ante mortem detection of AD pathol-
+
+     RESEARCH IN CONTEXT                                                ogy have been limited to tests that are either expensive, such as
+                                                                        positron emission tomography (PET), or invasive but safe when prop-
+     1. Systematic review: The Alzheimer’s Association has
+                                                                        erly performed, such as cerebrospinal fluid (CSF) -based biomarker
+        recently launched an initiative to develop evidence-based
+                                                                        analysis.4, 5 Furthermore, these tools remain out of reach to most
+        clinical practice guidelines using the Grading of Recom-
+                                                                        healthcare providers, even in many specialized clinical settings. Despite
+        mendations, Assessment, Development, and Evaluation
+                                                                        these barriers, there are multiple reasons why patients and clinicians
+        (GRADE) approach, aiming to apply a rigorous and trans-
+                                                                        seek in vivo confirmation of AD pathology. A key driver is higher diag-
+        parent methodology to the development of guidelines
+                                                                        nostic accuracy, since AD is often misdiagnosed without biomarkers,
+        for clinicians. In the context of Diagnostic Test Accu-
+                                                                        even in specialist settings.6 Furthermore, identifying the presence or
+        racy, GRADE emphasizes the use of systematic reviews
+                                                                        absence of AD pathology can help narrow the etiology of cognitive
+        to inform the diagnostic accuracy of emerging tools, such
+                                                                        impairment, guide appropriate care strategies, and provide valuable
+        as blood-based biomarkers, and their impact on outcomes
+                                                                        prognostic information for patients and their families.7, 8 The recent
+        that matter most to patients. This comprehensive evi-
+                                                                        regulatory approvals of new amyloid targeting therapies for AD, which
+        dence synthesis serves as the foundation for actionable,
+                                                                        require biomarker confirmation of amyloid pathology to determine
+        evidence-based recommendations for clinicians, policy-
+                                                                        treatment eligibility, further highlights the need.9–13 As these thera-
+        makers, patients, and caregivers as part of a shared
+                                                                        pies are receiving regulatory approval and being marketed in different
+        decision-making model to improve dementia diagnosis,
+                                                                        parts of the world, the demand for biomarker-based diagnostics to
+        treatment, and care. These translational research efforts
+                                                                        accurately identify eligible patients, enable early intervention, and
+        are designed with the understanding that routine updates
+                                                                        ascertain when treatment is likely to be most effective, is expected to
+        will be essential to ensure the guidelines remain current
+                                                                        rise substantially.14, 15
+        and relevant.
+                                                                           In recent years, multiple blood-based biomarkers (BBMs) have
+     2. Interpretation: The guidelines translate complex scien-
+                                                                        become available as promising and accessible alternatives for detect-
+        tific data, including, but not limited to, findings from
+                                                                        ing AD pathology.14 Compared to PET and CSF testing, BBMs offer
+        systematic reviews, into clear, actionable recommenda-
+                                                                        several advantages: they are less costly, more accessible, and more
+        tions for clinicians across specialties, while also informing
+                                                                        acceptable to patients. These attributes position BBMs as promising
+        decision-making at the policy level. The blood-based
+                                                                        tools to address the growing diagnostic demands.14, 15 While several
+        biomarker guideline presented in this manuscript specif-
+                                                                        BBMs are now commercially available, diagnostic performance varies
+        ically provides guidance on whether blood tests for
+                                                                        across available tests,16, 17 and their integration into clinical practice
+        Alzheimer’s disease should be used in specialized care
+                                                                        is still inconsistent. In 2022, the Alzheimer’s Association published
+        settings as part of a comprehensive diagnostic process by
+                                                                        the field’s first appropriate use recommendations for BBMs in clini-
+        providers with training and experience in the diagnosis of
+                                                                        cal practice and clinical trials.18 BBMs have been incorporated into
+        memory disorders. Designed to support real-world clini-
+                                                                        the recently revised criteria for diagnosis and staging of AD by a
+        cal decision-making, these recommendations are dynamic
+                                                                        workgroup of the Alzheimer’s Association.3 Furthermore, the Global
+        and evolve alongside the advancing evidence base.
+                                                                        CEO Initiative (CEOi) on AD BBM Workgroup has recently published
+     3. Future directions: The Alzheimer’s Association will con-
+                                                                        recommendations for the minimum acceptable performance of BBM
+        tinue to expand clinical topics for guideline development
+                                                                        tests.15 Despite these advances, the absence of a formal Clinical Prac-
+        and associated methodological approaches for translat-
+                                                                        tice Guideline (CPG) remains a critical barrier to the consistent and
+        ing scientific evidence informing the Association’s guide-
+                                                                        evidence-based application of BBMs in real-world settings.
+        line recommendations. Guidelines will be updated as
+                                                                           To address this gap, the Alzheimer’s Association has convened
+        the peer-reviewed evidence base evolves, with accom-
+                                                                        a panel of clinical and subject-matter experts, along with guideline
+        panying tools, training, and resources to support effec-
+                                                                        methodologists with expertise in the Grading of Recommendations,
+        tive clinical adoption. Emerging research priorities also
+                                                                        Assessment, Development, and Evaluation (GRADE) approach. This
+        include collaborative approaches to conducting system-
+                                                                        collaborative effort has resulted in two complementary manuscripts:
+        atic reviews and keeping them up-to-date, and building
+                                                                        the present CPG, which provides formal recommendations, and a sep-
+        and fostering an evidence ecosystem prioritizing data-
+                                                                        arate systematic review that presents the underlying evidence base.19
+        sharing to minimize research waste.
+                                                                        Here we outline the evidence-based CPG, which aims to provide rec-
+                                                                        ommendations to support clinicians, patients, and policy-makers in
+                                                                        integrating BBMs into the diagnostic workflows of AD in cognitively
+                                                                        impaired individuals in the care of memory disorder specialists in
+                                                                        specialized care settings.
+4 of 17                                                                                                                                      PALMQVIST ET AL .
+
+
+
+2         METHODS                                                                 and long-term care facilities are not the intended target audience, this
+                                                                                  guideline may serve as a resource to enhance their understanding of
+The guideline was developed in accordance with the AGREE II Report-               BBM use in AD diagnostic workup, particularly as such tests are being
+ing Checklist20 and the Guidelines International Network-McMaster                 increasingly marketed for use in non-specialty care settings.
+Guideline Development Checklist.21 The overall guideline develop-                    This guideline is intended to inform clinical decision-making, sup-
+ment process, including funding of the work, panel formation, manage-             port the development of standards of care, guide laboratory practices,
+ment of conflicts of interest, internal and external review, and organi-          and assist clinicians in selecting appropriate BBM tests for individual
+zational approval, was guided by Alzheimer’s Association’s policies and           patients. In addition, it may help inform the use of BBMs and their
+procedures.                                                                       incorporation in clinical trial outcomes or decisions in clinical trials with
+                                                                                  adaptive design.
+                                                                                     The secondary target audience includes individuals affected by MCI
+2.1         Guideline panel composition
+                                                                                  or dementia, their caregivers, policy-makers involved in dementia care
+                                                                                  and healthcare decision-making, and laboratory medicine specialists
+The chairs of the guideline panel were selected by the leadership of
+                                                                                  involved in using BBMs.
+the Alzheimer’s Association. The panel was composed of 11 mem-
+bers: clinical neurologists (S.Pal., M.S.-C., S.S., D.G.), geriatricians (H.W.,
+H.O.), nurse practitioner (L.A.), physician assistant (M.P.), and subject-
+                                                                                  2.3       Guideline scope
+matter experts, some with clinical expertise (C.T., H.Z., T.K.). Panelists
+were of diverse geographic distribution and years of clinical experi-
+                                                                                  The panel identified two key clinical questions that warrant recommen-
+ence; six were based in North America, four in Europe, and two held
+                                                                                  dation in this first iteration of the guideline:
+dual affiliations in both regions. To ensure the integrity of the guideline
+development process, the panel elected to replace one of the co-chairs
+                                                                                  1. Should a BBM test be incorporated as a triaging test to determine
+when a change in their employment status introduced a potential con-
+                                                                                     the presence or absence of AD pathology in the diagnostic workup
+flict of interest that would have been challenging to mitigate (see the
+                                                                                     of individuals with cognitive impairment (including those with MCI
+Acknowledgments section).
+                                                                                     or dementia) presenting for specialized care for memory disorders?
+    Three guideline methodologists (L.A.K., S.Pah., M.P.T.) oversaw all
+                                                                                  2. Should a BBM test serve as a substitute for CSF analysis or amyloid
+methodological aspects of the guideline development, including col-
+                                                                                     PET as a confirmatory test to determine the presence or absence
+laboration on the development and execution of a search strategy
+                                                                                     of AD pathology in the diagnostic workup of patients with cognitive
+with a medical librarian (M.B.M.), and two (S.Pah., L.A.K.) oversaw the
+                                                                                     impairment (MCI or dementia) presenting for specialized care for
+identification and synthesis of scientific evidence and the evidence-
+                                                                                     memory disorders?
+to-decision (EtD) process for the clinical question. The Alzheimer’s
+Association’s staff, who also served as subject-matter experts (R.M.E.,
+                                                                                     A triaging test refers to a test in which a negative result rules out
+S.M., S.Pah., M.P.T.), oversaw all administrative and logistical aspects
+                                                                                  AD pathology with high probability, whereas a positive result should
+related to the guideline panel, including the managment of conflicts of
+                                                                                  be confirmed using another method, such as CSF AD biomarkers or
+interest.
+                                                                                  amyloid PET.
+                                                                                     A confirmatory test refers to a test for which a negative result rules
+2.2         Target audience                                                       out AD pathology, and a positive test confirms AD pathology with a
+                                                                                  high probability.
+This guideline’s primary target audience includes specialists involved               Input on these questions was gathered during the 2024 Alzheimer’s
+in the diagnostic evaluation of cognitive impairment in specialized care          Association International Conference (AAIC), where experts in the
+settings. A specialist in this context is defined as a healthcare provider,       field provided insights to inform the development of this guideline.
+typically, but not exclusively, in neurology, psychiatry, or geriatrics, who         This guideline is not intended to serve as a comprehensive clinical
+spends at least 25% of their clinical practice time caring for adults             pathway or appropriate use recommendations for the broader diag-
+with cognitive impairment or dementia. Not all clinicians in these fields         nostic workup or treatment decision-making in individuals with MCI
+are dementia specialists, and providers in other areas of practice may            or dementia. It does not address the use of BBMs for screening pur-
+identify as a specialist based on their specific knowledge and training.          poses, use in non-specialty settings, or use in people with no cognitive
+Specialists are proficient in assessing, diagnosing and treating cognitive        concerns or only subjective memory impairment.
+disorders, understanding and interpreting the results of brain imag-
+ing, CSF, and BBM tests, and clearly communicating the results of the
+aforementioned tests and their implications to patients and families.22           2.3.1        Population and setting
+Primary care providers, nurse practitioners, and physician assistants
+working in these specialized care settings are also included in the pri-          The population and setting for this guideline include individuals with
+mary target audience. While non-specialty care providers working in               objective cognitive impairment (i.e., MCI or dementia) presenting
+primary care settings and healthcare professionals in nursing homes               to specialized care settings due to cognitive complaints. Objective
+PALMQVIST ET AL .                                                                                                                                5 of 17
+
+
+cognitive impairment requires objective evidence of cognitive deficits       Therefore, for this guideline, a BBM test is defined as the com-
+detected by cognitive assessment tools and/or medical examination            bination of a BBM (analyte) and the technology used to measure
+and provider assessment. It does not include subjective cognitive            it (e.g., specific immunoassay or mass spectrometry method). For
+decline, in which the patient perceives changes in memory or other           this initial iteration of the guideline, the panel identified plasma
+cognitive domains but performs as expected on cognitive testing,             assays for phosphorylated-tau (p-tau) and Aβ, measuring the follow-
+and a trained provider does not detect notable deficits (e.g., aphasia,      ing analytes: p-tau217, the ratio of p-tau217 to non-p-tau217 ×100
+disinhibition, executive dysfunction) in assessment.                         (expressed as a percentage of p-tau217 [%p-tau217]), p-tau181, p-
+   The panel developed recommendations for BBM testing only in               tau231, and Aβ42/Aβ40. To ensure the systematic review was both
+individuals with objective cognitive impairment who have already com-        feasible and clinically relevant, we focused on a limited number of
+pleted a comprehensive clinical workup. This guideline does not extend       BBMs rather than attempting a broad meta-analysis across all pos-
+to cognitively unimpaired individuals, given the current lack of clinical    sible available BBM tests. The panel thus prioritized BBMs most
+relevance for BBM use in this population. The panel made the a priori        commonly used as indicators of brain amyloid, excluding markers like
+decision not to use data for cognitively impaired and unimpaired popu-       glial fibrillary acidic protein (GFAP) and neurofilament light chain
+lations combined to inform recommendations to minimize indirectness          (NfL). We also chose to analyze tests that measure single analytes
+and because test performance could appear more favorable in popula-          rather than ratios, unless the ratio included a reference value of the
+tions with a bimodal distribution of brain amyloid (i.e., individuals with   same protein type (i.e., Aβ42/Aβ40). Based on available evidence and
+very low [cognitively unimpaired] or very high [AD-like dementia] brain      head-to-head comparison data, including Round Robin results,23 we
+amyloid levels).                                                             selected the p-tau species with the strongest evidence base and high-
+   This work focuses on specialized care settings, which include prac-       est diagnostic accuracy. The reference standard tests considered were
+tices where a memory disorder specialist (defined in Section 2.3 above)      CSF AD biomarkers, amyloid PET, or neuropathological assessment
+is participating in the decision of whether to order a BBM test for pos-     of AD.
+sible AD diagnosis. While this work prioritizes specialized care settings       Despite analyzing the specific assays/analytes in the systematic
+due to the existing evidence base, future iterations will address the use    review, the panel opted for a brand-agnostic, blinded, performance-
+of BBMs in primary care. The panel recognizes the critical role of pri-      based approach for the guideline’s recommendations. This approach
+mary care as the first point of contact for many patients with cognitive     ensures the guideline’s credibility, durability, and actionability. It pro-
+concerns, and that access to specialized care is often limited.              tects the guideline from perceived bias, reduces misalignment with
+   The panel determined that primary care and specialized care set-          recent advances, and provides clinicians with meaningful direction.
+tings merit separate CPG processes for four main reasons. First, among       By linking the CPG to our systematic review, we will be able to
+patients presenting with cognitive impairment, we expect a differ-           ensure ongoing relevance without requiring frequent changes to the
+ent prevalence of AD pathology in primary care versus specialized            recommendations themselves.
+care settings. Different population prevalence means that the same              The authors acknowledge that several BBM tests on the market
+test will have different negative predictive value (NPV) and posi-           have no published data meeting the eligibility criteria for inclusion in
+tive predictive value (PPV), which could alter panel recommendations.        the systematic review; we encourage the manufacturers of these tests
+Second, pretest probability must be considered in setting acceptable         to publish evidence on the diagnostic test accuracy of their tests in
+thresholds for sensitivity and specificity, and evidence suggests that       peer-reviewed journals.
+pretest probability for AD pathology is more accurate when deter-
+mined in specialist than in non-specialist settings.5 Third, there is
+limited experience among non-specialists in interpreting and disclosing      2.4       Evidence review
+AD biomarker results and a greater prevalence of comorbid conditions
+may affect BBM results in these settings. Fourth, practical barriers         This guideline has been informed by a corresponding systematic review
+such as time constraints and limited integration of BBMs into exist-         of diagnostic test accuracy, published separately; please refer to that
+ing clinical workflows in non-specialized care settings pose further         publication for a more detailed description of the systematic review
+challenges. Addressing these challenges will require targeted educa-         methodology.19 A summary of tests meeting the criteria for a triag-
+tion, decision support tools, and equitable implementation strategies        ing or confirmatory test is also shown at https://app.magicapp.org/#/
+to ensure BBMs can be effectively and appropriately used across all          guideline/nyO1Yj.
+care settings.                                                                  Briefly, the following databases were searched from 2019 through
+                                                                             November 3, 2024: PubMed, Medline, Embase, and Cochrane Library.
+                                                                             Methodologists conducted study selection, data extraction, risk of bias,
+2.3.2       BBM tests and reference standards                                and certainty assessments, and statisticians performed data analysis.
+                                                                             Details regarding the literature search strategy can be found in the
+The panel was mindful that many BBM tests measuring the same                 Supporting Information.
+analyte (e.g., p-tau217) utilize different technology or utilize differ-        Raw data were sought, including the number of true positives (TP),
+ent antibodies and can achieve different performance characteristics.        true negatives (TN), false positives (FP), false negatives (FN), sensi-
+6 of 17                                                                                                                                PALMQVIST ET AL .
+
+
+tivity (Sn), and specificity (Sp), at the Youden index cutoff. Data were        A given patient’s pretest probability for AD pathology will vary
+sourced from (1) published studies, (2) author-provided information           according to clinical presentation, age, and known risk factors.26
+when missing from studies, and (3) Sn and Sp associated with the              Therefore, the panel chose not to report predictive values associated
+Youden index derived from receiver operating characteristic (ROC)             with individual tests, since these metrics would be highly dependent on
+curves using WebPlotDigitizer24 when neither published nor provided           pretest probability. Instead, we note that a test with a Sn of 90% and
+by authors.                                                                   Sp of 75% (our “triage” thresholds) would have a PPV of 47%, 78%, or
+   Meta-analyses of diagnostic test accuracy were conducted for each          94%, and NPV of 97%, 88%, 65%, when applied in a population with
+BBM test to calculate pooled Sn and Sp. The main meta-analysis exam-          a pretest probability of 20%, 50%, or 80%, respectively. A test with a
+ined single cutoffs based on Youden’s index. Additional sensitivity           Sn of 90% and Sp of 90% (our “confirmatory” thresholds) would have a
+analyses were conducted to assess the robustness of the data based on         PPV of 69%, 90%, or 97%, and NPV of 97%, 90%, 69%, when applied in a
+reported versus missing data: (1) reported data only using any cutoff         population with a pretest probability of 20%, 50%, or 80%, respectively.
+for the index test, (2) reported data using any cutoff for the index test       Because Youden’s index cutoff is not always an optimal combination
+plus data derived from curves at Youden’s index when data was miss-           of Sn and Sp, we supplemented with analyses of fixed sensitivity at 90%
+ing, (3) fixing Sp cutoff at 75% for triaging, and (4) fixing Sn cutoff at    and fixed specificity at 75% when data were available.
+90% for confirmatory testing.
+   The guideline panel assessed the certainty of the supporting evi-
+dence and formulated the recommendations according to the GRADE               2.5.2        EtD framework
+approach.25 The certainty of the evidence for each analyzed test was
+determined by assessing the following domains: risk of bias, indirect-        The EtD framework was used to translate evidence summaries into
+ness, inconsistency, imprecision, and publication bias. This information      practice recommendations.27 Recommendations are labeled either as
+is reported in the Evidence Profiles. The certainty of evidence for Sn        “strong” or “conditional” according to an evaluation of the certainty of
+was assessed separately from that for Sp, including considerations of         the evidence, the balance between benefits and harms, patients’ values
+inconsistency and imprecision. Sensitivity carried greater weight for         and preferences, resources/cost, and other factors such as accept-
+certainty of evidence in triaging decisions (when an initial BBM test         ability, feasibility, and equity. “The panel recommends” indicates a
+is performed with the plan to follow-up confirmatory testing if posi-         strong recommendation, and “the panel suggests” indicates a condi-
+tive) to ensure accurate identification of true cases, while Sp carried a     tional recommendation. Table 1 provides the suggested interpretation
+greater weight for certainty of evidence in confirmatory testing (when        of strong and conditional recommendations for patients, clinicians, and
+only the BBM test is used without additional biomarker assessment) to         healthcare policy-makers.28–30 To reduce potential bias, the panel was
+minimize FPs.                                                                 blinded to the names of the tests until after recommendations were
+                                                                              drafted.
+                                                                                Non-systematic literature searches, along with panel opinion and
+2.5       Formulating recommendations                                         experience, were used to inform the research evidence for EtD factors
+                                                                              as needed.
+2.5.1         Test accuracy                                                     Methodologists worked with health economists to summarize pub-
+                                                                              lished evidence on the cost and cost-effectiveness of implementing
+The panel decided not to make recommendations for or against specific         BBMs in specialized care settings. Publicly available sources were used
+tests; this decision reflects several considerations, including variability   to compare the prices of commercially available BBM tests. A non-
+in how tests are developed, validated, and implemented across labo-           systematic literature review was conducted to identify peer-reviewed
+ratories. Furthermore, manufacturers and laboratories do not typically        studies assessing the cost-effectiveness of BBM tests in the diagnostic
+rely on meta-analyses to determine test cutoffs for abnormality, and          workup of suspected AD.
+some are even recommending two cutoff approaches. These inconsis-               Input from the Association National Early-Stage Advisory Group
+tencies further support the panel’s position that ranking or endorsing        (ESAG) made up of patients with early-stage AD, internal and external
+specific tests is premature at this time. Instead, test accuracy data and     collaborative parties, and feedback from a public comment period also
+accuracy judgments reported in this guideline are meant to serve as a         informed the final recommendations.
+resource for clinicians implementing the recommendations to aid them
+in choosing which test(s) to order.
+   The panel aligned clinical thresholds for acceptable accuracy of           2.6     Guideline update process and external review
+BBM tests based on what clinicians in real-world settings would find          process
+acceptable and used recent expert opinion as a starting point for that
+discussion.15 Therefore, a given test was judged “accurate” at the triag-     A draft version of the recommendations was made publicly available,
+ing level if the point estimate for Sn was at least 90% and the Sp at least   and all feedback submitted during the public comment period (May 12
+75%. For the “confirmatory” level, the point estimates had to be at least     to May 23) was reviewed by the methods team and the panel. Com-
+90% for both Sn and Sp.                                                       ments that fell within the scope of the guideline questions and were
+PALMQVIST ET AL .                                                                                                                                          7 of 17
+
+
+TA B L E 1      Definitions for interpreting the certainty of the evidence and implementing strong versus conditional recommendations28–30
+
+ DEFINITION OF CERTAINTY OF THE EVIDENCE
+ Category                           Definition
+ High                               Very confident that the true effect lies close to that of the estimate of the effect.
+ Moderate                           Moderately confident in the effect estimate; the true effect is likely to be close to the estimate of the effect, but there
+                                    is a possibility that it is substantially different.
+ Low                                Confidence in the effect estimate is limited; the true effect may be substantially different from the estimate of the
+                                    effect.
+ Very low                           Very little confidence in the effect estimate; the true effect is likely to be substantially different from the estimate of
+                                    the effect.
+
+ DEFINITION OF STRONG VS. CONDITIONAL RECOMMENDATIONS AND IMPLICATIONS FOR COLLABORATIVE PARTIES
+ Implications                        Strong recommendations                                          Conditional recommendations
+ For patients                        Most patients in this situation would want the                  Most patients in this situation would want the
+                                     recommended course of action, and only a small                  suggested course of action, but many would not.
+                                     proportion would not. Formal decision aids are not
+                                     likely to be needed to help individuals make decisions
+                                     consistent with their values and preferences.
+ For clinicians                      Most patients should receive this course of action.             Recognize that different choices will be appropriate for
+                                     Adherence to this recommendation, according to the              individual patients and that you must help each patient
+                                     guideline, could be used as a quality criterion or              arrive at a management decision consistent with his or
+                                     performance indicator.                                          her values and preferences. Decision aids may be useful
+                                                                                                     in helping patients make decisions consistent with their
+                                                                                                     values and preferences.
+ For policy-makers                   The recommendation can be adapted as policy in most             Policy-making will require substantial debate and the
+                                     situations.                                                     involvement of various collaborative parties.
+ Researchers                         The recommendation is supported by credible research            The recommendation is likely to be strengthened (for
+                                     or other convincing judgments that make additional              future updates or adaptation) by additional research.
+                                     research unlikely to alter the recommendation. On               An evaluation of the conditions and criteria (and the
+                                     occasion, a strong recommendation is based on low or            related judgments, research evidence, and additional
+                                     very low certainty in the evidence. In such instances,          considerations) that determined the conditional (rather
+                                     further research may provide important information              than strong) recommendation will help to identify
+                                     that alters the recommendations.                                possible research gaps.
+
+
+
+
+supported by the available evidence were considered for incorporation             recommendations are not meant to restrict, limit, delay, or deny clin-
+into the final guidance. To promote transparency and acknowledge                  ical use, insurance coverage, or patient access to biomarker testing
+collaborative party contributions, all de-identified comments, where              when deemed appropriate by a qualified healthcare provider. Further-
+possible, will be made publicly accessible on the Alzheimer’s Asso-               more, these recommendations do not substitute for clinical judgment
+ciation Website https://www.alz.org/professionals/health-systems-                 nor encompass all possible considerations in the diagnostic and thera-
+medical-professionals/clinical-practice-guidelines-and-evidence.                  peutic evaluation of AD. We advise clinicians to exercise discretion and
+   This guideline is intended to serve as a regularly updated docu-               adapt their approach based on individual patient circumstances and
+ment and the associated systematic review will be regularly updated               emerging evidence.
+as new evidence emerges through the MAGICapp platform https://app.
+magicapp.org/#/guideline/nyO1Yj to maintain relevance for clinical
+practice over time.                                                               3        RECOMMENDATIONS
+
+                                                                                  3.1         Recommendations and remarks
+2.7       How to use this guideline
+                                                                                  The panel formulated two recommendations and one good practice
+These recommendations are designed to support clinicians, patients,               statement for the use of BBM tests in the diagnostic workup of patients
+caregivers, policy-makers, and healthcare decision-makers in mak-                 with objective cognitive impairment presenting for specialized care.
+ing evidence-informed decisions, specifically regarding which BBM                 These conditional recommendations favor the use of BBM tests and
+test(s) to use and whether it/they should be used as a triaging or                offer acceptable minimum diagnostic test accuracy for triaging and
+confirmatory test for AD pathology in specialized care settings. The              confirmatory tests (Table 2).
+8 of 17                                                                                                                                         PALMQVIST ET AL .
+
+
+TA B L E 2     Recommendations and remarks for the use of BBM tests in patients with objective cognitive impairment presenting for specialized
+care
+
+ Clinical question                                                                     Recommendation
+                                                          a
+ Should a BBM test be incorporated as a triaging test to determine                     In patients with objective cognitive impairment presenting for
+ the presence or absence of AD pathology in the diagnostic workup                      specialized memory-care, the panel suggests using a high-sensitivity
+ of individuals with cognitive impairment (including those with MCI                    BBM testb as a triaging test in the diagnostic workup of AD.
+ or dementia) presenting for specialized care for memory disorders?                    (Conditional recommendation, Low certainty evidencec )
+ a                                                                                     b
+  A triaging test refers to a test in which a negative result rules out AD               The panel defined acceptable diagnostic test accuracy for triaging to be
+ pathology with high probability, whereas a positive result should be                  at least 90% sensitivity and 75% specificity for a reference test (CSF AD
+ confirmed using another method, such as CSF AD biomarkers or amyloid                  biomarkers, amyloid PET, or AD neuropathology). A systematic review of
+ PET.                                                                                  relevant studies can be found here.
+                                                                                       https://app.magicapp.org/#/guideline/nyO1Yj. Information will be
+                                                                                       updated based on future systematic reviews.
+                                                                                       c
+                                                                                         Certainty of the evidence is based on tests meeting acceptable
+                                                                                       diagnostic test accuracy.
+ Should a BBM test serve as a substitute for CSF analysis or amyloid                   In patients with objective cognitive impairment presenting for
+ PET as a confirmatory testd to determine the presence or absence of                   specialized memory-care, the panel suggests using a high-sensitivity
+ AD pathology in the diagnostic workup of patients with cognitive                      and high-specificitye BBM test as a confirmatory test in the
+ impairment (MCI or dementia) presenting for specialized care for                      diagnostic workup of AD (conditional recommendation, Low
+ memory disorders?                                                                     certainty evidencef ).
+
+ d                                                                                     e
+  A confirmatory test refers to a test in which a negative test rules out AD             The panel defined acceptable diagnostic test accuracy for confirmatory
+ pathology, and a positive test confirms AD pathology with a high                      testing to be at least 90% sensitivity and 90% specificity for a reference
+ probability.                                                                          test (CSF AD biomarkers, amyloid PET, or AD neuropathology). A
+                                                                                       systematic review of relevant studies can be found here.
+                                                                                       https://app.magicapp.org/#/guideline/nyO1Yj. Information will be
+                                                                                       updated based on future systematic reviews.
+                                                                                       f
+                                                                                         Certainty of the evidence is based on tests meeting acceptable
+                                                                                       diagnostic test accuracy.
+ Good practice statement
+ A BBM test should not be obtained before a comprehensive clinical evaluation by a healthcare professional, and test results should always be
+ interpreted within the clinical context. The panel urges clinicians to consider the pretest probability of AD pathology for each patient when deciding
+ whether or not to use a BBM test.
+ Remarks
+ Please see the associated systematic review19 which summarizes the performance of different BBM tests in patients with cognitive impairment and will
+ be regularly updated. Many assays are still in development, optimization and validation, and their reported performance may evolve over time. This first
+ set of meta-analyses excluded biomarker combinations or ratios involving different protein types (e.g., p-tau217/Aβ42), unless the ratio included a
+ reference measure obtained from the same protein or peptide (e.g., Aβ42/40). Additionally, most available literature that met our search criteria
+ provided sensitivity and specificity for a single cutoff (e.g., based on Youden’s index). A limited number of studies used a two-cutoff approach, where
+ values above the upper cutoff confirmed AD pathology with high certainty and values below the lower cutoff ruled out AD pathology with high certainty.
+ The panel will consider this approach as more peer-reviewed publications become available.
+ In the following clinical scenarios, a BBM test may not be appropriate:
+ 1. When shared decision-making discussions with the patient finds that there would be low utility in knowing whether AD pathology is present. The
+     utility of a test depends partly on patient preferences and can be related to diagnostic or prognostic value, or if the test result informs a treatment
+     decision. Some patients may only wish to know whether AD pathology is present if that knowledge informs treatment, but other patients may find
+     utility regardless of treatment options.
+ In the following clinical scenarios, a BBM test may not be appropriate or should be interpreted with extra caution:
+ 1. Patients with obvious modifiable or temporary conditions that are likely to account for the patient’s cognitive impairment.
+ 2. Patients with limited life expectancy, as the clinical significance and prognosis of AD pathology are not well-defined in these populations.
+ 3. Patients with a history of conditions that can affect the brain and that may impact levels of a given BBM in ways that have not been well-studied (e.g.,
+     neurocysticercosis, HIV, history of chemotherapy or radiation, chronic traumatic encephalopathy).
+ 4. Patients with medical conditions that may affect the levels of a given BBM (e.g., acute brain injury, severe chronic kidney disease, ALS).
+ 5. Patients taking certain medications that may impact levels of a given BBM (e.g., neprilysin inhibitors, drugs that disrupt the blood-brain barrier).
+
+Abbreviation: AD, Alzheimer’s disease; ALS, amyotrophic lateral sclerosis; BBM, blood-based biomarker; CSF, cerebrospinal fluid; HIV, human immunodefi-
+ciency virus; MCI, mild cognitive impairment; PET, positron emission tomography.
+
+
+3.2       Summary of identified studies                                          AD pathology in patients with cognitive impairment to inform rec-
+                                                                                 ommendations. Across these studies, 31 different BBM tests were
+Forty-nine5, 16, 17, 31–76 observational studies assessed the diagnos-           evaluated in our systematic review and are summarized in Table 3
+tic test accuracy of plasma biomarkers of interest for determining               below:
+PALMQVIST ET AL .                                                                                                                                 9 of 17
+
+
+TA B L E 3    List of assay/analyte combinations studied in the systematic review.
+
+ Analyte                           Assay                                                                    Brand
+ Aβ42/40                           Immunoprecipitation-mass spectrometry (IP-MS)                            WashU
+                                                                                                            Amyloid MSTM , Shimadzu
+                                                                                                            PrecivityTM , C2N Diagnostics
+                                                                                                            University of Gothenburg (UGOT)
+                                   High-performance liquid                                                  Araclon Biotech
+                                   chromatography-differential mobility
+                                   spectrometry-tandem mass spectrometry
+                                   Immunoassay                                                              Simoa, Quanterix 4plexE
+                                                                                                            Simoa, Quanterix single plexes
+                                                                                                            Simoa, Quanterix Neuro 3-plex A kit
+                                                                                                            LumipulseTM , Fujirebio
+                                                                                                            ElecsysTM , Roche
+                                                                                                            HISCL, Sysmex
+ p-tau181                          Immunoassay                                                              Lilly assay, Meso Scale Discovery (MSD)
+                                                                                                            S-PLEX, MSD
+                                                                                                            Simoa, Quanterix p-tau-181 Advantage Kit
+                                                                                                            Simoa, Quanterix 4plexE
+                                                                                                            Simoa, Quanterix UGOT
+                                                                                                            LumipulseTM , Fujirebio
+                                                                                                            Simoa, ADx Neurosciences
+                                                                                                            Elecsys, Roche
+ p-tau231                          Immunoassay                                                              Simoa, Quanterix UGOT
+ p-tau217                          IP-MS                                                                    WashU
+                                                                                                            IP-MS PrecivityTM , C2N Diagnostics
+                                   Immunoassay                                                              Lilly assay, MSD
+                                                                                                            S-PLEX, MSD
+                                                                                                            Simoa, Quanterix Janssen
+                                                                                                            Simoa, ALZpath
+                                                                                                            Elecsys prototype, Roche (N-terminal)*
+                                                                                                            Elecsys prototype, Roche (mid-domain)*
+                                                                                                            LumipulseTM , Fujirebio
+ %p-tau217                         IP-MS                                                                    WashU
+                                                                                                            PrecivityTM , C2N Diagnostics
+
+*Discontinued. Not to be confused with other Roche p-tau217 assays, which have not been included in the systematic review.
+
+
+
+   Eighty-four studies that would have otherwise met eligibility criteria     factors influencing the recommendation, including the diagnostic test
+were ultimately excluded due to cognitively impaired and unimpaired           accuracy, certainty of evidence, balance of benefits and harms, val-
+populations being analyzed together, such that we were unable to              ues and preferences, resources required, cost-effectiveness, equity,
+separate data on only cognitively impaired individuals.                       acceptability, and feasibility. The completed EtD form (Table S1) sum-
+   Demographic data reported in primary studies were occasionally             marizes the judgments, research evidence, and additional expert input
+reflective of combined populations (i.e., instances where test accuracy       for each EtD factor.
+data was reported according to cognitive status but demographic data
+was not). The mean sample size across studies was 560 participants
+(range: 70 to 2244). Mean age across studies ranged from 62.6 to 85.9         3.4        Diagnostic test accuracy
+years, and the percentage of males ranged from 33.8% to 60%. Across
+the 32 studies that evaluated and reported apolipoprotein E (APOE) ε4         The panel decided to use a brand-agnostic approach to formulating rec-
+genotyping, carriers ranged from 27.1% to 56.2% of the population.            ommendations due to the evolving nature of the field, but did synthe-
+                                                                              size evidence on the diagnostic test accuracy of the selected tests ver-
+                                                                              sus selected reference standards in an associated systematic review.
+3.3        EtD framework                                                          Diagnostic test accuracy estimates across tests showed a high
+                                                                              degree of variability. Notably, some tests did meet or exceed the
+The panel used the GRADE EtD framework for diagnostic test accu-              panel’s established thresholds, meaning a single cut-point achieved the
+racy studies to systematically assess and transparently document the          thresholds of 90% Sn and 75% Sp for triaging or 90% Sn and Sp for con-
+10 of 17                                                                                                                             PALMQVIST ET AL .
+
+
+firmatory testing. Across all 31 tests, pooled Sn ranged from 49.31% to     harm if a patient is then started on therapy based on erroneous test
+91.41%, and Sp ranged from 61.54% to 96.72%.                                results. Similarly, FNs could cause delays in confirmatory testing and
+   It is important to note that the panel evaluated only single cut-point   treatment.
+performance. Tests offering two-cutoff approaches were not assessed            Variability in test performance across platforms and manufactur-
+due to limited peer-reviewed evidence available. Summary of findings        ers is another major concern. Not all BBM tests have been validated
+for all evaluated tests are reported in Table S2, and results of sensi-     to the same standard, yet patients and clinicians may assume these
+tivity analyses reported in Table S3. Full methodology and results are      tests are interchangeable. This may be especially problematic with
+reported in the systematic review.                                          direct-to-consumer (DTC) tests, which can lead to confusion, mis-
+                                                                            interpretation, or unwarranted anxiety among patients. Moreover,
+                                                                            there is a risk that clinicians may begin to over-rely on BBM results,
+3.5        Certainty of the evidence of test accuracy                       using them as a diagnostic shortcut in place of comprehensive clin-
+                                                                            ical and cognitive evaluations. This may contribute to underdiag-
+The certainty of the evidence for test accuracy across all tests ranged     nosis of treatable, co-occurring, or non-AD conditions, particularly
+from moderate to very low, and for tests meeting the panel’s prede-         in patients with complex or atypical presentations. Inappropriate
+termined thresholds for accuracy, certainty ranged from low to very         interpretation of BBM results can also lead to premature or inaccu-
+low. Most tests were rated down due to serious issues of risk of bias,      rate diagnostic labeling, potentially harming patient trust and clinical
+largely due to not using prespecified thresholds and/or not reporting       decision-making.
+whether index test results were interpreted without knowledge of ref-
+erence test results and vice versa. Inconsistency and imprecision varied
+across tests for both Sn and Sp. Publication bias was not detected for      3.8       Balance of effects
+any of the tests.
+                                                                            When a BBM test with acceptable accuracy is used by a trained special-
+                                                                            ist, the panel judged the desirable effects to be large and undesirable
+3.6        Desirable effects                                                effects to be small to moderate; hence, the balance of effects prob-
+                                                                            ably favors the use of BBM tests over CSF, PET scan, or no testing.
+The panel judged the desirable effects of using a BBM test to be large.     Overall, BBMs represent a scalable, patient-friendly option that can
+Compared to current reference standards such as PET or CSF, BBM             enhance diagnostic pathways and expand access to timely care when
+tests are minimally invasive and can significantly reduce the physi-        implemented thoughtfully.
+cal discomfort and anxiety often associated with lumbar puncture or
+PET imaging procedures. Additionally, blood testing may help stream-
+line the diagnostic process, allowing for more timely identification of     3.9       Patients’ values and preferences
+underlying AD pathology. This can lead to earlier clinical diagnosis,
+reduce delays between symptom onset and treatment initiation, and           The panel agreed that there is possibly important uncertainty or
+minimize the need for repeated consultations and referrals, thereby         variability in how much people value BBM testing for AD diagno-
+decreasing the burden on patients, caregivers, and the healthcare           sis due to the highly personal and emotional nature of the decision.
+system.                                                                     While many appreciate the appeal of a minimally invasive test and
+                                                                            the opportunity for early diagnosis, others may experience psycholog-
+                                                                            ical distress, financial burden, or ethical concerns, especially if results
+3.7        Undesirable effects                                              are inconclusive or misinterpreted. Preferences also vary based on
+                                                                            whether individuals want to know if they have AD, highlighting the
+When used appropriately, the panel judged the undesirable effects of        need for shared decision-making and compassionate, transparent com-
+BBM tests to be small; however, undesirable effects could be more           munication. This variability in values underscores the importance of
+significant if not used by trained personnel. A key concern is the          individualized approaches to BBM testing.
+potential for over testing and increased system burden. The rela-
+tively low cost and high accessibility of blood tests may encourage
+widespread use in settings that are not adequately prepared to imple-       3.10         Resources required
+ment and interpret the BBM result or provide appropriate follow-up
+care and access or referral to specialty services. A poorly structured      The panel judged savings to be moderate for BBMs compared to PET
+diagnostic infrastructure could lead to inappropriate testing where a       scans or CSF analysis, primarily due to their lower direct costs and sim-
+person with a low pretest probability of having AD pathology receives       pler administration. BBMs generally cost significantly less, often 70%
+a positive result after a blood test which could almost equally be          to 90% lower than PET imaging, though their exact price varies by
+a FP case as opposed to a true case. FP could cause significant             country and healthcare setting. In places like the United States, savings
+PALMQVIST ET AL .                                                                                                                                11 of 17
+
+
+are offset by inconsistent reimbursement and potential out-of-pocket           4       DISCUSSION
+expenses. When used as a triaging tool followed by confirmatory test-
+ing, overall costs may rise, but if BBM tests are able to replace more         4.1       Clinical implications
+expensive confirmatory tests, it may yield moderate savings.
+                                                                               Guidelines provide a framework for clinicians to make decisions based
+                                                                               on evidence, which reduces variability and promotes standardization
+3.11        Cost-effectiveness                                                 of care. Laboratory directors can take advantage of this guideline when
+                                                                               selecting tests based on standard validation results that align with the
+The panel could not make a judgment about the cost-effectiveness of            needs of the clinicians. Additionally, guidelines can help payers with
+BBMs due to a lack of sufficient data on this topic, significant variability   evaluation of medical necessity to establish reimbursement policies.
+by region and payer system.                                                    Our recommendations do not account for proprietary business deci-
+                                                                               sions, such as a company’s intent to pursue regulatory approval for a
+                                                                               research-use-only (RUO) assay.
+3.12        Equity
+                                                                                   The medical literature regarding BBMs is rapidly evolving, and many
+                                                                               different biomarkers and assays are in different stages of develop-
+The panel agreed that equity is probably increased with the use of
+                                                                               ment. Assays for the same biomarker frequently use different methods,
+BBMs because they are more affordable, less invasive, and easier to
+                                                                               resulting in varying performance characteristics, and therefore must
+implement than reference tests like PET scans or lumbar punctures. In
+                                                                               be evaluated as separate tests. Even for tests that are already clini-
+low- and middle-income countries, where access to specialized equip-
+                                                                               cally available, only a handful of peer-reviewed published studies met
+ment and trained personnel is limited, BBMs offer a more feasible
+                                                                               our inclusion criteria. As a result, the existing evidence base is early
+diagnostic option, expanding access to early detection and care. Even
+                                                                               and somewhat fragile, with the evidence for all tests rated as either
+in high-income countries, BBMs may increase diagnostic reach among
+                                                                               “low” or “very low” certainty. When certainty is poor, it is possible that
+older adults and underserved populations who face barriers to tradi-
+                                                                               a future study could sway the pooled point estimates to a degree that
+tional testing. While resource strain and pricing could pose challenges,
+                                                                               would impact whether it meets the panel’s recommended thresholds
+the overall potential for broader, more equitable access supports a
+                                                                               for acceptable diagnostic test accuracy. The panel considered the impli-
+likely improvement in health equity.
+                                                                               cations of declining to issue a recommendation for any test at this
+                                                                               time, deferring until such time that more data emerge and confidence
+3.13        Acceptability                                                      improves. Ultimately, we decided that patients would benefit from a set
+                                                                               of “conditional recommendations with low certainty” with an accom-
+The panel judged BBMs to be probably acceptable to key collabora-              panying systematic review of the most accurate and promising tests in
+tive parties because commercially available tests that meet accuracy           the current field. Without this resource, providers may either select
+standards are generally well-received by patients, clinicians, and health      BBMs that are less promising than other available BBM options or
+systems. Clinicians may have lower confidence in negative BBM results          refer patients for more invasive and expensive testing, when our expert
+in patients with a typical clinical presentation of AD syndrome and            opinion, based on the evidence reviewed here, is that harm could be
+consider further assessment. However, viewing BBMs as part of a com-           reduced by the thoughtful use of BBMs in many instances.
+prehensive diagnostic approach rather than a standalone test helps                 Most studies informing the associated systematic review used
+maintain trust and appropriate use. This balanced perspective supports         single-batch plasma analyses, which do not reflect real-world clinical
+broad acceptance across collaborative parties.                                 settings where samples are processed on a rolling basis, for exam-
+                                                                               ple, daily or weekly. In clinical practice, even small assay imprecision
+                                                                               and bias can affect interpretation, particularly when applying fixed
+3.14        Feasibility                                                        diagnostic cutoffs. Therefore, clinical laboratories need to evaluate
+                                                                               and monitor the coefficient of variation (CV) of biomarker assays to
+The feasibility of implementing BBMs was judged to vary depending              ensure consistent performance and help minimize the risk of misclas-
+on several factors. While blood collection and storage may be more             sification due to analytical variability. This is especially important for
+practical than other modalities, implementation still requires adher-          biomarkers with small fold changes between AD pathology-positive
+ence to proper sample handling and storage protocols.77 Furthermore,           and -negative individuals, such as Aβ42/40, which are more suscep-
+widespread implementation hinges on the commercial availability of             tible to assay imprecision in routine use. Recommendations for such
+tests and reimbursement policies by payers. Additionally, approval of          biomarkers should therefore be interpreted with extra caution, since
+multiple BBM tests could enhance feasibility by fostering competition          the systematic review did not account for such aspects.
+and reducing costs, increasing accessibility. Thus, feasibility is influ-          At the time of our analysis, the vast majority of peer-reviewed
+enced by regulatory, financial, and market conditions that differ across       evidence for individual BBMs presented Sn and Sp based on a sin-
+healthcare systems.                                                            gle cut-point. However, because many plasma tests fall short of the
+12 of 17                                                                                                                              PALMQVIST ET AL .
+
+
+accuracy required to confidently rule in or rule out the presence of          cost-effectiveness in various settings. The cost burden of BBM testing
+brain amyloid with a single cut-point, the field is rapidly moving toward     can vary by perspective, that is, healthcare systems or payers may face
+alternate testing paradigms. One promising paradigm is the two-cutoff         different relative costs than patients, depending on insurance coverage
+approach, where values below a certain cut-point rule out brain amy-          policies. Additionally, indirect costs, such as those related to diagnos-
+loid and values above a certain cut-point rule in brain amyloid, while        tic delays or additional testing triggered by BBM results, remain poorly
+values in the middle require further testing with PET imaging or CSF          understood. Evidence comparing the cost-effectiveness across BBM
+AD biomarkers. The panel will consider this approach in future guide-         tests is severely limited. To address these gaps and inform healthcare
+line updates as additional evidence emerges, with careful consideration       policy and clinical implementation decisions, formal modeling analyses
+of the evidence regarding the size of the indeterminate zone. As other        are needed to project the long-term economic and clinical conse-
+groups have noted, a poorly performing assay could create a very large        quences of BBM testing strategies, including potential downstream
+indeterminate zone using two cutoffs that achieve prespecified Sn or          costs and savings.
+Sp targets.15
+   To meet the practical needs of clinical users implementing the rec-
+ommendations found in this guideline, the Alzheimer’s Association is          4.4       Strengths and limitations
+also co-creating distilled and easy-to-use clinical tools. These tools will
+be made available on a dedicated webpage in the future, as they are           This CPG is grounded in a systematic review of the peer-reviewed lit-
+currently under development.                                                  erature and developed using the GRADE approach. The use of GRADE
+                                                                              ensures a transparent, structured, and evidence-based process for
+                                                                              evaluating the certainty of evidence and formulating recommenda-
+4.2        Generalizability of recommendations                                tions. This methodology strengthens the credibility and reproducibility
+                                                                              of the guideline and allows for explicit linkage between evidence and
+It is important to note that currently, there is a lack of widespread         recommendations. The panel acknowledges the inherent limitations in
+accessibility and reimbursement for many BBM tests, underscoring              the published literature available to inform these recommendations
+the need for the development of reimbursement frameworks that                 and has made efforts to transparently describe where data gaps or
+enable patients to benefit from emerging diagnostic technologies. The         uncertainties remain.
+panel urges all collaborative parties to work actively toward ensur-             In contrast, regulatory submissions are typically informed by data
+ing equitable access to BBMs globally, as without deliberate efforts,         provided by industry sponsors and submitted to regulatory agencies in
+this promising advancement could paradoxically widen existing dis-            the context of product approval or licensure. These data, while often
+parities among countries, socioeconomic groups, and other vulnerable          robust, are generally not peer-reviewed or publicly available at the
+populations.                                                                  time of regulatory decision-making. As a result, some tests that may
+                                                                              have received regulatory approval or clearance at the time of this pub-
+                                                                              lication may not have been included in the systematic review or the
+4.3        Research needs                                                     panel’s EtD process required for this guideline if peer-reviewed data
+                                                                              were not available or accessible.
+Eighty-four studies were excluded from the evidence base as they                 To enhance the clinical relevance and applicability of the guideline,
+combined cognitively impaired and unimpaired individuals, limiting            the panel was intentionally multidisciplinary and diverse in compo-
+interpretation for the target population. Additionally, some studies did      sition. It included experts from a broad range of specialties (e.g.,
+not provide sufficient diagnostic accuracy data (e.g., TP, TN, FP, and        neurology, geriatrics, nursing), as well as methodologists with expertise
+FN) to be included in quantitative analyses. These limitations highlight      in guideline development and evidence synthesis. Panelists repre-
+gaps in the current literature and underscore the need for standardized       sented a variety of geographic regions, countries, gender, and years
+reporting and stratified analyses in future research.                         of clinical experience to promote inclusive perspectives and reduce
+   In addition to providing data on populations separated by cognitive        potential biases. This diversity enriched the deliberative process and
+status (cognitively impaired vs. unimpaired), we encourage researchers        ensured that the recommendations are applicable across a wide range
+and industry partners to publish detailed and comprehensive data from         of clinical contexts and patient populations.
+their studies, including number of TP, TN, FP, FN, cutoff values used            The panel acknowledged that the prevalence of brain amyloid in
+and method for determining cutoff (e.g., Youden’s index or fixed Sn or        people with cognitive impairment has varied across populations where
+Sp), data for multiple cutoffs (if applicable), detailed ROC curves, and      it has been studied, and there are many other clinical populations
+methodological details about the conduct of the studies that inform           where amyloid testing with gold standard tests (PET or lumbar punc-
+their quality and risk of bias (e.g., random or consecutive sampling;         ture or post mortem pathology) has been quite limited. Additionally, a
+BBM test results interpreted without knowledge of the results of the          given patient’s pretest probability for AD will vary according to clinical
+reference standard).78                                                        presentation and known risk factors.26
+   While prices for some commercially available BBM tests have been              At this stage, the panel has only considered individual biomark-
+reported, further research is needed to evaluate their relative cost and      ers (including ratios that use a reference peptide as the denominator)
+PALMQVIST ET AL .                                                                                                                              13 of 17
+
+
+rather than combinations of multiple biomarkers. The panel deliber-          evidence-to-decision research collection. The authors also acknowl-
+ately chose to focus on individual biomarkers initially to evaluate com-     edge the support and contributions of Alzheimer’s Association staff
+binations in subsequent phases. The panel is aware that combinations         including Srilatha Raghuram, PhD, Lycia Tramujas Vasconcellos Neu-
+of biomarkers, such as the p-tau217/Aβ42 ratio or a fixed combina-           mann, PhD, Ozama Ismail, PhD, Emily Meyers, PhD, Emily Larson,
+tion of Aβ42/Aβ40 and a p-tau217 ratio, are being commercialized and         and Nancy Cullen. The Alzheimer’s Association sent the opportunity
+provided to clinicians.                                                      for public comment to the following organizations and agencies and
+    Because new BBM tests are continually becoming available to clin-        thank them for any efforts to collect and share feedback with the
+icians, the panel decided not to limit eligibility criteria to tests that    authors of this panel: Alzheimer’s Research UK, CEOi blood biomarker
+were commercially available at the time of this review. As a result, the     workgroup, The American Society for Clinical Pathology, Alzheimer’s
+evidence base includes tests that may currently be commercially and          Europe, Alzheimer’s Disease International, American Academy of Neu-
+not commercially available, including those that are clinically available,   rology, American Nurses Association, American Association of Nurse
+or for research use only.                                                    Practitioners, American Geriatrics Society, Gerontological Society of
+    Lastly, several studies have been published since our latest litera-     America, American Academy of Family Physicians, National Asso-
+ture search update in November 2024. These newer studies were not            ciation of Community Health Centers, American College of Physi-
+included in the current analysis but will be considered for inclusion in     cians, International Federation of Clinical Chemistry and Laboratory
+future iterations of this guideline as part of ongoing efforts to ensure     Medicine, Food and Drug Administration, Centers for Medicare & Med-
+recommendations reflect the most up-to-date evidence.                        icaid Services, NIH/NIA, Japan’s Pharmaceuticals & Medical Devices
+                                                                             Agency (PMDA), European Medicines Agency, Health Canada, World
+                                                                             Dementia Council, National Institute of Standards and Technology. This
+5       CONCLUSION                                                           Clinical Practice Guideline was funded by the Alzheimer’s Associa-
+                                                                             tion, but it was not involved in formulating the clinical questions or
+The key recommendations in this CPG are that for the detection of            recommendations.
+amyloid pathology in patients with objective cognitive impairment
+presenting to specialized care settings: (1) BBM tests with ≥90% sensi-      CONFLICT OF INTEREST STATEMENT
+tivity and ≥ 75% specificity can be used as a triaging test and (2) BBM      Dr. Palmqvist receives grant funding for research related to AD from
+tests with ≥90% sensitivity and specificity can serve as a substitute for    Avid and ki elements through the Alzheimer’s Drug Discovery Founda-
+amyloid PET imaging or CSF AD biomarker testing.                             tion (paid to his institution) and in the past 36 months he has received
+    The panel cautions users of this guideline that there is significant     consultancy/speaker fees from BioArtic, Biogen, Eisai, Eli Lilly, Novo
+variability in diagnostic test accuracy, and many commercially avail-        Nordisk, and Roche. Dr. Whitson receives grant funding in the diag-
+able BBM tests do not meet these thresholds, especially using a single       nostic AD space from the National Institute of Aging (NIA) (paid to
+cutoff. Additionally, these tests do not serve as a substitute for compre-   her institution) and has served in speaking/education/advisory roles
+hensive clinical evaluation by a healthcare professional and should be       from UpToDate Inc., DrivenData Inc., ClinSTAR, American Federa-
+used only as part of a full diagnostic workup of patients with cognitive     tion for Aging Research, and universities (unrelated to the topic) in
+impairment presenting to specialized care settings, and with careful         the past 36 months. Dr. Suarez-Calvet has received grant funding for
+consideration of pretest probability of AD pathology.                        research in the blood and diagnostic AD space from Agència de Gestió
+                                                                             d’Ajuts Universitaris i de Recerca (AGAUR), Instituto de Salud Car-
+ACKNOWLEDGMENTS                                                              los III, European Commission, Fundació “la Caixa,” European Union
+The authors acknowledge Oskar Hansson, MD, PhD, for his con-                 and Health Department, HNA Foundation, and Roche Diagnostics
+tributions as the previous panel chair, including his leadership in          International Ltd. (paid to his institution) and has served in paid advi-
+the initial scoping and set-up of the project and his subject mat-           sory roles for Roche Diagnostics International Ltd., Roche Diagnostics,
+ter expertise. The authors also acknowledge Sheena Aurora, MD,               Roche Farma, S.A., Almirall, Eli Lilly, Quanterix, Novo Nordisk, and Gri-
+for sharing her clinical perspective and expertise during the final          fols (paid to him and his institution) in the past 36 months and has
+stages of development. The authors also acknowledge the contri-              reported no other direct financial or intellectual COIs related to the
+butions of Bernardo Sousa Pinto, MD, PhD, and Rafael José Vieira,            guideline topic that may impact or bias recommendations for/against
+MD, PhD, as data analysts for the associated systematic review. The          the use of blood-based biomarkers. Dr. Galasko has received speak-
+authors also acknowledge Noelle Warmenhoven, MSc, PhD(c), Lind-              ing/education/advisory fees from Fujirebio, Inc., Biogen Inc., Eisai Inc.,
+sey Kuchenbecker, PhD(c), Anna Hoffman, MD, Jose Contador, MD,               Roche Diagnostics, and Janssen related to treatment and diagnosis
+PhD, Thomas Claessan, MD, Yara Yakoub, PhD(c), and Luiza S. Machado          of AD in the past 36 months (paid to him and his institution). Dr.
+PhD(c) for their expert efforts in study selection, data extraction,         Karikari has consulted for Quanterix Corporation, SpearBio Inc., Neu-
+and risk of bias assessments that informed panel judgments. The              rogen Biomarking LLC., and Alzheon, has served on advisory boards for
+authors also acknowledge Farid Foroutan, PhD, for providing method-          Siemens Healthineers and Neurogen Biomarking LLC., outside the sub-
+ological guidance related to diagnostic test accuracy and Chelsea            mitted work (paid to him), has received in-kind research support from
+Perfect, MD, and Janice Jhang, PhD(c), for their contributions to the        Janssen Research Laboratories, SpearBio Inc., and Alamar Biosciences,
+14 of 17                                                                                                                               PALMQVIST ET AL .
+
+
+as well as meeting travel support from the Alzheimer’s Association          WebMD Health Corp, LabCorp, Oy Medics (paid to him) in the past 36
+and Neurogen Biomarking LLC., outside the submitted work (paid to           months. Ms. Allen, Dr. Kahale, Ms. McAteer, and Ms.Paczynski report
+him and his institution), has has received royalties from Bioventix for     no indirect or direct financial or intellectual COIs related to the guide-
+the transfer of specific antibodies and assays to third party organiza-     line topic that may impact or bias recommendations for/against the use
+tions (paid to him), has received honoraria for speaker/grant review        of blood-based biomarkers. Dr. Carillo, Dr. Edelmeyer, Dr. Mahinrad,
+engagements from the NIH, UPENN, UW-Madison, the Cherry Blos-               Ms. Pahlke, and Ms. Tampi are full time employees of the Alzheimer’s
+som symposium, the HABS-HD/ADNI4 Health Enhancement Scientific              Association. The Alzheimer’s Association funds research in numer-
+Program, Advent Health Translational Research Institute, Brain Health       ous areas. The terms and conditions of its research awards contain
+conference, Barcelona-Pittsburgh conference, the International Neu-         a standard provision that requires the awardee to share with the
+ropsychological Society, the Icahn School of Medicine at Mount Sinai        Alzheimer’s Association revenue derived from the licensing of intellec-
+and the Quebec Center for Drug Discovery, Canada, all outside of the        tual property resulting from the funded research. A research award
+submitted work (paid to him), is an inventor on several patents and         made to Washington University in St. Louis led to the development
+provisional patents regarding biofluid biomarker methods, targets and       of technology for the measurement of pTau-217. This technology was
+reagents/compositions, that may generate income for the institution         subsequently licensed to C2N Diagnostics. In accordance with the
+and/or self should they be licensed and/or transferred to another orga-     terms and condition of its award, Washington University shares a
+nization including WO2020193500A1: Use of a ps396 assay to diag-            portion of the licensing fees that the University receives for this tech-
+nose tauopathies; US 63/679,361: Methods to Evaluate Early-Stage            nology with the Alzheimer’s Association. The Alzheimer’s Association
+Pre-Tangle TAU Aggregates and Treatment of Alzheimer’s Disease              is not a party to the licensing agreement between Washington Uni-
+Patients; US 63/672,952: Method for the Quantification of Plasma            versity and C2N Diagnostics, and did not participate in its negotiation.
+Amyloid-Beta Biomarkers in Alzheimer’s Disease; US 63/693,956:              ICMJE forms for all authors are published in the Supplementary Mate-
+Anti-tau Protein Antigen Binding Reagents; and 2450702-2: Detection         rials. Author disclosures are available in the Supporting Information.
+of oligomeric tau and soluble tau aggregates. Dr. Okrahvi has received      Conflicts of interest management process: Conflicts of interest were
+grant funding for AD research from the Eastern Virginia Medical             managed using predetermined rules set by the Alzheimer’s Association
+School-Sentara Affiliation Funds, Optina Diagnostics, NIH, Common-          to minimize bias. The Alzheimer’s Association Rules for the Disclo-
+wealth Health Research Board, and Eli Lilly (paid to his institution),      sure and Management of Clinical Guidance Panel Conflicts of Interest
+and has served in a consulting role with Optina Diagnostics (paid to        are provided here: https://www.alz.org/professionals/health-systems-
+his institution) in the past 36 months. Dr. Schindler has received grant    medical-professionals/clinical-practice-guidelines-and-evidence.
+funding for research directly related to this topic from the NIA (paid
+to her institution), and has served in speaking/advisory roles for blood-
+                                                                            REFERENCES
+based biomarker research for Eli Lilly, Novo Nordisk, Eisai, Medscape,
+                                                                             1. Alzheimer’s Association 2025 Alzheimer’s disease facts and figures.
+and universities (paid directly to her), and unpaid speaking/advisory           2025;21(5):e70235.
+roles with Eisai, Danaher, Eli Lilly, and the World Health Organization      2. Hansson O. Biomarkers for neurodegenerative diseases. Nat Med.
+in the past 36 months. Dr. Teunissen has received grant funding for             2021;27:954-963. doi:10.1038/s41591-021-01382-x
+                                                                             3. Jack CR, Andrews JS, Beach TG, et al. Revised criteria for diag-
+research related to AD biomarkers from European Commission, Inno-
+                                                                                nosis and staging of Alzheimer’s disease: Alzheimer’s Association
+vative Medicines Initiatives 3TR, European Platform for Neurodegen-             Workgroup. Alzheimers Dement. 2024;20:5143-5169. doi:10.1002/
+erative Diseases, EU Joint Programme—Neurodegenerative Disease                  alz.13859
+Research, European Partnership on Metrology/EU Horizon Europe                4. Beach TG, Monsell SE, Phillips LE, Kukull W. Accuracy of the clin-
+                                                                                ical diagnosis of Alzheimer disease at National Institute on Aging
+Research and Innovation Programme, CANTATE project funded by
+                                                                                Alzheimer Disease Centers, 2005-2010. J Neuropathol Exp Neurol.
+the Alzheimer Drug Discovery Foundation, Alzheimer Association,                 2012;71:266-273. doi:10.1097/NEN.0b013e31824b211b
+Michael J. Fox Foundation, Health Holland, the Dutch Research Coun-          5. Palmqvist S, Tideman P, Mattsson-Carlgren N, et al. Blood biomarkers
+cil (ZonMW), Alzheimer Drug Discovery Foundation, The Selfridges                to detect Alzheimer disease in primary care and secondary care. JAMA.
+                                                                                2024;332:1245-1257. doi:10.1001/jama.2024.13855
+Group Foundation, Alzheimer Netherlands (paid to her institution), has
+                                                                             6. Rabinovici GD, Gatsonis C, Apgar C, et al. Association of amyloid
+research contracts with contracts with Acumen, ADx Neurosciences,
+                                                                                positron emission tomography with subsequent change in clinical man-
+AC-Immune, Alamar, Aribio, Axon Neurosciences, Beckman-Coulter,                 agement among Medicare beneficiaries with mild cognitive impair-
+BioConnect, Bioorchestra, Brainstorm Therapeutics, Celgene, Cog-                ment or dementia. JAMA. 2019;321:1286. doi:10.1001/jama.2019.
+nition Therapeutics, EIP Pharma, Eisai, Eli Lilly, Fujirebio, Instant           2000
+                                                                             7. Dickerson BC, Atri A, Clevenger C, et al. The Alzheimer’s Association
+Nano Biosensors, Novo Nordisk, Olink, PeopleBio, Quanterix, Roche,
+                                                                                clinical practice guideline for the diagnostic evaluation, testing, coun-
+Toyama, Vivoryon, and has consultancy/speaker contracts for Aribio,             seling, and disclosure of suspected alzheimer’s disease and related
+Biogen, Beckman-Coulter, Cognition Therapeutics, Eisai, Eli Lilly,              disorders (DETeCD-ADRD): executive summary of recommendations
+Merck, Novo Nordisk, Novartis, Olink, Roche, Sanofi and Veravas (paid           for specialty care. Alzheimers Dement. 2025;21:e14337. doi:10.1002/
+                                                                                alz.14337
+to her institution) in the past 36 months. Dr. Zetterberg has served in
+                                                                             8. VandeVrede L, Schindler SE. Clinical use of biomarkers in the era of
+speaker/advisory/consulting roles for Denali, Apellis, Siemens, Biogen,         Alzheimer’s disease treatments. Alzheimers Dement. 2025;21:e14201.
+Roche, Neumora Therapeutics Inc., Novo Nordisk, Amylyx, Enigma,                 doi:10.1002/alz.14201
+PALMQVIST ET AL .                                                                                                                                 15 of 17
+
+
+ 9. van Dyck CH, Swanson CJ, Aisen P, et al. Lecanemab in early               28. Balshem H, Helfand M, Schünemann HJ, et al. GRADE guidelines:
+    Alzheimer’s disease. N Engl J Med. 2023;388:9-21. doi:10.1056/                3. Rating the quality of evidence. J Clin Epidemiol. 2011;64:401-406.
+    NEJMoa2212948                                                                 doi:10.1016/j.jclinepi.2010.07.015
+10. Sims JR, Zimmer JA, Evans CD, et al. Donanemab in early symptomatic       29. Andrews J, Guyatt G, Oxman AD, et al. GRADE guidelines: 14. Going
+    Alzheimer disease: the TRAILBLAZER-ALZ 2 randomized clinical trial.           from evidence to recommendations: the significance and presentation
+    JAMA. 2023;330:512-527. doi:10.1001/jama.2023.13239                           of recommendations. J Clin Epidemiol. 2013;66:719-725. doi:10.1016/
+11. Budd Haeberlein S, Aisen PS, Barkhof F, et al. Two randomized phase 3         j.jclinepi.2012.03.013
+    studies of aducanumab in early Alzheimer’s disease. J Prev Alzheimers     30. Andrews JC, Schünemann HJ, Oxman AD, et al. GRADE guidelines: 15.
+    Dis. 2022;9:197-210. doi:10.14283/jpad.2022.30                                Going from evidence to recommendation—determinants of a recom-
+12. Cummings J, Apostolova L, Rabinovici GD, et al. Lecanemab: appro-             mendation’s direction and strength. J Clin Epidemiol. 2013;66:726-735.
+    priate use recommendations. J Prev Alzheimers Dis. 2023;10:362-377.           doi:10.1016/j.jclinepi.2013.02.003
+    doi:10.14283/jpad.2023.30                                                 31. Ashton NJ, Janelidze S, Mattsson-Carlgren N, et al. Differential roles
+13. Rabinovici GD, Selkoe DJ, Schindler SE, et al. Donanemab: appropriate         of Aβ42/40, p-tau231 and p-tau217 for Alzheimer’s trial selection
+    use recommendations. J Prev Alzheimers Dis. 2025;12:100150. doi:10.           and disease monitoring. Nat Med. 2022;28:2555-2562. doi:10.1038/
+    1016/j.tjpad.2025.100150                                                      s41591-022-02074-w
+14. Hansson O, Blennow K, Zetterberg H, Dage J. Blood biomarkers              32. Barthélemy NR, Salvadó G, Schindler SE, et al. Highly accurate blood
+    for Alzheimer’s disease in clinical practice and trials. Nat Aging.           test for Alzheimer’s disease is similar or superior to clinical cere-
+    2023;3:506-519. doi:10.1038/s43587-023-00403-3                                brospinal fluid tests. Nat Med. 2024;30:1085-1095. doi:10.1038/
+15. Schindler SE, Galasko D, Pereira AC, et al. Acceptable performance of         s41591-024-02869-z
+    blood biomarker tests of amyloid pathology—recommendations from           33. Benedet AL, Brum WS, Hansson O, et al. The accuracy and robustness
+    the Global CEO Initiative on Alzheimer’s Disease. Nat Rev Neurol.             of plasma biomarker models for amyloid PET positivity. Alzheimers Res
+    2024;20:426-439. doi:10.1038/s41582-024-00977-5                               Ther. 2022;14:26. doi:10.1186/s13195-021-00942-0
+16. Warmenhoven N, Salvadó G, Janelidze S, et al. A comprehensive head-       34. Bermudez C, Graff-Radford J, Syrjanen JA, et al. Plasma biomarkers
+    to-head comparison of key plasma phosphorylated tau 217 biomarker             for prediction of Alzheimer’s disease neuropathologic change. Acta
+    tests. MedRxiv Prepr Serv Health Sci. 2024. doi:10.1093/brain/awae346         Neuropathol. 2023;146:13-29. doi:10.1007/s00401-023-02594-w
+17. Schindler SE, Petersen KK, Saef B, et al. Head-to-head compar-            35. Brum WS, Cullen NC, Janelidze S, et al. A two-step workflow based on
+    ison of leading blood tests for Alzheimer’s disease pathology.                plasma p-tau217 to screen for amyloid β positivity with further confir-
+    Alzheimers       Demen.      2024;20:8074-8096.        doi:10.1002/alz.       matory testing only in uncertain cases. Nat Aging. 2023;3:1079-1090.
+    14315                                                                         doi:10.1038/s43587-023-00471-5
+18. Hansson O, Edelmayer RM, Boxer AL, et al. The Alzheimer’s Asso-           36. Bucci M, Bluma M, Savitcheva I, et al. Profiling of plasma biomarkers in
+    ciation appropriate use recommendations for blood biomarkers in               the context of memory assessment in a tertiary memory clinic. Transl
+    Alzheimer’s disease. Alzheimers Dement. 2022;18:2669-2686. doi:10.            Psychiatry. 2023;13:268. doi:10.1038/s41398-023-02558-4
+    1002/alz.12756                                                            37. Chatterjee P, Pedrini S, Doecke JD, et al. Plasma Aβ42/40 ratio, p-
+19. Pahlke SC, et al. Blood-based biomarkers for detecting Alzheimer’s            tau181, GFAP, and NfL across the Alzheimer’s disease continuum: a
+    disease pathology in cognitively impaired individuals within spe-             cross-sectional and longitudinal study in the AIBL cohort. Alzheimers
+    cialty care settings: a systematic review and meta-Analysis. Alzheimers       Dement. 2023;19:1117-1134. doi:10.1002/alz.12724
+    Dement. Submitted.                                                        38. Fowler CJ, Stoops E, Rainey-Smith SR, et al. Plasma p-tau181/Aβ1-42
+20. Brouwers MC, Kerkvliet K, Spithoff K. The AGREE Reporting Check-              ratio predicts Aβ-PET status and correlates with CSF-p-tau181/Aβ1-42
+    list: a tool to improve reporting of clinical practice guidelines. BMJ.       and future cognitive decline. Alzheimers Dement. 2022;14:e12375.
+    2016;352:i1152.                                                               doi:10.1002/dad2.12375
+21. Schunemann HJ, Wiercioch W, Etxeandia I, et al. Guidelines 2.0: sys-      39. Giuffrè GM, Quaranta D, Vita MG, et al. Performance of
+    tematic development of a comprehensive checklist for a successful             fully-automated high-throughput plasma biomarker assays for
+    guideline enterprise. CMAJ. 2014;186(3):E123-E142.                            Alzheimer’s disease in amnestic mild cognitive impairment sub-
+22. Rabinovici GD, Knopman DS, Arbizu J, et al. Updated appropriate               jects. J Prev Alzheimers Dis. 2024;11:1073-1078. doi:10.14283/jpad.
+    use criteria for amyloid and tau PET: a report from the Alzheimer’s           2024.58
+    Association and Society for Nuclear Medicine and Molecular Imag-          40. Groot C, Cicognola C, Bali D, et al. Diagnostic and prognostic perfor-
+    ing Workgroup. Alzheimers Dement. 2025;21:e14338. doi:10.1002/alz.            mance to detect Alzheimer’s disease and clinical progression of a novel
+    14338                                                                         assay for plasma p-tau217. Alzheimers Res Ther. 2022;14:67. doi:10.
+23. Ashton NJ, Keshavan A, Brum WS, et al. The Alzheimer’s Associa-               1186/s13195-022-01005-8
+    tion Global Biomarker Standardization Consortium (GBSC) plasma            41. Hu Y, Kirmess KM, Meyer MR, et al. Assessment of a plasma
+    phospho-tau Round Robin study. Alzheimers Dement. 2025;21:e14508.             amyloid probability score to estimate amyloid positron emission
+    doi:10.1002/alz.14508                                                         tomography findings among adults with cognitive impairment. JAMA
+24. WebPlotDigitizer. Version 4.6. Ankit Rohatgi; 2021. Accessed May 6,           Netw Open. 2022;5:e228392. doi:10.1001/jamanetworkopen.2022.
+    2025. https://automeris.io/                                                   8392
+25. Guyatt GH, Oxman AD, Kunz R, et al. What is “quality of evidence”         42. Janelidze S, Bali D, Ashton NJ, et al. Head-to-head comparison of 10
+    and why is it important to clinicians?. BMJ. 2008;336:995-998. doi:10.        plasma phospho-tau assays in prodromal Alzheimer’s disease. Brain J
+    1136/bmj.39490.551019.BE                                                      Neurol. 2023;146:1592-1601. doi:10.1093/brain/awac333
+26. Jansen WJ, Janssen O, Tijms BM, et al. Prevalence estimates of            43. Janelidze S, Palmqvist S, Leuzy A, et al. Detecting amyloid pos-
+    amyloid abnormality across the Alzheimer disease clinical spec-               itivity in early Alzheimer’s disease using combinations of plasma
+    trum. JAMA Neurol. 2022;79:228. doi:10.1001/jamaneurol.2021.                  Aβ42/Aβ40 and p-tau. Alzheimers Dement. 2022;18:283-293. doi:10.
+    5216                                                                          1002/alz.12395
+27. Alonso-Coello P, Oxman AD, Moberg J, et al. GRADE Evidence to Deci-       44. Jang H, Kim JS, Lee HJ, et al. Performance of the plasma Aβ42/Aβ40
+    sion (EtD) frameworks: a systematic and transparent approach to mak-          ratio, measured with a novel HPLC-MS/MS method, as a biomarker of
+    ing well informed healthcare choices. 2: clinical practice guidelines.        amyloid PET status in a DPUK-KOREAN cohort. Alzheimers Res Ther.
+    BMJ. 2016;353:i2089. doi:10.1136/bmj.i2089                                    2021;13:179. doi:10.1186/s13195-021-00911-7
+16 of 17                                                                                                                                 PALMQVIST ET AL .
+
+
+45. Karikari TK, Benedet AL, Ashton NJ, et al. Diagnostic performance         61. Yang Z, Sreenivasan K, Toledano Strom EN, et al. Clinical and biolog-
+    and prediction of clinical progression of plasma phospho-tau181               ical relevance of glial fibrillary acidic protein in Alzheimer’s disease.
+    in the Alzheimer’s Disease Neuroimaging Initiative. Mol Psychiatry.           Alzheimers Res Ther. 2023;15:190. doi:10.1186/s13195-023-01340-4
+    2021;26:429-442. doi:10.1038/s41380-020-00923-z                           62. Feizpour A, Doecke JD, Doré V, et al. Detection and staging
+46. Karikari TK, Pascoal TA, Ashton NJ, et al. Blood phosphorylated tau           of Alzheimer’s disease by plasma pTau217 on a high through-
+    181 as a biomarker for Alzheimer’s disease: a diagnostic perfor-              put immunoassay platform. EBioMedicine. 2024;109:105405. doi:10.
+    mance and prediction modelling study using data from four prospec-            1016/j.ebiom.2024.105405
+    tive cohorts. Lancet Neurol. 2020;19:422-433. doi:10.1016/S1474-          63. Cecchetti G, Agosta F, Rugarli G, et al. Diagnostic accuracy of auto-
+    4422(20)30071-5                                                               mated Lumipulse plasma pTau-217 in Alzheimer’s disease: a real-
+47. Kwon HS, Lee E, Kim H, et al. Predicting amyloid PET positivity               world study. J Neurol. 2024;271:6739-6749. doi:10.1007/s00415-
+    using plasma p-tau181 and other blood-based biomarkers. Alzheimers            024-12631-7
+    Dement. 2023;15:e12502. doi:10.1002/dad2.12502                            64. Figdore DJ, Griswold M, Bornhorst JA, et al. Optimizing cutpoints for
+48. Lehmann S, Schraen-Maschke S, Vidal J-S, et al. Plasma phosphory-             clinical interpretation of brain amyloid status using plasma p-tau217
+    lated tau 181 predicts amyloid status and conversion to dementia              immunoassays. Alzheimers Dement. 2024;20:6506-6516. doi:10.1002/
+    stage dependent on renal function. J Neurol Neurosurg Psychiatry.             alz.14140
+    2023;94:411-419. doi:10.1136/jnnp-2022-330540                             65. Dyer AH, Dolphin H, O’Connor A, et al. Performance of plasma p-
+49. Mattsson-Carlgren N, Collij LE, Stomrud E, et al. Plasma biomarker            tau217 for the detection of amyloid-β positivity in a memory clinic
+    strategy for selecting patients with Alzheimer disease for antiamyloid        cohort using an electrochemiluminescence immunoassay. Alzheimers
+    immunotherapies. JAMA Neurol. 2024;81:69. doi:10.1001/jamaneurol.             Res Ther. 2024;16:186. doi:10.1186/s13195-024-01555-z
+    2023.4596                                                                 66. Parvizi T, Wurm R, König T, et al. Real-world performance of plasma
+50. Meyer MR, Kirmess KM, Eastwood S, et al. Clinical validation of the           p-tau181 in a heterogeneous memory clinic cohort. Ann Clin Transl
+    PrecivityAD2 blood test: a mass spectrometry-based test with algo-            Neurol. 2024;11:1988-1998. doi:10.1002/acn3.52116
+    rithm combining %p-tau217 and Aβ42/40 ratio to identify presence of       67. Devanarayan V, Doherty T, Charil A, et al. Plasma pTau217 predicts
+    brain amyloid. Alzheimers Dement. 2024;20:3179-3192. doi:10.1002/             continuous brain amyloid levels in preclinical and early Alzheimer’s
+    alz.13764                                                                     disease. Alzheimers Dement. 2024;20:5617-5628. doi:10.1002/
+51. Mielke MM, Frank RD, Dage JL, et al. Comparison of plasma phospho-            alz.14073
+    rylated tau species with amyloid and tau positron emission tomogra-       68. Arranz J, Zhu N, Rubio-Guerra S, et al. Diagnostic performance of
+    phy, neurodegeneration, vascular pathology, and cognitive outcomes.           plasma pTau217, pTau181, Aβ1-42 and Aβ1-40 in the LUMIPULSE
+    JAMA Neurol. 2021;78:1108. doi:10.1001/jamaneurol.2021.2293                   automated platform for the detection of Alzheimer disease. Alzheimers
+52. Moscoso A, Karikari TK, Grothe MJ, et al. CSF biomarkers and plasma           Res Ther. 2024;16:139. doi:10.1186/s13195-024-01513-9
+    p-tau181 as predictors of longitudinal tau accumulation: implica-         69. Cousins KAQ, Phillips JS, Das SR, et al. Pathologic and cognitive cor-
+    tions for clinical trial design. Alzheimers Dement. 2022;18:2614-2626.        relates of plasma biomarkers in neurodegenerative disease. Alzheimers
+    doi:10.1002/alz.12570                                                         Dement. 2024;20:3889-3905. doi:10.1002/alz.13777
+53. Ni M, Zhu Z-H, Gao F, et al. Plasma core alzheimer’s disease biomark-     70. Giacomucci G, Mazzeo S, Ingannato A, et al. Future perspective and
+    ers predict amyloid deposition burden by positron emission tomogra-           clinical applicability of the combined use of plasma phosphorylated
+    phy in Chinese individuals with cognitive decline. ACS Chem Neurosci.         tau 181 and neurofilament light chain in subjective cognitive decline
+    2023;14:170-179. doi:10.1021/acschemneuro.2c00636                             and mild cognitive impairment. Sci Rep. 2024;14:11307. doi:10.1038/
+54. Palmqvist S, Janelidze S, Quiroz YT, et al. Discriminative accuracy           s41598-024-61655-6
+    of plasma phospho-tau217 for Alzheimer disease vs other neurode-          71. Dakterzada F, Cipriani R, López-Ortega R, et al. Assessment of
+    generative disorders. JAMA. 2020;324:772. doi:10.1001/jama.2020.              the correlation and diagnostic accuracy between cerebrospinal fluid
+    12134                                                                         and plasma Alzheimer’s disease biomarkers: a comparison of the
+55. Palmqvist S, Janelidze S, Stomrud E, et al. Performance of fully              Lumipulse and Simoa platforms. Int J Mol Sci. 2024;25:4594. doi:10.
+    automated plasma assays as screening tests for Alzheimer disease–             3390/ijms25094594
+    related β-amyloid status. JAMA Neurol. 2019;76:1060. doi:10.1001/         72. Quispialaya KM, Therriault J, Aliaga A, et al. Plasma phosphorylated
+    jamaneurol.2019.1632                                                          tau181 outperforms [ 18 F] fluorodeoxyglucose positron emission
+56. Palmqvist S, Stomrud E, Cullen N, et al. An accurate fully auto-              tomography in the identification of early Alzheimer disease. Eur J
+    mated panel of plasma biomarkers for Alzheimer’s disease. Alzheimers          Neurol. 2024;31:e16255. doi:10.1111/ene.16255
+    Dement. 2023;19:1204-1215. doi:10.1002/alz.12751                          73. Gildengers A, Weinstein AM, Gujral S, et al. Where do plasma
+57. Thijssen EH, La Joie R, Strom A, et al. Plasma phosphorylated tau 217         biomarkers fit in with current Alzheimer’s disease detection? Am
+    and phosphorylated tau 181 as biomarkers in Alzheimer’s disease and           J Geriatr Psychiatry. 2025;33:428-437. doi:10.1016/j.jagp.2024.09.
+    frontotemporal lobar degeneration: a retrospective diagnostic per-            015
+    formance study. Lancet Neurol. 2021;20:739-752. doi:10.1016/S1474-        74. Quaresima V, Pilotto A, Trasciatti C, et al. Plasma p-tau181 and
+    4422(21)00214-3                                                               amyloid markers in Alzheimer’s disease: a comparison between
+58. Thijssen EH, La Joie R, Wolf A, et al. Diagnostic value of plasma phos-       Lumipulse and SIMOA. Neurobiol Aging. 2024;143:30-40. doi:10.1016/
+    phorylated tau181 in Alzheimer’s disease and frontotemporal lobar             j.neurobiolaging.2024.08.007
+    degeneration. Nat Med. 2020;26:387-397. doi:10.1038/s41591-020-           75. Niimi Y, Janelidze S, Sato K, et al. Combining plasma Aβ and p-
+    0762-2                                                                        tau217 improves detection of brain amyloid in non-demented elderly.
+59. Tosun D, Veitch D, Aisen P, et al. Detection of β-amyloid positiv-            Alzheimers Res Ther. 2024;16:115. doi:10.1186/s13195-024-01469-w
+    ity in Alzheimer’s Disease Neuroimaging Initiative participants with      76. Howe MD, Britton KJ, Joyce HE, et al. Clinical application of plasma
+    demographics, cognition, MRI and plasma biomarkers. Brain Commun.             P-tau217 to assess eligibility for amyloid-lowering immunotherapy in
+    2021;3:fcab008. doi:10.1093/braincomms/fcab008                                memory clinic patients with early Alzheimer’s disease. Alzheimers Res
+60. Yamashita K, Miura M, Watanabe S, et al. Fully automated and highly           Ther. 2024;16:154. doi:10.1186/s13195-024-01521-9
+    specific plasma β-amyloid immunoassays predict β-amyloid status           77. Verberk IMW, Misdorp EO, Koelewijn J, et al. Characteriza-
+    defined by amyloid positron emission tomography with high accuracy.           tion of pre-analytical sample handling effects on a panel of
+    Alzheimers Res Ther. 2022;14:86. doi:10.1186/s13195-022-01029-0               Alzheimer’s disease-related blood-based biomarkers: results from the
+PALMQVIST ET AL .                                                                                                                    17 of 17
+
+
+    Standardization of Alzheimer’s Blood Biomarkers (SABB) working
+    group. Alzheimers Dement J Alzheimers Assoc. 2022;18:1484-1497.     How to cite this article: Palmqvist S, Whitson HE, Allen LA,
+    doi:10.1002/alz.12510                                               et al. Alzheimer’s Association Clinical Practice Guideline on the
+78. Whiting PF, Rutjes AWS, Westwood ME, et al. QUADAS-2: a revised
+                                                                        use of blood-based biomarkers in the diagnostic workup of
+    tool for the quality assessment of diagnostic accuracy studies.
+    Ann Intern Med. 2011;155:529-536. doi:10.7326/0003-4819-155-8-      suspected Alzheimer’s disease within specialized care settings.
+    201110180-00009                                                     Alzheimer’s Dement. 2025;21:e70535.
+                                                                        https://doi.org/10.1002/alz.70535
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Support-
+ing Information section at the end of this article.
+

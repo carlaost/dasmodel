@@ -1,0 +1,889 @@
+                                    Article                                                                                                  https://doi.org/10.1038/s41467-024-54878-8
+
+
+                                    Immunoassay detection of
+                                    multiphosphorylated tau proteoforms as
+                                    cerebrospinal ﬂuid and plasma Alzheimer’s
+                                    disease biomarkers
+
+                                    Received: 12 March 2024                             Anna L. Wojdała 1,2 , Giovanni Bellomo                  1
+                                                                                                                                                   , Lorenzo Gaetani 1,
+                                                                                        Charlotte E. Teunissen 2, Lucilla Parnetti             1
+                                                                                                                                                       & Davide Chiasserini      3
+                                    Accepted: 21 November 2024
+
+
+
+1234567890():,;   1234567890():,;
+                                                                                        Different forms of phosphorylated tau (p-tau) have shown strong potential as
+                                        Check for updates                               Alzheimer’s disease (AD) biomarkers in both cerebrospinal ﬂuid (CSF) and
+                                                                                        plasma. We hypothesized that p-tau proteoforms simultaneously phosphory-
+                                                                                        lated at two different sites may have an increased diagnostic value compared
+                                                                                        with tau phosphorylated at a single site. Here, we developed two immu-
+                                                                                        noassays detecting CSF and plasma tau simultaneously phosphorylated at
+                                                                                        both T181 and T231 (p-tau181&231) and at T217 and T231 (p-tau217&231).
+                                                                                        Subsequently, we measured CSF and plasma p-tau181&231, p-tau217&231, p-
+                                                                                        tau181, p-tau217, and p-tau231 levels in two cohorts across the AD continuum
+                                                                                        and in frontotemporal dementia (FTD) patients (discovery n = 55, validation
+                                                                                        n = 118). CSF and plasma p-tau217&231, p-tau181, p-tau217, and p-tau231 and
+                                                                                        CSF, but not plasma, p-tau181&231 were signiﬁcantly elevated in all AD con-
+                                                                                        tinuum groups vs. Neurological Disease Control group. Notably, plasma p-
+                                                                                        tau217&231 consistently showed an improved diagnostic performance com-
+                                                                                        pared with single-site phosphorylation assays – p-tau217 or p-tau231. The dif-
+                                                                                        ferences observed between CSF and plasma measurements suggest matrix-
+                                                                                        speciﬁc protein processing, underscoring the need for further research on the
+                                                                                        dynamics of tau phosphorylation pattern along the AD continuum.
+
+
+                                    Alzheimer’s disease (AD) is the most common neurodegenerative                 Thanks to development of ultrasensitive technologies that extend
+                                    disease, with an escalating global impact on public health1,2. With ﬁrst      the range of measurable protein concentrations in body ﬂuids, last
+                                    disease-modifying therapies becoming available, early diagnosis of AD,        decade has seen a substantial increase of studies exploring the
+                                    prior to clinical manifestation, is of utmost importance3–5. Cere-            diagnostic potential of AD biomarkers in blood-derived matrices.
+                                    brospinal ﬂuid (CSF) measurement of amyloid-beta (Aβ) peptides and            Compared with CSF collection, blood sampling is a less invasive
+                                    of different forms of tau phosphorylated (p-tau) at single sites (pre-        procedure that can be conducted by a broad range of healthcare
+                                    dominantly – threonine (T) 181 (p-tau181), T205 (p-tau205), T212 (p-          professionals, without speciﬁc expertise or equipment needed.
+                                    tau212), T217 (p-tau217), and T231 (p-tau231)), allows for the identiﬁ-       Importantly, blood allows for repeated sampling, which is essential
+                                    cation of AD with high accuracy, effectively discriminating AD cases          for longitudinal studies and for monitoring the effects of disease-
+                                    from control subjects and from other neurodegenerative diseases6–11.          modifying therapies. Similarly to the ﬁndings in CSF, several
+
+
+                                    1
+                                     Laboratory of Clinical Neurochemistry, Section of Neurology, Department of Medicine and Surgery, University of Perugia, Perugia, Italy. 2Neurochemistry
+                                    Laboratory, Department of Laboratory Medicine, Amsterdam UMC, Amsterdam, the Netherlands. 3Section of Physiology and Biochemistry, Department of
+                                    Medicine and Surgery, University of Perugia, Perugia, Italy.  e-mail: a.l.wojdala@amsterdamumc.nl; lucilla.parnetti@unipg.it; davide.chiasserini@unipg.it
+
+
+                                    Nature Communications | (2025)16:214                                                                                                                    1
+Article                                                                                                                             https://doi.org/10.1038/s41467-024-54878-8
+
+
+phosphorylated forms of tau (p-tau181, p-tau205, p-tau212, p-tau217,                             inter-assay variability were, respectively, 10% and 3% (Supplementary
+p-tau231) measured in plasma have demonstrated a high diagnostic                                 Tables 4, 5). Good dilution linearity results were obtained as assessed
+value across different stages of the AD continuum7,11–23. However,                               on two different instruments (CV% on instrument 1: 11%, instrument 2:
+diverse tau post-translational modiﬁcations (PTMs), including more                               6%; 1x, 2x, 4x, 8x, 16x, 32x dilutions of a spiked sample tested) (Sup-
+than 50 phosphorylation sites, have been identiﬁed24–26, with their                              plementary Table 6). Spike-recovery assessment for C231D181 assay
+importance in physiology and pathology not being fully understood                                showed moderate recovery: 69% (low spike) and 87% (high spike)
+yet. Noteworthy, recent studies raised the question whether tau                                  (Supplementary Table 7). Run with a mix of single-site phosphorylated
+hyperphosphorylation might be a physiological process which                                      peptides resulted in a blank level signal, showing that double-
+intensiﬁes along the course of AD progression24,26–28. Moreover, a                               phosphorylation is required to form immunocomplex and produce
+pattern of tau staging has been proposed for AD, with site-speciﬁc                               the signal (Supplementary Table 8). The 8-point standard curve
+phosphorylation changes occurring along disease progression and                                  C231D217 assay included peptide standard dilutions (1:3) ranging from
+following distinct trajectories over time29. Further, the diagnostic and                         40 pg/mL to 0.05 pg/mL and a blank, void of peptide standard (Sup-
+prognostic value of measuring tau simultaneously phosphorylated at                               plementary Table 9). LLOQ and ULOQ for C231D217 assay were
+different sites is unexplored, as well as its added value compared                               determined as 0.05 pg/mL and 40 pg/mL, respectively (Supplemen-
+with single-site phosphorylated tau forms.                                                       tary Table 10). The CV% for the inter- and intra-assay variability were,
+     To investigate the potential of multiphosphorylated tau as AD                               respectively, 7% and 4% (Supplementary Tables 11, 12). Good dilution
+biomarker in human body ﬂuids, we developed two sandwich immu-                                   linearity results were obtained as assessed on two different instru-
+noassays detecting tau simultaneously phosphorylated at T181 and                                 ments (CV% on instrument 1: 2%, instrument 2: 3%; 2x, 4x, 8x, 16x, 32x
+T231 (p-tau181&231; assay C231D181) and at T217 and T231 (p-                                     dilutions of a spiked sample tested) (Supplementary Table 13). Spike-
+tau217&231; assay C231D217). Subsequently, we measured p-                                        recovery assessment performed for C231D217 assay resulted in
+tau181&231 and p-tau217&231 in matched CSF and plasma samples                                    recovery of 72% (low spike) and 84% (high spike) (Supplementary
+originating from well-characterized cohorts of patients with AD at                               Table 14).
+different clinical stages, frontotemporal dementia (FTD), and Neuro-
+logical Disease Control group (NDC).                                                             Demographic and clinical proﬁle of the cohort
+                                                                                                 Demographics and clinical parameters of the two cohorts are reported
+Results                                                                                          in Table 1. Apart from the expected differences in MMSE and CDR,
+Technical validation                                                                             statistically signiﬁcant age differences among clinical groups were
+8-point standard curve of C231D181 assay included peptide standard                               observed in both discovery and validation cohort (discovery: NDC vs.
+dilutions (1:2) ranging from 80 pg/mL to 1.25 pg/mL and a blank, void                            MCI-AD p ≤ 0.01, NDC vs. AD-dem p ≤ 0.001, validation: NDC vs. pre-
+of peptide standard (Supplementary Table 2). LLOQ and ULOQ for                                   AD, p ≤ 0.05, NDC vs. AD-dem p ≤ 0.01, AD-dem vs. FTD p ≤ 0.05).
+C231D181 assay were determined as 1.25 pg/mL and 80 pg/mL,                                       There were no signiﬁcant differences in sex across the clinical groups
+respectively (Supplementary Table 3). The CV% for the intra- and                                 in any of the cohorts.
+
+
+
+Table 1 | Demographic and clinical proﬁle of the discovery and validation cohorts
+                          Variable                   Overall                NDC                    pre-AD                 MCI-AD                 AD-dem                 FTD
+ Discovery cohort         n                          55                     15                     n/a                    21                     19                     n/a
+                          Age (years)                71 ± 9.6               62.8 ± 13.1            n/a                    73.4 ± 5.4             74.8 ± 5.9             n/a
+                          mean ± SD
+                          Sex (female)               38 (69)                9 (60)                 n/a                    14 (67)                15 (79)                n/a
+                          n (%)
+                          MMSE                       23 (18.0, 27.0)        29 (27.3, 30.0)        n/a                    23 (21.5, 27.0)        16.5 (12.0, 20.3)      n/a
+                          median (Q1-Q3)
+                          CDR                        0.5 (0.5, 1.0)         0.0 (0.0, 0.5)         n/a                    0.5 (0.5, 0.5)         1.0 (1.0, 1.0)         n/a
+                          median (Q1-Q3)
+                          Years of Education         9.11 ± 4.5             12.07 ± 3.7            n/a                    8.86 ± 4.7             7.11 ± 3.8             n/a
+                          mean ± SD
+ Validation cohort        n                          118                    24                     19                     20                     16                     39
+                          Age (years)                70.6 ± 7.2             66.7 ± 8.3             73.6 ± 5.8             72.0 ± 5.7             75.0 ± 5.8             69.1 ± 6.7
+                          mean ± SD
+                          Sex (female)               64 (54)                11 (46)                13 (68)                14 (70)                8 (50)                 18 (46)
+                          n (%)
+                          MMSE                       26.5 (21.0, 28.0)      28 (27.0, 29.0)        27 (27.0, 29.0)        24.5 (21.3, 27.0)      16.0 (8.3, 19.0)       24.5 (23.0, 28.0)
+                          median (Q1-Q3)
+                          CDR                        0.5 (0.0, 0.5)         0.0 (0.0, 0.5)         0.0 (0.0, 0.5)         0.5 (0.5, 0.5)         1.0 (1.0, 2.0)         0.5 (0.25, 0.5)
+                          median (Q1-Q3)
+                          Years of Education         9.7 ± 4.8              9.6 ± 4.9              12.2 ± 3.5             9.8 ± 5.2              7.8 ± 4.1              13.0 ± 7.1
+                          mean ± SD
+MMSE Mini-Mental State Examination, CDR Clinical Dementia Rating, Q1-Q3 1st and 3rd quartile, SD standard deviation, AD Alzheimer’s disease, pre-AD preclinical AD, MCI-AD mild cognitive
+impairment due to AD, AD-dem AD at dementia stage, FTD frontotemporal dementia, NDC Neurological Disease Control group. Source data are provided as a Source Data ﬁle.
+
+
+
+
+Nature Communications | (2025)16:214                                                                                                                                                        2
+Article                                                                                                                                                                                                                                                   https://doi.org/10.1038/s41467-024-54878-8
+
+
+      a                                                                                                                                                                                                                            b
+
+
+
+                                                                                    CSF p-tau181&231   CSF p-tau217&231                                                         Plasma p-tau181&231   Plasma p-tau217&231                                                                                       CSF p-tau181&231    CSF p-tau217&231                                                             Plasma p-tau217&231
+                                      CSF p-tau181   CSF p-tau217    CSF p-tau231                                         Plasma p-tau181   Plasma p-tau217    Plasmap-tau231                                                                                 CSF p-tau181    CSF p-tau217      CSF p-tau231                                            Plasma p-tau181    Plasma p-tau217    Plasma p-tau231
+
+
+                CSF p-tau181 1.00 0.97 0.98 0.94 0.96 0.63 0.71 0.68 -0.17 0.76                                                                                                                                                         CSF p-tau181 1.00                    0.98             0.98             0.91                0.92                0.50               0.63               0.70               0.81
+
+                CSF p-tau217 0.97 1.00 0.97 0.94 0.98 0.60 0.71 0.69 -0.17 0.76                                                                                                                                                         CSF p-tau217 0.98                    1.00             0.98             0.92                0.93                0.51               0.65               0.71               0.83
+
+                CSF p-tau231 0.98 0.97 1.00 0.94 0.97 0.65 0.74 0.71 -0.20 0.79
+                                                                                                                                                                                                                                        CSF p-tau231 0.98                    0.98             1.00             0.91                0.93                0.51               0.64               0.70               0.80
+
+           CSF p-tau181&231 0.94 0.94 0.94 1.00 0.97 0.58 0.68 0.64 -0.13 0.75
+                                                                                                                                                                                                                                  CSF p-tau181&231 0.91                      0.92             0.91             1.00                0.88                0.49               0.59               0.69               0.82
+           CSF p-tau217&231 0.96 0.98 0.97 0.97 1.00 0.61 0.71 0.69 -0.17 0.78
+                                                                                                                                                                                                                                  CSF p-tau217&231 0.92                      0.93             0.93             0.88                1.00                0.51               0.60               0.67               0.78
+             Plasma p-tau181 0.63 0.60 0.65 0.58 0.61 1.00 0.53 0.69 -0.24 0.62
+                                                                                                                                                                                                                                     Plasma p-tau181 0.50                    0.51             0.51             0.49                0.51                1.00               0.48               0.71               0.60
+             Plasma p-tau217 0.71 0.71 0.74 0.68 0.71 0.53 1.00 0.74 0.01 0.85
+                                                                                                                                                                                                                                     Plasma p-tau217 0.63                    0.65             0.64             0.59                0.60                0.48               1.00               0.63               0.70
+             Plasmap-tau231 0.68 0.69 0.71 0.64 0.69 0.69 0.74 1.00 -0.09 0.88
+       Plasma p-tau181&231 -0.17 -0.17 -0.20 -0.13 -0.17 -0.24 0.01 -0.09 1.00 -0.06                                                                                                                                                 Plasma p-tau231 0.70                    0.71             0.70             0.69                0.67                0.71               0.63               1.00               0.83
+
+
+       Plasma p-tau217&231 0.76 0.76 0.79 0.75 0.78 0.62 0.85 0.88 -0.06 1.00                                                                                                                                                  Plasma p-tau217&231 0.81                      0.83             0.80             0.82                0.78                0.60               0.70               0.83               1.00
+
+
+
+                               ρ                                                                                                                                                                                                                      ρ
+                               -1.0                                 -0.5                                              0                                       0.5                                                1.0                                   -1.0                                  -0.5                                   0                                       0.5                                               1.0
+
+Fig. 1 | Correlations among CSF and plasma p-tau181, p-tau217, p-tau231, p-                                                                                                                                                 (n = 55) and (b) validation cohort (n = 118). The color gradient indicates the strength
+tau181&231, and p-tau217&231. Heatmap presenting results of Spearman’s cor-                                                                                                                                                 and direction of the correlation according to Spearman’s correlation coefﬁcient (ρ).
+relation analysis for CSF and plasma biomarkers across the (a) discovery cohort                                                                                                                                             Source data are provided as a Source Data ﬁle.
+
+
+
+Correlations between CSF and plasma biomarkers                                                                                                                                                                              in CSF (Fig. 2a). In plasma, a large effect size was observed for p-tau231
+As assessed in the discovery cohort, plasma p-tau181&231 did not                                                                                                                                                            and a medium effect size for p-tau181 (d > 0.5), while a negligible effect
+correlate with CSF and plasma p-tau181, p-tau231 nor with its CSF                                                                                                                                                           size was noted for p-tau181&231 (d < 0.2) (Fig. 2b).
+equivalent (CSF p-tau181&231) (Fig. 1a). Per contra, both CSF and                                                                                                                                                                P-tau217, p-tau231, and p-tau217&231: in the discovery cohort, p-
+plasma p-tau217&231 exhibited a strong positive correlation with CSF                                                                                                                                                        tau217, p-tau231, and p-tau217&231 levels were consistently increased
+and plasma levels of p-tau217 and p-tau231 (Spearman correlation                                                                                                                                                            in MCI-AD and AD-dem groups when compared with controls in both
+analysis) (Fig. 1a, b).                                                                                                                                                                                                     CSF and plasma (Fig. 2, Supplementary Fig. 2).
+                                                                                                                                                                                                                                 ROC analysis performed for CSF p-tau217, p-tau231, and p-
+Diagnostic performance in the discovery cohort                                                                                                                                                                              tau217&231 measured in the discovery cohort, showed high accuracy
+P-tau181, p-tau231, and p-tau181&231: in the discovery cohort, both CSF                                                                                                                                                     in discriminating between NDC and AD continuum stages (AUC range
+and plasma p-tau181 and p-tau231 as well as CSF p-tau181&231 levels                                                                                                                                                         0.986–1.000; Supplementary Table 15). In plasma, p-tau217&231
+were consistently increased in MCI-AD and AD-dem groups when                                                                                                                                                                exhibited the best ability to differentiate between NDC vs. MCI-AD
+compared with NDC (Fig. 2a). Plasma p-tau181&231 levels did not sig-                                                                                                                                                        (AUC = 0.993, 95% CI 0.974–1.000) and NDC vs. AD-dem (AUC = 0.964,
+niﬁcantly differ between NDC and any of the AD continuum groups                                                                                                                                                             95% CI 0.898–1.000) (Supplementary Table 15, 16).In the ROC analysis
+(Fig. 2b, Supplementary Fig. 2).                                                                                                                                                                                            for NDC vs. all combined AD continuum groups (MCI-AD and AD-dem),
+     CSF p-tau181, p-tau231, and p-tau181&231 measured in the dis-                                                                                                                                                          plasma p-tau217&231 resulted in the highest nominal AUC (AUC =
+covery cohort, showed high accuracy in discriminating NDC from AD                                                                                                                                                            0.979, 95% CI 0.945–1.000) among the compared plasma markers but
+(area under the ROC curve (AUC) range 0.986–1.000; Supplementary                                                                                                                                                            no statistically signiﬁcant difference was observed in comparison with
+Table 15). In plasma, p-tau231 exhibited the best ability to differentiate                                                                                                                                                  AUC values obtained for plasma p-tau217 or p-tau231 (Fig. 3a).
+between NDC and both MCI-AD and AD-dem (plasma p-tau231 NDC vs.                                                                                                                                                                  Also in the ROC analysis performed according to patients’ CSF AT
+MCI-AD AUC = 0.925, 95% CI 0.840–1.000; NDC vs. AD-dem AUC =                                                                                                                                                                proﬁle, plasma p-tau217&231 showed the highest nominal AUC values
+ 0.947, 95% CI 0.872–1.000), followed by p-tau181 (plasma p-tau181                                                                                                                                                          among the compared assays (A+ vs. A- AUC = 0.979, 95% CI
+NDC vs. MCI-AD AUC = 0.877, 95% CI 0.761–0.993; NDC vs. AD-dem                                                                                                                                                              0.945–1.000; A + T+ vs. other AUC = 0.973, 95% CI 0.934–1.000) and
+AUC = 0.943, 95% CI 0.857–1.000) (Supplementary Table 15, 16). ROC                                                                                                                                                          yielded the highest standardized effect size (Supplementary Fig. 1).
+analysis performed for plasma p-tau181&231 showed low performance                                                                                                                                                                In the discovery cohort, p-tau217&231 (C231D217 assay) showed
+in discriminating NDC vs. MCI-AD (AUC = 0.514, 95% CI 0.320–0.709)                                                                                                                                                          the highest fold change of median concentration (AD continuum
+and NDC vs. AD-dem (AUC = 0.579, 95% CI 0.383–0.775) (Supplemen-                                                                                                                                                            groups vs. NDC) when compared with all the other markers in both CSF
+tary Table 15, 16).                                                                                                                                                                                                         and plasma (Supplementary Table 17). Large standardized effect size
+     The analysis of the median concentration fold change performed                                                                                                                                                         was observed for all clinical groups comparisons in CSF and
+for clinical groups comparison (median concentration in AD con-                                                                                                                                                             plasma (Fig. 2).
+tinuum group divided by median concentration in the control group)
+in the discovery cohort, showed CSF and plasma p-tau231 to result in                                                                                                                                                        Diagnostic performance in the validation cohort
+the highest fold change (Supplementary Table 17). Large (d > 0.8)                                                                                                                                                           P-tau181, p-tau231, and p-tau181&231: in the validation cohort, CSF p-
+standardized effect size (Cohen’s d) was observed for all comparisons                                                                                                                                                       tau181, p-tau231, and p-tau181&231 levels were consistently elevated in
+
+
+Nature Communications | (2025)16:214                                                                                                                                                                                                                                                                                                                                                                                                   3
+Article                                                                                                                                                                                                                                             https://doi.org/10.1038/s41467-024-54878-8
+
+
+                                                                                                                                                               Discovery cohort
+
+                                                                                    CSF p-tau181                                            CSF p-tau217                                          CSF p-tau231                                     CSF p-tau181&231                                      CSF p-tau217&231
+
+                                                                                            ✱✱✱✱
+                                                                                                                                                    ✱✱✱✱                                                                                                                                                                ✱✱✱✱
+                                                                                                                                                                                                           ✱✱✱✱                                                  ✱✱✱✱
+                                                                                        ✱✱✱✱
+                                                                           1000                                                    1000         ✱✱✱✱                                      1000                                                    1000                                                  1000        ✱✱✱✱
+                                                                                                                                                                                                      ✱✱✱✱                                                   ✱✱✱✱
+
+
+
+
+                                                   concentration (pg/mL)                                   concentration (pg/mL)                                  concentration (pg/mL)                                   concentration (pg/mL)                                 concentration (pg/mL)
+                                                                            100                                                     100                                                    100                                                    100                                                    100
+
+
+                                                                             10                                                      10                                                     10                                                     10                                                     10
+
+
+                                                                              1                                                       1                                                      1                                                      1                                                      1
+
+
+                                                                             0.1                                                     0.1                                                    0.1                                                    0.1                                                    0.1
+                                                                                       C        I-A                                            C        I-A                                           C       I-A                                            C       I-A                                            C       I-A
+                                                                                    D       A      D                                        D              D                                      D              D                                       D              D                                       D       A      D
+                                                                                   N       C  D                                            N        A D                                           N       A D                                            N       A D                                            N         D
+                                                                                        M      -d em                                               C   -d                                                 C  -d                                                  C  -d                                                  C  -d
+                                                                                                                                                M         em                                          M         em                                           M         em                                           M         em
+
+
+
+
+                               Cohen’s d
+               MCI-AD/NDC                                                                   2.21                                                    1.95                                                  2.14                                                   2.14                                                   1.90
+
+
+               AD-dem/NDC                                                                   1.79                                                    2.17                                                  2.15                                                   2.15                                                   2.06
+
+
+
+
+                                                                                   Plasma p-tau181                                         Plasma p-tau217                                    Plasma p-tau231                                 Plasma p-tau181&231                               Plasma p-tau217&231
+                                                                                            ✱✱✱✱
+
+
+                                                                                           ✱✱
+                                                                                                                                                    ✱✱✱✱                                                   ✱✱✱✱
+                                                                            100                                                     100                                                    100                                                     100                                                   100
+                                                                                                                                                                                                                                                                                                                        ✱✱✱✱
+
+
+
+
+                                           concentration (pg/mL)
+                                                                                                                                                                                                          ✱✱✱
+
+
+
+
+                                                                                                       concentration (pg/mL)                                   concentration (pg/mL)
+                                                                                                                                                   ✱✱✱
+
+
+
+
+                                                                                                                                                                                                                     concentration (pg/mL)                                  concentration (pg/mL)
+                                                                             10                                                      10                                                     10                                                      10                                                    10
+                                                                                                                                                                                                                                                                                                                    ✱✱✱✱
+                                                                              1                                                       1                                                      1                                                       1                                                     1
+
+                                                                             0.1                                                     0.1                                                    0.1                                                    0.1                                                    0.1
+
+                                                                            0.01                                                    0.01                                                   0.01                                                   0.01                                                   0.01
+
+                                                                           0.001                                                   0.001                                                  0.001                                               0.001                                                     0.001
+                                                                                       C        I-A                                            C        I-A                                           C       I-A                                            C       I-A                                            C       I-A
+                                                                                    D       A      D                                        D              D                                      D              D                                       D              D                                       D              D
+                                                                                   N       C  D                                            N        A D                                           N       A D                                            N       A                                              N       A
+                                                                                        M      -d em                                               C   -d                                                 C  -d                                                  C D-d                                                  C D-d
+                                                                                                                                                M         em                                          M         em                                           M         em                                           M         em
+
+
+
+
+                               Cohen’s d
+               MCI-AD/NDC                                                                   0.60                                                    0.76                                                  2.00                                                   0.00                                                   1.57
+
+
+               AD-dem/NDC                                                                   0.65                                                    1.70                                                  0.94                                                   0.17                                                   1.90
+
+
+
+Fig. 2 | Diagnostic performance of CSF and plasma p-tau181, p-tau217, p-tau231,                                                                                       = p ≤ 0.01, *** = p ≤ 0.001, **** = p ≤ 0.0001, comparison vs. NDC. Cohen’s d: stan-
+p-tau181&231, and p-tau217&231 in the discovery cohort. a CSF, (b) plasma                                                                                             dardized effect size, AD: Alzheimer’s disease, pre-AD: preclinical AD, MCI-AD
+measurements. Horizontal line refers to median and error bars indicate inter-                                                                                         (n = 21): mild cognitive impairment due to AD, AD-dem: AD at dementia stage
+quartile range. Data plotted in log10 scale. Kruskal-Wallis test was applied for                                                                                      (n = 19), NDC: Neurological Disease Control group (n = 15). Source data are pro-
+multiple group comparisons, followed by Dunn’s post-hoc test. Reported p values                                                                                       vided as a Source Data ﬁle.
+are adjusted for multiple comparisons (two-sided). Legend. * = p ≤ 0.05, **
+
+
+
+pre-AD, MCI-AD, and AD-dem groups while compared with controls                                                                                                        NDC = 5.72; plasma p-tau231: discovery cohort AD-dem/NDC = 6.02;
+(p ≤ 0.0001) (Fig. 4, Supplementary Fig. 2). CSF p-tau181, p-tau231, and                                                                                              validation cohort AD-dem/NDC = 2.56; Supplementary Table 17). Large
+p-tau181&231 levels did not signiﬁcantly differ between NDC and FTD                                                                                                   standardized effect size was observed for CSF p-tau181, p-tau231, and
+(Fig. 4, Supplementary Fig. 2).                                                                                                                                       p-tau181&231 as well as plasma p-tau231 (Fig. 4). Plasma p-tau181
+     ROC analysis performed for CSF p-tau181, p-tau231, and p-                                                                                                        resulted in medium effect size for all clinical groups comparisons (pre-
+tau181&231 measured in the validation cohort conﬁrmed high accuracy                                                                                                   AD/NDC = 0.40, MCI-AD /NDC = 0.26, AD-dem/NDC = 0.29) (Fig. 4).
+of all three assays in discriminating NDC vs. MCI-AD and NDC vs. AD-                                                                                                       P-tau217, p-tau231, and p-tau217&231: in the validation cohort,
+dem (AUC range = 0.991–1.000; Supplementary Table 15, 16). Also,                                                                                                      both CSF and plasma p-tau217, p-tau231, and p-tau217&231 levels were
+ROC analysis of NDC vs. pre-AD resulted in high AUC values for each of                                                                                                consistently elevated in pre-AD, MCI-AD, and AD-dem groups while
+the assays (CSF p-tau181 NDC vs. pre-AD AUC = 0.970, 95% CI                                                                                                           compared with controls (Fig. 4, Supplementary Fig. 2). Nor CSF neither
+0.929–1.000; CSF p-tau231 AUC = 0.991, 95% CI 0.972–1.000; CSF p-                                                                                                     plasma p-tau217, p-tau231, and p-tau217&231 levels differed sig-
+tau181&231 AUC = 0.982, 95% CI 0.951–1.000). CSF measurement of p-                                                                                                    niﬁcantly between NDC and FTD (Fig. 4).
+tau181, p-tau231, and p-tau181&231 allowed for an effective dis-                                                                                                           ROC analysis performed for CSF p-tau217, p-tau231, and p-
+crimination between AD-dem and FTD (AUC range = 0.968–0.978)                                                                                                          tau217&231 measured in the validation cohort conﬁrmed the high
+(Supplementary Table 15).                                                                                                                                             accuracy of all three assays in discriminating between NDC and AD
+     In the validation cohort, the analysis of the median concentration                                                                                               continuum stages (AUC range = 0.927–1.000), with CSF p-tau217
+fold change for AD continuum groups vs. NDC conﬁrmed a trend                                                                                                          showing the highest AUC values for all comparisons (Supplementary
+observed in the discovery cohort, i.e., CSF and plasma p-tau231                                                                                                       Table 15). ROC analysis showed CSF p-tau217, p-tau231, and p-
+showing the highest median concentration fold change (CSF p-tau231:                                                                                                   tau217&231 to effectively discriminate between AD-dem vs. FTD (AUC
+discovery cohort AD-dem/NDC = 5.39; validation cohort AD-dem/                                                                                                         range = 0.934–0.978) (Supplementary Table 15). In plasma, the ROC
+
+
+Nature Communications | (2025)16:214                                                                                                                                                                                                                                                                                               4
+Article                                                                                                                     https://doi.org/10.1038/s41467-024-54878-8
+
+
+                               a                                                      b
+                                           Discovery cohort                                                    Validation cohort
+                                NDC vs. AD continuum (MCI-AD+AD-dem)                 NDC vs. AD continuum (pre-AD+MCI-AD+AD-dem)
+
+                                              100                                                    100
+
+
+                                               80                                                     80
+
+
+
+
+                               Sensitivity%                                           Sensitivity%
+                                               60                                                     60
+
+
+                                               40                                                     40
+
+
+                                               20                                                     20
+
+
+                                               0                                                      0
+                                                    0   20   40    60    80    100                         0   20   40    60    80    100
+                                                        100% - Specificity%                                    100% - Specificity%
+
+                                                        p-tau217&231                                           p-tau217&231
+                                                        AUC = 0.979 (0.945-1.000)                              AUC = 0.968 (0.929-1.000)
+                                                        p-tau231                                               p-tau231
+                                                        AUC = 0.936 (0.875-0.997)                              AUC = 0.910 (0.846-0.975)
+                                                        p-tau217                                               p-tau217
+                                                        AUC = 0.913 (0.837-0.990)                              AUC = 0.856 (0.768-0.943)
+
+Fig. 3 | ROC analysis for plasma p-tau217, p-tau231, and p-tau217&231. Super-        dem; n = 40; NDC n = 15) and (b) validation cohort (pre-AD, MCI-AD, AD-dem;
+imposed plasma p-tau217, p-tau231, and p-tau217&231 ROC curves for discrimina-       n = 55; NDC n = 24). AUC: Area Under Curve. Values in brackets represent CI 95 %
+tion of NDC vs. all AD continuum groups in the (a) discovery cohort (MCI-AD, AD-     (Wilson/Brown method). Source data are provided as a Source Data ﬁle.
+
+
+analysis for discrimination between NDC and each of AD continuum                     targeting CSF and plasma tau simultaneously phosphorylated at two
+stages, showed plasma p-tau217&231 to yield higher nominal AUC                       distinct sites - T181 and T231 (p-tau181&231) and T217 and T231 (p-
+values than plasma p-tau217 and p-tau231 (Supplementary Table 15). A                 tau217&231). In both the discovery and validation cohorts, CSF p-
+signiﬁcant difference was observed in comparison with AUC of plasma                  tau181&231 and p-tau217&231 measurements consistently enabled
+p-tau217 NDC vs. MCI-AD and NDC vs. AD-dem but not in comparison                     discrimination of patients with AD at each clinical stage from the
+with p-tau231 (Supplementary Table 16). Measurement of plasma p-                     control group. Interestingly, plasma measurement of p-tau181&231
+tau217, p-tau231, and p-tau217&231 allowed for an effective dis-                     could not differentiate among clinical groups (assessed in the dis-
+crimination between AD-dem and FTD (AUC range = 0.803–0.904)                         covery cohort), while plasma p-tau217&231 effectively discriminated
+(Supplementary Table 15).                                                            control subjects from AD continuum groups in both discovery and
+     In the ROC analysis for NDC vs. all combined AD continuum                       validation cohort. From the technical point of view, each of the
+groups (pre-AD, MCI-AD, and AD-dem), plasma p-tau217&231 provided                    developed assays enables sensitive and speciﬁc detection of tau forms
+the highest accuracy, yielding AUC of 0.968 95% CI 0.929–1.000,                      carrying concurrent phosphorylation at two different sites.
+which was signiﬁcantly different from AUCs obtained for plasma                            The complexity of tau phosphorylation pattern across the AD
+p-tau217 and p-tau231 (Fig. 3).                                                      spectrum, and its relationship between brain and different body ﬂuids,
+     Plasma p-tau217&231 also resulted in the highest nominal AUC                    are not fully explored. There is an ongoing debate whether an
+value among plasma p-tau measurements in discrimination of A+ vs. A-                 increasing degree of tau phosphorylation reﬂects AD progression, as
+groups (AUC = 0.914, 95% CI 0.855–0.973) and A + T+ vs. other groups                 well as what are the characteristics, distribution, and dynamics of tau
+(AUC = 0.894 95% CI 0.831–0.957) as deﬁned by CSF AT proﬁle (Sup-                    phosphorylation along the disease continuum24,26–28,33. Post-mortem
+plementary Fig. 1) and yielded the highest standardized effect size.                 brain mass spectrometry studies comprehensively assessing tau PTMs
+     In the validation cohort, the analysis of median concentration fold             across AD, showed signiﬁcantly elevated levels of doubly- and triply-
+change (AD continuum groups vs. NDC) in plasma, conﬁrmed the                         phosphorylated peptides in both soluble and insoluble fraction of AD
+trend observed in the discovery cohort, showing p-tau217&231 to                      brain tissue34. Further, multiple tau PTMs have been associated with
+exhibit higher fold change values than other markers (plasma p-                      disease progression26, with distinct tau PTMs proposed to play a dif-
+tau217&231 fold change: discovery cohort AD-dem/NDC = 13.63; vali-                   ferent role in tau aggregation process33. Tau PTMs pattern has been
+dation cohort AD-dem/NDC = 20.6; Supplementary Table 17). In CSF,                    also studied in body ﬂuids. In a study investigating patients with
+the biggest median concentration fold change was reported for p-                     dominantly inherited as well as a sporadic AD, Barthélemy et al. pro-
+tau217&231 in the discovery cohort (CSF p-tau217&231 discovery                       posed a pattern of CSF tau staging with site-speciﬁc tau phosphor-
+cohort AD-dem/NDC = 18.13) and p-tau217 (CSF p-tau217 validation                     ylation changes occurring along disease progression and following
+cohort AD-dem/NDC = 8.51) (Supplementary Table 17). For both CSF                     distinct trajectories over time29. Speciﬁcally, the authors found that in
+and plasma p-tau217, p-tau231, and p-tau217&231, large standardized                  CSF, increase of p-tau217 preceeded that of p-tau181, and both phos-
+effect size was determined for all clinical groups comparisons (Fig. 4).             phorylations were temporally associated with the development of
+                                                                                     amyloid pathology (assessed by amyloid PET). On the other hand,
+Discussion                                                                           while an increase of CSF t-tau and p-tau205 was associated with
+Tau phosphorylation regulates microtubules binding, hence impacts                    development of tau pathology (assessed by tau-PET), for CSF p-tau217
+axon outgrowth and axonal transport – processes known to be                          and p-tau181 levels a trend of negative correlation with tau-PET has
+impaired in AD30. Both CSF and plasma p-tau181, p-tau217, and p-tau231               been observed29.
+have shown a very good diagnostic potential as AD biomarkers, with                        Current literature suggests that the majority of CSF tau is trun-
+p-tau217 and p-tau231 possibly outperforming p-tau181 as markers of                  cated and present as mainly N-terminal fragments with different
+early AD pathology7,10,12–20,31,32. In this study, we developed two assays           cleavage sites (predominantly within positions 221–226)27,35,36. A similar
+
+
+Nature Communications | (2025)16:214                                                                                                                                5
+Article                                                                                                                                                                                                                                                                                                               https://doi.org/10.1038/s41467-024-54878-8
+
+
+                                                                                                                                                                                                                 Validation cohort
+
+
+                                                                             CSF p-tau181                                                                     CSF p-tau217                                                               CSF p-tau231                                       CSF p-tau181&231                                                                                  CSF p-tau217&231
+                                                                                   ✱✱✱✱
+                                                                                                                                                                      ✱✱✱✱
+                                                                                                                                                                                                                                                    ✱✱✱✱                                                                     ✱✱✱✱
+                                                                              ✱✱✱✱
+                                                                                                                                                                    ✱✱✱✱                                                                                                                                                                                                                               ✱✱✱✱
+                                                                                                                                                                                                                                                  ✱✱✱✱                                                                      ✱✱✱✱
+                                                                            ✱✱✱✱
+                                                                                                                                                                  ✱✱✱✱                                                                                                                                                                                                                                ✱✱✱✱
+                                                                     1000                                                                                  1000                                                                          1000   ✱✱✱✱                                                                1000   ✱✱✱✱                                                               1000
+
+
+
+
+                                             concentration (pg/mL)                                                                 concentration (pg/mL)                                                         concentration (pg/mL)                                                      concentration (pg/mL)                                                     concentration (pg/mL)
+                                                                                                                                                                                                                                                                                                                                                                                                     ✱✱✱✱
+                                                                     100                                                                                   100                                                                           100                                                                        100                                                                       100
+
+                                                                      10                                                                                    10                                                                            10                                                                         10                                                                        10
+
+                                                                       1                                                                                     1                                                                             1                                                                          1                                                                         1
+
+                                                                      0.1                                                                                   0.1                                                                           0.1                                                                        0.1                                                                       0.1
+                                                                              C D           D
+                                                                             D A AD m T                                                                             C D
+                                                                                                                                                                   D A AD m T
+                                                                                                                                                                                  D                                                               C D
+                                                                                                                                                                                                                                                 D A AD m T
+                                                                                                                                                                                                                                                                D
+                                                                            N re- CI- -de F
+                                                                                                                                                                                                                                                                                                                            N                                                                         N
+                                                                                                                                                                  N re- CI- -de F
+                                                                                                                                                                                                                                                                                                                        p r DC                                                                    p r DC
+                                                                                                                                                                                                                                                N re- CI- -de F
+                                                                                                                                                                                                                                                                                                                           e
+                                                                                                                                                                                                                                                                                                                       M -AD
+                                                                                                                                                                                                                                                                                                                         C                                                                           e
+                                                                                                                                                                                                                                                                                                                                                                                                 M -AD
+                                                                                                                                                                                                                                                                                                                                                                                                   C
+                                                                              p M AD                                                                                p M AD                                                                        p M AD
+                                                                                                                                                                                                                                                                                                                       A I-A
+                                                                                                                                                                                                                                                                                                                        D D-dem
+                                                                                                                                                                                                                                                                                                                                                                                                 A I-A
+                                                                                                                                                                                                                                                                                                                                                                                                  D D-dem
+                                                                                                                                                                                                                                                                                                                            FTD                                                                       FTD
+
+
+
+
+                                 Cohen’s d
+               pre-AD/NDC                                                                  1.36                                                                        1.17                                                                          1.16                                                                     1.35                                                                      1.04
+               MCI-AD/NDC                                                                  1.08                                                                        1.35                                                                          1.20                                                                     1.54                                                                      1.52
+               AD-dem/NDC                                                                  3.00                                                                        3.49                                                                          3.30                                                                     3.35                                                                      2.67
+
+
+
+                                                                                                                      Plasma p-tau181                                                             Plasma p-tau217                                                              Plasma p-tau231                                           Plasma p-tau217&231
+                                                                                                                                   ✱✱
+
+                                                                                                                                                                                                              ✱✱✱✱                                                                      ✱✱✱✱
+                                                                                                                                  ✱                                                                                                                                                                                                                               ✱✱✱✱
+
+                                                                                                                      100                                                                          100                                                                          100    ✱✱✱✱                                                            100
+                                                                                                                                                                                                            ✱✱✱✱                                                                                                                                                ✱✱✱✱
+
+
+
+
+                                                                                             concentration (pg/mL)                                                        concentration (pg/mL)                                                        concentration (pg/mL)                                                  concentration (pg/mL)
+                                                                                                                       10                                                                           10                                                                           10    ✱✱                                                               10
+                                                                                                                                                                                                             ✱                                                                                                                                                 ✱✱✱
+                                                                                                                        1                                                                            1                                                                            1                                                                      1
+
+                                                                                                                       0.1                                                                          0.1                                                                          0.1                                                                    0.1
+
+                                                                                                                      0.01                                                                         0.01                                                                         0.01                                                                   0.01
+
+                                                                                                                     0.001                                                                        0.001                                                                        0.001                                                                  0.001
+                                                                                                                                                                                                                                                                                                                                                                C D           D
+                                                                                                                               C D
+                                                                                                                              D A AD m T
+                                                                                                                                             D                                                              C D
+                                                                                                                                                                                                           D A AD m T
+                                                                                                                                                                                                                          D                                                                                                                                    D A AD m T
+                                                                                                                                                                                                                                                                                        N
+                                                                                                                                                                                                                                                                                    p r DC
+                                                                                                                             N re- CI- -de F                                                              N re- CI- -de F                                                                                                                                     N re- CI- -de F
+                                                                                                                                                                                                                                                                                       e
+                                                                                                                                                                                                                                                                                   M -AD
+                                                                                                                                                                                                                                                                                     C
+                                                                                                                                                                                                                                                                                   A I-A
+                                                                                                                                                                                                                                                                                    D D
+                                                                                                                               p M AD                                                                                                                                                                                                                           p M AD
+                                                                                                                                                                                                                                                                                       -d
+                                                                                                                                                                                                            p M AD                                                                       em
+                                                                                                                                                                                                                                                                                        FTD
+
+
+
+
+                                                                               Cohen’s d
+                             pre-AD/NDC                                                                                          0.40                                                                         1.08                                                                      1.30                                                                       1.38
+                            MCI-AD/NDC                                                                                           0.26                                                                         1.82                                                                      2.62                                                                       3.36
+                            AD-dem/NDC                                                                                           0.29                                                                         1.88                                                                      2.09                                                                       2.61
+
+
+Fig. 4 | Diagnostic performance of CSF and plasma p-tau181, p-tau217, p-                                                                                                                                                      = p ≤ 0.05, ** = p ≤ 0.01, *** = p ≤ 0.001, **** = p ≤ 0.0001, comparison vs. NDC.
+tau231, p-tau181&231, and p-tau217&231 in the validation cohort. a CSF, (b)                                                                                                                                                   Cohen's d: standardized effect size, AD: Alzheimer’s disease, pre-AD: preclinical AD
+plasma measurements. The horizontal line refers to the median, and error bars                                                                                                                                                 (n = 19), MCI-AD: mild cognitive impairment due to AD (n = 21), AD-dem: AD at
+indicate the interquartile range. Data plotted in log10 scale. Kruskal-Wallis test was                                                                                                                                        dementia stage (n = 16), FTD: frontotemporal dementia (n = 39), NDC: Neurological
+applied for multiple group comparisons, followed by Dunn’s post-hoc test.                                                                                                                                                     Disease Control group (n = 24). Source data are provided as a Source Data ﬁle.
+Reported p values are adjusted for multiple comparisons (two-sided). Legend: *
+
+
+
+
+fragmentation pattern has also been found in plasma since a signiﬁcant                                                                                                                                                        Although both CSF and plasma levels of p-tau217&231 are elevated
+decrease of tau peptides spanning the 221–226 positions has been                                                                                                                                                        along the AD continuum, the diagnostic performance of p-
+observed16. The existence of these truncations in body ﬂuids may                                                                                                                                                        tau181&231 signiﬁcantly differs between the two matrices. The lack of
+result in a low abundance of tau fragments spanning from 181 to 231                                                                                                                                                     agreement between CSF and plasma might arise due to differences in
+and from 217 to 231 residues. At the same time, in the brain, peptides                                                                                                                                                  each matrix environment, driving altered tau processing39. Addition-
+carrying multiple phosphorylations within the sequence 181–231 have                                                                                                                                                     ally, peripheral tau production and comorbidities such chronic kidney
+been frequently identiﬁed24,37,38. Here, we show that using highly sen-                                                                                                                                                 disease may differently inﬂuence plasma concentration of distinct tau
+sitive single molecule immunoassays, we could detect tau species                                                                                                                                                        fragments40,41.
+spanning these residues and carrying phosphorylations at two differ-                                                                                                                                                          While CSF and plasma increase of p-tau181, p-tau217, and p-tau231
+ent sites also in body ﬂuids. The evidence for the presence of tau                                                                                                                                                      across AD continuum is already widely reported in the
+fragments covering residues 181 and 231 and bearing phosphorylation                                                                                                                                                     literature10,13,15,18,42, in this work we used immunoassays to assess not
+at these two sites in CSF was also shown by Ashton and colleagues18.                                                                                                                                                    only quantitative but also qualitative change of bioﬂuid tau phos-
+The authors coupled immunoprecipitation and targeted mass spec-                                                                                                                                                         phorylation across distinct clinical stages of AD. As previous studies
+trometry to verify the speciﬁcity of p-tau181 and p-tau231 antibodies                                                                                                                                                   have suggested that the degree of tau hyperphosphorylation reﬂects
+for plasma immunoassay development. They observed that after CSF                                                                                                                                                        disease progression, the detection of tau forms carrying multiple
+immunoprecipitation with antibodies against p-tau181, it was possible                                                                                                                                                   parallel phosphorylations may serve as an enhanced proxy for AD
+to detect peptides phosphorylated at T231; the same was true for                                                                                                                                                        pathology24,27,28,33. At the same time, it should be considered that tau
+immunoprecipitation using antibodies against p-tau231, thus con-                                                                                                                                                        phosphorylation at speciﬁc sites may not simply reﬂect general
+ﬁrming, through indirect detection, the presence of doubly phos-                                                                                                                                                        hyperphosphorylation but rather exhibit a speciﬁc pattern24,26. The
+phorylated species18.                                                                                                                                                                                                   mosaic of tau phosphorylation (as well as other PTMs) simultaneously
+
+
+Nature Communications | (2025)16:214                                                                                                                                                                                                                                                                                                                                                                             6
+Article                                                                                             https://doi.org/10.1038/s41467-024-54878-8
+
+
+present at multiple sites might be thus dynamic and subject to chan-      antibody against human p-tau231 (ADx253, ADx NeuroSciences,
+ges, even at the individual level, depending on disease stage or pre-     Belgium18) and mixed with unconjugated helper beads (488 nm, con-
+sence of co-pathologies. The presented assay design offers high           centration 12.8 × 106/mL). Biotinylated mouse monoclonal antibody
+ﬂexibility, as incorporation of different antibodies, targeting other     against human p-tau181 (AT270; 90007, Fujirebio, Japan45,46); was
+PTMs with reported AD relevance, is possible. Development of such         labelled with SBG enzyme (SBG concentration 150 pM, detector con-
+assays and assessment of their diagnostic performance would provide       centration 1 µg/mL) and used as a detector antibody in C231D181 assay.
+an important insight into tau metabolism across the AD continuum.         In C231D217 assay, SBG-labelled detector (SBG concentration 150 pM,
+     Our study has limitations. One of the limitations is the lack of     detector concentration 1 µg/mL) consisted of biotinylated mouse
+absolute quantiﬁcation of the synthetic peptides used as assay cali-      monoclonal antibody fragment against human p-tau217 (conﬁdential,
+brators. The presented concentrations of tau simultaneously phos-         Quanterix Corp., USA). Capture (p-tau231) antibody used in both
+phorylated at T181 and T231 or T231 and T217 should be considered         C231D181 and C231D217 assays was the same as the capture antibody in
+preliminary and not deﬁnitive. The use of absolutely quantiﬁed pep-       p-tau231 Advantage Kit (item 102292 Quanterix Corp., USA)18.
+tides as a standard would allow to obtain more precise values. Fur-       C231D181 detector (p-tau181) antibody corresponded to the capture
+thermore, potential risk of antibody cross-reactivity toward non-         antibody in p-tau181 Advantage V2 Kit (item 103714 Quanterix, USA)46.
+targeted tau phosphorylation sites should be considered. Additionally,    C231D217 detector corresponded to the capture antibody in a proto-
+further studies are warranted to deﬁne potential differences in protein   type, non-commercialized assay for CSF and plasma detection of
+processing in various matrices, here CSF and plasma. The assay for p-     p-tau217 (Quanterix Corp., USA). 4-fold dilution in N4PE CSF Sample
+tau217&231 measurement should be re-developed with the use of             Diluent (Quanterix Corp., USA) was established as the default CSF and
+available p-tau217 antibodies. Another limitation of the study is the     plasma sample dilution for both C231D181 and C231D217 assays. A
+relatively low sample size, especially of the pre-AD group, which could   custom synthetic peptide, speciﬁcally phosphorylated at T181 and
+lead to overestimation of the diagnostic performance. Thus, we want       T231 (N-term→C-term sequence: IPAKTPPAPKT (PO3H2) PPSSGEPPK-
+to emphasize that these ﬁndings should be interpreted with caution        REPKKVAVVRT (PO3H2) PPKSPSSAK; Anaspec, USA) was used as the
+and investigated on a larger cohort. However, the inclusion of a group    assay calibrator for C231D181. Another custom synthetic peptide,
+of functionally independent patients with no objective evidence of        speciﬁcally phosphorylated at T217 and T231 was used to calibrate
+cognitive deﬁcits but with positive core CSF AD biomarkers is funda-      C231D217 assay (N-term→C-term sequence: SRSRTPSLPT (PO3H2)
+mental to fully understand the early dynamics of biomarker changes in     PPTREPKKVAVVRT (PO3H2) PPKSPSSAK; Anaspec, USA). All peptide
+body ﬂuids across the AD continuum. Additionally, monitoring of a         standard dilutions were prepared with N4PE CSF Sample Diluent
+longitudinal cohort, subjected to repetitive plasma sampling and          (Quanterix Corp., USA). Before each run, RGP was incubated on the
+testing of multiphosphorylated tau species would enable further           shaker at 35°C for 30 min (800 rpm). In both C231D181 and C231D217
+insight into changes of tau phosphorylation pattern along the disease     assay protocols, RGP volume was 50 µl.
+continuum.                                                                      Both assays underwent analytical validation that consisted in the
+     In conclusion, we propose the approach to target tau simulta-        estimation of the intermediate precision (inter-assay reproducibility
+neously phosphorylated at two distinct sites – T181 and T231 (p-          within the laboratory), repeatability (intra-assay), dilution linearity,
+tau181&231; assay C231D181) or T231 and T217 (p-tau217&231; assay         sensitivity (Lower Limit of Quantiﬁcation, LLOQ; Upper Limit of
+C231D217). Our results suggest a good AD biomarker potential of CSF       Quantiﬁcation, ULOQ), and spike-recovery. Range of the standard
+but not plasma p-tau181&231. On the other hand, we propose p-             curve was established, and the intra- and inter-assay variabilities were
+tau217&231 as a highly promising CSF and plasma biomarker, which          assessed based on coefﬁcient of variation (CV) of the replicates. Dilu-
+performance in plasma might be potentially even superior to plasma        tion linearity, assessed on two independent instruments, was assessed
+p-tau217 or p-tau231. The differences observed between CSF and            for the sample spiked with the peptide standard. Four parameter
+plasma suggest the matrix-speciﬁc protein processing and warrant          logistic (4PL) curve model with 1/y (C231D181) and 1/y2 (C231D217)
+further investigation, including assessment of tau simultaneously         weighting was used for the curve ﬁtting.
+phosphorylated at sites different than those already analyzed, and              As a reference, CSF and plasma levels of p-tau181, p-tau231, and
+extension of clinical validation to larger cohorts.                       p-tau217 were measured with in-house manufactured Simoa® assays,
+                                                                          utilizing the same antibodies, standards, and buffers as the commer-
+Methods                                                                   cially available kits offered by Quanterix i.e., p-tau181 Advantage V2 Kit
+All the procedures were performed in accordance with Declaration of       (item 103714), p-tau231 Advantage Kit (item 102292; at the time of
+Helsinki and International Conference on Harmonization guidelines         experiments, commercially launched for use with CSF), and a proto-
+for Good Clinical Practice. All the patients and/or their legal repre-    type, non-commercialized p-tau217 assay (capture antibody in the
+sentatives gave informed written consent for the lumbar puncture and      p-tau217 corresponding to capture antibody in the C231D217 assay).
+the inclusion in the study that was approved by the local Ethics Com-     The p-tau181, p-tau231, and p-tau217 assays were standard format
+mittee (Comitato Etico Aziende Sanitarie Regione Umbria 19369/AV          assays, thus employing phosphorylation site-speciﬁc capture antibody
+and 20942/21/OV).                                                         (T181/T231/T217) and detector antibody targeting unpho-
+                                                                          sphorylated tau46.
+Assay development and biomarker measurement
+Single molecule array (Simoa®) sandwich immunoassay for CSF and           Study participants
+plasma detection of tau simultaneously phosphorylated at T181 and         CSF and plasma samples were selected from a retrospective cohort of
+T231 (assay C231D181) was developed with a 2-step protocol while a        173 patients enrolled at the Section of Neurology of the University of
+3-step protocol was employed to develop the assay for detection of tau    Perugia. The study cohort was then split into a discovery cohort
+simultaneously phosphorylated at T217 and T231 (assay C231D217)           (n = 55) and a validation cohort (n = 118).
+(Fig. 5). All the measurements were run on the HD-XTM instruments              All patients underwent a standardized assessment including
+(Quanterix Corp., USA) at the Assay Development laboratory of             medical history, physical and neurological examination, laboratory
+Quanterix Corp. (Billerica, MA, USA)43,44.                                tests, and neuropsychological evaluation including, among screening
+     In both C231D181 and C231D217 assays, paramagnetic, ﬂuorescent       tests, Mini-Mental State Examination (MMSE). Brain imaging (com-
+dye-encoded beads (647 nm, antibody-bound assay beads, con-               puted tomography or MRI) or 18F-ﬂuoro-deoxyglucose positron emis-
+centration 7.2 × 106/mL) were conjugated with a mouse monoclonal          sion tomography (18F-FDG-PET), were also performed in selected cases,
+
+
+Nature Communications | (2025)16:214                                                                                                              7
+Article                                                                                                          https://doi.org/10.1038/s41467-024-54878-8
+
+
+                  a
+                                                 Capture p-tau231 + Detector p-tau181 (C231D181)
+                        Simoa® assay for detection of tau simultaneuosly phosphorylated at T181 and T231
+
+                                                                                                                                        RGP
+                                                                                                                           SBG        substrate
+                                                                                                                          enzyme
+
+
+                                                                       T231
+
+
+
+                                                                                                    T181
+
+
+                           Bead-conjugated                                Multiphosphorylated tau:                 Biotinylated p-tau181
+                      p-tau231 capture antibody                                 T181 & T231                          detector antibody
+
+
+
+                 b
+                                                 Capture p-tau231 + Detector p-tau217 (C231D217)
+                        Simoa® assay for detection of tau simultaneuosly phosphorylated at T217 and T231
+
+                                                                                                                                        RGP
+                                                                                                                           SBG        substrate
+                                                                                                                          enzyme
+
+
+                                                                       T231
+
+
+
+                                                                                                   T217
+
+
+                           Bead-conjugated                                Multiphosphorylated tau:                 Biotinylated p-tau217
+                      p-tau231 capture antibody                                 T217 & T231                          detector antibody
+Fig. 5 | Design of the immunoassays. a C231D181, b C231D217 assay. T181: tau         antibody, 2) Incubation with SBG; 3-step protocol workﬂow (C231D217 assay): 1)
+phosphorylation at threonine 181, T231: tau phosphorylation at threonine 231, T217   Sample incubation with bead-conjugated capture antibody, 2) Incubation with
+tau phosphorylation at threonine 217, SBG: streptavidin β-galactosidase, RGP: β-D-   biotinylated detector antibody, 3) Incubation with SBG. Subsequently, immuno-
+galactopyranoside. 2-step protocol workﬂow (C231D181 assay): 1) Sample incuba-       complexes are resuspended in RGP (SBG substrate), resulting in generation of the
+tion with a mixture of bead-conjugated capture antibody and biotinylated detector    ﬂuorescent signal.
+
+
+
+
+according to clinical suspicion. In all cases, the diagnostic process was            subjects with subjective cognitive complaints not conﬁrmed by
+supported by the analysis of core CSF AD biomarkers (Aβ42, Aβ40,                     neuropsychological assessment but with the A+/T+ CSF proﬁle. The
+Aβ42/Aβ40, p-tau181, t-tau) measured with the Lumipulse® G600II                      clinical stage was deﬁned according to the neuropsychological
+(Fujirebio, Japan). Following principles of A/T/N system47, the patients             assessment and Clinical Dementia Rating (CDR) scale. In the valida-
+were therefore classiﬁed as A+/A-, T+/T-, N+/N- according to the fol-                tion cohort we also included a subgroup of FTD patients (n = 39). The
+lowing cut-off values: Aβ42/Aβ40 = 0.072, 95% CI 0.07–0.074; p-                      diagnosis of FTD was supported by 18F-FDG-PET49,50. Each cohort
+tau181 = 50, 95% CI 46.2–52.3; t-tau=393, 95% CI 359–39648. Patients                 included a control group (NDC, discovery cohort n = 15, validation
+within the AD continuum were deﬁned by A+/T+ CSF proﬁle, according                   cohort n = 24), composed of cognitively normal patients diagnosed
+to NIA-AA criteria47.                                                                with minor neurological disorders (e.g., headache, psychiatric dis-
+     The discovery cohort included patients with AD at dementia                      orders, mononeuropathies), other than inﬂammatory or degen-
+stage (AD-dem, n = 19) and patients with mild cognitive impairment                   erative disease of the CNS or of the peripheral nervous system, and
+due to AD (MCI-AD, n = 21). The AD continuum group in the valida-                    patients with MCI attributed to cerebrovascular diseases. All subjects
+tion cohort included AD-dem (n = 16), MCI-AD (n = 20), and subjects                  categorized as NDC were negative for classical AD CSF biomarkers
+with preclinical AD (pre-AD, n = 19). The pre-AD patients were                       (A-/T-/N- proﬁle).
+
+
+Nature Communications | (2025)16:214                                                                                                                               8
+Article                                                                                                https://doi.org/10.1038/s41467-024-54878-8
+
+
+    Age, sex, years of education, and MMSE scores for each clinical           References
+group are reported in Table 1. A/T/N proﬁle data are reported in              1.  2023 Alzheimer’s disease facts and ﬁgures. Alzheimers Dement 19,
+Supplementary Table 1.                                                            1598–1695 (2023).
+                                                                              2. 2020 Alzheimer’s disease facts and ﬁgures. Alzheimers Dement
+Collection of human samples                                                       https://doi.org/10.1002/alz.12068 (2020).
+CSF and plasma samples were collected between 2012 and 2021, fol-             3. van Dyck, C. H. et al. Lecanemab in early Alzheimer’s disease. N.
+lowing international guidelines and the same standard operating                   Engl. J. Med 388, 9–21 (2023).
+procedures throughout the study51,52. LP and blood sampling were              4. Söderberg, L. et al. Lecanemab, aducanumab, and gantenerumab -
+performed between 8:00 and 10:00 a.m. after overnight fasting. CSF                binding proﬁles to different forms of amyloid-beta might explain
+was collected into sterile polypropylene tubes and centrifuged for                efﬁcacy and side effects in clinical trials for Alzheimer’s Disease.
+10 min at 2000 × g at room temperature (RT). Whole blood was col-                 Neurotherapeutics 20, 195–206 (2023).
+lected into sterile polypropylene tubes containing EDTA as the antic-         5. Jönsson, L. et al. Viewpoint The affordability of lecanemab, an
+oagulant and centrifuged for 10 min at 2000 × g (RT) to obtain plasma.            amyloid-targeting therapy for Alzheimer’ s disease: an EADC-EC
+Once processed, CSF and plasma samples were stored in 0.5 mL tubes                viewpoint. 29, 1–7 (2023).
+(72.730.007, Sarstedt, Germany) and immediately frozen at −80 °C              6. Blennow, K. & Zetterberg, H. The past and the future of Alzheimer’s
+pending analysis.                                                                 disease ﬂuid biomarkers. J. Alzheimer’s. Dis. 62, 1125–1140 (2018).
+                                                                              7. Gobom, J. et al. Antibody-free measurement of cerebrospinal ﬂuid
+Statistics & Reproducibility                                                      tau phosphorylation across the Alzheimer’s disease continuum.
+Continuous variables are represented as the median ± 1st−3rd quartile (Q1-        Mol. Neurodegener. 17, 81 (2022).
+Q3). Statistical analysis was performed with the use of GraphPad Prism        8. Ashton, N. J. et al. Cerebrospinal ﬂuid p-tau231 as an early indicator
+software version 9.5.0 (USA) and R software version 4.2.253. The power            of emerging pathology in Alzheimer’s disease. eBioMedicine 76,
+analysis showed that a minimum sample size of 4–8 participants per                103836 (2022).
+group is required to achieve β = 0.2 and α = 0.05 for detection of true       9. Barthélemy, N. R. et al. CSF tau phosphorylation occupancies at
+differences between AD-dem and NDC groups (estimates of plasma p-                 T217 and T205 represent improved biomarkers of amyloid and tau
+tau181, p-tau217, and p-tau231 levels derived from18,22). In-house Quan-          pathology in Alzheimer’s disease. Nat. Aging 3, 391–401 (2023).
+terix Corp. software was used for curve ﬁtting and for extrapolation of       10. Janelidze, S. et al. Cerebrospinal ﬂuid p-tau217 performs better than
+concentrations from raw AEB signal (AEB: Average Enzyme per Bead,                 p-tau181 as a biomarker of Alzheimer’s disease. Nat. Commun. 11,
+Simoa® units). For technical validation experiments, standard curve was           1–12 (2020).
+included in each run. For clinical samples, raw AEB values were initially     11. Kac, P. R. et al. Plasma p-tau212 antemortem diagnostic perfor-
+analyzed and the calibrator-based concentrations were assigned to the             mance and prediction of autopsy veriﬁcation of Alzheimer’s disease
+measurements post hoc, based on average standard curve obtained from              neuropathology. Nat. Commun. 15, 2615 (2024).
+technical validation runs. Samples were anonymized and the researcher         12. Thijssen, E. H. et al. Diagnostic value of plasma phosphorylated
+completing measurements was blinded to patients’ clinical proﬁle. Two-            tau181 in Alzheimer’s disease and frontotemporal lobar degenera-
+tailed p value ≤ 0.05 was considered statistically signiﬁcant. D’Agostino-        tion. Nat. Med. 26, 387–397 (2020).
+Pearson omnibus K2 test was applied to assess data normality. Kruskal-        13. Milà-Alomà, M. et al. Plasma p-tau231 and p-tau217 as state markers
+Wallis test was applied for multiple group comparisons, followed by               of amyloid-β pathology in preclinical Alzheimer’s disease. Nat. Med.
+Dunn’s post-hoc test. The statistical signiﬁcance of differences in pre-          28, 1797–1801 (2022).
+valence of categorical variables was assessed by means of the chi-squared     14. Janelidze, S. et al. Plasma P-tau181 in Alzheimer’s disease: rela-
+test. Correlations were assessed by means of Spearman’s correlation               tionship to other biomarkers, differential diagnosis, neuropathology
+coefﬁcient. Receiver operating characteristic curve (ROC) analysis was            and longitudinal progression to Alzheimer’s dementia. Nat. Med.
+applied to calculate the accuracy of each assay to discriminate between           26, 379–386 (2020).
+the control group and each of disease groups. To determine the 95%            15. Palmqvist, S. et al. Discriminative accuracy of plasma phospho-
+conﬁdence interval (CI) of areas under the ROC curves, the Wilson/Brown           tau217 for Alzheimer's disease vs other neurodegenerative dis-
+method was applied. DeLong test was employed for comparison of Area               orders. JAMA 324, 772 (2020).
+Under Curve (AUC) values between the assays (pROC R package). For             16. Barthélemy, N. R., Horie, K., Sato, C. & Bateman, R. J. Blood plasma
+each of the analyzed biomarkers, median concentration fold change was             phosphorylated-tau isoforms track CNS change in Alzheimer’s
+calculated by dividing median concentration of AD continuum group                 disease. J. Exp. Med. 217, 1–12 (2020).
+(i.e., pre-AD, MCI-AD or AD-dem) by median concentration in the control       17. Wilson, E. N. et al. Performance of a fully—automated Lumipulse
+group (NDC). Standardized effect size (Cohen’s d) was calculated with             plasma phospho ‑ tau181 assay for Alzheimer’ s disease. Alzheimer’s
+effsize R package (large: d > 0.8, medium d > 0.5, small d > 0.2, < 0.2           Res. Ther. 14, 172 (2022).
+negligible)54.                                                                18. Ashton, N. J. et al. Plasma p-tau231: a new biomarker for incipient
+                                                                                  Alzheimer’s disease pathology. Acta Neuropathologica 141,
+Reporting summary                                                                 709–724 (2021).
+Further information on research design is available in the Nature             19. Brickman, A. M. et al. Plasma p-tau181, p-tau217, and other blood-
+Portfolio Reporting Summary linked to this article.                               based Alzheimer’s disease biomarkers in a multi-ethnic, community
+                                                                                  study. 1353–1364 https://doi.org/10.1002/alz.12301 (2021).
+Data availability                                                             20. Montoliu-Gaya, L. et al. Mass spectrometric simultaneous quantiﬁ-
+Source Data are provided with this paper. The raw data are provided in            cation of tau species in plasma shows differential associations with
+the Source Data ﬁle and Supplementary Information ﬁle. Any other                  amyloid and tau pathologies. Nat. Aging 3, 661–669 (2023).
+blinded anonymized data is available on request from the corre-               21. Lantero Rodriguez, J. et al. Plasma p-tau181 accurately predicts
+sponding authors. Request will be reviewed by the investigators and               Alzheimer’s disease pathology at least 8 years prior to post-mortem
+respective institutions to verify if the data transfer is in agreement with       and improves the clinical characterisation of cognitive decline. Acta
+EU legislation on general data protection or is subject to any intellec-          Neuropathol. 140, 267–278 (2020).
+tual property or conﬁdentiality obligations. Source data are provided         22. Thijssen, E. H. et al. Plasma phosphorylated tau 217 and phos-
+with this paper.                                                                  phorylated tau 181 as biomarkers in Alzheimer’s disease and
+
+
+Nature Communications | (2025)16:214                                                                                                                 9
+Article                                                                                                 https://doi.org/10.1038/s41467-024-54878-8
+
+
+    frontotemporal lobar degeneration: a retrospective diagnostic            43. Rissin, D. M. et al. Single-molecule enzyme-linked immunosorbent
+    performance study. Lancet Neurol. 20, 739–752 (2021).                        assay detects serum proteins at subfemtomolar concentrations.
+23. Gonzalez-Ortiz, F. et al. A novel ultrasensitive assay for plasma p-         Nat. Biotechnol. 28, 595–599 (2010).
+    tau217: Performance in individuals with subjective cognitive decline     44. Teunissen, C. E. et al. Methods to discover and validate bioﬂuid-
+    and early Alzheimer’s disease. Alzheimer’s & Dementia 20,                    based biomarkers in neurodegenerative dementias. Mol. Cell. Pro-
+    1239–1249 (2024).                                                            teom. 22, 100629 (2023).
+24. Wegmann, S., Biernat, J. & Mandelkow, E. A current view on Tau           45. Vanmechelen, E. & Vanderstichele, H. Diagnosis Of Tauopathies
+    protein phosphorylation in Alzheimer’s disease. Curr. Opin. Neuro-           Determining Tau/phospho-tau Ratio. (2002).
+    biol. 69, 131–138 (2021).                                                46. Ashton, N. J. et al. Plasma and CSF biomarkers in a memory clinic:
+25. Kimura, T., Sharma, G., Ishiguro, K. & Hisanaga, S. Phospho-Tau bar          head-to-head comparison of phosphorylated tau immunoassays.
+    code: analysis of phosphoisotypes of Tau and its application to              Alzheimers Dement 19, 1913–1924 (2023).
+    tauopathy. Front Neurosci. 12, 44 (2018).                                47. Jack, C. R. et al. NIA-AA research framework: toward a biological
+26. Wesseling, H. et al. Tau PTM proﬁles identify patient heterogeneity          deﬁnition of Alzheimer’s disease. Alzheimer’s. Dement. 14,
+    and stages of Alzheimer’s disease. Cell 183, 1699–1713.e13 (2020).           535–562 (2018).
+27. Barthélemy, N. R., Mallipeddi, N., Moiseyev, P., Sato, C. & Bateman,     48. Bellomo, G. et al. Machine learning driven proﬁling of cerebrospinal
+    R. J. Tau phosphorylation rates measured by mass spectrometry                ﬂuid core biomarkers in Alzheimer’s disease and other neurological
+    differ in the intracellular brain vs. Extracellular cerebrospinal ﬂuid       disorders. Front. Neurosci. 15, 1–9 (2021).
+    compartments and are differentially affected by Alzheimer’s dis-         49. Rascovsky, K. et al. Sensitivity of revised diagnostic criteria for the
+    ease. Front. Aging Neurosci. 11, 1–18 (2019).                                behavioural variant of frontotemporal dementia. Brain 134,
+28. Drepper, F., Biernat, J., Kaniyappan, S. & Meyer, H. E. ARTICLE A            2456–2477 (2011).
+    combinatorial native MS and LC-MS / MS approach reveals high             50. Gorno-Tempini, M. L. et al. Classiﬁcation of primary progressive
+    intrinsic phosphorylation of human Tau but minimal levels of other           aphasia and its variants. Neurology 76, 1006–1014 (2011).
+    key modiﬁcations. J. Biol. Chem. 295, 18213–18225 (2020).                51. Teunissen, C. E. et al. A consensus protocol for the standardization
+29. Barthélemy, N. R. et al. A soluble phosphorylated tau signature links        of cerebrospinal ﬂuid collection and biobanking. Neurology 73,
+    tau, amyloid and the evolution of stages of dominantly inherited             1914–1922 (2009).
+    Alzheimer’s disease. 26, 398–407 (2020).                                 52. Rózga, M., Bittner, T., Batrla, R. & Karl, J. Preanalytical sample
+30. Wang, Z., Tan, L. & Yu, J. Axonal transport defects in Alzheimer’ s          handling recommendations for Alzheimer’s disease plasma bio-
+    disease. 1309–1321 https://doi.org/10.1007/s12035-014-8810-                  markers. Alzheimer’s. Dement.: Diagnosis, Assess. Dis. Monit. 11,
+    x (2015).                                                                    291–300 (2019).
+31. Yu, L. et al. Plasma p-tau181 and p-tau217 in discriminating PART, AD    53. R Core Team (2019). R: A Language And Environment For Statistical
+    and other key neuropathologies in older adults. Acta Neuropathol.            Computing. (R Foundation for Statistical Computing, Vienna, Aus-
+    https://doi.org/10.1007/s00401-023-02570-4 (2023).                           tria, 2019).
+32. Leuzy, A. et al. Comparing the clinical utility and diagnostic per-      54. Cohen, J. et al. Statistical Power Analysis for the Behavioral Sciences.
+    formance of CSF P-Tau181, P-Tau217, and P-Tau231 Assays. Neurol-             (Routledge, New York, 1988).
+    ogy 97, e1681–e1694 (2021).
+33. Kyalu Ngoie Zola, N. et al. Speciﬁc post-translational modiﬁcations      Acknowledgements
+    of soluble tau protein distinguishes Alzheimer’s disease and pri-        We thank Quanterix Corp. for providing technical support, instru-
+    mary tauopathies. Nat. Commun. 14, 3706 (2023).                          mentation, and reagents necessary to perform the experiments. We
+34. Lantero-Rodriguez, J. et al. Tau protein proﬁling in tauopathies: a      thank Dr. Dandan Shan for sharing extensive expertise on the Simoa®
+    human brain study. Mol. Neurodegener. 19, 54 (2024).                     technology and assay development. We extend our acknowledgements
+35. Cicognola, C. et al. Novel tau fragments in cerebrospinal ﬂuid:          to Dr. Silvia Paciotti, Dr. Alfredo Megaro, and Andrea Toja, MD, for their
+    relation to tangle pathology and cognitive decline in Alzheimer’s        help in samples selection. We also thank all the Members of the MIRIADE
+    disease. Acta Neuropathologica vol. 137, 279–296 (2019).                 consortium for collaboration and scientiﬁc discussion. This project has
+36. Sato, C. et al. Tau kinetics in neurons and the human central ner-       received funding from the European Union’s Horizon 2020 research and
+    vous system. Neuron 97, 1284–1298.e7 (2018).                             innovation program under grant agreement no. 860197 (ALW, LP, CET).
+37. Brinkmalm, G. et al. Phosphorylations Correlate With Disease Spe-        GB is supported by the Postdoctoral Fellowship for Basic Scientists grant
+    ciﬁc Isoforms In Sarkosyl Insoluble Tau From Brain. in (Gothenburg,      of the Parkinson’s Foundation (Award ID: PF-PRF-934916).
+    Sweden, 2023).
+38. Horie, K. et al. Regional correlation of biochemical measures of         Author contributions
+    amyloid and tau phosphorylation in the brain. Acta Neuropatholo-         All authors read and approved the ﬁnal manuscript. A.L.W.: design of the
+    gica Commun. 8, 149 (2020).                                              work, data acquisition, analysis, and interpretation, visualization,
+39. Cicognola, C. et al. Novel tau fragments in cerebrospinal ﬂuid:          manuscript writing; G.B.: data analysis and interpretation, visualization,
+    relation to tangle pathology and cognitive decline in Alzheimer’ s       critical revision of the manuscript; L.G.: patients’ diagnosis (neurological
+    disease. Acta Neuropathologica 137, 279–296 (2019).                      assessment) and cohort enrollment, critical revision of the manuscript;
+40. Dugger, B. N. et al. The presence of select tau species in human         C.E.T.: project administration, funding acquisition, critical revision of the
+    peripheral tissues and their relation to Alzheimer’s disease. J. Alz-    manuscript; L.P.: patients’ diagnosis (neurological assessment) and
+    heimer’s. Dis. 51, 345–356 (2016).                                       cohort enrollment, project administration, funding acquisition, critical
+41. Janelidze, S., Barthélemy, N. R., He, Y., Bateman, R. J. & Hansson, O.   revision of the manuscript; D.C.: design of the work, data analysis and
+    Mitigating the associations of kidney dysfunction with blood bio-        interpretation, visualization, manuscript writing, project supervision.
+    markers of Alzheimer disease by using phosphorylated tau to total
+    Tau ratios. JAMA Neurol. 80, 516–522 (2023).                             Competing interests
+42. Karikari, T. K. et al. Blood phosphorylated tau 181 as a biomarker for   ALW completed the experiments during the internship at Quanterix
+    Alzheimer’s disease: a diagnostic performance and prediction             Corp. that was an integral part of MIRIADE project (European Union’s
+    modelling study using data from four prospective cohorts. Lancet         Horizon 2020 research and innovation program under grant agree-
+    Neurol. 19, 422–433 (2020).                                              ment no. 860197). GB received honoraria from Fujirebio and
+
+
+Nature Communications | (2025)16:214                                                                                                                   10
+Article                                                                                             https://doi.org/10.1038/s41467-024-54878-8
+
+
+completed paid consultancies for Parkinson’s Foundation. He received      Correspondence and requests for materials should be addressed to
+travel/educational grants from Fujirebio and Alzheimer’s Association.     Anna L. Wojdała, Lucilla Parnetti or Davide Chiasserini.
+LG has participated in advisory boards for, and received writing or
+speaker honoraria and travel grants from, Almirall, Biogen, Eisai,        Peer review information Nature Communications thanks Fernando
+Euroimmun, Fujirebio, Lilly, Merck, Mylan, Novartis, Roche, Sanoﬁ,        Gonzalez-Ortiz, Marc Suárez-Calvet and the other, anonymous,
+Siemens Healthineers, and Teva. LP served as Member of Advisory           reviewers for their contribution to the peer review of this work. A peer
+Boards for Fujirebio, IBL, Roche, and Merck. CET is employed by           review ﬁle is available.
+Amsterdam UMC. She has grants or contracts for Research of the
+European Commission (Marie Curie International Training Network,          Reprints and permissions information is available at
+grant agreement No. 860197 (MIRIADE), Innovative Medicines Initia-        http://www.nature.com/reprints
+tives 3TR (Horizon 2020, grant no 831434) EPND (IMI 2 Joint Under-
+taking (JU), grant no. 101034344) and JPND (bPRIDE), National MS          Publisher’s note Springer Nature remains neutral with regard to
+Society (Progressive MS alliance), Alzheimer Drug Discovery Founda-       jurisdictional claims in published maps and institutional afﬁliations.
+tion, Alzheimer Association, Health Holland, the Dutch Research
+Council (ZonMW), including TAP-dementia, a ZonMw funded project           Open Access This article is licensed under a Creative Commons
+(#10510032120003) in the context of the Dutch National Dementia           Attribution-NonCommercial-NoDerivatives 4.0 International License,
+Strategy, Alzheimer Drug Discovery Foundation, The Selfridges Group       which permits any non-commercial use, sharing, distribution and
+Foundation, Alzheimer Netherlands. She is recipient of ABOARD, which      reproduction in any medium or format, as long as you give appropriate
+is a public-private partnership receiving funding from ZonMW              credit to the original author(s) and the source, provide a link to the
+(#73305095007) and Health~Holland, Topsector Life Sciences &              Creative Commons licence, and indicate if you modiﬁed the licensed
+Health (PPP-allowance; #LSHM20106). She is also a contract                material. You do not have permission under this licence to share adapted
+researcher for ADx Neurosciences, AC-Immune, Aribio, Axon Neu-            material derived from this article or parts of it. The images or other third
+rosciences, Beckman-Coulter, BioConnect, Bioorchestra, Brainstorm         party material in this article are included in the article’s Creative
+Therapeutics, Celgene, Cognition Therapeutics, EIP Pharma, Eisai, Eli     Commons licence, unless indicated otherwise in a credit line to the
+Lilly Fujirebio, Grifols, Instant Nano Biosensors, Merck, Novo Nordisk,   material. If material is not included in the article’s Creative Commons
+Olink, PeopleBio, Quanterix, Roche, Siemens, Toyama, Vivoryon, and        licence and your intended use is not permitted by statutory regulation or
+the European Commission. She has received payment or honoraria            exceeds the permitted use, you will need to obtain permission directly
+from Roche, Novo Nordisk, and Grifols, where all payments were made       from the copyright holder. To view a copy of this licence, visit http://
+to her institution. She also serves on editorial boards of Medidact       creativecommons.org/licenses/by-nc-nd/4.0/.
+Neurologie/Springer; and in Neurology: Neuroimmunology & Neu-
+roinﬂammation. She is editor of Alzheimer Research and Therapy. DC        © The Author(s) 2024
+received travel/educational grant from Fujirebio.
+
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-54878-8.
+
+
+
+
+Nature Communications | (2025)16:214                                                                                                               11
+

@@ -1,0 +1,40 @@
+# Exploration Tree - ji25-alzheimer-s-disease-patient-brain-extracts
+# Research DAG reconstructed only from metadata.json and metadata.md.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs:
+      - "metadata.md Abstract: sAD models severely limited; translational human models needed"
+    title: "Can a human organoid model support sporadic AD modeling?"
+    description: "Investigate whether a human hPSC-based vascularized neuroimmune organoid can model sporadic AD pathology in a pathophysiologically relevant three-dimensional human-cell environment."
+    evidence: [C01, C02]
+    children:
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs:
+          - "metadata.md Abstract: development of hPSC-based vascularized neuroimmune organoid"
+        title: "Develop vascularized neuroimmune organoids"
+        result: "The abstract reports a complex hPSC-based vascularized neuroimmune organoid containing human neurons, microglia, astrocytes, and blood vessels."
+        evidence: [C01]
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs:
+              - "metadata.md Abstract: sAD brain extracts induce multiple pathologies four weeks post-exposure"
+            title: "Expose organoids to sporadic AD brain extracts"
+            result: "The abstract reports induction of multiple AD pathologies and disrupted AD-related proteomic pathways."
+            evidence: [C02]
+            children:
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs:
+                  - "metadata.md Abstract: Lecanemab treatment response"
+                title: "Treat exposed organoids with Lecanemab"
+                result: "The abstract reports reduced amyloid burden and elevated vascular inflammation response after treatment."
+                evidence: [C03]

@@ -1,0 +1,51 @@
+paper:
+  slug: kes25-the-alzheimer-s-disease-diagnosis-and
+  doi: 10.1002/alz.71147
+  title: "The Alzheimer's Disease Diagnosis and Plasma Phospho-Tau217 (ADAPT) study stage 1: Validating clinical cut-points against CSF and amyloid PET"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC12917852?pdf=render
+  source: pmc
+code: []
+data:
+  - name: "Wolfson CSF study"
+    identifier: "12/0344"
+    repository: "UCL (on request from corresponding author)"
+    access: request
+    verified: true
+  - name: "Biomarkers and Genetics in Dementia study"
+    identifier: "03/N049"
+    repository: "UCL (on request from corresponding author)"
+    access: request
+    verified: true
+  - name: "Imperial Amyloid PET Cohort Study"
+    identifier: "20/LO/0442"
+    repository: "Imperial College London (on request from corresponding author)"
+    access: request
+    verified: true
+  - name: "Polycystic Kidney Disease (PKD) Biobank / CN-CKD cohort"
+    identifier: null
+    repository: "UCL (on request from corresponding author)"
+    access: request
+    verified: true
+clinical_trials: []
+notes: >
+  Data Availability (verified via PMC12917852): "The anonymized data that support the
+  findings of this study are available on request from qualified academic investigators,
+  after approval of a proposal and with a signed data access agreement." Requests go to the
+  corresponding author (a.keshavan@ucl.ac.uk); access is controlled/on-request.
+  No Code Availability statement exists and no GitHub/GitLab/Zenodo/OSF repository could be
+  found (verified via publisher page, PMC, and web search) — none appears to exist.
+  No NCT/ISRCTN registration number is stated in the paper (confirmed by scanning the full
+  PDF text). This is ADAPT "stage 1", an observational biomarker-validation study (not itself
+  a registered trial): plasma p-tau217 measured with Lumipulse (Fujirebio) and ALZpath
+  (Quanterix) assays against CSF (n=257) and amyloid-PET (n=76) reference cohorts.
+  The paper describes a planned ADAPT stage 3 randomised controlled trial (disclosure of
+  p-tau217 results in ~1,100 UK memory-clinic patients across ~20 NHS centres, first site
+  Essex Partnership University NHS FT, recruitment from Aug 2025). That RCT is part of the
+  same ADAPT programme but is a separate future study; no verified NCT/ISRCTN identifier
+  is cited in this paper, so no clinical trial is recorded here.
+  Funding: Alzheimer's Research UK / Blood Biomarker Challenge grant ARUK-BBC2023-002.
+  IDs: PMID 41711262, PMCID PMC12917852; medRxiv preprint 10.1101/2025.09.08.25335317.

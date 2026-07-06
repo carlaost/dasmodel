@@ -1,0 +1,15 @@
+{
+  "idx": 154,
+  "cite_key": "Alb26",
+  "title": "Early Detection of Alzheimer’s Disease Using Vision Transformers on CWT-Transformed EEG Signals in Response to Olfactory Stimuli",
+  "authors": "Azhar Hatem Jebur Albaidhani; Gorkem Serbes; H. Ilhan",
+  "year": "2026",
+  "pub_date": "",
+  "journal": "IEEE Access",
+  "abstract": "Alzheimer’s disease (AD) is a progressive neurodegenerative disorder that significantly impairs cognitive function, which can potentially hinder global healthcare systems. Early and accurate diagnosis of AD is imperative for effective intervention and treatment to take place. Electroencephalography (EEG) is a non-invasive method for monitoring brain activity, which can open opportunities for the early detection of AD through associated biomarkers. Recent studies have revealed a significant correlation between an impaired sense of smell and the onset of early AD. Our approach analyzes EEG signals generated in response to olfactory stimuli to leverage this biomarker and enhance classification accuracy. Despite admirable progress in Artificial Intelligence (AI) and deep learning for diagnosing neurodegenerative diseases, obstacles such as scarce datasets, model generalization, and suboptimal feature extraction hinder the practical application of these techniques for AD detection. The objective of this study is to develop a reliable approach for the early detection of AD by leveraging EEG data. This can be achieved by analysing EEG data using signal transformation techniques, such as the Short-Time Fourier Transform (STFT) and Continuous Wavelet Transform (CWT), and implementing advanced deep learning models. Our results show that patient-wise performance was highest using the CWT. In this configuration, the Vision Transformer (ViT) produced the best diagnostic accuracy (91.43% at the patient level and 85.18% at the image level). In the context of image-level evaluation, the custom Convolutional Neural Network (CNN) paired with CatBoost achieved 81.66% accuracy; the CNN reached 81.25%; transfer learning with ResNet50 yielded 80.69%; and VGG16 attained 79.82%.",
+  "citation_count": "1",
+  "citations_per_year": "1.0",
+  "doi": "10.1109/ACCESS.2026.3652249",
+  "url": "https://doi.org/10.1109/ACCESS.2026.3652249",
+  "slug": "alb26-early-detection-of-alzheimer-s-disease"
+}

@@ -1,0 +1,41 @@
+{
+  "queries_tried": [
+    {
+      "gene_symbol": "APOE",
+      "organism": "Homo sapiens",
+      "result": {
+        "count": 0,
+        "total": 0
+      }
+    },
+    {
+      "target_name": "APOE",
+      "result": {
+        "count": 0,
+        "total": 0
+      }
+    },
+    {
+      "target_name": "Apolipoprotein E",
+      "result": {
+        "count": 0,
+        "total": 0
+      }
+    }
+  ],
+  "adjacent_family_hit": {
+    "query": {
+      "target_name": "apolipoprotein"
+    },
+    "result_count": 6,
+    "targets": [
+      "CHEMBL4549 Apolipoprotein B-100 (APOB)",
+      "CHEMBL5984 Apolipoprotein A-I (APOA1)",
+      "CHEMBL4523160 Apolipoprotein C-III (APOC3)",
+      "CHEMBL4680021 Apolipoprotein L1 (APOL1)",
+      "CHEMBL4495602 Apolipoprotein C-III mRNA 3'UTR (nucleic acid)",
+      "CHEMBL4834388 Apolipoprotein C-III mRNA (nucleic acid)"
+    ]
+  },
+  "conclusion": "APOE (Apolipoprotein E) does NOT resolve to a ChEMBL target via gene_symbol or target_name search in this tool, despite sibling apolipoproteins (APOB, APOA1, APOC3, APOL1) being present. Reported as unresolved -- not fabricated as resolved. Plausible explanation: ChEMBL curates targets with characterized small-molecule/antibody bioactivity data, and APOE (a lipid-transport protein, not a classical enzyme/receptor) may lack a curated target entry despite being one of the most-studied AD genetic risk loci."
+}

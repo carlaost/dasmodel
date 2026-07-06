@@ -1,0 +1,52 @@
+# Exploration Tree — div25-the-microcirculation-the-blood-brain-barrier
+# Research DAG reconstructed from metadata.md and metadata.json only.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract"]
+    title: "How do neurovascular-unit and fluid-circulation systems contribute to Alzheimer disease?"
+    description: "The abstract asks readers to study dysregulation of brain microcirculation, hypoperfusion, blood-brain barrier dysfunction, and reduced amyloid clearance to understand Alzheimer disease, identify drug targets, develop treatment strategies, and improve prescribing."
+    evidence: ["C01"]
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["metadata.md Abstract"]
+        title: "Use a physiology-to-disease review structure"
+        choice: "Organize the review into a healthy-system description followed by Alzheimer disease alteration of each aspect."
+        alternatives:
+          - "Not available from provided input"
+        evidence: ["C02"]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract"]
+            title: "Discuss neurovascular-unit structures separately"
+            result: "The component-wise discussion leads the authors to conclude that aberrant pericytes are early contributors and central to understanding Alzheimer disease pathophysiology."
+            evidence: ["C03"]
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract"]
+                title: "Map pericyte functions across barrier, flow, coupling, drainage, and signaling"
+                result: "Pericytes are linked to blood-brain barrier integrity, capillary blood flow, capillary stalling, neurovascular coupling, drainage pathways, amyloid and tau clearance, receptor-mediated vasoactivity, APOE isoform-specific transport, hypoperfusion, and PDGBB-PDGFRbeta signaling."
+                evidence: ["C04", "C05"]
+                children:
+
+                  - id: N05
+                    type: pivot
+                    support_level: explicit
+                    source_refs: ["metadata.md Abstract", "metadata.md Significance Statement"]
+                    title: "From neurovascular dysregulation to pericyte-centered translation"
+                    from: "Broad neurovascular-unit and fluid-circulation dysfunction in Alzheimer disease"
+                    to: "Aberrant pericytes as central pathophysiology, therapeutic target, and regenerative-therapy focus"
+                    trigger: "The abstract concludes that pericytes are central to Alzheimer disease pathophysiology and have therapeutic and regenerative-therapy relevance."
+                    evidence: ["C06"]

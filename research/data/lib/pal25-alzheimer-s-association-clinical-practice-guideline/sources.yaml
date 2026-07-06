@@ -1,0 +1,16 @@
+paper: { slug: pal25-alzheimer-s-association-clinical-practice-guideline, doi: 10.1002/alz.70535, title: "Alzheimer's Association Clinical Practice Guideline on the use of blood-based biomarkers in the diagnostic workup of suspected Alzheimer's disease within specialized care settings" }
+pdf: { oa: true, downloaded: true, path: paper.pdf, url: "https://europepmc.org/articles/PMC12306682?pdf=render", source: pmc }
+code:   []
+data:   []
+clinical_trials: []
+notes: >
+  This is an Alzheimer's Association Clinical Practice Guideline (systematic review + evidence-based
+  recommendations), not a primary empirical study. Open access via PMC (PMCID PMC12306682, PMID 40729527),
+  CC BY-NC-ND license; PDF downloaded from Europe PMC (387 KB, 11 pages, valid %PDF). Unpaywall check was
+  blocked by permission, but OA status confirmed via Europe PMC (isOpenAccess=Y). The full text contains
+  no formal Data Availability, Code Availability, or Clinical Trial Registration statements — expected for
+  a guideline document. No GitHub/GitLab/Zenodo/OSF code repository, no released dataset or accession, and
+  no NCT identifier are associated with this paper. The guideline references a companion systematic review
+  (published separately) and the MAGICapp platform for living-guideline updates
+  (https://app.magicapp.org/#/guideline/nyO1Yj); neither is a code repo or dataset. Funded by NIA/NIH grants
+  (R01 AG083874, P30 AG062429, P30 AG072958, U24 AG082930) and the Alzheimer's Association.

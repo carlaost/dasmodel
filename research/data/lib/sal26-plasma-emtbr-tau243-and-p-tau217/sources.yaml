@@ -1,0 +1,46 @@
+paper:
+  slug: sal26-plasma-emtbr-tau243-and-p-tau217
+  doi: 10.1001/jamaneurol.2026.1405
+  title: Plasma eMTBR-tau243 and %p-tau217 for Biological Staging of Alzheimer Disease
+pdf:
+  oa: true
+  downloaded: false
+  path: null
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13213595/
+  source: pmc
+code: []
+data:
+  - name: BioFINDER-2 (primary cohort, 872 participants)
+    identifier: NCT03174938
+    repository: ClinicalTrials.gov / Swedish BioFINDER study (biofinder.se)
+    access: request
+    verified: true
+  - name: Knight Alzheimer Disease Research Center (ADRC) validation cohort (156 participants)
+    identifier: null
+    repository: Washington University in St Louis, Knight ADRC
+    access: request
+    verified: true
+clinical_trials:
+  - nct: NCT03174938
+    title: The Swedish BioFINDER 2 Study
+    phase: NA
+    status: RECRUITING
+    sponsor: Skane University Hospital
+    source: clinicaltrials.gov
+    verified: true
+notes: >
+  Green OA (CC BY-NC-ND); PMID 42189519, PMCID PMC13213595. Full text is freely
+  readable as HTML at Europe PMC / PMC, but no rendered PDF is available yet
+  (Unpaywall url_for_pdf is null and both PMC and Europe PMC PDF endpoints return
+  no file), so downloaded:false. Publisher landing page:
+  https://jamanetwork.com/journals/jamaneurology/fullarticle/2849574.
+  Data availability: a formal Data Sharing Statement is provided in Supplement 2
+  (jamaneurol-e261405-s002.pdf). Data come from two cohorts: BioFINDER-2
+  (registered as NCT03174938, the only trial tied to this paper — an observational/
+  translational study, phase NA, recruiting, sponsor Skane University Hospital,
+  collaborator Lund University) and the independent Knight ADRC cohort at
+  Washington University in St Louis. Consistent with BioFINDER policy, cohort data
+  are available to qualified researchers on reasonable request (controlled/request
+  access, not open deposit). No code/software repository (GitHub/GitLab/Zenodo/OSF)
+  was found for this paper; analyses used mass-spectrometry plasma biomarkers and
+  standard statistical modeling with no released code.

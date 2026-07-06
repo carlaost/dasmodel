@@ -1,0 +1,13 @@
+# The mitochondria-synapse axis in Alzheimer's disease: Lost coordination in early stages.
+
+- **Cite key**: Sha26
+- **Authors**: Priyansh Sharma; Navneet Kaur; Nandini Vasal; K. Solanki; Aditya Sunkaria
+- **Year**: 2026  (2026-05-01)
+- **Journal**: Ageing research reviews
+- **DOI**: 10.1016/j.arr.2026.103168
+- **URL**: https://doi.org/10.1016/j.arr.2026.103168
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Synaptic dysfunction emerges early in Alzheimer's disease, often years before the appearance of clinical symptoms, and is among the most reliable predictors of subsequent cognitive decline. Despite its importance, the cellular events that trigger this early synaptic vulnerability remain poorly defined. Growing evidence points to a critical failure at the interface between neuronal energy metabolism and synaptic signalling, commonly referred to as the mitochondria-synapse axis, suggesting that its disruption may occur well before the accumulation of classical amyloid and tau pathology. In this Review, we combine findings from human neuronal models, multi-omics analyses, and in vivo studies to show how amyloid-β oligomers (Aβ oligomers) induce subtle yet consequential defects in mitochondrial trafficking, calcium handling, redox homeostasis, and local ATP supply. Together, these changes undermine the precise coordination between mitochondrial metabolism and calcium-dependent signalling that is essential for synaptic plasticity. As a result, affected neural circuits lose the capacity to meet the energetic demands of sustained information processing. We propose that this early uncoupling of energy availability from synaptic demand represents a leading contributor to neuronal vulnerability rather than a secondary consequence of protein aggregation, based on converging evidence from iPSC-derived cortical neurons, human neuronal cultures, and transgenic mouse models, with human in vivo validation still emerging. Finally, we highlight emerging therapeutic strategies aimed at restoring mitochondrial quality control, axonal transport, and metabolic communication. By re-aligning bioenergetic support with synaptic function, such approaches may open a critical window for intervention before irreversible circuit degeneration takes hold.

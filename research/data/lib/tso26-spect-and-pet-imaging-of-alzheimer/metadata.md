@@ -1,0 +1,13 @@
+# SPECT and PET imaging of Alzheimer’s disease revisited: from biomarkers to artificial intelligence-based prediction
+
+- **Cite key**: Tso26
+- **Authors**: I. Tsougos; V. Valotassiou; Dimitra Tsivaka; M. Satra; G. Angelidis; J. Papatriantafyllou; E. Panagiotidis; E. Dardiotis; G. Hadjigeorgiou; P. Georgoulias
+- **Year**: 2026  (2026-03-26)
+- **Journal**: Annals of Nuclear Medicine
+- **DOI**: 10.1007/s12149-026-02194-0
+- **URL**: https://doi.org/10.1007/s12149-026-02194-0
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+In Alzheimer’s disease (AD), PET and SPECT enable in-vivo imaging of β-amyloid, tau, cerebral metabolism, and neuroinflammation. However, classical interpretation, including visual reads, ROI summaries, and SUVR thresholds, remains limited by reader variability, dependence on reference regions, and cross-site heterogeneity. Building upon our previous review on SPECT and PET imaging in AD, this article revisits molecular neuroimaging through the lens of artificial intelligence (AI), integrating advances from radiomics and classical machine learning to deep learning that support more quantitative and predictive use of PET/SPECT. Methods are organized by clinical objective, including diagnostic and differential classification, segmentation for region-wise measurement, automated quantification, image enhancement and reconstruction (attenuation correction, denoising, super-resolution, low-dose/short-scan recovery), and prognostic modeling (conversion and cognitive decline). We summarize key data resources, benchmarking, and standardization /harmonization strategies that improve generalization across scanners and tracers. Finally, we outline practical requirements for translation: models should provide well-calibrated probabilities, indicate when predictions are uncertain, offer outputs consistent with AD-relevant biology, report performance across relevant subgroups, and follow transparent reporting standards with clinically usable outputs, supporting earlier detection and more consistent monitoring in AD.

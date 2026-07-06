@@ -1,0 +1,13 @@
+# APOE ε4 Allele Dose and Time to Clinical Conversion from Mild Cognitive Impairment to Alzheimer’s Disease Dementia: An ADNI Survival Analysis
+
+- **Cite key**: Kha26b
+- **Authors**: Faizaan Fazal Khan; Goo-Rak Kwon
+- **Year**: 2026  (2026-06-04)
+- **Journal**: Biomedicines
+- **DOI**: 10.3390/biomedicines14061280
+- **URL**: https://doi.org/10.3390/biomedicines14061280
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background/Objectives: Existing Alzheimer’s disease (AD) prediction studies often treat APOE ε4 as a binary carrier variable and emphasize classification rather than time-to-event progression. This study evaluated whether APOE ε4 allele dose predicts clinical conversion from mild cognitive impairment (MCI) to AD dementia/probable AD in a longitudinal survival framework adjusted for hippocampal volume and baseline cognition. Methods: We analyzed 1115 Alzheimer’s Disease Neuroimaging Initiative (ADNI) participants with baseline MCI, APOE genotype data, and at least one follow-up visit, grouped by APOE ε4 allele count (0, 1, or 2). Kaplan–Meier curves, Bonferroni-corrected log-rank tests, nested Cox models, interaction testing, and twelve sensitivity and robustness analyses were performed. Results: During 3.73 ± 3.38 years of mean follow-up, 399 participants (35.8%) clinically converted. Median conversion-free survival was 18.47 years for non-carriers, 4.32 years for heterozygotes, and 3.41 years for homozygotes, although the non-carrier median occurred late in follow-up. In the fully adjusted Cox model, APOE ε4 dose remained associated with conversion hazard (HR = 1.580, 95% CI 1.362–1.834, p < 0.0001). Intracranial Volume (ICV)-adjusted hippocampal volume was protective (HR = 0.620, 95% CI 0.566–0.680, p < 0.0001), and the model achieved a Concordance Index (C-index) of 0.805. The APOE ε4 × hippocampal volume interaction was not significant (likelihood ratio test p = 0.098). Sensitivity analyses supported robustness, although the APOE ε4 association was attenuated in the exploratory amyloid-positive CSF subgroup. Conclusions: These findings support APOE ε4 allele dose as a statistical marker of clinical progression risk in ADNI, not as evidence of biomarker-confirmed AD progression or distinct mechanisms.

@@ -1,0 +1,15 @@
+{
+  "idx": 278,
+  "cite_key": "He26b",
+  "title": "The shifting burden of Alzheimer's disease and other dementias in China: a systematic analysis and forecasting to 2035 based on the Global Burden of Disease Study 2023.",
+  "authors": "Aini He; Yuke Wang; Xuefan Yao; Wei Sun; Benke Zhao; Houlin Lai; Kehui Ma; Weining Mao; Yuan Wang; Haiqing Song",
+  "year": "2026",
+  "pub_date": "2026-06-11",
+  "journal": "Neuroepidemiology",
+  "abstract": "Introduction Alzheimer's disease and other dementias (ADOD) represent an escalating challenge for global health systems. This study evaluates spatiotemporal trends in ADOD burden from 1990 to 2023 and forecasts incidence trajectories in China through 2035. Methods Using the Global Burden of Disease Study 2023, we analyzed ADOD metrics globally, by Socio-demographic Index (SDI) quintile, and across China. Temporal trends were assessed via estimated annual percentage changes (EAPCs) and compound annual growth rates (CAGRs). Absolute burden shifts were partitioned into population growth, population aging, and epidemiological change using the Dash-Gupta decomposition. Future China-specific incidence was projected using a Bayesian age-period-cohort (BAPC) model. Results Global age-standardized incidence rates (ASIR) exhibited a marginal increase (EAPC 0.06), with progressively higher rates across increasing SDI levels. Decomposition analysis identified population growth as the dominant contributor to rising incidence, peaking in low SDI regions (94.72%), whereas population aging contributed more substantially in high SDI (21.34%). China recorded the fastest ASIR growth (EAPC 0.42), with estimated contributions from both population aging (20.03%) and the epidemiological change (15.71%), particularly within the 60-79 age cohorts. While global mortality and disability-adjusted life-years shifted toward the oldest-old (≥ 80 years), China experienced a disproportionate incidence increase among the younger-old (70-74 years; CAGR 1.10% vs global 0.27%). However, BAPC projections suggest a plateau or decline in incidence among the younger-old in China, contrasted by persistent increases among the oldest-old, with the most pronounced growth observed in the ≥ 95-year cohort. Conclusion China is undergoing a distinct dementia transition characterized by rising younger-old incidence and prolonged disease duration. This pattern suggests a need to combine earlier risk reduction with strengthened integrated long-term care for the oldest-old. The trajectory serves as a reference for rapidly aging middle-to-high SDI nations.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1159/000552995",
+  "url": "https://doi.org/10.1159/000552995",
+  "slug": "he26b-the-shifting-burden-of-alzheimer-s"
+}

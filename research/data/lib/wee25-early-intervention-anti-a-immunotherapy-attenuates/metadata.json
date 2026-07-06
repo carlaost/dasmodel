@@ -1,0 +1,15 @@
+{
+  "idx": 480,
+  "cite_key": "Wee25",
+  "title": "Early intervention anti-Aβ immunotherapy attenuates microglial activation without inducing exhaustion at residual plaques",
+  "authors": "Lis de Weerd; S. Hummel; Stephan A. Müller; Iñaki Paris; T. Sandmann; Marie Eichholtz; Robin Gröger; Amelie L. Englert; Stephan Wagner; Connie Ha; Sonnet S. Davis; Valerie Warkins; D. Xia; B. Nuscher; Anna Berghofer; Marvin Reich; Astrid F Feiten; K. Schlepckow; Michael Willem; Stefan F. Lichtenthaler; Joseph W. Lewcock; K. Monroe; Matthias Brendel; Christian Haass",
+  "year": "2025",
+  "pub_date": "2025-08-20",
+  "journal": "Molecular Neurodegeneration",
+  "abstract": "Anti-amyloid β-peptide (Aβ) immunotherapy was developed to reduce amyloid plaque pathology and slow cognitive decline during progression of Alzheimer’s disease. Efficient amyloid clearance has been proven in clinical trials testing anti-Aβ antibodies, by their impact on cognitive endpoints correlating with the extent of amyloid removal. However, treatment is associated with adverse side effects, such as oedema and haemorrhages, which are potentially linked to the induced immune response. To improve the safety profile of these molecules, it is imperative to understand the consequences of anti-Aβ antibody treatment on immune cell function. Here, we investigated the effects of long-term chronic anti-Aβ treatment on amyloid plaque pathology and microglial response in the APP-SAA triple knock-in mouse model with an intervention paradigm early during amyloidogenesis. Long-term treatment with anti-Aβ results in a robust and dose-dependent lowering of amyloid plaque pathology, with a higher efficiency for reducing diffuse over dense-core plaque deposition. Analysis of the CSF proteome indicates a reduction of markers for neurodegeneration including Tau and α-Synuclein, as well as immune-cell-related proteins. Bulk RNA-seq revealed a dose-dependent attenuation of disease-associated microglial (DAM) and glycolytic gene expression, which is supported by a parallel decrease of glucose uptake and protein levels of Triggering Receptor Expressed on Myeloid cells 2 (Trem2) protein, a major immune receptor involved in DAM activation of microglia. In contrast, DAM activation around residual plaques remains high, regardless of treatment dose. In addition, microglia surrounding residual plaques display a dose-dependent increase in microglial clustering and a selective increase in antigen-presenting and immune signalling proteins. These findings demonstrate that chronic early intervention by an anti-amyloid immunotherapy leads to a dose-dependent decrease in plaque formation, which is associated with lower brain-wide microglial DAM activation and neurodegeneration. Microglia at residual plaques still display a combined DAM and antigen-presenting phenotype that suggests a continued treatment response.",
+  "citation_count": "7",
+  "citations_per_year": "8.0",
+  "doi": "10.1186/s13024-025-00878-1",
+  "url": "https://doi.org/10.1186/s13024-025-00878-1",
+  "slug": "wee25-early-intervention-anti-a-immunotherapy-attenuates"
+}

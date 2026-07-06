@@ -1,0 +1,69 @@
+# Exploration Tree — gon25b-stereo-seq-of-the-prefrontal-cortex
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. No full text, figures, tables, logs, or ablation history were provided.
+# The tree includes only source-supported questions/experiments. No dead_end or decision nodes are
+# included because the abstract does not expose rejected alternatives or explicit design tradeoffs.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md — Abstract"]
+    title: "What spatial transcriptomic changes characterize human PFC in aging and Alzheimer's disease?"
+    description: >
+      The abstract frames the paper as a Stereo-seq spatial transcriptome atlas of human prefrontal
+      cortex in AD and age-matched controls, aimed at revealing molecular mechanisms of AD.
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md — Abstract"]
+        title: "Generate a subcellular-resolution Stereo-seq atlas of human PFC"
+        result: >
+          The study reports a subcellular-resolution spatial transcriptome atlas generated from male
+          AD cases at varying neuropathological stages and age-matched male controls.
+        evidence: [C01]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Analyze transcriptional and laminar changes across PFC layers"
+            result: >
+              The abstract reports distinct transcriptional alterations across PFC layers and
+              disruptions in laminar structure.
+            evidence: [C02]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Analyze layer-to-layer and cell-cell interactions"
+            result: >
+              The abstract reports AD-related shifts in layer-to-layer and cell-cell interactions.
+            evidence: [C02]
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Characterize stressed-neuron and glial stress-response interactions"
+            result: >
+              The abstract reports highly upregulated genes in stressed neurons and nearby glial cells,
+              and diminished stress-response interactions that promote amyloid-beta clearance in AD.
+            evidence: [C03]
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Identify neuronal co-expression modules and ZNF460 regulation"
+            result: >
+              The abstract reports three neuronal modules linked to neuroprotection, protein
+              dephosphorylation, and amyloid-beta regulation, all downregulated as AD progresses, and
+              identifies ZNF460 as a transcription factor regulating these modules.
+            evidence: [C04]

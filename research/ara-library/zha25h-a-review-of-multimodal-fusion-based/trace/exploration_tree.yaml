@@ -1,0 +1,87 @@
+# Exploration Tree — zha25h-a-review-of-multimodal-fusion-based
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. The full text was unavailable at compile time, so the tree is bounded
+# to the review logic directly stated or minimally implied by the abstract. No dead_end nodes are
+# included because the provided input reports no failed approaches, rejected alternatives, or
+# ablation findings.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "How should recent deep learning-based MRI/PET fusion for AD be surveyed?"
+    description: >
+      The abstract states that the paper systematically surveys recent advancements in deep
+      learning-based multimodal fusion of MRI and PET images for Alzheimer's disease research,
+      focusing on studies published in 2021-2025.
+    evidence: [C01]
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Center the review on MRI and PET"
+        choice: "Review multimodal fusion based on the combined use of MRI and PET"
+        alternatives:
+          - "Single-modality imaging"
+          - "Other modalities not named in the provided input"
+        evidence: [C02]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Survey AD-related data sources and preprocessing"
+            result: >
+              The review introduces main sources of AD-related data along with preprocessing and
+              feature extraction methods. Specific sources and methods are Not available from
+              provided input.
+            evidence: [C03]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Summarize metrics and fusion techniques"
+            result: >
+              The review summarizes performance metrics and multimodal fusion techniques. Specific
+              metric definitions and fusion taxonomy are Not available from provided input.
+            evidence: [C03]
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Explore deep learning models and variants"
+            result: >
+              The review explores applications of various deep learning models and their variants in
+              multimodal fusion tasks. Specific model names are Not available from provided input.
+            evidence: [C03]
+
+      - id: N06
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Analyze field challenges"
+        result: >
+          The review analyzes key challenges including data scarcity, data imbalance, and
+          inter-institutional data heterogeneity. Additional challenge details are Not available from
+          provided input.
+        evidence: [C04]
+
+      - id: N07
+        type: pivot
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "From literature synthesis to future research guidance"
+        from: "Surveying recent MRI/PET deep learning fusion studies"
+        to: "Discussing potential solutions and future research directions for early AD diagnosis and intervention strategies"
+        trigger: >
+          The abstract states that after reviewing methods and challenges, the paper discusses
+          potential solutions and future directions.
+        evidence: [C04]

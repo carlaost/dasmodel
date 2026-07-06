@@ -1,0 +1,13 @@
+# Radiomics of PET using Neural Networks for Prediction of Alzheimer’s Disease Diagnosis
+
+- **Cite key**: Zha25o
+- **Authors**: Yimo Zhang; Jon A Steingrimsson; Akhil Ambekar; Hwamee Oh; A. Eloyan
+- **Year**: 2025  (2025-06-01)
+- **Journal**: Statistics in medicine
+- **DOI**: 10.1002/sim.70128
+- **URL**: https://doi.org/10.1002/sim.70128
+- **Citations**: 2 (1.8/yr)
+
+## Abstract
+
+Positron emission tomography (PET) imaging technology is widely used for diagnosing Alzheimer's disease (AD) in people with dementia. Although various computational methods have been proposed for diagnosis of AD using PET images, prediction of disease diagnosis by leveraging longitudinal PET imaging data has not been widely studied. In this paper, we propose novel implementations of deep learning models graph neural network (GNN) and transformer encoder (TE), to leverage longitudinal sequences of PET images in addition to cognitive scores for prediction of AD diagnosis and prediction of conversion from cognitively unimpaired or mild cognitive impairment to AD using data collected in the Alzheimer's Disease Neuroimaging Initiative (ADNI) study. In addition, we compare the performance of these two approaches with other methods including simple feed‐forward networks (FFN) that only utilize PET images from a single time point and recurrent neural networks (RNN) that model longitudinal images by considering them as sequences, while failing to take into account between visit time variability. We show that GNN and TE have higher predictive performance than FFN and RNN in predicting disease diagnosis, where predictive performance is measured by accuracy, area under receiver operating characteristic (AUC) curve, and the Brier score. Furthermore, we illustrate the potential of PET images in predicting conversion from mild cognitive impairment or cognitively normal to AD.

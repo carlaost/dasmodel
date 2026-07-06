@@ -1,0 +1,13 @@
+# Neighborhood deprivation and mortality among people with Alzheimer’s disease and related dementia
+
+- **Cite key**: Pal25b
+- **Authors**: J. Paley; Grant D Scheiffele; Yujia Li; C. E. Shaaban; Yonghui Wu; Stephen Anton; S. DeKosky; Jiang Bian; Jingchuan Guo
+- **Year**: 2025  (2025-07-02)
+- **Journal**: Journal of Alzheimer's disease : JAD
+- **DOI**: 10.1177/13872877251352120
+- **URL**: https://doi.org/10.1177/13872877251352120
+- **Citations**: 1 (1.0/yr)
+
+## Abstract
+
+Background There are limited studies quantifying the extent to which neighborhood deprivation affects mortality in individuals living with Alzheimer's disease (AD) and AD-related dementias (AD/ADRD). Objective To quantify to what extent neighborhood deprivation affects adverse outcomes in individuals living with AD/ADRD. Methods We identified individuals with AD/ADRD using a 15% random sample of national Medicare fee-for-service beneficiaries. Area deprivation index (ADI) was spatially linked to the Medicare AD/ADRD cohort using zip codes. Multivariate logistic regression was applied to examine the association between ADI and all-cause mortality among beneficiaries with AD/ADRD. Results After adjusting for patients characteristics, compared to the lowest ADI quartile (Q1), higher ADI quartiles were associated with higher odds of all-cause mortality in individuals with AD/ADRD (Q2 = OR 1.08 [95% CI: 1.06, 1.10], Q3 = OR 1.09 [95% CI: 1.07, 1.11], and Q4 OR 1.05 [95% CI: 1.03, 1.07]). Conclusions Neighborhood deprivation is an independent risk factor for mortality in persons with AD/ADRD.

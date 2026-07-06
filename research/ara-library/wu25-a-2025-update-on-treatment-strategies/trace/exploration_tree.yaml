@@ -1,0 +1,48 @@
+# Exploration Tree - wu25-a-2025-update-on-treatment-strategies
+# Research DAG reconstructed from abstract-only metadata. No dead ends or detailed decisions are
+# included because the provided source does not reveal rejected alternatives, ablations, or failures.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md: Abstract"]
+    title: "What is the 2025 treatment paradigm for the Alzheimer's disease spectrum?"
+    description: "The review asks how pharmacological, non-pharmacological, diagnostic, and disease-modifying developments shape current Alzheimer's disease treatment."
+    evidence: [C01, C02, C03, C04, C05]
+    children:
+      - id: N02
+        type: question
+        support_level: explicit
+        source_refs: ["metadata.md: Abstract"]
+        title: "How should early-stage Alzheimer's disease be treated after anti-amyloid therapy approvals?"
+        description: "The abstract highlights FDA-approved anti-amyloid monoclonal antibodies such as lecanemab and donanemab for slowing cognitive decline in early-stage Alzheimer's disease."
+        evidence: [C01]
+      - id: N03
+        type: question
+        support_level: explicit
+        source_refs: ["metadata.md: Abstract"]
+        title: "What role remains for symptomatic therapies?"
+        description: "The abstract states that cholinesterase inhibitors and memantine remain standard treatments for mild, moderate to severe dementia."
+        evidence: [C02]
+      - id: N04
+        type: question
+        support_level: explicit
+        source_refs: ["metadata.md: Abstract"]
+        title: "How do biomarkers guide staging and individualized treatment?"
+        description: "The abstract states that fluid and imaging biomarkers enable more precise staging and individualized treatment plans."
+        evidence: [C03]
+      - id: N05
+        type: question
+        support_level: explicit
+        source_refs: ["metadata.md: Abstract"]
+        title: "How should care extend beyond pharmacotherapy?"
+        description: "The abstract highlights lifestyle modifications, cognitive training, and caregiver support as elements of personalized multimodal treatment."
+        evidence: [C04]
+      - id: N06
+        type: question
+        support_level: explicit
+        source_refs: ["metadata.md: Abstract"]
+        title: "What constraints still need refinement?"
+        description: "The abstract identifies patient selection, treatment-related side effects, accessibility, ongoing clinical trials, and real-world evidence as remaining challenges."
+        evidence: [C05]

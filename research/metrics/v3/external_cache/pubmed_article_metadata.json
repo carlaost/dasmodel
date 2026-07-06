@@ -1,0 +1,489 @@
+{
+  "41332786": {
+    "doi": "10.1101/2025.11.20.689483",
+    "title": "E4 Alzheimer's Risk Converges on an Oligodendrocyte Subtype in the Human Entorhinal Cortex.",
+    "publication_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "20"
+    },
+    "self_match_of": "huu25-apoe-e4-alzheimer-s-risk-converges"
+  },
+  "9454617": {
+    "doi": "10.1006/exnr.1997.6709",
+    "title": "Increased apolipoprotein E mRNA in the hippocampus in Alzheimer disease and in rats after entorhinal cortex lesioning.",
+    "publication_date": {
+      "year": "1998",
+      "month": "Jan"
+    }
+  },
+  "39998021": {
+    "doi": "10.3390/pharmacy13010023",
+    "title": "Targeting Amyloid Pathology in Early Alzheimer's: The Promise of Donanemab-Azbt.",
+    "publication_date": {
+      "year": "2025",
+      "month": "02",
+      "day": "08"
+    },
+    "article_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "relevant_abstract_excerpt": "(4) TRAILBLAZER-ALZ 4: A head-to-head comparison with aducanumab revealed superior amyloid plaque clearance with donanemab."
+  },
+  "40390253": {
+    "doi": "10.1002/alz.70293",
+    "title": "TRAILBLAZER-ALZ 4: A phase 3 trial comparing donanemab with aducanumab on amyloid plaque clearance in early, symptomatic Alzheimer's disease.",
+    "publication_date": {
+      "year": "2025",
+      "month": "May"
+    },
+    "self_match_of": "sal25-trailblazer-alz-4-a-phase-3"
+  },
+  "42350884": {
+    "doi": "10.1007/s13760-026-03107-8",
+    "title": "Diagnostic accuracy of CSF and plasma pTau-181, pTau-217, and pTau-231 for Alzheimer's disease: a diagnostic meta-analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "26"
+    }
+  },
+  "42318558": {
+    "doi": "10.3389/fnagi.2026.1834591",
+    "title": "Diagnostic performance of plasma p-Tau217, p-Tau181, and p-Tau231 across the Alzheimer's disease continuum: a network meta-analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "03"
+    },
+    "self_match_of": "che26-diagnostic-performance-of-plasma-p-tau217",
+    "note": ""
+  },
+  "42252466": {
+    "doi": "10.1186/s13195-026-02104-6",
+    "title": "Plasma p-tau as a biomarker for the differential diagnosis of Alzheimer's disease: a systematic review and meta-analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "08"
+    }
+  },
+  "42071133": {
+    "doi": "10.1007/s12035-026-05864-2",
+    "title": "From Cerebrospinal Fluid to Blood Draw: Plasma p-Tau217 as a Non-Invasive Biomarker for Alzheimer's Disease: A Fagan Nomogram-Based Meta-Analytic Study.",
+    "publication_date": {
+      "year": "2026",
+      "month": "05",
+      "day": "04"
+    }
+  },
+  "41715082": {
+    "doi": "10.1186/s12987-025-00757-3",
+    "title": "The impact of chronic and acute sleep deprivation on key Alzheimer's disease biomarkers: a systematic review and meta-analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "02",
+      "day": "19"
+    },
+    "note": "tangential -- sleep deprivation, not a p-tau-isoform comparison meta-analysis; false positive."
+  },
+  "42189519": {
+    "doi": "10.1001/jamaneurol.2026.1405",
+    "title": "Plasma eMTBR-tau243 and %p-tau217 for Biological Staging of Alzheimer Disease.",
+    "publication_date": {
+      "year": "2026",
+      "month": "05",
+      "day": "26"
+    },
+    "self_match_of": "sal26-plasma-emtbr-tau243-and-p-tau217"
+  },
+  "41170658": {
+    "doi": "10.1002/alz.70881",
+    "title": "Combining CSF MTBR-tau243 and plasma pTau217 ratio enhances the prediction of continuous regional tau PET burden in early Alzheimer's disease.",
+    "publication_date": {
+      "year": "2025",
+      "month": "Nov"
+    }
+  },
+  "40164726": {
+    "doi": "10.1038/s41591-025-03617-7",
+    "title": "Plasma MTBR-tau243 biomarker identifies tau tangle pathology in Alzheimer's disease.",
+    "publication_date": {
+      "year": "2025",
+      "month": "03",
+      "day": "31"
+    }
+  },
+  "42081127": {
+    "doi": "10.1177/13872877261445035",
+    "title": "Trends in Alzheimer's disease mortality with metabolic syndrome-related conditions among older adults in the United States, 1999-2020.",
+    "publication_date": {
+      "year": "2026",
+      "month": "05",
+      "day": "04"
+    }
+  },
+  "40680588": {
+    "doi": "10.1016/j.jocn.2025.111513",
+    "title": "Analyzing mortality trends and demographic variances in Pneumonia and Alzheimer's disease related mortality among older adults in the United States: a CDC wonder analysis (1999-2020).",
+    "publication_date": {
+      "year": "2025",
+      "month": "07",
+      "day": "17"
+    }
+  },
+  "39178013": {
+    "doi": "10.4088/PCC.24m03724",
+    "title": "Divergent Mortality Patterns Associated With Dementia in the United States: 1999-2020.",
+    "publication_date": {
+      "year": "2024",
+      "month": "08",
+      "day": "13"
+    }
+  },
+  "37993040": {
+    "doi": "10.1016/j.amjcard.2023.11.044",
+    "title": "Trends in Cardiovascular Mortality Among Patients With Alzheimer's Disease in the United States from 1999 to 2020.",
+    "publication_date": {
+      "year": "2023",
+      "month": "11",
+      "day": "20"
+    }
+  },
+  "39444182": {
+    "doi": "10.2174/0115672050338833240924113200",
+    "title": "Analysis of Alzheimer's Disease-Related Mortality Rates Among the Elderly Populations Across the United States: An Analysis of Demographic and Regional Disparities from 1999 to 2020.",
+    "publication_date": {
+      "year": "2024"
+    }
+  },
+  "40178744": {
+    "doi": "10.1007/s10072-025-08152-4",
+    "title": "Mortality patterns in patients with type 2 diabetes mellitus and late-onset Alzheimer's disease in the United States: a retrospective analysis from 1999 to 2020.",
+    "publication_date": {
+      "year": "2025",
+      "month": "04",
+      "day": "03"
+    }
+  },
+  "36905313": {
+    "doi": "10.1177/00333549231155869",
+    "title": "Cause-Specific Mortality Among Adults Aged &#x2265;65 Years in the United States, 1999 Through 2020.",
+    "publication_date": {
+      "year": "2023",
+      "month": "03",
+      "day": "11"
+    }
+  },
+  "42378334": {
+    "doi": "10.1177/03000605261454837",
+    "title": "Nationwide trends and forecasts in Alzheimer's and cerebrovascular disease-related mortality in the United States, 1999-2023: A CDC WONDER analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "30"
+    }
+  },
+  "33756057": {
+    "doi": "10.1002/alz.12328",
+    "title": "2021 Alzheimer's disease facts and figures.",
+    "publication_date": {
+      "year": "2021",
+      "month": "03",
+      "day": "23"
+    }
+  },
+  "39645376": {
+    "doi": "10.1016/S0140-6736(24)01446-6",
+    "title": "The burden of diseases, injuries, and risk factors by state in the USA, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021.",
+    "publication_date": {
+      "year": "2024",
+      "month": "Dec",
+      "day": "07"
+    }
+  },
+  "39899444": {
+    "doi": "10.1002/edm2.70032",
+    "title": "Trends in Alzheimer's-Related Mortality Among Type 2 Diabetes Patients in the United States: 1999-2019.",
+    "publication_date": {
+      "year": "2025",
+      "month": "Mar"
+    }
+  },
+  "40788638": {
+    "doi": "10.1001/jamaneurol.2025.2236",
+    "title": "Sex Differences in Mortality and Health Care Utilization After Dementia Diagnosis.",
+    "publication_date": {
+      "year": "2025",
+      "month": "Oct",
+      "day": "01"
+    }
+  },
+  "40014341": {
+    "doi": "10.1001/jamanetworkopen.2024.62117",
+    "title": "Sleep Trajectories and All-Cause Mortality Among Low-Income Adults.",
+    "publication_date": {
+      "year": "2025",
+      "month": "02",
+      "day": "03"
+    }
+  },
+  "40990869": {
+    "doi": "10.1177/13872877251380689",
+    "title": "Aging, Alzheimer's disease, and stroke: A 25-year longitudinal analysis of U.S. mortality trends.",
+    "publication_date": {
+      "year": "2025",
+      "month": "09",
+      "day": "24"
+    }
+  },
+  "25946701": {
+    "doi": "10.1097/PHH.0000000000000267",
+    "title": "Trends in Disparity by Sex and Race/Ethnicity for the Leading Causes of Death in the United States-1999-2010.",
+    "publication_date": {
+      "year": "2016"
+    }
+  },
+  "40544271": {
+    "doi": "10.1186/s12979-025-00521-z",
+    "title": "The aging immune system and all-cause mortality in older americans: differences across sex and race/ethnicity.",
+    "publication_date": {
+      "year": "2025",
+      "month": "06",
+      "day": "21"
+    }
+  },
+  "28236289": {
+    "doi": "10.1007/s40615-017-0341-5",
+    "title": "Mortality Among Black Men in the USA.",
+    "publication_date": {
+      "year": "2017",
+      "month": "02",
+      "day": "24"
+    }
+  },
+  "22860569": {
+    "doi": "10.1111/j.1532-5415.2012.04056.x",
+    "title": "Burden of Alzheimer's disease-related mortality in the United States, 1999-2008.",
+    "publication_date": {
+      "year": "2012",
+      "month": "08",
+      "day": "02"
+    }
+  },
+  "12795490": {
+    "doi": null,
+    "title": "The effect of revised populations on mortality statistics for the United States, 2000.",
+    "publication_date": {
+      "year": "2003",
+      "month": "Jun",
+      "day": "05"
+    }
+  },
+  "41076120": {
+    "doi": "10.1016/j.jare.2025.10.011",
+    "title": "Rural-urban disparities in cardiovascular and other competing risk of death among cancer patients.",
+    "publication_date": {
+      "year": "2025",
+      "month": "10",
+      "day": "10"
+    }
+  },
+  "41035497": {
+    "doi": "10.1016/j.ahjo.2025.100618",
+    "title": "Trends and differences in cardiovascular disease and alzheimer's disease-related mortality among older adults in the United States, 1999 to 2023: A CDC WONDER database analysis.",
+    "publication_date": {
+      "year": "2025",
+      "month": "09",
+      "day": "17"
+    }
+  },
+  "33368161": {
+    "doi": "10.1111/jgs.16996",
+    "title": "Rural-Urban Disparities in Mortality from Alzheimer's and Related Dementias in the United States, 1999-2018.",
+    "publication_date": {
+      "year": "2020",
+      "month": "12",
+      "day": "24"
+    }
+  },
+  "35466938": {
+    "doi": "10.3233/JAD-215586",
+    "title": "Alzheimer's Disease Mortality as a Function of Urbanization Level: 1999-2019.",
+    "publication_date": {
+      "year": "2022"
+    }
+  },
+  "41180709": {
+    "doi": "10.1097/MS9.0000000000003920",
+    "title": "Trends in hypertensive heart disease-related mortality among population with Alzheimer's in the United States: a 22-year nationwide analysis.",
+    "publication_date": {
+      "year": "2025",
+      "month": "09",
+      "day": "17"
+    }
+  },
+  "42377087": {
+    "doi": "10.1177/13872877261461304",
+    "title": "National trends and disparities in mortality among U.S. older adults, with coexisting Alzheimer's disease and hypertension, 1999-2023.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "30"
+    }
+  },
+  "38582094": {
+    "doi": "10.1016/S0140-6736(24)00367-2",
+    "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021.",
+    "publication_date": {
+      "year": "2024",
+      "month": "04",
+      "day": "03"
+    }
+  },
+  "41333297": {
+    "doi": "10.1016/j.ahjo.2025.100677",
+    "title": "Trends in Alzheimer's disease and heart failure-related mortality among older American adults: Insights from the CDC WONDER database.",
+    "publication_date": {
+      "year": "2025",
+      "month": "11",
+      "day": "14"
+    }
+  },
+  "22091495": {
+    "doi": "10.1111/j.1532-5415.2011.03598.x",
+    "title": "Differences in mortality associated with dementia in U.S. blacks and whites.",
+    "publication_date": {
+      "year": "2011",
+      "month": "09",
+      "day": "13"
+    }
+  },
+  "39425740": {
+    "doi": "10.1002/gps.70004",
+    "title": "Evaluating the Regional and Demographic Variations in Dementia-Related Mortality Trends in the United States: 1999 to 2020.",
+    "publication_date": {
+      "year": "2024",
+      "month": "Oct"
+    }
+  },
+  "33136137": {
+    "doi": "10.1001/jamaneurol.2020.4152",
+    "title": "Burden of Neurological Disorders Across the US From 1990-2017: A Global Burden of Disease Study.",
+    "publication_date": {
+      "year": "2021",
+      "month": "Feb",
+      "day": "01"
+    }
+  },
+  "38728021": {
+    "doi": "10.1001/jamahealthforum.2024.0825",
+    "title": "Nurse Practitioner Care, Scope of Practice, and End-of-Life Outcomes for Nursing Home Residents With Dementia.",
+    "publication_date": {
+      "year": "2024",
+      "month": "05",
+      "day": "03"
+    }
+  },
+  "40937943": {
+    "doi": "10.1002/alz.70593",
+    "title": "Ancestral genomic functional differences in oligodendroglia: implications for Alzheimer's disease.",
+    "publication_date": {
+      "year": "2025",
+      "month": "Sep"
+    }
+  },
+  "39678342": {
+    "doi": "10.21203/rs.3.rs-5338140/v1",
+    "title": "Ancestral Genomic Functional Differences in Oligodendroglia: Implications for Alzheimer's Disease.",
+    "publication_date": {
+      "year": "2024",
+      "month": "12",
+      "day": "04"
+    }
+  },
+  "40917029": {
+    "doi": "10.2174/011570159X391766250806091602",
+    "title": "Structural and Functional Determinants of ARIA-H Risk in Anti-Amyloid Monoclonal Antibodies: A Comparative Mechanistic Framework for Alzheimer's Immunotherapy Development.",
+    "publication_date": {
+      "year": "2025",
+      "month": "08",
+      "day": "19"
+    }
+  },
+  "40818474": {
+    "doi": "10.1016/S1474-4422(25)00227-3",
+    "title": "Blood phosphorylated tau for the diagnosis of Alzheimer's disease: a systematic review and meta-analysis.",
+    "publication_date": {
+      "year": "2025",
+      "month": "Sep"
+    },
+    "self_match_of": "the25-blood-phosphorylated-tau-for-the-diagnosis"
+  },
+  "33585983": {
+    "doi": "10.1007/s00401-021-02275-6",
+    "title": "Plasma p-tau231: a new biomarker for incipient Alzheimer's disease pathology.",
+    "publication_date": {
+      "year": "2021",
+      "month": "02",
+      "day": "14"
+    }
+  },
+  "37977432": {
+    "doi": "10.1016/j.nbd.2023.106356",
+    "title": "Trajectories of CSF and plasma biomarkers across Alzheimer's disease continuum: disease staging by NF-L, p-tau181, and GFAP.",
+    "publication_date": {
+      "year": "2023",
+      "month": "11",
+      "day": "15"
+    }
+  },
+  "42299870": {
+    "doi": "10.1177/13872877261453609",
+    "title": "Alzheimer's disease and related dementias state policies and mortality in the United States: A descriptive study.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "16"
+    }
+  },
+  "42286514": {
+    "doi": "10.1186/s12883-026-05058-2",
+    "title": "Trends in both Alzheimer's disease and Diabetes mellitus related mortality among middle-aged and older adults in the United States, 1999 to 2023: a CDC WONDER database analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "06",
+      "day": "12"
+    }
+  },
+  "42254138": {
+    "doi": "10.1097/MS9.0000000000005016",
+    "title": "Demographic trends in mortality related to Alzheimer's disease and pneumonia: a two-decade (1999-2022) analysis from the CDC WONDER database.",
+    "publication_date": {
+      "year": "2026",
+      "month": "04",
+      "day": "24"
+    }
+  },
+  "41773884": {
+    "doi": "10.1097/WAD.0000000000000712",
+    "title": "Trends and Disparities in Alzheimer Disease-Related Mortality in the United States From 1999 to 2020: A CDC WONDER Analysis.",
+    "publication_date": {
+      "year": "2026",
+      "month": "02",
+      "day": "24"
+    },
+    "self_match_of": "ahm26b-trends-and-disparities-in-alzheimer-disease"
+  },
+  "39747866": {
+    "doi": "10.1038/s41467-024-54878-8",
+    "title": "Immunoassay detection of multiphosphorylated tau proteoforms as cerebrospinal fluid and plasma Alzheimer's disease biomarkers.",
+    "publication_date": {
+      "year": "2025",
+      "month": "01",
+      "day": "02"
+    },
+    "self_match_of": "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms"
+  }
+}

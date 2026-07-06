@@ -1,0 +1,13 @@
+# Alzheimer’s disease and related dementias in rural medicare populations: a scoping review
+
+- **Cite key**: Kia26
+- **Authors**: N. Kianfar; Sara Alsharayri; Abe Mollalo
+- **Year**: 2026  (2026-01-27)
+- **Journal**: BMC Geriatrics
+- **DOI**: 10.1186/s12877-026-07031-7
+- **URL**: https://doi.org/10.1186/s12877-026-07031-7
+- **Citations**: 1 (2.3/yr)
+
+## Abstract
+
+Rural populations in the U.S. face a disproportionate burden of Alzheimer’s Disease and Related Dementias (ADRD), characterized by delayed diagnosis, limited access to care, and high mortality. Medicare data, given their extensive coverage of older adults and ability to capture longitudinal care trajectories, are a critical resource for understanding these disparities. However, no previous review has systematically synthesized evidence specific to rural Medicare beneficiaries with ADRD. This scoping review maps the existing evidence and highlights critical areas where further rural ADRD research is needed. We conducted a systematic search on PubMed, MEDLINE, CINAHL, Scopus, and Web of Science from January 1, 2000 to March 5, 2025. Peer-reviewed studies were included if they examined ADRD outcomes in rural Medicare populations. Information on study designs, health outcomes, population characteristics, rurality definitions, risk factors, access to care, quality of services, healthcare utilization, statistical methods, and policies or interventions were extracted and synthesized. Thirty-three studies were included, most published after 2019 (72.7%). The predominant study designs were cohort (60.6%) and cross-sectional (30.3%), with heavy reliance on Medicare Fee-for-Service data (84.8%). The literature focused primarily on care delivery (30.3%) and hospitalization outcomes (21.2%), whereas far fewer studies examined ADRD incidence, prevalence, mortality, medication use, and dementia subtypes. Lifestyle factors were assessed in 18.2%, whereas environmental exposures were rarely studied (3.0%). Methodologically, studies relied largely on simple regression approaches, used inconsistent rurality definitions, and rarely evaluated policy interventions. Rural Medicare beneficiaries with ADRD remain underrepresented in research despite their disproportionate burden. Future studies should address inconsistent rural definitions, limited consideration of medication use, lifestyle and environmental exposures (natural and built), and rural-specific policy evaluations.

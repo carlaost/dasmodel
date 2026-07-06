@@ -1,0 +1,39 @@
+slug: tit26-automated-high-throughput-quantification-of-plasma
+fulltext_file: research/metrics/v3/fulltext/tit26.txt
+n_claims_checked: 11
+n_faithful: 11
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Table 2 row for Elecsys p-tau217 (line ~301-302) reads 'Elecsys p-tau217 186 0.939 (0.895–0.969) 0.371 92.2% (85.3–96.6%) 89.2% (80.4–94.9%)', matching AUC, CI, cut-off, sensitivity and specificity exactly; Results text confirms 'Optimal cut-off values were 0.371 pg/mL for Elecsys p-tau217' and the AUC/CI in the ROC paragraph."
+  - claim_id: "C02"
+    faithful: true
+    note: "Table 2 Lumipulse p-tau217 row gives AUC 0.950 (0.907–0.976), and Results text states 'The DeLong test showed comparable discriminatory performance between the two p-tau217 assays (p = 0.485)'. 'Not statistically different' is a fair paraphrase of a non-significant DeLong result; no added unsupported clause."
+  - claim_id: "C03"
+    faithful: true
+    note: "Table 2 Elecsys p-tau181 row gives AUC 0.903 (0.852–0.942); Results text: 'the AUC of Elecsys p-tau181 was significantly lower than that of Elecsys p-tau217 (p = 0.043)', confirming both the numbers and the direction (p-tau217 > p-tau181)."
+  - claim_id: "C04"
+    faithful: true
+    note: "Results text: 'adding APOE ε4 increased discriminative performance ... for Elecsys p-tau217 (AUC 0.939 to 0.970; p = 0.02)' and Table 2 gives the 0.943–0.992 CI for that row; text further states the two-cut-off intermediate proportion 'Elecsys p-tau217 from 20.0% to 11.0%'. (Note: Table 3 separately prints 19.9% for the same baseline Elecsys p-tau217 grey-zone proportion — an internal inconsistency in the source paper itself, not an addition by the compiler, since the claim's '20.0%' is a verbatim match to the Results/Discussion text.)"
+  - claim_id: "C05"
+    faithful: true
+    note: "Results text: 'combining plasma p-tau217 with Aβ42 and Aβ42/40 ratio did not result in a statistically significantly increase the AUC (0.950 vs. 0.957; p = 0.058 and p = 0.322, respectively)'; Discussion text: 'slightly reduced the proportion of intermediate results (11.9% vs. 10.0% vs. 10.5%)', matching Table 3 rows for Lumipulse p-tau217 (11.9%), /Aβ42 (10.0%), /(Aβ42/Aβ40) (10.5%) in that order."
+  - claim_id: "C06"
+    faithful: true
+    note: "Results text and Table 3 both give: Elecsys p-tau217 cut-offs 0.275/0.497 pg/mL, 19.9% (37/186); Lumipulse p-tau217 cut-offs 0.130/0.246 pg/mL, 11.9% (22/186); Elecsys p-tau181 cut-offs 0.936/1.505 pg/mL, 33.2% (62/187) — all match the Statement exactly."
+  - claim_id: "C07"
+    faithful: true
+    note: "Results text confirms rs/r = 0.88 (p < 0.0001), Passing-Bablok slope 1.363 (1.251–1.484) and intercept 0.113 (0.098–0.133), and 'discrepancies of up to 59%'. The more precise Bland-Altman figures (mean 58.7%, limits of agreement −27.2% to 144.6%) are not in the extracted text but are directly readable as on-plot numeric labels in Figure 1 panel B (verified against evidence/figures/figure1.png: 'Mean 58,7', '+1.96 SD 144,6', '-1.96 SD -27,2'), so they are genuinely sourced from the paper's figure, not fabricated."
+  - claim_id: "C08"
+    faithful: true
+    note: "Results text: 'Significant associations were observed with diagnostic group and baseline MoCA score (p < 0.001, β=-0.267)' and 'Among AD patients with longitudinal follow-up (n = 69; median follow up 2.1 years) ... trend toward faster cognitive decline over time (p = 0.07) in models adjusted for age and sex' — matches all numbers and the 'non-significant trend' framing."
+  - claim_id: "C09"
+    faithful: true
+    note: "Results text gives the exact quote: 'no significant associations were found with age (p = 0.449, β = 0.064), sex (p = 0.054, β = 0.154), renal function (eGFR) (p = 0.918, β=-0.009), severe white-matter hyperintensities (Fazekas score = 3) (p = 0.072, β = 0.142), or ... two or more strictly lobar microbleeds indicative of CAA (p = 0.308, β = 0.079)', plus 'Twenty-one patients had an eGFR below 60 ... none had an eGFR below 30' and 'did not differ significantly across eGFR categories ... (p = 0.07)' — all match verbatim."
+  - claim_id: "C10"
+    faithful: true
+    note: "Methods/Results text: 'imprecision for p-tau181 ranged from 0.5 to 3.8%, whereas for p-tau217 it ranged from 0.5 to 8.6%'; 'Linearity was maintained down to 0.30 pg/mL and 0.12 pg/mL for p-tau181 and p-tau217'; 'The LLOQ was estimated at 0.32 pg/mL for p-tau181 and 0.10 pg/mL for p-tau217'; Methods state LLOQ used 'a predefined CV specification of 20%' and the CLSI EP15-A3 protocol with 'five measurements in a single run during five non-consecutive days' — all match the Statement's numbers and protocol description."
+  - claim_id: "C11"
+    faithful: true
+    note: "Results text: '16 participants with discordant CSF AT(N) profiles'; 'amyloid abnormal without CSF tau abnormality (A + T−N−... n = 15) or other discordant AT(N) profiles (n = 1)'; 'discordant cases differed clearly from the AD group across plasma p-tau measures (p < 0.001)'; '62.5% discordant cases were below and 37.5% were above the threshold'; 'classifying discordant cases as AD resulted in only modest changes in AUC, sensitivity and specificity' — all match the Statement exactly."
+infidelities: []

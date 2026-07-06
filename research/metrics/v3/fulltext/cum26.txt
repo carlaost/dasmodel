@@ -1,0 +1,1303 @@
+Received: 27 February 2026         Revised: 5 March 2026       Accepted: 5 March 2026
+
+DOI: 10.1002/trc2.70251
+
+
+REVIEW ARTICLE
+
+
+
+
+Alzheimer’s disease drug development pipeline: 2026
+
+Jeffrey L. Cummings1,2 Yadi Zhou3     Yuxin Yang3     Kate Zhong1,2
+Jorge Fonseca4    Amanda Leisgang Osse1,2    Feixiong Cheng3,5,6,7
+1
+ Chambers-Grundy Center for Transformative Neuroscience, Department of Brain Health, Kirk Kerkorian School of Medicine, University of Nevada, Las Vegas (UNLV),
+Las Vegas, Nevada, USA
+2
+    Department of Brain Health, Kirk Kerkorian School of Medicine, University of Nevada, Las Vegas (UNLV), Las Vegas, Nevada, USA
+3
+    Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, USA
+4
+    Howard R Hughes College of Engineering, Department of Computer Science, University of Nevada, Las Vegas (UNLV), Las Vegas, Nevada, USA
+5
+    Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve University, Cleveland, Ohio, USA
+6
+    Case Comprehensive Cancer Center, Case Western Reserve University School of Medicine, Cleveland, Ohio, USA
+7
+    Cleveland Clinic Genome Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, USA
+
+
+
+Correspondence
+Jeffrey L. Cummings, 1380 Opal Valley Street,           Abstract
+Henderson, Nevada 89052, USA.
+Email: jcummings@cnsinnovations.com
+                                                        INTRODUCTION: Discovery and development of new therapies for Alzheimer’s dis-
+                                                        ease (AD) are urgently needed to address the world’s growing population of individuals
+Funding information
+                                                        on the AD pathophysiological continuum. Clinicaltrials.gov is a resource for studying
+NIGMS, Grant/Award Numbers:
+P20GM109025, NIA R35AG71476, NIA                        drugs in development for treatment of AD.
+R25AG083721; Alzheimer’s Disease Drug
+                                                        RESULTS: There are currently 158 drugs in 192 AD trials. Of the agents in trials, 39%
+Discovery Foundation; Ted and Maria Quirk
+Endowment; Joy Chambers-Grundy                          are small molecule disease targeting therapies (DTTs); 34% are biologic DTTs; 18%
+Endowment; NIA, Grant/Award Number:
+                                                        are cognition enhancing symptom targeted therapies (STTs); and 10% are STTs being
+R01AG084250 R56AG074001
+U01AG073323 R01AG066707                                 developed to treat neuropsychiatric symptoms of AD. Currently active trials require
+R01AG076448 R01AG082118
+                                                        54,728 participants of which 38,417 are in Phase 3. The biopharmaceutical industry
+RF1AG082211 R21AG083003 R35AG71476;
+National Institute of Neurological Disorders            sponsors 59% of AD trials including 72% of Phase 3 trials. Repurposed drugs represent
+and Stroke, Grant/Award Number:
+                                                        35% of the drugs in trials.
+RF1NS133812; Alzheimer’s Association award
+                                                        DISCUSSION: The AD drug development pipeline has a growing number of trials and
+                                                        drugs in trials. A diverse array of AD pathophysiological processes is being addressed
+                                                        by drugs in trials.
+
+                                                        KEYWORDS
+                                                        Alzheimer’s disease, amyloid, biomarkers, clinical trials, Common Alzheimer’s Disease Research
+                                                        Ontology (CADRO), drug development, inflammation, pharmaceutical companies, repurposed
+                                                        drugs, synaptic function, tau
+
+
+                                                        Highlights
+                                                        ∙ There are 158 drugs for the treatment of Alzheimer’s disease in the 2026 drug
+                                                           development pipeline.
+
+
+
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any
+medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+© 2026 The Author(s). Alzheimer’s & Dementia: Translational Research & Clinical Interventions published by Wiley Periodicals LLC on behalf of Alzheimer’s Association.
+
+Alzheimer’s Dement. 2026;12:e70251.                                                                                  wileyonlinelibrary.com/journal/trc2       1 of 26
+https://doi.org/10.1002/trc2.70251
+2 of 26                                                                                                                                   CUMMINGS ET AL .
+
+
+
+
+                                                   ∙ Repurposed agents account for 35% of Alzheimer’s disease drugs in development.
+                                                   ∙ 55,000 participants are required to populate all currently active trials.
+                                                   ∙ 73% of drugs in the pipeline are disease targeted therapies whose goal is to slow
+                                                      disease progression.
+                                                   ∙ The biopharmaceutical industry sponsors 59% of all trials and 72% of Phase 3 trials.
+
+
+
+
+1         BACKGROUND                                                           ical trials that have at least one site in the US, are conducted under a
+                                                                               Food and Drug Administration (FDA) Investigational New Drug (IND)
+Alzheimer’s disease (AD) Is the most common cause of cognitive                 authorization, or involve a drug that is manufactured in the United
+impairment in later life and is projected to increase steadily with            States or its territories must be registered on clinicaltrials.gov within
+the aging of the population. Considering the continuum of AD from              21 days of enrolling the first participant.
+asymptomatic biomarker positive, to mild cognitive impairment (MCI)               For this report, data in clinicaltrials.gov are accessed in the appli-
+with evidence of AD pathology, to AD dementia, the number of                   cation programming interface (API) of the registry and transferred to
+affected individuals in the United States will increase from 46.7 million      the database of the UNLV Clinical Trial Observatory and the Cleveland
+(biomarker positive, no symptoms), 2.43 million (MCI), and 3.65 million        Clinic Laboratory of Network Medicine for analysis and interpreta-
+(AD dementia) in 2017 to 75.68 million (biomarker positive without             tion.Raw data are retrieved from clinicaltrials.gov as they are posted,
+symptoms), 5.7 million (MCI), and 9.3 million (AD dementia) in 2060.1          and the data (in Json format) are parsed according to the API’s data
+Although calculations, vary, studies suggest that, by 2060, approx-            structure to extract more than 30 key data fields. Automated filtering
+imately 90 million persons in the United States will have AD-type              is performed combining rule-based programming and manual curation
+changes in the brain with or without manifest symptoms of cognitive            by experts to identify and characterize trials testing AD pharmaco-
+impairment.                                                                    logical interventions. All extracted and annotated data are stored in a
+    There has been important progress in developing new disease tar-           relational database using PostgreSQL for querying and analysis.
+geted therapies (DTTs) for AD in the form of anti-amyloid monoclonal              The Index Date for this review is January 1, 2026. Numbers, per-
+antibodies (MABs) and success in development of symptom targeted               centages, and other numerical data provided reflect clinical trials active
+therapies (STT) for the treatment of agitation associated with demen-          on the Index Date. Trials reaching their completion date prior to the
+tia due to AD.2,3 There are no DTTs approved for preclinical AD or for         Index Date or initiated and registered after the Index Date are not
+moderate to severe AD dementia; no new classes of cognition enhanc-            included. We capture data on all active trials identified including those
+ing agents have been approved since 2004; and there are no treatments          labeled as recruiting, active but not recruiting, enrolling by invita-
+for non-agitation neuropsychiatric symptoms (NPS) such of AD as psy-           tion (e.g., open-label extensions of trials with enrollment limited to
+chosis, depression, or apathy. There is a great unmet need for DTT and         those participating in a previous trial of the same drug), and not yet
+STT drug development to address the needs of the growing population            recruiting (e.g., registered on clincaltrials.gov but no participants have
+of individuals with AD.                                                        been enrolled). Trials that are suspended, terminated, completed, with-
+    We describe AD drug development as reflected in the clinical trials        drawn, or unknown (defined as having no status update within the past
+for AD related therapies registered on clinicaltrials.gov. We describe         2 years) are described in the report but not included among the active
+agents in Phase 1, 2, and 3 clinical trials for preclinical AD (biomarker      clinical trial summaries and calculations.
+changes without symptoms), MCI due to AD, and AD dementia. We                     We include trials in Phase 1, Phase 1/2, Phase 2, Phase 2/3, and
+note biomarkers included in the trial as reported on the federal registry.     Phase 3. When trials span two phases, we use the higher number for
+We sum the number of participants needed for all currently active tri-         our calculations. We do not include Phase 0 or Phase 4 clinical trials
+als. We discuss the global distribution of trial activity and describe trial   in this report. We note novel agents in each phase; if an agent is being
+sponsorship. Our goal is to provide information useful for trial planning,     assessed in more than one phase, it is counted only once in totals of
+conduct, and analysis and to assist stakeholders in understanding the          novel agents.
+landscape of evolving AD therapeutics.                                            Our search terms include “Alzheimer’s disease” and terms related
+                                                                               to AD (e.g., dementia of the Alzheimer type, prodromal AD, preclinical
+                                                                               AD, and MCI). We do not include trials whose participants have demen-
+2         METHODS                                                              tia of any cause or in which AD is included with other dementias. MCI
+                                                                               as a manifestation of a non-AD condition such as MCI of Parkinson’s
+Our methodologic approach builds on our previous AD pipeline                   disease is excluded.
+studies.4,5   The data reviewed for this report were collected from               We capture comprehensive data regarding trials available on
+clinicaltrials.gov, a clinical trial registry maintained by the US National    clinicaltrials.gov including the name of the test agent, trial title, national
+Library of Medicine of the National Institutes of Health (NIH). All clin-      clinical trial (NCT) numerical identifier, actual start date, projected
+CUMMINGS ET AL .                                                                                                                             3 of 26
+
+
+                                                                         tute on Aging (NIA), other federal agencies such as the Veterans
+
+    RESEARCH IN CONTEXT                                                  Administration, non-US governmental agencies, advocacy groups, or
+                                                                         philanthropy.
+    1. Systematic review: Four mechanisms of action have
+                                                                             We calculated the number of active trials sites in seven global
+        been verified by therapeutic benefit in Alzheimer’s dis-
+                                                                         regions. An “active” site was participating in at least one clinical trial
+        ease (AD): cholinergic agents, an N-methyl-D-aspartate
+                                                                         on the Index Date.
+        agent, three anti-amyloid monoclonal antibodies, and a
+                                                                             We note if the trial population is cognitively normal with biomarker
+        multi-transmitter antipsychotic for reduction of agita-
+                                                                         evidence of AD, has MCI/prodromal AD, or exhibits mild, moder-
+        tion. Agents that address other target processes and
+                                                                         ate, or severe AD dementia. If other trial designations are used such
+        study of combination approaches are needed. The cur-
+                                                                         as “early AD” (MCI plus mild AD dementia), we use the population
+        rent AD drug development pipeline includes 192 clinical
+                                                                         as described in clinicaltrials.gov. Not all trials used biomarkers to
+        trials assessing 158 candidate therapies. There are 36
+                                                                         determine participant eligibility.
+        drugs in Phase 3, 84 potential treatments in Phase 2, and
+                                                                             We derive the target process of the agent in the trial based on the
+        45 agents in Phase 1. Disease targeting therapies (DTTs)
+                                                                         descriptive categories of the Common Alzheimer’s Disease Research
+        account for 73% of agents in trial; cognition enhancing
+                                                                         Ontology (CADRO).6 CADRO categories include amyloid-beta protein
+        symptom targeted therapies (STTs) contribute 18% of
+                                                                         (Aß); tau; apolipoprotein E (APOE), lipids, and lipoprotein receptors;
+        agents in the pipeline; and drugs targeting neuropsychi-
+                                                                         transmitter receptors; neurogenesis; inflammation and immune dys-
+        atric symptoms account for 10% of drugs in active trials.
+                                                                         function; oxidative stress; cell death; proteostasis/proteinopathies;
+    2. Interpretation: Most agents in trials are intended to pre-
+                                                                         metabolism and bioenergetics; vascular factors; growth factors and
+        vent or delay the onset of AD or slow the progression of
+                                                                         hormones; synaptic plasticity/neuroprotection; gut–brain axis; circa-
+        disease symptoms. A few agents in trials have the goal of
+                                                                         dian rhythm; environmental factors; epigenetic regulators; multitarget;
+        improving memory and cognition or reducing behavioral
+                                                                         unknown target; and “other”. Within each of these categories of tar-
+        changes occurring in patients with AD. The biopharma-
+                                                                         get processes, agents can have one or several specific mechanisms
+        ceutical industry sponsors most trials, especially those of
+                                                                         of action (MoAs). The MoAs presented in Tables 1–3 are derived
+        drugs in late-stage development. Repurposing plays an
+                                                                         from clinicaltrials.gov or from review of the relevant literature and
+        important role in AD drug development and repurposed
+                                                                         informational websites such as ALZFORUM.
+        agents comprise almost half of Phase 2 drugs. The federal
+                                                                             Based on mechanistic and target information, we classify agents as
+        registry clinicaltrials.gov is a rich resource of information
+                                                                         DTTs or as STTs, depending on whether the declared therapeutic pur-
+        on drug development for AD.
+                                                                         pose is to impact a specific aspect of the pathophysiology of AD with
+    3. Future directions: Review of the current drug develop-
+                                                                         the intention of delaying the occurrence of symptoms or slowing clin-
+        ment pipeline provides the basis for optimism regarding
+                                                                         ical decline or is intended to improve symptoms present at baseline
+        the emergence of new therapies for patients with AD.
+                                                                         in the trial (cognitive impairment or NPS). This classification can be
+        There are a robust number of trials, and agents in trials
+                                                                         ambiguous for some therapies; agents may have multiple therapeutic
+        target a variety of pathophysiological disease processes.
+                                                                         mechanisms; and drugs may have both DTT and STT properties. We
+        Biomarkers are increasingly used for participant identi-
+                                                                         identify the principal therapeutic intent of the agent in the trial based
+        fication and as pharmacodynamic outcomes. Progress is
+                                                                         on trial characteristics, literature review, and information from the trial
+        evident in clinical trial design, integration of biomark-
+                                                                         sponsor. We divide DTTs into biologics (e.g., MABs, vaccines, antisense
+        ers into trials, and emergence of promising candidate
+                                                                         oligonucleotides [ASOs], etc.) and small molecules (e.g., drugs usually
+        therapies.
+                                                                         taken orally and less than 500 Daltons in molecular weight). We divide
+                                                                         STTs into those with putative cognition enhancing properties and those
+                                                                         intended to ameliorate NPS such as psychosis, agitation, or depression.
+                                                                             In this report, we do not include trials of non-pharmacologic thera-
+primary end date, whether a biomarker was required for eligibility or    peutic approaches such as exercise, lifestyle interventions, cognitive–
+served as a primary or secondary outcome, and whether the agent was      behavior therapies, caregiver interventions, supplements, or medical
+repurposed (e.g., approved for another indication or repositioned dur-   foods. We do not include trials of devices, gene therapies, or stem cell
+ing development). To determine if a drug is repurposed (e.g., approved   therapies. We do not include biomarker trials if there is no intervention.
+for a non-AD indication), we compare the agents in the AD drug
+development pipeline to the available version of DrugBank (https://go.
+drugbank.com/).                                                          3       RESULTS
+  We describe where the trials were performed (North America;
+non–North America with no North American sites; global, North            3.1        Overview
+American and non–North American sites included in the trial). We
+identify the “lead sponsors” of trials as industry or not industry.      On the Index Date of January 1, 2026, we identified 192 clinical tri-
+AD trials not funded by industry are funded by the National Insti-       als for AD assessing 158 drugs. This included 54 trials assessing 36
+4 of 26                                                                                                                            CUMMINGS ET AL .
+
+
+
+
+F I G U R E 1 Agents in clinical trials for treatment of AD on the Index Date of January 1, 2026, as recorded on clinicaltrials.gov. The inner ring
+shows Phase 3 agents; the middle ring includes Phase 2 agents; the outer ring presents Phase 1 therapies. Agents in green areas are biologics;
+those in purple areas are disease modifying small molecules; agents in orange areas are symptomatic agents addressing cognition enhancement;
+and those in the blue sections of the figure target behavioral and neuropsychiatric symptoms. The shape of the icon denotes the population of the
+trial; the color of the icon denotes the CADRO-based class of the agent (J. L. Cummings). AD, Alzheimer’s disease; CADRO, Common Alzheimer’s
+Disease Research Ontology; Tx, therapy.
+
+
+drugs in Phase 3; 89 trials assessing 84 drugs in Phase 2; and 49 trials    comprised of 21 (58%) DTTs; Phase 2 has 61 (73%) DTT agents; Phase
+assessing 45 drugs in Phase 1 (Figure 1). Twelve of the 192 trials in the   1 has 39 (87%) DTTs. Twenty-nine of the drugs in the pipeline (18%
+pipeline are long-term extensions of trials with treatment by the agent     of agents in trials) are putative cognition enhancers, and 16 (10% of
+used in a prior trial.                                                      agents in trials) drugs target NPS.
+   The AD drug development pipeline is comprised primarily of DTTs.            Seventeen of the CADRO categories of AD pathophysiology are
+There are 116 DTTs representing 73% of drugs in development; DTTs           targeted by at least one drug in current clinical trials. Thirty-eight
+account for 134 (70%) of current clinical trials. Sixty-two (53%) of DTTs   drugs (24%) in the pipeline target neurotransmitter receptors; 28
+are small molecules and 54 (47%) are biological therapies. Phase 3 is       agents (18%) address inflammation/immune processes; 25 treatments
+CUMMINGS ET AL .                                                                                                                                 5 of 26
+
+
+(16%) target Aß protein-related pathophysiology; 15 agents (9%)               nine (25%) target cognition enhancement; and six (17%) address NPS
+target tau-related processes; eight drugs (5%) address synaptic plas-         (one STT is for an “other” indication, i.e., seizures). Of the DTTs, 10
+ticity/neuroprotection; seven therapies (4%) target metabolism and            (47%) are small molecules and 11 (52%) are biologics. There are five
+bioenergetics; five drugs (3%) target growth factors and hormones;            prevention trials assessing DTTs in the Phase 3 AD pipeline, five assess-
+four drugs (3%) are posited to treat oxidative stress, and four (3%)          ing biologic DTTs, and one studying a DTT small molecule (one trial is
+address proteostasis/proteinopathy processes; three agents (2%) tar-          assessing both a biologic and a small molecule). Seven trials (13% of
+get vascular pathology of AD; two agents (1%) each target APOE/lipids,        Phase 3 trials) are long-term extensions of trials of drugs that have
+gut–brain axis, circadian rhythm disturbances, and epigenetic factors;        completed a prior trial of the same drug.
+one (0.6%) each target neuronal loss and neurogenesis; and nine (6%)             There are four Phase 3 trials focusing on preclinical AD, eight tri-
+drugs are described as multi-target agents.                                   als for MCI/prodromal participants; 15 trials for participants with
+   Fifty-nine trials (31% of currently active trials) in the AD drug devel-   early AD; 32 trials for mild AD dementia participants; and 25 and
+opment pipeline are new since the last Index Date (January 1, 2025).          nine trials for participants with moderate or severe AD dementia,
+There are 14 (26% of Phase 3 trials) new trials in Phase 3, 27 (30% of        respectively (categories are not mutually exclusive and total more than
+Phase 2 trials) new trials in Phase 2, and 18 (37% of Phase 1 trials) new     100%).
+trials in Phase 1. Of trials that were active in the pipeline on the Index       Fifteen (42%) Phase 3 agents are repurposed, originating in a
+Date (January 1, 2025) of the last report, 34 clinical trials were com-       non-AD indication or repositioned in an industry drug development
+pleted, nine were terminated, two were withdrawn, and eight are of            pipeline. Six (40%) of the repurposed agents in Phase 3 are DTTs,
+unknown status (no activity registered on clinicaltrials.gov in the past      four are small molecules, and two are biologics. Five (33%) Phase
+2 years).                                                                     3 repurposed agents are putative cognition enhancing agents, and
+   Repurposed agents approved for non-AD indications include 56               four (27%) Phase 3 repurposed agents are being developed to treat
+drugs (35% of drugs in current trials) and 73 (38%) currently active tri-     NPS. One STT agent is being developed for treatment of seizures in
+als. Among the repurposed drugs, six (11%) are DTT biologics, 32 (57%)        AD.
+are DTT small molecules, 12 (21%) are putative cognition enhancers,              There are 14 new trials in Phase 3 (26% of Phase 3 trials). Compared
+and eight (14%) are being assessed for the treatment of NPS (some             to the last Index Date (January 1, 2025), two Phase 3 trials were com-
+agents are being assessed for both cognition enhancement and NPS).            pleted, six trials were terminated, and one trial is of unknown status (no
+Repurposed agents account for 11% of DTT biologics, 52% of DTT small          recorded activity for 2 years).
+molecules, 41% of cognition enhancing agents, and 50% of treatments              Eight CADRO categories of AD pathophysiology are targeted
+for NPS in the AD drug development pipeline.                                  by at least one drug in current Phase 3 clinical trials (Figure 3).
+   All stages of the AD continuum are represented in current clini-           Fourteen drugs (39%) target neurotransmitter receptors; 10 agents
+cal trials. Ten trials (5%) involve cognitively unimpaired persons with       (28%) address aspects of Aß pathophysiology; three (8%) address
+biomarker or genetic evidence of AD; 67 trials (35%) include par-             metabolic and bioenergetic processes; two (5%) each target inflamma-
+ticipants with MCI due to AD or prodromal AD (with or without                 tion/immune processes or proteostasis/proteinopathy; one (3%) each
+biomarker confirmation of AD pathology); 52 trials (27%) involve par-         address growth factors and hormones or synaptic function; three (8%)
+ticipants with early AD (MCI or mild AD dementia); 102 trials (53%            have multiple pathophysiologic targets.
+of active trials) enroll patients with mild AD dementia; and 63 tri-             The biopharmaceutical industry sponsors 39 (72%) Phase 3 trials
+als (33%) include participants with moderate or severe AD dementia            and 22 (61%) Phase 3 drugs. Biopharmaceutical companies sponsor
+(with or without biomarker confirmation of AD pathological changes).          seven repurposed agents in Phase 3 trials (47% of Phase 3 repurposed
+(Some participant categories overlap accounting for why the sum of all        agents) compared to 15 (62%) novel, non-repurposed agents in Phase
+the trials listed exceeds the number of active trials.)                       3 trials.
+   Of all currently active trials for which geographic data are given (N =       Review of the global distribution of Phase 3 trials reveals that six
+177), 65 (37%) are conducted only in North America; 59 (33%) include          (12%) are conducted only in North America; 12 (24%) are conducted
+only areas outside of North America; and 53 (30%) include clinical trial      only outside North America; and 31 (63%) are conducted in both
+sites both in North America and outside of North America (e.g., are           North American and non–North American regions (location data are
+“global”).                                                                    unavailable for five trials). Phase 3 trials require 38,417 participants,
+   The biopharmaceutical industry sponsors 113 (59%) of all clinical          accounting for 70% of the 54,728 participants needed to populate all
+trials in the current AD pipeline, including 39 (72%) Phase 3 trials; 43      currently active AD trials.
+(48%) Phase 2 trials; and 31 (63%) Phase 1 trials.
+
+
+                                                                              3.3         Phase 2 trials
+3.2          Phase 3 trials
+                                                                              There are 89 Phase 2 trials in the 2026 AD drug development pipeline,
+There are 54 Phase 3 trials studying 36 drugs (Index Date January 1,          comprising 46% of all currently active trials. Phase 2 involves 84 unique
+2026; Table 1; Figure 2). Of the agents in Phase 3, 21 (58%) are DTTs;        drugs representing 53% of all pharmacologic therapies in active AD
+TA B L E 1     Agents in Phase 3 Alzheimer’s disease drug development (clinicaltrials.gov accessed January 1, 2026).
+                                                                                                                                                                                          6 of 26
+                          Therapeutic                                                                                                                                  Primary
+ Agent                    purpose                  CADRO                   Mechanism of action                   Clinical trial   Lead sponsor            Start date   completion date
+ ACP-204                  STT;                     Neurotransmitter        Selective antagonist/inverse          NCT06159673      ACADIA                  Nov, 2023    Jan, 2028
+                          neuropsychiatric         receptors               agonist of 5-hydroxytryptamine        NCT06194799      Pharmaceuticals Inc.    Apr, 2024    Apr, 2029
+                          (psychosis)                                      (serotonin) receptor subtype 2A                        ACADIA
+                                                                                                                                  Pharmaceuticals Inc.
+ AR1001                   DTT; small molecule      Synaptic                Phosphodiesterase 5 (PDE-5)           NCT05531526      AriBio Co., Ltd.        Dec, 2022    May, 2026
+                                                   plasticity/             inhibitor; improves synaptic
+                                                   neuroprotection         plasticity
+ Buntanetap               DTT; small molecule      Proteostasis/           Inhibits the translation of mRNA      NCT06709014      Annovis Bio Inc.        Feb, 2025    Dec, 2027
+                                                   proteinopathies         of amyloid precursor protein
+                                                                           (APP), tau, α-synuclein
+ Caffeine                 STT; cognition           Neurotransmitter        Adenosine antagonist;                 NCT04570085      University Hospital,    Mar, 2021    Nov, 2026
+                          enhancer                 receptors               non-specific phosphodiesterase                         Lille
+                                                                           inhibitor
+ Donanemab                DTT; biologic            Amyloid-beta            Monoclonal antibody specific for      NCT04437511      Eli Lilly and Company   Jun, 2020    Apr, 2023
+                                                                           pyroglutamate form of Aβ              NCT05026866      Eli Lilly and Company   Aug, 2021    Nov, 2027
+                                                                                                                 NCT05508789      Eli Lilly and Company   Oct, 2022    May, 2028
+                                                                                                                 NCT05738486      Eli Lilly and Company   Feb, 2023    May, 2024
+                                                                                                                 NCT06996730      Banner Health           Jan, 2026    Jun, 2030
+ Donepezil                STT; cognition           Neurotransmitter        Cholinesterase inhibitor to raise     NCT04661280      Assistance              Feb, 2022    Aug, 2026
+                          enhancer                 receptors               synaptic levels of brain                               Publique—Hôpitaux de
+                                                                           acetylcholine                                          Paris
+ Escitalopram             STT;                     Neurotransmitter        Selective serotonin reuptake          NCT03108846      JHSPH Center for        Jan, 2018    Apr, 2024
+                          neuropsychiatric         receptors               inhibitor                                              Clinical Trials
+                          (agitation)
+ Etalanetug               DTT; biologic            Multi-target            Anti-tau monoclonal antibody plus     NCT01760005      Washington University   Dec, 2012    Apr, 2028
+ (E2814) +                                                                 anti-amyloid monoclonal antibody      NCT05269394      School of Medicine      Dec, 2021    Apr, 2028
+ Lecanemab                                                                                                                        Washington University
+ (BAN2401)                                                                                                                        School of Medicine
+ Gantenerumab             DTT; biologic            Amyloid-beta            Monoclonal antibody directed at       NCT01760005      Washington University   Dec, 2012    Apr, 2028
+                                                                           Aβ plaques and oligomers                               School of Medicine
+ Gonadorelin              DTT; biologic            Growth factors          Reduces luteinizing hormone by        NCT04390646      Nelly Pitteloud         Aug, 2020    Dec, 2028
+                                                   and hormones            suppressing the
+                                                                           hypothalamic-pituitary-gonadal
+                                                                           axis with anticipated effects on
+                                                                           protein aggregation and synaptic
+                                                                           plasticity
+ Guanfacine               STT;                     Neurotransmitter        Alpha-2 adrenergic agonist to         NCT03116126      Imperial College        Jan, 2019    Aug, 2024
+                          cognition enhancer       receptors               enhance noradrenergic function                         London
+                                                                                                                                                                            (Continues)   CUMMINGS ET AL .
+TA B L E 1      (Continued)
+
+                          Therapeutic                                                                                                                             Primary
+ Agent                    purpose               CADRO              Mechanism of action                   Clinical trial   Lead sponsor               Start date   completion date
+                                                                                                                                                                                     CUMMINGS ET AL .
+ Huperzine A              STT; cognition        Neurotransmitter   Cholinesterase inhibitor to raise     NCT07066826      Wanbangde                  Aug, 2025    Aug, 2028
+                          enhancer              receptors          synaptic levels of brain                               Pharmaceutical Group
+                                                                   acetylcholine                                          Co., LTD
+ KarXT                    STT;                  Neurotransmitter   Muscarinic cholinergic agonist        NCT05511363      Karuna Therapeutics        Aug, 2022    Oct, 2026
+                          neuropsychiatric      receptors          plus a peripheral anticholinergic     NCT05980949      Karuna Therapeutics        Jul, 2023    Sep, 2027
+                          (psychosis)                              agent                                 NCT06126224      Karuna Therapeutics        Aug, 2023    Jul, 2025
+                                                                                                         NCT06585787      Karuna Therapeutics        Sep, 2024    Sep, 2026
+ KarXT + KarX-EC          STT; cognition        Neurotransmitter   Muscarinic cholinergic agonist        NCT06937229      Bristol-Myers Squibb       Dec, 2025    Jun, 2029
+                          enhancer              receptors          plus a peripheral anticholinergic     NCT06947941      Bristol-Myers Squibb       Jul, 2025    Sep, 2027
+                          STT;                                     agent                                 NCT06976203      Bristol-Myers Squibb       Jul, 2025    Sep, 2028
+                          neuropsychiatric                                                               NCT06976216      Bristol-Myers Squibb       Jul, 2025    Sep, 2028
+                          (agitation,                                                                    NCT07011732      Bristol-Myers Squibb       Jul, 2025    Nov, 2028
+                          psychosis)                                                                     NCT07011745      Bristol-Myers Squibb       Jul, 2025    Nov, 2028
+ Latrepirdine             STT; cognition        Neurotransmitter   H1 histamine blocker; modulator       NCT07251023      Bigespas LTD               Nov, 2025    May, 2027
+                          enhancer              receptors          of multiple transmitters
+ Lecanemab                DTT; biologic         Amyloid-beta       Anti-amyloid monoclonal antibody      NCT01760005      Washington University      Dec, 2012    Apr, 2028
+                                                                   directed at amyloid protofibrils      NCT03887455      School of Medicine         Mar, 2019    Jun, 2029
+                                                                   and plaques                           NCT04468659      Eisai Inc.                 Jul, 2020    Dec, 2028
+                                                                                                         NCT06384573      Eisai Inc.                 Jun, 2024    Jun, 2030
+                                                                                                                          Washington University
+                                                                                                                          School of Medicine
+ Levetiracetam            STT; other            Neurotransmitter   SV2A modulator; improves              NCT07234695      Fundació Institut de       Nov, 2025    Dec, 2027
+                          symptoms (seizure)    receptors          synaptic function; reduces                             Recerca de l’Hospital de
+                                                                   Aβ-induced neuronal hyperactivity                      la Santa Creu i Sant Pau
+ Masitinib                DTT; small molecule   Inflammation       Tyrosine kinase inhibitor to          NCT05564169      AB Science                 Jun, 2026    Dec, 2028
+                                                                   activate lyn/fyn and reduce
+                                                                   activation of microglial cells
+ Masupirdine              STT;                  Neurotransmitter   5-HT6 antagonist; modulate            NCT05397639      Suven Life Sciences        Nov, 2022    Dec, 2025
+                          neuropsychiatric      receptors          release of acetylcholine and                           Limited
+                          (agitation)                              glutamate
+ Metformin                DTT; small molecule   Metabolism and     Insulin sensitizer to improve brain   NCT04098666      Columbia University        Mar, 2021    Apr, 2026
+                                                bioenergetics      glucose metabolism
+ MLC901                   DTT; small molecule   Multi-target       Natural product consisting of         NCT07191028      Moleac Pte Ltd.            Dec, 2025    Jun, 2028
+                                                                   several herbs; modulation of Aβ
+                                                                   and tau phosphorylation,
+                                                                   reduction of oxidative stress and
+                                                                   inflammation, and promotion of
+                                                                   neurogenesis and synaptogenesis
+                                                                                                                                                                       (Continues)
+                                                                                                                                                                                     7 of 26
+TA B L E 1      (Continued)
+                                                                                                                                                                                       8 of 26
+                          Therapeutic                                                                                                                              Primary
+ Agent                    purpose               CADRO                  Mechanism of action                  Clinical trial   Lead sponsor             Start date   completion date
+ Nabilone                 STT;                  Neurotransmitter       Synthetic cannabinoid agonist;       NCT04516057      Sunnybrook Health        Feb, 2021    Oct, 2025
+                          neuropsychiatric      receptors              modulates the endocannabinoid                         Sciences Centre
+                          (agitation)                                  system
+ Nilotinib                DTT; small molecule                           Tyrosine kinase inhibitor;          NCT05143528      KeifeRx, LLC             Feb, 2022    Dec, 2025
+                                                                        autophagy enhancer; promotes
+                                                Proteostasis/proteinopathies
+                                                                        clearance of Aβ and tau
+ Piromelatine             STT; cognition        Neurotransmitter       Melatonin receptor agonist; 5-HT     NCT05267535      Neurim                   May, 2022    Jun, 2025
+                          enhancer              receptors              1A and 1D serotonin receptor                          Pharmaceuticals Ltd.
+                                                                       agonist
+ Remternetug              DTT; biologic         Amyloid-beta           Anti-amyloid monoclonal antibody     NCT05463731      Eli Lilly and Company    Aug, 2022    Apr, 2024
+                                                                       targeting the pyroglutamate form     NCT05552157      Washington University    Nov, 2024    Mar, 2034
+                                                                       of Aβ                                NCT06647498      School of Medicine       Nov, 2024    Mar, 2034
+                                                                                                            NCT06653153      Washington University    Oct, 2024    Apr, 2029
+                                                                                                                             School of Medicine
+                                                                                                                             Eli Lilly and Company
+ RG6289                   DTT; small molecule   Amyloid-beta           Gamma secretase modulator            NCT06996730      Banner Health            Jan, 2026    Jun, 2030
+                                                                       altering gamma secretase
+                                                                       interaction with amyloid precursor
+                                                                       protein
+ RG6289 +                 DTT; biologic         Amyloid-beta           Gamma secretase modulator            NCT06996730      Banner Health            Jan, 2026    Jun, 2030
+ donanemab                                                             altering gamma secretase
+                                                                       interaction with amyloid precursor
+                                                                       protein + anti-amyloid monoclonal
+                                                                       antibody
+ Rotigotine +             STT; cognition        Neurotransmitter       Combined dopamine agonist and        NCT06702124      I.R.C.C.S. Fondazione    Dec, 2023    Jul, 2025
+ rivastigmine             enhancer              receptors              cholinesterase inhibitor                              Santa Lucia
+ Semaglutide              DTT; biologic         Inflammation           GLP-1 agonist; reduces               NCT04777396      Novo Nordisk A/S         May, 2021    Sep, 2025
+                                                                       neuroinflammation and improves       NCT04777409      Novo Nordisk A/S         May, 2021    Sep, 2025
+                                                                       insulin signaling in the brain       NCT05891496      Novo Nordisk A/S         Jun, 2023    Aug, 2024
+ Solanezumab              DTT; biologic         Amyloid-beta           Monoclonal antibody directed at      NCT01760005      Washington University    Dec, 2012    Apr, 2028
+                                                                       Aβ monomers                                           School of Medicine
+ T3D-959                  DTT; small molecule   Metabolism and         Dual agonist of PPARδ/γ targeting    NCT06964230      T3D Therapeutics, Inc.   Oct, 2026    Apr, 2031
+                                                bioenergetics          reduced glucose and altered lipid
+                                                                       metabolism
+ Tertomotide              DTT; biologic         Amyloid-beta           hTERT peptide vaccine; mimics        NCT05303701      Samsung                  May, 2025    Dec, 2027
+                                                                       extra-telomeric functions to                          Pharmaceutical Co.,
+                                                                       inhibit neurotoxicity, apoptosis,                     Ltd.
+                                                                       and reactive oxygen species
+                                                                                                                                                                         (Continues)   CUMMINGS ET AL .
+CUMMINGS ET AL .                                                                                                                                                                                                                                                                                                                                                                                                                                            9 of 26
+
+
+                                                                                                                                                                                                                                                                                                                                                                                        trails (Table 2; Figure 4). Of the agents in Phase 2, 61 (72% of Phase
+
+                 Primary
+                                                                                                                                                                                                                                                                                                                                                                                        2 drugs) are DTTs; 17 (20%) target cognition enhancement; and eight
+                                                                                                                                                                                                                                                                                                                                                                                        (9%) address NPS. Of the DTTs, 23 (38%) are biologics and 38 (62%)
+
+                                               Dec, 2028                                                           Dec, 2026                           Aug, 2026
+                                                                                Jun, 2028
+                                                                                                                                                                                                                                                                                                                                                                                        are small molecules.
+                 completion date
+
+
+
+
+                                                                                                                                                                                          Abbreviations: Aß, amyloid-beta protein; CADRO, Common Alzheimer’s Disease Research Ontology; DTT, disease targeted therapy; GLP-1, glucagon-like peptide-1; STT, symptom targeted therapy.
+                                                                                Jun, 2028                                                                                                                                                                                                                                                                                                  Thirty-eight (45%) Phase 2 agents are repurposed. Twenty-eight
+                                                                                                                                                                                                                                                                                                                                                                                        (74%) repurposed drugs in Phase 2 are DTTs, including one (11% of
+                                                                                                                                                                                                                                                                                                                                                                                        Phase 2 repurposed agents) biologic DTT and 24 (63% of Phase 2
+
+
+                                                                                                                                                       Aug, 2024
+                                                                                Sep, 2025
+
+                         Start date            Jun, 2026                                                           Apr, 2024
+                                                                                                                                                                                                                                                                                                                                                                                        repurposed agents) small molecule DTTs. Seven (18%) Phase 2 repur-
+                                                                                                                                                                                                                                                                                                                                                                                        posed agents are putative cognition enhancing agents, and four (11%)
+                                                                                Nov, 2025
+                                                                                                                                                                                                                                                                                                                                                                                        Phase 2 repurposed agents are being developed to treat NPS.
+                                                                                                                                                                                                                                                                                                                                                                                           There are four long-term extension trials for participants that have
+                                                                                                                                                                                                                                                                                                                                                                                        completed a prior trial of the same agent (4% of Phase 2 trials).
+                                                                                                                                                       Sichuan Jishengtang
+                                                                                Hoffmann-La Roche
+                                                                                                                                                                                                                                                                                                                                                                                           There are 2 trials of preclinical AD populations in Phase 2; 40 tri-
+                                                                                                                                                                                                                                                                                                                                                                                        als for MCI/prodromal AD participants; 27 trials including participants
+
+
+
+                         Lead sponsor
+                                                                                                                                                       Pharmaceutical Co.,
+
+                                                                                                                   Alzheon Inc.
+                                                                                                                                                                                                                                                                                                                                                                                        with early AD; 56 trials for mild AD participants; and 33 and eight trials
+
+
+                                               Cerecin                          Hoffmann-La Roche
+                                                                                                                                                                                                                                                                                                                                                                                        including moderate and severe AD dementia, respectively (categories
+                                                                                                                                                       Ltd.                                                                                                                                                                                                                             are not mutually exclusive, allowing the sum to exceed 100%). There
+                                                                                                                                                                                                                                                                                                                                                                                        are six (7%) trials among the 89 Phase 2 trials in the AD pipeline aiming
+                                                                                                                                                                                                                                                                                                                                                                                        to forestall (prevent) some aspect of AD.
+
+
+
+
+                                               NCT05809908                                                         NCT06304883
+                                                                                NCT07169578
+
+
+                                                                                                                                                       NCT06534723
+                                                                                                                                                                                                                                                                                                                                                                                           Among the 89 active Phase 2 trials, 27 (30%) are new to the pipeline
+
+
+                         Clinical trial
+                                                                                                                                                                                                                                                                                                                                                                                        since January 1, 2025.Compared to the last Index Date (January 1,
+
+                                                                                NCT07170150
+                                                                                                                                                                                                                                                                                                                                                                                        2025), 17 Phase 2 trials were completed, three trials were terminated,
+                                                                                                                                                                                                                                                                                                                                                                                        two trials were withdrawn, and three trials are of unknown status (no
+                                                                                                                                                                                                                                                                                                                                                                                        recorded activity for 2 years).
+                                                                                                                                                                                                                                                                                                                                                                                           Sixteen CADRO categories of AD pathophysiology are targeted
+                                                                                Anti-amyloid monoclonal antibody
+                                                                                                                   Prodrug of tramiprosate; inhibits   Herbal mixture with effects on
+                                                                                                                                                                                                                                                                                                                                                                                        by at least one drug in current Phase 2 clinical trials (Figure 3).
+                                               Caprylic triglyceride; induces                                                                                                                                                                                                                                                                                                           Nineteen drugs (23% of Phase 2 agents) in the AD pipeline target
+
+                                                                                with Brainshuttle® utilizing                                                                                                                                                                                                                                                                            neurotransmitter receptors and 19 (23%) target inflammation/immune
+
+
+
+
+                         Mechanism of action
+                                               ketosis and improves
+                                                                                                                   Aβ aggregation into toxic           inflammation, apoptosis, calcium
+                                                                                                                                                                                                                                                                                                                                                                                        dysfunction. Eight drugs (9%) each target Aß or tau biology; five agents
+
+                                                                                transferrin receptor to enhance
+                                                                                                                                                                                                                                                                                                                                                                                        (6%) address synaptic plasticity; three drugs (3%) each, target vascu-
+                                               mitochondrial and neuronal                                                                                                                                                                                                                                                                                                               lar factors or growth factors and hormones; two agents (2%) target
+
+
+                                                                                                                   oligomers                           signaling
+                                                                                                                                                                                                                                                                                                                                                                                        oxidative stress and two target circadian rhythm disturbances; and one
+                                               function                         blood brain barrier penetration                                                                                                                                                                                                                                                                         drug (1%) targets each of the APOE/lipids, neurogenesis, proteosta-
+                                                                                                                                                                                                                                                                                                                                                                                        sis/proteinopathy, metabolism and bioenergetics, gut–brain axis, and
+                                                                                                                                                                                                                                                                                                                                                                                        epigenetic regulator processes. Seven (8%) Phase 2 drugs are reported
+
+                                               Metabolism and
+                                                                                                                                                                                                                                                                                                                                                                                        to be multi-modal targeting agents, and two (2%) had undisclosed
+
+
+
+                                                                                Amyloid-beta                       Amyloid-beta                        Multi-target
+                                                                                                                                                                                                                                                                                                                                                                                        mechanisms.
+
+
+                         CADRO
+                                                                                                                                                                                                                                                                                                                                                                                           The biopharmaceutical industry sponsors 43 (48%) of Phase 2 trials.
+
+                                               bioenergetics                                                                                                                                                                                                                                                                                                                            Biopharmaceutical companies sponsor six (16%) repurposed agents in
+                                                                                                                                                                                                                                                                                                                                                                                        Phase 2 trials and 35 (76%) novel, non-repurposed agents in Phase 2.
+                                                                                                                                                                                                                                                                                                                                                                                           Review of the global distribution of Phase 2 trials with location
+
+
+
+
+                                                                                                                   DTT; small molecule                 DTT; small molecule
+                                                                                                                                                                                                                                                                                                                                                                                        information reveals that 39 (48%) are conducted only in North Amer-
+                                                                                                                                                                                                                                                                                                                                                                                        ica; 24 (30%) are conducted only outside North America; and 18
+                                               STT; cognition
+
+
+                                                                                DTT; biologic
+                 Therapeutic                                                                                                                                                                                                                                                                                                                                                            (22%) are conducted at both North American and non–North American
+                                                                                                                                                                                                                                                                                                                                                                                        regions.
+                 purpose                       enhancer
+
+
+
+   (Continued)
+                                                                                                                                                                                                                                                                                                                                                                                        3.4        Phase 1 trials
+
+
+
+
+                                                                                Trontinemab                        Valiltramiprosate
+                                                                                                                                                                                                                                                                                                                                                                                        Phase 1 of the 2026 AD drug development pipeline includes 49 tri-
+
+
+  TA B L E 1                                   Tricaprilin                                                                                             Wujia Yizhi
+                                                                                                                                                                                                                                                                                                                                                                                        als assessing 45 drugs (Index Date January 1, 2026; Table 3). Of the
+
+                         Agent                                                                                                                                                                                                                                                                                                                                                          agents in Phase 1, 39 (87%) are DTTs; three (7%) target cognition
+10 of 26                                                                                                                             CUMMINGS ET AL .
+
+
+
+
+F I G U R E 2 Mechanisms of action of agents in Phase 3 Alzheimer clinical trials as classified using four categories of therapeutic purpose (left) or
+the CADRO categories (right) (Index Date: January 1, 2026) (J. L. Cummings). CADRO, Common Alzheimer’s Disease Research Ontology.
+
+
+
+
+F I G U R E 3 Alzheimer-related processes as categorized by the CADRO for agents in each phase of the Alzheimer’s drug development pipeline
+(Index Date: January 1, 2026) (J. L. Cummings). CADRO, Common Alzheimer’s Disease Research Ontology.
+
+
+
+enhancement; and three (7%) address NPS. Of the DTTs, 24 (62%) are              There are 22 (45%) Phase 1 trials testing AD-relevant drugs and
+biologics and 15 (38%) are small molecules.                                  comprised of healthy volunteers with no clinical or biomarker evidence
+   There are six (13%) repurposed agents in Phase 1 trials. Five of the      of AD. Four (8%) Phase 1 trials include participants with preclinical AD;
+six repurposed agents are DTTs, including one biologic and four small        19 (39%) Phase 1 trials involve MCI participants; 10 (20%) trials include
+molecules. One Phase 1 repurposed agent is being developed to treat          participants with early AD; 14 (29%) trials involve mild AD dementia;
+NPS. There is one long-term extension trial of an agent that had been        and five (10%) include participants with moderate AD dementia. There
+assessed in a completed trial of the same agent.                             are no Phase 1 trials specifically for participants with severe AD; one
+TA B L E 2     Agents in Phase 2 Alzheimer’s disease drug development (clinicaltrials.gov accessed January 1, 2026).
+                                                                                                                                                                                                  CUMMINGS ET AL .
+                           Therapeutic                                                                                                                                        Primary
+ Agent                     purpose              CADRO                    Mechanism of action                           Clinical trial   Lead sponsor             Start date   completion date
+ 2-HOBA                    DTT; small           Oxidative stress         Scavenger for reactive carbonyl species to    NCT06432166      MTI Biotech Inc          Sep, 2025    Jun, 2028
+                           molecule                                      decreased oxidative neuronal injury
+ AADvac1                   DTT; biologic        Tau                      Active immunotherapy against tau protein      NCT07167966      Paul S. Aisen            Nov, 2025    Aug, 2028
+ AADvac1 + AAmAb           DTT; biologic        Multi-target             Tau vaccine + anti- Aβ monoclonal antibody    NCT07167966      Paul S. Aisen            Nov, 2025    Aug, 2028
+ ACI-24.060                DTT; biologic        Amyloid-beta             Vaccine against Aβ                            NCT05462106      AC Immune SA             Jun, 2022    Jun, 2026
+ AL101                     DTT; biologic        Inflammation             MAB directed at the sortilin receptor to      NCT06079190      GlaxoSmithKline          Oct, 2023    Sep, 2026
+                                                                         decrease lysosomal degradation of             NCT07105709      GlaxoSmithKline          Aug, 2025    Sep, 2028
+                                                                         progranulin and enhance progranulin
+                                                                         function as an immune regulator
+ Aldesleukin               DTT; biologic        Inflammation             Binds with IL-2 receptor to activate          NCT05468073      Centre Hospitalier St    Oct, 2022    Sep, 2025
+                                                                         intermediates and reduce cytokine             NCT06096090      Anne                     Jan, 2022    Dec, 2025
+                                                                         production                                                     The Methodist Hospital
+                                                                                                                                        Research Institute
+ Aluminum hydroxide        DTT; small           Inflammation             Activates immune pathways to improve the      NCT07107074      ADvantage                Nov, 2023    Dec, 2026
+                           molecule                                      immune response                                                Therapeutics
+ ARO-MAPT                  DTT; biologic        Tau                      RNA interference to silence the MAPT tau      NCT07221344      Arrowhead                Nov, 2025    Jun, 2027
+                                                                         gene                                                           Pharmaceuticals
+ Astragalus                STT; cognition       Multi-target             Traditional Chinese medicine                  NCT05578443      Fujian Medical           May, 2024    Jul, 2025
+                           enhancer                                                                                    NCT05647473      University Union         Feb, 2024    May, 2025
+                                                                                                                                        Hospital
+                                                                                                                                        Fujian Medical
+                                                                                                                                        University Union
+                                                                                                                                        Hospital
+ Baricitinib               DTT; small           Inflammation             Janus kinase inhibitor to reduce              NCT05189106      Massachusetts General    Dec, 2022    Feb, 2025
+                           molecule                                      inflammatory cytokine signaling                                Hospital
+ Benfotiamine              DTT; small           Metabolism and           Synthetic thiamine to improve neuronal        NCT06223360      Alzheimer’s Disease      Mar, 2024    Dec, 2027
+                           molecule             bioenergetics            metabolism and function                                        Cooperative Study
+                                                                                                                                        (ADCS)
+ BEY2153                   DTT; small                                   Aβ and tau aggregation inhibitor; inhibits     NCT06885567      BeyondBio Inc.           Jul, 2025    Jul, 2028
+                           molecule                                     neuronal death
+                                                Proteostasis/proteinopathies
+ BIIB080                   DTT; biologic        Tau                      Antisense oligonucleotide blocking tau        NCT05399888      Biogen                   Aug, 2022    May, 2026
+                                                                         mRNA translation
+                                                                                                                                                                                    (Continues)
+
+
+                                                                                                                                                                                                  11 of 26
+                                                                                                                                                                                                    12 of 26
+TA B L E 2     (Continued)
+
+                             Therapeutic                                                                                                                                        Primary
+ Agent                       purpose            CADRO                Mechanism of action                              Clinical trial   Lead sponsor                Start date   completion date
+ BMS-986368                  STT;               Neurotransmitter     Inhibits fatty acid amide hydrolase and          NCT06808984      Celgene                     Jun, 2025    Jul, 2027
+                             neuropsychiatric   receptors            monoacylglycerol lipase to modulate the
+                             (agitation)                             endocannabinoid system
+ BMS-986446                  DTT; biologic      Tau                  Anti-tau monoclonal antibody targeting           NCT06268886      Bristol-Myers Squibb        Mar, 2024    Mar, 2027
+                                                                     reduction of tau spread; directed at
+                                                                     epitopes of the microtubule binding region
+ Brexanolone                 DTT; small         Neurogenesis         Allosteric modulator of GABA-A receptors         NCT04838301      University of Arizona       Aug, 2023    Mar, 2026
+                             molecule
+ Brivaracetam                STT; cognition     Neurotransmitter     Anticonvulsant with high affinity for            NCT05899764      University of California,   Jan, 2025    Jun, 2029
+                             enhancer           receptors            synaptic vesicle protein 2A                                       Los Angeles
+ Bumetanide                  DTT; small         APOE, lipids and     Reverses APOE4-specific Alzheimer’s              NCT06052163      Stanford University         Apr, 2023    Apr, 2025
+                             molecule           lipoprotein          transcriptomic signatures
+                                                receptors
+ Cannabidiol                 STT; cognition     Neurotransmitter     Endocannabinoid receptor agonist                 NCT05822362      University of Colorado,     Jan, 2024    Apr, 2028
+                             enhancer           receptors                                                             NCT06014424      Denver                      Sep, 2023    Dec, 2026
+                             STT;                                                                                                      Sunnybrook Health
+                             neuropsychiatric                                                                                          Sciences Centre
+                             (agitation)
+ Ciprofloxacin +             DTT; small         Inflammation         Celecoxib is a COX-2 inhibitor that blocks       NCT06185543      NeuroSense                  Nov, 2023    Nov, 2025
+ Celecoxib                   molecule                                prostaglandin synthesis to reduce an                              Therapeutics Ltd.
+                                                                     immune response
+ Contraloid acetate          DTT; small         Amyloid-beta         Aggregation inhibitor                            NCT06182085      PRInnovation GmbH           Dec, 2023    Apr, 2026
+                             molecule
+ CORT108297                  STT; cognition     Growth factors and   Selective glucocorticoid receptor                NCT04601038      Johns Hopkins               Jun, 2021    Jun, 2026
+                             enhancer           hormones             antagonist; reduces neuroendocrine stress                         University
+                                                                     responses
+ DAOIB + AO                  STT; cognition     Multi-target         NMDA enhancement (DAOIB) + antioxidant           NCT06467539      Chang Gung Memorial         Jun, 2024    May, 2027
+                             enhancer                                (AO)                                                              Hospital
+ Daridorexant                DTT; small         Circadian rhythm     Dual orexin antagonist for both orexin 1 and     NCT07213349      Douglas Mental Health       Oct, 2025    Dec, 2028
+                             molecule                                orexin 2 receptors                                                University Institute
+ Dasatinib +                 DTT; small         Inflammation         Tyrosine kinase inhibitor (dasitinib); reduces   NCT04685590      Washington University       Dec, 2021    Jan, 2028
+ Quercetin                   molecule                                T-cell signaling and production of               NCT04785300      School of Medicine          Jul, 2022    Jun, 2026
+                                                                     proinflammatory cytokines                                         Mayo Clinic
+                                                                                                                                                                                      (Continues)
+
+                                                                                                                                                                                                    CUMMINGS ET AL .
+TA B L E 2     (Continued)
+
+                             Therapeutic                                                                                                                                        Primary             CUMMINGS ET AL .
+ Agent                       purpose            CADRO                 Mechanism of action                             Clinical trial   Lead sponsor                Start date   completion date
+ Dexmedetomidine             STT;               Neurotransmitter      Selective α2-adrenergic receptor agonist to     NCT06052254      Teikoku Pharma USA,         Sep, 2025    Jan, 2027
+                             neuropsychiatric   receptors             enhance noradrenergic function                                   Inc.
+                             (agitation)
+ Dimethyl fumarate           DTT; small         Inflammation          Activates Nrf2 with reduction of NF-kB          NCT06850597      Medical University of       Oct, 2024    Dec, 2027
+                             molecule                                 signaling, inhibits NLRP3 inflammasome                           Lodz
+                                                                      activation, reduces microglial activation and
+                                                                      cytokine production
+ Edaravone                   DTT; small         Oxidative stress      Free radical scavenger                          NCT07252440      Shanghai Auzone             Dec, 2025    Oct, 2028
+                             molecule                                                                                                  Biological Technology
+                                                                                                                                       Co., Ltd.
+ Emestedastat                STT; cognition     Growth factors and    11-β-hydroxysteroid dehydrogenase type 1        NCT06125951      Actinogen Medical           Apr, 2024    Oct, 2026
+                             enhancer           hormones              inhibitor
+ Enrupatinib                 DTT; small         Inflammation          Colony stimulating factor 1 receptor            NCT06745583      Elixiron                    Dec, 2024    Mar, 2026
+                             molecule                                 (CSF-1R) inhibitor to reduce microglial                          Immunotherapeutics
+                                                                      activation                                                       (Hong Kong) Ltd.
+ Etalanetug (E2814) +        DTT; biologic      Multi-target          Anti-tau monoclonal antibody plus               NCT06602258      Eisai Inc.                  Sep, 2024    Dec, 2026
+ Lecanemab                                                            anti-amyloid monoclonal antibody
+ (BAN2401)
+ EX039                       DTT; small         Synaptic plastic-     Inhibits D-amino acids oxidate to increase      NCT05413655      Excelsior                   Aug, 2022    Dec, 2026
+                             molecule           ity/neuroprotection   N-methyl-D-aspartate receptor activity
+ Exercised plasma            DTT; biologic      Synaptic plastic-     Plasma transfusion from exercise-trained        NCT05068830      Norwegian University of     Sep, 2021    Sep, 2025
+                                                ity/neuroprotection   donors to reduce toxic plasma elements and                       Science and Technology
+                                                                      enhance synaptic function
+ Fasudil                     DTT; small         Vasculature           Vasodilator to improve cerebral blood flow      NCT06362707      Helse Stavanger HF          Aug, 2024    Oct, 2025
+                             molecule
+ Foralumab                   DTT; biologic      Inflammation          Anti-CD3 antibody that reduces effector         NCT06489548      Brigham and Women’s         Apr, 2025    Jun, 2026
+                                                                      T-cells and microglial activation                                Hospital
+ IGC-AD1                     STT;               Neurotransmitter      Tetrahydrocannabinol binds to the CB1           NCT05543681      IGC Pharma, LLC             Oct, 2022    Mar, 2026
+                             neuropsychiatric   receptors             receptor
+                             (agitation)
+ ITI-1284                    STT;               Neurotransmitter      A deuterated form of lumateperone;              NCT06540833      Intra-Cellular Therapies,   Aug, 2024    Sep, 2027
+                             neuropsychiatric   receptors             5-HT2A receptor antagonist, D1 receptor         NCT06651567      Inc.                        Oct, 2024    Oct, 2027
+                             (psychosis,                              modulator, D2 receptor modulator                                 Intra-Cellular Therapies,
+                             agitation)                                                                                                Inc.
+                                                                                                                                                                                      (Continues)
+
+                                                                                                                                                                                                    13 of 26
+                                                                                                                                                                                                14 of 26
+TA B L E 2    (Continued)
+
+                            Therapeutic                                                                                                                                     Primary
+ Agent                      purpose            CADRO                 Mechanism of action                           Clinical trial   Lead sponsor               Start date   completion date
+ IVL3003                    STT; cognition     Neurotransmitter      Cholinesterase inhibitor to enhance           NCT05345509      Inventage Lab., Inc.       Apr, 2023    Nov, 2025
+                            enhancer           receptors             acetylcholine and facilitate synaptic
+                                                                     function
+ JNJ-64042056               DTT; biologic      Tau                   Active immunotherapy targeting tau protein    NCT06544616      Janssen Pharmaceutica      Jul, 2024    Jul, 2031
+                                                                                                                                    N.V., Belgium
+ KarXT + KarX-EC +          STT; cognition     Neurotransmitter      Muscarinic cholinergic agonist plus a         NCT07212062      Neurology Office of        Dec, 2025    Apr, 2028
+ Lecanemab                  enhancer           receptors             peripheral anticholinergic agent and an                        South Florida
+                                                                     anti-amyloid monoclonal antibody
+                                                                     (lecanemab)
+ Lemborexant                DTT; small         Neurotransmitter      Dual antagonist of orexin OX1 and OX2         NCT06274528      Washington University      Mar, 2024    Mar, 2029
+                            molecule           receptors             receptors                                                      School of Medicine
+ Lenalidomide               DTT; small         Inflammation          Multimodal immunomodulator that               NCT06177028      St. Joseph’s Hospital      Jun, 2025    Jan, 2026
+                            molecule                                 decreases inflammatory cytokines,                              and Medical Center,
+                                                                     increases anti-inflammatory cytokines, and                     Phoenix
+                                                                     reduces microglial activation
+ Leuprolide                 DTT; small         Growth factors and    Gonadotropin growth hormone receptor          NCT03649724      Weill Medical College of   Nov, 2020    Jul, 2026
+                            molecule           hormones              agonist; lowers luteinizing hormone levels                     Cornell University
+                                                                     to reduce amyloid deposition and
+                                                                     neurodegeneration
+ Levetiracetam              DTT; small         Synaptic plastic-     SV2A modulator; improves synaptic             NCT03875638      Beth Israel Deaconess      Aug, 2019    Oct, 2025
+                            molecule           ity/neuroprotection   function; reduces Aβ-induced neuronal                          Medical Center
+                                                                     hyperactivity
+ LHP588                     DTT; small         Multi-target          Inhibits gingipains leading to reduced        NCT06847321      Lighthouse                 Feb, 2025    Sep, 2028
+                            molecule                                 inflammation, amyloid plaques, and tau                         Pharmaceuticals, Inc.
+                                                                     pathology
+ Losartan +                 DTT; small         Vasculature           Angiotensin II receptor blocker (losartan),   NCT05331144      Rong Zhang                 Oct, 2022    Jun, 2027
+ Amlodipine                 molecule                                 calcium channel blocker (amlodipine)
+ Memantine                  DTT; small         Neurotransmitter      NMDA receptor antagonist with                 NCT05063851      University of Virginia     Oct, 2021    Dec, 2025
+                            molecule           receptors             neuroprotective effects
+ Methylphenidate +          STT;               Neurotransmitter      Norepinephrine and dopamine reuptake          NCT07279740      Sunnybrook Health          Jan, 2026    Oct, 2027
+ iTBS                       neuropsychiatric   receptors             inhibitor; primes intermittent theta burst                     Sciences Centre
+                            (apathy)                                 stimulation
+ Mevidalen                  STT; cognition     Neurotransmitter      Dopamine D1 receptor positive allosteric      NCT06538116      Eli Lilly and Company      Aug, 2024    May, 2026
+                            enhancer           receptors             modulator
+                                                                                                                                                                                  (Continues)
+
+                                                                                                                                                                                                CUMMINGS ET AL .
+TA B L E 2   (Continued)
+
+                           Therapeutic                                                                                                                               Primary
+ Agent                     purpose            CADRO              Mechanism of action                          Clinical trial   Lead sponsor             Start date   completion date     CUMMINGS ET AL .
+ MIB-626                   DTT; small         Amyloid-beta       Decreases oxidative stress to improve        NCT05040321      Brigham and Women’s      Dec, 2021    Oct, 2025
+                           molecule                              mitochondrial function and enhance                            Hospital
+                                                                 autophagy leading to decreased
+                                                                 amyloid-beta plaques
+ MK-1167                   STT; cognition     Undisclosed        Undisclosed                                  NCT06721156      Merck Sharp & Dohme      Dec, 2024    Dec, 2026
+                           enhancer                                                                                            LLC
+ MK-2214                   DTT; biologic      Tau                Anti-tau monoclonal antibody                 NCT07033494      Merck Sharp & Dohme      Jul, 2025    Apr, 2029
+                                                                                                                               LLC
+ ML-007C-MA                STT;               Neurotransmitter   M1/M4 muscarinic agonist                     NCT06887192      MapLight Therapeutics    Aug, 2025    Feb, 2027
+                           neuropsychiatric   receptors
+                           (psychosis)
+ Nicotinic Acid            DTT; small         Inflammation       Engages the hydroxycarboxylic acid           NCT06582706      Indiana University       Dec, 2024    Feb, 2026
+                           molecule                              receptor 2 (HCAR2) on microglia to reduce
+                                                                 plaque burden and neuronal dystrophy
+ NSC001                    STT; cognition     Neurotransmitter   Orthosteric selective M1 cholinergic         NCT06995573      NSC-Therapeutics         Jun, 2025    Jul, 2026
+                           enhancer           receptors          receptor agonist
+ NSC001 + Trospium         STT; cognition     Neurotransmitter   Orthosteric selective M1 cholinergic         NCT06995573      NSC-Therapeutics         Jun, 2025    Jul, 2026
+                           enhancer           receptors          receptor agonist plus a repurposed
+                                                                 anticholinergic agent to reduce peripheral
+                                                                 cholinergic side effects
+ NTRX-07                   DTT; small         Neurotransmitter   Cannabinoid type 2 receptor agonist;         NCT07058688      NeuroTherapia, Inc.      Mar, 2025    Dec, 2025
+                           molecule           receptors          reduces microglial-mediated inflammation
+ ONO-2020                  STT; cognition     Epigenetic         Epigenetic regulator modulating immune       NCT06803823      Ono Pharmaceutical Co.   May, 2025    Dec, 2026
+                           enhancer           regulators         function and inflammation                    NCT06881836      Ltd                      Apr, 2025    Jul, 2026
+                           STT;                                                                                                Ono Pharmaceutical Co.
+                           neuropsychiatric                                                                                    Ltd
+                           (agitation)
+ Ozanimod                  DTT; small         Inflammation       Sphingosine -1-phospaste receptor            NCT06862960      ChenXiaoChun             Jul, 2025    Jun, 2027
+                           molecule                              modulator that reduces lymphocyte
+                                                                 migration into the brain, decreasing
+                                                                 microglial activation and proinflammatory
+                                                                 cytokine release
+ Parthenolide +            DTT; small         Multi-target       Targets microbial-mediated                   NCT07236190      Massachusetts General    Dec, 2025    Jun, 2027
+ Ipriflavone               molecule                              neuroinflammation and oxidation; reduces                      Hospital
+                                                                 aggregation of Aβ protein; down regulates
+                                                                 tau protein production;
+                                                                 acetylcholinesterase inhibitor
+                                                                                                                                                                           (Continues)
+                                                                                                                                                                                         15 of 26
+TA B L E 2     (Continued)
+                                                                                                                                                                                             16 of 26
+
+                             Therapeutic                                                                                                                                 Primary
+ Agent                       purpose          CADRO            Mechanism of action                             Clinical trial   Lead sponsor                Start date   completion date
+ Polypill                    STT; cognition   Undisclosed      Undisclosed                                     NCT06597058      Noah Pharmaceuticals,       Oct, 2024    Dec, 2025
+                             enhancer                                                                                           Inc.
+ Posdinemab                  DTT; biologic    Tau              Monoclonal antibody targeting soluble tau       NCT04619420      Janssen Research &          Jan, 2021    Oct, 2025
+                                                               protein                                                          Development, LLC
+ Rifaximin                   DTT; small       Gut-brain axis   Antibiotic to change microbiome                 NCT06718686      Jasmohan Bajaj              Dec, 2024    Dec, 2025
+                             molecule                          composition
+ RO7269162                   DTT; small       Amyloid-beta     Gamma-secretase modulator to reduce Aß          NCT06402838      Hoffmann-La Roche           May, 2024    Nov, 2026
+                             molecule                          production
+ RQC                         DTT; small       Amyloid-beta     Reduces production and aggregation of Aß        NCT06470061      Zaparackas and              Jul, 2024    Jul, 2027
+                             molecule                                                                                           Knepper LTD
+ Sabirnetug                  DTT; biologic    Amyloid-beta     Monoclonal antibody targeting soluble Aβ        NCT06335173      Acumen                      Feb, 2024    Oct, 2026
+                                                                                                                                Pharmaceuticals
+ Sargramostim                DTT; biologic    Inflammation     Granulocyte macrophage colony stimulating       NCT04902703      University of Colorado,     Jun, 2022    Nov, 2026
+                                                               factor that shifts microglia toward a                            Denver
+                                                               phagocytic phenotype to remove amyloid
+                                                               protein
+ Semaglutide                 DTT; biologic    Inflammation     GLP-1 receptor agonist; reduces                 NCT07135245      Rune Skovgaard              Jan, 2026    Sep, 2030
+                                                               neuroinflammation and improves insulin          NCT07200622      Rasmussen                   Sep, 2025    Dec, 2027
+                                                               signaling in the brain                                           Imperial College London
+ Semaglutide +               DTT; biologic    Inflammation     GLP-1 receptor agonist; (reduces                NCT07135245      Rune Skovgaard              Jan, 2026    Sep, 2030
+ Candesartan +                                                 neuroinflammation and improves insulin                           Rasmussen
+ Vitamin D + Calcium                                           signaling in the brain); angiotensin receptor
+                                                               blocker; calcium; vitamin D
+ Senicapoc                   DTT; small       Inflammation     Calcium-activated potassium channel             NCT04804241      University of California,   Mar, 2022    Dec, 2025
+                             molecule                          blocker to inhibit activation of microglial                      Davis
+                                                               and decrease proinflammatory cytokine
+                                                               release
+ SHR-1707                    DTT; biologic    Amyloid-beta     Anti-amyloid monoclonal antibody                NCT06199037      Shanghai Hengrui            Feb, 2024    Apr, 2025
+                                                                                                                                Pharmaceutical Co., Ltd.
+ Siponimod                   DTT; small       Inflammation     Immunomodulation; Sphingosine                   NCT06639282      St. Joseph’s Hospital       Jul, 2025    Oct, 2029
+                             molecule                          -1-phosphate receptor modulator to                               and Medical Center,
+                                                               decrease microglial activation and                               Phoenix
+                                                               proinflammatory cytokine release
+ Sirolimus                   DTT; small       Vasculature      Enhances cerebral blood flow; mammalian         NCT04629495      The University of Texas     Aug, 2021    Mar, 2026
+                             molecule                          target of rapamycin (mTOR) inhibitor with                        Health Science Center
+                                                               immunosuppressive effects                                        at San Antonio
+                                                                                                                                                                               (Continues)
+                                                                                                                                                                                             CUMMINGS ET AL .
+TA B L E 2      (Continued)                                                                                                                                                                                  CUMMINGS ET AL .
+
+                              Therapeutic                                                                                                                                              Primary
+ Agent                        purpose           CADRO                   Mechanism of action                             Clinical trial      Lead sponsor                Start date     completion date
+ Sodium pentaborate           DTT; small        Multi-target            Affects dysregulated genes of multiple          NCT06840054         Tabriz University of        May, 2025      Jan, 2026
+ pentahydrate                 molecule                                  biological processes, including                                     Medical Sciences
+                                                                        inflammation, cell stress, cell growth, cell
+                                                                        proliferation, and apoptosis.
+ SPG302                       DTT; small        Synaptic plasticity/    Targets fascin to stimulate neurons to          NCT06427668         Spinogenix                  Jul, 2024      Dec, 2025
+                              molecule          neuroprotection         rebuild dendritic spines
+ Suvorexant                   DTT; small        Neurotransmitter        Dual orexin receptor antagonist; improves       NCT04629547         Washington University       May, 2022      May, 2026
+                              molecule          receptors               sleep with effects on clearance of CSF Aβ                           School of Medicine
+                                                                        and tau
+ Tadalafil                    STT; cognition    Neurotransmitter        Phosphodiesterase 5 (PDE5) inhibitor;           NCT07172815         Imperial College London     Sep, 2025      Aug, 2028
+                              enhancer          receptors               elevates cyclic guanosine monophosphate
+                                                                        (GMP) to improve neuroplasticity
+ Tisolagiline                 STT; cognition    Neurotransmitter        Monoamine oxidase inhibitor; increases          NCT07027072         NeuroBiogen Co., Ltd        Aug, 2025      Jun, 2027
+                              enhancer          receptors               dopamine availability; may reduce
+                                                                        inflammation and neurodegeneration
+ Trazodone                    STT; cognition    Circadian rhythm        Serotonin reuptake inhibitor to restore         NCT05282550         Johns Hopkins               Feb, 2023      Jul, 2027
+                              enhancer                                  sleep                                                               University
+ Trontinemab                  DTT; biologic     Amyloid-beta            Anti-amyloid monoclonal antibody with           NCT04639050         Hoffmann-La Roche           Mar, 2021      Jun, 2030
+                                                                        Brainshuttle® utilizing transferrin receptor
+                                                                        to enhance blood brain barrier penetration
+ VHB937                       DTT; biologic     Inflammation            TREM2 antibody agonist that increases           NCT07094516         Novartis                    Aug, 2025      Sep, 2028
+                                                                        phagocytic activity of microglia                                    Pharmaceuticals
+ VY7523                       DTT; biologic     Tau                     Recombinant humanized immunoglobulin            NCT06874621         Voyager Therapeutics        Mar, 2025      May, 2027
+                                                                        gamma 4 (IgG4) monoclonal antibody
+                                                                        targeting human pathological tau
+ XPro1595                     DTT; biologic     Inflammation            TNF neutralizer to reduce interaction with      NCT05522387         Inmune Bio, Inc.            Feb, 2023      Jun, 2024
+                                                                        TNF receptors that activate a
+                                                                        pro-inflammatory cascade
+ Zervimesine                  DTT; small        Synaptic plasticity/    Sigma-2 receptor antagonist; competes with      NCT05531656         Cognition Therapeutics      Jun, 2023      Apr, 2027
+ (CT1812)                     molecule          neuroprotection         oligomeric Aβ binding; protects against
+                                                                        Aβ-induced synaptic toxicity
+
+Abbreviations: Aß, amyloid-beta protein; DTT, disease targeted therapy; GABA, gamma-aminobutyric acid; GLP-1, glucagon-like peptide-1; MAB, monoclonal antibody; STT, symptom targeted therapy; TNF, tumor
+necrosis factor.
+
+
+
+                                                                                                                                                                                                             17 of 26
+18 of 26                                                                                                                             CUMMINGS ET AL .
+
+
+
+
+F I G U R E 4 Mechanisms of action of agents in Phase 2 Alzheimer clinical trials as classified using four categories of therapeutic purpose (left) or
+the CADRO categories (right) (Index Date: January 1, 2026) (J. L. Cummings). CADRO, Common Alzheimer’s Disease Research Ontology.
+
+
+trial includes participants with AD dementia of unspecified severity         ber of trials and the number of agents in the pipeline over the decade
+(categories are not mutually exclusive).                                     of 2017–2026. The number of trials increased by approximately 35%,
+   There are 18 new trials in Phase 1 comprising 37% of the trials in this   and the number of agents in trials increased by approximately 40%
+phase of the AD pipeline. Compared to the last Index Date (January 1,        during this interval (Figure 5A). The number of trials active in the
+2025), 15 Phase 1 trials were completed, no Phase 1 trials were termi-       pipeline is the sum of new trials that have entered since the pre-
+nated or withdrawn, and four trials are of unknown status (no recorded       vious Index Date and previously registered trials that have not yet
+activity for 2 years).                                                       completed. Examination of the three most active areas of DTT drug
+   Processes involved in 13 CADRO categories of AD pathophysi-               development revealed that the percentage of the pipeline devoted
+ology are targeted by at least one drug in current Phase 1 clinical          to inflammation/immune dysfunction drugs has increased from 6%
+trials (Figure 3). The CADRO categories of amyloid, tau, and inflam-         to approximately 20%, tau targeted agents have increased from 6%
+mation/immune dysfunction each has eight (18% of the Phase 1                 to approximately 20%, and amyloid targeted agents have decreased
+drugs for each of these targets) related agents in Phase 1 trials.           from 33% of the pipeline to approximately 20% of agents in the
+Six (13%) drugs in Phase 1 target neurotransmitter receptors, and            pipeline (Figure 5B). The percentage of inflammation/immune dys-
+three (7%) address metabolic/bioenergetic targets. Two agents (4%)           function drugs and of amyloid targeted agents has been stable since
+are being developed for each of the categories of oxidative stress           2022.
+and synaptic plasticity. One (2%) agent is in development for each
+of the CADRO targets involved of APOE/lipids, cell death, proteosta-
+sis/proteinopathy, growth factors and hormones, gut–brain axis, and          3.6       Biomarkers in trials
+epigenetic regulators. There were two Phase 1 agents (4%) with
+undisclosed mechanisms.                                                      Most active trials include a biomarker in the trial design — 47 Phase
+   The biopharmaceutical industry sponsors 31 (63%) Phase 1 trials.          3 trials (87%), 79 Phase 2 trials (89%), and 33 Phase 1 trials (67%)
+Biopharmaceutical companies sponsor one of six Phase 1 trials for            — include a biomarker for at least one context of use. Among the
+repurposed agents and 30 (70%) trials of novel, non-repurposed agents        192 clinical trials, 96 (50%) have an inclusion biomarker for trial eligi-
+in Phase 1.                                                                  bility, with amyloid positron emission tomography (PET) identified as
+   Review of the global distribution of Phase 1 trials reveals that 20       the most common biomarker modality (N = 49). Fluid biomarkers are
+(43%) are conducted only in North America; 23 (49%) are conducted            used for inclusion in 58 (60% if trials in which an inclusion biomarker
+only outside North America; and four (8%) are conducted in both North        was incorporated) trials, 44 trials measure biomarkers in cerebrospinal
+American and non–North American regions. Phase 1 trials collectively         fluid (CSF) analytes, 26 trials measure blood-based biomarkers, and
+require 2,350 participants for the currently registered trials.              one trial has saliva as a biomarker source.
+                                                                                Fifty-two (27%) active AD trials have a biomarker as a primary out-
+                                                                             come measure (nine in Phase 3, 32 in Phase 2, and 11 in Phase 1)
+3.5        Longitudinal trial observations                                   with or without a clinical measure as a concomitant primary outcome.
+                                                                             Imaging was used as a primary outcome in 29 trials (56% if trials in
+The annual review of the AD drug development pipeline began in 2016          which a biomarker functioned as a primary outcome) (one trial had
+allowing longitudinal review of pipeline activity. We assessed the num-      ocular imaging as a primary outcome). There are 43 trials (46% of trials
+TA B L E 3     Agents in Phase 1 Alzheimer’s disease drug development (clinicaltrials.gov accessed January 1, 2026).
+
+                         Therapeutic                                                                                                                                        Primary             CUMMINGS ET AL .
+ Agent                   purpose               CADRO                   Mechanism of action                             Clinical trial   Lead sponsor           Start date   completion date
+ AAV2-BDNF               DTT; biologic         Growth factors and      Genetically engineered AAV-2 that               NCT05040217      Mark Tuszynski         Feb, 2022    Dec, 2027
+                                               hormones                expresses the human BDNF cDNA maintain
+                                                                       neurons
+ ADEL-Y01                DTT; biologic         Tau                     Monoclonal antibody targeting tau tubulin       NCT06247345      Alzheimer’s Disease    Feb, 2024    Jun, 2027
+                                                                       to decrease tau aggregation and                                  Expert Lab (ADEL),
+                                                                       propagation and enhance microglial tau                           Inc.
+                                                                       clearance
+ AK152                   DTT; biologic         Amyloid-beta            Bispecific antibody targeting amyloid-beta      NCT07301502      Akeso                  Dec, 2025    Jun, 2027
+                                                                       protein and the receptor-mediated
+                                                                       transcytosis mechanism of the blood brain
+                                                                       barrier to enhance brain penetration
+ ALN-5288                DTT; biologic         Tau                     RNAi therapeutic targeting                      NCT07214727      Alnylam                Oct, 2025    Mar, 2030
+                                                                       microtubule-associated protein tau (MAPT)                        Pharmaceuticals
+ AS-S603                 DTT; small            Proteostasis/           Targets and dissolves Aβ and tau aggregates     NCT06786676      Amyloid Solution Inc   May, 2025    Apr, 2026
+                         molecule              proteinopathies
+ AV-1959D                DTT; biologic         Amyloid-beta            Anti-amyloid vaccine                            NCT05642429      Institute for          Feb, 2023    Feb, 2026
+                                                                                                                                        Molecular Medicine
+ AV-1959R                DTT; biologic         Amyloid-beta            N-terminal amyloid-targeted vaccine             NCT06831812      Nuravax, Inc.          Jun, 2024    Oct, 2025
+                                                                       (Aβ 1-11)
+ AV-1980R                DTT; biologic         Tau                     Vaccine against tau protein epitope             NCT07158905      Institute for          Dec, 2025    Jun, 2029
+                                                                                                                                        Molecular Medicine
+ BCG vaccine             DTT; biologic         Inflammation            Immunomodulation by enhancing systemic          NCT06078891      Tamir Ben-Hur          Jul, 2023    Dec, 2025
+                                                                       immunity
+ BIIB080                 DTT; biologic         Tau                     Antisense oligonucleotide blocking tau          NCT06454721      Biogen                 Jan, 2025    Feb, 2026
+                                                                       mRNA translation
+ BnH-015B                STT; Cognition        Neurotransmitter        Modulates GluN2B binding of NMDA                NCT06535308      BnH Research           Oct, 2024    Apr, 2026
+                         enhancer              receptors               receptors; regulates BDNF/TRKβ and
+                                                                       microglial-mediated IL-33-OPN signaling
+ Cannabidiol             STT;                  Neurotransmitter        Endocannabinoid receptor agonist                NCT04075435      Mclean Hospital        Jan, 2021    Jan, 2026
+                         neuropsychiatric      receptors
+                         (agitation)
+ Centella asiatica       DTT; small            Synaptic plasticity/    Antioxidant and anti-inflammatory agent         NCT05591027      Oregon Health and      Dec, 2022    Nov, 2025
+                         molecule              neuroprotection         targeting synaptic and neuroprotective                           Science University
+                                                                       effects
+                                                                                                                                                                                  (Continues)
+
+                                                                                                                                                                                                19 of 26
+                                                                                                                                                                                       20 of 26
+
+TA B L E 3   (Continued)
+
+                      Therapeutic                                                                                                                                   Primary
+ Agent                purpose          CADRO                  Mechanism of action                             Clinical trial   Lead sponsor            Start date   completion date
+ Choline              DTT; small       Metabolism and         Stabilizes lipid metabolism and restores cell   NCT05880849      Paul E Schulz           Jun, 2023    Nov, 2025
+                      molecule         bioenergetics          function by increasing phosphatidylcholine
+                                                              activity
+ CM383                DTT; biologic    Amyloid-beta           Anti-amyloid monoclonal antibody                NCT06412185      Keymed Biosciences      May, 2024    Jun, 2025
+                                                                                                              NCT06619613      Co.Ltd                  Nov, 2024    Dec, 2026
+                                                                                                                               Keymed Biosciences
+                                                                                                                               Co.Ltd
+ CpG1018              DTT; biologic    Inflammation           Toll-like receptor agonist that increases       NCT05606341      NYU Langone Health      Mar, 2023    Nov, 2025
+                                                              phagocytosis by microglia
+ DDN-A-0101           DTT; small       Amyloid-beta           Plaque reduction to decrease                    NCT06367426      Pharmacobio             Apr, 2024    May, 2025
+                      molecule                                neuroinflammation and preserve synaptic
+                                                              function
+ DUVAX                DTT; biologic    Inflammation           Reduces inflammation by preventing              NCT07142278      Nuravax, Inc.           Nov, 2025    Apr, 2027
+                                                              amyloid and tau protein aggregation
+ Emtricitabine        DTT; small       Inflammation           Nucleoside reverse transcriptase inhibitor      NCT04500847      Butler Hospital         Dec, 2021    Mar, 2026
+                      molecule                                that reduces activity of LINE-1                 NCT07210528      National University     Jun, 2025    Mar, 2026
+                                                              retrotransposons and inhibits the NLRP3                          Hospital, Singapore
+                                                              inflammasome
+ Emtricitabine +      DTT; small       Inflammation           Nucleoside reverse transcriptase inhibitors     NCT07210528      National University     Jun, 2025    Mar, 2026
+ Tenofovir            molecule                                that reduce activity of LINE-1                                   Hospital, Singapore
+ alafenamide                                                  retrotransposons and inhibits the NLRP3
+                                                              inflammasome
+ HHT201               STT; cognition   Neurotransmitter       Cholinesterase inhibitor                        NCT06373094      Shanghai Synergy        Jun, 2024    Mar, 2025
+                      enhancer         receptors                                                                               Pharmaceutical
+                                                                                                                               Sciences Co., Ltd.
+ ION269               DTT; biologic    Amyloid-beta           Antisense oligonucleotide directed at           NCT06673069      Ionis                   Dec, 2024    Feb, 2027
+                                                              amyloid precursor protein                                        Pharmaceuticals, Inc.
+ J4                   DTT; small       Synaptic plasticity/   Regulates neuronal excitability by              NCT06938763      Academia Sinica,        Feb, 2025    Dec, 2026
+                      molecule         neuroprotection        modulating synaptic transmission                                 Taiwan
+ KS101                DTT; small       Metabolism and         Restores Klotho levels to improve cell          NCT07143331      Klotho Sciences         Aug, 2025    Apr, 2026
+                      molecule         bioenergetics          metabolism decreasing oxidative damage,                          Australia Pty Ltd.
+                                                              inflammation, and neurodegeneration
+                                                                                                                                                                         (Continues)
+
+
+                                                                                                                                                                                       CUMMINGS ET AL .
+TA B L E 3    (Continued)
+
+                       Therapeutic                                                                                                                               Primary
+                                                                                                                                                                                     CUMMINGS ET AL .
+
+ Agent                 purpose            CADRO              Mechanism of action                           Clinical trial   Lead sponsor            Start date   completion date
+ Leucettinib-21        DTT; small         Tau                Antagonizes activity of the protein           NCT06206824      Perha                   Jan, 2024    Jun, 2026
+                       molecule                              (DYRK1A protein kinase) derived from the                       Pharmaceuticals
+                                                             DYRK1A gene to decrease tau
+                                                             hyperphosphorylation
+ LX1001                DTT; biologic      Epigenetic         AAV gene transfer vector expressing the       NCT05400330      Lexeo Therapeutics      May, 2023    Nov, 2028
+                                          regulators         cDNA coding for human APOE2 directly to
+                                                             the CNS/CSF of APOE4 homozygotes with
+                                                             AD
+ LY03017               STT;               Neurotransmitter   5-HT2A receptor inverse agonist and           NCT06388551      Luye Pharma Group       May, 2024    Mar, 2025
+                       neuropsychiatric   receptors          5-HT2C receptor antagonist                    NCT06793995      Ltd.                    Feb, 2025    Oct, 2025
+                       (psychosis,                                                                         NCT06980207      Luye Pharma Group       May, 2025    Oct, 2025
+                       hallucination,                                                                                       Ltd.
+                       delusion)                                                                                            Luye Pharma Group
+                                                                                                                            Ltd.
+ LY3954068             DTT; biologic      Undisclosed        Undisclosed                                   NCT06297590      Eli Lilly and Company   Aug, 2024    Feb, 2027
+ LY4006895             DTT; biologic      Undisclosed        Undisclosed                                   NCT06657768      Eli Lilly and Company   Oct, 2024    Jul, 2027
+ MIB-626               DTT; small         Oxidative stress   Decreases oxidative stress to improve         NCT07278492      Brigham and             Apr, 2026    Mar, 2028
+                       molecule                              mitochondrial function and autophagy                           Women’s Hospital
+                                                             leading to reduction of amyloid-beta
+                                                             plaques and decreased tau tangles
+ Mivelsiran            DTT; biologic      Amyloid-beta       RNAi to decrease APP and downstream           NCT05231785      Alnylam                 Feb, 2022    Mar, 2029
+                                                             Aβ-related events                                              Pharmaceuticals
+ Nicotinamide          DTT; small         Metabolism and     Mitochondrial function enhancer and           NCT04430517      Mclean Hospital         Mar, 2022    Jan, 2026
+ riboside              molecule           bioenergetics      antioxidant
+ NIO752                DTT; biologic      Tau                Anti-tau antisense oligonucleotide            NCT05469360      Novartis                Feb, 2023    Sep, 2026
+                                                                                                           NCT06372821      Pharmaceuticals         Nov, 2024    Jul, 2026
+                                                                                                                            University College,
+                                                                                                                            London
+ NPT 2042              STT; cognition     Neurotransmitter   Modulates the sodium-potassium-chloride       NCT07222878      NeuroPro                Sep, 2025    Oct, 2025
+                       enhancer           receptors          co-transporter 1 (NKCC-1) implicated in                        Therapeutics, Inc.
+                                                             disrupting the balance of excitatory and
+                                                             inhibitory neurotransmission by increasing
+                                                             intracellular chloride levels and deceasing
+                                                             gamma-amino butyric acid (GABA) activity
+                                                                                                                                                                       (Continues)
+
+
+                                                                                                                                                                                     21 of 26
+                                                                                                                                                                                                            22 of 26
+
+
+
+
+TA B L E 3    (Continued)
+
+                        Therapeutic                                                                                                                                                   Primary
+ Agent                  purpose                CADRO                    Mechanism of action                             Clinical trial      Lead sponsor              Start date      completion date
+ OLX-07010              DTT; small             Tau                      Inhibits tau self-aggregation                   NCT05696483         Oligomerix, Inc           Jan, 2023       Jan, 2026
+                        molecule
+ Phenserine             DTT; small             Cell death               Translational regulation of APP to decrease     NCT06774261         Helse Stavanger HF        Feb, 2025       Dec, 2025
+                        molecule                                        Aβ and cell death; cholinesterase inhibitor
+ Plasma exchange        DTT; biologic          Inflammation             Removes inflammatory mediators from             NCT06234436         Oslo University           Dec, 2023       Dec, 2024
+                                                                        blood                                                               Hospital
+ PMN310                 DTT; biologic          Amyloid-beta             Humanized immunoglobulin monoclonal             NCT06750432         ProMis                    Dec, 2024       Dec, 2026
+                                                                        antibody directed at oligomeric amyloid                             Neurosciences, Inc
+                                                                        species
+ Probiotics             DTT; biologic          Gut–brain axis           Target the gut microbiome to decrease           NCT06181513         University of Nicosia     Dec, 2022       Jul, 2025
+                                                                        inflammation
+ Psilocybin             STT;                   Neurotransmitter         Serotonin 2A receptor (5-HT2A) agonist          NCT04123314         Johns Hopkins             Mar, 2021       Sep, 2026
+                        neuropsychiatric       receptors                                                                                    University
+                        (depression)
+ Recombinant            DTT; biologic          Oxidative stress         Delivers antioxidant properties of albumin      NCT06489015         Protgen Ltd               Jun, 2024       Nov, 2025
+ human serum
+ albumin
+ REM0045392             DTT; small             Tau                      Cytoskeletal protein septin modulator           NCT07016464         reMYND                    Mar, 2025       Jun, 2026
+                        molecule
+ RO7812653              DTT; biologic          APOE, lipids, and        ASO to selectively reduce apolipoprotein E      NCT07234942         Hoffmann-La Roche         Jan, 2026       Apr, 2028
+                                               lipoprotein              mRNA in the brain
+                                               receptors
+ THN391                 DTT; biologic          Inflammation             Anti-fibrin antibody blocks binding of fibrin   NCT06814730         Therini Bio, Inc.         Jul, 2025       May, 2026
+                                                                        to reduce activation of microglia
+ Xenon                  DTT; small             Inflammation             Modulates microglia to assume a protective      NCT06945614         General Biophysics        Apr, 2025       Dec, 2025
+                        molecule                                        phagocytic state                                                    LLC
+
+Abbreviations: Aß, amyloid-beta protein; APOE, apolipoprotein E; APP, amyloid precursor protein; ASO, antisense oligonucleotides; CADRO, Common Alzheimer’s Disease Research Ontology; CSF, cerebrospinal
+fluid; CNS, central nervous system; DTT, disease targeted therapy; STT, symptom targeted therapy.
+
+
+
+
+                                                                                                                                                                                                            CUMMINGS ET AL .
+CUMMINGS ET AL .                                                                                                                      23 of 26
+
+
+
+
+F I G U R E 5 (A) The number of trials and the number of agents in the AD drug development pipeline over the decade of 2017–2026. (B) The
+percent of drugs in the pipeline accounted for by inflammation/immune dysfunction, tau, and amyloid targeted agents during the 2017–2026
+interval. AD, Alzheimer’s disease.
+
+
+
+
+with biomarker as a primary outcome) using a fluid biomarker as a pri-     in Phase 1). The most common outcome biomarkers are Aβ PET (11),
+mary outcome measure; with 16 measuring a blood-based biomarker,           MRI (eight), and tau PET (four).
+10 measuring CSF analytes, one measuring exosomes from an unde-
+fined fluid, and one measuring changes in stool samples. Aβ biomarkers
+are used as a primary outcome measure in 16 trials (31% of trials with a   3.7       Trial participants
+primary outcome biomarker; five in Phase 3, nine in Phase 2, and two in
+Phase 1), and tau biomarkers are used in 14 trials (27% of trials with a   To fully populate currently active trials, 54,728 participants are
+biomarker as a primary outcome; two in Phase 3, nine in Phase 2, three     required: 38,417 in Phase 3; 13,961 in Phase 2; and 2,350 in Phase
+24 of 26                                                                                                                          CUMMINGS ET AL .
+
+
+1. Of the total number of required participants, 70% are needed for         funders include federal agencies (e.g., NIH in the United States, non-
+Phase 3 trials, 26% are required for Phase 2 trials, and 4% for Phase 1     US governmental agencies), philanthropic and advocacy organizations,
+trials.                                                                     academic medical centers, and public-private collaborations (if indus-
+   Trial participants are divided among trials for DTTs (39,390; 72% of     try is not identified as the lead sponsor).
+participants); trials for cognition enhancing agents (6,658; 12%); trials
+for dugs addressing NPS (8,560 participants; 16%); and trial for “other”
+symptoms (120; 0.2%).                                                       3.11        Combination therapies
+
+                                                                            There are few trials involving combination therapies in the 2026
+3.8        Global trial distribution                                        pipeline. Phase 3 combination trials include MABs targeting tau and
+                                                                            Aß (NCT01760005; NCT05269394), a gamma secretase modulator
+Phase 3 trials require the largest number of patients and correspond-       plus an anti-Aß plaque MAB (NCT06996730), a combination of a
+ingly the largest number of sites and participating regions. Sixty-three    dopamine agonist (rotigotine) and a cholinesterase inhibitor (rivastig-
+percent of Phase 3 trials include both North American and non–North         mine) (NCT06702124), and a combination of a muscarinic cholin-
+American sites; 22% of Phase 2 trials include both North American           ergic agonist (xanomeline) and a peripheral cholinergic antagonist
+and non–North American sites; and 9% Phase 1 trials are conducted           (trospium) (KarXT 10 trials). Phase 2 combination trials include a
+in North American and non–North American sites. Forty-seven of 53           tau vaccine and an anti-Aß MAB (NCT07167966), MABs targeting
+(89%) global trials are sponsored by the biopharmaceutical industry.        tau and Aß (NCT06602258), two agents targeting hypertension to
+   Five percent of DTT small molecule trials are conducted globally;        determine the impact on tau and Aß (NCT05331144), and a com-
+50% of DTT biological agent trials are conducted globally; 23% of tri-      bination of a repurposed antibiotic (ciprofloxacin) and repurposed
+als for cognition enhancing agents are global; and 42% of trials for NPS    anti-inflammatory agent (celecoxib)(NCT06185543). The combination
+therapies are conducted globally.                                           of two reverse transcriptase inhibitors (emtricitabine plus tenofovir
+   We calculated the global distribution of unique clinical trial sites     alafenamide) is being assessed in a Phase 1 clinical trial involving
+active on the Index Date (January 1, 2026) and found that there are         participants with MCI (NCT07210528). Most trial descriptions on
+3156 sites in North America and 3607 sites in non–North Ameri-              clinicatrials.gov do not specify if patients on MABs are eligible for
+can regions including 1363 in Western Europe/Israel, 661 in Eastern         participation; those allowing participants on MABs may be viewed as
+Europe/Russia, 571 in Asia (not including Japan), 516 in Japan, 321         assessing combination therapies.
+in South America/Mexico, and 175 in South Africa, Australia, or New
+Zealand.
+                                                                            3.12    Drugs scheduled to complete Phase 3 and
+                                                                            Phase 2 trials in 2026
+3.9        Repurposed agents
+                                                                            Eight Phase 3 trials will reach their primary completion date in
+The 56 repurposed agents and 73 trials of repurposed drugs in the           2026 including trials of AR1001, a phosphodiesterase 5 (PDE
+2026 AD drug development pipeline represent 35% of the total num-           5) inhibitor (NCT05531526); caffeine, an adenosine receptor
+ber of drugs in trials and 38% of all trials. Repurposed agents account     blocker (NCT04570085); donepezil, an acetylcholinesterase inhibitor
+for 42% of drugs in Phase 3, 45% of drugs in Phase 2, and 13% of            (NCT04661280); metformin, an insulin sensitizer (NCT04098666);
+drugs in Phase 1. Of repurposed agents in trials, 57% are DTT small         valiltramiprosate, an amyloid anti-aggregation agent (NCT06304883);
+molecules, 11% are DTT biological agents, 21% are STTs addressing           Wujia Yizhi, a Chinese herbal therapy (NCT06534723); and a mus-
+cognition enhancement, and 14% are STTs for NPS of AD. The biophar-         carinic cholinergic agonist, xanomeline plus trospium for the treatment
+maceutical industry sponsors most of the repurposed agents in Phase         of AD psychosis (NCT05511363; NCT06585787). The Phase 3 trial of
+3 (47%; N = 7) and relatively fewer of the repurposed drugs in Phase 2      donanemab in preclinical AD (NCT05026866) could read out in 2026
+(16%; N = 7) and Phase 1 (6%; N = 1).                                       if enough events occur to trigger the analysis in the time-to-event
+                                                                            design. In addition, there are 11 drugs in 14 Phase 3 trials scheduled
+                                                                            for primary completion prior to 2026 that have not been reported
+3.10        Trial funders                                                   as completed, terminated, or withdrawn. These trials could have
+                                                                            end-of-study reports in 2026.
+The biopharmaceutical industry sponsors 59% of all clinical trials in          Twenty-nine Phase 2 clinical trials will be completed in 2026 pro-
+the 2026 AD drug development pipeline, including 72% of Phase 3             viding information across a variety of Aß, tau, hormonal, senolytic,
+trials, 48% of Phase 2 trials, and 63% of Phase 1 trials. Biopharmaceuti-   inflammatory, transmitter, epigenetic, and vascular disease processes.
+cal industry-sponsored trials account for 42% of DTT small molecule         In addition, there are 19 drugs in 21 Phase 2 trials whose primary
+trials, 68% of DTT trials of biological agents, 57% of trials of cogni-     completion date was reported to be prior to 2026 and have not
+tion enhancers, and 78% of STTs trials addressing NPS. Non-industry         yet been updated on clinicaltrials.gov as completed, terminated, or
+CUMMINGS ET AL .                                                                                                                               25 of 26
+
+
+withdrawn. These delayed trial reports could provide information in           novel compounds. In Phase 2, industry is responsible for advancing
+2026.                                                                         six repurposed agents and 35 novel agents; this contrasts with non-
+                                                                              industry sponsors that are advancing 11 novel agents and 32 repur-
+                                                                              posed agents. In Phase 3, industry is advancing 15 novel agents and
+4       DISCUSSION                                                            eight repurposed agents; non-industry sponsors are advancing nine
+                                                                              novel agents and eight repurposed agents. Repurposing represents
+The 192 clinical trials and 158 novel agents in the 2026 AD drug devel-       16% of the industry pipeline and 57% of the non-industry pipeline. Our
+opment pipeline expands on the 182 clinical trials assessing 138 drugs        observations suggest that industry sponsors typically assess few repur-
+present in the 2025 pipeline. The 59 new trials registered since the          posed compounds in Phase 3, possibly reflecting the lack of intellectual
+Index Date of January 1, 2025, is only slightly larger than the 56 new        property for many of the generic agents and the difficulty of generat-
+trials initiated in the previous year. The larger number of active tri-       ing a return on investment required for development of these agents.
+als observed in 2026 may reflect longer treatment and recruitment             The pattern emphasizes the importance of repurposing in Phase 2 as an
+periods with fewer trial completions in the past year.                        opportunity for non-industry sponsors such as academic medical cen-
+    Biomarkers have transformed clinical trials with the ability to con-      ters to advance research workforce training, drug development tool
+firm the diagnosis of AD for trial eligibility, stratify or enroll patients   creation, and trial infrastructure development.8 These activities trans-
+based on likelihood of progression, monitor therapeutic effects lon-          late to benefits for drug development by all sponsors across the drug
+gitudinally, and verify the pharmacodynamic effect of the candidate           development ecosystem.
+therapy as a study outcome.7 Fifty percent of current trials use a               This report has important limitations. All data are derived from
+biomarker for eligibility. Many currently active trials were registered       clinicaltrials.gov. This registry is comprehensive but not exhaustive,
+before diagnostic biomarkers were widely available, and it is antic-          and some drugs in clinical trials — particularly those conducted in non–
+ipated that the proportion of trials using diagnostic biomarkers will         North American sites — may not be registered and are not included
+increase. Twenty-seven percent of trials have a biomarker as a primary        in this report. Registration of US trials on clinicaltrials.gov is man-
+outcome measure (with or without a clinical measure as a concomitant          dated but not completely standardized and irregularities of data entry
+primary outcome). These trials anticipate a change in the biomarker           could affect our report. We assign categories of DTT or STT based
+to verify the mechanism of action, demonstrating substantial optimism         on clinicaltrials.gov, sponsor information, and published reports. These
+for the biomarker’s pharmacodynamic performance.                              categories may not accurately characterize the intended purpose of all
+    Compared to the 2025 pipeline, the 2026 pipeline has more                 compounds. Our database team adheres to good practices in data man-
+transmitter-based treatment candidates (plus eight), multi-target             agement and governance, but errors in data capture or interpretation
+agents (plus six), inflammatory/immune function modulating drugs              are possible.9,10
+(plus four), epigenetic drugs (plus two), and more agents addressing oxi-        This review of currently active AD clinical trials and the drugs being
+dation, cell death, proteostasis/proteinopathies, and circadian rhythm        assessed indicates that AD drug development is a robust enterprise
+disturbances (plus one each). In 2026, there are fewer drugs address-         with an increased number of trials and drugs in trials in 2026 compared
+ing in the pipeline for neurogenesis, metabolism and bioenergetics, and       to 2025 and an approximately 40% increase in drugs and trials since
+synaptic plasticity (one fewer in each category). Between 2025 and            2017. A diverse array of pathophysiological processes is addressed
+2026, there have been no changes in the number of drugs addressing            by drugs in the pipeline. Biomarkers are increasingly used for trial
+targets related to Aß, tau, APOE/lipids, vasculature, growth factors and      eligibility as well as being integrated as pharmacodynamic outcomes.
+hormones, or the gut–brain axis.                                              Phase 2 proof-of-concept studies are the innovation engines of AD
+    Seventeen CADRO categories are represented among the targeted             drug development and are populated by the largest number of trials
+disease processes addressed by drugs in the 2026 pipeline. For each           in the pipeline. Non-industry sponsors account for a substantial num-
+CADRO target process, numerous drug MoAs are included. For exam-              ber of Phase 2 trials (52%). There have been no new drug approvals
+ple, the inflammation/immune dysfunction category includes 10 agents          for AD since 2023, and the overall failure rate of AD drug development
+targeting primarily the microglia, nine targeting cytokines, six address-     is high. Better target identification, improved ascertainment of poten-
+ing both microglia and cytokines, and three directed at some other            tially responsive patient populations, enhanced use of biomarkers to
+inflammation/immune related function. In addition, several agents in          inform understanding of drug effects, and more stringent criteria for
+the multi-target category are posited to have important effects on            advancing drugs to late-stage development are anticipated to improve
+inflammation and immune function. Together, the total number of               the success rate of AD drug development.
+mechanisms represented among drugs in the pipeline is very large and
+is anticipated to be informative regarding key disease processes and          ACKNOWLEDGMENTS
+the consequences of modulating them.                                          Jeffrey L. Cummings is supported by NIGMS grant P20GM109025;
+    There are 56 repurposed drugs in the 2026 pipeline (35% of pipeline       NIA R35AG71476; NIA R25AG083721; Alzheimer’s Disease Drug
+drugs) compared to 46 repurposed agents (33% of the pipeline) in              Discovery Foundation (ADDF); Ted and Maria Quirk Endowment;
+2025. Our analyses demonstrate that involvement of industry in repur-         Joy Chambers-Grundy Endowment. Feixiong Cheng is supported
+posing differs substantially from its involvement in development of           by the NIA under Award Number R01AG084250, R56AG074001,
+26 of 26                                                                                                                                   CUMMINGS ET AL .
+
+
+U01AG073323, R01AG066707, R01AG076448, R01AG082118,                                  strategies and research directions. Neurotherapeutics. 2025;22(3):
+RF1AG082211, R21AG083003, R35AG71476, the National Insti-                            e00570.
+                                                                                  3. Lee D, Slomkowski M, Hefting N, et al. Brexpiprazole for the treatment
+tute of Neurological Disorders and Stroke (NINDS) under Award
+                                                                                     of agitation in Alzheimer dementia: a randomized clinical trial. JAMA
+Number RF1NS133812, and the Alzheimer’s Association award                            Neurol. 2023;80(12): 1307–1316.
+(ALZDISCOVERY-1051936) to Feixiong Cheng.                                         4. Cummings J, Zhong K, Lee G, et al. Alzheimer’s disease drug develop-
+                                                                                     ment pipeline: 2025. Alzheimers Dement. 2025;11(2): e70098.
+                                                                                  5. Cummings J, Zhou Y, Lee G, Zhong K, Fonseca J, Cheng F. Alzheimer’s
+CONFLICT OF INTEREST STATEMENT
+                                                                                     disease drug development pipeline: 2024. Alzheimers Dement.
+Jeffrey L. Cummings has provided consultation to Acadia, Acu-                        2024;10(2): e12465.
+men, ALZpath, AnnovisBio, Artery, Axsome, Biogen, Bristol-Myers                   6. Liggins C, Snyder H, Silverberg N, et al. International Alzheimer’s Dis-
+Squib, Eisai, Fosun, GAP Foundation, Hummingbird Diagnostics, IGC,                   ease Research Portfolio (IADRP) aims to capture global Alzheimer’s
+                                                                                     disease research funding. Alzheimers Dement. 2014;10(3): 405–
+Janssen, Julius Clinical, Kinoxis, Lilly, LSP/eqt, Merck, MoCA Cog-
+                                                                                     408.
+nition, Novo Nordisk, NSC Therapeutics, Otsuka, ReMYND, Roche,
+                                                                                  7. Cummings J, Teunissen C, Fiske B, et al. Biomarker-guided decision
+Scottish Brain Sciences, Signant Health, Simcere, sinaptica, and T-                  making in clinical drug development for neurodegenerative disorders.
+Neuropharmaceutical, assessment, and investment companies. Kate                      Nat Rev Drug Discov. 2025;24(8): 589–609.
+Zhong is CEO of CNS Innovations. Yadi Zhou, Amanda Leisgang Osse,                 8. Cummings J, Zhou Y, Van Stone A, et al. Drug repurposing for
+                                                                                     Alzheimer’s disease and other neurodegenerative disorders. Nat Com-
+and Jorge Fonseca declare no competing interests. Author disclosures
+                                                                                     mun. 2025;16(1): 1755.
+are available in the Supporting Information.                                      9. Cunha-Oliveira T, Ioannidis J, Oliveira P. Best practices for data man-
+                                                                                     agement and sharing in experimental biomedical research. Physiol Revi.
+DATA AVAILABILITY STATEMENT                                                          2024;104(3): 1387–1408.
+                                                                                 10. Hassenstein M, Jung K. Ten simple rules for effective research data
+Data are available in summary form on alzpipeline.com. Data will be
+                                                                                     management. PLoS Comput Biol. 2025;21(12): e1013779.
+made available through the AD work bench of the Gates Ventures’
+Alzheimer’s Disease Data Initiative.
+
+
+CONSENT STATEMENT                                                                SUPPORTING INFORMATION
+
+Not applicable. All data are from an anonymized publicly available clin-         Additional supporting information can be found online in the Support-
+
+ical trial registry (clinicaltrials.gov). No individual participant-level data   ing Information section at the end of this article.
+
+are available on the registry.
+
+
+REFERENCES                                                                          How to cite this article: Cummings JL, Zhou Y, Yang Y, et al.
+ 1. Brookmeyer R, Abdalla N, Kawas C, Corrada M. Forecasting the preva-             Alzheimer’s disease drug development pipeline: 2026.
+    lence of preclinical and clinical Alzheimer’s disease in the United
+                                                                                    Alzheimer’s Dement. 2026;12:e70251.
+    States. Alzheimers Dement. 2018;14(2): 121–129.
+ 2. Cummings J. Maximizing the benefit and managing the risk of                     https://doi.org/10.1002/trc2.70251
+    anti-amyloid monoclonal antibody therapy for Alzheimer’s disease:
+

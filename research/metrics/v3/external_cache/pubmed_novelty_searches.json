@@ -1,0 +1,272 @@
+{
+  "huu25_C01_apoe4_oligo_ec_snrnaseq": {
+    "query": "APOE4 oligodendrocyte entorhinal cortex single-nucleus RNA-seq",
+    "date_to": "2024/12/31",
+    "pmids": [],
+    "total_count": 0,
+    "note": "no hits at all"
+  },
+  "huu25_C03_apoe_spatial_transcriptomics_ec": {
+    "query": "APOE spatial transcriptomics entorhinal cortex Alzheimer",
+    "date_to": "2024/12/31",
+    "pmids": [
+      "41332786",
+      "9454617"
+    ],
+    "total_count": 2,
+    "note": "41332786 = huu25's OWN paper (DOI 10.1101/2025.11.20.689483 matches huu25 sources.yaml exactly) -- SELF-MATCH, excluded, PubMed's date_to filter did not exclude it (dated 2025-11-20, after the 2024/12/31 cutoff -- confirms the date_to filtering bug documented below). 9454617 = 'Increased apolipoprotein E mRNA in the hippocampus in Alzheimer disease and in rats after entorhinal cortex lesioning' (1998, genuinely prior) -- topical keyword overlap (APOE + entorhinal cortex) but a DIFFERENT finding (mRNA induction after lesioning, not a spatial DGE map) -- false positive, not a real precedent."
+  },
+  "huu25_C07_mofa_oligo_apoe": {
+    "query": "MOFA multi-omics factor analysis oligodendrocyte APOE Alzheimer",
+    "date_to": "2024/12/31",
+    "pmids": [],
+    "total_count": 0,
+    "note": "no hits"
+  },
+  "woj25_C01_dual_site_ptau_sandwich": {
+    "query": "dual-site phosphorylated tau immunoassay p-tau181 p-tau231 sandwich",
+    "date_to": "2024/12/31",
+    "pmids": [],
+    "total_count": 0,
+    "note": "no hits (weak test -- assay names C231D181/C231D217 are newly coined by the paper itself so wouldn't appear in prior lit regardless of true novelty)"
+  },
+  "woj25_C03_doubly_phospho_tau_diagnostic": {
+    "query": "doubly phosphorylated tau p-tau217 p-tau231 plasma diagnostic Alzheimer",
+    "date_to": "2024/12/31",
+    "pmids": [],
+    "total_count": 0,
+    "note": "no hits"
+  },
+  "sal25_C01_donanemab_aducanumab_head_to_head": {
+    "query": "donanemab aducanumab head-to-head amyloid clearance trial",
+    "date_to": "2024/12/31",
+    "pmids": [
+      "39998021"
+    ],
+    "total_count": 1,
+    "note": "39998021 = Khartabil & Awaness 2025-02-08 review 'Targeting Amyloid Pathology in Early Alzheimer's: The Promise of Donanemab-Azbt' (DOI 10.3390/pharmacy13010023), genuinely PRIOR to sal25's own publication (PMID 40390253, May 2025, DOI 10.1002/alz.70293). Its abstract explicitly states: '(4) TRAILBLAZER-ALZ 4: A head-to-head comparison with aducanumab revealed superior amyloid plaque clearance with donanemab.' -- i.e. the topline RESULT sal25's C01/C03 report as part of a 'first-ever head-to-head' novelty claim was ALREADY public (via conference/press disclosure) before sal25's peer-reviewed paper. The STUDY DESIGN priority (first head-to-head RCT) is not refuted, but the RESULT's novelty at time of this peer-reviewed publication is weaker than the sem_findings 'novel' tag implies -- a real, literature-grounded nuance a compiler-fidelity check could not catch."
+  },
+  "the25_C01_ptau_meta_analysis_diagnostic": {
+    "query": "plasma phosphorylated tau meta-analysis diagnostic accuracy Alzheimer disease",
+    "date_to": "2024/12/31",
+    "pmids": [
+      "42350884",
+      "42318558",
+      "42252466",
+      "42071133",
+      "41715082"
+    ],
+    "total_count": 13,
+    "note": "IMPORTANT METHODOLOGY FINDING: all 5 returned articles are dated FEBRUARY-JUNE 2026 (per get_article_metadata), i.e. AFTER the25's own 2025 publication (DOI 10.1016/S1474-4422(25)00227-3) -- despite the query's date_to=2024/12/31 filter. The PubMed search_articles tool's date_to parameter did NOT reliably exclude post-cutoff results in this environment (it appears to filter on a different date field than publication_date, or not at all for some records). CONSEQUENCE: get_article_metadata's own publication_date must be checked per-candidate before treating any hit as 'prior literature' -- never trust date_to alone. None of these 5 candidates qualify as prior art for the25 (they are subsequent, contemporaneous meta-analyses on the same topic -- showing the field became crowded shortly after the25, not that the25 over-claimed at time of writing). the25's novelty claim is NOT falsified by this search; correctly reported as no-prior-evidence-found, not as a caught over-claim."
+  },
+  "tit26_C07_elecsys_lumipulse_passing_bablok": {
+    "query": "Elecsys Lumipulse p-tau217 comparison Passing-Bablok Alzheimer",
+    "date_to": "2025/12/31",
+    "pmids": [],
+    "total_count": 0,
+    "note": "no hits"
+  },
+  "sal26_C01_emtbr_tau243_staging": {
+    "query": "eMTBR-tau243 plasma biological staging Alzheimer",
+    "date_to": "2025/12/31",
+    "pmids": [
+      "42189519",
+      "41170658",
+      "40164726"
+    ],
+    "total_count": 3,
+    "note": "42189519 = sal26's OWN paper ('Plasma eMTBR-tau243 and %p-tau217 for Biological Staging of Alzheimer Disease', DOI 10.1001/jamaneurol.2026.1405 -- matches sal26 sources.yaml exactly) -- SELF-MATCH, excluded. 41170658 ('Combining CSF MTBR-tau243 and plasma pTau217 ratio enhances the prediction of continuous regional tau PET burden', Nov 2025) and 40164726 ('Plasma MTBR-tau243 biomarker identifies tau tangle pathology in Alzheimer's disease', Mar 2025) are GENUINELY PRIOR (both predate sal26's 2026 paper) and establish that the MTBR-tau243 biomarker's tau-PET/tangle-pathology-predicting utility was already published before sal26. CONCLUSION: sal26's 'first reported concordance between a combined model and PET-based staging' claim is an INCREMENTAL extension (a new staging-scheme application) of an already-established biomarker, not a fully de-novo finding -- partial novelty, not the strong 'first' framing alone would suggest."
+  },
+  "ahm26b_C02_ad_mortality_cdc_wonder": {
+    "query": "Alzheimer disease age-adjusted mortality rate United States CDC WONDER trend",
+    "date_to": "2025/12/31",
+    "pmids": [
+      "42378334",
+      "42377087",
+      "42299870",
+      "42286514",
+      "42254138"
+    ],
+    "total_count": 24,
+    "note": "24 total hits show this is a topically crowded space (many groups publish CDC WONDER AD-mortality-trend analyses); titles/dates of the 5 shown were not individually verified against ahm26b's exact 1999-2020/22-year window (DOI 10.1097/WAD.0000000000000712) due to time budget -- reported as 'topically non-novel at the broad-method level, specific-window duplication unconfirmed', not as a resolved over-claim catch. Flagged pending for a deeper pass."
+  },
+  "ahm26b_C01_ad_mortality_trend_general": {
+    "query": "Alzheimer disease age-adjusted mortality rate trend United States 1999 2020",
+    "date_to": null,
+    "pmids": [
+      "42081127",
+      "40680588",
+      "39178013",
+      "37993040",
+      "39444182",
+      "40178744",
+      "36905313",
+      "42378334"
+    ],
+    "total_count": 19,
+    "note": "Cycle-3 C5 addition: ahm26b C01 was sem-flagged 'novel' (12-pending backlog) but never checked. Real get_article_metadata dates show this is a topically crowded space: e.g. PMID 39178013 (2024-08-13, 'Divergent Mortality Patterns Associated With Dementia in the United States: 1999-...') genuinely PREDATES ahm26b's own confirmed pub date (2026-02-24, PMID 41773884, DOI 10.1097/WAD.0000000000000712 -- fetched live via PubMed, not the slug's '26'). ahm26b's own novelty note narrowly scopes the claim to 'first tabulation of this specific AAPC'; broadly, AD mortality trend analysis over a comparable window is well-established prior literature."
+  },
+  "ahm26b_C03_ad_mortality_sex_disparity": {
+    "query": "Alzheimer disease mortality sex disparity female male United States",
+    "date_to": null,
+    "pmids": [
+      "33756057",
+      "39645376",
+      "39899444",
+      "40788638",
+      "40014341",
+      "40990869",
+      "39178013",
+      "25946701"
+    ],
+    "total_count": 27,
+    "note": "PMID 25946701 ('Trends in Disparity by Sex and Race/Ethnicity for the Leading Causes of Death in the United States-1999-2010', 2016, DOI 10.1097/PHH.0000000000000267) directly reports sex-disparity trends for Alzheimer disease mortality using the same NVSS/CDC lineage, 10 years prior to ahm26b's confirmed 2026-02-24 pub date. Genuine on-topic precedent."
+  },
+  "ahm26b_C04_ad_mortality_race_disparity": {
+    "query": "Alzheimer disease mortality race ethnicity disparity Black United States",
+    "date_to": null,
+    "pmids": [
+      "33756057",
+      "39444182",
+      "39899444",
+      "25946701",
+      "39178013",
+      "40990869",
+      "40544271",
+      "28236289"
+    ],
+    "total_count": 22,
+    "note": "Same PMID 25946701 (2016) directly reports race/ethnicity AD-mortality disparity trends, prior to ahm26b's confirmed 2026-02-24 pub date. Genuine on-topic precedent for the race/ethnicity breakdown."
+  },
+  "ahm26b_C05_ad_mortality_age_85plus": {
+    "query": "Alzheimer disease mortality older adults age 85 crude rate United States",
+    "date_to": null,
+    "pmids": [
+      "22860569",
+      "12795490"
+    ],
+    "total_count": 2,
+    "note": "PMID 22860569 ('Burden of Alzheimer's disease-related mortality in the United States, 1999-2008', 2012, DOI 10.1111/j.1532-5415.2012.04056.x) is a near-identical prior CDC-mortality-burden study, 14 years before ahm26b's confirmed 2026-02-24 pub date, of the same general age-stratified design."
+  },
+  "ahm26b_C06_ad_mortality_rural_urban": {
+    "query": "Alzheimer disease mortality rural urban disparity United States",
+    "date_to": null,
+    "pmids": [
+      "41076120",
+      "39444182",
+      "41035497",
+      "33368161",
+      "35466938",
+      "41180709",
+      "40990869",
+      "42377087"
+    ],
+    "total_count": 16,
+    "note": "Two direct precedents predate ahm26b (confirmed pub date 2026-02-24): PMID 33368161 ('Rural-Urban Disparities in Mortality from Alzheimer's and Related Dementias in the United States', 2020-12-24, DOI 10.1111/jgs.16996) and PMID 35466938 ('Alzheimer's Disease Mortality as a Function of Urbanization Level: 1999-2019', 2022, DOI 10.3233/JAD-215586) -- both directly on-topic, 4-6 years prior."
+  },
+  "ahm26b_C07_ad_mortality_census_region": {
+    "query": "Alzheimer disease mortality census region geographic variation United States",
+    "date_to": null,
+    "pmids": [
+      "38582094",
+      "41333297",
+      "22091495",
+      "39425740"
+    ],
+    "total_count": 4,
+    "note": "PMID 39425740 ('Evaluating the Regional and Demographic Variations in Dementia-Related Mortality', 2024-Oct, DOI 10.1002/gps.70004) is a direct precedent, ~16 months prior to ahm26b's confirmed 2026-02-24 pub date."
+  },
+  "ahm26b_C08_ad_mortality_state_level": {
+    "query": "Alzheimer disease mortality state-level variation United States",
+    "date_to": null,
+    "pmids": [
+      "33136137",
+      "39645376",
+      "38728021"
+    ],
+    "total_count": 3,
+    "note": "PMID 39645376 ('The burden of diseases, injuries, and risk factors by state in the USA, 1990-2021', 2024-12-07, Lancet, DOI 10.1016/S0140-6736(24)01446-6) is a direct state-level burden-of-disease precedent (includes AD) predating ahm26b's confirmed 2026-02-24 pub date by ~14 months."
+  },
+  "huu25_C05_ancestry_specific_deg_oligo": {
+    "query": "APOE ancestry-specific differential gene expression oligodendrocyte Alzheimer",
+    "date_to": null,
+    "pmids": [
+      "40937943",
+      "39678342"
+    ],
+    "total_count": 2,
+    "note": "PMID 40937943 ('Ancestral genomic functional differences in oligodendroglia: implications for Alzheimer's disease', Alzheimer's & Dementia, 2025-Sep, DOI 10.1002/alz.70593) and its earlier preprint PMID 39678342 (Research Square, 2024-12-04, DOI 10.21203/rs.3.rs-5338140/v1) both PREDATE huu25's own confirmed pub date (2025-11-20, PMID 41332786). Same broad topic (ancestry-specific genomic/oligodendroglia findings in AD) as huu25 C05's 'first molecular-level ancestry-stratified DGE result' novelty claim. huu25's own sem novelty note narrows the claim to 'this ERC dataset specifically', which this search cannot rule out or confirm (different cohort) -- reported as prior_literature_found on the broad topic, with that dataset-specific hedge preserved verbatim."
+  },
+  "sal25_C02_low_medium_tau_subpop": {
+    "query": "donanemab aducanumab low medium tau amyloid clearance subpopulation",
+    "date_to": null,
+    "pmids": [],
+    "total_count": 0,
+    "note": "No independent hit for this specific co-primary subpopulation number. C02 shares its underlying trial family (TRAILBLAZER-ALZ 4 / sal25's own paper) with C01, whose head-to-head topline WAS found to have a prior public disclosure (see sal25_C01_donanemab_aducanumab_head_to_head) -- but that precedent's abstract only names the overall-population result, not the low-medium-tau subgroup value, so it is not credited here as an independent catch for C02."
+  },
+  "sal25_C07_aria_incidence_safety": {
+    "query": "donanemab aducanumab ARIA incidence safety amyloid clearance comparison",
+    "date_to": null,
+    "pmids": [
+      "40917029"
+    ],
+    "total_count": 1,
+    "note": "PMID 40917029 ('Structural and Functional Determinants of ARIA-H Risk in Anti-Amyloid Monoclonal...', 2025-08-19, DOI 10.2174/011570159X391766250806091602) is dated AFTER sal25's own confirmed pub date (2025-05, PMID 40390253) -- subsequent, not prior."
+  },
+  "the25_C06_risk_of_bias_predefined_threshold": {
+    "query": "plasma p-tau biomarker studies risk of bias predefined threshold meta-analysis Alzheimer",
+    "date_to": null,
+    "pmids": [
+      "40818474"
+    ],
+    "total_count": 1,
+    "note": "The only hit, PMID 40818474, IS the25's own paper (DOI 10.1016/S1474-4422(25)00227-3 matches the25 sources.yaml exactly) -- self-match, excluded. No independent prior-lit candidate found for this risk-of-bias claim."
+  },
+  "woj25_C04_p_tau181_231_no_correlation": {
+    "query": "plasma p-tau181 p-tau231 correlation CSF Alzheimer continuum",
+    "date_to": null,
+    "pmids": [
+      "33585983",
+      "37977432"
+    ],
+    "total_count": 2,
+    "note": "PMID 33585983 ('Plasma p-tau231: a new biomarker for incipient Alzheimer's disease pathology', 2021-02-14, DOI 10.1007/s00401-021-02275-6) and PMID 37977432 ('Trajectories of CSF and plasma biomarkers across Alzheimer's disease continuum', 2023-11-15, DOI 10.1016/j.nbd.2023.106356) both predate woj25's own confirmed pub date (2025-01-02, PMID 39747866, DOI 10.1038/s41467-024-54878-8 -- fetched live; note the DOI's embedded '2024' differs from the PubMed-confirmed 2025-01-02 publication_date and from the slug's '25', illustrating exactly why neither should be trusted as the confirmed date). NOT flagged as an over-claim: C04 is a negative finding (no correlation) and does not itself assert priority -- prior literature here is topical context, not a caught over-claim."
+  },
+  "woj25_C05_highest_fold_change": {
+    "query": "plasma p-tau217 p-tau231 fold change CSF Alzheimer continuum biomarker",
+    "date_to": null,
+    "pmids": [],
+    "total_count": 0,
+    "note": "No hits -- this is an internal-cohort ranking result (highest fold-change AMONG markers measured IN THIS STUDY), not the kind of claim prior literature would report in comparable terms."
+  },
+  "woj25_C08_highest_auc_at_profile": {
+    "query": "plasma p-tau217 p-tau231 AT profile ROC AUC Alzheimer diagnostic",
+    "date_to": null,
+    "pmids": [],
+    "total_count": 0,
+    "note": "No hits -- same internal-cohort-ranking pattern as C05."
+  },
+  "che26_C01_p217ms_highest_rank_abeta": {
+    "query": "p-tau217 mass spectrometry amyloid beta positivity diagnostic accuracy ranking",
+    "date_to": null,
+    "pmids": [],
+    "total_count": 0,
+    "note": "No hits -- che26's P-score/rank framing is specific to its own network meta-analysis methodology and does not appear in prior literature in comparable terms."
+  },
+  "che26_C03_p217ms_superior_tau_pet_mci": {
+    "query": "p-tau217 mass spectrometry tau PET MCI to dementia conversion prediction",
+    "date_to": null,
+    "pmids": [
+      "42318558"
+    ],
+    "total_count": 1,
+    "note": "The only hit, PMID 42318558, IS che26's own paper (DOI 10.3389/fnagi.2026.1834591 matches che26 sources.yaml exactly) -- self-match, excluded. (Also independently surfaced under the25's C01 search as an in-corpus, non-self subsequent hit for the25 -- confirms che26 and the25 are two different ARAs, both in this 12-ARA corpus, on adjacent topics.)"
+  },
+  "che26_C04_ptau231_preclinical_best": {
+    "query": "p-tau231 preclinical asymptomatic amyloid detection diagnostic accuracy",
+    "date_to": null,
+    "pmids": [],
+    "total_count": 0,
+    "note": "No hits -- subgroup-specific internal ranking result, same pattern as C01/woj25 C05/C08."
+  }
+}

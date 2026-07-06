@@ -1,0 +1,105 @@
+{
+  "slug": "tit26-automated-high-throughput-quantification-of-plasma",
+  "doi": "10.1186/s13195-026-01996-8",
+  "n_claims": 11,
+  "n_experiments": 9,
+  "D1_reproducibility": {
+    "cross_layer_binding_resolvability": 1.0,
+    "n_links_resolved": 32,
+    "n_links_total": 32,
+    "environment_completeness": 0.714,
+    "env_fields_present": 5,
+    "env_fields_total": 7,
+    "spec_completeness_setup_proxy": 0.0,
+    "spec_completeness_rubric": {
+      "status": "pending_model",
+      "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+    },
+    "executable_reproduction_L3": {
+      "status": "pending_exec",
+      "has_code_repo": false,
+      "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+    }
+  },
+  "D2_claim_evidence_integrity": {
+    "claim_grounding_ratio": 0.796,
+    "grounded_numbers": 78,
+    "statement_numbers": 98,
+    "falsifiability_presence_proxy": 1.0,
+    "status_honesty_mix": {
+      "supported": 11
+    },
+    "orphan_claims_no_proof": [],
+    "orphan_experiments_no_claim": [],
+    "n_claims": 11,
+    "n_experiments": 9,
+    "evidence_relevance_D1": {
+      "status": "pending_model"
+    },
+    "falsifiability_quality_D2": {
+      "status": "pending_model"
+    },
+    "scope_calibration_D3": {
+      "status": "pending_model"
+    }
+  },
+  "D3_process_transparency": {
+    "dead_end_density_per_claim": 0.091,
+    "n_dead_ends": 1,
+    "n_dead_ends_complete": 1,
+    "decision_branching_factor": 1.5,
+    "explicit_vs_inferred_ratio": 1.0,
+    "failure_knowledge_preservation": 0.077,
+    "negative_result_share": 0.083,
+    "node_type_counts": {
+      "question": 1,
+      "decision": 2,
+      "experiment": 9,
+      "dead_end": 1
+    }
+  },
+  "D4_novelty_dependency": {
+    "typed_delta_profile": {
+      "imports": 3,
+      "extends": 1,
+      "refutes": 0,
+      "bounds": 4,
+      "baseline": 5
+    },
+    "corrective_science_score": 9,
+    "n_related_work_blocks": 13,
+    "concept_count": 13,
+    "novel_claim_count": {
+      "status": "pending_model",
+      "authored_claims": 11,
+      "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+    }
+  },
+  "D6_realworld_grounding": {
+    "n_datasets_linked": 1,
+    "n_datasets_verified": 1,
+    "n_clinical_trials_linked": 0,
+    "verified_ncts": [],
+    "n_code_repos": 0,
+    "pdf_open_access": true,
+    "pdf_downloaded": true,
+    "claim_vs_endpoint_concordance": {
+      "status": "pending_external",
+      "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+    },
+    "target_compound_resolvability": {
+      "status": "pending_external",
+      "note": "needs ChEMBL resolution"
+    }
+  },
+  "D7_artifact_quality": {
+    "seal_L1_structural_score": 1.0,
+    "core_files_present": 10,
+    "core_files_total": 10,
+    "auditor_blindspot_orphan_experiments": [],
+    "compilation_fidelity": {
+      "status": "pending_model",
+      "note": "needs source-vs-ARA recall sampling"
+    }
+  }
+}

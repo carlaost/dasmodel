@@ -1,0 +1,15 @@
+{
+  "idx": 431,
+  "cite_key": "Sha25e",
+  "title": "Time-Variant Transformer for Predicting Alzheimer's Disease Progression from Longitudinal Data",
+  "authors": "Habiba Assem Sharaf; Mohamed Kholief; H. Said",
+  "year": "2025",
+  "pub_date": "2025-11-25",
+  "journal": "2025 35th International Conference on Computer Theory and Applications (ICCTA)",
+  "abstract": "Alzheimer's disease gradually affects cognitive functions such as memory, reasoning, and daily activities. Although transformer-based models have improved disease progression forecasting, they often face limitations in handling uneven visit times, incomplete records, and diverse data modalities. This study introduces a Time-Visit Transformer (TVT) tailored to predict Alzheimer's progression by explicitly modeling the timing gaps between patient follow-ups. TVT (i) encodes each visit, (ii) augments representations with Time2Vec to capture the temporal phase and scale, (iii) adjusts attention using the real-time intervals between visits delta-Time-FiLM, and (iv) incorporates site-specific context through Relational-FiLM. An attention layer then reads the sequence of visits in order and can gracefully handle missing entries. In head-to-head evaluations on longitudinal cohorts, TVT achieves an AUC-ROC of 0.9331 for conversion from cognitively normal (CN) to mild cognitive impairment (MCI), and 0.9529 for MCI to Alzheimer's disease (AD), demonstrating a time-sensitive model suitable for practical clinical use.",
+  "citation_count": "1",
+  "citations_per_year": "1.6",
+  "doi": "10.1109/ICCTA68914.2025.11519825",
+  "url": "https://doi.org/10.1109/ICCTA68914.2025.11519825",
+  "slug": "sha25e-time-variant-transformer-for-predicting-alzheimer"
+}

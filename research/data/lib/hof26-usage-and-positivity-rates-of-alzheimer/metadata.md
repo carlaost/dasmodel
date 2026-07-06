@@ -1,0 +1,13 @@
+# Usage and positivity rates of Alzheimer's disease biomarkers in a memory clinic
+
+- **Cite key**: Hof26
+- **Authors**: Anna Hofmann; B. Saef; W. J. B. Powell; Madeline Paczynski; M. Ponisio; C. Vila-Castelar; Zachary W. Posey; Inez Y. Oh; M. Hofford; Melissa Aldinger; Randall J. Bateman; Cyrus A. Raji; T. Benzinger; C. Cruchaga; Alan Dow; R. Buckley; Chengjie Xiong; John C Morris; B. J. Snider; Aditi Gupta; S. Schindler
+- **Year**: 2026  (2026-05-01)
+- **Journal**: Alzheimer's & Dementia
+- **DOI**: 10.1002/alz.71442
+- **URL**: https://doi.org/10.1002/alz.71442
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Abstract INTRODUCTION Usage of biomarker tests for Alzheimer's disease pathology and rates of positivity were assessed at the Washington University Memory Diagnostic Center. METHODS Patients who underwent at least one biomarker test for clinical purposes between June 2021 and March 2025 were included (n = 1136). Data were retrospectively extracted from electronic health records. RESULTS The median age was 73.2 years (52% female; 93% White). In total, 455 amyloid positron emission tomography (PET) scans, 505 cerebrospinal fluid tests, and 242 blood tests were performed. The number of biomarker tests increased seven‐fold over the past 4 years. The rate of positivity was ≈70% across modalities. Higher rates of biomarker positivity were associated with older age, female sex, and White race; lower rates were associated with hypertension and diabetes. DISCUSSION Biomarker testing greatly increased following the approval of amyloid‐targeting treatments. The overall rate of biomarker positivity was high and varied by demographic factors and medical comorbidities.

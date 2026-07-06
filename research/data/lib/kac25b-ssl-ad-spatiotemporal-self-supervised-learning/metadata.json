@@ -1,0 +1,15 @@
+{
+  "idx": 299,
+  "cite_key": "Kac25b",
+  "title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and Adaptability Across Alzheimer's Prediction Tasks and Datasets",
+  "authors": "E. Kaczmarek; Justin Szeto; B. Nichyporuk; T. Arbel",
+  "year": "2025",
+  "pub_date": "2025-09-12",
+  "journal": "ArXiv",
+  "abstract": "Alzheimer's disease is a progressive, neurodegenerative disorder that causes memory loss and cognitive decline. While there has been extensive research in applying deep learning models to Alzheimer's prediction tasks, these models remain limited by lack of available labeled data, poor generalization across datasets, and inflexibility to varying numbers of input scans and time intervals between scans. In this study, we adapt three state-of-the-art temporal self-supervised learning (SSL) approaches for 3D brain MRI analysis, and add novel extensions designed to handle variable-length inputs and learn robust spatial features. We aggregate four publicly available datasets comprising 3,161 patients for pre-training, and show the performance of our model across multiple Alzheimer's prediction tasks including diagnosis classification, conversion detection, and future conversion prediction. Importantly, our SSL model implemented with temporal order prediction and contrastive learning outperforms supervised learning on six out of seven downstream tasks. It demonstrates adaptability and generalizability across tasks and number of input images with varying time intervals, highlighting its capacity for robust performance across clinical applications. We release our code and model publicly at https://github.com/emilykaczmarek/SSL-AD.",
+  "citation_count": "2",
+  "citations_per_year": "2.5",
+  "doi": "10.48550/arXiv.2509.10453",
+  "url": "https://doi.org/10.48550/arXiv.2509.10453",
+  "slug": "kac25b-ssl-ad-spatiotemporal-self-supervised-learning"
+}

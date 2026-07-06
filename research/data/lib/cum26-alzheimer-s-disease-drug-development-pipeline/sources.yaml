@@ -1,0 +1,91 @@
+paper: { slug: cum26-alzheimer-s-disease-drug-development-pipeline, doi: 10.1002/trc2.70251, title: "Alzheimer's disease drug development pipeline: 2026" }
+pdf: { oa: true, downloaded: true, path: paper.pdf, url: "https://europepmc.org/articles/PMC13140253?pdf=render", source: pmc }
+code: []
+data:
+  - name: "ClinicalTrials.gov AD trial registry (Index Date 2026-01-01)"
+    identifier: "clinicaltrials.gov"
+    repository: ClinicalTrials.gov
+    access: open
+    verified: true
+  - name: "AlzPipeline / UNLV Clinical Trial Observatory (summary pipeline data)"
+    identifier: "alzpipeline.com"
+    repository: AlzPipeline (UNLV Chambers-Grundy Center)
+    access: open
+    verified: true
+  - name: "Alzheimer's Disease Data Initiative AD Workbench (planned data deposit)"
+    identifier: null
+    repository: "Gates Ventures AD Workbench / AD Data Initiative"
+    access: request
+    verified: false
+clinical_trials:
+  - nct: NCT05026866
+    title: "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)"
+    phase: PHASE3
+    status: ACTIVE_NOT_RECRUITING
+    sponsor: "Eli Lilly and Company"
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT03887455
+    title: "Clarity AD: Confirm Safety and Efficacy of Lecanemab in Early Alzheimer's Disease"
+    phase: PHASE3
+    status: ACTIVE_NOT_RECRUITING
+    sponsor: "Eisai Inc."
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT04468659
+    title: "AHEAD 3-45 Study: Lecanemab in Preclinical Alzheimer's Disease"
+    phase: PHASE3
+    status: ACTIVE_NOT_RECRUITING
+    sponsor: "Eisai Inc."
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT05463731
+    title: "TRAILRUNNER-ALZ 1: Remternetug (LY3372993) in Alzheimer's Disease"
+    phase: PHASE3
+    status: COMPLETED
+    sponsor: "Eli Lilly and Company"
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT04777396
+    title: "EVOKE: Semaglutide in People With Early Alzheimer's Disease"
+    phase: PHASE3
+    status: COMPLETED
+    sponsor: "Novo Nordisk A/S"
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT05531526
+    title: "Polaris-AD: AR1001 in Early Alzheimer's Disease"
+    phase: PHASE3
+    status: ACTIVE_NOT_RECRUITING
+    sponsor: "AriBio Co., Ltd."
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT06709014
+    title: "Buntanetap/Posiphen in Participants With Early Alzheimer's Disease"
+    phase: PHASE3
+    status: ACTIVE_NOT_RECRUITING
+    sponsor: "Annovis Bio Inc."
+    source: clinicaltrials.gov
+    verified: true
+  - nct: NCT05564169
+    title: "Masitinib as add-on Therapy in Mild Alzheimer's Disease (AB21004)"
+    phase: PHASE3
+    status: NOT_YET_RECRUITING
+    sponsor: "AB Science"
+    source: clinicaltrials.gov
+    verified: true
+notes: >
+  Annual review of the Alzheimer's disease drug development pipeline built entirely from the
+  public ClinicalTrials.gov registry (Index Date 2026-01-01): 158 drugs across 192 AD trials.
+  DATA AVAILABILITY STATEMENT (verbatim intent): "Data are available in summary form on
+  alzpipeline.com. Data will be made available through the AD Workbench of the Gates Ventures'
+  Alzheimer's Disease Data Initiative." Raw source data are pulled via the ClinicalTrials.gov API
+  into the UNLV Clinical Trial Observatory and Cleveland Clinic Laboratory of Network Medicine
+  databases. Consent statement notes all data are from an anonymized publicly available registry;
+  no individual participant-level data. No code/software repository is associated with this review
+  (none found; expected for a registry-based pipeline analysis). No dedicated primary-research
+  dataset or accessions (GEO/SRA/etc.) — the paper is a survey, not an experimental study.
+  The article references ~190 NCT numbers across Phase 1-3 tables; recorded here are 8 salient,
+  individually verified flagship Phase 3 disease-targeting/repurposed agents (all confirmed on
+  ClinicalTrials.gov and present in the paper's tables). PDF is gold OA (CC BY-NC-ND),
+  downloaded from Europe PMC (PMC13140253); PMID 42095064.

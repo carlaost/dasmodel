@@ -1,0 +1,39 @@
+paper:
+  slug: huu25-apoe-e4-alzheimer-s-risk-converges
+  cite_key: Huu25
+  doi: 10.1101/2025.11.20.689483
+  title: "APOE E4 Alzheimer's Risk Converges on an Oligodendrocyte Subtype in the Human Entorhinal Cortex"
+pdf:
+  oa: true
+  downloaded: false
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12667772/
+  alt_url: https://www.biorxiv.org/content/10.1101/2025.11.20.689483v1.full.pdf
+  source: pmc/biorxiv
+code:
+  - url: https://github.com/LieberInstitute/LFF_spatial_ERC
+    host: github
+    language: R
+    has_runnable_code: true
+    verified: true
+  - url: https://zenodo.org/records/17108408
+    host: zenodo
+    doi: 10.5281/zenodo.17108408
+    note: "archived snapshot of the GitHub repo (preprint v1.0.0)"
+    verified: true
+data:
+  - name: "Spatial transcriptomics (Visium) — human entorhinal cortex"
+    identifier: GSE307990
+    repository: GEO
+    access: open
+    verified: true
+  - name: "Single-nucleus RNA-seq (snRNA-seq) — human entorhinal cortex"
+    identifier: GSE308007
+    repository: GEO
+    access: open
+    verified: true
+clinical_trials: []
+notes: >
+  FEASIBILITY-TEST case (turn 14): the first paper in the 142-list found with the full code+data stack.
+  Runnable R analysis repo (LieberInstitute/LFF_spatial_ERC) + Zenodo archive (10.5281/zenodo.17108408);
+  processed GEO data open (GSE307990 Visium, GSE308007 snRNA-seq); raw reads dbGaP-controlled. OA via
+  PMC12667772 (bioRxiv CC-BY). Interactive spatialLIBD/iSEE apps also published.

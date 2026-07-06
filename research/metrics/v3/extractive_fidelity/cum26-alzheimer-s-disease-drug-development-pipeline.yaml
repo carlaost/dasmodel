@@ -1,0 +1,36 @@
+slug: cum26-alzheimer-s-disease-drug-development-pipeline
+fulltext_file: research/metrics/v3/fulltext/cum26.txt
+n_claims_checked: 10
+n_faithful: 10
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Fulltext §3.1 (line 231): \"On the Index Date of January 1, 2026, we identified 192 clinical trials for AD assessing 158 drugs\" matches the Statement's 158 drugs / 192 trials exactly."
+  - claim_id: "C02"
+    faithful: true
+    note: "Fulltext line 44-48 (Results) and lines 250-253 give 39% small-molecule DTT, 34% biologic DTT, 18% cognition STT, 10% NPS STT, and \"116 DTTs representing 73% of drugs in development\" (line 251) -- all match the Statement exactly."
+  - claim_id: "C03"
+    faithful: true
+    note: "Fulltext lines 232, 246: \"54 trials assessing 36 drugs in Phase 3; 89 trials assessing 84 drugs in Phase 2; and 49 trials assessing 45 drugs in Phase 1\" matches the Statement's per-phase drug/trial counts exactly."
+  - claim_id: "C04"
+    faithful: true
+    note: "Fulltext lines 1135-1141: \"To fully populate currently active trials, 54,728 participants are required: 38,417 in Phase 3; 13,961 in Phase 2; and 2,350 in Phase 1\" and \"70% ... Phase 3, 26% ... Phase 2, and 4% for Phase 1\" match the Statement exactly (internal sum also checks: 38417+13961+2350=54728)."
+  - claim_id: "C05"
+    faithful: true
+    note: "Fulltext lines 301-303, 932: \"The biopharmaceutical industry sponsors 113 (59%) of all clinical trials ... including 39 (72%) Phase 3 trials; 43 (48%) Phase 2 trials; and 31 (63%) Phase 1 trials\" matches the Statement exactly."
+  - claim_id: "C06"
+    faithful: true
+    note: "Fulltext lines 276-277, 1173-1175: \"56 drugs (35% of drugs in current trials) and 73 (38%) currently active trials\" and \"Repurposing represents 16% of the industry pipeline and 57% of the non-industry pipeline\" (line 1202) match the Statement and Interpretation exactly."
+  - claim_id: "C07"
+    faithful: true
+    note: "Fulltext lines 250-257: \"Seventeen of the CADRO categories ... targeted by at least one drug\"; \"Thirty-eight drugs (24%) ... neurotransmitter receptors; 28 agents (18%) address inflammation/immune processes; 25 treatments (16%) target Aß ...; 15 agents (9%) target tau-related processes\" -- all match the Statement exactly."
+  - claim_id: "C08"
+    faithful: true
+    note: "Fulltext lines 1202-1203: \"The 192 clinical trials and 158 novel agents in the 2026 AD drug development pipeline expands on the 182 clinical trials assessing 138 drugs present in the 2025 pipeline\"; lines 913-914: \"The number of trials increased by approximately 35%, and the number of agents in trials increased by approximately 40%\" -- both match the Statement exactly."
+  - claim_id: "C09"
+    faithful: true
+    note: "Fulltext lines 933-941: \"96 (50%) have an inclusion biomarker for trial eligibility, with amyloid positron emission tomography (PET) identified as the most common biomarker modality (N = 49)\" and \"Fifty-two (27%) active AD trials have a biomarker as a primary outcome measure\" match the Statement and Interpretation exactly."
+  - claim_id: "C10"
+    faithful: true
+    note: "Fulltext lines 919-926: \"the percentage of the pipeline devoted to inflammation/immune dysfunction drugs has increased from 6% to approximately 20%, tau targeted agents have increased from 6% to approximately 20%, and amyloid targeted agents have decreased from 33% ... to approximately 20%\" matches the Statement's three trajectories exactly. (Note: a prior reviewer flagged that Figure 5B's plotted tau curve visually appears closer to ~9%, but this would be a paper-internal figure/text inconsistency, not a compiler fidelity issue -- the claim's text matches the paper's own §3.5 prose verbatim.)"
+infidelities: []

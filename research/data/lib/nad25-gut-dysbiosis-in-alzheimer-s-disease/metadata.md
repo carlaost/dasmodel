@@ -1,0 +1,13 @@
+# Gut Dysbiosis in Alzheimer’s Disease Pathogenesis and Therapeutic Implications
+
+- **Cite key**: Nad25
+- **Authors**: I. Nadeem
+- **Year**: 2025  ()
+- **Journal**: Premier Journal of Neuroscience
+- **DOI**: 10.70389/pjn.100007
+- **URL**: https://doi.org/10.70389/pjn.100007
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Alzheimer’s disease (AD) is a type of neurodegenerative disease that is characterized by cognitive decline, memory loss, and the deposition of amyloid plaques and tau tangles in the brain. Although the pathogenesis of AD has traditionally been connected to genetic, environmental, and neurobiological factors, the role of the gut microbiota in AD progression remains unclear. Dysregulation of gut microbiota—dysbiosis—may lead to imbalances in microbial diversity and metabolite production, which directly affect the development and progression of AD. This study reviews the relationship between gut dysbiosis and AD, focusing on therapeutic interventions targeting gut microbiota, including prebiotics, probiotics, and fecal microbiota transplantation. We discuss the novel mechanisms by which microbial metabolites, immune activation, and gut-derived signals can exacerbate AD symptoms. Additionally, we highlight the theoretical potential of microbiome editing using CRISPR-Cas9 as a future novel approach to address dysbiosis in AD. By advancing the understanding of the role of dysbiosis in AD, this review proposes a research direction to address existing gaps and facilitate the development of microbiome-based therapeutic strategies.

@@ -1,0 +1,270 @@
+- claim_id: C01
+  number: "0.859"
+  quote: "p217_MS (0.859)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 1, Rank 1)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified cell-for-cell against table2.md."
+- claim_id: C01
+  number: "0.783"
+  quote: "p217_Ratio (0.783)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 1, Rank 2)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C01
+  number: "0.686"
+  quote: "p217_ALZpath (0.686)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 1, Rank 3)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C01
+  number: "0.117"
+  quote: "p181_IA (0.117)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 1, Rank 8)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified; matches the 'ranked last' baseline claim."
+- claim_id: C01
+  number: "0.10 (95% CI 0.04-0.16)"
+  quote: "p217_MS ... 0.10 [ 0.04; 0.16]"
+  source: "evidence/figures/figure3.md (Figure 3A)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Forest-plot MD matches Statement's cited CI exactly."
+- claim_id: C02
+  number: "0.025"
+  quote: "p-tau217 showed a significant mean difference of 0.025 (95% CI: 0.005-0.045)"
+  source: "logic/claims.md §3.6 citation (page 6, body text)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Not independently re-verifiable in-repo (paper.pdf/§ pointer, not an evidence/*.md file); text is internally consistent with the Statement."
+- claim_id: C02
+  number: "0.005-0.045"
+  quote: "(95% CI: 0.005-0.045) (Supplementary Table S2)"
+  source: "§3.6, page 6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "§/PDF pointer, not in-repo; consistent with the C02 CI."
+- claim_id: C02
+  number: "I2 = 0%"
+  quote: "The zero heterogeneity (I2 = 0%) observed in this gain across cohorts"
+  source: "§3.6, page 6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "§/PDF pointer; consistent with the Statement's heterogeneity claim."
+- claim_id: C03
+  number: "0.907"
+  quote: "p217_MS (0.907)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 3, Rank 1)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C03
+  number: "0.821"
+  quote: "p217_MS (0.821)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 2, Rank 1)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C03
+  number: "0.814"
+  quote: "p217_Ratio (0.814)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 2, Rank 2)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C03
+  number: "0.090"
+  quote: "p181_IA (0.090)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 3, Rank 6)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C03
+  number: "0.13 (95% CI 0.05-0.22)"
+  quote: "p217_MS ... 0.13 [ 0.05; 0.22]"
+  source: "evidence/figures/figure3.md (Figure 3B)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified against figure3.md."
+- claim_id: C04
+  number: "0.66"
+  quote: "in the pre-clinical subgroup (Outcome 1), p-tau 231 achieved the highest rank (P-score = 0.66) for detecting early Abeta pathology"
+  source: "§4.2, page 7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "§/PDF pointer; text matches the Statement's preclinical-subgroup claim exactly, distinct from the pooled Table 2 numbers below."
+- claim_id: C04
+  number: "0.145"
+  quote: "p231_UGOT (0.145)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 1, Rank 7)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified; this is the pooled full-continuum number, correctly distinguished in the Statement from the preclinical-subgroup 0.66."
+- claim_id: C04
+  number: "0.042"
+  quote: "p231_UGOT (0.042)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 2, Rank 7)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C05
+  number: "1.00"
+  quote: "The P-score of 1.00 for p-tau 217 in these cohorts indicates it was the top-performing marker across all Asian datasets included"
+  source: "§4.3, page 7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "Quote itself only supports the Han-Chinese/Asian-datasets half of the Statement (P-score=1.00); it says nothing about Western cohorts, so it does not by itself support the Statement's second clause ('subgroup analyses confirmed consistent p-tau217 performance across Han Chinese and Western cohorts') -- flagged context_match:false for that broader cross-ethnic-equivalence claim (see sem_findings scope_calibration over_claim note)."
+- claim_id: C06
+  number: "0.568"
+  quote: "p217_Serum (0.568)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 4, Rank 3)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C07
+  number: "0.953"
+  quote: "p217_MS (0.953)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 4, Rank 1)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C07
+  number: "0.706"
+  quote: "p217_AutoIA (0.706)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 4, Rank 2)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C07
+  number: "0.268"
+  quote: "p217_IA (0.268)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 4, Rank 4)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C07
+  number: "0.006"
+  quote: "p181_IA (0.006)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 4, Rank 5)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C08
+  number: "0.117"
+  quote: "p181_IA (0.117)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 1, Rank 8)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C08
+  number: "0.159"
+  quote: "p181_IA (0.159)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 2, Rank 6)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C08
+  number: "0.090"
+  quote: "p181_IA (0.090)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 3, Rank 6)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C08
+  number: "0.006"
+  quote: "p181_IA (0.006)"
+  source: "evidence/tables/table2.md (Table 2, Outcome 4, Rank 5)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified."
+- claim_id: C08
+  number: "< 0.20"
+  quote: "our results (P-score < 0.20) suggest it is effectively obsolete for high-precision AD diagnostics"
+  source: "§4.1, page 7"
+  string_present: true
+  verdict: supports
+  value_match: derived
+  polarity_ok: true
+  context_match: false
+  note: "§/PDF pointer. value_match=derived because '<0.20' is a summary characterization of the four separate P-scores (0.117/0.159/0.090/0.006), not a single tabulated number. context_match:false for the 'effectively obsolete' editorializing clause specifically -- the quote supports the P-score<0.20 ranking fact but the stronger 'obsolete for high-precision diagnostics' judgment is the authors' own interpretive gloss, not a directly measured quantity (see sem_findings scope_calibration over_claim note on C08)."

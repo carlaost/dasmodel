@@ -1,0 +1,129 @@
+# Exploration Tree — aku25b-effects-of-medicare-predictors-in-health
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+# Reconstructed from the paper's narrative structure (§1-4). Nodes grounded in explicit text/
+# tables/equations are support_level: explicit; reconstructed research logic is inferred.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Introduction", "Abstract"]
+    title: "How do specific Medicare predictors generate AD/ADRD disparities, separating exposure from vulnerability?"
+    description: >
+      Disparities in AD/ADRD persist across race/ethnicity, sex, and geography, but no standard
+      method quantifies how specific predictors contribute, distinguishing higher predictor
+      prevalence (exposure) from higher per-exposure risk (vulnerability).
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        source_refs: ["§1 Introduction", "§4 Discussion"]
+        title: "Choose a PAF-based Cox decomposition over existing disparity methods"
+        choice: "Extend population attributable fraction (PAF) to disparities within a Cox proportional-hazards model."
+        alternatives:
+          - "Sequence-of-Cox-models 'explanation' (coefficient shrinkage) — order-dependent; unobserved baseline-hazard differences distort HRs."
+          - "Yun-Powers / Oaxaca-Blinder hazard-rate decomposition — relies on Taylor/mean-of-nonlinear approximations."
+          - "Rank-and-replace, Pollard, and conditional (Gelbach) decompositions — order-dependent or vulnerability-only."
+        evidence: "Need for an order-independent estimator that cancels the baseline hazard and yields both exposure and vulnerability."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["§2 Eqs. 1-6", "Table 4 footnote c"]
+            title: "Derive the decomposition: observed risk ratio factorizes into exposure x vulnerability"
+            result: >
+              RR = R_r * prod_i f_i with f_i = (1 - PAF_0i)/(1 - PAF_1i) = E_i * V_i; the shared
+              baseline hazard cancels, so the split is exact with no baseline-hazard assumption.
+            evidence: [C01]
+            children:
+
+              - id: N04
+                type: decision
+                support_level: explicit
+                source_refs: ["§3 Methods (p. 5)", "§4 Discussion (p. 9)"]
+                title: "Assume negligible correlations among predictors as an initial simplification"
+                choice: "Treat predictors as approximately uncorrelated (Eq. 5 four-group prevalence approximation)."
+                alternatives:
+                  - "Apply the correlation-coefficient corrections available in Eqs. 5-6 (deferred to future work)."
+                evidence: "Assumption 'is not strictly fundamental'; sufficient for characterizing statistical associations."
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["§2 Methods", "Table 1", "Table 2", "Table 3"]
+            title: "Apply to the Medicare 5% sample: build 4 age cohorts, estimate prevalences and hazard ratios"
+            result: >
+              Baseline prevalences (Table 2) show low income far higher in non-White subpopulations
+              (e.g., 50.9% Hispanic vs 7.9% White at 70); multivariable Cox hazard ratios (Table 3)
+              show depression, low income, and stroke as the highest-effect predictors.
+            evidence: [C02, C04]
+            children:
+
+              - id: N06
+                type: decision
+                support_level: explicit
+                source_refs: ["§3 Results (p. 4)"]
+                title: "First-stage screening of the 10 candidate disease predictors"
+                choice: "Retain 6 disease predictors + low income; drop 4 non-contributing conditions."
+                alternatives:
+                  - "Keep all 10 candidate diseases in the decomposition."
+                evidence: "Four conditions had no significant contribution to disparities across all cohorts."
+                children:
+
+                  - id: N07
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["§3 Results (p. 4)"]
+                    title: "Rheumatic heart disease, systemic hypotension, chronic liver disease, TBI dropped"
+                    hypothesis: "These AD/ADRD-related conditions might contribute to the disparities."
+                    failure_mode: "No significant contribution to the disparities across any of the four age cohorts."
+                    lesson: "Excluded from subsequent analyses, yielding the final 6-disease predictor set."
+
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 4", "Figure 1"]
+                title: "Decompose all six disparities into per-predictor exposure and vulnerability effects"
+                also_depends_on: [N03]
+                result: >
+                  Low income contributes mainly via exposure; arterial hypertension mainly via
+                  vulnerability; cerebrovascular disease and depression are notable secondary
+                  predictors. Predictors explain ~half of Black-White and more than fully explain
+                  Hispanic-White; female-male and stroke-belt disparities are little influenced.
+                evidence: [C02, C03, C04, C05, C06]
+                children:
+
+                  - id: N09
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Table 4", "Figure 1", "§4 Discussion (p. 6)"]
+                    title: "Predictors fail to explain White-Native American and White-Asian disparities"
+                    hypothesis: "The chosen predictor set would explain the WN and WA disparities as it does for BW/HW."
+                    failure_mode: >
+                      For WN and WA the unexplained disparity exceeds the observed one (e.g., WN 70:
+                      1.26 observed vs 2.10 unexplained; WA 70: 1.40 vs 1.86) because observed risk in
+                      Asian/Native-American groups is below White risk — the predictors inflate the gap.
+                    lesson: "Predictor-based explanation is disparity-specific; WN/WA need a different or expanded predictor set / statistical power (esp. Native Americans)."
+
+                  - id: N10
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["§2 Methods", "§3 Results (p. 5)"]
+                    title: "Bootstrap the significance of exposure and vulnerability effects"
+                    result: >
+                      100 bootstrap resamples; 57.4% of effects significant overall; exposure effects
+                      significant more often than vulnerability effects for most disparities.
+                    evidence: [C07]
+
+                  - id: N11
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["§3 Results (p. 5)"]
+                    title: "Sensitivity analysis over AD-onset ascertainment and ADRD outcome"
+                    result: >
+                      Differences across 90/180-day confirmation and no-confirmation schemes negligible;
+                      using ADRD raises exposure and lowers vulnerability components; results stable.
+                    evidence: [C08]

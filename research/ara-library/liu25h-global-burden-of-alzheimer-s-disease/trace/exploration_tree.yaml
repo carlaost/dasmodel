@@ -1,0 +1,72 @@
+# Exploration Tree — liu25h-global-burden-of-alzheimer-s-disease
+# Research DAG reconstructed from abstract/metadata only.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# No dead_end nodes are included because the provided abstract/metadata do not reveal failed
+# approaches, rejected alternatives, or ablation results.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "What is the global burden and SDI-related inequality of dementia in adults aged 65+?"
+    description: >
+      The abstract frames dementia burden in older adults as a public-health issue and analyzes
+      Alzheimer's disease and other dementias among individuals aged 65 and older from 1990 to 2021.
+    evidence: [C01, C02, C03, C04, C05, C06]
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Analyze GBD 2021 burden among adults aged 65 and older"
+        choice: "Use GBD 2021 data for Alzheimer's disease and other dementias among individuals aged 65+ over 1990-2021"
+        alternatives:
+          - "Not available from provided input"
+        evidence: [C01]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Estimate global trends in age-standardized DALYs and mortality"
+            result: "Global age-standardized DALYs and mortality rates declined over time."
+            evidence: [C01, C06]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Relate mortality rates and DALYs to SDI"
+            result: "Dementia burden was significantly associated with SDI, with high-SDI countries showing higher baseline burden than low-SDI countries."
+            evidence: [C02, C03]
+            children:
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md:13"]
+                title: "Conduct frontier analysis across 204 countries"
+                result: "Most countries had burden higher than the minimum disease burden associated with their SDI."
+                evidence: [C03, C05]
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md:13"]
+                title: "Quantify inequality in age-standardized DALYs"
+                result: "DALYs increased with SDI overall, while the burden was primarily concentrated in lower-SDI populations."
+                evidence: [C04, C05]
+
+      - id: N07
+        type: pivot
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "From burden estimation to healthcare strategy relevance"
+        from: "Quantifying dementia burden in older adults"
+        to: "Using burden evidence to help areas and countries adjust healthcare strategies"
+        trigger: "The abstract states that quantifying elderly dementia burden can provide scientific data for healthcare strategy adjustment."
+        evidence: [C01, C02, C04, C05, C06]

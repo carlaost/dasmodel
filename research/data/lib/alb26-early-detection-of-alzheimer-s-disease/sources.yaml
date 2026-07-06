@@ -1,0 +1,40 @@
+paper:
+  slug: alb26-early-detection-of-alzheimer-s-disease
+  doi: 10.1109/ACCESS.2026.3652249
+  title: "Early Detection of Alzheimer's Disease Using Vision Transformers on CWT-Transformed EEG Signals in Response to Olfactory Stimuli"
+
+pdf:
+  oa: true
+  downloaded: false
+  path: null
+  url: https://ieeexplore.ieee.org/document/11343795/
+  source: publisher
+
+code: []
+
+data:
+  - name: "Brain Electrophysiological Recording during Olfactory Stimulation in Mild Cognitive Impairment and Alzheimer Disease Patients: An EEG Dataset (Sedghizadeh, Aghajan, Vahabi)"
+    identifier: 10.17632/sgzbgwjfkr.5
+    repository: Mendeley Data
+    access: open
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  IEEE Access is a gold open-access journal, so the version of record is freely
+  readable at the publisher (Unpaywall is_oa=true, host_type=publisher). However
+  Unpaywall reports url_for_pdf=null and IEEE Xplore serves a JavaScript shell to
+  bots, so no direct OA PDF could be downloaded programmatically (curl returned the
+  HTML/JS shell, deleted). Best PDF/reading URL recorded is the IEEE Xplore document
+  page. No code/software repository was found (GitHub/GitLab/Zenodo/OSF) — none is
+  cited by the paper; "none found" is expected for this applied deep-learning study.
+  DATA: The paper does not include a separate release; it reuses a public olfactory
+  EEG dataset. This was verified via Semantic Scholar reference list, which cites
+  "Brain electrophysiological recording during olfactory stimulation in mild
+  cognitive impairment and Alzheimer disease patients: An EEG dataset" — the
+  Sedghizadeh/Aghajan/Vahabi Mendeley dataset (DOI 10.17632/sgzbgwjfkr.5, CC BY 4.0,
+  open). Cohort of 35 seniors (13 AD, 7 aMCI, 15 healthy) recorded during a
+  rose/lemon olfactory oddball paradigm, matching the abstract's methodology. No
+  clinical-trial registration (NCT/PROSPERO) is associated with this paper; it is a
+  retrospective computational analysis on an existing EEG dataset.

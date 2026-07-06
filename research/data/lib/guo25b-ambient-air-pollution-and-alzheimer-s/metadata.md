@@ -1,0 +1,13 @@
+# Ambient air pollution and Alzheimer’s disease and other dementias: a global study between 1990 and 2019
+
+- **Cite key**: Guo25b
+- **Authors**: Cui Guo; Dongze Wu; Jun Yang; Xingcheng Lu; Xiang Chen; Jun Ma; Changqing Lin; Alexis K. H. Lau; Yingzhao Jin; Ruiyun Li; Shenjing He
+- **Year**: 2025  (2025-01-29)
+- **Journal**: BMC Public Health
+- **DOI**: 10.1186/s12889-025-21600-2
+- **URL**: https://doi.org/10.1186/s12889-025-21600-2
+- **Citations**: 9 (6.3/yr)
+
+## Abstract
+
+Emerging research found air pollution may be associated with incident Alzheimer’s disease (AD) and other dementias. However, few studies have examined these associations at the global scale. This study aimed to assess the dynamic associations between ambient air pollution and the burden of AD and other dementias worldwide. This study synthesised 149 countries/territories between 1990 and 2019. These data include age-standardised mortality rate (ASMR) and disability-adjusted life-years (DALYs) of AD and other dementias, ambient air pollution (fine particulate matter [PM2.5], NO2 and O3 concentration) and a series of covariates were from various source. Average annual percentage changes (AAPCs) were calculated to investigate the temporal variations. Linear mixed models were adopted to assess the associations with single- and multi-pollutant separately. The associations between air pollution changes and the AD and other dementias were also examined using linear regression models. Stratified analyses by Global North–South divide and human development index were performed to explore the potential inequity in air pollution impacts. During 1990–2019, the global ASMR, DALYs and O3 increased by 0.11%, 0.09%, and 0.17% per year, respectively. In contrast, PM2.5 and NO2 decreased by 0.33% and 0.14% per year, respectively. Each 10 µg/m3 increase in PM2.5 was associated with a 0.118 (95% confidence interval [CI]: 0.060 − 0.175) higher ASMR and 0.966 (95%CI: 0.321 − 1.611) higher DALYs after adjusting for all the covariates. The ASMR increased by 0.112 and the DALYs increased by 1.068 for each 10 µg/m3 increase in O3. The NO2–dementia associations were relatively weak. Stronger O3–dementia associations were found in the Global South than those in the Global North. The burden of dementia is expected to increase globally, given the continuously expansion of the ageing population. Air pollution was found to be significantly associated with a higher burden of AD and dementia. As a persistent challenge in urban cities, air pollution demands strict regulatory control.

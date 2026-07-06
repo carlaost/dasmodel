@@ -1,0 +1,60 @@
+# Exploration Tree — ols25-microglial-mechanisms-drive-amyloid-clearance-in
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. No full text, figures, tables, or supplements were provided.
+# Nodes are limited to research steps explicitly stated or directly implied by the abstract.
+# No dead_end nodes are included because the provided input reports no failed approaches,
+# ablations, or rejected alternatives.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "What mechanisms drive Aβ clearance in the immunized AD brain?"
+    description: >
+      The abstract states that Aβ immunization therapies have shown clinical-trial potential, but
+      that the mechanisms driving Aβ clearance in the immunized AD brain remain unclear.
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Use spatial transcriptomics to compare active immunization against AD and healthy controls"
+        result: >
+          The analysis identifies distinct microglial states associated with Aβ clearance.
+        evidence: [C01]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Profile lecanemab-associated Aβ removal with high-resolution spatial transcriptomics and scRNA-seq"
+            result: >
+              The analysis investigates transcriptional pathways involved in Aβ removal after
+              lecanemab treatment.
+            evidence: [C02]
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md:13"]
+                title: "Assess TREM2/APOE upregulation across immunization approaches"
+                result: >
+                  TREM2 and APOE are reported as upregulated in microglia across immunization
+                  approaches and positively correlated with antibody responses and Aβ removal.
+                evidence: [C03]
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md:13"]
+                title: "Assess complement signaling in brain myeloid cells"
+                result: >
+                  Complement signaling in brain myeloid cells is reported to contribute to Aβ
+                  clearance after immunization.
+                evidence: [C04]

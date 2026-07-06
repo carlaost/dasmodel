@@ -1,0 +1,13 @@
+# Trends and Determinants of Dementia-Related Mortality in Mexico, 2017–2023
+
+- **Cite key**: Lop26
+- **Authors**: Dennis M. Lopez-Samayoa; Angel M. Campos-Sosa; Paola Asuncion Bojorquez-Chan; Sara E. Martinez-Medel; J. C. Guillermo-Herrera; Edgar Villarreal-Jimenez; Reinhard Janssen-Aguilar; Cristina Rodriguez Peres-Mitre; N. Mendez-Dominguez
+- **Year**: 2026  (2026-01-20)
+- **Journal**: Epidemiologia
+- **DOI**: 10.3390/epidemiologia7010014
+- **URL**: https://doi.org/10.3390/epidemiologia7010014
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background: Dementia is an increasing public health challenge in Mexico, yet recent national data on mortality patterns remain limited. This study examines temporal trends in dementia-related mortality and its sociodemographic and ecological characteristics among adults aged ≥65 years from 2017 to 2023. Methods: National mortality records from the General Directorate of Health Information were analyzed. Annual dementia-related mortality rates were calculated based on mid-year population estimates from CONAPO. Trends were assessed with regression analysis, including population offsets, and individual- and state-level characteristics were evaluated. Results: Between 2017 and 2023, dementia-related deaths increased from 761 to 1425, corresponding to an observed rise from 7.9 to 14.6 deaths per 100,000 inhabitants aged ≥65 years. Period trend indicated an average annual expected increase of 18.6% in dementia related mortality. A transient decline occurred in 2020–2021, coinciding with the COVID-19 pandemic. At the individual level, higher education was associated with greater odds of dementia certification, whereas Indigenous ethnicity appeared protective, which may reflect patterns consistent with diagnostic and reporting disparities. Higher state-level life expectancy correlated with higher dementia mortality, while greater population aging was inversely associated. Conclusions: Dementia-related mortality in Mexico shows a sustained upward trend with regional heterogeneity and apparent inequities in diagnosis and reporting. Strengthening mortality surveillance, improving certification quality, and integrating dementia indicators into national non-communicable disease registries are essential to guide equitable policy responses.

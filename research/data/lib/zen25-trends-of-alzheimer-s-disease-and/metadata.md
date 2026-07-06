@@ -1,0 +1,13 @@
+# Trends of Alzheimer’s Disease and Other Dementias with Socioeconomic Insights: An Age-Period-Cohort Analysis and Forecasts for 2046
+
+- **Cite key**: Zen25
+- **Authors**: Yi Zeng; Huiqi Yang; Yongqiang Lai; Ying Bi; Chengyang Sun; Huan Jiang; Xinwei Liu; Sai-Ya Xu; Ye Li; Jia Meng
+- **Year**: 2025  (2025-04-16)
+- **Journal**: Neuroepidemiology
+- **DOI**: 10.1159/000545885
+- **URL**: https://doi.org/10.1159/000545885
+- **Citations**: 3 (2.5/yr)
+
+## Abstract
+
+Abstract Introduction: The disease burden of dementia varies in different economic development regions. This study provides a comprehensive overview of Alzheimer’s disease and other dementias (ADOD) trends across regions with varying socioeconomic statuses and forecasts global incidence rates from 2022 to 2046. Methods: Based on the Global Burden of Disease (GBD) study, we utilized an age-period-cohort (APC) model to analyze annual changes in incidence and the risk factors associated with age, period, and birth cohort across different socio-demographic index (SDI) regions. Additionally, a log-linear APC model was employed to project global trends in ADOD incidence from 2022 to 2046. Results: Between 1992 and 2021, we estimated that the net drift of the incidence of ADOD is 0.03(95% CI: 0.01–0.04). High-middle SDI regions demonstrated the highest net drift (0.22, 95% CI: 0.18–0.26). At the country level, the net drift was highest in China, at 0.36 (95% CI: 0.32–0.40), and we found a global upward trend in the incidence of the disease in people aged 50–64 years, especially in regions with high SDI. By 2046, there will be 21.24 million cases of ADOD worldwide. The age-standardized incidence rate for all patients with ADOD will increase slowly and is projected to be 120.8 per 100,000 population by 2046. Conclusion: We found a steady increase in incidence worldwide, with the greatest increase in high-middle SDI regions. The incidence is declining in areas with high SDI, and higher levels of socioeconomic development have a protective effect against ADOD. Incidence is increasing in younger age groups. Therefore, we believe that improving the level of social and economic development and formulating relevant targeted policies are helpful for the prevention of ADOD. Focusing on the trends in disease incidence across different economic development regions will enable more targeted strategies to address the burden of disease.

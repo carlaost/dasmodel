@@ -1,0 +1,13 @@
+# Interchangeability of Centiloid values from different research and commercial software using [18F]flutemetamol PET images
+
+- **Cite key**: Bol25b
+- **Authors**: Ariane Bollack; C. Buckley; M. Battle; Adam J. Schwarz; O. Hansson; P. Bourgeat; V. Doré; J. Fripp; Rachid Fahmi; E. Bonke; Lennart Thurfjell; Will Balhorn; M. Haas; C. Page; G. Farrar
+- **Year**: 2025  (2025-12-01)
+- **Journal**: Alzheimer's & Dementia
+- **DOI**: 10.1002/alz70856_106771
+- **URL**: https://doi.org/10.1002/alz70856_106771
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Abstract Background Amyloid PET quantification using the Centiloid (CL) metric is becoming more prevalent and may have a role in clinical decision‐making. But what is the intrinsic confidence interval around a given CL value? To what extent is a CL value from one pipeline equivalent to that from another? We systematically assessed repeatability, reproducibility, and reliability across seven CL quantification pipelines applied to 210 [18F]flutemetamol scans. Method Three datasets were used: (1) an AD test‐retest cohort (N = 10x2); (2) an amnestic MCI cohort (N = 80); (3) cases from the BioFINDER‐1 cohort enriched for amyloid loads around published positivity thresholds (0‐50CL) (N = 110). Three regulatory‐approved software (cPET, MIMneuro, syngo. MI Neurology) and four research pipelines (CapAIBL, rPOP, Amypype, SPM8) were evaluated. Dataset 1 was used to assess within‐subject repeatability. Dataset 2 was used to assess reproducibility in terms of absolute agreement in continuous CL values. Datasets 2 and 3 were used to assess reliability for dichotomizing amyloid scans into positive and negative. The latter was performed for three thresholds of 11, 25 and 37 CL. Result The test‐retest analysis revealed absolute biases <5 CL, within‐subject coefficients of variation 2.6‐4.4% and 95% repeatability coefficients 8.1‐16.1 CL (Table 1). Strong group‐level associations in continuous CL estimates were observed across pairs of software (R2≥0.93, Figure 1), but 95% limits of agreement (LoAs) ranged between 12 and 23 CL. Agreement in +/‐ status between software was 92‐99% (kappa 0.84‐0.97) in dataset 2 and 75‐97% (kappa 0.48‐0.93) in dataset 3. Conclusion CL values from most software pairs were interchangeable within the range of test‐retest variations, with high overall group‐level agreement. Ideally, all inter‐pipeline LoAs should be reduced to a similar level as test‐retest. Inter‐software reliability in dichotomization was >92% for scans across a wide range of CL values, but the percentage was lower for scans with amyloid loads closer to the range of typical positivity thresholds. Uncertainty estimates should always be considered when interpreting results.

@@ -1,0 +1,45 @@
+paper:
+  slug: ahm26-machine-learning-and-deep-learning-for
+  doi: 10.63125/vf6dkg22
+  title: "Machine Learning and Deep Learning for Alzheimer’s Disease Diagnosis: A Survey of MRI, PET, Multimodal Fusion, Transformers, Graph Neural Networks, and Explainable AI"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://ajates-scholarly.com/index.php/ajates/article/download/102/97
+  source: unpaywall
+
+code: []
+
+data:
+  - name: Alzheimer's Disease Neuroimaging Initiative (ADNI)
+    identifier: ADNI
+    repository: LONI IDA (adni.loni.usc.edu)
+    access: request
+    verified: true
+  - name: OASIS / OASIS-3 (Open Access Series of Imaging Studies)
+    identifier: OASIS-3
+    repository: OASIS Brains (oasis-brains.org)
+    access: request
+    verified: true
+  - name: Australian Imaging, Biomarker & Lifestyle Study (AIBL)
+    identifier: AIBL
+    repository: LONI IDA / aibl.org.au
+    access: request
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  This is a narrative literature survey (review) of machine/deep learning methods for Alzheimer's
+  disease diagnosis. The paper contains no formal Data Availability or Code Availability statement
+  and releases no new code, data, or model. It is open access (Bronze OA, publisher AJATES /
+  ajates-scholarly.com); the OA PDF was confirmed via Unpaywall and downloaded (595 KB, 28 pages,
+  valid %PDF). No GitHub/GitLab/Zenodo/OSF/figshare repository is associated with the paper
+  (web search returned none). The datasets listed above (ADNI, OASIS/OASIS-3, AIBL) are public
+  benchmark neuroimaging cohorts discussed across the surveyed literature, not datasets released
+  by this paper; all require registration/data-use agreements (recorded as access: request).
+  The paper also mentions MRI/PET and multimodal clinical data generically. No clinical trial
+  (NCT) or systematic-review registration (PROSPERO) is present in the abstract or full text.
+  Not indexed in Europe PMC/PubMed.

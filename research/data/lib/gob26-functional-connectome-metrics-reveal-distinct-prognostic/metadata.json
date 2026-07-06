@@ -1,0 +1,15 @@
+{
+  "idx": 85,
+  "cite_key": "Gob26",
+  "title": "Functional connectome metrics reveal distinct prognostic subtypes in two Phase 3 gantenerumab trials",
+  "authors": "Susanna Gobbi; Erica Silvestri; Matteo Tonietto; G. Klein; Martijn van den Heuvel; S. Magon",
+  "year": "2026",
+  "pub_date": "2026-04-01",
+  "journal": "Alzheimer's & Dementia : Translational Research & Clinical Interventions",
+  "abstract": "Abstract INTRODUCTION Alzheimer's disease (AD) heterogeneity poses significant challenges for drug development, identification of individuals at risk, and treatment response prediction. Scientists have leveraged graph theory and resting‐state functional magnetic resonance imaging (rs‐fMRI) to successfully stratify people with AD. Still, the prognostic value of rs‐fMRI graph metrics in AD clinical trials remains unclear. METHODS We analyzed rs‐fMRI from participants in amyloid‐lowering clinical trials. Four graph metrics—global efficiency, clustering coefficient, modularity, and shortest path length—were computed and baseline clusters defined using unsupervised k‑means. We investigated the baseline connectome of each cluster to assess the level of network dysfunction and impairment (i.e., loss of global integration, resulting in disrupted communication between brain regions and reduced global efficiency). These clusters were related to a 116‐week change in cognition and brain volume using covariate‐adjusted mixed‐effects models. RESULTS Three clusters emerged with distinct functional connectome efficiency, demographic, and AD‐related biomarkers profiles. These baseline differences led to significant variations in disease progression. The most impaired‑connectome cluster declined fastest, whereas the most integrated declined slowest. DISCUSSION rs‐fMRI graph metrics might effectively stratify participants with AD in clinical trials and serve as potential prognostic biomarkers.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1002/trc2.70259",
+  "url": "https://doi.org/10.1002/trc2.70259",
+  "slug": "gob26-functional-connectome-metrics-reveal-distinct-prognostic"
+}

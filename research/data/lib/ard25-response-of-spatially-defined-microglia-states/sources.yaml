@@ -1,0 +1,59 @@
+paper:
+  slug: ard25-response-of-spatially-defined-microglia-states
+  doi: 10.1038/s41593-025-02006-0
+  title: "Response of spatially defined microglia states with distinct chromatin accessibility in a mouse model of Alzheimer's disease"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.nature.com/articles/s41593-025-02006-0.pdf
+  source: publisher
+
+code:
+  - url: https://www.brain-immunity.de/
+    host: web-portal
+    verified: true
+    note: >
+      Cited in the paper's Code Availability statement as the location where the
+      scRNA-seq analysis code "can be found and explored." It is the Prinz lab
+      (Institute of Neuropathology, University of Freiburg) brain immune-cell data/code
+      portal. No versioned commit/tag specific to this paper; the portal hosts interactive
+      explorers and links to GitHub for related projects. The statement notes no custom
+      code was developed for the ATAC-seq analysis (established, cited methods only).
+
+data:
+  - name: ATAC-seq (chromatin accessibility, microglia)
+    identifier: GSE296025
+    repository: GEO
+    access: open
+    verified: true
+  - name: scRNAseq1_LPS_ABX (single-cell RNA-seq, LPS/antibiotics treatment)
+    identifier: GSE296026
+    repository: GEO
+    access: open
+    verified: false
+  - name: scRNAseq2_Csf1 (single-cell RNA-seq, Csf1 signaling)
+    identifier: GSE296027
+    repository: GEO
+    access: open
+    verified: false
+
+clinical_trials: []
+
+notes: >
+  Preclinical study in a 5xFAD mouse model of Alzheimer's disease; no clinical trials
+  and no NCT identifiers (none expected or found). Data Availability: "The raw and
+  processed data for this project are uploaded to the Gene Expression Omnibus database
+  and are accessible under the following accession numbers: GSE296025 (ATAC-seq),
+  GSE296026 (scRNAseq1_LPS_ABX) and GSE296027 (scRNAseq2_Csf1). Source data are provided
+  with this paper." GSE296025 was fetched and confirmed to match (title "Spatial
+  distribution and chromatin accessibility determine the therapeutic capacity of
+  microglial subsets during neurodegeneration [ATAC-seq]", Mus musculus, 5xFAD,
+  contributors incl. Wogram, Mossad, Preissl, Prinz); GSE296026/GSE296027 recorded from
+  the statement but not individually fetched (verified:false). Code Availability points
+  to https://www.brain-immunity.de/ (Prinz lab portal) for scRNA-seq analysis; no custom
+  ATAC-seq code. Article is Open Access (CC-BY) at the publisher; OA PDF (18 MB, 22 pp)
+  downloaded from Nature. Also available at Europe PMC/PMC12321583 (PMID 40659845).
+  Third-party software tools cited in Methods (bleiglas, Voro++, Trim Galore, BAMTools,
+  bedtools, ENCODE standards) are dependencies, not this paper's released code.

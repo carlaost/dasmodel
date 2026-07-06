@@ -1,0 +1,38 @@
+paper:
+  slug: aks25-an-explainable-web-based-diagnostic-system
+  doi: 10.3390/diagnostics15202559
+  title: "An Explainable Web-Based Diagnostic System for Alzheimer's Disease Using XRAI and Deep Learning on Brain MRI"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC12564920?pdf=render
+  source: pmc
+
+code: []
+
+data:
+  - name: Augmented Alzheimer MRI Dataset (33,984 augmented images + 6,400 original, 4 AD severity classes)
+    identifier: kaggle.com/datasets/uraninjo/augmented-alzheimer-mri-dataset
+    repository: Kaggle
+    access: open
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  Open-access (gold, CC BY) article in Diagnostics (MDPI); PMID 41153232, PMCID PMC12564920.
+  OA PDF downloaded from Europe PMC render endpoint (MDPI and PMC direct PDF endpoints returned
+  HTML/403 to curl; Unpaywall best_oa_location was the MDPI PDF but was blocked). Data Availability
+  Statement in the paper reads verbatim: "Data contained within the article." The only external
+  data source is a preprocessed Kaggle dataset cited as reference [12]: "Kaggle. Augmented Alzheimer
+  MRI Dataset. 2025. https://www.kaggle.com/datasets/uraninjo/augmented-alzheimer-mri-dataset"
+  (uraninjo) - a public/open dataset of T1/T2 axial 2D brain MRI slices in four dementia severity
+  classes (MildDemented, ModerateDemented, NonDemented, VeryMildDemented); 33,984 augmented images
+  and 6,400 original source images. No code/software repository (GitHub/GitLab/Zenodo/OSF) is
+  provided or cited; no code availability statement exists despite the implementation using PyTorch
+  2.5.1, TIMM 1.0.15, the Saliency library's XRAI module, and Gradio. Web search found no author
+  repository. A bioRxiv preprint of the same work exists (doi 10.1101/2025.08.16.670652) but
+  surfaces no code link. No clinical trial or PROSPERO registration (retrospective analysis of a
+  public dataset; IRB and informed consent statements are "Not applicable").

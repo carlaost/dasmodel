@@ -1,0 +1,78 @@
+# Exploration Tree -- guo25c-the-disease-burden-risk-factors-and
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. Nodes are source-bounded to what the abstract states or directly
+# supports. No dead_end nodes are included because the abstract does not report failed analyses.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md abstract Background", "metadata.md abstract Objectives"]
+    title: "What is the burden and future trajectory of ADOD in Asia?"
+    description: >
+      The abstract states that analysis and prediction of ADOD burden in Asia are lacking and that
+      the study aims to explore ADOD impact in Asia during 1990-2021.
+    children:
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md abstract Design", "metadata.md abstract Results"]
+        title: "Extract GBD 2021 burden metrics for Asia"
+        result: >
+          ADOD deaths, DALYs, incidence, and prevalence increased in Asia from 1990 to 2021.
+        evidence: [C01]
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md abstract Design", "metadata.md abstract Results"]
+            title: "Analyze age-standardized rates and sex patterns"
+            result: >
+              ASRs for incidence, prevalence, death, and DALYs increased in both sexes, and female
+              ASRs were consistently higher than male ASRs.
+            evidence: [C02]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md abstract Results"]
+            title: "Identify country-level burden changes and mortality rankings"
+            result: >
+              Qatar and the United Arab Emirates had the greatest changes in the number of DALYs,
+              incidence, and prevalence, while Afghanistan and China had the highest ASMR in 2021.
+            evidence: [C03, C04]
+
+      - id: N05
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md abstract Results"]
+        title: "Assess ADOD risk-factor patterns"
+        result: >
+          High fasting blood glucose was reported as the top risk factor; high BMI was more
+          prominent for females and smoking for males.
+        evidence: [C05]
+
+      - id: N06
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md abstract Design", "metadata.md abstract Results"]
+        title: "Forecast future burden with ARIMA"
+        result: >
+          ARIMA prediction indicated that ADOD disease burden in Asia will continue upward over the
+          next 30 years.
+        evidence: [C06]
+        also_depends_on: [N02]
+
+      - id: N07
+        type: pivot
+        support_level: explicit
+        source_refs: ["metadata.md abstract Conclusions"]
+        title: "Move from burden quantification to action planning"
+        from: "Historical burden, risk-factor, and forecast analysis"
+        to: "Population-aging attention, risk-factor intervention, and action plans for rising ADOD incidence"
+        trigger: >
+          The conclusion calls for attention to population aging, intervention measures targeting
+          ADOD risk factors, and action plans addressing rising incidence.
+        evidence: [C01, C05, C06]

@@ -1,0 +1,15 @@
+{
+  "idx": 150,
+  "cite_key": "Aks25",
+  "title": "An Explainable Web-Based Diagnostic System for Alzheimer’s Disease Using XRAI and Deep Learning on Brain MRI",
+  "authors": "Serra Aksoy; Arij Daou",
+  "year": "2025",
+  "pub_date": "2025-08-21",
+  "journal": "Diagnostics",
+  "abstract": "Background Alzheimer’s disease (AD) is a progressive neurodegenerative condition marked by cognitive decline and memory loss. Despite advancements in AI-driven neu-roimaging analysis for AD detection, clinical deployment remains limited due to chal-lenges in model interpretability and usability. Explainable AI (XAI) frameworks such as XRAI offer potential to bridge this gap by providing clinically meaningful visualizations of model decision-making. Methods: This study developed a comprehensive, clinically deployable AI system for AD severity classification using 2D brain MRI data. Three deep learning architectures MobileNet-V3 Large, EfficientNet-B4, and ResNet-50 were trained on an augmented Kaggle dataset (33,984 images across four AD severity classes). The models were evaluated on both augmented and original datasets, with integrated XRAI explainability providing region-based attribution maps. A web-based clinical interface was built using Gradio to deliver real-time predictions and visual explanations. Results: MobileNet-V3 achieved the highest accuracy (99.18% on the augmented test set; 99.47% on the original dataset), while using the fewest parameters (4.2M), confirming its effi-ciency and suitability for clinical use. XRAI visualizations aligned with known neuroana-tomical patterns of AD progression, enhancing clinical interpretability. The web interface delivered sub-20 second inference with high classification confidence across all AD sever-ity levels, successfully supporting real-world diagnostic workflows. Conclusion: This re-search presents the first systematic integration of XRAI into AD severity classification us-ing MRI and deep learning. The MobileNet-V3-based system offers high accuracy, com-putational efficiency, and interpretability through a user-friendly clinical interface. These contributions demonstrate a practical pathway toward real-world adoption of explainable AI for early and accurate Alzheimer’s disease detection.",
+  "citation_count": "1",
+  "citations_per_year": "1.1",
+  "doi": "10.3390/diagnostics15202559",
+  "url": "https://doi.org/10.3390/diagnostics15202559",
+  "slug": "aks25-an-explainable-web-based-diagnostic-system"
+}

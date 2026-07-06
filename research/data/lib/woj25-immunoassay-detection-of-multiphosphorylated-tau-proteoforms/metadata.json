@@ -1,0 +1,15 @@
+{
+  "idx": 6,
+  "cite_key": "Woj25",
+  "title": "Immunoassay detection of multiphosphorylated tau proteoforms as cerebrospinal fluid and plasma Alzheimer’s disease biomarkers",
+  "authors": "A. Wojdała; G. Bellomo; L. Gaetani; C. Teunissen; L. Parnetti; D. Chiasserini",
+  "year": "2025",
+  "pub_date": "2025-01-02",
+  "journal": "Nature Communications",
+  "abstract": "Different forms of phosphorylated tau (p-tau) have shown strong potential as Alzheimer’s disease (AD) biomarkers in both cerebrospinal fluid (CSF) and plasma. We hypothesized that p-tau proteoforms simultaneously phosphorylated at two different sites may have an increased diagnostic value compared with tau phosphorylated at a single site. Here, we developed two immunoassays detecting CSF and plasma tau simultaneously phosphorylated at both T181 and T231 (p-tau181&231) and at T217 and T231 (p-tau217&231). Subsequently, we measured CSF and plasma p-tau181&231, p-tau217&231, p-tau181, p-tau217, and p-tau231 levels in two cohorts across the AD continuum and in frontotemporal dementia (FTD) patients (discovery n = 55, validation n = 118). CSF and plasma p-tau217&231, p-tau181, p-tau217, and p-tau231 and CSF, but not plasma, p-tau181&231 were significantly elevated in all AD continuum groups vs. Neurological Disease Control group. Notably, plasma p-tau217&231 consistently showed an improved diagnostic performance compared with single-site phosphorylation assays – p-tau217 or p-tau231. The differences observed between CSF and plasma measurements suggest matrix-specific protein processing, underscoring the need for further research on the dynamics of tau phosphorylation pattern along the AD continuum. Cerebrospinal fluid tau simultaneously phosphorylated at two distinct sites (p-tau181&231 or p-tau217&231) provide high diagnostic accuracy as Alzheimer’s disease biomarkers. In plasma, a similar diagnostic accuracy was obtained only for p-tau217&231.",
+  "citation_count": "20",
+  "citations_per_year": "13.3",
+  "doi": "10.1038/s41467-024-54878-8",
+  "url": "https://doi.org/10.1038/s41467-024-54878-8",
+  "slug": "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms"
+}

@@ -1,0 +1,74 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Proof E01/E05 + Table 2/§2.5.1 directly state the triaging recommendation and its ≥90/≥75 threshold and 'conditional, low certainty' label verbatim; matches the Statement exactly."}
+    falsifiability: {criteria_present: true, verdict: trivial, note: "Two of the three disjuncts ('threshold is not ≥90/75', 'not conditional/low-certainty') just check whether the ARA paraphrased Table 2 correctly -- tautologically true since the Statement is a direct restatement of the panel's own recommendation text, not an empirical claim about the world. The third disjunct ('no BBM test achieves these thresholds') is more substantive but is literally C04's own claim restated as a falsifier for C01, creating circularity (C01 lists C04 as a dependency, then re-uses C04's content as its own falsification test)."}
+    scope_calibration: {verdict: calibrated, note: "Statement precisely preserves the 'conditional recommendation, low certainty evidence' hedge and the exact threshold values from Table 2/§2.5.1; no overreach into an unconditional/strong claim."}
+    novelty: {verdict: incremental, note: "This is the field's first formal GRADE-based CPG on BBMs (related_work.md RW03 delta: advances beyond the 2022 appropriate-use recommendations to a systematic-review-grounded guideline), but the specific Sn/Sp threshold values are explicitly adopted from RW02 (Global CEO Initiative) as a 'starting point' -- the numeric content is not novel, only its formalization into a guideline is."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Table 2 confirmatory recommendation and §2.5.1/Abstract restate the ≥90/≥90 threshold verbatim; matches Statement exactly."}
+    falsifiability: {criteria_present: true, verdict: trivial, note: "Same structure as C01: the stated criteria only test whether the ARA correctly transcribed the panel's own recommendation and threshold from the same document -- a document-fidelity check, not an empirical test of the world."}
+    scope_calibration: {verdict: calibrated, note: "Preserves 'conditional recommendation, low certainty evidence' and the exact ≥90/≥90 threshold; no overreach."}
+    novelty: {verdict: incremental, note: "Same as C01 -- novel as formal guidance, but threshold values inherited from RW02 (CEOi), not new to this CPG."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "§3.4 states the exact pooled Sn (49.31-91.41%) and Sp (61.54-96.72%) ranges across all 31 tests, verified verbatim against paper.pdf; §3.2 confirms 31 tests; Abstract confirms the 'many commercially available BBM tests do not meet these thresholds, especially using a single cutoff' language verbatim."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Reported ranges differ' or 'majority of tests met thresholds' is a negation of the Statement checked against the same underlying data (the companion systematic review, RW01) that produced the Statement in the first place -- not an independent replication cohort."}
+    scope_calibration: {verdict: calibrated, note: "Precisely scoped to 'across all 31 evaluated tests' with exact numeric ranges, matching what the companion systematic review actually reports; does not generalize beyond the reviewed test set."}
+    novelty: {verdict: restatement, note: "This CPG does not run its own meta-analysis; related_work.md RW01 states explicitly that 'this CPG's entire quantitative evidence base ... comes from this separately published systematic review.' C03 restates RW01's numbers rather than contributing new analysis."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "§3.4 'some tests did meet or exceed the panel's established thresholds' matches verbatim; panel remains brand-agnostic per Evidence basis note, consistent with the claim's caveat that no specific tests are named in the guideline text itself."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "The stated falsifier ('no test achieved thresholds') is a negation using the same systematic-review data underlying C03, not an independent check. Practically, it is also close to unfalsifiable from this ARA's own materials: the guideline is deliberately brand-agnostic and never names which tests meet thresholds in the main text -- that list lives only on the external MAGICapp living-evidence platform, which is not captured in evidence/."}
+    scope_calibration: {verdict: calibrated, note: "Statement is careful to say 'some tests' without naming any, matching the panel's explicit brand-agnostic stance (§2.5.1); does not overclaim which or how many tests qualify."}
+    novelty: {verdict: restatement, note: "Same companion-review-sourced result as C03 (RW01); the guideline restates rather than generates this finding."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "§3.5 confirms 'moderate to very low' overall certainty, 'low to very low' for threshold-meeting tests, dominant risk-of-bias downgrade, and 'publication bias was not detected for any of the tests' -- all verified verbatim against paper.pdf."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "The GRADE certainty ratings are the panel's own qualitative judgment applied to the same underlying study set (via RW05/RW06 imported methodology); checking 'does the reported range differ' is re-reading the same source's conclusion, not an independent re-rating by a different panel."}
+    scope_calibration: {verdict: calibrated, note: "Distinguishes 'across all tests' (moderate to very low) from 'threshold-meeting tests specifically' (low to very low) exactly as the source does; does not conflate the two."}
+    novelty: {verdict: restatement, note: "GRADE certainty assessment for this evidence base was performed as part of the companion systematic review's evidence profiles (RW01); this claim restates that panel judgment rather than presenting a new one."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "§2.5.1 states the exact triage (PPV 47/78/94, NPV 97/88/65) and confirmatory (PPV 69/90/97, NPV 97/90/69) illustrative values verbatim, verified against paper.pdf."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Unlike the other claims, these PPV/NPV figures can be independently re-derived from Bayes' theorem given only the stated Sn/Sp and pretest-probability inputs, with no dependence on the guideline's own data or wording. Independently recomputed: triage (Sn=90%,Sp=75%) at prevalence 20/50/80% gives PPV=47.4%/78.3%/93.5% and NPV=96.8%/88.2%/65.2% -- matching the stated 47/78/94 and 97/88/65 to rounding; confirmatory (Sn=90%,Sp=90%) values also check out. This is a genuine independent arithmetic test, not a same-source mirror."}
+    scope_calibration: {verdict: calibrated, note: "Explicitly framed as illustrative ('a test at the triage thresholds would have a PPV of...') rather than claiming these are measured values for any real test; matches the source's own framing of why per-test predictive values were not reported."}
+    novelty: {verdict: restatement, note: "A mechanical application of Bayes' theorem (PPV/NPV vary with pretest probability) to justify a policy choice -- textbook diagnostic-test epidemiology, not a new empirical or methodological contribution."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "§3.10 confirms 'moderate' savings judgment and '70% to 90% lower than PET imaging' verbatim; §3.11 confirms cost-effectiveness could not be judged due to insufficient data, matching the Evidence basis note."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Checking whether the guideline reported this figure or judged savings differently is a same-document check. The '70-90% lower' figure itself is sourced only to unnamed 'publicly available sources' (no citation in the guideline), so an independent price-comparison test is conceivable but is not what the stated falsification criteria actually specify -- as written, the criteria just re-read §3.10."}
+    scope_calibration: {verdict: calibrated, note: "Preserves 'moderate' (not 'large') and flags 'exact price varies by country and setting,' matching the hedged nature of the source judgment; does not overstate the cost-effectiveness conclusion, which the guideline explicitly says could not be judged."}
+    novelty: {verdict: restatement, note: "A qualitative EtD resource-judgment by the panel (via imported GRADE-EtD methodology, RW05) rather than a new cost-effectiveness analysis; the guideline itself concedes it could not judge cost-effectiveness (§3.11) for lack of data."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "Table 2 'Good practice statement' matches the Statement verbatim, confirmed against paper.pdf §Table2/main text."}
+    falsifiability: {criteria_present: true, verdict: trivial, note: "The Statement is a direct quotation of the panel's good practice statement; 'disproved if the guideline did not issue this statement' is tautologically true by construction (the claim exists because the quote exists) and offers no way to test the statement's validity as clinical guidance, only whether the quote was correctly copied."}
+    scope_calibration: {verdict: calibrated, note: "Statement matches the source's own qualified language ('should not be obtained before,' 'consider... pretest probability') without adding stronger or weaker language."}
+    novelty: {verdict: restatement, note: "Verbatim restatement of a guideline good-practice statement; not an empirical or novel methodological claim."}
+compilation_fidelity_samples:
+  - fact: "Triaging thresholds Sn ≥90% / Sp ≥75%, conditional recommendation, low certainty evidence (C01)"
+    pdf_location: "paper.pdf Table 2 (p.7) and §2.5.1"
+    captured_in_ara: true
+    note: "Verified against local paper.pdf via pdftotext: '...the panel suggests using a high-sensitivity BBM test as a triaging test... (Conditional recommendation, Low certainty evidence)' and footnote b '...at least 90% sensitivity and 75% specificity...' -- exact match to claims.md Sources."
+  - fact: "Pooled Sn 49.31%-91.41%, Sp 61.54%-96.72% across all 31 tests (C03)"
+    pdf_location: "paper.pdf §3.4, p.10"
+    captured_in_ara: true
+    note: "PDF text: 'Across all 31 tests, pooled Sn ranged from 49.31% to 91.41%, and Sp ranged from 61.54% to 96.72%.' -- exact match, no rounding drift."
+  - fact: "Certainty of evidence moderate to very low overall, low to very low for threshold-meeting tests; publication bias not detected for any test (C05)"
+    pdf_location: "paper.pdf §3.5, p.10"
+    captured_in_ara: true
+    note: "Exact verbatim match confirmed against extracted PDF text."
+  - fact: "Triage PPV 47/78/94%, NPV 97/88/65%; confirmatory PPV 69/90/97%, NPV 97/90/69% at pretest probabilities 20/50/80% (C06)"
+    pdf_location: "paper.pdf §2.5.1, p.6-7"
+    captured_in_ara: true
+    note: "Exact verbatim match, and independently re-derivable via Bayes' theorem from the stated Sn/Sp inputs (see C06 falsifiability note) -- doubly confirmed."
+  - fact: "BBMs cost 70%-90% lower than PET imaging; savings judged moderate (C07)"
+    pdf_location: "paper.pdf §3.10, p.11"
+    captured_in_ara: true
+    note: "Exact verbatim match; §3.11 cost-effectiveness caveat also correctly captured in claims.md Evidence basis."
+  - fact: "Good practice statement text (C08)"
+    pdf_location: "paper.pdf Table 2 'Good practice statement', p.8"
+    captured_in_ara: true
+    note: "Exact verbatim match to claims.md Sources quote."
+  - fact: "31 different BBM tests evaluated in the systematic review, summarized in Table 3 (C03/Table 3)"
+    pdf_location: "paper.pdf §3.2, p.9, and Table 3"
+    captured_in_ara: true
+    note: "PDF: 'Across these studies, 31 different BBM tests were evaluated in our systematic review and are summarized in Table 3' -- evidence/tables/table3.md analyte/assay/brand catalog matches the PDF table row-for-row (checked Aβ42/40, p-tau181/231/217, %p-tau217 rows)."
+  - fact: "Table 1 GRADE certainty definitions and strong-vs-conditional implications table"
+    pdf_location: "paper.pdf Table 1, p.7-8"
+    captured_in_ara: true
+    note: "evidence/tables/table1.md condenses the PDF's four-column implications table (patients/clinicians/policy-makers/researchers) faithfully; wording paraphrased slightly for brevity but no substantive content dropped or altered."

@@ -1,0 +1,57 @@
+# Exploration Tree — qi25-alzheimer-s-disease-digital-biomarkers-multidimensional
+# Research DAG reconstructed from ABSTRACT/METADATA ONLY.
+# Node types: question | experiment | dead_end | decision | pivot
+# No dead_end nodes are included because the abstract reports no failed branches or rejected approaches.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "What is the current landscape of AD digital biomarkers and AI models?"
+    description: "The review asks how digital-biomarker research for Alzheimer's disease has advanced and what challenges remain for integrating these biomarkers into clinical practice."
+    children:
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Run a bibliometric analysis across five databases"
+        result: "The abstract reports a bibliometric analysis of a broad AD digital-biomarker literature drawn from Web of Science, PubMed, Embase, IEEE Xplore, and CINAHL."
+        evidence: ["C01", "C02"]
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Characterize research ecosystem scale"
+            result: "The abstract reports grants, disciplines, institutions, countries, and contributing researchers as field-scale descriptors."
+            evidence: ["C02"]
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Identify key digital-biomarker focus areas"
+            result: "The abstract identifies motor activity, neurocognitive tests, eye tracking, and speech analysis as key focuses."
+            evidence: ["C03"]
+      - id: N05
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Scope AI models in the digital-biomarker literature"
+        result: "The abstract reports a scoping review of AI models and states that classical machine learning dominates while many models lack performance reporting."
+        evidence: ["C01", "C04"]
+        children:
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Summarize model discrimination for AD and MCI targets"
+            result: "The abstract reports average AUC summaries for AD-focused models and mild-cognitive-impairment models."
+            evidence: ["C05"]
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Check external validation and calibration uptake"
+            result: "The abstract reports that only a small number of studies incorporated external validation or performed model calibration."
+            evidence: ["C05"]

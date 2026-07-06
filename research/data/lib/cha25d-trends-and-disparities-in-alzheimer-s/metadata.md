@@ -1,0 +1,13 @@
+# Trends and Disparities in Alzheimer’s Disease Mortality in the United States: The Impact of COVID-19
+
+- **Cite key**: Cha25d
+- **Authors**: J. Chaddha; Eli Blaney; A. Alsalahat; Amna Noor; Taylor Billion; Yu-Ting Chen; A. Tauseef; A. Sood; A. B. Abdul Jabbar
+- **Year**: 2025  (2025-02-14)
+- **Journal**: NeuroSci
+- **DOI**: 10.3390/neurosci6010016
+- **URL**: https://doi.org/10.3390/neurosci6010016
+- **Citations**: 6 (4.3/yr)
+
+## Abstract
+
+Background: Alzheimer’s disease (AD) is the fifth leading cause of death for Americans older than 65. Though fluctuations have been noticed over the past two decades, the mortality of Alzheimer’s patients increased considerably during the COVID-19 pandemic. This study aims to explore the temporal trends in AD-associated mortality (ADAM) and disparities in these trends, and we aim to discern changes to these trends during the COVID-19 pandemic. Methods: The CDC WONDER Multiple Cause-of-Death Public Use Records from 1999 to 2022 were used to extract population data on deaths related to AD and stratify them based on age, biological sex, race, ethnicity, place of death, census region, and state. ICD-10 codes G30.0, G30.1, G30.8, and G30.9 were used to identify AD-related mortality. Statistical analysis was performed using the Joinpoint Regression Program version 5.0.2. Results: We confirmed an increase in mortality rate in all races, sexes, places of death, age groups above 65, and states/census regions. Interestingly, the age-adjusted mortality rate (AAMR) of AD was consistently higher in females compared to males. Non-Hispanic whites had the highest AD mortality by race and ethnicity. At the intersection of race and biological sex, White females had the highest AAMR with AD. Lastly, we noted an increase in AD mortality at hospice facilities as compared to other places of death. Conclusions: Our findings demonstrate that the number of deaths due to AD was exacerbated by the recent pandemic and that White females were disproportionately affected. The disparities relating to ADAM uncovered in this study may assist healthcare administrators and policymakers in their decisions. Additionally, the findings might help initiate larger studies focusing on these disparities to explore novel risk/prognostic factors for AD.

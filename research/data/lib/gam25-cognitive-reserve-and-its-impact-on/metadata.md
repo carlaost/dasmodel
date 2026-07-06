@@ -1,0 +1,13 @@
+# Cognitive reserve and its impact on cognitive and functional abilities, physical activity and quality of life following a diagnosis of dementia: longitudinal findings from the Improving the experience of Dementia and Enhancing Active Life (IDEAL) study
+
+- **Cite key**: Gam25
+- **Authors**: L. Gamble; L. Clare; C. Opdebeeck; Anthony Martyr; Roy W Jones; J. Rusted; C. Pentecost; J. Thom; Fiona E. Matthews
+- **Year**: 2025  (2025-01-01)
+- **Journal**: Age and Ageing
+- **DOI**: 10.1093/ageing/afae284
+- **URL**: https://doi.org/10.1093/ageing/afae284
+- **Citations**: 13 (8.6/yr)
+
+## Abstract
+
+Abstract Background The concept of cognitive reserve may explain inter-individual differences in susceptibility to neuropathological changes. Studies suggest that experiences over a lifetime impact on cognitive reserve, and it is hypothesised that following a dementia diagnosis, greater reserve levels are linked to accelerated disease progression. Objective To investigate the longitudinal impact of cognitive reserve on cognitive and functional abilities, physical activity and quality of life in people with dementia. Design Longitudinal cohort design. Setting and participants Participants were 1537 people with mild-to-moderate dementia at baseline, 1183 at 12 months follow-up and 851 at 24 months follow-up, from the IDEAL study. Methods A comprehensive latent measure of cognitive reserve incorporated domains from all stages of life: education, occupational attainment and later-life engagement in leisure activities. The impact of cognitive reserve on cognition, functional abilities, physical activity and quality of life at baseline and over time was investigated using latent growth curve modelling. Results Higher cognitive reserve was associated with better cognition, fewer functional difficulties, more physical activity and better quality of life at baseline but was associated with accelerated cognitive decline and greater dependence over time. After 2 years, those with higher initial reserve were estimated to still have better cognition than those with low reserve. Conclusions Cognitive reserve may be important in initially delaying dementia progression but is linked with accelerated deterioration once dementia becomes clinically evident, likely because of the more advanced neuropathological stage of the condition. Engagement in leisure activities is a potentially modifiable domain of cognitive reserve warranting further investigation.

@@ -1,0 +1,15 @@
+{
+  "idx": 50,
+  "cite_key": "Arr25",
+  "title": "Prospective evaluation of plasma pTau217 stability and diagnostic accuracy for the detection of Alzheimer's disease in a memory clinic",
+  "authors": "J. Arranz; Rosa Ferrer; Nuole Zhu; S. Rubio-Guerra; Í. Rodríguez-Baz; J. Arriola‐Infante; Lucía Maure-Blesa; Jesús Garcia Castro; M. Carmona‐Iragui; I. Barroeta; I. Illán-Gala; M. Santos‐Santos; J. Fortea; A. Lleó; M. Tondo; D. Alcolea",
+  "year": "2025",
+  "pub_date": "2025-12-01",
+  "journal": "Alzheimer's & Dementia",
+  "abstract": "Abstract Background Knowledge on the effect of analytical variability and storage conditions are essential for the successful implementation of plasma pTau217 in prospective settings. The aim of this study is to investigate the diagnostic performance of plasma pTau217, measured with LUMIPULSE, for detecting Alzheimer's disease in a prospective memory clinic setting, along with evaluating its pre‐analytical and analytical stability. Method We prospectively measured pTau217 using the LUMIPULSE automated platform in consecutive patient samples collected between May and November 2024 at the Sant Pau Memory Unit (Barcelona). A subset of participants underwent lumbar puncture for CSF AD biomarkers. We compared biomarker concentrations under different short‐term storage conditions (4°C vs ‐20°C) and assessed lot‐to‐lot variability. In the subset with available CSF biomarkers, logistic regression was used to evaluate the association between plasma pTau217 and the likelihood of a positive (A+) or a negative (A‐) CSF amyloid status. Using ROC analysis, in this prospective cohort we evaluated the accuracy of previously established thresholds derived from historical samples. Result We included 280 participants, divided into two groups: those with CSF data (n = 109) and those without CSF data (n = 171). Among the subset with CSF, 48% were A+, with a plasma pTau217 fold‐change of 4.5x compared to A‐. We found no differences in plasma pTau217 concentrations between both short‐term storage conditions. The overall coefficients of analytical variation ranged from 1.8% to 3.2%. Following a two‐threshold approach, the need of confirmatory tests (grey zones) after measuring plasma pTau217 ranged between 45.9% using our previously reported strict cutoffs (overall accuracy 96.6%) and 18.3% using our previously reported lenient cutoffs (overall accuracy 92.1%). Conclusion The robust stability and low lot‐to‐lot variability of plasma pTau217 measurement in an automated plaftorm result in high diagnostic performance of this biomarker in the prospective evaluation of patients in a memory clinic setting. These findings support its implementation into clinical routine, offering clinicians an accessible biomarker for AD diagnosis.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1002/alz70856_105569",
+  "url": "https://doi.org/10.1002/alz70856_105569",
+  "slug": "arr25-prospective-evaluation-of-plasma-ptau217-stability"
+}

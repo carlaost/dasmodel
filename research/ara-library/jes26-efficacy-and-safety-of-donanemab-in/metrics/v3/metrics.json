@@ -1,0 +1,105 @@
+{
+  "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+  "genre": "randomized_controlled_trial",
+  "genre_source": "gold",
+  "coarse": "PRIMARY_CLINICAL",
+  "n_claims": 10,
+  "n_experiments": 8,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_trials": 1
+  },
+  "abstract_bound": false,
+  "extractive_fidelity": {
+    "value": 0.9,
+    "validity": "source_bound",
+    "n_claims_checked": 10,
+    "n_faithful": 9,
+    "infidelities": [
+      {
+        "claim_id": "C09",
+        "type": "polarity_inversion",
+        "paper_quote": "After completing donanemab treatment, the rate of amyloid reaccumulation was comparable to that seen with the natural history of the disease [16,17].",
+        "note": "The first three sub-claims of C09 (increasing 154-week treatment effect, 29% lower CDR-G progression risk for early-start vs delayed-start, treatment-course-completion framing) are faithfully supported by fulltext lines 392-406. However, the final clause 'amyloid clearance was maintained after treatment completion' has no supporting Sources quote and directly inverts the paper's actual Discussion statement (fulltext lines 421-423, quoted above): the paper says amyloid REACCUMULATES after donanemab is stopped, at a rate comparable to natural, untreated disease progression -- i.e., clearance was NOT maintained, it eroded at a normal (non-accelerated) pace. 'Maintained' and 'reaccumulates' are materially opposite claims about the post-treatment biomarker trajectory, regardless of the pace qualifier. Definitive verdict: the paper supports REACCUMULATION, not maintenance of clearance. This is a polarity_inversion, and also an unsupported_addition in the sense that no Sources bullet in C09 cites this clause at all -- the inversion is the dominant defect."
+      }
+    ],
+    "detail": "9/10 claims in logic/claims.md judged faithful (load-bearing numbers AND asserted direction/polarity both match, no unsupported added clauses) against the actual full paper text (research/metrics/v3/fulltext/jes26.txt), per a frozen independent adversarial check (extractive_fidelity/jes26-efficacy-and-safety-of-donanemab-in.yaml) run by a different pass than the compiler that wrote claims.md. Infidelity types found: polarity_inversion. source_bound, not validated: this measures fidelity TO THE PAPER, not the paper's scientific validity (compiler-model.md's independent-axes caveat) \u2014 no paper-ranker should be treated as sound on this axis alone."
+  },
+  "fidelity_hard_fail": true,
+  "rank_eligible": false,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/11 rw_blocks qualify (5 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.2,
+      "validity": "pending_sem",
+      "n_negative": 2,
+      "detail": "N11 (genuine dead-end, RC3, not claim-duplicated); N12 (genuine dead-end, RC3, not claim-duplicated)"
+    },
+    "dead_end_density": {
+      "value": 0.2,
+      "validity": "source_bound",
+      "n_genuine": 2,
+      "n_synthetic": 0,
+      "source_binding_ratio": 1.0,
+      "detail": "N11: genuine; N12: genuine"
+    },
+    "translation_trial_linkage": {
+      "value": 1.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [
+          "NCT04437511"
+        ],
+        "verified": [
+          "NCT04437511"
+        ],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": 1.0,
+      "validity": "judge_scored",
+      "detail": "23/23 (number,quote) findings pass string_present \u2227 verdict==supports \u2227 value_match\u2208{exact,rounded,derived} \u2227 polarity_ok \u2227 context_match, scored deterministically from the frozen logic/grounding_findings.yaml (a prior [sem] pass's output -- this module does not itself call an LLM, so self-grading is avoided by construction)."
+    },
+    "novel_claim_count": {
+      "value": 0.0,
+      "validity": "pending_sem",
+      "verdict_counts": {
+        "incremental": 9,
+        "restatement": 1
+      },
+      "detail": "0/10 claims judged genuinely novel (within-ARA judge approximation only; real D4 needs cross-library FOL-dedup of Claim.original against the oshima store, not available on this corpus); verdict breakdown: {'incremental': 9, 'restatement': 1} (frozen judge findings, jes26-efficacy-and-safety-of-donanemab-in.yaml)."
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.974,
+    "components": {
+      "grounding_trust": 1.0,
+      "environment_completeness": 1.0,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": 0.8778,
+      "gate_pass_ratio": 1.0
+    },
+    "gates": {
+      "seal_L1": true,
+      "all_links_resolve": true,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": true
+    },
+    "falsification_writing_quality_reportonly": 0.0,
+    "grounding_detail": {
+      "value": 1.0,
+      "trust_class": "mixed",
+      "self_contained_ratio": 0.609,
+      "coverage": 14,
+      "detail": "quotes_present=23, checkable=14 (in-repo .md pointer or PyMuPDF-resolved PDF, +14 boosted), unverifiable=9 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=14, quote_not_found_extraction=0 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=mixed."
+    },
+    "low_trust": false
+  }
+}

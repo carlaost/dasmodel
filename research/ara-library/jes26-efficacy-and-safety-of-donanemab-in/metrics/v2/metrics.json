@@ -1,0 +1,85 @@
+{
+  "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+  "genre": "clinical_trial",
+  "doi": "10.1016/j.tjpad.2026.100605",
+  "n_claims": 10,
+  "n_experiments": 8,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_datasets": 1,
+    "n_trials": 1
+  },
+  "gates": {
+    "seal_L1_structural_pass": true,
+    "all_links_resolve": true,
+    "no_orphan_experiments": true,
+    "grounding_layer_present": true,
+    "_detail": {
+      "seal_L1": 1.0,
+      "binding": 1.0,
+      "orphan_experiments": []
+    },
+    "gates_passed": 4,
+    "gates_total": 4
+  },
+  "rankers": {
+    "grounding_verified": {
+      "value": null,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+    },
+    "falsifiability_presence": {
+      "value": 1.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "PROXY: presence only; quality is [sem]-pending"
+    },
+    "negative_result_share": {
+      "value": 0.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "dead_end_density": {
+      "value": 0.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "corrective_science_score": {
+      "value": 12,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "translation_trial_linkage": {
+      "value": 1,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "environment_completeness": {
+      "value": 1.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "executable_reproduction_L3": {
+      "value": "N/A",
+      "quality": "paper_quality",
+      "applies": false,
+      "reason": "no code artifact"
+    }
+  },
+  "verified_grounding_detail": {
+    "quotes_present": 23,
+    "quotes_unverifiable_in_repo": 23,
+    "quotes_checkable": 0,
+    "quotes_verified": 0,
+    "verified_ratio": null,
+    "self_contained_grounding_ratio": 0.0
+  },
+  "v1_grounding_presence": 0.939
+}

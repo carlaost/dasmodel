@@ -1,0 +1,13 @@
+# Magnetic Resonance Imaging and Cerebrospinal Fluid Biomarker Clustering Defines Biological Subtypes of Alzheimer’s Disease
+
+- **Cite key**: Chr25
+- **Authors**: Rafail C. Christodoulou; Georgios Vamvouras; M. Sarquis; Vasileia Petrou; Platon S. Papageorgiou; Ludwing Rivera; Celimar Morales; Gipsany Rivera; Evros K. Vassiliou; Elena E. Solomou; S. Papageorgiou
+- **Year**: 2025  (2025-10-27)
+- **Journal**: Biomedicines
+- **DOI**: 10.3390/biomedicines13112632
+- **URL**: https://doi.org/10.3390/biomedicines13112632
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background/Objectives: Alzheimer’s disease (AD) exhibits clinical and biological variability. This study aimed to identify MRI-defined subtypes reflecting distinct biological pathways of neurodegeneration and cognitive decline. Methods: We applied principal component analysis followed by k-means clustering (k = 3) on volumetric MRI data from 924 participants and validated clusters using cerebrospinal fluid (CSF) biomarkers (Aβ42, total tau, p-tau, CTRED, MAPres, glucose, CTWHITE). Results: Three major phenotypes emerged: (1) a tau/vascular limbic subtype with pronounced hippocampal and amygdala atrophy and elevated tau and CTRED levels; (2) a volume-preserved, low-amyloid subtype consistent with early-stage or cognitively resilient AD; and (3) a diffuse-atrophy subtype with high amyloid and tau burden and ventriculomegaly. Comparative analysis revealed progressive biological shifts from amyloid accumulation to tau aggregation and vascular compromise across these clusters. Conclusions: MRI-based clustering validated by CSF biomarkers delineates biologically meaningful AD endophenotypes. The results suggest a gradual cognitive decline driven by amyloid–tau–vascular interactions, supporting multimodal phenotyping as a practical approach for precision staging and intervention.

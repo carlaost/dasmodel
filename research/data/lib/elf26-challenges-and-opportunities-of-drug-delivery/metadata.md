@@ -1,0 +1,13 @@
+# Challenges and Opportunities of Drug Delivery for Treatment of Alzheimer’s Disease
+
+- **Cite key**: Elf26
+- **Authors**: M. A. Abd El-Fattah
+- **Year**: 2026  (2026-01-01)
+- **Journal**: AAPS PharmSciTech
+- **DOI**: 10.1208/s12249-025-03316-z
+- **URL**: https://doi.org/10.1208/s12249-025-03316-z
+- **Citations**: 2 (3.9/yr)
+
+## Abstract
+
+Alzheimer’s disease (AD) is a neurodegenerative disorder characterized by progressive deterioration in cognitive functions. It represents a global health concern with increasing prevalence and devastating outcomes for the quality of life that could ultimately lead to death. AD is associated with deposition of β-amyloid (Aβ) plaques and intracellular buildup of tau proteins forming neurofibrillary tangles (NFTs), which are the main characteristics for AD brain tissues. Approved AD therapy is based mainly on symptomatic relief, and conventional medicaments often fail due to either low bioavailability, limited solubility, or failure to cross blood–brain barrier (BBB). The complexity in AD pathophysiology opens windows for many therapeutic options. So, lecanemab was recently approved by FDA as the first disease-modifying therapy. However, drug delivery to the brain remains challenging due to the nature of BBB. Hence, more extensive research is essential to develop disease-modifying therapies and also to find drug delivery strategies to ensure simplified administration and successful brain delivery. This review article summarizes AD pathogenesis with the corresponding treatment targets. It emphasizes innovative drug delivery strategies and novel formulation approaches to deliver medicines across BBB. The use of recent advancements in drug delivery to deliver medicaments across BBB are highlighted, with focus given to novel drug delivery systems and formulation of nanoparticles for brain targeting. The use of nutraceuticals, gene therapy, and stem cell therapy are is covered.

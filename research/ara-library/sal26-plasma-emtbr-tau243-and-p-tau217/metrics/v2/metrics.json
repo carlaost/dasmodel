@@ -1,0 +1,85 @@
+{
+  "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+  "genre": "cohort_study",
+  "doi": "10.1001/jamaneurol.2026.1405",
+  "n_claims": 4,
+  "n_experiments": 4,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_datasets": 2,
+    "n_trials": 1
+  },
+  "gates": {
+    "seal_L1_structural_pass": true,
+    "all_links_resolve": false,
+    "no_orphan_experiments": true,
+    "grounding_layer_present": true,
+    "_detail": {
+      "seal_L1": 1.0,
+      "binding": 0.933,
+      "orphan_experiments": []
+    },
+    "gates_passed": 3,
+    "gates_total": 4
+  },
+  "rankers": {
+    "grounding_verified": {
+      "value": 1.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+    },
+    "falsifiability_presence": {
+      "value": 1.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "PROXY: presence only; quality is [sem]-pending"
+    },
+    "negative_result_share": {
+      "value": 0.2,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "dead_end_density": {
+      "value": 0.25,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "corrective_science_score": {
+      "value": 0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "translation_trial_linkage": {
+      "value": 1,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "environment_completeness": {
+      "value": 1.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "executable_reproduction_L3": {
+      "value": "N/A",
+      "quality": "paper_quality",
+      "applies": false,
+      "reason": "no code artifact"
+    }
+  },
+  "verified_grounding_detail": {
+    "quotes_present": 5,
+    "quotes_unverifiable_in_repo": 0,
+    "quotes_checkable": 5,
+    "quotes_verified": 5,
+    "verified_ratio": 1.0,
+    "self_contained_grounding_ratio": 1.0
+  },
+  "v1_grounding_presence": 1.0
+}

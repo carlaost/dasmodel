@@ -1,0 +1,15 @@
+{
+  "idx": 436,
+  "cite_key": "Shi25d",
+  "title": "Single-nucleus multi-omics identifies shared and distinct pathways in Pick’s and Alzheimer’s disease",
+  "authors": "Zechuan Shi; Sudeshna Das; S. Morabito; Jennifer T. Stocksdale; Emily Miyoshi; Shushrruth Sai Srinivasan; Nora Emerson; Arshi Shahin; N. Rahimzadeh; Zhenkun Cao; Justine Silva; Andres A Castaneda; Elizabeth Head; L.M. Thompson; Vivek Swarup",
+  "year": "2025",
+  "pub_date": "2025-11-12",
+  "journal": "Science Advances",
+  "abstract": "The study of transcriptomic and epigenomic variations in neurodegenerative diseases, particularly tauopathies like Pick’s disease (PiD) and Alzheimer’s disease (AD), offers insights into their underlying regulatory mechanisms. Here, we identified critical regulatory changes driving disease progression, revealing potential therapeutic targets. Our comparative analyses uncovered disease-enriched noncoding regions and genome-wide transcription factor (TF) binding differences, linking them to target genes. Notably, we identified a distal human-gained enhancer (HGE) associated with E3 ubiquitin ligase (UBE3A), highlighting disease-specific regulatory alterations. Additionally, fine mapping of AD risk genes uncovered loci enriched in microglial enhancers and accessible in other cell types. Shared and distinct TF binding patterns were observed in neurons and glial cells across PiD and AD. We validated our findings using CRISPR to excise a predicted enhancer region in UBE3A and developed an interactive database, scROAD, to visualize predicted single-cell TF occupancy and regulatory networks.",
+  "citation_count": "2",
+  "citations_per_year": "3.1",
+  "doi": "10.1126/sciadv.ads7973",
+  "url": "https://doi.org/10.1126/sciadv.ads7973",
+  "slug": "shi25d-single-nucleus-multi-omics-identifies-shared"
+}

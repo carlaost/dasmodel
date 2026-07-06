@@ -1,0 +1,13 @@
+# Nose-to-Brain Drug Delivery Strategies for Alzheimer’s Disease: Advancing Therapeutic Efficacy and Patient Outcomes
+
+- **Cite key**: Sin26
+- **Authors**: Jeewanjot Singh; Subhi Sharma; Ramandeep Singh; Prabhjot Singh
+- **Year**: 2026  (2026-06-09)
+- **Journal**: Neuroscience Research and Clinical Practice
+- **DOI**: 10.64229/cztyf245
+- **URL**: https://doi.org/10.64229/cztyf245
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Alzheimer’s disease (AD) is a progressive neurodegenerative disease characterised by memory disabilities, cognitive impairment, and dysfunction of neurons that can be attributed to the deposition of amyloid-β plaques and hyperphosphorylated tau protein buildup. Those pharmacotherapies available, namely donepezil, rivastigmine, galantamine, and memantine, are symptomatic and limited by a lack of optimal blood-brain barrier permeability. Constituting a non-invasive modality, nose-to-brain drug delivery represents an effective and promising alternative that avoids the BBB of drugs through the method of olfactory and trigeminal nerve routes to it, which allows the direct delivery of therapeutic agents into the central nervous system. The rationale of this method is as follows: the bioavailability of the brain is stimulated, preventing additional harm to the body, and increasing patient compliance. Scientific methods like nanoparticles, liposomes, micelles, hydrogels and mucoadhesive carriers also improve the stability of drugs, retention and controlled release further. The preclinical and early clinical trials have shown that intranasal delivery of molecules such as insulin, curcumin-loaded nanoparticles, and donepezil has the potential to enhance and improve cognition, reduce amyloid burden and provide neuroprotection. However, there still exist translational barriers, which include long-term safety, scalability, cost and approval to use chronically, intranasally. Individual differences that are genotype-dependent, especially in the case of APOEε4 carriers, point to the need for personalised treatment paradigms. The research in the future must focus on large-scale, stratified clinical randomised trials, systematic assessment of chronic safety, and adoption of digital tools for adherence. Altogether, nose-to-brain drug delivery is a revolutionary way of clinical AD therapy as it provides a patient-centered, efficient, and focused approach to enhance the therapeutic effect and improve the quality of life of sufferers.

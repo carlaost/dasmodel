@@ -1,0 +1,123 @@
+slug: woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms
+fulltext_file: research/metrics/v3/fulltext/woj25.txt
+n_claims_checked: 8
+n_faithful: 5
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: >
+      Paper states both C231D181 and C231D217 are Simoa "sandwich immunoassays" designed "for CSF
+      and plasma detection" of dual-phosphorylated tau, and that "run with a mix of single-site
+      phosphorylated peptides resulted in a blank level signal, showing that double-phosphorylation
+      is required to form immunocomplex and produce the signal" (Technical validation section).
+      LLOQ/ULOQ, intra/inter-assay CV, dilution linearity, and spike-recovery are all reported for
+      both assays exactly as summarized. No numeric or directional mismatch found.
+  - claim_id: "C02"
+    faithful: false
+    infidelity_type: "number_mismatch"
+    paper_quote: "ROC analysis performed for CSF p-tau181, p-tau231, and p-tau181&231 measured in the validation cohort confirmed high accuracy of all three assays in discriminating NDC vs. MCI-AD and NDC vs. AD-dem (AUC range = 0.991–1.000; Supplementary Table 15, 16). ... ROC analysis performed for CSF p-tau217, p-tau231, and p-tau217&231 measured in the validation cohort confirmed the high accuracy of all three assays ... (AUC range = 0.927–1.000), with CSF p-tau217 showing the highest AUC values for all comparisons"
+    note: >
+      The discovery-cohort range (0.986-1.000) is verbatim-identical in the paper for both the
+      {p181,p231,p181&231} group and the {p217,p231,p217&231} group, so that half of the claim is
+      faithful. But in the validation cohort the paper reports two DIFFERENT ranges: 0.991-1.000 for
+      the {p181,p231,p181&231} trio (which includes CSF p-tau181&231) and 0.927-1.000 for the
+      {p217,p231,p217&231} trio (which includes CSF p-tau217&231). The claim collapses these into a
+      single "validation CSF AUC range 0.927-1.000" attributed to both p-tau181&231 and p-tau217&231
+      together, which understates/misstates the validation-cohort accuracy actually reported for CSF
+      p-tau181&231 (whose own group's floor is 0.991, not 0.927). The number 0.927 exists in the
+      paper but is drawn from the wrong marker's range.
+  - claim_id: "C03"
+    faithful: false
+    infidelity_type: "polarity_inversion"
+    paper_quote: "In the ROC analysis for NDC vs. all combined AD continuum groups (MCI-AD and AD-dem), plasma p-tau217&231 resulted in the highest nominal AUC (AUC = 0.979, 95% CI 0.945–1.000) among the compared plasma markers but no statistically significant difference was observed in comparison with AUC values obtained for plasma p-tau217 or p-tau231 (Fig. 3a)."
+    note: >
+      The claim cites AUC = 0.979 (discovery) and 0.968 (validation) for "NDC vs all combined AD
+      continuum" and then asserts "a statistically significant difference from plasma p-tau217 but
+      not always from plasma p-tau231" for that same comparison. For the discovery-cohort AUC=0.979
+      figure specifically, the paper explicitly states the OPPOSITE: "no statistically significant
+      difference was observed ... with plasma p-tau217 or p-tau231" -- i.e. NOT significant vs
+      either marker, contradicting the claim's assertion of significance vs p-tau217. Separately, for
+      the validation-cohort AUC=0.968 figure, the paper states it "was significantly different from
+      AUCs obtained for plasma p-tau217 AND p-tau231" (i.e. significant vs BOTH), which contradicts
+      the claim's "not always ... from plasma p-tau231" for that same data point. The
+      "significant vs p217, not vs p231" wording the claim uses is a real paper quote, but it
+      describes a different analysis entirely (validation-cohort NDC-vs-MCI-AD / NDC-vs-AD-dem
+      individual-stage comparisons, Supplementary Table 16), not the "NDC vs all combined AD
+      continuum" AUC values (0.979/0.968) the Statement pairs it with.
+  - claim_id: "C04"
+    faithful: true
+    note: >
+      Matches paper text closely: "Plasma p-tau181&231 levels did not significantly differ between
+      NDC and any of the AD continuum groups" and "a negligible effect size was noted for
+      p-tau181&231 (d < 0.2)"; correlation text: "plasma p-tau181&231 did not correlate with CSF and
+      plasma p-tau181, p-tau231 nor with its CSF equivalent (CSF p-tau181&231)". AUC values 0.514
+      (0.320-0.709) and 0.579 (0.383-0.775) appear verbatim in the paper for NDC vs MCI-AD / AD-dem.
+  - claim_id: "C05"
+    faithful: false
+    infidelity_type: "unsupported_addition"
+    paper_quote: "In CSF, the biggest median concentration fold change was reported for p-tau217&231 in the discovery cohort (CSF p-tau217&231 discovery cohort AD-dem/NDC = 18.13) and p-tau217 (CSF p-tau217 validation cohort AD-dem/NDC = 8.51) (Supplementary Table 17)."
+    note: >
+      The Statement asserts p-tau217&231 "showed the highest median concentration fold change ...
+      among all measured markers in both CSF and plasma," implying dominance across both matrices
+      in both cohorts. The individual numeric examples given (plasma discovery 13.63, plasma
+      validation 20.6, CSF discovery 18.13) are all accurate, but the paper explicitly states that in
+      the VALIDATION cohort's CSF measurements, p-tau217 (not p-tau217&231) had the biggest
+      AD-dem/NDC fold change (8.51) -- an exception the claim never surfaces despite the Statement's
+      blanket "in both CSF and plasma" wording (notably, the compiler's own examples conspicuously
+      omit a validation-CSF p-tau217&231 number). This is an unsupported over-generalization not
+      backed by the full text.
+  - claim_id: "C06"
+    faithful: true
+    note: >
+      Near-verbatim match to Discussion: "the diagnostic performance of p-tau181&231 significantly
+      differs between the two matrices. The lack of agreement between CSF and plasma might arise due
+      to differences in each matrix environment, driving altered tau processing." Cross-matrix
+      non-correlation is separately confirmed by Fig. 1a data underlying C04. The claim's
+      Interpretation is explicitly flagged in the ARA itself as an interpretive hypothesis, matching
+      the paper's own hedged framing (citing truncation refs 16, 35-37, 39 in the Discussion).
+  - claim_id: "C07"
+    faithful: true
+    note: >
+      The elevation-vs-NDC clause is a verbatim match to the paper's abstract: "CSF and plasma
+      p-tau217&231, p-tau181, p-tau217, and p-tau231 and CSF, but not plasma, p-tau181&231 were
+      significantly elevated in all AD continuum groups vs. Neurological Disease Control group."
+      "CSF p-tau181, p-tau231, and p-tau181&231 levels did not significantly differ between NDC and
+      FTD" matches directly. AD-dem vs FTD AUC ranges match exactly: CSF 0.934-0.978 ("ROC analysis
+      showed CSF p-tau217, p-tau231, and p-tau217&231 to effectively discriminate between AD-dem vs.
+      FTD (AUC range = 0.934-0.978)") and plasma 0.803-0.904 ("Measurement of plasma p-tau217,
+      p-tau231, and p-tau217&231 allowed for an effective discrimination between AD-dem and FTD (AUC
+      range = 0.803-0.904)").
+  - claim_id: "C08"
+    faithful: true
+    note: >
+      All four AUC/CI values match verbatim: discovery "A+ vs. A- AUC = 0.979, 95% CI 0.945-1.000;
+      A+T+ vs. other AUC = 0.973, 95% CI 0.934-1.000 ... yielded the highest standardized effect
+      size" and validation "A+ vs. A- groups (AUC = 0.914, 95% CI 0.855-0.973) and A+T+ vs. other
+      groups (AUC = 0.894 95% CI 0.831-0.957) ... yielded the highest standardized effect size."
+      Scope (plasma markers, AT-profile grouping) matches exactly.
+infidelities:
+  - claim_id: "C02"
+    type: "number_mismatch"
+    paper_quote: "ROC analysis performed for CSF p-tau181, p-tau231, and p-tau181&231 measured in the validation cohort confirmed high accuracy of all three assays ... (AUC range = 0.991–1.000; Supplementary Table 15, 16). ... ROC analysis performed for CSF p-tau217, p-tau231, and p-tau217&231 measured in the validation cohort confirmed the high accuracy of all three assays ... (AUC range = 0.927–1.000), with CSF p-tau217 showing the highest AUC values for all comparisons"
+    note: >
+      "Validation CSF AUC range 0.927-1.000" is attributed to both CSF p-tau181&231 and CSF
+      p-tau217&231 jointly, but the paper reports the CSF p-tau181&231 marker's own group range as
+      0.991-1.000 in validation; the 0.927 floor belongs only to the p-tau217/p-tau231/p-tau217&231
+      group.
+  - claim_id: "C03"
+    type: "polarity_inversion"
+    paper_quote: "In the ROC analysis for NDC vs. all combined AD continuum groups (MCI-AD and AD-dem), plasma p-tau217&231 resulted in the highest nominal AUC (AUC = 0.979, 95% CI 0.945–1.000) among the compared plasma markers but no statistically significant difference was observed in comparison with AUC values obtained for plasma p-tau217 or p-tau231 (Fig. 3a)."
+    note: >
+      For the discovery-cohort AUC = 0.979 figure the claim cites, the paper found NO significant
+      difference vs. plasma p-tau217 (or p-tau231) -- directly contradicting the claim's assertion of
+      "a statistically significant difference from plasma p-tau217" for that comparison. The
+      significance language the claim uses instead describes a separate validation-cohort
+      individual-stage analysis (Supplementary Table 16), misapplied to the combined-comparison AUC
+      values in the Statement.
+  - claim_id: "C05"
+    type: "unsupported_addition"
+    paper_quote: "In CSF, the biggest median concentration fold change was reported for p-tau217&231 in the discovery cohort (CSF p-tau217&231 discovery cohort AD-dem/NDC = 18.13) and p-tau217 (CSF p-tau217 validation cohort AD-dem/NDC = 8.51) (Supplementary Table 17)."
+    note: >
+      The Statement's blanket "highest ... in both CSF and plasma" is contradicted for the
+      validation-cohort CSF measurements, where the paper states p-tau217 (not p-tau217&231) had the
+      largest AD-dem/NDC fold change.

@@ -1,0 +1,56 @@
+paper:
+  slug: ada26-adult-human-ex-vivo-brain-slices
+  doi: 10.64898/2026.01.12.698855
+  title: Adult human ex vivo brain slices for dissecting glial biology and multicellular communication
+
+pdf:
+  oa: true
+  downloaded: false
+  path: null
+  url: https://www.biorxiv.org/content/10.64898/2026.01.12.698855v1.full.pdf
+  source: preprint
+
+code:
+  - url: https://github.com/naomihabiblab/HumanOrganotypicTNF
+    host: github
+    verified: true
+    note: >
+      Naomi Habib lab (corresponding author) repo. README titled exactly
+      "Adult human ex vivo brain slices for dissecting glial biology and
+      multicellular communication" and states it contains the analysis
+      scripts used to process the bulk RNA-seq and snRNA-seq data and
+      generate the manuscript figures (WGCNA across TNFα/LPS/H2O2/BLM/control,
+      cell-type-specific TNFα snRNA-seq DE, external-dataset validation,
+      MultiNicheNet cell-cell communication). R-only; also bundles
+      Supplementary Tables 1-5 (.xlsx) under data/. No data accession in repo.
+
+data:
+  - name: Adult human organotypic brain slice bulk RNA-seq and snRNA-seq (generated in this study)
+    identifier: null
+    repository: null
+    access: unknown
+    verified: false
+  # No public accession located. Europe PMC record PPR1228173 has hasData=N;
+  # GEO/GDS search returned no matching series (likely not yet released or
+  # under embargo for this Jan 2026 v1 preprint). Data availability statement
+  # in the full text could not be retrieved (bioRxiv full text/JATS blocked by
+  # Cloudflare). No accession is recorded rather than fabricate one.
+
+clinical_trials: []
+
+notes: >
+  bioRxiv preprint (v1, 2026-01-12; Habib lab, Hebrew University of Jerusalem),
+  not peer reviewed; license cc_no. Basic-science / methods paper establishing
+  an adult human organotypic brain slice culture platform (from neurosurgical
+  resections) to study glial biology and TNFα-driven multicellular crosstalk
+  via bulk RNA-seq and snRNA-seq. No clinical trial — no NCT ids in abstract or
+  metadata. Code is openly available and verified at
+  github.com/naomihabiblab/HumanOrganotypicTNF (matches title/authors/topic).
+  Raw sequencing data: no public GEO/SRA/EGA/ArrayExpress accession found
+  (Europe PMC hasData=N, GEO empty); the primary data availability statement
+  could not be fetched because bioRxiv full text and JATS XML are behind a
+  Cloudflare challenge (403). The repo redistributes Supplementary Tables 1-5.
+  PDF is open access on bioRxiv but the automated download was blocked by
+  Cloudflare (returned an HTML challenge, not a PDF), so downloaded:false with
+  the canonical PDF URL recorded. Unpaywall does not index this new
+  10.64898 DOI prefix (returned is_oa:false).

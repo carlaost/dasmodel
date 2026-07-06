@@ -1,0 +1,80 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Sources quote paper.pdf §3.1 giving 192 trials/158 drugs verbatim; matches Statement exactly."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Specifies an independent re-enumeration of ClinicalTrials.gov under the stated inclusion rules on the stated date -- a genuinely re-runnable check against external source data, not a rewording of the statement."}
+    scope_calibration: {verdict: calibrated, note: "Explicitly scoped to 'the Index Date' and Interpretation notes the count is a lower bound (non-US/irregular registrations under-captured) -- appropriately hedged."}
+    novelty: {verdict: incremental, note: "RW04/RW05 show this is the same annual census methodology (Cummings 2024/2025) applied to a new year's data -- new numbers, not a new method or concept."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Abstract quote gives the exact 39/34/18/10% split and the 116=73% DTT figure cited in the Statement."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "A re-classification exercise against the same public trial registry is independently repeatable, though classification of 'declared therapeutic intent' has acknowledged ambiguity (own Interpretation says so)."}
+    scope_calibration: {verdict: calibrated, note: "Percentages stated as pipeline composition on the census date, no universal claim beyond that."}
+    novelty: {verdict: incremental, note: "Applies the paper's own established DTT/STT taxonomy to this year's agent set."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "Quote gives exact per-phase drug/trial counts (54/36, 89/84, 49/45) matching the Statement."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Phase-by-phase recount from the registry with explicit tie-break rule (higher phase for spanning trials) is a real, specified, independently repeatable procedure."}
+    scope_calibration: {verdict: calibrated, note: "Purely descriptive counts; Interpretation's 'innovation engine' framing is a label on the data, not an extrapolation beyond it."}
+    novelty: {verdict: incremental, note: "Same phase-classification method as prior years' censuses, new counts."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "Quote gives the exact 54,728/38,417/13,961/2,350 figures matching the Statement; internal check: 38417+13961+2350=54728 exactly."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Re-summing target enrollment fields from the same public registry is a real, independently reproducible arithmetic check against source data (not a rephrasing of the claim)."}
+    scope_calibration: {verdict: calibrated, note: "Scoped to 'currently active trials'; no broader claim made."}
+    novelty: {verdict: incremental, note: "Enrollment-demand tabulation is the same annual-review calculation applied to new data."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "Quote matches Statement's industry-sponsorship figures exactly (113/59%, 39/72%, 43/48%, 31/63%)."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Independent re-classification of lead sponsors as industry/non-industry from registry records is a real, specified check."}
+    scope_calibration: {verdict: calibrated, note: "Descriptive sponsorship shares for this pipeline census; Interpretation appropriately hedges 'concentrates in' rather than claiming universality."}
+    novelty: {verdict: incremental, note: "Same sponsorship-classification method as prior censuses."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "Quote matches the 35%/56 agents/73 trials/38% figures in the Statement exactly; internal check 56/158=35.4%, 73/192=38.0% consistent."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Comparison against DrugBank is a genuinely independent external database check -- the strongest falsification criterion in this ARA."}
+    scope_calibration: {verdict: calibrated, note: "Descriptive share of the current pipeline; Interpretation's non-industry-vs-industry comparison is drawn directly from cited Discussion text."}
+    novelty: {verdict: incremental, note: "Repurposing tabulation via the same DrugBank-comparison method used previously."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Quote gives exact category counts (38/24%, 28/18%, 25/16%, 15/9%) and the '17 categories' figure matching the Statement; percentages check out against the 158-drug denominator."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Re-mapping agents onto CADRO categories is a specified, independently repeatable classification procedure, though Interpretation itself flags mechanism-assignment ambiguity for multi-target agents."}
+    scope_calibration: {verdict: calibrated, note: "Descriptive mechanism-mix of the current pipeline; no claim beyond what CADRO classification supports."}
+    novelty: {verdict: incremental, note: "CADRO is an imported classification scheme (RW06, Liggins et al. 2014); this claim applies it to new data, not a new concept."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "Quote gives the exact 2025-vs-2026 (182/138 vs 192/158) and decade-scale (~35%/~40%) figures cited in the Statement; RW04/RW05 independently confirm the prior-year numbers as the paper's own earlier published counts."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Checkable against the paper's own annual-review series (RW04/RW05) -- an external, already-published check, not a rewording."}
+    scope_calibration: {verdict: calibrated, note: "Growth stated over explicit, named time windows (2025->2026; 2017-2026), not extrapolated further."}
+    novelty: {verdict: restatement, note: "The 2025 figures (182/138) are directly restated from the prior year's own published census (RW04) as a comparison baseline."}
+  - claim_id: C09
+    evidence_relevance: {relevant: true, note: "Quote matches the 96(50%)/52(27%) biomarker figures exactly; 96/192=50% and 52/192=27.1% check out."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Auditing biomarker use per trial against registry/protocol records is a specified, independently repeatable check."}
+    scope_calibration: {verdict: calibrated, note: "Descriptive of the current trial set; amyloid-PET-as-most-common is a direct citation, not an extrapolation."}
+    novelty: {verdict: incremental, note: "Same biomarker-audit method as prior censuses, applied to new data."}
+  - claim_id: C10
+    evidence_relevance: {relevant: true, note: "Quote matches the Statement's amyloid/tau/inflammation share trajectory. NOTE: evidence/README.md itself flags that Figure 5B's plotted tau line visually ends near ~9%, while the cited §3.5 TEXT says ~20% -- the ARA faithfully transcribes the source paper's own internal figure/text inconsistency rather than silently resolving it in either direction; the quoted number is the one the Statement uses, so relevance holds, but this is a paper-level (not compiler) data-quality flag worth carrying forward."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Checkable against the same annual CADRO-share series (Figure 5B / underlying data) -- real, though the flagged figure/text mismatch above means 're-reading the source' can itself yield conflicting answers depending on whether you read the figure or the text."}
+    scope_calibration: {verdict: calibrated, note: "Trend stated over the explicit 2017-2026 window; no claim beyond that."}
+    novelty: {verdict: incremental, note: "Longitudinal trend continuation of the same multi-year CADRO-share series (RW04/RW05)."}
+compilation_fidelity_samples:
+  - fact: "192 clinical trials assessing 158 drugs on the Index Date (1 Jan 2026)"
+    pdf_location: "§3.1 Overview"
+    captured_in_ara: true
+    note: "Exact match, C01."
+  - fact: "116 DTTs = 73% of drugs; DTTs = 134 trials (70%)"
+    pdf_location: "§3.1 Overview"
+    captured_in_ara: true
+    note: "Drug-count figure (116/73%) captured in C02 Sources; the trial-count figure (134/70%) from the same sentence is present in the Sources quote but not separately asserted in the Statement -- a minor completeness gap, not a misrepresentation."
+  - fact: "54,728 total participants required; 38,417/13,961/2,350 by phase"
+    pdf_location: "§3.7 Trial participants"
+    captured_in_ara: true
+    note: "Exact match, C04; internal sum checks out."
+  - fact: "Figure 5B: inflammation 6%->~20%, tau 6%->~20%, amyloid 33%->~20%"
+    pdf_location: "§3.5 / Figure 5B"
+    captured_in_ara: true
+    note: "Captured verbatim in C10, including the paper's own text claim of tau reaching ~20% -- but evidence/README.md separately documents that Figure 5B's plotted tau curve looks closer to ~9%. This is a source-paper figure/text inconsistency that the ARA correctly flags rather than papering over; scored as faithfully captured (with the caveat noted), not as a compiler error."
+  - fact: "17 CADRO categories targeted; top targets 38(24%)/28(18%)/25(16%)/15(9%)"
+    pdf_location: "§3.1 Overview"
+    captured_in_ara: true
+    note: "Exact match, C07; percentages consistent with 158-drug denominator."
+  - fact: "56 repurposed agents (35%) in 73 trials (38%); 57% of non-industry vs 16% of industry pipeline"
+    pdf_location: "§3.9 Repurposed agents / §4 Discussion"
+    captured_in_ara: true
+    note: "Exact match, C06, drawn from two different sections (§3.9 and §4) and correctly attributed to each in Sources."
+  - fact: "192 trials in 2026 vs 182 in 2025; 158 drugs in 2026 vs 138 in 2025"
+    pdf_location: "§4 Discussion"
+    captured_in_ara: true
+    note: "Exact match, C08, and independently corroborated by RW04 (Cummings et al. 2025) citing the same 182/138 prior-year figures."

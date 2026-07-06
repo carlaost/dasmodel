@@ -1,0 +1,28 @@
+paper:
+  slug: 20226-2026-alzheimer-s-disease-facts-and
+  doi: 10.1002/alz.71345
+  title: "2026 Alzheimer's disease facts and figures"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC13098189?pdf=render
+  source: pmc
+code: []
+data: []
+clinical_trials: []
+notes: >
+  Annual Alzheimer's Association public-health report (Alzheimer's & Dementia).
+  This is a descriptive epidemiology and health-economics report, not a primary
+  research study: it synthesizes national surveillance and administrative data
+  rather than releasing a dataset, code, or registering a trial. Open access via
+  PubMed Central (PMCID PMC13098189); PDF downloaded from Europe PMC render
+  endpoint (7.9 MB, 13 pages, valid %PDF). Unpaywall reports is_oa=true,
+  oa_status=green. No Data Availability or Code Availability statement is present,
+  and Europe PMC hasData=N. Underlying figures derive from standard public
+  sources (US Census population projections, CDC/NCHS mortality via CDC WONDER,
+  Medicare/Medicaid claims (CMS), the Chicago Health and Aging Project (CHAP),
+  and the associated caregiver/brain-health survey for the Special Report); these
+  are cited data sources, not deposited accessions, so none are recorded as
+  verified dataset identifiers. No code repository and no clinical trial
+  registrations are associated with this report.

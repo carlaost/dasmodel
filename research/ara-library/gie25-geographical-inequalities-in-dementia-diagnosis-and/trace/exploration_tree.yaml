@@ -1,0 +1,76 @@
+# Exploration Tree — gie25-geographical-inequalities-in-dementia-diagnosis-and
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. Nodes are source-bounded to what the abstract states or directly
+# supports. No dead_end nodes are included because the abstract does not report failed analyses.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md abstract Background"]
+    title: "What evidence exists on geographical inequalities in dementia diagnosis and care access?"
+    description: >
+      The abstract states that the review aimed to explore evidence on geographical inequalities in
+      accessing services for dementia diagnosis and care.
+    children:
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md abstract Methods", "metadata.md abstract Results"]
+        title: "Run systematic search and dual-reviewer screening"
+        result: >
+          Five databases were searched in June 2024; the review screened 1321 studies, read 49 full
+          texts, and included 32 studies.
+        evidence: [C01]
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md abstract Methods"]
+            title: "Extract data and synthesize narratively"
+            result: >
+              Data were extracted by two researchers and synthesized narratively.
+            evidence: [C03, C04]
+            children:
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md abstract Results"]
+                title: "Characterize country distribution of included studies"
+                result: >
+                  Most included studies were conducted in the US, followed by the UK.
+                evidence: [C02]
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md abstract Results"]
+                title: "Identify recurring geographical inequality mechanisms"
+                result: >
+                  Inequalities were most often evidenced through service availability and suitability
+                  differences across regions within a country, including absent services.
+                evidence: [C03]
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md abstract Results"]
+                title: "Assess rural diagnosis and care-access challenges"
+                result: >
+                  Rural residents with dementia often experienced challenges in timely diagnosis and
+                  access to health and social care.
+                evidence: [C04]
+
+      - id: N07
+        type: pivot
+        support_level: explicit
+        source_refs: ["metadata.md abstract Results", "metadata.md abstract Conclusions"]
+        title: "From evidence synthesis to rural service and research agenda"
+        from: "Mapping geographical inequalities in diagnosis and care access"
+        to: "Recommending rural service improvement, residential-care research, and rarer-dementia research"
+        trigger: >
+          The abstract reports a residential-care evidence gap, rural Canada/Australia diagnosis-rate
+          models, and conclusions calling for increased and more suitable rural services.
+        evidence: [C04, C05]

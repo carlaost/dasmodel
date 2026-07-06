@@ -1,0 +1,61 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: false, note: "The four numeric quotes (sensitivity/specificity/AUROC/DOR) all match the Statement's values exactly. BUT the Statement's closing clause 'all at moderate certainty of evidence' extends a GRADE certainty rating to the diagnostic odds ratio (DOR) — the cited DOR source quote ('diagnostic odds ratio of 50·7 (40·6-63·4)') carries NO certainty qualifier in metadata.md; only sensitivity, specificity, and AUROC are explicitly graded 'moderate certainty of evidence' in the source text. This 'all' is an ungrounded generalization, structurally analogous to the MAPT-clause pattern (unsupported addition riding on an otherwise well-evidenced claim)."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'A comparably powered meta-analysis ... in which another assay yields a higher pooled AUROC/DOR' requires redoing the same type of literature-pooling exercise on largely the same underlying study base — a negation via re-analysis, not an independent test. The second disjunct ('p-tau217's pooled AUROC falls outside the reported CI') is near-tautological: the CI is definitionally what this exact analysis produced, so it cannot be independently violated without being a different analysis altogether."}
+    scope_calibration: {verdict: over_claim, note: "Same DOR-certainty over-extension as evidence_relevance: attributing 'moderate certainty of evidence' to the DOR when the source only grades sensitivity/specificity/AUROC. Otherwise the core ranking claim (p-tau217 highest-performing) is a calibrated restatement of the abstract's own headline finding."}
+    novelty: {verdict: novel, note: "Directly resolves the gap the paper itself states existed (O2: 'no comprehensive meta-analyses' of p-tau diagnostic performance) — first pooled, cross-assay quantitative ranking rather than a qualitative impression from individual studies."}
+  - claim_id: C02
+    evidence_relevance: {relevant: false, note: "Same pattern as C01: the DOR quote (13·4, 11·4-16·7) carries no certainty qualifier in metadata.md, yet the Statement claims 'all ... at low certainty of evidence' including the DOR. The three GRADE-qualified numbers (sensitivity/specificity/AUROC) are otherwise exactly grounded."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'A comparable meta-analysis reporting estimates outside these CIs, or a higher GRADE certainty rating' is a rerun-and-diverge test on the same evidence base/method, not an independent design."}
+    scope_calibration: {verdict: over_claim, note: "DOR-certainty extension issue (see evidence_relevance) is the only calibration flaw; the interpretive note ('most established in prior literature') is a reasonable unflagged inference, not asserted as a Sources-backed number."}
+    novelty: {verdict: incremental, note: "p-tau181 is explicitly framed as the already-established assay ('most established in prior literature' per Interpretation); this claim adds a pooled number to a biomarker whose general performance profile was already known, rather than reporting a new phenomenon."}
+  - claim_id: C03
+    evidence_relevance: {relevant: false, note: "Same DOR-certainty over-extension: DOR quote (20·2, 10·5-38·7) has no certainty qualifier in the source; Statement's 'all ... at moderate certainty of evidence' generalizes it anyway. The three graded metrics are exactly grounded."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation via a differently-outcome-ing comparable meta-analysis of the same evidence type — same-data/same-method mirror, not an independent pre-registrable test."}
+    scope_calibration: {verdict: over_claim, note: "DOR-certainty extension flaw as above. The Interpretation's 'wide CIs indicate fewer contributing studies' is a reasonable unasserted-as-fact inference, appropriately hedged."}
+    novelty: {verdict: incremental, note: "Same meta-analytic method applied to a secondary/less-studied assay within the same pooled analysis as C01; contributes a data point to the same table rather than a distinct finding."}
+  - claim_id: C04
+    evidence_relevance: {relevant: false, note: "Same DOR-certainty over-extension: DOR quote (41·2, 22·0-77·3) uncertified in source, but Statement claims 'all' four metrics at moderate certainty."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Same rerun-and-diverge pattern as C01-C03/C05; not an independently pre-committable test distinct from the meta-analysis itself."}
+    scope_calibration: {verdict: over_claim, note: "DOR-certainty extension flaw as above; otherwise the 'second-highest performer' framing is directly supported by the numbers (90·3% vs 91·1% AUROC)."}
+    novelty: {verdict: incremental, note: "Same pooling method applied to a fifth-listed assay (p-tau212); the 'approaches p-tau217's AUROC' observation is a derived comparison within the same table, not an independently novel finding."}
+  - claim_id: C05
+    evidence_relevance: {relevant: false, note: "Same DOR-certainty over-extension pattern: DOR quote (9·3, 7·0-12·2) uncertified in source; Statement's 'all ... at moderate certainty of evidence' again over-generalizes. The 'lowest AUROC and DOR of the five' clause is a correctly derived comparison across the other four claims' Sources (80·2 and 9·3 are indeed the minima), not itself in a single quote, but it is arithmetically verifiable from grounded numbers."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Both disjuncts (CI violation; a re-ranking above another assay) are checks performable only by redoing the same style of pooled analysis on largely the same literature — not an independent design."}
+    scope_calibration: {verdict: over_claim, note: "DOR-certainty extension flaw as above. The Interpretation ('may be more suited to detecting early amyloid pathology... abstract does not elaborate') is explicitly and appropriately hedged as speculation beyond the abstract."}
+    novelty: {verdict: incremental, note: "Same pooling method applied to the fifth and lowest-ranked assay; completes the table rather than introducing a new analytic contribution."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "Single Source quote reproduces the ~90% high-risk-of-bias finding verbatim and completely; Statement adds no ungrounded clauses."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "Unlike C01-C05, this is checkable by an independent team re-applying QUADAS-2 to the same 113 studies without needing to trust the original authors' ratings or rerun the pooling model — a genuine, pre-committable procedural audit of a categorical judgment call, not a same-pipeline numeric rerun."}
+    scope_calibration: {verdict: calibrated, note: "States the risk-of-bias figure and its stated cause (threshold derivation) without extending it into an unsupported claim about how much the pooled accuracy numbers are actually inflated."}
+    novelty: {verdict: novel, note: "First systematic (QUADAS-2-based) characterization of methodological quality across this specific 113-study evidence base; not previously quantified per O4/G2."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Sole quote reproduces the INTERPRETATION recommendation verbatim; the Statement's framing clause ('Despite p-tau217 being highly sensitive and specific...') is a faithful paraphrase of the abstract's adjacent sentence, not an added unsupported fact."}
+    falsifiability: {criteria_present: true, verdict: trivial, note: "The Statement is a forward-looking research-agenda recommendation, not an empirical claim about the world. Its stated falsification criterion ('demonstrating existing evidence already establishes real-world impact') is a rhetorical counter-argument, not a test that could have been pre-registered and run to produce a determinate outcome either way — recommendations for 'more research' are near-unfalsifiable by construction."}
+    scope_calibration: {verdict: calibrated, note: "Matches the abstract's own hedge exactly; does not claim p-tau217 is unready for any use, only that real-world/prospective evidence is still missing — consistent with C06's risk-of-bias finding it depends on."}
+    novelty: {verdict: restatement, note: "'Prospective real-world implementation studies are needed' is a boilerplate closing recommendation nearly universal to diagnostic-accuracy meta-analyses; it restates a generic methodological truism rather than contributing a specific, paper-particular insight."}
+compilation_fidelity_samples:
+  - fact: "Study flow: 6429 studies identified -> 312 assessed for eligibility -> 113 included, comprising 29,625 (printed '29 625') unique individuals"
+    pdf_location: "research/data/lib/the25-blood-phosphorylated-tau-for-the-diagnosis/metadata.md, Abstract FINDINGS opening sentence"
+    captured_in_ara: true
+    note: "Exact match in problem.md O3, PAPER.md claims_summary/abstract, and experiments.md E01 expected-outcome framing."
+  - fact: "p-tau217 pooled sensitivity 88.1% (86.7-89.5), specificity 88.7% (87.4-89.9), AUROC 91.1% (88.9-92.4) each explicitly 'moderate certainty of evidence'; DOR 50.7 (40.6-63.4) stated with NO certainty qualifier"
+    pdf_location: "metadata.md Abstract FINDINGS, p-tau217 sentence"
+    captured_in_ara: false
+    note: "claims.md C01 Statement says all four metrics are 'at moderate certainty of evidence' -- the source only grades sensitivity/specificity/AUROC per assay; DOR is never GRADE-rated in the abstract text. This same over-generalization recurs identically in C02, C03, C04, C05 (systematic, not a one-off typo)."
+  - fact: "Approximately 90% of studies rated high risk of bias for not using predefined or externally derived thresholds"
+    pdf_location: "metadata.md Abstract FINDINGS, final sentence"
+    captured_in_ara: true
+    note: "Verbatim match in claims.md C06 and problem.md O4/constraints.md."
+  - fact: "INTERPRETATION: p-tau217 highly sensitive/specific despite high risk of bias; prospective real-world implementation studies needed"
+    pdf_location: "metadata.md Abstract INTERPRETATION section"
+    captured_in_ara: true
+    note: "claims.md C07 quotes the second sentence verbatim and paraphrases the first faithfully."
+  - fact: "PROSPERO registration CRD42023422143; PRISMA-DTA guideline compliance"
+    pdf_location: "metadata.md Abstract METHODS, closing sentence"
+    captured_in_ara: true
+    note: "Correctly captured in related_work.md RW01 (registry, not a ClinicalTrials.gov trial) and RW02; matches metadata.md wording exactly."
+  - fact: "PAPER.md frontmatter 'abstract:' field FINDINGS section is truncated to two sentences ('...29,625 unique individuals. Plasma p-tau217 was the highest-performing biomarker.'), omitting all five assays' pooled numbers and the ~90% risk-of-bias sentence that are present in full in metadata.md"
+    pdf_location: "research/ara-library/.../PAPER.md frontmatter vs research/data/lib/.../metadata.md"
+    captured_in_ara: true
+    note: "Not a knowledge-layer loss -- claims.md correctly cites the full metadata.md text independently of PAPER.md's abbreviated convenience copy -- but PAPER.md's own 'abstract' field is not a faithful verbatim reproduction of the true source abstract, which is a minor internal-consistency wrinkle worth noting."

@@ -1,0 +1,29 @@
+paper:
+  slug: afi25-vision-and-convolutional-transformers-for-alzheimer
+  doi: 10.1186/s40708-025-00286-7
+  title: "Vision and convolutional transformers for Alzheimer's disease diagnosis: a systematic review of architectures, multimodal fusion and critical gaps"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC12764722?pdf=render
+  source: pmc
+
+code: []
+
+data: []
+
+clinical_trials: []
+
+notes: >
+  Systematic review (PRISMA 2020) in Brain Informatics (SpringerOpen), fully open access
+  under CC BY. PMID 41405782, PMCID PMC12764722. The article's Data Availability statement
+  reads verbatim: "No datasets were generated or analysed during the current study." No code
+  availability statement, no PROSPERO registration ID, and no GitHub/GitLab/Zenodo/OSF/figshare/Dryad
+  links authored by the review team were found in the full text. The review synthesizes 68 studies
+  (from 564 publications, 2021-2025) and discusses cohorts used by those reviewed studies (notably
+  ADNI, OASIS, AIBL, Kaggle MRI datasets) as well as the code-availability practices of the reviewed
+  works (Table 6, Fig. 42), but the review itself releases no dataset or repository. No clinical-trial
+  (NCT) identifiers appear in the paper. PDF verified as valid (18.5 MB, %PDF header) downloaded from
+  Europe PMC. Unpaywall confirms is_oa=true (publisher publishedVersion; url_for_pdf null, so PMC used).

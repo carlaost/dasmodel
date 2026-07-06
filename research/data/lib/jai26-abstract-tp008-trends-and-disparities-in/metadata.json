@@ -1,0 +1,15 @@
+{
+  "idx": 290,
+  "cite_key": "Jai26",
+  "title": "Abstract TP008: Trends and Disparities in Alzheimer Disease and Stroke-Related Deaths Among Older Adults in the United States: A CDC WONDER Analysis (1999-2023)",
+  "authors": "S. Jairamani; Fnu Sahil; R. Mannam; Areej Dar; Maha Sajjad; Anas Al Mardini; Praneeth Jasti; Asma Subhan; H. Wazir; Dheeraj Kumar; N. Tummala",
+  "year": "2026",
+  "pub_date": "2026-02-01",
+  "journal": "Stroke",
+  "abstract": "'\n Background:\n Stroke associated with Alzheimer’s disease is a major contributor to mortality among older adults, accounting for over 220,000 deaths between 1999 and 2023. Despite this burden, its long-term trends and demographic disparities in the United States remain inadequately characterized. Understanding these patterns is critical to identifying high-risk populations\n \n \n Methods:\n We used U.S mortality data from 1999 to 2023 from CDC WONDER multiple cause of death databases to identify older adults deaths where stroke associated with AD was an underlying or contributing case. Age adjusted mortality rates (AAMRs) per 100,000 (2000 U.S standard) were calculated with stroke (ICD codes I60–I64) associated with Alzheimer’s disease (ICD code G30). Joinpoint regression estimated annual percent change (APC) and 95% confidence intervals (CIs) stratified by sex race region and urbanization. Statistical significance was defined as p < 0.05.\n \n \n Results:\n From 1999-2023, 134,138 U.S. older adult deaths involved strokes associated with Alzheimer’s disease (AD). Women had higher AAMRs than men (13.86 vs.11.03) but followed similar patterns. By race/ethnicity, AAMRs were highest in non-Hispanic (NH) Black individuals (14.39), followed by NH White (13.10), Hispanic (9.79), and NH Asian/Pacific Islander (7.58). NH Asian/Pacific Islanders declined steadily, while other groups had mixed periods of decline, stability, and late-period decreases. Geographic variation was substantial, from 5.97 (Nevada) to 23.34 (Mississippi). Regionally, the West (15.05) and South (14.01) were highest; patterns included early stability, mid-period declines, occasional rebounds, and sharp 2020–2023 drops. Nonmetropolitan areas had higher AAMRs than metropolitan areas (16.88 vs. 12.19), with both showing long-term declines, brief stability or increases, and steep post-2021 reductions. Overall, mortality declined across most demographics, with the largest decreases after 2021.\n \n \n Conclusion:\n Mortality from stroke associated with Alzheimer’s disease in older adults has declined since 1999, with the most pronounced reduction after 2021. Persistent disparities by sex, race, ethnicity, geography, and urbanization highlight the need for targeted interventions and equitable healthcare access.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1161/str.57.suppl_1.tp008",
+  "url": "https://doi.org/10.1161/str.57.suppl_1.tp008",
+  "slug": "jai26-abstract-tp008-trends-and-disparities-in"
+}

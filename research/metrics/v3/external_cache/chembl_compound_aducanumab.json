@@ -1,0 +1,43 @@
+{
+  "count": 1,
+  "total": 1,
+  "compounds": [
+    {
+      "molecule_chembl_id": "CHEMBL3039540",
+      "pref_name": "ADUCANUMAB",
+      "molecule_type": "Antibody",
+      "max_phase": 4,
+      "first_approval": 2021,
+      "oral": false,
+      "parenteral": true,
+      "topical": false,
+      "black_box_warning": true,
+      "therapeutic_flag": true,
+      "natural_product": false,
+      "withdrawn_flag": false,
+      "availability_type": 1,
+      "chirality": 1,
+      "first_in_class": 1,
+      "usan_stem": "-mab",
+      "usan_stem_definition": "monoclonal antibodies: fully human",
+      "usan_year": 2013,
+      "atc_classifications": [
+        {
+          "level5": "N06DX03"
+        }
+      ],
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL3039540",
+        "molecule_chembl_id": "CHEMBL3039540",
+        "parent_chembl_id": "CHEMBL3039540"
+      },
+      "synonyms": [
+        "Aducanumab",
+        "Aducanumab-avwa",
+        "Aduhelm",
+        "BIIB-037",
+        "BIIB037"
+      ]
+    }
+  ]
+}

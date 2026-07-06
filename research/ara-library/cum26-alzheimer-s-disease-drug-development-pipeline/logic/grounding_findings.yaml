@@ -1,0 +1,172 @@
+# Frozen [sem] RC7 grounding findings — per-(number,quote) semantic support judgments.
+# Judged against paper.pdf (research/data/lib/cum26-.../paper.pdf) and internal arithmetic checks.
+- claim_id: C01
+  number: "158 drugs"
+  quote: "On the Index Date of January 1, 2026, we identified 192 clinical trials for AD assessing 158 drugs."
+  source: "paper.pdf §3.1 Overview"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Quote states both figures in one sentence; drug count matches."
+- claim_id: C01
+  number: "192 trials"
+  quote: "we identified 192 clinical trials for AD assessing 158 drugs"
+  source: "paper.pdf §3.1 Overview"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Same sentence as above; trial count matches."
+- claim_id: C02
+  number: "39% small-molecule DTTs, 34% biologic DTTs, 18% cognition STTs, 10% NPS STTs"
+  quote: "39% are small molecule disease targeting therapies (DTTs); 34% are biologic DTTs; 18% are cognition enhancing symptom targeted therapies (STTs); and 10% are STTs being developed to treat neuropsychiatric symptoms of AD."
+  source: "paper.pdf Abstract"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All four percentages match the Statement's breakdown exactly."
+- claim_id: C02
+  number: "116 DTTs = 73%"
+  quote: "There are 116 DTTs representing 73% of drugs in development; DTTs account for 134 (70%) of current clinical trials."
+  source: "paper.pdf §3.1 Overview"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches; quote also carries a trial-level DTT figure (134/70%) not asserted in the Statement -- extra context, not a mismatch."
+- claim_id: C03
+  number: "36/54 P3, 84/89 P2, 45/49 P1"
+  quote: "This included 54 trials assessing 36 drugs in Phase 3; 89 trials assessing 84 drugs in Phase 2; and 49 trials assessing 45 drugs in Phase 1 (Figure 1)."
+  source: "paper.pdf §3.1 Overview"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All six figures match; trial counts sum to 192 exactly (54+89+49)."
+- claim_id: C04
+  number: "54,728 total; 38,417/13,961/2,350 by phase"
+  quote: "To fully populate currently active trials, 54,728 participants are required: 38,417 in Phase 3; 13,961 in Phase 2; and 2,350 in Phase 1."
+  source: "paper.pdf §3.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Sums exactly (38417+13961+2350=54728)."
+- claim_id: C04
+  number: "70%/26%/4%"
+  quote: "Of the total number of required participants, 70% are needed for Phase 3, 26% are required for Phase 2, and 4% for Phase 1 trials."
+  source: "paper.pdf §3.7"
+  string_present: true
+  verdict: supports
+  value_match: rounded
+  polarity_ok: true
+  context_match: true
+  note: "70/26/4% are the rounded shares of 38417/13961/2350 out of 54728 (70.2/25.5/4.3%) -- consistent rounding."
+- claim_id: C05
+  number: "113(59%) all; 39(72%) P3; 43(48%) P2; 31(63%) P1"
+  quote: "The biopharmaceutical industry sponsors 113 (59%) of all clinical trials in the current AD pipeline, including 39 (72%) Phase 3 trials; 43 (48%) Phase 2 trials; and 31 (63%) Phase 1 trials."
+  source: "paper.pdf §3.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All figures match; 113/192=58.9%~59%, 39/54=72.2%~72%, 43/89=48.3%~48%, 31/49=63.3%~63% all check out against C03's phase totals."
+- claim_id: C06
+  number: "35% drugs; 56 agents; 73 trials; 38% of trials"
+  quote: "The 56 repurposed agents and 73 trials of repurposed drugs in the 2026 AD drug development pipeline represent 35% of the total number of drugs in trials and 38% of all trials."
+  source: "paper.pdf §3.9"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "56/158=35.4%~35%, 73/192=38.0%=38% -- exact."
+- claim_id: C06
+  number: "57% non-industry; 16% industry"
+  quote: "Repurposing represents 16% of the industry pipeline and 57% of the non-industry pipeline."
+  source: "paper.pdf §4 Discussion"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches the Interpretation field's figures exactly; correctly attributed to Discussion (not Results) in Sources."
+- claim_id: C07
+  number: "17 categories targeted"
+  quote: "Seventeen of the CADRO categories of AD pathophysiology are targeted by at least one drug in current clinical trials."
+  source: "paper.pdf §3.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Direct match."
+- claim_id: C07
+  number: "38(24%) neurotransmitter; 28(18%) inflammation; 25(16%) Abeta; 15(9%) tau"
+  quote: "Thirty-eight drugs (24%) in the pipeline target neurotransmitter receptors; 28 agents (18%) address inflammation/immune processes; 25 treatments (16%) target Aβ protein-related pathophysiology; 15 agents (9%) target tau-related processes"
+  source: "paper.pdf §3.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All four figures match exactly; percentages consistent with the 158-drug denominator."
+- claim_id: C08
+  number: "192/158 (2026) vs 182/138 (2025)"
+  quote: "The 192 clinical trials and 158 novel agents in the 2026 AD drug development pipeline expands on the 182 clinical trials assessing 138 drugs present in the 2025 pipeline."
+  source: "paper.pdf §4 Discussion"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches; 2025 figures also independently corroborated by RW04 (Cummings et al. 2025)."
+- claim_id: C08
+  number: "~35% trials, ~40% agents (2017-2026)"
+  quote: "The number of trials increased by approximately 35%, and the number of agents increased by approximately 40% during this interval (Figure 5A)."
+  source: "paper.pdf §3.5"
+  string_present: true
+  verdict: supports
+  value_match: rounded
+  polarity_ok: true
+  context_match: true
+  note: "Matches; decade-scale figure is distinct from the single-year 2025->2026 change above, and the claim keeps them clearly separated."
+- claim_id: C09
+  number: "96(50%) eligibility biomarker"
+  quote: "Among the 192 clinical trials, 96 (50%) have an inclusion biomarker for trial eligibility, with amyloid positron emission tomography (PET) identified as the most common biomarker modality (N = 49)."
+  source: "paper.pdf §3.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "96/192 = 50% exact."
+- claim_id: C09
+  number: "52(27%) primary-outcome biomarker"
+  quote: "Fifty-two (27%) active AD trials have a biomarker as a primary outcome measure (nine in Phase 3, 32 in Phase 2, and 11 in Phase 1)"
+  source: "paper.pdf §3.6"
+  string_present: true
+  verdict: supports
+  value_match: rounded
+  polarity_ok: true
+  context_match: true
+  note: "52/192=27.1%, rounds to 27% as stated."
+- claim_id: C10
+  number: "inflammation 6%->~20%; tau 6%->~20%; amyloid 33%->~20%"
+  quote: "the percentage of the pipeline devoted to inflammation/immune dysfunction drugs has increased from 6% to approximately 20%, tau targeted agents have increased from 6% to approximately 20%, and amyloid targeted agents have decreased from 33% to approximately 20% of the pipeline (Figure 5B)."
+  source: "paper.pdf §3.5"
+  string_present: true
+  verdict: supports
+  value_match: rounded
+  polarity_ok: true
+  context_match: false
+  note: "The quoted TEXT supports the Statement's numbers exactly, so verdict=supports/value_match=rounded on the text itself. But context_match is marked false because evidence/README.md documents that the cited Figure 5B (also named in this same source line) visually shows the tau curve ending near ~9%, not ~20% -- i.e. the two artifacts this single citation points to (text and figure) disagree on the tau endpoint. This is a genuine paper-internal inconsistency the ARA discloses rather than the compiler's fabrication; flagged here as the reason context_match fails for this one item."

@@ -1,0 +1,13 @@
+# APOE E4 Alzheimer’s Risk Converges on an Oligodendrocyte Subtype in the Human Entorhinal Cortex
+
+- **Cite key**: Huu25
+- **Authors**: Louise A. Huuki-Myers; Heena R. Divecha; Svitlana V. Bach; Madeline R. Valentine; N. Eagles; Bernard Mulvey; Rahul A. Bharadwaj; Ruth Zhang; James R. Evans; M. Grant-Peters; Ryan A. Miller; J. Kleinman; Shizhong Han; Thomas M. Hyde; S. Page; D. Weinberger; K. Martinowich; M. Ryten; Kristen R. Maynard; L. Collado-Torres
+- **Year**: 2025  (2025-11-20)
+- **Journal**: bioRxiv
+- **DOI**: 10.1101/2025.11.20.689483
+- **URL**: https://doi.org/10.1101/2025.11.20.689483
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+The entorhinal cortex (ERC) is implicated in early progression of Alzheimer’s disease (AD). Here we investigated the impact of established biological risk factors for AD, including APOE genotype (E2 versus E4 alleles), sex, and ancestry, on gene expression in the human ERC. We generated paired spatially-resolved transcriptomics (SRT) and single-nucleus RNA sequencing data (snRNA-seq) in postmortem human ERC tissue from middle aged brain donors with no history of AD. APOE-dependent changes in gene expression predominantly mapped to a transcriptionally-defined oligodendrocyte subtype, which varied substantially with ancestry, and suggested differences in oligodendrocyte differentiation and myelination. Integration of SRT and snRNA-seq data identified a common gene expression signature associated with APOE genotype, which we localized to the same oligodendrocyte subtype and a white matter spatial domain. This suggests that AD risk in ERC may be associated with disrupted oligodendrocyte function, potentially contributing to future neurodegeneration. Lay Summary Alzheimer’s disease (AD) is a neurodegenerative disorder that accounts for 60-80% dementia cases. Apolipoprotein E (APOE) genotype is the strongest genetic risk factor for AD, and the entorhinal cortex (ERC) is a brain region implicated in its earliest progression. Our study investigated how APOE genotype impacts gene expression in the ERC. We identified genotype-dependent effects on oligodendrocytes with different transcriptional profiles related to maturation that may help explain how APOE genotype mediates its effects on AD risk.

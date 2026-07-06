@@ -1,0 +1,61 @@
+# RC7 semantic grounding findings (frozen [sem] pass) for sal26-plasma-emtbr-tau243-and-p-tau217.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. This ARA is abstract-only (no
+# full text / OA PDF was ever obtained -- Unpaywall url_for_pdf is null and PMC/Europe PMC PDF
+# endpoints return no file, per evidence/README.md and sources.yaml). All cited sources are
+# "metadata.md (Abstract, ...)" pointers into research/data/lib/sal26-plasma-emtbr-tau243-and-p-tau217/
+# metadata.md, which was re-opened directly to confirm string_present below (this is the one case
+# where the underlying source text is actually available in-repo, unlike PDF-section-pointer ARAs).
+- claim_id: C01
+  number: "872 / 156"
+  quote: "In 872 BioFINDER-2 participants and 156 independent Knight Alzheimer Disease Research Center participants, a plasma model combining %p-tau217 and eMTBR-tau243 showed strong concordance with PET-based biological staging"
+  source: "metadata.md (Abstract, Findings)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring of the published abstract's Findings sentence, re-confirmed by direct read of metadata.md. Cohort sizes and the qualitative 'strong concordance' framing match the Statement precisely; no numeric concordance statistic exists in this quote or anywhere in the abstract to compare against."
+
+- claim_id: C01
+  number: "156"
+  quote: "and 156 independent Knight Alzheimer Disease Research Center participants"
+  source: "metadata.md (Abstract, Findings)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Redundant with the first C01 quote but isolates the independent-validation cohort size; verbatim match, correctly labeled 'independent' (consistent with related_work.md RW02's description of Knight ADRC as the independent validation cohort)."
+
+- claim_id: C02
+  number: "qualitative: outperformed %p-tau217-only, intermediate tau stage"
+  quote: "outperformed a %p-tau217-only model, particularly for identifying the intermediate tau stage"
+  source: "metadata.md (Abstract, Findings)"
+  string_present: true
+  verdict: supports
+  value_match: derived
+  polarity_ok: true
+  context_match: true
+  note: "value_match=derived because no numeric margin exists in the source (abstract reports this only qualitatively); the en-dash in the original ('%p-tau217–only') is preserved faithfully in claims.md, a good sign of verbatim extraction rather than paraphrase. Direction and scope ('particularly ... intermediate tau stage') match exactly, no overreach to 'outperforms at all stages.'"
+
+- claim_id: C03
+  number: "qualitative: stage-severity/biomarker/neuropathology association"
+  quote: "Advanced plasma stages also aligned with greater clinical severity, other biomarker abnormalities, and neuropathologic burden"
+  source: "metadata.md (Abstract, Findings)"
+  string_present: true
+  verdict: supports
+  value_match: derived
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring; all three named outcome domains (clinical severity, other biomarkers, neuropathology) are preserved in the Statement with no added or dropped domain and no invented direction/magnitude beyond 'greater.'"
+
+- claim_id: C04
+  number: "qualitative: forward-looking utility statement"
+  quote: "Plasma-based staging may provide a scalable, minimally invasive approach to biological stratification of Alzheimer disease, with potential value for treatment selection and clinical trial enrichment"
+  source: "metadata.md (Abstract, Meaning)"
+  string_present: true
+  verdict: supports
+  value_match: none
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match of the abstract's 'Meaning' sentence, correctly hedged with 'may' in both the source and the Statement. value_match=none since this is a purely interpretive/aspirational statement with no quantity to match; Status is correctly flagged 'hypothesis' rather than an established finding."

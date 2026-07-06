@@ -1,0 +1,13 @@
+# The role of built and social environments in Alzheimer's disease dementia prevalence in the United States: A machine learning approach
+
+- **Cite key**: Kra25
+- **Authors**: M. Kramer; A. Alekseyenko; Abe Mollalo
+- **Year**: 2025  (2025-09-01)
+- **Journal**: Journal of Alzheimer's Disease
+- **DOI**: 10.1177/13872877251372144
+- **URL**: https://doi.org/10.1177/13872877251372144
+- **Citations**: 2 (2.4/yr)
+
+## Abstract
+
+Background Emerging evidence suggests that the built environment (BE) and social vulnerability of communities play a critical role in the Alzheimer's disease (AD) dementia burden. However, to what extent they are predictive of dementia burden nationally and regionally remains understudied. Objective This study investigates the cross-sectional associations between county-level BE and social vulnerability index (SVI) variables and AD dementia prevalence across the US and identifies the key variables within each region. Methods We applied eXtreme Gradient Boosting (XGBoost) and Random Forest (RF) models nationally and regionally using a combined set of BE and SVI variables. Variable importance was assessed using SHapley Additive Explanations values. Results Significant regional differences in AD dementia prevalence were observed (F = 126.56, p < 0.05). XGBoost consistently outperformed RF when using SVI and BE variables, with the highest predictive accuracy observed in the Northeast (R² = 0.92), followed by the South (R² = 0.73), West (R² = 0.72), and Midwest (R² = 0.72). In the Northeast, BE variables alone explained most of the variance, with grocery store density and walkability emerging as key variables. In contrast, the BE-only model for the South performed poorly but improved substantially with the inclusion of SVI variables. In the Midwest and West regions, both BE and SVI variables contributed more evenly to the model predictions. Conclusions While BE variables are more influential in urbanized regions with increased infrastructure (Northeast), SVI variables play a stronger role in more socioeconomically disadvantaged regions (South), underscoring the need for region-specific interventions.

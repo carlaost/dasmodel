@@ -1,0 +1,97 @@
+# Exploration Tree — aks25-an-explainable-web-based-diagnostic-system
+# Research DAG: nested tree with typed nodes.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. The provided PDF is a different article (see PAPER.md), so the paper's
+# actual research trajectory (ablations, rejected alternatives, decision rationale) was NOT
+# available. Nodes marked `explicit` are directly stated in the abstract (source_refs: "Abstract");
+# `inferred` nodes are reconstructions of the paper's logic from the abstract. No dead_end nodes
+# are asserted because the abstract reveals no failed approaches (Rule 9 — a smaller honest tree).
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract (Background)"]
+    title: "Can an explainable, efficient DL system classify AD severity from 2D MRI well enough for clinical deployment?"
+    description: "AI neuroimaging for AD detection exists but clinical deployment is limited by poor model interpretability and usability. The study asks whether a system combining accurate DL classification, XRAI explanations, and a usable web interface can bridge that gap."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Abstract (Methods)"]
+        title: "Use a single public labelled MRI dataset rather than collecting a cohort"
+        choice: "Train/evaluate on the Kaggle Augmented Alzheimer MRI Dataset (33,984 augmented images, 4 severity classes)."
+        alternatives:
+          - "Collect a bespoke clinical MRI cohort"
+          - "Use a 3D-volume or multimodal (PET/CSF/clinical) dataset"
+        evidence: "Abstract names the augmented Kaggle dataset; sources.yaml verifies it as the sole open-access data source."
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Abstract (Methods)"]
+            title: "Compare three CNN architectures of differing size"
+            choice: "Train MobileNet-V3 Large, EfficientNet-B4, and ResNet-50."
+            alternatives:
+              - "Use a single fixed architecture"
+              - "Use Vision-Transformer-based models"
+            evidence: "Abstract lists the three architectures trained."
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract (Results)"]
+                title: "Evaluate the three architectures on the augmented test set"
+                result: "MobileNet-V3 Large achieved the highest accuracy (99.18% on the augmented test set) while using the fewest parameters (4.2M)."
+                evidence: [C01, C02]
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract (Results)"]
+                    title: "Evaluate generalization on the original (non-augmented) dataset"
+                    result: "MobileNet-V3 Large achieved 99.47% accuracy on the original dataset, indicating strong performance beyond the augmented distribution."
+                    evidence: [C01]
+
+                  - id: N06
+                    type: decision
+                    support_level: inferred
+                    title: "Select MobileNet-V3 Large as the deployed model"
+                    choice: "Deploy MobileNet-V3 Large for its combination of highest accuracy and fewest parameters."
+                    alternatives:
+                      - "Deploy EfficientNet-B4"
+                      - "Deploy ResNet-50"
+                    evidence: "Inferred from the abstract's statement that MobileNet-V3's efficiency confirmed 'its suitability for clinical use'."
+                    children:
+
+                      - id: N07
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Abstract (Methods, Results)"]
+                        title: "Integrate XRAI and assess neuroanatomical alignment"
+                        result: "XRAI region-based attribution maps aligned with known neuroanatomical patterns of AD progression, enhancing clinical interpretability."
+                        evidence: [C03, C05]
+
+                      - id: N08
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Abstract (Methods, Results)"]
+                        title: "Deploy a Gradio web interface and measure inference"
+                        result: "The web interface delivered sub-20-second inference with high classification confidence across all four AD severity levels."
+                        also_depends_on: [N07]
+                        evidence: [C04]
+
+      - id: N09
+        type: decision
+        support_level: explicit
+        source_refs: ["Abstract (Conclusion)"]
+        title: "Frame XRAI+MRI+DL integration as a novel contribution"
+        choice: "Position the work as the first systematic integration of XRAI into AD severity classification using MRI and deep learning."
+        alternatives:
+          - "Present as an incremental application of existing XAI methods"
+        evidence: [C05]

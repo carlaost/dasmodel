@@ -1,0 +1,105 @@
+# Exploration Tree — cum26-alzheimer-s-disease-drug-development-pipeline
+# Research DAG for an annual registry-census survey. Nodes are the analysis questions the review
+# poses over the ClinicalTrials.gov snapshot, not experimental runs. Most nodes are `explicit`
+# (directly reported in a numbered section/table/figure). No dead_end nodes: a census survey exposes
+# no failed approaches or rejected hypotheses (Rule 9 — none invented).
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Background", "§2 Methods", "§3.1 Overview"]
+    title: "What is the state of the AD drug development pipeline on 1 January 2026?"
+    description: "Census every active AD trial and candidate drug on ClinicalTrials.gov and
+      characterize the pipeline's composition and trajectory to inform trial planning."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§2 Methods"]
+        title: "Define inclusion/exclusion and classification methodology"
+        choice: "Use a fixed Index Date (1 Jan 2026); include only active Phase 1–3 AD-pharmacology
+          trials; assign higher phase for two-phase trials; count each novel agent once; classify by
+          therapeutic purpose (DTT/STT) and CADRO category."
+        alternatives:
+          - "Include devices / gene / stem-cell / non-pharmacologic interventions and Phase 0/4"
+          - "Include mixed-dementia or non-AD MCI populations"
+          - "Count agents once per trial rather than once per pipeline"
+        evidence: "Methodology continuous with the 2024/2025 annual reviews; excludes non-pharmacologic
+          and non-AD-specific trials."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.1 Overview", "Table 1", "Table 2", "Table 3", "Figure 1"]
+            title: "Enumerate the pipeline and split by phase"
+            result: "158 drugs in 192 trials: 36/54 Phase 3, 84/89 Phase 2, 45/49 Phase 1; 12 trials
+              are long-term extensions."
+            evidence: [C01, C03]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["Abstract", "§3.1", "Figure 2", "Figure 4"]
+            title: "Classify agents by therapeutic purpose (DTT/STT) and modality"
+            result: "39% small-molecule DTTs, 34% biologic DTTs, 18% cognition-enhancing STTs, 10%
+              NPS STTs; 116 (73%) DTTs overall."
+            evidence: [C02]
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.1", "Figure 3", "Tables 1-3 CADRO column"]
+            title: "Map agents onto CADRO pathophysiology categories"
+            result: "17 CADRO categories targeted; neurotransmitter receptors 24%, inflammation/immune
+              18%, amyloid 16%, tau 9% lead."
+            evidence: [C07]
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.7 Trial participants", "§3.8 Global trial distribution"]
+            title: "Sum participant demand and map geography"
+            result: "54,728 participants required (38,417 Phase 3); 3156 North American vs 3607
+              non-North American active sites."
+            evidence: [C04]
+
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.1", "§3.10 Trial funders"]
+            title: "Classify sponsors as industry vs non-industry"
+            result: "Industry sponsors 113 (59%) of trials, 72% of Phase 3; non-industry carries
+              more early-stage and repurposed programs."
+            evidence: [C05]
+
+          - id: N08
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.9 Repurposed agents"]
+            title: "Identify repurposed agents against DrugBank"
+            result: "56 repurposed agents (35% of drugs) in 73 trials (38%); concentrated in Phase 2
+              and among non-industry sponsors."
+            evidence: [C06]
+
+          - id: N09
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.6 Biomarkers in trials"]
+            title: "Audit biomarker use (eligibility vs outcome)"
+            result: "96 (50%) use a biomarker for eligibility (amyloid PET most common, N=49); 52
+              (27%) use one as a primary outcome."
+            evidence: [C09]
+
+          - id: N10
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.5 Longitudinal observations", "§4 Discussion", "Figure 5"]
+            title: "Compare against prior annual censuses (2017-2026)"
+            also_depends_on: [N03, N05]
+            result: "Pipeline grew from 182 trials/138 drugs (2025) to 192/158 (2026); ~35% more
+              trials and ~40% more agents since 2017; amyloid share fell 33%→~20% while tau and
+              inflammation each rose 6%→~20%."
+            evidence: [C08, C10]

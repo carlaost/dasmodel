@@ -1,0 +1,30 @@
+slug: pal25-alzheimer-s-association-clinical-practice-guideline
+fulltext_file: research/metrics/v3/fulltext/pal25.txt
+n_claims_checked: 8
+n_faithful: 8
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Table 2 (fulltext lines 480-498) and the parallel footnote text give the triaging recommendation verbatim: 'the panel suggests using a high-sensitivity BBM test as a triaging test... (Conditional recommendation, Low certainty evidence)' with footnote b defining acceptable accuracy as 'at least 90% sensitivity and 75% specificity for a reference test (CSF AD biomarkers, amyloid PET, or AD neuropathology)'. Sn/Sp thresholds, conditional/low-certainty grading, and reference standards all match the Statement exactly."
+  - claim_id: "C02"
+    faithful: true
+    note: "Table 2 (fulltext lines 500-510) gives the confirmatory recommendation verbatim: 'the panel suggests using a high-sensitivity and high-specificity BBM test as a confirmatory test... (conditional recommendation, Low certainty evidence)', with footnote e defining the threshold as 'at least 90% sensitivity and 90% specificity for a reference test'. Matches the Statement's 90%/90% threshold and conditional/low-certainty grading exactly."
+  - claim_id: "C03"
+    faithful: true
+    note: "Fulltext line 547 states '31 different BBM tests were evaluated in our systematic review'; lines 615-616 state 'Across all 31 tests, pooled Sn ranged from 49.31% to 91.41%, and Sp ranged from 61.54% to 96.72%.' The abstract (lines 104-105) and Conclusion (lines 820-822) both state 'many commercially available BBM tests do not meet these thresholds, especially using a single cutoff.' All numbers and the qualitative claim match exactly."
+  - claim_id: "C04"
+    faithful: true
+    note: "Fulltext lines 609-616 state verbatim: 'some tests did meet or exceed the panel's established thresholds, meaning a single cut-point achieved the thresholds of 90% Sn and 75% Sp for triaging or 90% Sn and Sp for confirmatory testing.' Matches the Statement exactly; the brand-agnostic framing (no tests named) is also consistent with the surrounding text (line 610: 'brand-agnostic approach')."
+  - claim_id: "C05"
+    faithful: true
+    note: "Fulltext lines 627-635 state verbatim: 'The certainty of the evidence for test accuracy across all tests ranged from moderate to very low, and for tests meeting the panel's predetermined thresholds for accuracy, certainty ranged from low to very low. Most tests were rated down due to serious issues of risk of bias... Publication bias was not detected for any of the tests.' All certainty ranges, the risk-of-bias dominant downgrade, and absence of detected publication bias match exactly."
+  - claim_id: "C06"
+    faithful: true
+    note: "Fulltext lines 369-374 state verbatim: 'a test with a Sn of 90% and Sp of 75% (our \"triage\" thresholds) would have a PPV of 47%, 78%, or 94%, and NPV of 97%, 88%, 65%... A test with a Sn of 90% and Sp of 90% (our \"confirmatory\" thresholds) would have a PPV of 69%, 90%, or 97%, and NPV of 97%, 90%, 69%... at a pretest probability of 20%, 50%, or 80%'. All PPV/NPV figures for both threshold sets match exactly."
+  - claim_id: "C07"
+    faithful: true
+    note: "Fulltext §3.10 (lines 660-668) states verbatim: 'The panel judged savings to be moderate for BBMs compared to PET scans or CSF analysis... BBMs generally cost significantly less, often 70% to 90% lower than PET imaging, though their exact price varies by country and healthcare setting.' It further states 'When used as a triaging tool followed by confirmatory testing, overall costs may rise, but if BBM tests are able to replace more expensive confirmatory tests, it may yield moderate savings' -- matching the claim's Interpretation as well. §3.11 (line 676-679) confirms cost-effectiveness could not be judged due to insufficient data."
+  - claim_id: "C08"
+    faithful: true
+    note: "Table 2 'Good practice statement' (fulltext lines 499-502) reads verbatim: 'A BBM test should not be obtained before a comprehensive clinical evaluation by a healthcare professional, and test results should always be interpreted within the clinical context. The panel urges clinicians to consider the pretest probability of AD pathology for each patient when deciding whether or not to use a BBM test.' Matches the Statement exactly."
+infidelities: []

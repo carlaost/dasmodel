@@ -1,0 +1,77 @@
+# Exploration Tree — hao25-trend-analysis-and-future-predictions-of
+# Research DAG reconstructed from ABSTRACT/METADATA ONLY.
+# Node types: question | experiment | dead_end | decision | pivot
+# No dead_end nodes are included because the abstract reports no failed or rejected approaches.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract"]
+    title: "How has the global burden of Alzheimer's disease and other dementias changed, and how will it evolve by 2040?"
+    description: "The study uses GBD data to analyze incidence, prevalence, and DALYs from 1990 to 2021 and forecast future burdens to 2040."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["metadata.md Abstract"]
+        title: "Use the Global Burden of Disease database"
+        choice: "Analyze global, regional, and national GBD data for AD and other dementias."
+        alternatives:
+          - "Not available from provided input"
+        evidence: "The abstract states that the study utilizes the GBD database and examines global, regional, and national data."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract"]
+            title: "Estimate historical incidence, prevalence, and DALYs"
+            result: "The abstract reports significantly increased global burden, highest incidence/prevalence/DALYs in East Asia, and a notable prevalence increase in females over 65 compared with males."
+            evidence: ["C01", "C02"]
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract"]
+                title: "Detect trend changes with Joinpoint regression"
+                result: "Substantial trend changes were identified in 1995, 2005, 2011, and 2019, with acceleration after 2011 and especially after 2019."
+                evidence: ["C03"]
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract"]
+                title: "Analyze age, period, and birth-cohort effects"
+                result: "Age was a significant risk factor, with a sharp increase in risk after 60 years of age."
+                evidence: ["C04"]
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract"]
+                title: "Decompose DALY drivers by SDI quintile"
+                result: "Epidemiological changes had a minor global impact but varied by region and gender; aging was the dominant driver in high-SDI regions and demographic expansion in low-SDI regions."
+                evidence: ["C05"]
+
+      - id: N07
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md Abstract"]
+        title: "Forecast future burden with Bayesian age-period-cohort modeling"
+        also_depends_on: [N03, N05, N06]
+        result: "The model predicts sustained growth through 2040, with age-standardized incidence and prevalence rates projected to reach 144.85 and 821.80 per 100,000."
+        evidence: ["C05"]
+        children:
+
+          - id: N08
+            type: pivot
+            support_level: explicit
+            source_refs: ["metadata.md Abstract"]
+            title: "Translate burden forecasts into targeted public-health planning"
+            from: "Historical global burden trend analysis"
+            to: "Targeted interventions that account for SDI, age, gender, and high-burden regions"
+            trigger: "The abstract concludes that escalating burden and pronounced growth expected by 2040 require targeted interventions, particularly in higher-burden regions and older populations."
+            evidence: ["C05"]

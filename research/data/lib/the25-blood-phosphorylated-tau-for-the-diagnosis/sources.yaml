@@ -1,0 +1,31 @@
+paper:
+  slug: the25-blood-phosphorylated-tau-for-the-diagnosis
+  doi: 10.1016/S1474-4422(25)00227-3
+  title: "Blood phosphorylated tau for the diagnosis of Alzheimer's disease: a systematic review and meta-analysis."
+pdf:
+  oa: true
+  downloaded: false
+  path: null
+  url: https://pure.au.dk/portal/en/publications/6b1f1918-f394-414e-b72d-9a062ca3cec5
+  source: publisher
+code: []
+data: []
+clinical_trials: []
+notes: >
+  Systematic review and meta-analysis (PRISMA-DTA) of plasma p-tau blood biomarkers for
+  biologically defined Alzheimer's disease (113 studies, 29,625 individuals). No primary data
+  were collected: summary/diagnostic-accuracy data were extracted from previously published
+  studies (Embase, MEDLINE, PubMed, Scopus, Web of Science). Europe PMC records hasData="N"
+  and no Data Availability or Code Availability statement was located; no software/code
+  repository (GitHub/GitLab/Zenodo/OSF) exists for this work — expected and correct for a
+  diagnostic-accuracy meta-analysis. No individual-level dataset or accession was released.
+  Cohorts appear only as they are cited within the 113 included primary studies (not a released
+  dataset), so data is recorded as empty. The study is a review protocol registered with PROSPERO
+  as CRD42023422143 (a systematic-review protocol registry, NOT a ClinicalTrials.gov
+  interventional trial); no NCT trial is connected to this publication, so clinical_trials is empty.
+  PMID 40818474; not in PMC. Unpaywall reports gold OA but the only OA location is a
+  submitted-version landing page at Aarhus University Pure (pure.au.dk) with no directly
+  downloadable PDF; the published version at The Lancet Neurology is paywalled. No OA PDF was
+  downloadable, so downloaded:false. Funding: McGill Faculty of Medicine Fellowship plus multiple
+  grants (NIH RF1 AG052525, U24 AG082930, R01 AG072641; CIHR; Alzheimer's Association;
+  UK Dementia Research Institute; Horizon 2020).

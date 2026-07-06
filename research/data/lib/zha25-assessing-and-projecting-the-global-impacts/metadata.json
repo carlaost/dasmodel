@@ -1,0 +1,15 @@
+{
+  "idx": 516,
+  "cite_key": "Zha25",
+  "title": "Assessing and projecting the global impacts of Alzheimer’s disease",
+  "authors": "Nan Zhang; Shuren Chai; Jixing Wang",
+  "year": "2025",
+  "pub_date": "2025-01-15",
+  "journal": "Frontiers in Public Health",
+  "abstract": "Background This study aims to assess the global burden of Alzheimer’s disease (AD) from 1990 to 2030, with a focus on incidence, mortality, and disability-adjusted life years (DALY). Methods Data on the incidence rates, DALY rates, and death rates of AD across various geographic populations from 1990 to 2021 were obtained from the Global Burden of Disease (GBD) 2021 study. Generalized Additive Models (GAMs) were employed to forecast the disease burden from 2022 to 2030. Results The projected global burden of Alzheimer’s disease from 2022 to 2030 indicates a decrease in DALYs, with an Estimated Annual Percentage Change (EAPC) of −1.44 (95% CI: −1.45, −1.42). Similarly, death rates and incidence rates also show a decline, with EAPCs of −1.80 (95% CI: −1.83, −1.77) and −1.27 (95% CI: −1.29, −1.26) respectively. Gender-specific analysis reveals that the projected global incidence EAPC from 2022 to 2030 is estimated at −1.73 (95% CI: −1.75, −1.70) for males and −1.03 (95% CI: −1.04, −1.02) for females. Regionally, Andean Latin America and the Caribbean exhibit the highest positive EAPCs for DALYs at 0.94 (95% CI: 0.93, 0.94) and 0.59 (95% CI: 0.59, 0.60) respectively, while Eastern Europe shows the lowest EAPC at −16.31 (95% CI: −18.60, −13.95). Country-specific projections highlight Cyprus and Serbia with the highest positive EAPCs for DALYs at 12.55 (95% CI: 11.21, 13.91) and 9.6416 (95% CI: 8.86, 10.4333) respectively. On the other hand, Bahrain and Armenia exhibit significant negative EAPCs at −87.28 (95% CI: −94.66, −69.70) and −85.41 (95% CI: −92.80, −70.41). An analysis based on the Socio-Demographic Index (SDI) reveals that regions with higher SDI values have greater burdens of AD, with countries having SDI ≥ 0.8 showing significantly higher age-standardized Incidence Rates (ASIR), age-standardized Death Rates (ASDR), and age-standardized DALY rates compared to those with SDI < 0.8. Conclusion From 1990 to 2030, global burden of AD is projected to decrease, with significant gender and regional disparities. Regions with higher SDI show higher disease burdens, underscoring the necessity for targeted interventions and customized public health strategies to effectively address AD in varied socio-economic settings.",
+  "citation_count": "17",
+  "citations_per_year": "11.6",
+  "doi": "10.3389/fpubh.2024.1453489",
+  "url": "https://doi.org/10.3389/fpubh.2024.1453489",
+  "slug": "zha25-assessing-and-projecting-the-global-impacts"
+}

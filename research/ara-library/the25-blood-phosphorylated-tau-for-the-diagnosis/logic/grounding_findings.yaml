@@ -1,0 +1,248 @@
+# RC7 semantic grounding findings (frozen [sem] pass) for the25-blood-phosphorylated-tau-for-the-diagnosis.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. This ARA is abstract-only:
+# claims.md cites "metadata.md (abstract FINDINGS/INTERPRETATION)" as the sole source. The literal
+# metadata.md file lives at research/data/lib/the25-blood-phosphorylated-tau-for-the-diagnosis/metadata.md
+# (a real PubMed/Europe-PMC-derived abstract record) and was used to re-verify every quote below by
+# direct substring comparison.
+
+- claim_id: C01
+  number: "sensitivity 88.1% (86.7-89.5)"
+  quote: "Plasma p-tau217 was the highest-performing biomarker for identifying biologically defined Alzheimer's disease, with pooled sensitivity of 88·1% (95% CI 86·7-89·5, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring of metadata.md FINDINGS opening sentence for p-tau217."
+
+- claim_id: C01
+  number: "specificity 88.7% (87.4-89.9)"
+  quote: "specificity of 88·7% (87·4-89·9, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring, immediately following the sensitivity clause quoted above."
+
+- claim_id: C01
+  number: "AUROC 91.1% (88.9-92.4)"
+  quote: "area under the receiver operating characteristic curve (AUROC) of 91·1% (88·9-92·4, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C01
+  number: "DOR 50.7 (40.6-63.4)"
+  quote: "diagnostic odds ratio of 50·7 (40·6-63·4)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "MINOR FIDELITY FLAG: the source sentence attaches no GRADE certainty qualifier to this DOR value (unlike the preceding sensitivity/specificity/AUROC clauses, each explicitly '... certainty of evidence'). C01's Statement nonetheless claims 'all at moderate certainty of evidence', which extends the certainty rating to the DOR without textual support. The number itself is exact; the certainty attribution is not grounded by this quote."
+
+- claim_id: C02
+  number: "p-tau181 sensitivity 80.5% (78.4-82.4)"
+  quote: "p-tau181 pooled sensitivity was 80·5% (78·4-82·4, low certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C02
+  number: "p-tau181 specificity 76.4% (74.1-78.6)"
+  quote: "specificity was 76·4% (74·1-78·6, low certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C02
+  number: "p-tau181 AUROC 81.5% (80.2-82.9)"
+  quote: "AUROC was 81·5% (80·2-82·9, low certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C02
+  number: "p-tau181 DOR 13.4 (11.4-16.7)"
+  quote: "diagnostic odds ratio was 13·4 (11·4-16·7)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "Same DOR-certainty gap as C01: no certainty qualifier attached to this DOR in the source, yet the Statement's 'all ... at low certainty of evidence' includes it."
+
+- claim_id: C03
+  number: "p-tau205 sensitivity 76.6% (70.7-81.6)"
+  quote: "p-tau205 pooled sensitivity was 76·6% (70·7-81·6, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C03
+  number: "p-tau205 specificity 86.0% (78.6-91.2)"
+  quote: "specificity was 86·0% (78·6-91·2, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C03
+  number: "p-tau205 AUROC 85.1% (80.7-89.6)"
+  quote: "AUROC was 85·1% (80·7-89·6, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C03
+  number: "p-tau205 DOR 20.2 (10.5-38.7)"
+  quote: "diagnostic odds ratio was 20·2 (10·5-38·7)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "Same DOR-certainty gap: no certainty qualifier in source for this DOR value; Statement's 'all ... at moderate certainty of evidence' extends it anyway."
+
+- claim_id: C04
+  number: "p-tau212 sensitivity 84.5% (75.5-90.6)"
+  quote: "p-tau212 pooled sensitivity was 84·5% (75·5-90·6, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C04
+  number: "p-tau212 specificity 87.3% (79.5-92.5)"
+  quote: "specificity was 87·3% (79·5-92·5, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C04
+  number: "p-tau212 AUROC 90.3% (86.6-94.1)"
+  quote: "AUROC was 90·3% (86·6-94·1, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C04
+  number: "p-tau212 DOR 41.2 (22.0-77.3)"
+  quote: "diagnostic odds ratio was 41·2 (22·0-77·3)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "Same DOR-certainty gap as C01-C03: no certainty qualifier in source for this DOR value."
+
+- claim_id: C05
+  number: "p-tau231 sensitivity 75.2% (71.3-78.8)"
+  quote: "p-tau231 pooled sensitivity was 75·2% (71·3-78·8, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C05
+  number: "p-tau231 specificity 75.3% (71.2-78.9)"
+  quote: "specificity was 75·3% (71·2-78·9, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring."
+
+- claim_id: C05
+  number: "p-tau231 AUROC 80.2 (77.6-82.7)"
+  quote: "AUROC was 80·2 (77·6-82·7, moderate certainty of evidence)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring, including the source's own omission of a '%' sign on this particular AUROC value (faithfully preserved, not a compiler error)."
+
+- claim_id: C05
+  number: "p-tau231 DOR 9.3 (7.0-12.2)"
+  quote: "diagnostic odds ratio was 9·3 (7·0-12·2)"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: false
+  note: "Same DOR-certainty gap as the other four assays: no certainty qualifier attached to this DOR in the source. Also note '9.3 and 80.2 are the lowest DOR/AUROC of the five' (the claim's other headline number) is a derived comparison across all five claims' grounded values, not itself quoted verbatim anywhere -- correctly computable but not a direct source string."
+
+- claim_id: C06
+  number: "~90% high risk of bias"
+  quote: "Approximately 90% of studies were rated as high risk of bias for not having used predefined or externally derived thresholds"
+  source: "metadata.md (abstract FINDINGS)"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring, final sentence of the FINDINGS paragraph."
+
+- claim_id: C07
+  number: "need for prospective implementation studies"
+  quote: "Prospective clinical implementation studies in real-world settings are needed to characterise the effect of plasma p-tau217 on Alzheimer's disease diagnosis and clinical management"
+  source: "metadata.md (abstract INTERPRETATION)"
+  string_present: true
+  verdict: supports
+  value_match: derived
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim substring, second and final sentence of the INTERPRETATION paragraph. value_match=derived since this is a qualitative recommendation, not a numeric value."

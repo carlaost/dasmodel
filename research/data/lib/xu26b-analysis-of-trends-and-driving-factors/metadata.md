@@ -1,0 +1,13 @@
+# Analysis of trends and driving factors in burden of Alzheimer's disease and other dementias from 1990 to 2021 and projections for 2050: A comprehensive perspective based on GBD 2021
+
+- **Cite key**: Xu26b
+- **Authors**: Changqing Xu; Kaiyue Zhang; Wenqi Shi; S. Mubarik; Siyao Zhang; Jinming Fu; Ning Li; Fang Wang
+- **Year**: 2026  (2026-01-28)
+- **Journal**: Journal of Alzheimer's Disease
+- **DOI**: 10.1177/13872877261415634
+- **URL**: https://doi.org/10.1177/13872877261415634
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background The disparities in Alzheimer's disease and other dementias (ADOD) burden across global regions have been further exacerbated following the COVID-19 pandemic, necessitating urgent systematic research into its changing trends and driving factors. Objective To evaluate trends and driving factors of ADOD burden over the past 32 years and analyze changes during the COVID-19 pandemic. Methods Data were extracted from the Global Burden of Disease 2021. We used the average annual percentage change to assess ADOD burden trends from 1990 to 2021, and quantified the drivers of burden through decomposition analysis. We further utilized frontier analysis to explore the relationship between socio-demographic index (SDI) and disability-adjusted life-years (DALYs), and employed the Bayesian age-period-cohort (BAPC) model to project DALYs trends for ADOD from 2022 to 2050. Results From 1990 to 2021, global age-standardized rates (ASRs) of prevalence, incidence, years lived with disability, and DALYs for ADOD showed increasing trends, while the ASRs of death remained stable. Females consistently bore a higher burden than males. However, during the COVID-19 pandemic, global ASRs of all these indicators increased significantly. High-middle and middle SDI regions experienced marked increases across all epidemiological metrics. Decomposition analysis revealed population growth as the primary driver of ADOD burden escalation. BAPC predicted that DALYs in each age group showed varying degrees of upward trends, with the fastest increase in 85–89 years old group. Conclusions The COVID-19 pandemic triggered a sharp rise in ADOD burden. As global aging and population growth persist, ADOD burden is likely to escalate, necessitating urgent public health interventions.

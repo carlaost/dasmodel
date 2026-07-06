@@ -1,0 +1,35 @@
+paper:
+  slug: aku25-population-attributable-fractions-associated-with-alzheimer
+  doi: 10.1093/geroni/igaf122.2529
+  title: "Population Attributable Fractions Associated with Alzheimer's Disease Risk Factors"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://academic.oup.com/innovateage/article-pdf/9/Supplement_2/igaf122.2529/66232662/igaf122.2529.pdf
+  source: pmc
+
+code: []
+
+data:
+  - name: Medicare 5% sample (CMS administrative claims / enrollment data)
+    identifier: null
+    repository: CMS / ResDAC (Research Data Assistance Center)
+    access: controlled
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  This is a Gerontological Society of America (GSA) meeting conference abstract published
+  in Innovation in Aging (Vol 9, Suppl 2, Dec 2025), open access under CC BY
+  (PMCID: PMC12761288). It is an observational epidemiological study, not an interventional
+  trial - no NCT or PROSPERO registrations exist or were found. The sole data source is a
+  5%-sample of the Medicare population (CMS administrative data), used with univariable and
+  multivariable Cox models to estimate AD/ADRD population attributable fractions. No formal
+  Data Availability statement is present in the abstract; Medicare data are controlled-access
+  and obtainable only through standard CMS/ResDAC research data request procedures (no public
+  accession identifier). No code/software repository was released or referenced. OA PDF
+  downloaded from Europe PMC render endpoint (verified %PDF, ~1.3MB); publisher OUP PDF URL
+  recorded as the canonical best OA location.

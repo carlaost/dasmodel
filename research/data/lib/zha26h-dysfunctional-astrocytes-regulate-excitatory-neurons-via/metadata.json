@@ -1,0 +1,15 @@
+{
+  "idx": 531,
+  "cite_key": "Zha26h",
+  "title": "Dysfunctional astrocytes regulate excitatory neurons via cell adhesion and vascular lesions in patients with Alzheimer’s disease",
+  "authors": "Yuanyuan Zhang; Na-Na Huang; Xiaohong Li; Jing Zuo; Yu-Chen Fan",
+  "year": "2026",
+  "pub_date": "2026-03-20",
+  "journal": "Journal of Translational Medicine",
+  "abstract": "Background Alzheimer’s disease (AD) is a progressive neurodegenerative disorder. Its complex pathogenesis remains unclear, and no specific drugs are available for treatment. Current treatments focus mainly on delaying progression and managing symptoms, a situation that highlights the urgent need for deeper exploration of the pathogenic mechanisms. Methods We retrieved seven datasets (GSE174367, GSE122063, GSE48350, GSE5281, GSE28146, GSE222494, and GSE221365) from the GEO database and performed multi-omics analyses at the transcriptome, single-cell transcriptome, and spatial transcriptome levels. Results We identified significant cellular heterogeneity in the frontal cortex when comparing data from the AD group with data from the control group. The combined results of enrichment analyses at the single-cell and transcriptome levels confirmed that AD pathogenesis involves the dysregulation of multiple pathways. Further studies revealed that dysfunctional regulation of neurogenesis, neuropathic immunity, and neural signal transduction could be attributed primarily to astrocytes (ASCs). Cell communication analysis indicated that ASCs may regulate excitatory neurons (ExNs) through via cell adhesion molecule 1 (CADM1) interactions. Additionally, we identified three signature subpopulations of ASCs and a signature gene module, ADr1, as potential biomarkers. Finally, spatial transcriptome analysis revealed the spatial distributions of different cells and potential vascular lesions from AD patients, consistent with the transcriptome results. Conclusion Our integrative analysis reveals a strong association between ASC dysfunction and impaired ExNs states, potentially mediated by elevated CADM1-dependent adhesion. This interaction may represent a compensatory mechanism or a contributor to neuronal vulnerability in AD. The findings further support the presence of vascular lesions in AD. Supplementary Information The online version contains supplementary material available at 10.1186/s12967-026-08027-y.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1186/s12967-026-08027-y",
+  "url": "https://doi.org/10.1186/s12967-026-08027-y",
+  "slug": "zha26h-dysfunctional-astrocytes-regulate-excitatory-neurons-via"
+}

@@ -1,0 +1,29 @@
+paper:
+  slug: als26-early-onset-alzheimer-s-disease-mortality
+  doi: 10.1177/13872877261453030
+  title: "Early-onset Alzheimer's disease mortality in the United States: A population-based study of trends and disparities, 2015-2024."
+pdf:
+  oa: false
+  downloaded: false
+  path: null
+  url: null
+  source: none
+code: []
+data:
+  - name: "CDC WONDER Multiple Cause of Death mortality data (2015-2024)"
+    identifier: "ICD-10-CM G30.0 (EOAD underlying cause of death); G30.1 (late-onset, sensitivity analysis)"
+    repository: "CDC WONDER (Wide-ranging Online Data for Epidemiologic Research)"
+    access: open
+    verified: true
+clinical_trials: []
+notes: >
+  Population-based epidemiological study of US mortality trends. Data source is
+  CDC WONDER, a publicly available, de-identified mortality database; EOAD deaths
+  identified via ICD-10-CM code G30.0, with G30.1 (late-onset AD) used in a
+  sensitivity analysis. The publisher (SAGE, Journal of Alzheimer's Disease)
+  Data Availability statement notes the data are publicly available from CDC
+  WONDER and that extracted/analyzed data can be obtained from the corresponding
+  author upon reasonable request. No code availability statement, no code/software
+  repository, no clinical trial, and no PROSPERO registration were found. Article
+  is subscription-only: Unpaywall oa_status "closed" (is_oa false), Europe PMC
+  isOpenAccess "N" and inPMC "N"; no licit open-access PDF located, so none downloaded.

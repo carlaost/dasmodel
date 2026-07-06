@@ -1,0 +1,48 @@
+slug: che26-diagnostic-performance-of-plasma-p-tau217
+fulltext_file: research/metrics/v3/fulltext/che26.txt
+n_claims_checked: 8
+n_faithful: 5
+claims:
+  - claim_id: "C01"
+    faithful: false
+    infidelity_type: "unsupported_addition"
+    paper_quote: "Forest plots indicated that p217_MS and p217_Ratio provided the most substantial improvements in Area Under the Curve (AUC) relative to the p-tau181 benchmark (Figure 3A). ... (A) Forest plot showing the mean difference (MD) in AUC for detecting amyloid-β pathology relative to the p181_IA baseline, using a random-effects model"
+    note: "All P-score numbers (0.859/0.783/0.686/0.117) exactly match Table 2 Outcome 1 and the running text (lines 199-208). However the added sentence 'In the forest plot vs. the p181_IA baseline, p217_MS had a mean AUC difference of MD = 0.10 (95% CI 0.04-0.16)' has no textual support anywhere in the paper: the fulltext (main text + Figure 3 caption) only describes the forest plot qualitatively ('most substantial improvements'), and no numeric MD or CI value for p217_MS vs p181_IA appears anywhere in the extracted text (searched '0.10', '0.04', '0.16' and bracket-CI patterns — no hits tied to this comparison). The only MD figure ever given anywhere in the paper is MD=0.025 for the ratio-vs-single-analyte gain (a different comparison, used correctly in C02)."
+  - claim_id: "C02"
+    faithful: true
+    note: "MD = 0.025 (95% CI 0.005-0.045), I2 = 0% for the p-tau217/Aβ42 ratio vs single-analyte AUC gain is stated near-verbatim in both the abstract (lines 55-57: 'incremental AUC gain of 0.025 (95% CI: 0.005 to 0.045; I2 = 0%)') and §3.6 (lines 360-362: 'a significant mean difference of 0.025 (95% CI: 0.005–0.045) ... The zero heterogeneity (I2 = 0%)'). Direction and all numbers match exactly."
+  - claim_id: "C03"
+    faithful: false
+    infidelity_type: "unsupported_addition"
+    paper_quote: "Forest plots confirmed that p217_MS and p217_Lumi provided significantly higher AUCs for Tau-PET recognition compared to p181_IA (Figure 3B). Notably, p-tau181 failed to reliably discriminate Tau-PET status (P-score = 0.090)"
+    note: "P-scores (0.907 rank1 Tau-PET, 0.821 rank1 MCI-to-AD, 0.814 p217_Ratio, 0.090 p181_IA) all match Table 2 and §3.3/§3.4 text exactly. But the added clause 'In the Tau-PET forest plot, p217_MS had the largest AUC improvement over p181_IA (MD = 0.13, 95% CI 0.05-0.22)' is not supported anywhere in the fulltext — the paper only states the Figure 3B comparison qualitatively ('significantly higher AUCs'), with no numeric MD/CI value given in text for this comparison (searched '0.13', '0.05', '0.22' — no matching hits)."
+  - claim_id: "C04"
+    faithful: true
+    note: "§4.2 (lines 402-406) states verbatim 'in the pre-clinical subgroup (Outcome 1), p-tau 231 achieved the highest rank (P-score = 0.66) for detecting early Aβ pathology', and Table 2 shows p231_UGOT at 0.145 (Outcome 1) and 0.042 (Outcome 2), both near-last — matching the claim's contrast between preclinical-subgroup performance and full-continuum ranking exactly."
+  - claim_id: "C05"
+    faithful: true
+    note: "§4.3 (lines 425-428) states 'The P-score of 1.00 for p-tau 217 in these cohorts [Huashan and GBA] indicates it was the top-performing marker across all Asian datasets included', and the abstract (lines 61-63) states 'Subgroup analyses confirmed consistent performance of p-tau217 across Han Chinese and Western cohorts' — both numbers/assertions in the Statement are directly supported."
+  - claim_id: "C06"
+    faithful: true
+    note: "§3.5 (lines 313-315) states 'Serum p-tau217 (P-score = 0.568) demonstrated comparable diagnostic potential to plasma-based assays, suggesting that serum is a viable matrix for clinical settings where rapid plasma processing is unavailable', matching the Statement's wording and number; Table 2 Outcome 4 confirms p217_Serum ranked 3rd (0.568)."
+  - claim_id: "C07"
+    faithful: true
+    note: "§3.5 (lines 308-312) states MS P-score=0.953 as 'gold standard for precision', AutoIA/Lumipulse P-score=0.706 as 'superior non-MS approach ... significantly outperforming manual IAs (P-score = 0.268)'. Table 2 Outcome 4 confirms p181_IA = 0.006 ranked last (rank 5 of 5 populated ranks). All numbers and the ranking order match exactly."
+  - claim_id: "C08"
+    faithful: false
+    infidelity_type: "unsupported_addition"
+    paper_quote: "Effect size: The primary effect size was the Mean Difference (MD) in AUC... Plasma p-tau181 measured by standard immunoassay (p181_IA) was set as the reference comparator."
+    note: "The four P-score numbers (0.117/0.159/0.090/0.006) and the '<0.20 across all outcomes' framing are all directly supported (Table 2 and §4.1 'our results (P-score < 0.20) suggest it is effectively obsolete'). However the added clause 'its AUC advantage over baseline was non-significant where measured' has no support: the word 'significant'/'non-significant' in this context never appears in the paper (grep for 'non-significant', 'not significant' returns zero hits), and the framing is incoherent given p181_IA was itself set as the reference/baseline comparator (lines 192-194), not a node being compared against a baseline for 'AUC advantage'. This looks like a fabricated statistical claim layered onto an otherwise faithful statement."
+infidelities:
+  - claim_id: "C01"
+    type: "unsupported_addition"
+    paper_quote: "Forest plots indicated that p217_MS and p217_Ratio provided the most substantial improvements in Area Under the Curve (AUC) relative to the p-tau181 benchmark (Figure 3A). ... (A) Forest plot showing the mean difference (MD) in AUC for detecting amyloid-β pathology relative to the p181_IA baseline, using a random-effects model"
+    note: "All P-score numbers (0.859/0.783/0.686/0.117) exactly match Table 2 Outcome 1 and the running text (lines 199-208). However the added sentence 'In the forest plot vs. the p181_IA baseline, p217_MS had a mean AUC difference of MD = 0.10 (95% CI 0.04-0.16)' has no textual support anywhere in the paper: the fulltext (main text + Figure 3 caption) only describes the forest plot qualitatively ('most substantial improvements'), and no numeric MD or CI value for p217_MS vs p181_IA appears anywhere in the extracted text (searched '0.10', '0.04', '0.16' and bracket-CI patterns — no hits tied to this comparison). The only MD figure ever given anywhere in the paper is MD=0.025 for the ratio-vs-single-analyte gain (a different comparison, used correctly in C02)."
+  - claim_id: "C03"
+    type: "unsupported_addition"
+    paper_quote: "Forest plots confirmed that p217_MS and p217_Lumi provided significantly higher AUCs for Tau-PET recognition compared to p181_IA (Figure 3B). Notably, p-tau181 failed to reliably discriminate Tau-PET status (P-score = 0.090)"
+    note: "P-scores (0.907 rank1 Tau-PET, 0.821 rank1 MCI-to-AD, 0.814 p217_Ratio, 0.090 p181_IA) all match Table 2 and §3.3/§3.4 text exactly. But the added clause 'In the Tau-PET forest plot, p217_MS had the largest AUC improvement over p181_IA (MD = 0.13, 95% CI 0.05-0.22)' is not supported anywhere in the fulltext — the paper only states the Figure 3B comparison qualitatively ('significantly higher AUCs'), with no numeric MD/CI value given in text for this comparison (searched '0.13', '0.05', '0.22' — no matching hits)."
+  - claim_id: "C08"
+    type: "unsupported_addition"
+    paper_quote: "Effect size: The primary effect size was the Mean Difference (MD) in AUC... Plasma p-tau181 measured by standard immunoassay (p181_IA) was set as the reference comparator."
+    note: "The four P-score numbers (0.117/0.159/0.090/0.006) and the '<0.20 across all outcomes' framing are all directly supported (Table 2 and §4.1 'our results (P-score < 0.20) suggest it is effectively obsolete'). However the added clause 'its AUC advantage over baseline was non-significant where measured' has no support: the word 'significant'/'non-significant' in this context never appears in the paper (grep for 'non-significant', 'not significant' returns zero hits), and the framing is incoherent given p181_IA was itself set as the reference/baseline comparator (lines 192-194), not a node being compared against a baseline for 'AUC advantage'. This looks like a fabricated statistical claim layered onto an otherwise faithful statement."

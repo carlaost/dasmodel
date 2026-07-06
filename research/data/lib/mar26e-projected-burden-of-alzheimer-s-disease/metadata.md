@@ -1,0 +1,13 @@
+# Projected burden of Alzheimer's disease and other dementias in the Western Pacific, 2023-2050.
+
+- **Cite key**: Mar26e
+- **Authors**: R. Marzo; Man Li; Qizhi Yang; H. Chen; Rany Sam; M. Farooqui; M. Changmai; Zhumabekova Bibigul; Aubakirova Karlygash; T. Respati; Dandan Xu; Hongpeng Zhang; W. Sheferaw; Z. M. Wolde
+- **Year**: 2026  (2026-05-04)
+- **Journal**: Journal of Alzheimer's disease : JAD
+- **DOI**: 10.1177/13872877261441774
+- **URL**: https://doi.org/10.1177/13872877261441774
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+BackgroundAlzheimer's disease and other dementias (ADODs) are increasing rapidly with population aging, yet region-specific projections for the Western Pacific remain limited.ObjectiveTo project ADOD disability-adjusted life-years (DALYs) and deaths in the Western Pacific to 2050 and evaluate how modifying key risk factors could inform policy and planning.MethodsUsing the Global Burden of Disease 2021 scenario framework, we modeled ADOD burden for 37 Western Pacific countries/areas (2023-2050), stratified by age and sex. Primary outcomes were all-age DALY and death rates per 100,000. Projections included a reference and four counterfactual scenarios. Uncertainty was estimated using 1000 Monte Carlo draws, summarized with 95% uncertainty intervals (UIs).ResultsRegional DALY rates rise from 777.6 (95% UI 375.5-1714.8) in 2023 to 1980.9 (964.7-4176.9) in 2050 (+154.7%), while death rates increase from 41.1 (10.5-110.2) to 119.7 (30.5-302.8) (+191.3%). Female rates exceed male rates throughout, widening absolute sex gaps. By 2050, ages 80-94 account for ∼62% of DALYs and ∼69% of deaths; ≥95 contribute ∼10% and ∼17%. Japan remains highest, while the Republic of Korea approaches comparable levels. China and Singapore show the steepest absolute increases. Scenario curves remain similar until the 2040s; small differences by 2050 reflect survival-driven cohort expansion at high-risk ages.ConclusionsDemographic aging will dominate Western Pacific dementia burden through mid-century. Prevention remains critical to delay onset, compress disability, and improve overall healthy aging, but demographic aging will still drive substantial growth in service needs. Health systems must scale dementia-capable primary care, long-term and palliative services, caregiver support, and gender-responsive planning.

@@ -1,0 +1,7 @@
+# RC7 semantic-grounding findings for woj25.
+# Verified against research/ara-library/.../logic/claims.md: there is NO "**Sources**:" header and
+# NO «verbatim quote» markers anywhere in this ARA's claims.md (all 8 claim blocks end at
+# **Tags**: with no Sources block at all) -- confirming grounding.py's own comment that this ARA
+# has trust_class = no_source. There is nothing to judge for RC7 (no (number, quote) pairs exist to
+# check support for), so this file is intentionally an empty list rather than fabricated entries.
+[]

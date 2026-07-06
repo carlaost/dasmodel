@@ -1,0 +1,76 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "E01 Sources give both the narrative text (paper.pdf p3 §3.1.2.1) and Table 2 (p6) row for iADRS conservative hybrid imputation; both independently verified against pdftotext extraction and match the Statement's -13.0(0.6)/-10.6(0.6), difference 2.3 [0.7,3.9] p=0.005, 18% [5.2,30.6] exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'The 95% CI includes 0' is the direct negation of the paper's own MMRM/hybrid-imputation output on the same dataset, not an independent test. Although the parent RCT (NCT04437511) pre-registered iADRS as its primary endpoint for the overall/EU-indicated populations, the EU-eligible subgroup restriction (excluding siderosis/anticoagulant/hypertension) and the EMA-requested hybrid J2R/CIR imputation were both implemented post-hoc after trial completion -- the paper itself states 'a post-hoc conservative hybrid imputation method was implemented' (abstract) and claims.md's own header says all claims are 'post-hoc, exploratory, and not controlled for multiplicity.' So this specific estimate was not itself pre-committed."}
+    scope_calibration: {verdict: calibrated, note: "Explicitly scoped to 'EU-eligible population' and 'conservative hybrid imputation'; Interpretation correctly cross-references the narrow relevant iADRS band (C10) instead of implying benefit across the full 0-144 range."}
+    novelty: {verdict: incremental, note: "The core finding (donanemab slows iADRS decline) is already established for the overall/EU-indicated population in the parent trial (RW02, Sims et al. 2023); this claim's contribution is the specific EU-eligible-subgroup estimate under the EMA conservative estimand, not a new mechanism or population."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Both Sources quotes (narrative p3 §3.1.2.1; Table 2 p6 CDR-SB row) match the Statement's -0.7 [-1.0,-0.4] p<0.001, 28% [15.2,41.3] exactly; independently verified against pdftotext extraction."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Same reasoning as C01 -- CDR-SB is a pre-registered key secondary endpoint of the parent trial, but this EU-eligible-subgroup + hybrid-imputation combination is a post-hoc re-derivation on the same dataset; the CI-excludes-0 criterion is the negation of that specific pipeline's own output."}
+    scope_calibration: {verdict: calibrated, note: "CDR-SB is correctly framed as the trial's anchor clinical endpoint; Interpretation ties the effect back to C10's robustness check without overclaiming beyond what Table 2 shows."}
+    novelty: {verdict: incremental, note: "Restates the parent trial's key secondary endpoint (already characterised for the overall/indicated population in RW02) for the newly-defined EU-eligible subgroup."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "All three Sources quotes (narrative HR/N/event counts p4 §3.1.2.1.2; Table 3 p7 HR rows) match the Statement's 40.3%/0.597[0.5,0.8]/p<0.001 and 47.2%/0.528[0.3,0.9]/p=0.024 figures exactly, including the more precise Table-3 CIs (0.473,0.754) and (0.303,0.919)."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Either HR CI includes 1.0' is the negation of the Cox model's own output on the EU-eligible subgroup, computed post-hoc; not an independently pre-registered threshold for this specific population definition."}
+    scope_calibration: {verdict: calibrated, note: "Claim cites the exact N/event counts for both the next-stage and moderate-dementia (CDR-G>=2) endpoints rather than a vaguer 'progression is reduced' statement."}
+    novelty: {verdict: incremental, note: "The CDR-G progression-risk analysis method already exists in the primary trial report (RW02) for the full population; this is the same analysis re-run on the EU-eligible subgroup."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "The single Sources quote (p3 §3.1.2.1.1) gives all six domain percent-slowing/p-values verbatim, including the correctly-reported non-significant community-affairs result (16.2%, p=0.052) -- the compiler did not inflate this to 'significant,' a good calibration sign."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Same-pipeline negation (a claimed-significant domain actually has p>=0.05, or community affairs becomes significant) using the identical post-hoc dataset/model; not an independent test."}
+    scope_calibration: {verdict: calibrated, note: "Statement explicitly flags community affairs as the one domain not reaching significance ('did not reach significance, p=0.052') rather than glossing over it -- honest, not over-claimed."}
+    novelty: {verdict: incremental, note: "Domain-level CDR-SB breakdown method already used in the primary trial report; this claim applies it to the EU-eligible subgroup only."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "Both Sources quotes (narrative p4 §3.1.2.1.3; Table 3 p7 n/N rows) match the Statement's 37%/22% at 52 weeks and 25%/18% at 76 weeks, plus the underlying n/N counts (193/481, 117/478, 128/439, 91/451), exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the generalized-mixed-model output on the same dataset/timepoints; not an independent pre-committed test."}
+    scope_calibration: {verdict: calibrated, note: "'Estimated' proportions correctly hedge the statistical-model-derived nature of the percentages; Interpretation is appropriately modest ('reflects disease stabilisation, not just slower average decline')."}
+    novelty: {verdict: incremental, note: "Builds directly on C02's CDR-SB difference using a stability-threshold reframing of the same underlying data, not a new endpoint."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "The single Sources quote (p4 §3.1.2.1.4) matches the Statement's 4.9 months [3.1,6.8] and 6.9 months [4.9,8.9] (additional ~2 months) exactly; independently corroborated by figure2.md's panel table."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the time-progression model's own output (CI includes 0) using the same dataset/model; not independent."}
+    scope_calibration: {verdict: calibrated, note: "Correctly distinguishes the overall EU-eligible estimate from the low-medium-tau subgroup estimate rather than conflating them."}
+    novelty: {verdict: incremental, note: "Time-saved reframing method already used in the primary trial methodology (Sims et al.); applies it to EU-eligible + low-medium-tau subgroups only."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Both Sources quotes (narrative p4 §3.1.2.2; Table 3 p7) match the Statement's -75.8 CL [-79.4,-72.2], 33.5%/69.7%/80.5% clearance rates, and P-tau217 -0.20 [-0.22,-0.17] exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the same MMRM biomarker pipeline's output (CI includes 0, or clearance rates fail to increase monotonically); not an independent test."}
+    scope_calibration: {verdict: calibrated, note: "Correctly frames biomarker changes as corroborating rather than proving clinical benefit ('Biomarker effects corroborate the clinical benefit')."}
+    novelty: {verdict: incremental, note: "Biomarker efficacy is already established at the trial level (RW02); this supplies EU-eligible-subgroup-specific numbers only."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "All four Sources quotes (p4 §3.1.3 narrative x2, p4 §4 Discussion, Table 4 p8) match the Statement's ARIA-E/H rates, IRR rate, any-ARIA 32.0%/12.4%, the 32.0% vs 36.8% overall-population comparison, 74.8%/94.9% asymptomatic/mild-moderate figures, and death rates exactly. Note the first Table-4/narrative quote block splices two non-adjacent paper sentences (ARIA-E incidence, then 'no ARIA-related deaths') via ellipsis in a different order than they appear in the source text -- content is accurate but the quote construction reorders rather than elides a single contiguous passage."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'EU-eligible rate >= overall rate' compares two overlapping/nested descriptive percentages drawn from the same trial database (the EU-eligible arm is a subset of the overall population), so it is not an independent replication; it is nonetheless the most checkable/factual of this ARA's falsification criteria since the 36.8% comparator was reported in a separate paper (RW02) rather than re-derived in this one."}
+    scope_calibration: {verdict: calibrated, note: "Matches Table 4 and Discussion precisely; no rate is inflated or selectively omitted (deaths correctly reported both directions, 1.3% vs 1.2%)."}
+    novelty: {verdict: incremental, note: "The ARIA-reduction-via-exclusion mechanism (excluding homozygotes/contraindicated patients) is the design rationale already established in RW04/RW06; this claim quantifies it for the EU-eligible subgroup."}
+  - claim_id: C09
+    evidence_relevance: {relevant: false, note: "The Statement's final clause 'and amyloid clearance was maintained after treatment completion' has NO corresponding Sources quote (the three quotes present cover only: increasing 154-week effect, 29% lower early-vs-delayed-start risk, and 74.8% early-start on placebo) and it mischaracterizes the paper's actual Discussion text: 'After completing donanemab treatment, the rate of amyloid reaccumulation was comparable to that seen with the natural history of the disease' (paper.pdf p6 §4). The source explicitly says amyloid REACCUMULATES post-treatment (at a natural, non-accelerated pace) -- the opposite framing from 'clearance was maintained.' The other three sub-claims are well-grounded."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "Negation of the LTE's own propensity-weighted-ADNI-comparator analysis; even though the comparator cohort (ADNI) is external, the analytic choices (propensity weighting, treatment-completion-criteria grouping) are post-hoc and specific to this paper/Zimmer et al. (RW07), not independently pre-registered before the LTE was conducted."}
+    scope_calibration: {verdict: over_claim, note: "'Amyloid clearance was maintained after treatment completion' overstates/inverts the source, which reports reaccumulation at a natural (not maintained-clearance) pace post-treatment. The rest of the Statement (154-week increasing effect, 29% lower progression risk, treatment-course-completion framing) is properly calibrated and matches its Sources."}
+    novelty: {verdict: incremental, note: "LTE durability and early-vs-delayed-start findings are already the subject of RW07 (Zimmer et al. 2026); this claim narratively imports those results into the EU-relevant subgroup discussion rather than presenting a new analysis."}
+  - claim_id: C10
+    evidence_relevance: {relevant: true, note: "All three Sources quotes (p5 §4 narrative, p4 §4 range statement, Table 2 p6 full row set) match the Statement's 28.2%/30.8%/28.9% comparison, 18%-28% range, and the five-scale original-vs-conservative numbers exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "This is the ARA's weakest falsifiability case: 'the two analytic methods do not diverge' is close to a tautology once both are computed on the same dataset by the same team that chose to report them together; a large divergence would likely have been surfaced as its own finding rather than as a refutation of this consistency claim. Still nominally checkable via CI overlap, so criteria_present=true, but this is a same-data self-consistency check, not an independent test."}
+    scope_calibration: {verdict: calibrated, note: "'Ranged from 18% to 28%' matches the actual Table 2 range (17.9%-28.2%) rather than cherry-picking the more favourable end."}
+    novelty: {verdict: restatement, note: "C10 does not add new data; it synthesizes numbers already fully cited under C01/C02's own Sources blocks and Table 2 into a cross-method/cross-population consistency statement."}
+compilation_fidelity_samples:
+  - fact: "iADRS conservative hybrid imputation difference 2.32 (0.69, 3.95), p=0.005, 17.9% (5.2, 30.6) slowing (C01)"
+    pdf_location: "paper.pdf p6, Table 2, iADRS row, conservative-hybrid columns"
+    captured_in_ara: true
+    note: "evidence/tables/table2.md transcribes this row verbatim, matching claims.md C01's second Sources bullet exactly."
+  - fact: "CDR-G progression HR 0.597 (95% CI 0.473, 0.754), p<0.001; 174/581 donanemab events vs 247/581 placebo events (C03)"
+    pdf_location: "paper.pdf p4 §3.1.2.1.2 and p7 Table 3"
+    captured_in_ara: true
+    note: "evidence/tables/table3.md and claims.md C03 both reproduce the exact HR, CI, and event counts."
+  - fact: "Any ARIA (ARIA-E or ARIA-H): 75/603 (12.4%) placebo vs 195/609 (32.0%) donanemab; deaths 7/603 (1.2%) vs 8/609 (1.3%) (C08)"
+    pdf_location: "paper.pdf p8, Table 4"
+    captured_in_ara: true
+    note: "evidence/tables/table4.md transcribes the full safety table row-for-row; claims.md C08's fourth Sources bullet matches exactly."
+  - fact: "EU-eligible baseline population: Placebo N=604, Donanemab N=614 (efficacy analysis); safety analysis N=603/609"
+    pdf_location: "paper.pdf p3, Table 1"
+    captured_in_ara: true
+    note: "logic/solution/study_design.md and evidence/tables/table1.md both state these exact N's consistently."
+  - fact: "Community-affairs CDR-SB domain: 16.2% favourable slowing trend, p=0.052 -- explicitly NOT statistically significant"
+    pdf_location: "paper.pdf p3 §3.1.2.1.1"
+    captured_in_ara: true
+    note: "C04's Statement and falsification criteria correctly preserve this as a non-significant trend rather than rounding p=0.052 down to 'significant' -- an honest capture of a borderline result."
+  - fact: "Post-treatment-completion amyloid dynamics in the LTE: 'the rate of amyloid reaccumulation was comparable to that seen with the natural history of the disease' -- i.e., amyloid reaccumulates (at a natural pace) after donanemab is stopped, it does not stay cleared"
+    pdf_location: "paper.pdf p6 §4 (Discussion)"
+    captured_in_ara: false
+    note: "MISMATCH: claims.md C09's Statement instead asserts 'amyloid clearance was maintained after treatment completion,' and logic/solution/study_design.md's LTE endpoint list repeats the same 'maintained amyloid clearance' phrasing. Both invert the paper's actual claim (reaccumulation at a natural, not accelerated, rate) into a claim that clearance persisted. No Sources quote in C09 covers this clause at all."

@@ -1,0 +1,71 @@
+# Exploration Tree — liu25i-single-cell-multiregion-epigenomic-rewiring-in
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract/metadata only. No dead_end or detailed decision nodes are included because the
+# provided abstract does not disclose failed approaches, ablations, or rejected alternatives.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "What are the epigenetic underpinnings of AD progression and cognitive resilience?"
+    description: >
+      The abstract states that AD is marked by progressive cognitive decline and that its epigenetic
+      underpinnings remain elusive, motivating a single-cell multiregion multiomic atlas.
+    evidence: [C01, C04]
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Generate and integrate single-cell epigenomic and transcriptomic profiles"
+        result: >
+          The study generated and integrated profiles for 3.5 million cells from 384 postmortem brain
+          samples across 6 regions in 111 AD and control individuals.
+        evidence: [C01]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Identify cCREs, regulatory modules, and cell subtypes"
+            result: >
+              The study identified over 1 million candidate cis-regulatory elements organized into 123
+              regulatory modules across 67 cell subtypes.
+            evidence: [C02]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Define epigenomic compartments and single-cell epigenomic information"
+            result: >
+              The study delineated AD dynamics in these epigenomic structures, reporting widespread
+              epigenome relaxation and region/cell-type-specific erosion signatures.
+            evidence: [C03]
+            children:
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md:13"]
+                title: "Associate epigenomic stability dynamics with cellular and clinical features"
+                result: >
+                  The abstract reports close associations with cell-type proportion changes, glial
+                  cell-state transitions, coordinated epigenomic/transcriptomic dysregulation, AD
+                  pathology, cognitive impairment, and cognitive resilience.
+                evidence: [C04]
+
+  - id: N06
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "Can the resulting atlas advance understanding of AD?"
+    description: >
+      The abstract concludes that the study presents a comprehensive single-cell multiomic atlas to
+      advance understanding of AD progression and cognitive resilience.
+    evidence: [C01, C02, C03, C04]

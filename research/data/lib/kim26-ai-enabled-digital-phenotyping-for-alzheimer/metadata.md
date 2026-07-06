@@ -1,0 +1,13 @@
+# AI-enabled digital phenotyping for Alzheimer’s disease: a review of multimodal sensor integration and symptom trajectories
+
+- **Cite key**: Kim26
+- **Authors**: Seung-Jae Kim; M. Kim; Jun-Su Kim; Jaeho Jang; Wiha Choi; Hyun-Ju Lee; Jeong-Heon Song; H. Hoe
+- **Year**: 2026  (2026-03-30)
+- **Journal**: Alzheimer's Research & Therapy
+- **DOI**: 10.1186/s13195-026-02013-8
+- **URL**: https://doi.org/10.1186/s13195-026-02013-8
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Alzheimer’s disease (AD) is characterized by progressive cognitive impairment accompanied by behavioral disturbances and neuropsychiatric manifestations. Conventional clinic-based assessments and biomarkers provide essential diagnostic information, but these episodic measurements are limited in capturing longitudinal AD-related symptoms. Digital phenotyping has emerged as a complementary approach that addresses this limitation by enabling continuous monitoring of cognitive and functional changes in everyday life. This narrative review defines digital phenotyping as a longitudinal monitoring approach that complements episodic clinical evaluations rather than replacing diagnostic assessment. Building on this, we propose a novel, stage-specific digital phenotyping framework that integrates passive and active data streams with artificial intelligence (AI) and non-AI-driven analytics to generate personalized AD symptom profiles aligned with disease progression. AI enhances the interpretability of subtle cognitive and behavioral changes observed in daily life by transforming continuously collected real-world data into clinically actionable insights across different stages of disease progression. In addition, we address three strategic priorities for advancing AI-driven digital phenotyping in AD: the development of standardized phenotyping protocols, the implementation of ambient sensing systems for later disease stages, and AI-enabled longitudinal multimodal data fusion. Moreover, we describe how increased variability and subtle disruptions in daily routines may reflect early AD progression and outline key considerations for real-world implementation, including data integration, interpretability, and clinical workflow alignment. Collectively, this review provides new insights into digital phenotyping as a scalable monitoring infrastructure that complements biomarker frameworks and enables continuous assessment across the AD continuum.

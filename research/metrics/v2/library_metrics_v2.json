@@ -1,0 +1,1480 @@
+{
+  "n_aras": 16,
+  "genres": {
+    "ahm26b-trends-and-disparities-in-alzheimer-disease": "other",
+    "aku25-population-attributable-fractions-associated-with-alzheimer": "cohort_study",
+    "ala26-trends-in-alzheimer-s-disease-mortality": "other",
+    "alb26-early-detection-of-alzheimer-s-disease": "cohort_study",
+    "als26-early-onset-alzheimer-s-disease-mortality": "other",
+    "che26-diagnostic-performance-of-plasma-p-tau217": "meta_analysis",
+    "cum26-alzheimer-s-disease-drug-development-pipeline": "clinical_trial",
+    "huu25-apoe-e4-alzheimer-s-risk-converges": "single_cell_spatial",
+    "jes26-efficacy-and-safety-of-donanemab-in": "clinical_trial",
+    "kes25-the-alzheimer-s-disease-diagnosis-and": "clinical_trial",
+    "pal25-alzheimer-s-association-clinical-practice-guideline": "guideline",
+    "sal25-trailblazer-alz-4-a-phase-3": "clinical_trial",
+    "sal26-plasma-emtbr-tau243-and-p-tau217": "cohort_study",
+    "the25-blood-phosphorylated-tau-for-the-diagnosis": "meta_analysis",
+    "tit26-automated-high-throughput-quantification-of-plasma": "assay_method",
+    "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms": "assay_method"
+  },
+  "discrimination": {
+    "corrective_science_score": {
+      "n": 16,
+      "mean": 3.312,
+      "stdev": 3.386,
+      "range": 12,
+      "verdict": "discriminating"
+    },
+    "dead_end_density": {
+      "n": 16,
+      "mean": 0.101,
+      "stdev": 0.1414,
+      "range": 0.5,
+      "verdict": "discriminating"
+    },
+    "environment_completeness": {
+      "n": 16,
+      "mean": 0.696,
+      "stdev": 0.3842,
+      "range": 1.0,
+      "verdict": "discriminating"
+    },
+    "executable_reproduction_L3": {
+      "n": 0,
+      "verdict": "insufficient_data"
+    },
+    "falsifiability_presence": {
+      "n": 16,
+      "mean": 1.0,
+      "stdev": 0.0,
+      "range": 0.0,
+      "verdict": "non_discriminating"
+    },
+    "grounding_verified": {
+      "n": 8,
+      "mean": 0.979,
+      "stdev": 0.0375,
+      "range": 0.095,
+      "verdict": "low_variance"
+    },
+    "negative_result_share": {
+      "n": 16,
+      "mean": 0.078,
+      "stdev": 0.1024,
+      "range": 0.333,
+      "verdict": "discriminating"
+    },
+    "translation_trial_linkage": {
+      "n": 16,
+      "mean": 0.688,
+      "stdev": 1.9274,
+      "range": 8,
+      "verdict": "discriminating"
+    }
+  },
+  "grounding_verified_ranking": {
+    "other": [
+      [
+        "ahm26b-trends-and-disparities-in-alzheimer-disease",
+        1.0
+      ],
+      [
+        "ala26-trends-in-alzheimer-s-disease-mortality",
+        1.0
+      ],
+      [
+        "als26-early-onset-alzheimer-s-disease-mortality",
+        1.0
+      ]
+    ],
+    "cohort_study": [
+      [
+        "sal26-plasma-emtbr-tau243-and-p-tau217",
+        1.0
+      ],
+      [
+        "alb26-early-detection-of-alzheimer-s-disease",
+        0.923
+      ]
+    ],
+    "meta_analysis": [
+      [
+        "the25-blood-phosphorylated-tau-for-the-diagnosis",
+        1.0
+      ],
+      [
+        "che26-diagnostic-performance-of-plasma-p-tau217",
+        0.905
+      ]
+    ],
+    "clinical_trial": [
+      [
+        "sal25-trailblazer-alz-4-a-phase-3",
+        1.0
+      ]
+    ]
+  },
+  "per_ara": [
+    {
+      "slug": "ahm26b-trends-and-disparities-in-alzheimer-disease",
+      "genre": "other",
+      "doi": "10.1097/WAD.0000000000000712",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 1,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 10,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 10,
+        "quotes_verified": 10,
+        "verified_ratio": 1.0,
+        "self_contained_grounding_ratio": 1.0
+      },
+      "v1_grounding_presence": 1.0
+    },
+    {
+      "slug": "aku25-population-attributable-fractions-associated-with-alzheimer",
+      "genre": "cohort_study",
+      "doi": "10.1093/geroni/igaf122.2529",
+      "n_claims": 9,
+      "n_experiments": 4,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 1,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": false,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 0.6,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 3,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 9,
+        "quotes_unverifiable_in_repo": 9,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 1.0
+    },
+    {
+      "slug": "ala26-trends-in-alzheimer-s-disease-mortality",
+      "genre": "other",
+      "doi": "10.1177/13872877261445035",
+      "n_claims": 6,
+      "n_experiments": 5,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 1,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 3,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 10,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 10,
+        "quotes_verified": 10,
+        "verified_ratio": 1.0,
+        "self_contained_grounding_ratio": 1.0
+      },
+      "v1_grounding_presence": 0.696
+    },
+    {
+      "slug": "alb26-early-detection-of-alzheimer-s-disease",
+      "genre": "cohort_study",
+      "doi": "10.1109/ACCESS.2026.3652249",
+      "n_claims": 5,
+      "n_experiments": 4,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 1,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": false,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 0.5,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 3,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 0.923,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 13,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 13,
+        "quotes_verified": 12,
+        "verified_ratio": 0.923,
+        "self_contained_grounding_ratio": 1.0
+      },
+      "v1_grounding_presence": 1.0
+    },
+    {
+      "slug": "als26-early-onset-alzheimer-s-disease-mortality",
+      "genre": "other",
+      "doi": "10.1177/13872877261453030",
+      "n_claims": 6,
+      "n_experiments": 6,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 1,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": false,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 0.5,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 3,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 12,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 12,
+        "quotes_verified": 12,
+        "verified_ratio": 1.0,
+        "self_contained_grounding_ratio": 1.0
+      },
+      "v1_grounding_presence": 0.762
+    },
+    {
+      "slug": "che26-diagnostic-performance-of-plasma-p-tau217",
+      "genre": "meta_analysis",
+      "doi": "10.3389/fnagi.2026.1834591",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 2,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 0.905,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.2,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.25,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "low genre baseline"
+        },
+        "corrective_science_score": {
+          "value": 3,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 27,
+        "quotes_unverifiable_in_repo": 6,
+        "quotes_checkable": 21,
+        "quotes_verified": 19,
+        "verified_ratio": 0.905,
+        "self_contained_grounding_ratio": 0.778
+      },
+      "v1_grounding_presence": 0.921
+    },
+    {
+      "slug": "cum26-alzheimer-s-disease-drug-development-pipeline",
+      "genre": "clinical_trial",
+      "doi": "10.1002/trc2.70251",
+      "n_claims": 10,
+      "n_experiments": 8,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 3,
+        "n_trials": 8
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 4,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 8,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.857,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 17,
+        "quotes_unverifiable_in_repo": 17,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 0.857
+    },
+    {
+      "slug": "huu25-apoe-e4-alzheimer-s-risk-converges",
+      "genre": "single_cell_spatial",
+      "doi": "10.1101/2025.11.20.689483",
+      "n_claims": 8,
+      "n_experiments": 8,
+      "artifact_facts": {
+        "has_code": true,
+        "has_open_data": true,
+        "n_datasets": 2,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.333,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.5,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 4,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "pending_exec",
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 18,
+        "quotes_unverifiable_in_repo": 18,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 0.972
+    },
+    {
+      "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+      "genre": "clinical_trial",
+      "doi": "10.1016/j.tjpad.2026.100605",
+      "n_claims": 10,
+      "n_experiments": 8,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 1,
+        "n_trials": 1
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 12,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 1,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 23,
+        "quotes_unverifiable_in_repo": 23,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 0.939
+    },
+    {
+      "slug": "kes25-the-alzheimer-s-disease-diagnosis-and",
+      "genre": "clinical_trial",
+      "doi": "10.1002/alz.71147",
+      "n_claims": 10,
+      "n_experiments": 9,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 4,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": false,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 0.971,
+          "orphan_experiments": []
+        },
+        "gates_passed": 3,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 6,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.714,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 27,
+        "quotes_unverifiable_in_repo": 27,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 0.722
+    },
+    {
+      "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+      "genre": "guideline",
+      "doi": "10.1002/alz.70535",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 0,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": false,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 0.96,
+          "orphan_experiments": []
+        },
+        "gates_passed": 3,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.2,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.25,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "low genre baseline"
+        },
+        "corrective_science_score": {
+          "value": 6,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.429,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 17,
+        "quotes_unverifiable_in_repo": 17,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 1.0
+    },
+    {
+      "slug": "sal25-trailblazer-alz-4-a-phase-3",
+      "genre": "clinical_trial",
+      "doi": "10.1002/alz.70293",
+      "n_claims": 8,
+      "n_experiments": 6,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 1,
+        "n_trials": 1
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.111,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.125,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 2,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 1,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 17,
+        "quotes_unverifiable_in_repo": 13,
+        "quotes_checkable": 4,
+        "quotes_verified": 4,
+        "verified_ratio": 1.0,
+        "self_contained_grounding_ratio": 0.235
+      },
+      "v1_grounding_presence": 0.725
+    },
+    {
+      "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+      "genre": "cohort_study",
+      "doi": "10.1001/jamaneurol.2026.1405",
+      "n_claims": 4,
+      "n_experiments": 4,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 2,
+        "n_trials": 1
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": false,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 0.933,
+          "orphan_experiments": []
+        },
+        "gates_passed": 3,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.2,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.25,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 1,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 5,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 5,
+        "quotes_verified": 5,
+        "verified_ratio": 1.0,
+        "self_contained_grounding_ratio": 1.0
+      },
+      "v1_grounding_presence": 1.0
+    },
+    {
+      "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+      "genre": "meta_analysis",
+      "doi": "10.1016/S1474-4422(25)00227-3",
+      "n_claims": 7,
+      "n_experiments": 4,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 0,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.125,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.143,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "low genre baseline"
+        },
+        "corrective_science_score": {
+          "value": 2,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 22,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 22,
+        "quotes_verified": 22,
+        "verified_ratio": 1.0,
+        "self_contained_grounding_ratio": 1.0
+      },
+      "v1_grounding_presence": 1.0
+    },
+    {
+      "slug": "tit26-automated-high-throughput-quantification-of-plasma",
+      "genre": "assay_method",
+      "doi": "10.1186/s13195-026-01996-8",
+      "n_claims": 11,
+      "n_experiments": 9,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": false,
+        "n_datasets": 1,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": true,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": true,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 1.0,
+          "orphan_experiments": []
+        },
+        "gates_passed": 4,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.083,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.091,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 9,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.714,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 25,
+        "quotes_unverifiable_in_repo": 25,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": 0.0
+      },
+      "v1_grounding_presence": 0.796
+    },
+    {
+      "slug": "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms",
+      "genre": "assay_method",
+      "doi": "10.1038/s41467-024-54878-8",
+      "n_claims": 8,
+      "n_experiments": 7,
+      "artifact_facts": {
+        "has_code": false,
+        "has_open_data": true,
+        "n_datasets": 2,
+        "n_trials": 0
+      },
+      "gates": {
+        "seal_L1_structural_pass": true,
+        "all_links_resolve": false,
+        "no_orphan_experiments": true,
+        "grounding_layer_present": false,
+        "_detail": {
+          "seal_L1": 1.0,
+          "binding": 0.974,
+          "orphan_experiments": []
+        },
+        "gates_passed": 2,
+        "gates_total": 4
+      },
+      "rankers": {
+        "grounding_verified": {
+          "value": null,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+        },
+        "falsifiability_presence": {
+          "value": 1.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": "PROXY: presence only; quality is [sem]-pending"
+        },
+        "negative_result_share": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "dead_end_density": {
+          "value": 0.0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "corrective_science_score": {
+          "value": 2,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "translation_trial_linkage": {
+          "value": 0,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "environment_completeness": {
+          "value": 0.429,
+          "quality": "paper_quality",
+          "applies": true,
+          "reason": ""
+        },
+        "executable_reproduction_L3": {
+          "value": "N/A",
+          "quality": "paper_quality",
+          "applies": false,
+          "reason": "no code artifact"
+        }
+      },
+      "verified_grounding_detail": {
+        "quotes_present": 0,
+        "quotes_unverifiable_in_repo": 0,
+        "quotes_checkable": 0,
+        "quotes_verified": 0,
+        "verified_ratio": null,
+        "self_contained_grounding_ratio": null
+      },
+      "v1_grounding_presence": 0.0
+    }
+  ]
+}

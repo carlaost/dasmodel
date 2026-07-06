@@ -1,0 +1,15 @@
+{
+  "idx": 147,
+  "cite_key": "Ahm26",
+  "title": "Machine Learning and Deep Learning for Alzheimer’s Disease Diagnosis: A Survey of MRI, PET, Multimodal Fusion, Transformers, Graph Neural Networks, and Explainable AI",
+  "authors": "I. Ahmad; Tasfia Tarannum; Mohammed Majbah Uddin",
+  "year": "2026",
+  "pub_date": "2026-01-01",
+  "journal": "American Journal of Advanced Technology and Engineering Solutions",
+  "abstract": "Alzheimer’s disease is the leading cause of dementia and remains a major challenge in neurological diagnosis because early symptoms often overlap with normal aging and other neurodegenerative disorders. In recent years, machine learning and deep learning methods have been widely applied to neuroimaging and multimodal clinical data to improve automated diagnosis, risk prediction, and disease-stage classification. This survey reviews representative studies on Alzheimer’s disease diagnosis using traditional machine learning, convolutional neural networks, multimodal fusion methods, transformer-based architectures, graph neural networks, and explainable artificial intelligence. The literature shows a clear transition from handcrafted-feature pipelines to end-to-end deep models trained on magnetic resonance imaging, positron emission tomography, and multimodal data. It also suggests that multimodal systems often outperform single-modality systems because they integrate complementary structural and metabolic information, while graph and transformer methods aim to capture more global and relational disease patterns. At the same time, the field still faces major challenges, including dataset dependence, limited external validation, inconsistent evaluation settings, class imbalance, insufficient interpretability assessment, and weak evidence for clinical deployment. This survey organizes the literature by modeling paradigm and data modality, compares representative methods, and outlines future directions for robust, explainable, and clinically useful Alzheimer’s disease diagnosis systems.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.63125/vf6dkg22",
+  "url": "https://doi.org/10.63125/vf6dkg22",
+  "slug": "ahm26-machine-learning-and-deep-learning-for"
+}

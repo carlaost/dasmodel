@@ -1,0 +1,31 @@
+{
+  "nct": "NCT04437511",
+  "trial": "TRAILBLAZER-ALZ 2 (donanemab, early symptomatic Alzheimer's disease)",
+  "source": "ClinicalTrials.gov internal history API (https://clinicaltrials.gov/api/int/studies/NCT04437511/history and /history/{version}) -- captured live by the agent building outcome_switching.py; this is the SAME API that powers the public ct.gov website's 'History of Changes' tab (the public v2 REST API used elsewhere in this project does not expose prior versions, only the current record).",
+  "trial_timeline": {
+    "start_date": "2020-06-19",
+    "primary_completion_date": "2023-04-14",
+    "first_possible_week76_readout": "~2021-11 (76 weeks after first-patient-in 2020-06-19); no participant could have had week-76 iADRS or CDR-SB data before this date"
+  },
+  "n_history_versions": 72,
+  "initial_registration": {
+    "version": 0,
+    "date": "2020-06-17",
+    "primary_outcomes": [
+      {"measure": "Change from Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB)", "time_frame": "Baseline, Week 76"}
+    ]
+  },
+  "primary_outcome_amendment": {
+    "version": 21,
+    "date": "2021-03-24",
+    "primary_outcomes": [
+      {"measure": "Change from Baseline on the integrated Alzheimer's Disease Rating Scale (iADRS)", "time_frame": "Baseline, Up to Week 76"}
+    ],
+    "note": "CDR-SB (the version-0 registered primary) was replaced by iADRS as the trial's sole registered PRIMARY outcome effective this version. Date (2021-03-24) is ~9 months after first-patient-in (2020-06-19) and ~8 months before the earliest date any participant could reach the week-76 primary timepoint (~2021-11) -- i.e. this amendment necessarily predates any possible unblinded primary-endpoint readout. This iADRS designation was stable through primary completion (2023-04-14) and remains the outcome type recorded going into results-posting (version 61-62, 2024)."
+  },
+  "current_registered_primary_outcomes": [
+    {"measure": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)"},
+    {"measure": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Intermediate (Low-medium) Tau Population)"}
+  ],
+  "analysis_note": "This is a REAL, registry-documented, timestamped primary-endpoint change (CDR-SB -> iADRS) in the trial this ARA (jes26) draws on -- not something jes26 introduced (jes26 is a 2023+ post-hoc EU-eligible-subgroup reanalysis of an already-published trial whose primary was iADRS by the time jes26 was written; the switch is a matter of TRAILBLAZER-ALZ 2's own public regulatory/registry record, publicly discussed in the AD field at the time). The amendment's timing (~8 months before any participant could reach the week-76 readout) argues against a post-hoc, data-driven promotion of a favorable secondary -- the classic bad-faith outcome-switching pattern -- and toward a blinded, pre-specified protocol amendment. It is nonetheless true that CDR-SB, once the trial's sole pre-registered primary, is reported in jes26's own claims (C02) as a secondary/co-measure, not as the ARA's headline claim (C01, tagged first, carries iADRS)."
+}

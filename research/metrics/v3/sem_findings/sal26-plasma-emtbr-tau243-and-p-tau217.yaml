@@ -1,0 +1,46 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Sources block quotes the abstract's Findings sentence verbatim ('...showed strong concordance with PET-based biological staging') and the 156-participant clause; both directly support the Statement's cohort sizes and concordance claim. No numeric concordance statistic (kappa/AUC/%) is available from the provided input, and the ARA is explicit about that gap rather than papering over it."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Does not agree ... above chance / above the single-marker baseline in either cohort' negates the reported result using the same two cohorts (872 BioFINDER-2, 156 Knight ADRC) the paper already analyzed. The Knight ADRC arm is nominally an independent-cohort validation, which is a stronger design than a same-sample rerun, but the criterion as written references re-testing on these same two already-analyzed datasets rather than a new precommitted cohort, so it does not clear the bar for real_precommitted."}
+    scope_calibration: {verdict: calibrated, note: "Statement mirrors the abstract's own hedge (strong concordance, not perfect/causal agreement) and explicitly flags that effect sizes are unavailable rather than inventing a number to sound more precise."}
+    novelty: {verdict: novel, note: "First reported concordance between a combined %p-tau217+eMTBR-tau243 plasma model and an amyloid/tau-PET-based AD biological staging scheme, with cross-cohort replication; related_work.md's RW01/RW02 are cohort-infrastructure imports, not the empirical concordance finding itself, so novelty is not attributable to a predecessor result."}
+  - claim_id: C02
+    evidence_relevance: {relevant: true, note: "Sources quote ('outperformed a %p-tau217-only model, particularly for identifying the intermediate tau stage') is a verbatim substring of the abstract's Findings sentence and directly supports both the general comparison and the intermediate-tau-stage detail in the Statement."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'A %p-tau217-only model matches or exceeds the combined model' is the direct negation of the reported head-to-head comparison, testable only by re-running the same comparison on the same BioFINDER-2/Knight ADRC data — not an independent dataset or a genuinely new prospective test."}
+    scope_calibration: {verdict: calibrated, note: "Claim is scoped to 'particularly for identifying the intermediate tau stage,' matching the abstract's own qualifier rather than generalizing to a uniform advantage across all stages."}
+    novelty: {verdict: incremental, note: "%p-tau217 is already an established single-marker plasma biomarker (implicit baseline in the Statement itself); the contribution here is adding eMTBR-tau243 to improve resolution at one specific stage, an incremental extension of an existing single-marker approach rather than a de novo biomarker or staging concept."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "Sources quote is a verbatim substring of the abstract's Findings sentence ('Advanced plasma stages also aligned with greater clinical severity, other biomarker abnormalities, and neuropathologic burden'), directly supporting the Statement with no added or dropped clauses."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Shows no monotonic association ... ' negates the reported cross-sectional association using the same cohort data already analyzed; no independent outcome set or prospective cohort is specified, so this is a same-data rerun rather than a real precommitted test."}
+    scope_calibration: {verdict: calibrated, note: "Statement stays at the same qualitative level as the abstract ('greater ... alignment') and the Interpretation explicitly notes 'strength/direction detail not available' rather than asserting an effect size that isn't in the source."}
+    novelty: {verdict: incremental, note: "Showing that a newly proposed staging scheme tracks clinical severity, other biomarkers, and neuropathology is the expected/standard construct-validity check for any new AD staging instrument (the same validation pattern used by prior PET- and CSF-based staging schemes); it corroborates rather than introduces a new biological mechanism."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "Sources quote is the abstract's 'Meaning' sentence verbatim; the Statement is a close paraphrase that preserves 'scalable, minimally invasive,' 'treatment selection,' and 'clinical trial enrichment' without adding unsupported specifics."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "'Plasma staging fails to stratify patients usefully for treatment selection or trial enrichment in prospective use' points to a genuinely independent, future prospective test (new trial-enrichment or treatment-selection data not yet collected/analyzed in this paper) rather than a rerun of the reported BioFINDER-2/Knight ADRC analyses -- the one criterion in this ARA that clears the real_precommitted bar."}
+    scope_calibration: {verdict: calibrated, note: "Status is explicitly labeled 'hypothesis (interpretive Meaning statement; not directly tested in the abstract's reported findings)' and Interpretation flags it as forward-looking -- an honest downgrade rather than presenting an untested aspiration as an established result."}
+    novelty: {verdict: restatement, note: "Generic 'this blood biomarker could enable scalable, minimally invasive clinical stratification / trial enrichment' framing is boilerplate for nearly every blood-based AD biomarker paper; it restates a field-wide aspiration rather than contributing a specific new utility finding."}
+compilation_fidelity_samples:
+  - fact: "872 BioFINDER-2 participants and 156 independent Knight ADRC participants (C01)"
+    pdf_location: "no OA PDF exists for this article (Unpaywall url_for_pdf null; PMC/Europe PMC PDF endpoints return no file per sources.yaml); cross-checked instead against research/data/lib/sal26-plasma-emtbr-tau243-and-p-tau217/metadata.md Abstract"
+    captured_in_ara: true
+    note: "Both cohort sizes appear verbatim in metadata.md's abstract text and are reproduced exactly (same wording, same numbers) in claims.md C01 Sources; no PDF exists to cross-verify further, which the ARA discloses rather than concealing."
+  - fact: "Combined model outperformed %p-tau217-only model, particularly for identifying the intermediate tau stage (C02)"
+    pdf_location: "metadata.md Abstract, Findings sentence"
+    captured_in_ara: true
+    note: "Exact substring match, including the abstract's en-dash typography ('%p-tau217–only')."
+  - fact: "Advanced plasma stages aligned with greater clinical severity, other biomarker abnormalities, and neuropathologic burden (C03)"
+    pdf_location: "metadata.md Abstract, Findings sentence"
+    captured_in_ara: true
+    note: "Exact substring match; no clauses added or dropped."
+  - fact: "Plasma-based staging may provide a scalable, minimally invasive approach ... treatment selection and clinical trial enrichment (C04)"
+    pdf_location: "metadata.md Abstract, Meaning sentence"
+    captured_in_ara: true
+    note: "Exact substring match; Status correctly downgraded to 'hypothesis' rather than treated as a tested outcome."
+  - fact: "NCT03174938 / Skåne University Hospital sponsor / Lund University collaborator / ~2950 enrollment, RECRUITING (related_work.md RW01, study_design.md)"
+    pdf_location: "not from the article text (no PDF/full text available) -- sourced from sources.yaml clinical_trials block, itself verified via ClinicalTrials.gov"
+    captured_in_ara: true
+    note: "Correctly attributed to an independently verified external registry rather than presented as if extracted from the paper's own methods section; sources.yaml and related_work.md/study_design.md are mutually consistent."
+  - fact: "No numeric concordance statistic, AUC, odds ratio, or p-value anywhere in the ARA's cognitive or evidence layers"
+    pdf_location: "N/A -- absence check across claims.md, evidence/README.md, experiments.md, study_design.md"
+    captured_in_ara: true
+    note: "The ARA consistently marks every effect size as 'Not available from provided input (no full text)' instead of fabricating or estimating one; evidence/README.md explicitly files zero tables/figures for the same reason. This is a compilation-fidelity strength: no invented precision beyond what the abstract supports."

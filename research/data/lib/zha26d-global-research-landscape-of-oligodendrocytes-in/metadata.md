@@ -1,0 +1,13 @@
+# Global research landscape of oligodendrocytes in Alzheimer's disease: A bibliometric and knowledge-mapping analysis from 1990 to 2025.
+
+- **Cite key**: Zha26d
+- **Authors**: Jingyi Zhang; Yubo Teng; Yong Li; Miao Zhang
+- **Year**: 2026  (2026-06-02)
+- **Journal**: Journal of Alzheimer's disease : JAD
+- **DOI**: 10.1177/13872877261456313
+- **URL**: https://doi.org/10.1177/13872877261456313
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+BackgroundOligodendrocyte (OL) lineage biology is increasingly recognized as a contributor to Alzheimer's disease (AD) pathophysiology, but its global knowledge structure and emerging frontiers remain unclear.ObjectiveTo map the development, major contributors, intellectual bases, and research frontiers of OL-related AD research using bibliometric and visualization approaches.MethodsEnglish-language articles and reviews published from 1990 to 2025 were retrieved from the Web of Science Core Collection on January 2, 2026. After deduplication, 1746 records were analyzed. VOSviewer 1.6.20 assessed publication output, contributors, collaborations, and citation networks. CiteSpace 6.1.6 performed keyword co-occurrence, clustering, and burst detection.ResultsAnnual publications increased from 5 in 1990 to 149 in 2025, peaking at 154 in 2024, with acceleration after 2020. The United States led in productivity and impact (684 publications; 54,075 citations). Harvard University was the most productive institution (46 publications), whereas the University of California, Los Angeles had the highest average citation impact among leading institutions (147.20 citations per publication). Acta Neuropathologica was the most productive journal (66 publications; 6548 citations). Mathys et al. was the most influential cornerstone reference. Keyword clustering was robust (Q = 0.701, S = 0.958), identifying "white matter" as the central thematic cluster.ConclusionsOL-related AD research is expanding rapidly and shifting toward white matter-centered, cell state-resolved, and multi-omics paradigms. Future priorities include defining OL and oligodendrocyte precursor cell transcriptional states, clarifying myelin vulnerability and repair mechanisms, and linking OL pathology to amyloid-related processes.

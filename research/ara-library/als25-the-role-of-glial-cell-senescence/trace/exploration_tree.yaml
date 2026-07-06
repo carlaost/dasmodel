@@ -1,0 +1,168 @@
+# Exploration Tree — als25-the-role-of-glial-cell-senescence
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# NOTE: This is a narrative REVIEW, not an experimental study. The tree reconstructs the review's
+# ARGUMENT structure (questions it poses, evidence lines it marshals, decisions of scope, and
+# limitations it flags). Most nodes are `inferred` reconstructions of the review's reasoning;
+# `explicit` nodes are grounded in specific sections/figures/tables. "experiment" nodes summarize the
+# body of primary evidence the review cites for that thread (not experiments by these authors).
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "§1", "§1.1"]
+    title: "Does glial cell senescence drive Alzheimer's disease pathogenesis?"
+    description: >
+      Central question of the review: whether cellular senescence in glia (astrocytes, microglia,
+      oligodendrocytes/OPCs) — beyond neuron-centric mechanisms — contributes causally to AD, and
+      whether it is a therapeutic target.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        title: "Reframe brain aging/AD around glia rather than neurons"
+        choice: "Focus the review on glial senescence as the underexplored driver of AD."
+        alternatives:
+          - "Maintain the traditional neuron-centric account of AD."
+          - "Treat senescence as a whole-brain phenomenon without cell-type resolution."
+        evidence: "Soreq et al. 2017: most age-related brain gene-expression change is in glia, not neurons (§1.2)."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["§1.2", "Soreq et al. 2017"]
+            title: "Transcriptomic evidence localizes brain aging to glia"
+            result: >
+              Across 480 individuals aged 16–106, most age-related gene expression differences are in
+              glia; astrocyte/microglia gene dysregulation best predicts aging; hippocampus and
+              substantia nigra most affected.
+            evidence: [C02, "§1.2"]
+
+      - id: N04
+        type: experiment
+        support_level: explicit
+        source_refs: ["§1.1", "Table 1", "Table 2"]
+        title: "Catalogue shared senescence markers across glial cell types in aging and AD"
+        result: >
+          SA-β-gal, p16INK4A, p21WAF1/CIP1, p53, γH2AX, Lamin B1 loss, and SASP factors are elevated
+          across astrocytes, microglia, OPCs, and oligodendrocytes in both normal aging (Table 1) and
+          pathology-induced (Table 2) contexts.
+        evidence: [C01, "Table 1", "Table 2"]
+        children:
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["§1.2.1", "Gaikwad et al. 2021", "Ungerleider et al. 2022"]
+            title: "Astrocyte senescence in AD (Aβ/tau induction, human tissue)"
+            result: >
+              >75% of GFAP+ astrocytes in AD are TauO- and p16INK4A-reactive; oligomeric Aβ induces
+              p53/p21/p16, SA-β-gal, DNA damage and lowers Ki-67/neurotrophins in primary astrocytes.
+            evidence: [C03, C05, "Table 2"]
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["§1.2.2", "Hu et al. 2021", "Fancy et al. 2024", "Karabag et al. 2023"]
+            title: "Microglia senescence in AD (replicative + Aβ/tau induction)"
+            result: >
+              Plaque-associated microglia proliferate then senesce (DAM); post-mortem AD microglia
+              show more senescence markers; tau induces microglial senescence and reduces phagocytosis.
+            evidence: [C03, C04, C06, "Table 2"]
+
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["§1.2.3", "Zhang et al. 2019", "Wang et al. 2020", "Luan et al. 2021"]
+            title: "Oligodendrocyte/OPC senescence and myelin failure in AD"
+            result: >
+              Senescent OPCs (p16/p21, SA-β-gal) accumulate near Aβ plaques; loss of OPC
+              differentiation drives age-dependent myelin loss and cognitive deficits.
+            evidence: [C01, C03, C04, "Table 2"]
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["§1.2.1", "§1.2.2", "Iram et al. 2016", "Limbad et al. 2020", "Fancy et al. 2024"]
+        title: "Establish functional consequences of glial senescence"
+        also_depends_on: [N05, N06]
+        result: >
+          Senescent glia show reduced Aβ/debris phagocytosis (↓ LRP1/SR-B1), neurotoxicity via
+          glutamate excitotoxicity, reduced synaptic vesicle pool and neurotrophic factors — bridging
+          senescence to neurodegeneration.
+        evidence: [C04]
+
+      - id: N09
+        type: experiment
+        support_level: explicit
+        source_refs: ["§1.1", "§1.3", "Bussian et al. 2018", "Zhang et al. 2019", "Musi et al. 2018"]
+        title: "Causal test: clear senescent glia in AD models"
+        also_depends_on: [N05, N06, N07]
+        result: >
+          Genetic/senolytic clearance of p16INK4A+ senescent glia reduces tau phosphorylation, NFTs,
+          Aβ load, neurodegeneration, and neuroinflammation and improves cognition — causal evidence.
+        evidence: [C05, C07]
+        children:
+
+          - id: N10
+            type: decision
+            support_level: inferred
+            title: "Prioritize senotherapeutics (senolytics + senomorphics) as the therapeutic thesis"
+            choice: "Survey senolytics (D+Q, AP20187, ABT-263, Fisetin) and senomorphics (rapamycin, resveratrol, apigenin, adalimumab, SGB121)."
+            alternatives:
+              - "Focus only on anti-amyloid/anti-tau therapies."
+              - "Focus only on marker development without therapy."
+            evidence: "Preclinical clearance rescues pathology and cognition (§1.3)."
+            children:
+
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["§1.3", "Hickson et al. 2019", "Gonzales et al. 2023"]
+                title: "Translate to humans: D+Q clinical trials"
+                result: >
+                  D+Q lowered SASP factors (MMP-12; IL-17/IL-21/IL-10/IL-6/MMP-9) and dasatinib
+                  reached CSF (target engagement), but no cognitive or structural-MRI benefit in
+                  short early-AD trial.
+                evidence: [C08]
+
+  - id: N12
+    type: dead_end
+    support_level: explicit
+    source_refs: ["§1.3", "Zhu et al. 2015"]
+    title: "Assume senolytics act uniformly across senescent cell types"
+    hypothesis: "A given senolytic eliminates senescent cells regardless of cell type."
+    failure_mode: >
+      Dasatinib eliminated senescent preadipocytes but not human endothelial cells; quercetin showed
+      the opposite. Effects are cell-type- and context-specific; senescence is systemic and
+      microenvironment-dependent.
+    lesson: >
+      Senotherapeutics must be tailored to senescent-cell subpopulations; personalized senolytic +
+      senomorphic combinations and diet/microenvironment factors must be considered.
+
+  - id: N13
+    type: dead_end
+    support_level: explicit
+    source_refs: ["§2", "Ogrodnik et al. 2021"]
+    title: "Rely on single canonical markers to identify senescent glia"
+    hypothesis: "Markers like SA-β-gal / p16INK4A / p21 universally and specifically identify senescent glia."
+    failure_mode: >
+      Markers are nonspecific/low-sensitivity and non-universal — vary by cell type/region/context
+      (HMGB1 in one cell type only; p16/p21 higher in microglia/OPCs than astrocytes); senescent cells
+      are hard to distinguish from quiescent/terminally differentiated cells.
+    lesson: >
+      More sensitive, context-specific markers are needed to define senescent-cell identity and
+      spatial distribution across disease progression.
+
+  - id: N14
+    type: question
+    support_level: explicit
+    source_refs: ["§1.2.3", "§2"]
+    title: "Do mature oligodendrocytes undergo senescence in AD?"
+    description: >
+      Open gap flagged by the review: direct evidence of senescence in mature (post-mitotic)
+      oligodendrocytes has not yet been reported in AD; more targeted studies are needed.

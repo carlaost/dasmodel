@@ -1,0 +1,129 @@
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction §para 3", "§Discussion"]
+    title: "Do tau proteoforms phosphorylated at two sites simultaneously have added diagnostic value over single-site p-tau in CSF and plasma?"
+    description: >
+      Central research question. Single-site p-tau (181/217/231) is an established AD biomarker,
+      but tau carries >50 phosphorylation sites and doubly/triply phosphorylated peptides are
+      enriched in AD brain and inferred in fluids. The authors ask whether measuring
+      co-phosphorylation directly adds value.
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Methods §Assay development", "Figure 5"]
+        title: "Design dual-site sandwich Simoa assays (capture site A / detect site B)"
+        description: >
+          Decision to build two-site sandwich assays where capture (anti-p-tau231) and detector
+          (anti-p-tau181 or anti-p-tau217) target different sites, so signal requires double
+          phosphorylation on one molecule. Yields C231D181 and C231D217.
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["§Technical validation", "Supplementary Tables 2-14"]
+            title: "Analytically validate both assays (E01)"
+            description: >
+              Establish standard curves, LLOQ/ULOQ, intra/inter-assay CV, dilution linearity on two
+              instruments, and spike-recovery for C231D181 and C231D217.
+            evidence: ["C01"]
+            children:
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["§Technical validation (Supplementary Table 8)"]
+                title: "Specificity control: run a mix of single-site phosphorylated peptides"
+                description: >
+                  Test whether single-site peptides alone can generate signal. Result: blank-level
+                  signal — confirming double phosphorylation is required to form the immunocomplex.
+                evidence: ["C01"]
+      - id: N05
+        type: decision
+        support_level: explicit
+        source_refs: ["Methods §Study participants"]
+        title: "Two-cohort design: discovery (n=55) then validation (n=118), A/T/N-defined AD continuum"
+        description: >
+          Split a 173-patient Perugia cohort into discovery and validation; classify by CSF A/T/N
+          profile; include FTD (validation) and NDC controls.
+        children:
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["Figure 2", "Figure 4", "§Diagnostic performance"]
+            title: "Measure 5 markers in CSF & plasma and compare groups (E02)"
+            description: >
+              Kruskal-Wallis + Dunn's post-hoc across NDC / pre-AD / MCI-AD / AD-dem / FTD, for CSF
+              and plasma p-tau181, p-tau217, p-tau231, p-tau181&231, p-tau217&231.
+            evidence: ["C02", "C04", "C07"]
+            children:
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 3", "§Diagnostic performance", "Supplementary Tables 15, 16"]
+                title: "ROC / AUC diagnostic accuracy + DeLong comparison (E03)"
+                description: >
+                  ROC for NDC vs each AD stage and NDC vs all AD continuum; AUC with Wilson/Brown CI;
+                  DeLong test compares plasma p-tau217&231 vs single-site plasma markers.
+                evidence: ["C02", "C03", "C06"]
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 1", "§Correlations between CSF and plasma biomarkers"]
+                title: "Spearman correlation across CSF/plasma markers (E04)"
+                description: >
+                  Correlation heatmaps reveal plasma p-tau181&231 does not correlate with any marker,
+                  including its own CSF equivalent.
+                evidence: ["C04", "C06"]
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 2 (Cohen's d)", "Figure 4 (Cohen's d)", "Supplementary Table 17"]
+                title: "Cohen's d effect size + median fold change (E05)"
+                description: >
+                  Rank markers by standardized effect size and median concentration fold change;
+                  p-tau217&231 highest, plasma p-tau181&231 negligible.
+                evidence: ["C03", "C04", "C05"]
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Supplementary Fig. 1", "§Diagnostic performance"]
+                title: "ROC by CSF AT profile (A+ vs A-, A+T+ vs other) (E06)"
+                description: >
+                  Robustness check under biomarker-profile grouping; plasma p-tau217&231 retains
+                  highest AUC/effect size.
+                evidence: ["C08"]
+                also_depends_on: ["N07"]
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["§Diagnostic performance (validation)", "Supplementary Table 15"]
+                title: "AD-dem vs FTD discrimination (E07)"
+                description: >
+                  CSF/plasma p-tau217/231/217&231 discriminate AD-dem from FTD; CSF
+                  p-tau181/231/181&231 do not differ NDC vs FTD.
+                evidence: ["C07"]
+                also_depends_on: ["N07"]
+      - id: N12
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Figure 2b", "§Correlations", "§Diagnostic performance (discovery)", "§Discussion"]
+        title: "Plasma p-tau181&231 fails as a diagnostic marker"
+        description: >
+          Despite CSF p-tau181&231 being diagnostic, the plasma p-tau181&231 measurement did not
+          separate any AD group from NDC (Cohen's d MCI-AD/NDC = 0.00, AD-dem/NDC = 0.17; ROC AUC
+          ~0.51-0.58) and did not correlate with its CSF equivalent. A negative result for one of
+          the two developed proteoform assays in one matrix, attributed to matrix-specific
+          processing.
+        evidence: ["C04", "C06"]
+      - id: N13
+        type: decision
+        support_level: explicit
+        source_refs: ["§Discussion (limitations)"]
+        title: "Flag limitations: no absolute quantification; small pre-AD group; C231D217 to be re-developed"
+        description: >
+          Authors state concentrations are preliminary (calibrators not absolutely quantified),
+          sample sizes are small (risk of overestimating performance), and recommend re-developing
+          the p-tau217&231 assay with dedicated p-tau217 antibodies and longitudinal validation.
+        evidence: []

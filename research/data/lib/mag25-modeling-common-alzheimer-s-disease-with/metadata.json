@@ -1,0 +1,15 @@
+{
+  "idx": 362,
+  "cite_key": "Mag25",
+  "title": "Modeling common Alzheimer’s disease with high and low polygenic risk in human iPSC: A large-scale research resource",
+  "authors": "Emily Maguire; Jincy Winston; S. Ellwood; Rachel O'Donoghue; Bethany Shaw; Atahualpa Castillo Morales; Samuel Keat; Alexandra Evans; R. Marshall; L. Luckcuck; Laura Brown; Elisa Salis; G. Leonenko; N. Denning; Nicholas D. Allen; V. Escott-Price; Caleb Webber; Philip R. Taylor; R. Sims; Sally A. Cowley; Julie Williams; Sarah M. Carpanini; H. Hall-Roberts",
+  "year": "2025",
+  "pub_date": "2025-06-21",
+  "journal": "Stem Cell Reports",
+  "abstract": "Summary Common forms of Alzheimer’s disease (AD) are complex and polygenic. We have created a research resource that seeks to capture the extremes of polygenic risk in a collection of human induced pluripotent stem cell (iPSC) lines from over 100 donors: the IPMAR Resource (iPSC Platform to Model Alzheimer's Disease Risk). Donors were selected from a large UK cohort of 6,000+ research-diagnosed early or late-onset AD cases and elderly cognitively healthy controls, many of whom have lived through the age of risk for disease development (>85 years). We include iPSC with extremes of global AD polygenic risk (high-risk late-onset AD: 34; high-risk early-onset AD: 29; low-risk control: 27) as well as those reflecting complement pathway-specific genetic risk (high-risk AD: 9; low-risk controls: 10). All iPSC have associated clinical, longitudinal, and genetic datasets and will be available through collaboration or from cell (EBiSC) and data (DPUK) repositories.",
+  "citation_count": "4",
+  "citations_per_year": "3.8",
+  "doi": "10.1016/j.stemcr.2025.102570",
+  "url": "https://doi.org/10.1016/j.stemcr.2025.102570",
+  "slug": "mag25-modeling-common-alzheimer-s-disease-with"
+}

@@ -1,0 +1,100 @@
+- claim_id: C01
+  number: "AAPC 3.18"
+  quote: "Mortality rates increased significantly (AAPC: 3.18)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match confirmed against research/data/lib/.../metadata.md abstract RESULTS."
+- claim_id: C02
+  number: "6,697,209 deaths"
+  quote: "From 1999 to 2020, 6,697,209 deaths were attributed to AD (AAMR: 90.727)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match in metadata.md."
+- claim_id: C02
+  number: "AAMR 90.727"
+  quote: "From 1999 to 2020, 6,697,209 deaths were attributed to AD (AAMR: 90.727)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match in metadata.md."
+- claim_id: C03
+  number: "Female AAMR 94.31"
+  quote: "Females had higher AAMRs (94.31) than males (83.23)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match; polarity (female > male) matches claim."
+- claim_id: C03
+  number: "Male AAMR 83.23"
+  quote: "Females had higher AAMRs (94.31) than males (83.23)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match."
+- claim_id: C04
+  number: "NH Black 94.53, NH White 93.73, NH American Indian 66.80, Hispanic 66.33, NH Asian 46.16"
+  quote: "Non-Hispanic Black individuals had the highest AAMR (94.53), followed by non-Hispanic White (93.73), non-Hispanic American Indian (66.80), Hispanic (66.33), and non-Hispanic Asian individuals (46.16)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "All five values and the rank order match exactly."
+- claim_id: C05
+  number: "85+ CMR 3574.928"
+  quote: "Individuals aged 85 years and older had the highest CMR (3574.928)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match."
+- claim_id: C06
+  number: "Rural AAMR 95.080, Urban AAMR 89.772"
+  quote: "Rural areas had higher AAMRs (95.080) than urban areas (89.772)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match, polarity (rural > urban) matches claim."
+- claim_id: C07
+  number: "Midwest AAMR 96.131, Northeast AAMR 78.564"
+  quote: "The Midwest had the highest AAMR (96.131), whereas the Northeast had the lowest (78.564)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match."
+- claim_id: C08
+  number: "SC 119.789, TN 113.624, NY 64.16, FL 68.677"
+  quote: "States such as South Carolina (119.789) and Tennessee (113.624) had higher AAMRs compared with New York (64.16) and Florida (68.677)."
+  source: "metadata.md RESULTS"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact verbatim match, all four states correctly attributed."

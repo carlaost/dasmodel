@@ -1,0 +1,13 @@
+# Microglial States Are Susceptible to Senescence and Cholesterol Dysregulation in Alzheimer's Disease
+
+- **Cite key**: Li25f
+- **Authors**: Boyang Li; Shaowei Wang; Bilal Kerman; Cristelle Hugo; E. K. Shwab; C. Shu; O. Chiba-Falek; Z. Arvanitakis; Hussein N Yassine
+- **Year**: 2025  (2025-08-11)
+- **Journal**: Aging Cell
+- **DOI**: 10.1111/acel.70189
+- **URL**: https://doi.org/10.1111/acel.70189
+- **Citations**: 3 (3.3/yr)
+
+## Abstract
+
+Cellular senescence is a major contributor to aging‐related degenerative diseases, including Alzheimer's disease (AD), but much less is known about the key cell types and pathways driving senescence mechanisms in the brain. We hypothesized that dysregulated cholesterol metabolism is central to cellular senescence in AD. We analyzed single‐cell RNA‐seq data from the ROSMAP and SEA‐AD cohorts to uncover cell type‐specific senescence pathologies. In ROSMAP snRNA‐seq data (982,384 nuclei from postmortem prefrontal cortex), microglia emerged as central contributors to AD‐associated senescence phenotypes among non‐neuronal cells. Homeostatic, inflammatory, phagocytic, lipid‐processing, and neuronal‐surveillance microglial states were associated with AD‐related senescence in both ROSMAP (152,459 microglia nuclei from six brain regions) and SEA‐AD (82,486 microglia nuclei) via integrative analysis. We assessed top senescence‐associated bioprocesses and demonstrated that senescent microglia exhibit altered cholesterol‐related processes and dysregulated cholesterol metabolism. We identified three gene co‐expression modules representing cholesterol‐related senescence signatures in postmortem brains. To validate these findings, we applied these signatures to snRNA‐seq data from iPSC‐derived microglia（iMGs) exposed to myelin, Aβ, apoptotic neurons, and synaptosomes. Treatment with AD‐related substrates altered cholesterol‐associated senescence signatures in iMGs. This study provides the first human evidence that dysregulated cholesterol metabolism in microglia drives cellular senescence in AD. Targeting cholesterol pathways in senescent microglia is an attractive strategy to attenuate AD progression.

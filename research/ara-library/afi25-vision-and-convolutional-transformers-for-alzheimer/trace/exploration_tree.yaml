@@ -1,0 +1,192 @@
+# Exploration Tree — Afi25 (Vision & Convolutional Transformers for AD: systematic review)
+# Research DAG reconstructing the review's investigative logic.
+# Node types: question | experiment | decision | dead_end | pivot
+# Most nodes are the review's own analysis steps; support_level marks explicit source grounding
+# vs inferred reconstruction of the narrative.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Introduction", "§2 Related work", "Table 1"]
+    title: "How effective are ViT and CViT models for AD classification and MCI-to-AD progression, and what practical gaps remain?"
+    description: "Central driver: existing reviews focus on pre-transformer DL or evaluate models in isolation, omitting multimodal fusion, reproducibility, and frameworks. This review synthesizes ViT/CViT AD work (2021-2025) with emphasis on those overlooked dimensions."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§3 Methodology", "Table 2", "Table 3", "Figure 2"]
+        title: "Define a PRISMA-2020 search-and-selection protocol"
+        choice: "5 databases (Scopus/WoS/ScienceDirect/IEEE/PubMed), journal-only, English, 2021-2025, must use ViT or CViT; two independent reviewers with consensus; screen for data leakage"
+        alternatives:
+          - "Include conference papers/preprints/book chapters (rejected — journal-only for quality)"
+          - "Broaden beyond ViT/CViT to all DL (rejected — would duplicate prior reviews)"
+          - "Wider/narrower time window than 2021-2025"
+        evidence: "PRISMA flow (Figure 2); eligibility (Table 3)"
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Figure 2", "Table 2"]
+            title: "Run the search and screen to a final corpus"
+            result: "564 identified -> 404 after dedup -> 144 after title/abstract (261 excluded) -> 68 included (76 full-text excluded). Scope exceeds all 8 prior reviews in Table 1."
+            evidence: [C11]
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 15", "Table 4", "Table 5", "§7", "§8"]
+                title: "Classify corpus by architecture taxonomy (ViT vs CViT + integration pattern)"
+                result: "22 ViT studies vs 46 CViT studies; serial integration is the most common CViT pattern. CViT identified as the dominant/state-of-the-art paradigm."
+                evidence: [C01, C10]
+                children:
+
+                  - id: N05
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["§4.4.2", "§7.3", "§8"]
+                    title: "Pure ViTs as the primary AD architecture"
+                    hypothesis: "Standalone ViTs' global self-attention would be sufficient and superior for AD neuroimaging."
+                    failure_mode: "Pure ViTs are data-hungry and computationally expensive with weak inductive bias, struggling to learn fine-grained local neuropathological features from limited medical datasets; application stays confined to simpler single-modality tasks."
+                    lesson: "Motivated the field's pivot to hybrid CViTs that add CNN local-feature extraction — the review's central architectural finding."
+
+                  - id: N06
+                    type: pivot
+                    support_level: explicit
+                    source_refs: ["§4.4.2", "§8", "Conclusion"]
+                    title: "Shift from pure ViT to hybrid CViT paradigm"
+                    from: "standalone ViT global-attention modeling"
+                    to: "hybrid CViT (CNN local features + transformer global context)"
+                    trigger: "Documented ViT data-hunger/compute cost plus reviewed benchmarks where CViTs beat CNN baselines and dominate complex multimodal settings."
+                    evidence: [C01, C07]
+
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 16", "Figure 17", "Figure 25", "§7.3.2", "§8.3.2"]
+                title: "Analyze modality utilization across the corpus"
+                result: "sMRI dominates single-modality use (31 overall; ViT 15, CViT 16); PET and fMRI far less common. Confirms heavy sMRI reliance."
+                evidence: [C02]
+
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 7", "§7.3.2", "§8.3.3", "§10.1"]
+                title: "Analyze dataset dependency"
+                result: "ADNI used in ~73% (16/22) of ViT and ~72% (33/46) of CViT studies; external validation rarer in ViT than CViT works."
+                evidence: [C03]
+                children:
+
+                  - id: N09
+                    type: decision
+                    support_level: explicit
+                    source_refs: ["§10.1"]
+                    title: "Categorize studies by dataset-bias risk"
+                    choice: "Three tiers — Category 1 (high: single-dataset internal validation), Category 2 (moderate: multi-dataset pooling, no external validation), Category 3 (lower: rigorous external validation)"
+                    alternatives:
+                      - "Binary biased/unbiased label (rejected — cannot label without re-running experiments)"
+                      - "No bias analysis (rejected — central practical concern)"
+                    evidence: "Demographic + technical bias of ADNI; shortcut learning"
+                    children:
+
+                      - id: N10
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["§10.1", "§12.1.3"]
+                        title: "Contrast internal vs external validation performance"
+                        result: "Category-1/2 studies report near-perfect (>99%) internal accuracies; Category-3 externally-validated models report lower, more believable ~90-93% and ~77% - evidencing the accuracy paradox and high methodological bias risk."
+                        evidence: [C08]
+
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 15", "§7.3.3", "§8.3.4", "Conclusion"]
+                title: "Tally diagnostic focus (classification vs MCI progression)"
+                result: "Overwhelming focus on AD-stage classification; MCI-to-AD conversion prediction is a small minority - a critical prognostic gap."
+                evidence: [C04]
+
+              - id: N12
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 14", "Figure 15", "§7.3.4", "§8.3.2", "§6.1"]
+                title: "Analyze multimodal-fusion prevalence and strategy"
+                result: "Multimodal integration in only 2/22 ViT (~9%) but 26/46 CViT (~57%) studies; intermediate (feature-level) fusion dominates. Fusion taxonomy (input/intermediate/output/knowledge/hybrid) applied."
+                evidence: [C07, C10]
+
+              - id: N13
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 6", "Figure 42", "§9"]
+                title: "Audit frameworks and code reproducibility"
+                result: "PyTorch most used (35), TensorFlow 13, Keras 2, others few; only 10/68 (~15%) share public code (one by-request). Diagnosed as a reproducibility crisis."
+                evidence: [C05, C06]
+                children:
+
+                  - id: N14
+                    type: decision
+                    support_level: explicit
+                    source_refs: ["§9.3", "§9.4"]
+                    title: "Define reproducibility levels and propose minimum standards"
+                    choice: "Distinguish exact reproduction vs close reproduction (replicability); propose 5 minimum reporting standards + systemic solutions (benchmarks, journal/funder mandates)"
+                    alternatives:
+                      - "Demand only exact bit-for-bit reproduction (rejected — rarely achievable in DL)"
+                      - "No proposed standards (rejected — leaves the crisis unaddressed)"
+                    evidence: "Stochasticity of DL; pervasive missing implementation detail"
+
+              - id: N15
+                type: experiment
+                support_level: explicit
+                source_refs: ["§4.4.2", "Table 4"]
+                title: "Synthesize reviewed ViT-vs-CNN head-to-head comparisons"
+                result: "Transformers generally match/outperform modern CNNs on binary AD tasks (e.g. DeiT), with a counter-example where ViT underperformed VGG19 on a harder ternary PET task."
+                evidence: [C09]
+
+      - id: N16
+        type: question
+        support_level: explicit
+        source_refs: ["§11", "Table 8"]
+        title: "Are AD studies truly harnessing the 'largeness' of Large Vision Models?"
+        description: "Assess how LVM principles are operationalized in the corpus versus the general-medical-AI frontier."
+        children:
+
+          - id: N17
+            type: experiment
+            support_level: explicit
+            source_refs: ["§11.1", "Table 8"]
+            title: "Analyze LVM usage in reviewed AD work"
+            result: "LVM principles used mainly via transfer learning (fine-tuning ViT/Swin backbones) and domain-specific SSL (e.g. DINO); true generative zero-shot LVMs largely unexplored. A conceptual/methodological gap to general medical foundation models is identified."
+            evidence: [C10]
+
+          - id: N18
+            type: dead_end
+            support_level: explicit
+            source_refs: ["§11.2"]
+            title: "Blanket Domain-Adaptive Pretraining (DAPT) as a universal fix"
+            hypothesis: "Simply pretraining on more medical data (DAPT) would reliably yield superior AD models."
+            failure_mode: "Rigorous, statistically-sound benchmarks (Jeong et al. [276]) show DAPT's performance benefits can be marginal."
+            lesson: "Progress should be methodology-centric (high-quality data pipelines, advanced objectives like RLCF, deep fusion), not merely data-scale-centric."
+
+          - id: N19
+            type: decision
+            support_level: explicit
+            source_refs: ["§11.3", "Figure 43"]
+            title: "Propose a conceptual next-generation LVM architecture for AD"
+            choice: "Vision-language backbone + hierarchical (general->medical) pretraining + modality-specific 3D/tabular/text tokenization + hierarchical cross-modal fusion transformer + multi-task SFT and RLCF"
+            alternatives:
+              - "Monolithic single-model design (deprioritized in §12.2.2 in favor of modular frameworks)"
+              - "Continue supervised fine-tuning of vision-only backbones (status quo, deemed insufficient)"
+            evidence: "Synergistic triad: curated data + advanced objectives + deep fusion"
+
+      - id: N20
+        type: decision
+        support_level: explicit
+        source_refs: ["§12", "Figure 44"]
+        title: "Map identified limitations to four future-research pathways"
+        choice: "Pathway 1 longitudinal/multimodal complexity; Pathway 2 next-gen efficient/modular architectures; Pathway 3 advanced XAI (RAG-grounded, interactive); Pathway 4 robust/ethical ecosystem (open benchmarks, federated learning, fairness audits)"
+        alternatives:
+          - "List limitations without a solution roadmap (rejected — reduces actionability)"
+        evidence: "Limitation->direction mapping diagram (Figure 44)"
+        also_depends_on: [N10, N13, N17]

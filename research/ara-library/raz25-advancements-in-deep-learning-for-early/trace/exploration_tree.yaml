@@ -1,0 +1,69 @@
+# Exploration Tree — raz25-advancements-in-deep-learning-for-early
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. The full text was unavailable in the provided inputs, so this tree
+# captures only the review logic explicitly stated in metadata.md. No dead_end nodes are included
+# because the abstract does not report failed approaches or ablations.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract — Introduction/Method"]
+    title: "Can deep learning on multimodal neuroimaging improve early Alzheimer's diagnosis?"
+    description: >
+      The abstract frames Alzheimer's disease as challenging for early diagnosis and treatment, and
+      reviews deep learning applications in AD diagnosis using multimodal neuroimaging.
+    children:
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md Abstract — Method"]
+        title: "Search and select relevant literature"
+        result: >
+          The review searched PubMed, Embase, Google Scholar, and ClinicalTrials.gov, selected
+          pertinent studies, and critically analyzed findings.
+        evidence: [C01]
+        children:
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["metadata.md Abstract — Method"]
+            title: "Use a best-evidence synthesis approach"
+            choice: "Prioritize high-quality studies and identify consistent patterns across the literature"
+            alternatives:
+              - "Not available from provided input"
+            evidence: "The abstract states that the review employed a best-evidence approach."
+            children:
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract — Results"]
+                title: "Synthesize architecture families and imaging inputs"
+                result: >
+                  CNNs, RNNs, and transformer-based models are reported to process structural and
+                  functional imaging modalities and extract Alzheimer's-associated patterns.
+                evidence: [C01, C03]
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract — Results"]
+                title: "Compare multimodal integration with single-modality approaches"
+                result: >
+                  The abstract reports improved diagnostic accuracy for multiple-modality integration
+                  compared with single-modality approaches; exact metrics are not available from
+                  provided input.
+                evidence: [C02]
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract — Discussion"]
+                title: "Assess clinical-translation barriers"
+                result: >
+                  The abstract identifies data heterogeneity, small sample sizes, limited
+                  generalizability, interpretability, transparency, and ethical implications as
+                  remaining challenges.
+                evidence: [C04]

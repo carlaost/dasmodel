@@ -1,0 +1,42 @@
+paper:
+  slug: sal25-trailblazer-alz-4-a-phase-3
+  doi: 10.1002/alz.70293
+  title: "TRAILBLAZER-ALZ 4: A phase 3 trial comparing donanemab with aducanumab on amyloid plaque clearance in early, symptomatic Alzheimer's disease"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://europepmc.org/articles/PMC12089073?pdf=render
+  source: pmc
+code: []
+data:
+  - name: "Individual participant data — TRAILBLAZER-ALZ 4 (NCT05108922)"
+    identifier: NCT05108922
+    repository: Vivli (Eli Lilly sponsor data-sharing portal, www.vivli.org)
+    access: request
+    verified: true
+clinical_trials:
+  - nct: NCT05108922
+    title: "A Phase 3, Open-Label, Parallel-Group, 2-Arm Study to Investigate Amyloid Plaque Clearance With Donanemab Compared With Aducanumab-avwa in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 4)"
+    phase: PHASE3
+    status: COMPLETED
+    sponsor: Eli Lilly and Company
+    source: clinicaltrials.gov
+    verified: true
+notes: >
+  Data Availability Statement (verbatim from PDF): "Lilly provides access to all
+  individual participant data collected during the trial, after anonymization, with
+  the exception of pharmacokinetic or genetic data. Data are available to request 6
+  months after the indication studied has been approved in the US and EU and after
+  primary publication acceptance... Access is provided after a proposal has been
+  approved by an independent review committee... For details on submitting a request,
+  see the instructions provided at www.vivli.org." Access type is therefore
+  request/controlled via Vivli — no open dataset or public accession is released.
+  No Code Availability statement is present; statistical analyses used SAS v9.4 with
+  further methodological detail hosted on ClinicalTrials.gov/study/NCT05108922. No
+  code/software repository found (expected for an industry-sponsored clinical trial).
+  Trial NCT05108922 (TRAILBLAZER-ALZ 4) confirmed via ClinicalTrials.gov: Phase 3,
+  open-label, COMPLETED, sponsor Eli Lilly, 148 participants, 31 US sites, has_results=true.
+  PDF is open access (CC-BY, hybrid; PMCID PMC12089073, PMID 40390253) and was
+  downloaded from Europe PMC / PMC (verified valid 13-page PDF, ~1.2 MB). Publisher
+  PDF also available at https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.70293.

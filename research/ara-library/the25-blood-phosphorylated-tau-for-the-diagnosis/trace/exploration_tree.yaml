@@ -1,0 +1,113 @@
+# Exploration Tree — the25-blood-phosphorylated-tau-for-the-diagnosis
+# Research DAG reconstructed from the ABSTRACT ONLY (no full text available).
+# Node types: question | experiment | dead_end | decision | pivot
+# Most nodes are support_level: inferred (reconstructed from the abstract's logic).
+# Nodes directly stated in the abstract are marked explicit with source_refs to the abstract section.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract BACKGROUND"]
+    title: "Which plasma p-tau biomarker best identifies biologically defined Alzheimer's disease?"
+    description: "p-tau blood biomarkers are leading contenders for clinical implementation, but no comprehensive meta-analysis of their diagnostic performance existed. The review asks how well plasma p-tau biomarkers, and individual assays, discriminate biologically defined AD."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Abstract METHODS"]
+        title: "Adopt a PRISMA-DTA systematic review with a priori PROSPERO registration"
+        choice: "Pre-registered PRISMA-DTA systematic review and diagnostic-accuracy meta-analysis (PROSPERO CRD42023422143)"
+        alternatives:
+          - "Narrative review without pooling"
+          - "Unregistered ad hoc meta-analysis"
+        evidence: "Abstract states PRISMA-DTA compliance and PROSPERO registration CRD42023422143."
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Abstract METHODS"]
+            title: "Define eligibility against biological reference standards only"
+            choice: "Include studies reporting discriminative accuracy vs amyloid-PET, tau-PET, CSF, or neuropathology; exclude non-biological or non-accuracy studies and <18y participants"
+            alternatives:
+              - "Include clinically defined AD as the target condition"
+              - "Restrict to a single reference standard (e.g. amyloid-PET only)"
+            evidence: "Abstract METHODS lists reference standards and exclusion criteria."
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract FINDINGS"]
+                title: "Search five databases and screen to a final included set"
+                result: "6429 records identified → 312 assessed for eligibility → 113 included, comprising 29,625 unique individuals."
+                evidence: ["C01", "C02", "C03", "C04", "C05"]
+                children:
+
+                  - id: N05
+                    type: decision
+                    support_level: explicit
+                    source_refs: ["Abstract METHODS"]
+                    title: "Pool with a bivariate random-effects model, stratified by assay"
+                    choice: "Bivariate random-effects meta-analysis producing pooled sensitivity, specificity, DOR, and AUROC per individual p-tau assay"
+                    alternatives:
+                      - "Univariate pooling of sensitivity and specificity separately"
+                      - "Pool all p-tau assays together without per-assay stratification"
+                    evidence: "Abstract METHODS names the bivariate random-effects model; FINDINGS report per-assay estimates."
+                    children:
+
+                      - id: N06
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Abstract FINDINGS"]
+                        title: "Estimate pooled diagnostic accuracy for each of five p-tau assays"
+                        result: "p-tau217 highest-performing (AUROC 91·1%, DOR 50·7); p-tau212 second (AUROC 90·3%); p-tau205 (AUROC 85·1%); p-tau181 (AUROC 81·5%, low certainty); p-tau231 lowest (AUROC 80·2%, DOR 9·3)."
+                        evidence: ["C01", "C02", "C03", "C04", "C05"]
+                        children:
+
+                          - id: N07
+                            type: decision
+                            support_level: inferred
+                            title: "Rank p-tau217 as the leading candidate for implementation"
+                            choice: "Identify p-tau217 as the highest-performing assay and focus the implementation recommendation on it"
+                            alternatives:
+                              - "Recommend p-tau212 (near-equal AUROC, wider CIs)"
+                              - "Recommend the more widely available p-tau181"
+                            evidence: "p-tau217 has the highest pooled AUROC and DOR at moderate certainty (C01)."
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["Abstract FINDINGS"]
+        title: "Assess risk of bias across included studies with QUADAS-2"
+        also_depends_on: [N04]
+        result: "Approximately 90% of studies rated high risk of bias for not using predefined or externally derived thresholds."
+        evidence: ["C06"]
+
+      - id: N09
+        type: experiment
+        support_level: explicit
+        source_refs: ["Abstract METHODS", "Abstract FINDINGS"]
+        title: "Grade certainty of evidence with GRADE"
+        also_depends_on: [N06, N08]
+        result: "Certainty ranged low (p-tau181) to moderate (p-tau217, p-tau205, p-tau212, p-tau231); no assay reached high certainty."
+        evidence: ["C01", "C02", "C03", "C04", "C05"]
+
+      - id: N10
+        type: dead_end
+        support_level: inferred
+        title: "Within-study data-derived thresholds inflate apparent accuracy"
+        hypothesis: "Reported single-study accuracy at 'optimal' cut-points reflects real-world performance."
+        failure_mode: "~90% of studies derived thresholds internally rather than using predefined/externally derived ones, biasing accuracy upward (QUADAS-2 high risk of bias)."
+        lesson: "Pooled estimates are likely optimistic; externally validated, predefined thresholds are needed — motivating prospective implementation studies (C06, C07)."
+
+      - id: N11
+        type: pivot
+        support_level: explicit
+        source_refs: ["Abstract INTERPRETATION"]
+        title: "From retrospective accuracy evidence to prospective real-world implementation"
+        from: "Retrospective/case-control diagnostic-accuracy evidence vs biological reference standards"
+        to: "Prospective clinical implementation studies of plasma p-tau217 in real-world settings"
+        trigger: "High diagnostic accuracy of p-tau217 coexists with pervasive high risk of bias, so real-world diagnostic and management impact remains uncharacterised (C07)."

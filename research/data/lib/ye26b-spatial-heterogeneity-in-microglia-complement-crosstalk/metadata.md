@@ -1,0 +1,13 @@
+# Spatial heterogeneity in microglia‐complement crosstalk: Implications for synaptic pruning in Alzheimer's disease
+
+- **Cite key**: Ye26b
+- **Authors**: Qiuyan Ye; Wei Gao; Jiaping Feng; Xue Li; Jianhui Li; Fengge Yang; Linqing Li; M. Zi; Xinkai Wu; Hainan Gao; Honglin Li
+- **Year**: 2026  (2026-02-01)
+- **Journal**: Alzheimer's & Dementia
+- **DOI**: 10.1002/alz.71185
+- **URL**: https://doi.org/10.1002/alz.71185
+- **Citations**: 2 (4.7/yr)
+
+## Abstract
+
+Alzheimer's disease (AD) is a neurodegenerative disorder characterized by synaptic loss, as a key pathological feature in its early stages. Recent studies have highlighted the central role of microglia–complement interactions in synaptic pruning. This interaction exhibits significant spatial heterogeneity in AD, with activation patterns and functional manifestations varying across different brain regions and stages of disease. Therefore, this article systematically reviews the synergistic mechanisms of microglia and the complement system in physiological synaptic pruning. Additionally, the dynamic evolution of the complement–immune network during disease progression is analyzed, and the amplifying effect of genetic factors on the spatial heterogeneity of synaptic pruning is explored. Furthermore, current treatment strategies from both Western medicine and traditional Chinese medicine are discussed, emphasizing the potential value of combining these approaches for intervening in synaptic loss in AD.

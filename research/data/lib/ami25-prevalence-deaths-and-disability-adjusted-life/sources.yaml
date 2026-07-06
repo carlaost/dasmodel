@@ -1,0 +1,34 @@
+paper:
+  slug: ami25-prevalence-deaths-and-disability-adjusted-life
+  doi: 10.1038/s41598-025-89899-w
+  title: "Prevalence, deaths and disability-adjusted life years due to Alzheimer’s disease and other dementias in Middle East and North Africa, 1990–2021"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.nature.com/articles/s41598-025-89899-w.pdf
+  source: unpaywall
+
+code: []
+
+data:
+  - name: Global Burden of Disease (GBD) Study 2021
+    identifier: GBD 2021
+    repository: IHME GHDx GBD Results Tool (http://ghdx.healthdata.org/gbd-results-tool)
+    access: open
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  Secondary analysis of Global Burden of Disease (GBD) Study 2021 estimates for
+  Alzheimer's disease and other dementias in the MENA region, 1990-2021. Data
+  Availability statement (confirmed via PMC PMC11868542): "The data used for
+  these analyses are all publicly available at http://ghdx.healthdata.org/gbd-results-tool."
+  No code availability statement is provided; no GitHub/Zenodo/OSF repository or
+  accession numbers exist. No clinical trial or PROSPERO registration (this is an
+  epidemiological modeling study, not a trial or systematic review). Open access
+  under CC BY-NC-ND via Springer Nature; PDF downloaded from publisher (2.8 MB,
+  valid PDF). PMID 40016362, PMCID PMC11868542. Funded by grant 43010066 from
+  Shahid Beheshti University of Medical Sciences.

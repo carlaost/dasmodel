@@ -1,0 +1,37 @@
+paper:
+  slug: che26-diagnostic-performance-of-plasma-p-tau217
+  doi: 10.3389/fnagi.2026.1834591
+  title: "Diagnostic performance of plasma p-Tau217, p-Tau181, and p-Tau231 across the Alzheimer’s disease continuum: a network meta-analysis"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.frontiersin.org/articles/10.3389/fnagi.2026.1834591/pdf
+  source: publisher
+code: []
+data:
+  - name: PROSPERO systematic review registration
+    identifier: CRD420261327845
+    repository: PROSPERO (https://www.crd.york.ac.uk/prospero/)
+    access: open
+    verified: true
+  - name: "Included cohorts (secondary data from primary studies; not released as an accessioned dataset)"
+    identifier: null
+    repository: "Named cohorts: BioFINDER-1/2, ADNI, TRIAD, WRAP, ALFA+, MCSA, Huashan (Han Chinese), Greater Bay Area (Han Chinese), SPIN, Coimbra"
+    access: controlled
+    verified: true
+clinical_trials: []
+notes: >
+  Network meta-analysis (18 studies, 24 independent datasets, 4,736 participants) published
+  in Frontiers in Aging Neuroscience; gold OA, CC-BY. Data Availability statement (verbatim):
+  "The original contributions presented in the study are included in the article/Supplementary
+  material, further inquiries can be directed to the corresponding author." No code availability
+  statement and no code/software repository (GitHub/GitLab/Zenodo/OSF/Dryad) is mentioned or found.
+  Prospectively registered on PROSPERO as CRD420261327845 (given in the abstract). No primary
+  dataset was released; the analysis reuses summary diagnostic-accuracy data (AUCs) extracted from
+  the included primary studies, which drew on established AD cohorts (BioFINDER, ADNI, TRIAD, WRAP,
+  ALFA+, MCSA, Huashan, Greater Bay Area, SPIN, Coimbra) - access to those underlying cohorts is
+  controlled/by-request via their respective consortia. No clinical trial NCT identifiers are
+  reported in the abstract or article text; none recorded. Verified via Unpaywall (is_oa true,
+  gold), Europe PMC (PMID 42318558, PMCID PMC13272307), and the Frontiers full-text page. PDF
+  downloaded from the Frontiers publisher endpoint (PMC PDF endpoint returned an HTML block page).

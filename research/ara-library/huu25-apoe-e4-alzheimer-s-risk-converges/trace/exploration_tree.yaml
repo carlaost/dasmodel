@@ -1,0 +1,157 @@
+# Exploration Tree — huu25-apoe-e4-alzheimer-s-risk-converges
+# Research DAG: nested tree with cross-edges (also_depends_on).
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Introduction", "§2.1"]
+    title: "How do APOE genotype, ancestry, and sex shape gene expression in the neurotypical human ERC?"
+    description: "Localize AD-risk-associated transcriptional changes across ERC spatial domains and fine cell subtypes, before clinical disease, using paired SRT + snRNA-seq."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§2.1", "Figure 1A", "Table S1"]
+        title: "Assemble a diverse, balanced neurotypical cohort"
+        choice: "30 neurotypical donors balanced across APOE (E2+ 14 / E4+ 16), ancestry (AA 14 / EA 16), sex (21M/9F), age 30–68"
+        alternatives:
+          - "Study AD-diagnosed donors (like prior atlases) — rejected: goal is risk before pathology"
+          - "Single ancestry cohort — rejected: ancestry modifies APOE risk"
+        evidence: "Balanced AA/EA gives power for ancestry-interaction discovery"
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["§2.2", "Figure 1B-D", "Methods: Visium spatial clustering"]
+            title: "Build ERC Visium spatial-domain atlas (BayesSpace)"
+            result: "9 spatial domains at optimal k=9, incl. two WM domains (WM.uf~Sp9D7, WM~Sp9D6), a vascular domain (Vasc~Sp9D8), and GM layers; no SpD composition difference by APOE carrier (crumblr)"
+            evidence: ["Figure 1"]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["§2.3", "Figure 2", "Methods: snRNA-seq"]
+            title: "Build ERC snRNA-seq atlas (38 fine subclusters)"
+            result: "122,004 nuclei → 38 fine subclusters in 8 broad cell types, incl. 5 Oligo and 5 OPC subclusters; spatial registration links subclusters to SpDs"
+            evidence: ["Figure 2"]
+
+  - id: N05
+    type: experiment
+    support_level: explicit
+    source_refs: ["§2.4", "Figure 3", "Methods: Differential expression analysis"]
+    title: "APOE carrier DGE across spatial domains"
+    also_depends_on: [N03]
+    result: "Most DEGs in Vasc~Sp9D8 (22 up / 8 down) and WM.uf~Sp9D7 (2nd most); downregulated genes enriched for myelination/axon-ensheathment GO terms"
+    evidence: [C03]
+    children:
+
+      - id: N06
+        type: experiment
+        support_level: explicit
+        source_refs: ["§2.4", "§2.5", "Fig S37", "Fig S38"]
+        title: "Ancestry- and sex-specific DGE"
+        result: "AA vs EA DEG sets largely non-overlap (WM.uf AA 15 vs EA 2; Astro AA 98); sex DEGs male-dominated (948 vs 2 broad); attributed partly to 70% male cohort"
+        evidence: [C05, C06]
+
+  - id: N07
+    type: experiment
+    support_level: explicit
+    source_refs: ["§2.5", "Figure 4"]
+    title: "APOE carrier DGE at broad cell-type resolution"
+    also_depends_on: [N04]
+    result: "Oligo has the most DEGs, then Astro, Excit, Inhib; very few in microglia; consistent with SRT (glia-enriched domains)"
+    evidence: [C01]
+    children:
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["§2.6", "Figure 5A-B", "Table S13"]
+        title: "APOE carrier DGE at fine subcluster resolution"
+        result: "DEGs converge on Oligo.3 (679 up / 343 down, FDR<0.05); down = myelination/differentiation (PLP1, MAG, MAL, MBP, SOX10, OPALIN, MAPT); up = FOS, TLR2, STAT1, STAT4 (calcium/inflammation)"
+        evidence: [C01, C02]
+        children:
+
+          - id: N09
+            type: experiment
+            support_level: explicit
+            source_refs: ["§2.6", "Figure 5D-E", "Methods: trajectory"]
+            title: "Oligodendrocyte maturation trajectory (TSCAN)"
+            result: "Oligo.3 is nearest OPCs (least mature); Oligo.1/2 are mature myelinating endpoints → non-myelinating Oligo.3 identity; model of stalled maturation in E4+"
+            evidence: [C04]
+
+          - id: N10
+            type: dead_end
+            support_level: explicit
+            source_refs: ["§2.6", "Fig S43C", "Methods: Cell-cell communication"]
+            title: "Hoped CCC would link APOE-high astrocytes to Oligo.3 DEGs"
+            hypothesis: "LIANA+ ligand-receptor analysis would identify astrocyte→Oligo.3 communication overlapping Oligo.3 DEGs, explaining the indirect APOE effect"
+            failure_mode: "DEG-overlapping LR pairs were found only for Oligo.3 (source n=115, target n=111), and no astrocyte-linking genes were identified; only Oligo.3 had DEGs overlapping commonly-observed LR interactions"
+            lesson: "Astrocyte-mediation of the APOE effect on Oligo.3 remains a hypothesis needing cellular-model follow-up (iPSC co-culture); CCC alone did not establish it"
+
+          - id: N11
+            type: experiment
+            support_level: explicit
+            source_refs: ["§2.7", "Fig S46", "Fig S47", "Table S15"]
+            title: "Cross-dataset enrichment vs published AD snRNA-seq"
+            result: "Oligo.3 E4+ downregulated DEGs significantly overlap AD-downregulated Oligo genes (PLP1, OPALIN) in Grubman (ERC) and Blanchard (PFC); cholesterol-gene upregulation from Blanchard NOT replicated, myelination downregulation was"
+            evidence: [C08]
+
+  - id: N12
+    type: experiment
+    support_level: explicit
+    source_refs: ["§2.8", "Figure 6", "Table S17", "Methods: Multicellular factor analysis"]
+    title: "Integrative MOFA across SRT SpDs and snRNA-seq subclusters"
+    also_depends_on: [N05, N08]
+    result: "7 factors; factor 3 spans WM~Sp9D6 + Oligo.3-5; associates with APOE carrier (p=0.014, FDR=0.095) and negatively with pTau (FDR<0.05); recovers Oligo.3 DEGs plus extra WM genes (SYNPO, HES5, MGAT5B, CPNE4)"
+    evidence: [C07]
+
+  - id: N13
+    type: dead_end
+    support_level: explicit
+    source_refs: ["§2.3", "Fig S29B-D"]
+    title: "Looked for known disease-associated glial cell states in the neurotypical cohort"
+    hypothesis: "Previously reported AD disease-associated Astro/Micro/Oligo states (SERPINA3, IL33, IL1B) would be present as an intrinsic feature of genetic risk"
+    failure_mode: "None of the Astro, Micro, or Oligo subclusters showed high expression of these disease-state markers"
+    lesson: "Disease-associated cell-type states are not intrinsic to genetic AD risk; they likely require pathology to emerge"
+
+  - id: N14
+    type: dead_end
+    support_level: explicit
+    source_refs: ["§2.8 (donor drop is Methods: Donor demographics check)", "Fig S25"]
+    title: "Donor Br1289 failed sex-consistency QC"
+    hypothesis: "All 31 dissected donors would be usable for APOE carrier analyses"
+    failure_mode: "Br1289 expressed female sex-specific genes despite male record; traced to a case-table typo — actually Br1285, a 17-yr-old E3/E4 AA female outside the age range"
+    lesson: "Dropped from downstream APOE analyses (final n=30); data still valid for atlas/clustering, illustrating value of expression-based demographic QC"
+
+  - id: N15
+    type: dead_end
+    support_level: explicit
+    source_refs: ["§Integrative analyses: Spot deconvolution", "Figure 2B"]
+    title: "Fine-resolution RCTD spot deconvolution"
+    hypothesis: "RCTD (benchmarked most accurate) would resolve fine subcluster proportions within Visium spots"
+    failure_mode: "Only one subcluster per non-neuronal cell type was commonly detected — unreliable at fine resolution due to highly similar subclusters"
+    lesson: "Use broad-resolution deconvolution (which confirmed registration) and lean on registration + MOFA for subcluster–SpD linkage"
+
+  - id: N16
+    type: decision
+    support_level: explicit
+    source_refs: ["§2.8", "Methods: pTau immunostaining"]
+    title: "Use pTau immunostaining as the pathology readout"
+    choice: "Score pTau (AT8, RNAScope-IF; ≥3 discrete signals) in adjacent ERC sections for all donors"
+    alternatives:
+      - "Rely on Braak staging — rejected: only 18 donors had Braak staging"
+    evidence: "Enabled MOFA factor-3 association testing against pathology across the full cohort (9 pTau+ / 22 pTau−)"
+
+  - id: N17
+    type: pivot
+    support_level: inferred
+    source_refs: ["§2.4", "§2.5", "§2.6"]
+    title: "From broad-resolution / spatial signal to fine-subcluster convergence"
+    from: "Broad cell-type and SpD DGE showing glia-enriched (WM/vascular, Oligo) signal"
+    to: "Fine subcluster DGE pinpointing Oligo.3 as the single convergent subtype"
+    trigger: "Broad Oligo had the most DEGs but broad types are heterogeneous, motivating fine-resolution analysis that concentrated DEGs in Oligo.3"

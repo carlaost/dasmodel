@@ -1,0 +1,145 @@
+# Exploration Tree — 2025 Alzheimer's Disease Facts and Figures
+# Research DAG reconstructing the report's analytic domains and the estimation
+# decisions it documents. This is a surveillance synthesis, not an experimental
+# trajectory: it exposes explicit methodological decisions but no failed
+# experiments / dead ends, so none are invented (Rule 9). Node types:
+# question | experiment | decision | pivot.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 About This Report p.2", "§2 Overview"]
+    title: "What is the current and projected public-health, human, and economic impact of Alzheimer's disease and other dementias in the United States?"
+    description: "The report's central driver: quantify AD/dementia burden across prevalence, mortality, caregiving, workforce, and cost, and (2025 Special Report) gauge public attitudes toward early detection and treatment."
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["§3 Prevalence pp.21-31", "Figures 3-7", "Table 5"]
+        title: "Estimate national/state prevalence and projections of Alzheimer's dementia"
+        result: "7.2 million Americans 65+ in 2025 (~1 in 9; 11%), 74% age 75+, projected to 13.8 million by 2060; 4.4M women vs 2.8M men."
+        evidence: [C01, C02, C11, "Figure 3", "Figure 7"]
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Endnote A3 p.88", "§3.2 p.21"]
+            title: "Which prevalence estimate to headline: CHAP vs HRS-HCAP"
+            choice: "Use the CHAP symptom-based estimate (6.07M AD-only → 7.2M with 2024 Census projections) as the headline."
+            alternatives:
+              - "HRS-HCAP all-cause dementia estimate (4.92M in 2016), which requires informant-reported functional impairment."
+              - "Brookmeyer et al. lower projection estimates."
+            evidence: "HRS-HCAP's stringent functional-impairment threshold may miss mild Alzheimer's dementia, so CHAP is judged more relevant to true burden (A3)."
+
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["§3.3.1 pp.22-23"]
+            title: "Report symptom-based vs biomarker-based prevalence"
+            choice: "Report symptom-based prevalence (7.2M) while explicitly flagging that a biomarker-based definition would likely be up to 30% lower."
+            alternatives:
+              - "Report a biomarker-defined prevalence (~5M), not yet available from any population-based study."
+            evidence: "15-30% of clinically diagnosed AD lacks AD brain changes (autopsy/biomarker studies); no population-based biomarker prevalence study yet exists."
+
+      - id: N05
+        type: experiment
+        support_level: explicit
+        source_refs: ["§4 Mortality and Morbidity pp.31-35", "Table 6", "Figures 8-10"]
+        title: "Count and trend Alzheimer's mortality from death certificates"
+        result: "120,122 AD deaths in 2022 (rate 36.0/100,000); AD deaths +142.4% from 2000-2022 while most other leading causes fell; 7th-leading cause (6th among 65+)."
+        evidence: [C03, "Table 6", "Figure 9"]
+        children:
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["§4.1 pp.31-32"]
+            title: "Estimate true Alzheimer's-attributable mortality beyond death certificates"
+            result: "~500,000 deaths among people 75+ attributable to AD in 2010; ~14% of deaths in those 70+ attributable to dementia vs 5% certified — death certificates undercount."
+            evidence: [C04]
+
+          - id: N07
+            type: decision
+            support_level: explicit
+            source_refs: ["Endnote A6 p.89", "Table 6"]
+            title: "Age-adjusted vs unadjusted state death rates"
+            choice: "Present unadjusted state death rates."
+            alternatives:
+              - "Age-adjusted death rates."
+            evidence: "Unadjusted rates better convey each state's absolute mortality burden (e.g., older-population states like Florida)."
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["§5 Caregiving pp.36-40", "Table 10", "Figure 12"]
+        title: "Estimate unpaid caregiving volume, value, and health impact"
+        result: "~11.9M caregivers provided ~19.2B hours in 2024 valued at $413.5B; 59% report high/very-high emotional stress; depression 30-40%."
+        evidence: [C05, C06, "Table 10", "Figure 12"]
+        children:
+
+          - id: N09
+            type: decision
+            support_level: explicit
+            source_refs: ["Endnote A9 p.89", "§5.1.5 p.39"]
+            title: "How to value unpaid caregiving hours"
+            choice: "Value hours at the average of the state minimum wage and the median hourly cost of a home health aide (a conservative estimate)."
+            alternatives:
+              - "Value at full home-health-aide market wage (higher)."
+              - "Include home modifications, respite, and lost productivity (broader)."
+            evidence: "Chosen as a deliberately conservative lower-bound valuation."
+
+      - id: N10
+        type: experiment
+        support_level: explicit
+        source_refs: ["§6 Workforce pp.48-53", "Table 14", "Table 15"]
+        title: "Project dementia-care workforce supply versus need"
+        result: "7,454 certified geriatricians in 2021 vs ~23,953 needed; ~18,142 needed by 2050; ~861,000 additional direct care workers needed 2022-2032; median direct-care wage $16.72/hr (2023)."
+        evidence: [C09, "Table 14", "Table 15"]
+
+      - id: N11
+        type: experiment
+        support_level: explicit
+        source_refs: ["§7 Use and Costs of Care pp.57-74", "Figure 15", "Table 16"]
+        title: "Estimate total and per-person costs of care and project to 2050"
+        result: "$384B total in 2025 (Medicare/Medicaid 64%, out-of-pocket 25%); per-person Medicare ~3x and Medicaid ~22x higher with dementia; projected to ~$1T by 2050."
+        evidence: [C07, C08, C14, "Figure 15", "Table 16"]
+
+      - id: N12
+        type: experiment
+        support_level: explicit
+        source_refs: ["§3.8 p.28", "§3.7 p.26"]
+        title: "Compare prevalence/risk across racial/ethnic and sex groups"
+        result: "19% Black, 14% Hispanic vs 10% White older adults; ~two-thirds of people with AD are women."
+        evidence: [C10, C11]
+        also_depends_on: [N02]
+
+      - id: N13
+        type: experiment
+        support_level: explicit
+        source_refs: ["§8 Special Report pp.74-88", "Figures 19-26", "§8.6.4 p.77"]
+        title: "Survey American attitudes toward early detection and treatment"
+        result: "99% consider early diagnosis important; 79% would want to know before symptoms interfere; >9 in 10 would want a simple test; 64% aware of anti-amyloid medications; interest robust to treatment risk and monthly infusions."
+        evidence: [C12]
+        children:
+
+          - id: N14
+            type: decision
+            support_level: explicit
+            source_refs: ["§8.6.4 p.77"]
+            title: "Survey design for the Special Report"
+            choice: "Probability-based NORC AmeriSpeak panel, n=1,702 U.S. adults age 45+, English/Spanish, weighted to Census, with racial/ethnic oversampling; triangulated with 11 focus groups."
+            alternatives:
+              - "Non-probability convenience/online panel."
+              - "Restrict to age 18+ (as in the 2022 MCI Special Report) rather than 45+."
+            evidence: "Probability panel + oversampling supports robust subgroup analysis and weighting to population totals."
+
+      - id: N15
+        type: experiment
+        support_level: explicit
+        source_refs: ["§2.7 pp.10-12", "Figure 1", "§7.7.1 p.73"]
+        title: "Characterize the treatment landscape and pipeline"
+        result: "Two disease-modifying anti-amyloid drugs (lecanemab, donanemab) slow decline in stages 3-4; 132 disease-modifying and 30 symptomatic trials underway (Jan 1, 2024); market price $26,500/person/year; only ~8% meet lecanemab trial criteria."
+        evidence: [C13, C14, "Figure 1"]

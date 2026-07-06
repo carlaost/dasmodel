@@ -1,0 +1,15 @@
+{
+  "idx": 54,
+  "cite_key": "Ver26",
+  "title": "From autopsy to PET to cerebrospinal fluid to blood: Quantifying reference-standard dependence in Alzheimer's disease amyloid biomarker validation",
+  "authors": "Khushboo Verma; Satwant Kumar",
+  "year": "2026",
+  "pub_date": "2026-03-22",
+  "journal": "Journal of Alzheimer's Disease",
+  "abstract": "Background Blood-based biomarkers are increasingly used as scalable front-line tools for Alzheimer's disease amyloid evaluation, but most are validated against amyloid positron emission tomography (PET) and/or cerebrospinal fluid (CSF) rather than neuropathology. In a chained validation cascade (neuropathology→PET→CSF→blood), reported performance may depend strongly on the comparator and on how “gray-zone” (indeterminate) results are handled. Objective To quantify benchmark dependence and gray-zone policy sensitivity in amyloid biomarker validation and characterize plasma-to-neuropathology performance inference from imperfect proxies. Methods We assembled a fully auditable evidence core spanning the amyloid cascade with reconstructable 2 × 2 tables. We recomputed positive percent agreement (PPA) and negative percent agreement (NPA) with 95% Wilson confidence intervals under a prespecified primary policy (exclude indeterminates) and two sensitivity policies (indeterminate→negative; indeterminate→positive). Reference-swap drift across benchmarks was summarized with Monte Carlo uncertainty intervals. For plasma-to-neuropathology inference, we combined plasma-PET agreement with tracer-specific PET-autopsy anchors and reported (i) chained-proxy point implications under conditional independence and (ii) partial-identification bounds without conditional independence across prevalence scenarios (π = 10–50%). Results Under the primary policy, Lumipulse plasma pTau217/Aβ42 showed similar agreement across PET, CSF, and composite comparators (PPA 0.97–0.98; NPA ≈0.91), with drift intervals spanning zero. Indeterminates were frequent (∼19–20%) and dominated apparent shifts: indeterminate→negative reduced PPA by 0.13–0.21, whereas indeterminate→positive reduced NPA by 0.17–0.21. Chained-proxy implications for plasma versus neuropathology varied by PET tracer anchor (sensitivity 0.86–0.96; specificity 0.81–0.91), while bounds were wider (sensitivity 0.83–1.00; specificity 0.81–0.98). Conclusions Gray-zone policy is a first-order driver of reported blood-test performance, and proxy-to-proxy agreement does not uniquely identify plasma-to-neuropathology accuracy without explicit assumptions.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1177/13872877261430858",
+  "url": "https://doi.org/10.1177/13872877261430858",
+  "slug": "ver26-from-autopsy-to-pet-to-cerebrospinal"
+}

@@ -1,0 +1,22 @@
+# The value and risks of antidepressant therapy in Alzheimer's disease: a field update and its clinical implications.
+
+- **Cite key**: Pre26
+- **Authors**: P. Rus Prelog; B. Kores Plesničar; M. Zupan; S. Frol; M. G. Kramberger
+- **Year**: 2026  (2026-04-06)
+- **Journal**: Expert review of neurotherapeutics
+- **DOI**: 10.1080/14737175.2026.2653170
+- **URL**: https://doi.org/10.1080/14737175.2026.2653170
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+INTRODUCTION
+Depression is one of the most frequent and disabling neuropsychiatric syndromes in Alzheimer's disease (AD), yet antidepressant use is still largely extrapolated from late‑life depression and is poorly aligned with emerging evidence on 'neurodegenerative depression' and disease‑modifying therapies. This article critically re‑examines the clinical value and risks of antidepressants in AD.
+
+
+AREAS COVERED
+Drawing on a narrative search of PubMed/MEDLINE and Embase (January 2000-December 2025) and targeted review of recent guidelines and anti‑amyloid trials, the article synthesizes randomized and observational data on efficacy and safety across antidepressant classes, highlighting modest and inconsistent benefits alongside adverse outcomes such as falls, hyponatremia, bleeding, mortality and possible acceleration of cognitive decline. It integrates mechanistic work on synaptic loss, neuroinflammation and network disruption, discusses the exclusion of depressed patients from anti‑amyloid trials, and reviews rapid‑acting, neuromodulatory and psychosocial strategies within a proposed precision‑prescribing framework based on biomarkers, vascular burden and symptom dimensions.
+
+
+EXPERT OPINION
+Monoaminergic antidepressants in AD should not be abandoned but repositioned as time‑limited, closely monitored options for clearly defined, functionally impairing depressive syndromes, embedded in multimodal care rather than used as default, long‑term treatment for non‑specific distress. Future priorities include biomarker‑stratified AD depression trials, evaluation of interactions with anti‑amyloid therapies and rigorous testing of non‑monoaminergic interventions.

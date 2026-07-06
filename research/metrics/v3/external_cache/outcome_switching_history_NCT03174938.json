@@ -1,0 +1,20 @@
+{
+  "nct": "NCT03174938",
+  "trial": "The Swedish BioFINDER-2 Study (general-purpose natural-history cohort, not a single-hypothesis drug RCT)",
+  "source": "ClinicalTrials.gov internal history API (https://clinicaltrials.gov/api/int/studies/NCT03174938/history and /history/{version}) -- captured live by the agent building outcome_switching.py.",
+  "n_history_versions": 7,
+  "initial_registration": {
+    "version": 0,
+    "date": "2017-06-02",
+    "primary_outcomes": [
+      {"measure": "Clinical diagnosis", "time_frame": "Clinical diagnosis at last 1 day visit"},
+      {"measure": "Clinical Dementia Rating-Sum of Boxes (CDR-SB)", "time_frame": "Time zero equals the baseline visit; follow-up visits every year for approximately 2-8 years after baseline."}
+    ]
+  },
+  "primary_outcome_amendment": null,
+  "current_registered_primary_outcomes": [
+    {"measure": "Clinical diagnosis"},
+    {"measure": "Clinical Dementia Rating-Sum of Boxes (CDR-SB)"}
+  ],
+  "analysis_note": "The registered primary outcomes (clinical diagnosis; CDR-SB trajectory) are unchanged from version 0 through the latest available version (6, 2026-04-01) -- this cohort has never had a primary-outcome amendment. But this stability is beside the point for sal26: BioFINDER-2 is an omnibus, decades-long natural-history/biobank cohort (has_results=False; still recruiting) registered to characterize clinical diagnosis and CDR-SB trajectories across its whole enrolled population, generating many independent downstream biomarker papers on data/samples it collects. sal26's own claim (plasma %p-tau217 + eMTBR-tau243 concordance with PET-based AD biological staging) is not a test of either registered primary outcome, is not itself separately pre-registered anywhere in this record, and is not something the registry's own outcome list would be expected to enumerate -- this is a nested secondary-use biomarker analysis of the cohort's stored samples/imaging, not a hypothesis this parent registration was designed or amended to test. There is therefore no meaningful registered-primary-vs-paper-primary comparison to make here: not a switch, not a match, structurally out of scope for this check."
+}

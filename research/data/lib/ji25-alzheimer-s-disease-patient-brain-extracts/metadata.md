@@ -1,0 +1,13 @@
+# Alzheimer’s disease patient brain extracts induce multiple pathologies in novel vascularized neuroimmune organoids for disease modeling and drug discovery
+
+- **Cite key**: Ji25
+- **Authors**: Yanru Ji; Xiaoling Chen; Zhen Wang; Connor Joseph Meek; Jenna Lillie McLean; Yang Yang; Chongli Yuan; Jean-Christophe Rochet; Fei Liu; Ranjie Xu
+- **Year**: 2025  (2025-05-02)
+- **Journal**: Molecular Psychiatry
+- **DOI**: 10.1038/s41380-025-03041-w
+- **URL**: https://doi.org/10.1038/s41380-025-03041-w
+- **Citations**: 27 (23.0/yr)
+
+## Abstract
+
+Alzheimer’s Disease (AD) is the most common cause of dementia, afflicting 55 million individuals worldwide, with limited treatment available. Current AD models mainly focus on familial AD (fAD), which is due to genetic mutations. However, models for studying sporadic AD (sAD), which represents over 95% of AD cases without specific genetic mutations, are severely limited. Moreover, the fundamental species differences between humans and animals might significantly contribute to clinical failures for AD therapeutics that have shown success in animal models, highlighting the urgency to develop more translational human models for studying AD, particularly sAD. In this study, we developed a complex human pluripotent stem cell (hPSC)-based vascularized neuroimmune organoid model, which contains multiple cell types affected in human AD brains, including human neurons, microglia, astrocytes, and blood vessels. Importantly, we demonstrated that brain extracts from individuals with sAD can effectively induce multiple AD pathologies in organoids four weeks post-exposure, including amyloid beta (Aβ) plaque-like aggregates, tau tangle-like aggregates, neuroinflammation, elevated microglial synaptic pruning, synapse/neuronal loss, and impaired neural network activity. Proteomics analysis also revealed disrupted AD-related pathways in our vascularized AD neuroimmune organoids. Furthermore, after treatment with Lecanemab, an FDA-approved antibody drug targeting Aβ, AD brain extracts exposed organoids showed a significant reduction of amyloid burden, along with an elevated vascular inflammation response. Thus, the vascularized neuroimmune organoid model provides a unique opportunity to study AD, particularly sAD, under a pathophysiological relevant three-dimensional (3D) human cell environment. It also holds great promise to facilitate AD drug development, particularly for immunotherapies.

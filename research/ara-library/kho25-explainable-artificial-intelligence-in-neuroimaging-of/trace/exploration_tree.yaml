@@ -1,0 +1,48 @@
+# Exploration Tree — kho25-explainable-artificial-intelligence-in-neuroimaging-of
+# Research DAG reconstructed from ABSTRACT/METADATA ONLY.
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:13"]
+    title: "How can XAI improve clinical interpretability of AD neuroimaging AI?"
+    description: "The abstract frames complex AI models for neuroimaging-based AD diagnosis as clinically limited by lack of interpretability, and asks how XAI can bridge AI and clinical interpretability."
+    evidence: ["C01"]
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Review named XAI techniques for AD neuroimaging"
+        result: "The abstract states that the review highlights SHAP, LIME, Grad-CAM, and Layer-wise Relevance Propagation."
+        evidence: ["C02"]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:13"]
+            title: "Map XAI applications across AD neuroimaging tasks and modalities"
+            result: "The abstract states that XAI applications are examined for biomarker identification, disease-progression tracking, and AD-stage distinction using MRI and PET."
+            evidence: ["C03"]
+
+      - id: N04
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "Assess barriers to clinical XAI integration"
+        result: "The abstract identifies dataset limitations, regulatory concerns, and standardization issues as current challenges."
+        evidence: ["C04"]
+
+      - id: N05
+        type: pivot
+        support_level: explicit
+        source_refs: ["metadata.md:13"]
+        title: "From model explanations to clinical integration"
+        from: "AI-driven neuroimaging diagnosis limited by complexity and lack of interpretability"
+        to: "XAI-supported AD diagnostics, treatment personalization, and neuroimaging research"
+        trigger: "The abstract states that XAI bridges AI and clinical interpretability and holds potential to refine diagnostics, personalize treatment, and advance research."
+        evidence: ["C01", "C05"]

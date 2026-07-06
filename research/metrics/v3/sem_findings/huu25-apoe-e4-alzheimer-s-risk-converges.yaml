@@ -1,0 +1,70 @@
+claims:
+  - claim_id: C01
+    evidence_relevance: {relevant: true, note: "Proof E01/E04 + Figure 5A/Table S13 directly report the 679up/343down Oligo.3 DEG counts asserted in the Statement; description in figure5.md volcano panel A matches exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Re-running... and finding DEGs are not concentrated in Oligo.3, or... counts differ materially' is the negation of the Statement using the same pipeline/data, not an independent test. Slightly more specific than a bare mirror because it names an exact numeric tolerance (679/343), but still self-referential."}
+    scope_calibration: {verdict: calibrated, note: "Scope explicitly restricted to 'fine-resolution snRNA-seq pseudobulk DGE' in this cohort (E2+ n=14 vs E4+ n=16); no unwarranted generalization beyond the tested system."}
+    novelty: {verdict: novel, note: "First report of APOE E4+ DEG convergence on a single non-myelinating oligodendrocyte subcluster in ERC; not attributable to any single related_work.md 'imports' edge (RW01-17 are all methods/frameworks/comparison datasets, not this specific finding)."}
+  - claim_id: C02
+    evidence_relevance: {relevant: false, note: "Named genes (PLP1, MAG, MAL, MBP, SOX10, OPALIN / FOS, TLR2, STAT1, STAT4) and GO terms match figure5.md panel B description verbatim -- BUT the Statement's clause 'MAPT also downregulated' has NO corresponding Sources bullet/quote anywhere in this claim's Sources block (only the PLP1/MAG/MAL/MBP/SOX10/OPALIN quote and the FOS/TLR2/STAT1/STAT4 quote exist). MAPT is an unsupported addition to the Statement -- flagged relevant:false for this reason even though the majority of the claim is well-evidenced."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'These named genes not being significant DEGs in the stated directions' is a direct negation of the Statement, same dataset/pipeline. Note it also silently inherits the ungrounded MAPT clause -- falsifying the cited genes would not test the MAPT assertion."}
+    scope_calibration: {verdict: over_claim, note: "The MAPT downregulation clause is asserted with no cited source at all (see evidence_relevance) -- a genuine over-claim relative to what this claim's own Sources block supports, though minor relative to the claim's main body."}
+    novelty: {verdict: incremental, note: "RW01 (Blanchard) already links APOE4 to myelination-gene disruption in oligodendrocytes; this claim is the same biological theme applied to a newly-identified subcluster (Oligo.3) and a neurotypical risk (not disease) stage — extends rather than originates the mechanism."}
+  - claim_id: C03
+    evidence_relevance: {relevant: true, note: "Figure3.md Panel A table confirms Vasc~Sp9D8 22up/8down and WM.uf~Sp9D7 as 2nd-most, matching Statement exactly; GO panel G supports the myelination/axon-ensheathment enrichment claim."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'A different SpD carrying the most DEGs, or counts departing from 22/8' — negation with a numeric tolerance, same pipeline."}
+    scope_calibration: {verdict: calibrated, note: "Restricted to the Visium pseudobulk DGE, ancestry/sex-adjusted, in this cohort; no overreach into causal BBB claims beyond 'consistent with'."}
+    novelty: {verdict: novel, note: "First spatial (Visium) domain-level APOE DGE map of human ERC; RW04/RW10/RW12/RW13 are the methodological/reference substrate, not this specific empirical result."}
+  - claim_id: C04
+    evidence_relevance: {relevant: true, note: "Figure5.md panel D (tSNE trajectory) and panel E (marker dot plot) directly support the OPC-proximal / shared-marker claim."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Trajectory/marker analysis placing Oligo.3 among mature myelinating subclusters instead' is the direct negation, same trajectory method/data."}
+    scope_calibration: {verdict: calibrated, note: "Claim is about relative position among this study's own subcluster set, not a universal maturation-biology claim."}
+    novelty: {verdict: incremental, note: "RW03 (Kedia & Simons, 2025) already proposes a 'vulnerable pre-myelinating oligodendrocyte' hypothesis; related_work.md's own Delta says this paper 'extends [it] to neurotypical risk' — the paper itself frames this as an extension, not a de novo finding."}
+  - claim_id: C05
+    evidence_relevance: {relevant: true, note: "Figure3.md Panel A (AA WM.uf=15 vs EA=2) and figure4.md (Astro AA=98) match the Statement's cited counts exactly."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'AA and EA analyses yielding statistically indistinguishable DEG sets/counts' is a negation of the Statement using the same stratified analysis, not an independent cohort."}
+    scope_calibration: {verdict: calibrated, note: "Claim cites concrete per-domain/per-cell-type counts rather than a diffuse 'ancestry matters everywhere' assertion; matches what the stratified analysis actually shows."}
+    novelty: {verdict: novel, note: "First molecular-level ancestry-stratified DGE result for this ERC dataset; provides a plausible mechanistic corollary to known epidemiological ancestry-APOE interactions (RW references are background epidemiology, refs 4-6, not this specific finding)."}
+  - claim_id: C06
+    evidence_relevance: {relevant: true, note: "Counts (91 vs 1, 948 vs 2, 1830 male Oligo.3) match Statement; cohort sex ratio (21/30, 70% male) cited from §2.1/§2.4 supports the power-caveat framing."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Comparable male/female DEG counts, or the male excess disappearing after correcting for sample size' — the second clause gestures at a real statistical correction test, but no such correction is actually specified/pre-registered here; still effectively a negation of the observed asymmetry."}
+    scope_calibration: {verdict: calibrated, note: "Status itself is flagged '(interpretation-limited by female sample size)' and Interpretation explicitly attributes the effect to low female N rather than overclaiming a true sex-biology effect — this is the most conservative-scoped claim in the ARA."}
+    novelty: {verdict: incremental, note: "RW14 (Mathys et al. 2019) already reports male-specific Oligo AD changes; this claim extends that pattern to the risk (pre-disease) stage rather than establishing it de novo."}
+  - claim_id: C07
+    evidence_relevance: {relevant: true, note: "Figure6.md panel A/B confirms 7 MOFA factors, factor-3 loading on WM~Sp9D6/Oligo.3-5, and the exact p=0.014/FDR=0.095 (APOE) and FDR<0.05 (pTau, table shows FDR=2.16e-02) values."}
+    falsifiability: {criteria_present: true, verdict: post_hoc_inversion, note: "'Factor 3 not associating with APOE/pTau, or the reported p/FDR values not reproducing' — the second clause (numeric reproducibility check) is more concrete than a bare mirror, but still checks the same analysis pipeline/data rather than an independent cohort."}
+    scope_calibration: {verdict: calibrated, note: "Statement itself flags the APOE association as 'nominal' (p=0.014, FDR=0.095, i.e. not surviving multiple-testing correction) rather than claiming significance it doesn't have — an honest calibration, not an over-claim."}
+    novelty: {verdict: novel, note: "First application of MOFAcellulaR cross-modality integration to this dataset; RW06 is the imported method, not this specific empirical association result."}
+  - claim_id: C08
+    evidence_relevance: {relevant: true, note: "Cites the exact cohort sizes (Grubman 6+6, Blanchard 20+12) and shared genes (PLP1, OPALIN) that appear in related_work.md RW01/RW02 Delta fields describing the same comparison."}
+    falsifiability: {criteria_present: true, verdict: real_precommitted, note: "This is the one genuinely independent falsification test in the ARA: enrichment against two EXTERNAL published AD datasets (Grubman et al., Blanchard et al.) that the paper's own risk-stage data did not generate. A null result on those external gene sets would be a real, independent refutation, not a same-data rerun."}
+    scope_calibration: {verdict: calibrated, note: "Statement is careful to specify 'including shared PLP1 and OPALIN' rather than claiming full concordance across all DEGs — matches the Fisher-test enrichment scope, not overclaiming full replication."}
+    novelty: {verdict: incremental, note: "The underlying biological fact (myelination-gene downregulation in AD-stage Oligo) is already established by Grubman/Blanchard (RW01/RW02, both typed 'baseline/bounds'); this claim's contribution is the specific cross-stage (risk vs. disease) replication test, not a new mechanism."}
+compilation_fidelity_samples:
+  - fact: "679 upregulated / 343 downregulated DEGs in Oligo.3 at FDR<0.05 (C01)"
+    pdf_location: "no local paper.pdf under research/data/lib/<slug>/ for this ARA (bioRxiv preprint, PMC-full-text sourced); cross-checked instead against evidence/figures/figure5.md panel A description"
+    captured_in_ara: true
+    note: "figure5.md explicitly ties the volcano plot to '679 up / 343 down (per C01)' — internally consistent, no PDF available for independent re-verification."
+  - fact: "Vasc~Sp9D8 = 22 up / 8 down DEGs, most of any SpD (C03)"
+    pdf_location: "evidence/figures/figure3.md Panel A table"
+    captured_in_ara: true
+    note: "Table in figure3.md corroborates 'Text-confirmed: 22 upregulated, 8 downregulated (most DEGs)', matching claims.md verbatim."
+  - fact: "Astro AA = 98 DEGs (C05)"
+    pdf_location: "evidence/figures/figure4.md Panel A note"
+    captured_in_ara: true
+    note: "figure4.md states 'Astro AA = 98 DEGs (per §2.5, C05)' — consistent cross-reference."
+  - fact: "MOFA factor 3 vs pTau FDR < 0.05 (C07)"
+    pdf_location: "evidence/figures/figure6.md Panel A/B table"
+    captured_in_ara: true
+    note: "figure6.md table gives the more precise underlying value FDR=2.16e-02, which is consistent with (and slightly more informative than) the claims.md rounding to 'FDR<0.05' — not a mismatch, an acceptable rounding."
+  - fact: "Cohort composition: E2+ n=14 vs E4+ n=16, ancestry African n=14 / European n=16, sex 21 male / 9 female"
+    pdf_location: "PAPER.md Overview section"
+    captured_in_ara: true
+    note: "PAPER.md overview states these exact cohort numbers, consistent with the 70%-male figure cited in C06's Sources (21/30 = 70%)."
+  - fact: "Oligo.3 shares marker genes LINGO2, GPM6A, KCNJ3 with OPC.5 (C04)"
+    pdf_location: "evidence/figures/figure5.md panel E description"
+    captured_in_ara: true
+    note: "figure5.md panel E explicitly lists 'Oligo.3 shares markers (LINGO2, GPM6A, KCNJ3) with OPC.5' verbatim-consistent with claims.md."
+  - fact: "RW01 (Blanchard et al.) Delta note: study did NOT replicate Blanchard's cholesterol-gene upregulation but did replicate myelination-gene downregulation"
+    pdf_location: "logic/related_work.md RW01"
+    captured_in_ara: true
+    note: "This is a partial-replication nuance (not full concordance) that IS captured honestly in related_work.md and is consistent with C08's careful 'including shared PLP1 and OPALIN' (not 'full overlap') phrasing in claims.md -- a good-faith detail, not lost in compilation."

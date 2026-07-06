@@ -1,0 +1,13 @@
+# Multi‐'omic characterisation of vulnerable synaptic components in Alzheimer's Disease
+
+- **Cite key**: Geo25
+- **Authors**: Tatiana Georgiades; E. A. Chandra; Bshaier Allehyany; Eléonore Schneegans; To Ka Dorcas Cheung; Harry J Whitwell; Samuel J Barnes; P. Matthews; Johanna S Jackson
+- **Year**: 2025  (2025-12-01)
+- **Journal**: Alzheimer's & Dementia
+- **DOI**: 10.1002/alz70855_099033
+- **URL**: https://doi.org/10.1002/alz70855_099033
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Synapse loss is the strongest pathophysiological correlate of cognitive decline in Alzheimer's disease (AD). Untargeted synaptic proteomics in post‐mortem human brain has shown a downregulation of synaptic transmission pathways and a progressive increase in pathways related to synaptic vulnerability in regions with increasing AD pathology. Evidence from bulk tissue transcriptomics has highlighted changes in the levels of synaptic genes in AD. However, the local synaptic transcriptome has been shown to be essential for synaptic plasticity and cognitive function. Here, we integrated proteomic and transcriptomic data from isolated synaptoneurosomes to comprehensively characterize the molecular changes occurring in mid‐stage AD.

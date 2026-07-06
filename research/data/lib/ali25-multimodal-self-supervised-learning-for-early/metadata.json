@@ -1,0 +1,15 @@
+{
+  "idx": 155,
+  "cite_key": "Ali25",
+  "title": "Multimodal Self-Supervised Learning for Early Alzheimer’s: Cross-Modal MRI–PET, Longitudinal Signals, and Site Invariance",
+  "authors": "Soumaya Belhaj Ali; Naglaa E. Ghannam; H. Mancy; Basma Gh. Elkilany",
+  "year": "2025",
+  "pub_date": "2025-12-01",
+  "journal": "Diagnostics",
+  "abstract": "Background: The early and accurate identification of Alzheimer’s disease (AD) is complicated by a number of factors, such as the diversity of imaging modalities, variability in scanners across multiple sites, and the long-term progression of neurodegeneration. Such modest gains and the range of diagnostic scenarios suggest that robust multimodal applications, which incorporate both structural, molecular, and longitudinal measurements, are required if realistic benefits are to be seen in actual clinical settings. Methods: We introduce a multimodal self-supervised learning (SSL) approach, which learns feature representations of MRI and PET jointly using the cross-modal alignment, longitudinal temporal consistency, and domain-invariant embedding optimization. The approach integrates contrastive learning, scanner harmonization strategies, and missing modality-aware fusion for handling real-world cohort diversity. Six widely used datasets were evaluated, which are made publicly available: ADNI, OASIS-3, AIBL, BioFINDER, TADPOLE, and MIRIAD. Results: The model performed in a state-of-the-art way on all benchmark tasks. On ADNI, it obtained a BACC of 93.0% and an AUC of 0.96 for the binary classification task (AD vs. CN), surpassing recent baselines such as DiaMond’25, SMoCo, and AnatCL with statistically significant performance gain. Strong cross-cohort generalizability was reported (78.0% BACC on OASIS-3 and 77.5% BACC on AIBL). For TADPOLE, for longitudinal prognosis (i.e., MCI → AD conversion), the model yielded an AUC of 0.85 and a C-index of 0.82, which shows better ascendency over previous SSL-based methods. High test–retest consistency was observed on MIRIAD (ICC = 0.91), indicating that instability in volume measurement due to atrophy progression was minimal. Conclusions: The proposed multimodal SSL framework offers effective transferable and domain-robust biomarkers for the early diagnosis of AD and prediction of MCI-to-AD progression. It has strong cross-dataset generalization.",
+  "citation_count": "3",
+  "citations_per_year": "5.1",
+  "doi": "10.3390/diagnostics15243135",
+  "url": "https://doi.org/10.3390/diagnostics15243135",
+  "slug": "ali25-multimodal-self-supervised-learning-for-early"
+}

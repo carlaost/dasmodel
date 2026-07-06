@@ -1,0 +1,29 @@
+paper:
+  slug: ahm26b-trends-and-disparities-in-alzheimer-disease
+  doi: 10.1097/WAD.0000000000000712
+  title: "Trends and Disparities in Alzheimer Disease-Related Mortality in the United States From 1999 to 2020: A CDC WONDER Analysis."
+pdf:
+  oa: false
+  downloaded: false
+  path: null
+  url: null
+  source: none
+code: []
+data:
+  - name: "CDC WONDER Multiple Cause of Death database (Alzheimer disease mortality, ICD-10 F01, F03, G30, G31.1; ages 45+, 1999-2020)"
+    identifier: null
+    repository: "CDC WONDER (https://wonder.cdc.gov/)"
+    access: open
+    verified: true
+clinical_trials: []
+notes: >
+  Population-level epidemiological study of Alzheimer disease-related mortality using
+  the publicly available CDC WONDER Multiple Cause of Death database. Deaths were
+  identified by ICD-10 codes (F01, F03, G30, G31.1) among individuals aged 45+ for
+  1999-2020, with joinpoint regression for trend analysis. No study-specific dataset,
+  accession, or code repository was released or referenced. No clinical trial (this is
+  a registry/database analysis, not an interventional study). The article is paywalled
+  (Ovid/Wolters Kluwer); Unpaywall reports oa_status "closed" and Europe PMC finds no
+  PMC/EPMC full text, so no licit open-access PDF is available. PMID 41773884.
+  The underlying CDC WONDER data are open/public. No explicit Data Availability or Code
+  Availability statement could be retrieved because the full text is behind a paywall.

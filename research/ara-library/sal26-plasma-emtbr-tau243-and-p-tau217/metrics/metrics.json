@@ -1,0 +1,109 @@
+{
+  "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+  "doi": "10.1001/jamaneurol.2026.1405",
+  "n_claims": 4,
+  "n_experiments": 4,
+  "D1_reproducibility": {
+    "cross_layer_binding_resolvability": 0.933,
+    "n_links_resolved": 14,
+    "n_links_total": 15,
+    "environment_completeness": 1.0,
+    "env_fields_present": 7,
+    "env_fields_total": 7,
+    "spec_completeness_setup_proxy": 0.25,
+    "spec_completeness_rubric": {
+      "status": "pending_model",
+      "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+    },
+    "executable_reproduction_L3": {
+      "status": "pending_exec",
+      "has_code_repo": false,
+      "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+    }
+  },
+  "D2_claim_evidence_integrity": {
+    "claim_grounding_ratio": 1.0,
+    "grounded_numbers": 2,
+    "statement_numbers": 2,
+    "falsifiability_presence_proxy": 1.0,
+    "status_honesty_mix": {
+      "supported (per abstract; effect sizes not available from provided input)": 3,
+      "hypothesis (interpretive \"meaning\" statement; not directly tested in the abstract's": 1
+    },
+    "orphan_claims_no_proof": [],
+    "orphan_experiments_no_claim": [],
+    "n_claims": 4,
+    "n_experiments": 4,
+    "evidence_relevance_D1": {
+      "status": "pending_model"
+    },
+    "falsifiability_quality_D2": {
+      "status": "pending_model"
+    },
+    "scope_calibration_D3": {
+      "status": "pending_model"
+    }
+  },
+  "D3_process_transparency": {
+    "dead_end_density_per_claim": 0.25,
+    "n_dead_ends": 1,
+    "n_dead_ends_complete": 1,
+    "decision_branching_factor": 2,
+    "explicit_vs_inferred_ratio": 0.667,
+    "failure_knowledge_preservation": 0.222,
+    "negative_result_share": 0.2,
+    "node_type_counts": {
+      "question": 1,
+      "decision": 2,
+      "experiment": 4,
+      "dead_end": 1,
+      "pivot": 1
+    }
+  },
+  "D4_novelty_dependency": {
+    "typed_delta_profile": {
+      "imports": 3,
+      "extends": 0,
+      "refutes": 0,
+      "bounds": 0,
+      "baseline": 0
+    },
+    "corrective_science_score": 0,
+    "n_related_work_blocks": 3,
+    "concept_count": 7,
+    "novel_claim_count": {
+      "status": "pending_model",
+      "authored_claims": 4,
+      "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+    }
+  },
+  "D6_realworld_grounding": {
+    "n_datasets_linked": 2,
+    "n_datasets_verified": 2,
+    "n_clinical_trials_linked": 1,
+    "verified_ncts": [
+      "NCT03174938"
+    ],
+    "n_code_repos": 0,
+    "pdf_open_access": true,
+    "pdf_downloaded": false,
+    "claim_vs_endpoint_concordance": {
+      "status": "pending_external",
+      "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+    },
+    "target_compound_resolvability": {
+      "status": "pending_external",
+      "note": "needs ChEMBL resolution"
+    }
+  },
+  "D7_artifact_quality": {
+    "seal_L1_structural_score": 1.0,
+    "core_files_present": 10,
+    "core_files_total": 10,
+    "auditor_blindspot_orphan_experiments": [],
+    "compilation_fidelity": {
+      "status": "pending_model",
+      "note": "needs source-vs-ARA recall sampling"
+    }
+  }
+}

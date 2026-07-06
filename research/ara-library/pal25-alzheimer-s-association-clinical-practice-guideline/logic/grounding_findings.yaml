@@ -1,0 +1,192 @@
+# [sem] grounding findings for pal25-alzheimer-s-association-clinical-practice-guideline.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. All quotes were checked
+# against the local paper.pdf (research/data/lib/pal25-.../paper.pdf) via pdftotext -layout —
+# a real in-repo PDF was available for this ARA (unlike some others), so string_present here
+# reflects an actual re-open/re-extraction, not a plausibility judgment.
+
+- claim_id: C01
+  number: "Sn >=90% (triage)"
+  quote: "The panel defined acceptable diagnostic test accuracy for triaging to be at least 90% sensitivity and 75% specificity for a reference test (CSF AD biomarkers, amyloid PET, or AD neuropathology)"
+  source: "paper.pdf Table 2 footnote b / §2.5.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match confirmed in extracted PDF text (Table 2 footnote b and §2.5.1 both carry this exact sentence)."
+
+- claim_id: C01
+  number: "Sp >=75% (triage)"
+  quote: "BBM tests with ≥90% sensitivity and ≥75% specificity can be used as a triaging test"
+  source: "paper.pdf §5 Conclusion"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches Abstract Recommendations text verbatim ('BBM tests with ≥90% sensitivity and ≥75% specificity can be used as a triaging test'); a near-identical restatement also appears in the Conclusions section."
+
+- claim_id: C01
+  number: "conditional recommendation, Low certainty evidence"
+  quote: "(Conditional recommendation, Low certainty evidence)"
+  source: "paper.pdf Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match to Table 2 recommendation text."
+
+- claim_id: C02
+  number: "Sn >=90% (confirmatory)"
+  quote: "The panel defined acceptable diagnostic test accuracy for confirmatory testing to be at least 90% sensitivity and 90% specificity for a reference test (CSF AD biomarkers, amyloid PET, or AD neuropathology)"
+  source: "paper.pdf Table 2 footnote e / §2.5.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim match; §2.5.1 states 'For the confirmatory level, the point estimates had to be at least 90% for both Sn and Sp' as the corresponding methods-section restatement."
+
+- claim_id: C02
+  number: "Sp >=90% (confirmatory)"
+  quote: "BBM tests with ≥90% sensitivity and specificity can serve as a substitute for amyloid PET imaging or CSF AD biomarker testing"
+  source: "paper.pdf §5 Conclusion"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match to Abstract Recommendations text."
+
+- claim_id: C03
+  number: "pooled Sn range 49.31%-91.41%"
+  quote: "Across all 31 tests, pooled Sn ranged from 49.31% to 91.41%"
+  source: "paper.pdf §3.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match confirmed in extracted PDF text (p.10, §3.4 Diagnostic test accuracy)."
+
+- claim_id: C03
+  number: "pooled Sp range 61.54%-96.72%"
+  quote: "and Sp ranged from 61.54% to 96.72%"
+  source: "paper.pdf §3.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Continuation of the same sentence as the Sn range quote; exact match."
+
+- claim_id: C03
+  number: "31 tests"
+  quote: "31 different BBM tests were evaluated in our systematic review"
+  source: "paper.pdf §3.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; full sentence reads '...31 different BBM tests were evaluated in our systematic review and are summarized in Table 3'."
+
+- claim_id: C04
+  number: "some tests met or exceeded thresholds (90% Sn/75% Sp triage; 90% Sn/Sp confirmatory)"
+  quote: "some tests did meet or exceed the panel's established thresholds, meaning a single cut-point achieved the thresholds of 90% Sn and 75% Sp for triaging or 90% Sn and Sp for confirmatory testing"
+  source: "paper.pdf §3.4"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match, spans the sentence break at the page boundary in the PDF (p.9-10) but is contiguous prose in the source; matches claims.md Statement verbatim."
+
+- claim_id: C05
+  number: "overall certainty moderate to very low"
+  quote: "The certainty of the evidence for test accuracy across all tests ranged from moderate to very low"
+  source: "paper.pdf §3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match."
+
+- claim_id: C05
+  number: "threshold-meeting certainty low to very low"
+  quote: "for tests meeting the panel's predetermined thresholds for accuracy, certainty ranged from low to very low"
+  source: "paper.pdf §3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match, continuing the same sentence as the prior quote."
+
+- claim_id: C05
+  number: "publication bias not detected"
+  quote: "Publication bias was not detected for any of the tests"
+  source: "paper.pdf §3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match, last sentence of the §3.5 paragraph."
+
+- claim_id: C06
+  number: "triage PPV 47/78/94%, NPV 97/88/65%"
+  quote: "a test with a Sn of 90% and Sp of 75% (our \"triage\" thresholds) would have a PPV of 47%, 78%, or 94%, and NPV of 97%, 88%, 65%, when applied in a population with a pretest probability of 20%, 50%, or 80%, respectively"
+  source: "paper.pdf §2.5.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; also independently reproduced via Bayes' theorem from Sn=90%/Sp=75% at prevalence 20/50/80% (computed PPV=47.4/78.3/93.5%, NPV=96.8/88.2/65.2%), confirming these are internally consistent, correctly-rounded figures and not transcription errors."
+
+- claim_id: C06
+  number: "confirmatory PPV 69/90/97%, NPV 97/90/69%"
+  quote: "A test with a Sn of 90% and Sp of 90% (our \"confirmatory\" thresholds) would have a PPV of 69%, 90%, or 97%, and NPV of 97%, 90%, 69%, when applied in a population with a pretest probability of 20%, 50%, or 80%, respectively"
+  source: "paper.pdf §2.5.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match, immediately following the triage-threshold sentence in the source."
+
+- claim_id: C07
+  number: "70% to 90% lower than PET imaging"
+  quote: "BBMs generally cost significantly less, often 70% to 90% lower than PET imaging"
+  source: "paper.pdf §3.10"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; note the guideline itself cites no specific source for this percentage beyond 'publicly available sources,' so the figure is only as reliable as the panel's own unreferenced market survey -- a genre-typical limitation, not a grounding failure."
+
+- claim_id: C07
+  number: "savings judged moderate"
+  quote: "The panel judged savings to be moderate for BBMs compared to PET scans or CSF analysis"
+  source: "paper.pdf §3.10"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match, opening sentence of §3.10 Resources required."
+
+- claim_id: C08
+  number: "good practice statement"
+  quote: "A BBM test should not be obtained before a comprehensive clinical evaluation by a healthcare professional, and test results should always be interpreted within the clinical context"
+  source: "paper.pdf Table 2 / main text good practice statement"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Exact match; the main-text sentence continues 'The panel urges clinicians to consider the pretest probability of AD pathology for each patient when deciding whether to use a BBM test,' which the claims.md Statement also correctly incorporates even though it falls outside this specific quoted span."

@@ -1,0 +1,132 @@
+# Exploration Tree — ami25-prevalence-deaths-and-disability-adjusted-life
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | decision | dead_end | pivot
+#
+# This is a secondary descriptive-epidemiology study. It reveals its analytical trajectory and the
+# GBD-inherited methodological DECISIONS explicitly, but exposes essentially NO failed approaches of
+# its own (no ablations, no rejected models). Per Rule 9/Rule 4 no dead_end is invented; the two
+# decision nodes that ARE grounded describe GBD methodology choices the paper explicitly reports
+# (one carries the flavour of a corrected prior approach — reliance on vital registration — captured
+# as a decision with the abandoned alternative). Analysis-step nodes map to experiments E01–E06.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "§Introduction p.2", "§Methods Overview p.2"]
+    title: "What is the burden and 1990–2021 trend of AD and other dementias across the 21 MENA countries?"
+    description: >
+      Central question: quantify prevalence, deaths, and DALYs (counts and age-standardised rates
+      per 100,000) for Alzheimer's disease and other dementias in the MENA region, 1990–2021,
+      stratified by country, age, sex, and SDI, using GBD 2021 — updating the prior GBD 2019 MENA
+      analysis (ref 6).
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§Methods Overview p.2", "§Data availability p.12", "ref 26"]
+        title: "Use GBD 2021 estimates as the sole data source (no primary collection)"
+        choice: "Extract IHME GBD 2021 modelled estimates via the GHDx GBD Results Tool"
+        alternatives:
+          - "Collect/meta-analyse primary MENA epidemiological studies directly"
+          - "Use an older GBD cycle (e.g. GBD 2019, as in ref 6)"
+        evidence: "GBD 2021 covers 371 diseases across 204 countries/21 regions with consistent methodology; publicly available"
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["§Case definition p.2", "§Severity splits p.3"]
+            title: "Case definition: DSM/ICD with CDR severity reference; exclude cognition-only scales"
+            choice: "DSM III/IV/V or ICD case definitions; CDR as severity reference; accept 10/66 and NIA-AA; ICD-10 F00–F03,G30,G31 / ICD-9 290,291.2,291.8,294,331"
+            alternatives:
+              - "Include studies using cognition/memory-only scales such as MMSE"
+            evidence: "MMSE-only studies excluded because they do not assess activities of daily living (ADLs)"
+
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["§Fatal modelling strategy p.3-4", "since GBD 2019"]
+            title: "Fatal modelling: drop reliance on vital-registration data in favour of relative-risk from systematic review"
+            choice: "Model dementia mortality and morbidity together using relative-risk of all-cause mortality from a systematic PubMed review + Bayesian bias-reduction meta-regression (MR-BRT)"
+            alternatives:
+              - "Rely on vital-registration cause-of-death data (approach used before GBD 2019)"
+            evidence: "Vital-registration mortality rose steeply in high-income countries due to coding-practice shifts, not real epidemiology, so it was abandoned as the basis for fatal estimates"
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 1", "§Results The MENA region p.4"]
+            title: "E01 — Regional burden and 1990→2021 trend"
+            result: >
+              2021 MENA age-standardised prevalence 772.7/100k (−4.9% vs 1990, significant); death rate
+              25.6/100k (−8.6%, significant); DALY rate 476.3/100k (−7.7%, significant). All three
+              decreased significantly; deaths fell most.
+            evidence: [C01, C02, "Table 1"]
+            children:
+
+              - id: N06
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 1", "Figure 1", "§Results Country level p.4"]
+                title: "E02 — Country ranking and per-country trend"
+                result: >
+                  2021 prevalence ASR ranged 652.43 (UAE, lowest) to 828.25 (Lebanon, highest);
+                  prevalence decreased significantly in 13/21 countries (largest UAE −9.9, Yemen −9.2,
+                  Syria −8.1); significant death-rate declines only in UAE/Bahrain/Iran; DALY declines
+                  in five countries.
+                evidence: [C03, C04, "Table 1", "Figure 1"]
+
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 1", "Figure 2", "§Age and sex patterns p.5"]
+                title: "E03 — Sex comparison"
+                result: >
+                  Females exceeded males in counts and ASRs for prevalence, deaths, and DALYs across
+                  all age groups, but the sex difference was NOT statistically significant.
+                evidence: [C05, "Figure 1", "Figure 2"]
+
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 2", "§Age and sex patterns p.4-5"]
+                title: "E04 — Age-pattern analysis"
+                result: >
+                  Counts peaked at 80–84 (prevalence, DALYs) or 85–89 (deaths) then declined;
+                  age-standardised rates rose monotonically with age in both sexes.
+                evidence: [C06, "Figure 2"]
+
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 3", "§Age and sex patterns p.5", "§Discussion p.9"]
+                title: "E05 — MENA-vs-global DALY ratio by age and sex, 1990 vs 2021"
+                also_depends_on: [N05]
+                result: >
+                  MENA/Global DALY ratio ≥1 across all strata; max 2021 ratio 1.2 (males 70–79);
+                  2021 ratio ≤ 1990 ratio in every stratum — a decreasing/converging trend.
+                evidence: [C07, "Figure 3"]
+
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Figure 4", "§Relationship with the SDI p.5,8"]
+                title: "E06 — SDI relationship (observed vs expected via smoothing splines)"
+                also_depends_on: [N05]
+                result: >
+                  Age-standardised DALY rate generally decreased with rising SDI (non-monotonic:
+                  fall→slight rise at ≈0.47→fall). Higher-than-expected in Afghanistan/Libya/Turkey/
+                  Tunisia/Algeria/Bahrain; lower in Sudan/Syria/Jordan/Egypt. No clear SDI trend.
+                evidence: [C08, "Figure 4"]
+
+      - id: N11
+        type: decision
+        support_level: inferred
+        title: "Interpret the observed decline via declining smoking/CVD and demographic shift"
+        choice: "Attribute the 1990–2021 decrease to falling smoking and cerebrovascular burden plus a rising working-age / shrinking elderly share"
+        alternatives:
+          - "Attribute the change primarily to data/coding artefacts or COVID-19 disruption"
+          - "Treat the decline as within-uncertainty noise"
+        evidence: "Discussion links the trend to smoking/CVD/alcohol declines (refs 34,36,39) and demographic change (refs 41,42); this is interpretive, not tested by the study's own data (kept out of claim Statements)"

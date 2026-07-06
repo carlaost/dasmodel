@@ -1,0 +1,33 @@
+paper:
+  slug: tit26-automated-high-throughput-quantification-of-plasma
+  doi: 10.1186/s13195-026-01996-8
+  title: >-
+    Automated high-throughput quantification of plasma p-tau217 and APOE-ε4 for
+    Alzheimer's disease diagnosis and cognitive decline in a memory cohort
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://link.springer.com/content/pdf/10.1186/s13195-026-01996-8.pdf
+  source: unpaywall
+code: []
+data:
+  - name: Cognitive Centre Ghent University (CCUG) biobank
+    identifier: null
+    repository: CCUG biobank (Ghent University Hospital)
+    access: request
+    verified: true
+clinical_trials: []
+notes: >
+  Open-access article (gold OA, CC BY-NC-ND) in Alzheimer's Research & Therapy
+  (BMC); PMC id PMC13134085. OA PDF downloaded from Springer (1.67 MB, valid
+  PDF), URL confirmed via Unpaywall. Data Availability statement (verbatim):
+  "The datasets used and/or analysed during the current study are available from
+  the corresponding author on reasonable request." No Code Availability
+  statement is present, and web search found no associated GitHub/GitLab/OSF/
+  Zenodo repository. This is a retrospective single-cohort diagnostic-accuracy
+  study of 187 memory-clinic patients from the CCUG biobank (Ghent), classified
+  AD vs non-AD by CSF biomarkers — no interventional clinical trial, and no NCT/
+  EudraCT registration number is reported. No public dataset accessions
+  (GEO/SRA/EGA/PRIDE/Dryad/figshare) are used or released; the only data source
+  is the request-access CCUG biobank.

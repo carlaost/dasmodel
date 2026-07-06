@@ -1,0 +1,85 @@
+{
+  "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+  "genre": "guideline",
+  "doi": "10.1002/alz.70535",
+  "n_claims": 8,
+  "n_experiments": 6,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_datasets": 0,
+    "n_trials": 0
+  },
+  "gates": {
+    "seal_L1_structural_pass": true,
+    "all_links_resolve": false,
+    "no_orphan_experiments": true,
+    "grounding_layer_present": true,
+    "_detail": {
+      "seal_L1": 1.0,
+      "binding": 0.96,
+      "orphan_experiments": []
+    },
+    "gates_passed": 3,
+    "gates_total": 4
+  },
+  "rankers": {
+    "grounding_verified": {
+      "value": null,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "re-opened cited in-repo files; presence\u2260truth fix (crit #4)"
+    },
+    "falsifiability_presence": {
+      "value": 1.0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "PROXY: presence only; quality is [sem]-pending"
+    },
+    "negative_result_share": {
+      "value": 0.2,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "dead_end_density": {
+      "value": 0.25,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": "low genre baseline"
+    },
+    "corrective_science_score": {
+      "value": 6,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "translation_trial_linkage": {
+      "value": 0,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "environment_completeness": {
+      "value": 0.429,
+      "quality": "paper_quality",
+      "applies": true,
+      "reason": ""
+    },
+    "executable_reproduction_L3": {
+      "value": "N/A",
+      "quality": "paper_quality",
+      "applies": false,
+      "reason": "no code artifact"
+    }
+  },
+  "verified_grounding_detail": {
+    "quotes_present": 17,
+    "quotes_unverifiable_in_repo": 17,
+    "quotes_checkable": 0,
+    "quotes_verified": 0,
+    "verified_ratio": null,
+    "self_contained_grounding_ratio": 0.0
+  },
+  "v1_grounding_presence": 1.0
+}

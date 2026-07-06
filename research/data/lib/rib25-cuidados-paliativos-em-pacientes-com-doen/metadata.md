@@ -1,0 +1,13 @@
+# CUIDADOS PALIATIVOS EM PACIENTES COM DOENÇA DE ALZHEIMER: UMA REVISÃO INTEGRATIVA.
+
+- **Cite key**: Rib25
+- **Authors**: Adaelle Dantas Ribeiro; Arion Wesley Costa Santos; Bruna Aurislânya de Sá Queiroga; G. Esteves; Laiz de Oliveira Machado Leiva de Faria; Laura Millena Silva de Oliveira; Maria Cristina dos Santos Bezerra; João Santos; Francielle Alba Moraes
+- **Year**: 2025  (2025-10-12)
+- **Journal**: Revista ft
+- **DOI**: 10.69849/revistaft/ar10202510122227
+- **URL**: https://doi.org/10.69849/revistaft/ar10202510122227
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Objective: To describe the main palliative-care approaches for people with Alzheimer’s disease (AD) aimed at improving quality of life for patients and caregivers. Methods: Integrative literature review structured by the PICO strategy (P: AD; I: palliative care; C: not applicable; O: quality of life). Searches were conducted in BVS, PubMed, and SciELO using DeCS/MeSH terms in Portuguese and English; titles/abstracts were screened independently by two reviewers, and data were extracted into a standardized instrument for narrative synthesis. Results: The studies consistently support early, interdisciplinary palliative integration focused on: systematic management of neuropsychiatric symptoms prioritizing non-pharmacological measures and cautious psychotropic use; advance care planning aligned with comfort-oriented goals; medication review and deprescribing near end of life; coordinated home/long-term-care models emphasizing pain assessment, fall prevention, meaningful routines, and structured caregiver/family communication. These practices are associated with improved patient well-being and reduced burdensome or futile interventions. Conclusion: Early, interdisciplinary palliative care along the AD trajectory appears to enhance quality of life and caregiver support while curbing disproportionate interventions; however, heterogeneity of designs underscores the need for more robust studies.

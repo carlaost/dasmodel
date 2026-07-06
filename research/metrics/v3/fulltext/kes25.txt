@@ -1,0 +1,1083 @@
+Received: 9 September 2025            Revised: 27 November 2025              Accepted: 30 December 2025
+
+DOI: 10.1002/alz.71147
+
+
+RESEARCH ARTICLE
+
+
+
+
+The Alzheimer’s Disease Diagnosis and Plasma
+Phospho-Tau217 (ADAPT) study stage 1: Validating clinical
+cut-points against CSF and amyloid PET
+Ashvini Keshavan1                                  Katharine Wiltshire1                            Ryan Wee2,3
+Irene Gorostiaga Belio1                               Katie Tucker1                    Melanie Hart4,5    Michael P. Lunn4,6
+Michael C. B. David7,8                              Laura Rizzo7,8                    Omid Sadeghi-Alavijeh9   Patricia Wilson9
+Daniel P. Gale9   Amanda J. Heslegrave10    Henrik Zetterberg10,11,12,13,14,15,16
+Nick C. Fox1    Paresh Malhotra7,8    Jonathan M. Schott1,10
+1
+    Dementia Research Centre, UCL Queen Square Institute of Neurology, London, UK
+2
+    King’s College Hospital NHS Foundation Trust, London, UK
+3
+    Francis Crick Institute, London, UK
+4
+ Neuroimmunology & CSF Laboratory, National Hospital for Neurology and Neurosurgery, University College London Hospitals NHS Foundation Trust (UCLH) Queen
+Square London, London, UK
+5
+    Department of Neuroinflammation, UCL Queen Square Institute of Neurology, London, UK
+6
+    MRC Centre for Neuromuscular Diseases, UCL Queen Square Institute of Neurology, London, UK
+7
+    UK Dementia Research Institute Centre for Care Research and Technology, London, UK
+8
+    Department of Brain Sciences, Imperial College London, London, UK
+9
+    UCL Department of Renal Medicine, University College London, London, UK
+10
+     UK Dementia Research Institute at UCL, University College London, London, UK
+11
+ Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, the Sahlgrenska Academy at the University of Gothenburg, Mölndal,
+Sweden
+12
+     Clinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden
+13
+     Hong Kong Center for Neurodegenerative Diseases, Hong Kong Special Administrative Region, China
+14
+ Wisconsin Alzheimer’s Disease Research Center, University of Wisconsin School of Medicine and Public Health, University of Wisconsin–Madison, Madison,
+Wisconsin, USA
+15
+     Department of Pathology and Laboratory Medicine, University of Wisconsin School of Medicine and Public Health, Madison, Wisconsin, USA
+16
+     Centre for Brain Research, Indian Institute of Science, Bengaluru, India
+
+
+
+Correspondence
+Ashvini Keshavan, Dementia Research Centre,                   Abstract
+Box 16 National Hospital for Neurology and
+Neurosurgery, Queen Square, London WC1N
+                                                              INTRODUCTION: We validated plasma phosphorylated tau (p-tau)217 cut-points for
+3BG, UK.                                                      Alzheimer’s disease (AD) diagnosis using two commercial assays in two biomarker-
+Email: a.keshavan@ucl.ac.uk
+                                                              defined cohorts and examined influences of pre-analytical factors and chronic kidney
+                                                              disease (CKD) on p-tau217 concentrations.
+
+
+
+
+Ashvini Keshavan and Katharine Wiltshire contributed equally to this work.
+
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any
+medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+© 2026 The Author(s). Alzheimer’s & Dementia published by Wiley Periodicals LLC on behalf of Alzheimer’s Association.
+
+Alzheimer’s Dement. 2026;22:e71147.                                                                                  wileyonlinelibrary.com/journal/alz   1 of 18
+https://doi.org/10.1002/alz.71147
+2 of 18                                                                                                                            KESHAVAN ET AL .
+
+
+Funding information
+Blood Biomarker Challenge, Grant/Award           METHODS: Lumipulse (Fujirebio) and ALZpath (Quanterix) assays quantified plasma
+Number: ARUK-BBC2023-002
+                                                 p-tau217 in symptomatic patients (AD status definition cerebrospinal fluid [CSF]
+                                                 n = 257; amyloid positron emission tomography [PET] n = 76). Receiver operat-
+                                                 ing characteristic (ROC) analyses established ≥ 95% sensitivity/specificity cut-points.
+                                                 In separate cohorts we evaluated the impact of pre-analytical handling/transport
+                                                 variations (n = 40/10) and cognitively normal (CN)-CKD individuals (n = 58).
+                                                 RESULTS: Diagnostic accuracy was similar (area under the ROC Lumipulse 0.947;
+                                                 ALZpath 0.940). Lumipulse p-tau217 achieved 95% sensitivity and 97% specificity
+                                                 using dual cut-points (0.153/0.422 pg/mL), producing indeterminate results in 19.4%
+                                                 (CSF defined) and 34.2% (PET defined). P-tau217 concentrations were stable across
+                                                 handling conditions and kit lots, and mostly in the low-to-intermediate range in
+                                                 CN-CKD.
+                                                 DISCUSSION: Lumipulse plasma p-tau217, now available in our United Kingdom
+                                                 Accreditation Service–accredited clinical National Health Service laboratory, will be
+                                                 used in a randomized trial of p-tau217 result disclosure in memory services.
+
+                                                 KEYWORDS
+                                                 Alzheimer’s disease, blood-based biomarkers, cerebrospinal fluid, chronic kidney disease, cut-
+                                                 points, Fujirebio Lumipulse, phosphorylated tau217, phospho-tau, plasma biomarkers, positron
+                                                 emission tomography, preanalytics, Simoa ALZpath
+
+
+
+                                                 Highlights
+                                                 ∙ The Lumipulse plasma phosphorylated tau (p-tau)217 assay outperformed ALZpath
+                                                    against cerebrospinal fluid and amyloid beta positron emission tomography.
+                                                 ∙ High-performing Lumipulse dual cut-points were determined for clinical use.
+                                                 ∙ Plasma p-tau217 was robust to pre-analytical variations.
+                                                 ∙ Plasma p-tau217 was mostly low to indeterminate in chronic kidney disease
+                                                    patients.
+
+
+
+
+1         BACKGROUND                                                        It has higher diagnostic accuracy than other plasma biomarkers5–7
+                                                                            and comparable performance against current CSF and PET clinical
+Alzheimer’s disease (AD) diagnosis is typically formulated using clinical   diagnostic standards.8–10 Longitudinal studies have also shown that
+assessments and structural brain imaging, combined where available          increases in plasma p-tau217 correlate with increased deficits in cog-
+with molecular tools (for example measurement of cerebrospinal fluid        nition and brain atrophy,11 and that elevated plasma p-tau217 is an
+[CSF] amyloid beta [Aβ] and phosphorylated tau [p-tau] or amyloid           accurate predictor of subsequent AD-related brain pathology, cogni-
+positron emission tomography [PET]). Introducing an effective blood         tive impairment, and AD diagnosis.12–15 Among commercially available
+test to support the diagnosis of AD would reduce the need for invasive      plasma p-tau217 assays, the Lumipulse automated platform,5 and the
+CSF sampling and/or expensive amyloid PET and improve the acces-            ALZpath assay on the Single Molecule Array (Simoa) HD-X platform
+sibility of obtaining an early and accurate diagnosis in settings where     (Quanterix)6,16–19 have shown high performance for differentiating AD
+those molecular tools are not currently available.1,2                       from non-AD. However, clinical cut-points need to be established and
+    There is strong evidence to show that plasma p-tau biomarkers are       evaluated to ensure these assays can be reliably integrated into diag-
+accurately able to discriminate AD neuropathology from other neuro-         nostic pathways, minimizing the risk of misclassification and potential
+logical diseases.3,4 In particular, plasma tau phosphorylated at threo-     misdiagnosis.
+nine 217 (p-tau217) has been identified as a specific, high-performing         The Alzheimer’s Disease Diagnosis and Plasma phospho-Tau217
+biomarker for the differentiation of AD from other neurodegenerative        (ADAPT) study is a UK multi-center study consisting of three stages.
+diseases, when applied with appropriate high pre-test probabilities.        Stage 1 involved plasma p-tau217 assay selection and cut-point deriva-
+KESHAVAN ET AL .                                                                                                                             3 of 18
+
+
+                                                                            surements, so as to guide sample handling protocols for the stage 3
+
+     RESEARCH IN CONTEXT                                                    trial.
+
+     1. Systematic review: A recent systematic review and
+        meta-analysis has shown that plasma phosphorylated
+                                                                            2        METHODS
+        tau (p-tau)217 accurately identifies Alzheimer’s disease
+        (AD) pathology, with superior performance compared to
+                                                                            2.1       CSF cohort
+        other plasma biomarkers and comparable accuracy to
+        cerebrospinal fluid (CSF) and amyloid positron emission
+                                                                            2.1.1        Study participants and clinical classification
+        tomography (PET). Commercial assays such as Lumipulse
+        and ALZpath have demonstrated high diagnostic perfor-
+                                                                            Participants were identified from an existing cohort of patients who
+        mance across multiple cohorts.
+                                                                            attended the cognitive clinic at University College London Hospitals
+     2. Interpretation: We compared Lumipulse and ALZpath
+                                                                            National Health Service (NHS) Foundation Trust, National Hospital
+        plasma p-tau217 assays against CSF-confirmed AD,
+                                                                            for Neurology and Neurosurgery (London, UK), between August 2017
+        derived diagnostic cut-points, and validated them against
+                                                                            and September 2024, and were referred for lumbar punctures to
+        amyloid PET in an independent cohort, showing that a
+                                                                            investigate their cognitive symptoms. Informed consent, or assent in
+        dual cut-point approach can allow for translation across
+                                                                            discussion with participants’ consultees, was obtained for all partici-
+        cohorts defined by different reference amyloid biomark-
+                                                                            pants to participate in biomarker research studies and for researchers
+        ers, with relative preservation of accuracy, and negative
+                                                                            to have access to medical records. Ethical approval for use of the sam-
+        and positive predictive value. We also evaluated the influ-
+                                                                            ples in ADAPT stage 1 was provided by an existing study (Wolfson CSF
+        ence of chronic kidney disease (CKD), body mass index,
+                                                                            study 12/0344, NRES London Queen Square, August 2013, PI Schott).
+        sample handling, and lot-to-lot variability on plasma p-
+                                                                            Participants were included if minimum stored volumes of 1 mL of
+        tau217 levels, showing that while plasma p-tau217 is
+                                                                            ethylenediaminetetraacetic acid (EDTA) plasma and 500 µL of matched
+        robust to pre-analytical variation and lot-to-lot variation
+                                                                            CSF were available.
+        in measured values is minimal, CKD (estimated glomeru-
+                                                                                The most recent clinical diagnosis was collected from the hospi-
+        lar filtration rate ≤ 60 mL/min/1.73m2 ) can elevate p-
+                                                                            tal medical records up to October 24, 2024 and was informed by
+        tau217 into the intermediate zone in individuals expected
+                                                                            the results of clinical CSF testing. The diagnostic categorization used
+        to have low/no amyloid pathology.
+                                                                            for this was AD and mixed AD pathology; frontotemporal demen-
+     3. Future directions: Subsequent Alzheimer’s Disease Diag-
+                                                                            tia (FTD), vascular cognitive impairment, Lewy body disease, other
+        nosis and Plasma phospho-Tau217 study stages will
+                                                                            organic neurodegenerative diseases, other organic neurological dis-
+        assess the stability of derived cut-points over time and
+                                                                            eases (non-degenerative), subjective cognitive decline with non-AD-
+        evaluate the clinical utility of plasma p-tau217 disclosure
+                                                                            like CSF (Aβ42 /Aβ40 > 0.065), subjective cognitive decline with low CSF
+        for AD diagnosis in a geographically and ethnically diverse
+                                                                            Aβ42 /Aβ40 but normal p-tau181 /positive amyloid PET, or other neu-
+        UK memory service population.
+                                                                            rodegeneration with low CSF Aβ42 /Aβ40 but normal p-tau181 /positive
+                                                                            amyloid PET.
+                                                                                Clinical severity in the AD and mixed AD pathology group was
+                                                                            categorized according to Mini-Mental State Examination (MMSE)23
+                                                                            obtained from the medical records within ± 6 months of the CSF and
+tion. Stage 2 will examine the stability of those derived cut-points over   plasma sampling, and categorized according to cut-offs used by the UK
+time. Stage 3 will be a randomized controlled trial of the disclosure of    National Institute for Health and Care Excellence (NICE)24 of MMSE
+plasma p-tau217 results to patients and clinicians, indexing proportion     27 to 30 for mild cognitive impairment (MCI), 21 to 26 for mild AD
+of AD diagnoses as the primary outcome.                                     dementia, and ≤20 for moderate to severe AD dementia.
+  In the first stage, described here, we compared the Lumipulse and             Participants were classified as AD biomarker status positive if CSF
+ALZpath assays in a patient cohort against CSF AD biomarker status,         Aβ42 /Aβ40 ratio was ≤ 0.065 (“amyloid only” definition), measured
+and determined the optimum cut-points to apply clinically using a dual      using the Lumipulse G1200 immunoassay platform (Fujirebio) in clin-
+cut-point approach.20 We then validated these p-tau217 assay cut-           ical routine. Sensitivity analyses were undertaken using four further
+points against amyloid PET status in an independent cohort. Secondary       definitions of AD status:
+aims within stage 1 were to consider the impact of comorbidities21 by
+identifying any associations of chronic kidney disease (CKD) and body       1. The “amyloid and p-tau” definition was CSF Aβ42 /Aβ40 ratio ≤ 0.065
+mass index (BMI) with p-tau217 measurements taken from partici-                 and p-tau181 ≥ 57pg/mL;
+pants within this study and from a separate cohort of participants with     2. The “clinical AD status” definition was based on the most recent
+stage 3 to 4 CKD, and to investigate the effects of varied pre-analytical       clinical diagnosis confirmed via clinical follow-up and informed by
+sample handling factors22 and assay kit lot variability on p-tau217 mea-        results of CSF testing using whichever AD biomarker assay com-
+4 of 18                                                                                                                            KESHAVAN ET AL .
+
+
+   bination was in clinical use at the time of testing, as between           The most recent clinical diagnosis was collected from the hospital
+   August 2017 and March 2020 the Innotest (Fujirebio) enzyme-            medical records up to November 2025 and was informed by the results
+   linked immunosorbent assay for Aβ42 and total tau were used,           of clinical amyloid PET scans. The diagnostic categorization used for
+   and between April 2020 and September 2024 the aforementioned           this was similar to that used for the CSF cohort (described previously
+   Lumipulse CSF assays for Aβ42 /Aβ40 and p-tau181 were used;            in section 2.1.1). Clinical severity in the AD and mixed AD pathology
+3. The “Malmö cohort” definition was based on a cut-point of              group was categorized according to results of brief cognitive testing
+   Lumipulse CSF Aβ42 /p-tau181 < 11.94 recently published by             available from the medical records within ± 1 year of the amyloid PET
+   Palmqvist et al. in a paper assessing the translation of Lumipulse     scan; either MMSE as previously described in section 2.1.1 or Adden-
+   plasma p-tau217 cut-points across multiple European memory             brooke’s Cognitive Examination version III (ACE-III) scores as follows:
+   clinic cohorts;25                                                      MCI 76 to 100, mild AD dementia 59 to 75, moderate or severe AD
+4. The “FDA” definition was based on a cut-point of Lumipulse CSF         dementia ≤ 58.29 In cases in which both MMSE and ACE-III data were
+   Aβ42 /Aβ40 < 0.073 being considered by the United States Food          available within ± 1 year of the amyloid PET scan, ACE-III scores were
+   and Drug Administration as consistent with a positive amyloid PET      used for clinical severity categorization.
+   scan.26                                                                   All participants were scanned using a Siemens Biograph 64 PET/CT
+                                                                          scanner with image acquisition after intravenous injection of 18 F-
+   To assess the impact of comorbidities, information on kidney func-     florbetaben. Visual read amyloid burden was reported by two nuclear
+tion (serum creatinine, estimated glomerular filtration rate [eGFR,       medicine experts and classified as amyloid positive or negative as pre-
+calculated using the Chronic Kidney Disease Epidemiology Collabora-       viously reported, with amyloid load scores assigned as: 1 = no amyloid
+tion (CKD-EPI) 2021 equation27 ], and resulting CKD stage) within ± 6     load, 2 = mild amyloid load, and 3 = significant amyloid load.30,31
+months and BMI within ± 1 year of the lumbar puncture were col-              To assess the impact of comorbidities, information on kidney func-
+lected from medical records where available and used in this study.       tion (serum creatinine, eGFR, and resulting CKD stage) within ± 12
+Basic demographic data were also recorded including age at sampling,      months of the date of the amyloid PET scan was collected from med-
+sex, and ethnicity (where specified in the medical record).               ical records when available and used in this study. BMI data were not
+                                                                          available from this cohort. Basic demographic data were also recorded
+                                                                          including age at PET scan, sex, and ethnicity (where specified in the
+2.1.2        Blood sample collection and processing                       medical record).
+
+
+Blood was collected by peripheral venipuncture from each participant
+into 8 mL K2-EDTA tubes and CSF was collected by lumbar punc-             2.2.2       Blood sample collection and processing
+ture using the protocol previously reported.28 Samples were processed
+within 2 hours of collection. Blood was centrifuged at 2000 × g for 10    Blood was collected by peripheral venipuncture from each participant
+minutes at room temperature and CSF was centrifuged at 1750 × g for       into 4 mL K3-EDTA tubes. Samples were processed within 2 hours of
+5 minutes at 4◦ C. Plasma and CSF were aliquoted and stored at −80◦ C     extraction. Blood was centrifuged at 2000 × g for 10 minutes at 4◦ C.
+until analysis.                                                           Plasma was aliquoted and stored at −80◦ C until analysis.
+                                                                             For the transport temperature comparison samples, immediately
+                                                                          after plasma centrifugation, plasma samples were placed in intermedi-
+2.2       Amyloid PET cohort                                              ate storage either at −20◦ C for a maximum of 2 weeks and transported
+                                                                          in a Bio-Freeze temperature controlled transport bottle system (Bio-
+2.2.1        Study participants and clinical classification               packaging Ltd) for < 24 hours at −20 to 0◦ C to University College
+                                                                          London (UCL), or at −80◦ C for a maximum of 2 weeks and transported
+Participants were identified from an existing cohort of patients who      for < 24 hours on dry ice to UCL. Samples were then stored at −80◦ C
+attended the cognitive clinic at Imperial College Healthcare NHS          on arrival at UCL prior to analysis.
+trust, Charing Cross Hospital (London, UK), between August 2020 and
+November 2024 for an amyloid PET brain scan as part of other stan-
+dard diagnostic procedures (the Imperial Amyloid PET Cohort Study         2.3       CKD cohort
+20/LO/0442, NRES London Camden and Kings Cross UK Research
+Ethics Committee, June 2020, PI Malhotra). An additional set of partic-   2.3.1       Study participants and clinical classification
+ipants from the same ongoing cohort who attended the clinic between
+April and July 2025 were included in a sample transport temperature       Participants were identified from an existing cohort of patients with
+comparison study, described in section 2.2.2 below. Informed consent      CKD due to autosomal dominant polycystic kidney disease (ADPKD)
+to participate in biomarker research studies was obtained from all par-   at the Royal Free London NHS Foundation Trust, Royal Free Hospi-
+ticipants. Participants were included if a minimum of 1 mL of stored      tal (London, UK), who provided plasma samples between 2012 and
+EDTA plasma was available.                                                2018. Use of plasma samples for this study was approved under ethics
+KESHAVAN ET AL .                                                                                                                            5 of 18
+
+
+for the Polycystic Kidney Disease (PKD) Biobank, sponsored by PKD            In experiment 1 (pre-centrifugation delay at room temperature)
+Charity at Royal Free (05/Q0508/6). Informed consent to participate in     after receipt of blood samples in the laboratory, blood samples were
+research was obtained from all participants. CKD stages were classed       left to stand in their original collecting EDTA tubes at room tempera-
+according to serum creatinine-based eGFR i(n ml/min/1.73m2 calcu-          ture for either 30 minutes (baseline condition) versus 1 hour or 3 hours
+lated using the CKD-EPI 2021 equation27 ): G1 = eGFR ≥ 90 (normal),        from the time of venipuncture before centrifugation. The supernatant
+G2 = eGFR 60 to 89 (mild decrease), G3a = eGFR 45 to 59 (mild to mod-      plasma was then aliquoted and stored immediately in −80◦ C.
+erate decrease), G3b = eGFR 30 to 44 (moderate to severe decrease),          In experiment 2 (pre-centrifugation delay at 2–8◦ C) blood samples
+G4 = eGFR 15 to 29 (severe decrease), G5 = eGFR < 15 (kidney fail-         were left to stand in their original collecting EDTA tubes for either 30
+ure). Samples were included in this study if participants were aged < 60   minutes at room temperature (baseline condition) versus 3 hours or
+years at blood sampling (as this would provide an expected background      24 hours in a refrigerator at 2 to 8◦ C from the time of venipuncture
+prevalence of cerebral amyloid deposition in these cognitively normal      prior to centrifugation. The supernatant plasma was then aliquoted and
+individuals of < 20%32 ), CKD stage was G1 to G4 and at least 250 uL of    stored immediately in −80◦ C.
+stored EDTA plasma was available. Basic demographic data were also           During experiment 3 (post-centrifugation delay durations and stor-
+recorded for all participants including age at sampling, sex, BMI, and     age temperatures) blood samples stood in EDTA tubes at room
+ethnicity (where available from medical records).                          temperature for 30 minutes from the time of venipuncture, then under-
+                                                                           went centrifugation and aliquoting of the supernatant plasma into
+                                                                           polypropylene tubes. Aliquots were left to stand under the follow-
+2.3.2       Blood sample collection and processing                         ing conditions that varied post-centrifugation delay durations under
+                                                                           different temperatures: no delay (baseline condition) versus 4 hours
+Blood was collected by peripheral venipuncture from each participant       room temperature, 24 hours room temperature, 4 hours at 2 to 8◦ C,
+into K2-EDTA tubes. Samples were processed within 2 hours of vene-         24 hours at 2 to 8◦ C, 2 weeks at 2 to 8◦ C, or 2 weeks at −20◦ C. After
+section. Blood was centrifuged at 1000 × g for 10 minutes at room          the assigned delay durations had elapsed, the samples were stored in
+temperature. Plasma was aliquoted and stored at −80◦ C until analysis.     −80◦ C.
+                                                                             Experiment 4 tested freeze–thaw cycles. Blood samples stood in
+                                                                           EDTA tubes for 30 minutes from the time of venipuncture at room
+2.4       Pre-analytical sample handling experiments                       temperature before undergoing centrifugation, aliquoting of the super-
+                                                                           natant plasma, and storage in −80◦ C. After storage at −80◦ C for at
+2.4.1       Study participants                                             least 24 hours, aliquots were retrieved from storage and left to stand
+                                                                           in room temperature to thaw for at least 1 hour before being replaced
+Participants were recruited from the cognitive neurology clinic at         back into −80◦ C. These freeze–thaw cycles were repeated to gener-
+the National Hospital for Neurology and Neurosurgery (London, UK),         ate the following number of freeze–thaw cycles: 1 (baseline condition)
+under the provisions of two existing studies: the Wolfson CSF study        versus 2, 3, and 4 cycles. Samples were stored in −80◦ C for at least
+(12/0344, NRES London Queen Square, August 2013, PI Schott;                24 hours between freeze–thaw cycles.
+patients only) and the Biomarkers and Genetics in Dementia study
+(03/N049, NRES London April 2003, PI Fox; patients and healthy vol-
+unteers). All participants provided written informed consent. Basic        2.5       Plasma p-tau217 assays
+demographic data were recorded including age at sampling and sex.
+                                                                           2.5.1       Lumipulse
+
+2.4.2       Sample collection and processing                               Plasma samples were tested blinded in singlicate on the Lumipulse
+                                                                           G1200 fully automated immunoassay platform using the commercially
+Blood samples were collected from participants by peripheral               available Lumipulse G plasma p-tau217 immunoreaction cartridge kits
+venipuncture into 8 mL K2-EDTA tubes and handled according to              (Fujirebio Europe) according to manufacturer instructions. Prior to
+pre-specified conditions that varied pre- and post-centrifugation          analysis, samples were thawed at room temperature, vortexed briefly,
+delays, storage temperatures, and number of freeze–thaw cycles. For        and centrifuged at 2000 × g for 10 minutes at room temperature, and
+all sets of experiments, blood samples were centrifuged at 2000 × g for    the supernatant pipetted into Hitachi analyzer sample cups for load-
+10 minutes at room temperature and plasma was stored at −80◦ C until       ing into the Lumipulse platform. All samples were quantifiable above
+analysis. A total of 40 participants provided blood samples, to allow      the lower limit of quantification (LLOQ) of 0.03 pg/mL provided by the
+for 10 per experimental condition. Plasma from two participants were       manufacturer, which had also been independently verified by the lab-
+excluded from the final analysis due to incorrect sample processing at     oratory using double dilution of a low p-tau217 plasma sample to this
+the centrifugation stage. Four experiments were conducted to study         concentration, with serial quantification remaining within a coefficient
+the following pre-analytic handling factors:                               of variation (CV) of < 10%.
+6 of 18                                                                                                                              KESHAVAN ET AL .
+
+
+
+2.5.2          ALZpath                                                       and intercept of the regression line, whereby if the 95% confidence
+                                                                             interval (CI) for the slope overlapped 1 and the 95% CI for the inter-
+Plasma samples were tested blinded in singlicate (pre-analytic exper-        cept overlapped 0, the methods would be considered comparable. For
+iments) or duplicates (main CSF and amyloid PET cohort samples) on           each assay, median fold-change in p-tau217 measurements between
+the Simoa HD-X immunoassay platform using the ALZpath p-tau217               non-AD and AD status participants were calculated and tested for sta-
+v2 assay kit according to manufacturer instructions (Quanterix). Prior       tistically significant differences using a Wilcoxon signed-rank test. For
+to analysis, samples were thawed at room temperature, vortexed               assessment of diagnostic performance of the two assays, receiver oper-
+briefly, and centrifuged at 10,000 × g for 5 minutes at room temper-         ating characteristic (ROC) analysis was performed on plasma p-tau217
+ature prior to plating and loading into the HD-X platform. All samples       measurements using AD status (non-AD or AD), classified using the
+were quantifiable above the LLOQ of 0.06 pg/mL provided by the               CSF “amyloid only” definition (described in section 2.1.1) to calculate
+manufacturer.                                                                the area under the curve (AUC) with 95% CI for both the Lumipulse and
+                                                                             ALZpath assays after formulating logistic regression models including
+                                                                             either p-tau217 assay as a sole independent variable, or additionally
+2.5.3          Lumipulse lot-to-lot variability experiments                  including covariates of age, sex, serum creatinine, and BMI. AUCs for
+                                                                             each model with addition of variables were tested for statistically sig-
+A subset of samples from the CSF cohort (detailed in section 2.1) were       nificant differences compared to the base model including age and
+selected for a lot-to-lot variability experiment using two lots of ver-      sex alone using DeLong tests, and Akaike information criteria (AIC)
+sion 1 (v1) and two lots of version 2 (v2) Lumipulse G plasma p-tau217       were used to ascertain whether addition of covariates made signif-
+kits (Fujirebio). Plasma samples were tested on the Lumipulse G1200          icant differences to model prediction, with AIC reduction of 20 or
+platform using three p-tau217 kit lots. Samples were thawed, briefly         more deemed significant. Cut-points were derived from the ROC anal-
+vortexed and centrifuged at 2000 × g for 10 minutes prior to testing on      yses using p-tau217 alone, using a dual cut-point approach5,16,20 for
+cartridge lot #5066 (v1), #5084 (v2), and #5086 (v2). When comparing         95% sensitivity and 95% specificity. The percentage of individuals with
+the data for each cartridge lot, additional data from the same subset        plasma p-tau217 results in the intermediate zone was evaluated, and
+of plasma samples, tested with kit lot #4128 (v1) for the CSF cohort         confusion matrices were used to identify the number of false positive
+(described in section 2.5.1), were included in the analysis for lot-to-lot   and false negative results, allowing for calculation of negative predic-
+variability.                                                                 tive value (NPV) and positive predictive value (PPV) with 95% CI, and
+                                                                             overall test accuracy for those individuals assigned a low or high value,
+                                                                             which were all calculated after excluding those in the intermediate
+2.6        Statistical analysis                                              zone. We also evaluated a cut-point combination that maintained 95%
+                                                                             sensitivity but maximized specificity while keeping the percentage of
+2.6.1          Descriptive statistics                                        individuals in the intermediate zone at < 20%. Cut-points for 90% sen-
+                                                                             sitivity and 90% specificity, and 97.5% sensitivity and 97.5% specificity
+All statistics and plots were calculated and created using custom            were also calculated for comparison of cut-point metrics.
+scripts written in R studio v2024.12.0 (Posit Software, PBC), excepting         Sensitivity analyses were undertaken whereby the derived 95% sen-
+the pre-analytical sample handling data (details in section 2.6.5 below).    sitivity and 95% specificity cut-points were also assessed for their NPV,
+All plasma p-tau217, serum creatinine, and BMI data were tested for          PPV, and accuracy using four other definitions of AD status (detailed
+normality using a Shapiro–Wilk test, and based on these tests, data          in section 2.1.1) and comparing the performance against the 95%
+were assumed to be not normally distributed, indicating the use of           sensitivity and 95% specificity cut-points obtained externally from
+non-parametric further statistical testing.                                  Palmqvist et al.25
+   To report participant demographics, continuous variables were
+summarized using mean and standard deviation (SD) (participant age),
+or median and interquartile range (IQR; Lumipulse/ALZpath plasma             2.6.3       Amyloid PET cohort
+p-tau217 concentrations [pg/mL], serum creatinine, eGFR, BMI). Cate-
+gorical and binary variables (sex, AD status, ethnicity, CKD stage) were     Correlation of the Lumipulse and ALZpath assay p-tau217 measure-
+summarized using percentages.                                                ments, fold changes, and ROC analyses against amyloid PET visual
+                                                                             read status were undertaken similarly to the statistical procedures
+                                                                             described for the CSF cohort in section 2.6.2.
+2.6.2          CSF cohort                                                       The 95% sensitivity and maximized specificity cut-points calculated
+                                                                             from the CSF cohort (classified using CSF Aβ42 /Aβ40 ratio only) were
+Spearman rank correlation coefficient rho (ρ) was used to describe the       then applied to the amyloid PET cohort. The percentage of individuals
+correlation of the Lumipulse and ALZpath p-tau217 assay measure-             with plasma p-tau217 results in the intermediate zone was evaluated,
+ments, and Passing–Bablok regression was used to assess the slope            confusion matrices were used to identify the number of false positive
+KESHAVAN ET AL .                                                                                                                                   7 of 18
+
+
+and false negative results and calculate the NPV and PPV with 95% CI         2.6.6        Lumipulse lot-to-lot variability experiments
+and overall accuracy.
+   A sensitivity analysis was undertaken applying the within-amyloid         Spearman rank correlation coefficient rho (ρ) was used to describe the
+PET cohort derived 95% sensitivity and 95% specificity cut-points, as        correlation of the Lumipulse p-tau217 assay measurements among the
+well as externally derived cut-points from Figdore et al.16 to the amy-      four kit lots, with P values for statistical significance of the correlation.
+loid PET cohort and examining the percentage in the intermediate
+zone, NPV, PPV, and accuracy.
+   Spearman rho correlation coefficient (ρ) and a Passing–Bablok             3       RESULTS
+regression were used to compare Lumipulse plasma p-tau217 mea-
+surements after post-centrifugation storage and transport at −20◦ C          3.1       Participant demographic characteristics
+versus −80◦ C.
+                                                                             3.1.1        CSF cohort
+
+2.6.4       CKD cohort                                                       The CSF cohort included 257 individuals with a mean age at sampling
+                                                                             of 63.3 years (SD 7.3 years); 153 (59.5%) were male; 159 (61.9%) were
+Lumipulse plasma p-tau217 data for each CKD stage 1 through 4 was            AD status positive, defined as CSF Lumipulse Aβ42 /Aβ40 ratio ≤ 0.065
+plotted against AD and non-AD plasma p-tau217 values and statisti-           only; 112 (43.6%) identified their ethnicity as White, 18 (7.0%) as Black,
+cal significance of the difference in values between the AD group and        5 (2.0%) as Asian, 5 (2.0%) as other, and 117 (45.5%) did not have their
+the non-AD group and the non-AD group and each CKD group was                 ethnicity specified in medical records. Serum creatinine was available
+tested using a Wilcoxon signed-rank test. Pooling the samples from the       from the medical records within ± 6 months of plasma sampling from
+CSF and CKD cohorts, multiple linear regression models were used to          62 participants (24.1%), in whom median serum creatinine was 74 (IQR
+assess associations of serum creatinine or CKD stage and BMI with            63–87) µmol/L and CKD stages are detailed in Table 1. BMI data were
+log-transformed p-tau217, adjusted for age, sex, and cohort.                 available from 151 participants (58.8%), in whom median BMI was 25.8
+                                                                             (IQR 22.8–29.1). Most recent clinical diagnosis data were available for
+                                                                             all participants and was categorized into AD and mixed AD pathol-
+2.6.5       Pre-analytical handling experiments                              ogy, and other non-AD categories detailed in Table 1. MMSE data were
+                                                                             available for 79.6% of patients who had an AD or mixed AD diagno-
+P-tau217 data were expressed as a relative (percentage) change com-          sis, and these were used to categorize these individuals further as MCI
+pared to the base condition in each experiment. Friedman tests were          (10.9%), mild AD (33.6%), and moderate/severe AD (34.0%).
+used as a non-parametric one-way repeated-measures method to
+assess the null hypothesis that there was no between-group differ-
+ence in the distribution of relative p-tau217 levels across pre-analytical   3.1.2        Amyloid PET cohort
+handling conditions. Analyses were conducted in Python 3.6 on the
+Jupyter Notebook platform using the scipy and scikit_posthocs mod-           The amyloid PET cohort included 76 individuals with a mean age at PET
+ules for statistical analysis and custom-written code. Where the             scan of 68.3 years (SD 8.6 years); 34 (44.7%) were male; 48 (63.2%)
+null hypothesis was rejected at α = 0.05, we proceeded with a                were amyloid PET visual read positive, with brain amyloid plaque load
+Nemenyi post hoc test to identify the experimental groups contribut-         scores of none (1) in 28 (36.8%), mild (2) in 9 (11.8%), and signifi-
+ing to the between-group differences. Further, we chose a ± 10%              cant (3) in 39 (51.3%) participants. Ethnicity was identified as White
+change from baseline condition as a likely clinically significant change     in 27 individuals (35.5%), Black 1 (1.3%), Asian 11 (14.5%), other 7
+in relative p-tau217 levels, similar to previous publications.33–35          (9.2%), and 30 individuals (39.5%) did not have their ethnicity specified
+Individual-level CVs in the relative changes of plasma p-tau217 com-         in medical records. Serum creatinine was available from the medical
+pared to the base condition were calculated as the SD of each                records within ± 1 year of plasma sampling in 46 participants (60.5%)
+subject’s relative p-tau217 fluctuations (excluding the base condition)      in whom median serum creatinine was 73 (64–86) µmol/L and CKD
+divided by the mean (excluding the base condition); individual-level         stages are detailed in Table 1. Most recent clinical diagnosis data were
+CVs were plotted against absolute base p-tau217 levels to examine            available for all participants and was categorized into AD and other
+the relationship between p-tau217 levels and the relative variabil-          non-AD categories detailed in Table 1. Of the 46 participants who had
+ity of p-tau217 measurements across pre-analytical handling con-             an AD or mixed AD diagnosis, 71% had available MMSE or ACE-III
+ditions. Data were presented as median ± IQR, unless otherwise               data to inform clinical severity categorization as MCI (26.1%), mild AD
+stated.                                                                      dementia (26.1%), or moderate/severe AD dementia (19.6%).
+8 of 18                                                                                                                          KESHAVAN ET AL .
+
+
+TA B L E 1     Participant demographic characteristics for the CSF and amyloid PET cohorts.
+
+ Variable                                                                                 CSF cohort, n = 257   Amyloid PET cohort, n = 76
+ Age at sampling (years), mean (SD)                                                       63.3 (7.3)            68.3 (8.6)
+ Sex (male), n (%)                                                                        153 (59.5)            34 (44.7)
+ Lumipulse plasma p-tau217 (pg/mL) median (IQR)                                           0.358 (0.120–0.852)   0.323 (0.171–0.661)
+ ALZpath plasma p-tau217 (pg/mL) median (IQR)                                             0.542 (0.222–1.066)   0.733 (0.351–1.163)
+ AD status positive, defined as Lumipulse CSF Aβ42/ Aβ40 ratio ≤ 0.065, n (%)             159 (61.9)            -
+ AD status positive, defined as Lumipulse CSF Aβ42/ Aβ40 ratio ≤ 0.065 AND                130 (50.6)            -
+ p-tau181 ≥ 57pg/mL, n (%)
+ AD status positive, defined as most recent clinical diagnosis (informed by CSF), n (%)   138 (53.1)            -
+ AD status positive, defined according to Palmqvist et al. Malmö cohort (Lumipulse        161 (62.7)
+ CSF Aβ42 /p-tau181 ratio < 11.94), n (%)
+ AD status positive, defined according to FDA (Lumipulse CSF Aβ42/ Aβ40                   170 (66.1)
+ ratio < 0.073), n (%)
+ AD status positive defined as Amyloid PET visual read, n (%)                             -                     48 (63.2)
+ Brain amyloid plaque load score, n (%)
+ none (1)                                                                                 -                     28 (36.8)
+ mild (2)                                                                                 -                     9 (11.8)
+ significant (3)                                                                          -                     39 (51.3)
+ Ethnicity, n (%)
+ White                                                                                    112 (43.6)            27 (35.5)
+ Black                                                                                    18 (7.0)              1 (1.3)
+ Asian                                                                                    5 (2.0)               11 (14.5)
+ Other                                                                                    5 (2.0)               7 (9.2)
+ Not stated/known                                                                         117 (45.5)            30 (39.5)
+ Serum creatinine (µmol/L), median (IQR)                                                  74 (63–87)            73 (64–86)
+                                                                                          n = 62 (24.1%)        n = 46 (60.5%)
+ CKD stage and eGFR, n (%)
+ G1, eGFR ≥ 90                                                                            35 (13.6)             22 (29.0)
+ G2, eGFR 60–89                                                                           24 (9.3)              23 (30.3)
+ G3a, eGFR 45–59                                                                          1 (0.4)               1 (1.3)
+ G3b, eGFR 30–44                                                                          2 (0.8)               0 (0)
+ Not known                                                                                195 (75.9)            30 (39.5)
+ BMI: median (IQR)                                                                        25.8 (22.8–29.1)      NA
+                                                                                          n = 151 (58.8%)
+ Most recent clinical diagnosis, n (%)
+ AD or mixed AD pathology                                                                 137 (53.3)            46 (60.5)
+ FTD                                                                                      28 (10.9)             5 (6.6)
+ Vascular cognitive impairment                                                            2 (0.8)               3 (3.9)
+ Lewy body disease                                                                        6 (2.3)               1 (1.3)
+ Other organic neurodegenerative diseases                                                 15 (5.8)              5 (6.6)
+ Other organic neurological diseases (non-degenerative)                                   15 (5.8)              2 (2.6)
+ Subjective cognitive decline with non-AD-like CSF                                        40 (15.6)             -
+ Subjective cognitive decline with negative amyloid PET                                   -                     12 (15.8)
+ Other neurodegeneration with low CSF Aβ42 /Aβ40 but normal p-tau181 / positive           7 (2.7)               -
+ amyloid PET
+ Subjective cognitive decline with low CSF Aβ42 /Aβ40 but normal p-tau181 / positive      7 (2.7)               -
+ amyloid PET
+ Subjective cognitive decline with positive amyloid PET                                   -                     2 (2.6)
+
+                                                                                                                                    (Continues)
+KESHAVAN ET AL .                                                                                                                                 9 of 18
+
+
+TA B L E 1      (Continued)
+
+ Variable                                                                                  CSF cohort, n = 257          Amyloid PET cohort, n = 76
+ Clinical severity categorization in the AD and mixed AD pathology group, CSF cohort,
+ n (%)
+ MCI-AD (MMSE 27–30)                                                                       15 (10.9)                    -
+ Mild AD dementia (MMSE 21–26)                                                             46 (33.6)                    -
+ Moderate/severe AD dementia (MMSE ≤20)                                                    48 (34.0)                    -
+ MMSE not available within ± 6 months of blood sample                                      28 (20.4)                    -
+ Clinical severity categorization in the AD and mixed AD pathology group, amyloid
+ PET cohort, n (%)
+ MCI-AD (MMSE 27–30 or ACE-III) 76–100                                                     -                            12 (26.1)
+ Mild AD dementia (MMSE 21–26 or ACE-III 59–75)                                            -                            12 (26.1)
+ Moderate/severe AD dementia (MMSE ≤20 or ACE-III ≤58)                                     -                            9 (19.6)
+ MMSE or ACE-III not available within 1 year of blood sample                               -                            13 (28.2)
+
+Abbreviations: Aβ, amyloid beta; ACE-III, Addenbrooke’s cognitive examination version III; AD, Alzheimer’s disease; BMI, body mass index; CKD, chronic
+kidney disease; CSF, cerebrospinal fluid; eGFR, estimated glomerular filtration rate in ml/min/1.73m2 ; FDA, US Food and Drug Administration; FTD, fron-
+totemporal dementia; IQR, interquartile range; MCI, mild cognitive impairment; MMSE, Mini-Mental State Examination; NA, not available; PET, positron
+emission tomography; p-tau, phosphorylated tau; SD, standard deviation.
+
+
+3.1.3        CKD cohort                                                       3.2.2         Amyloid PET cohort
+
+The CKD cohort included 58 individuals below the age of 60 years,             Plasma p-tau217 measurements correlated well between the
+with a mean age at sampling of 44.4 years (SD 8.5 years); 32 (55.2%)          Lumipulse and ALZpath assays (rho 0.84, P < 0.001; Figure S1B).
+were male; 27 (46.5%) identified their ethnicity as White, 3 (5.2%)                 Evaluating p-tau217 measurements according to AD status (non-
+as Black, 3 (5.2%) as Asian, 6 (10.4%) as other, and 19 (32.8%) did           AD or AD) classified by amyloid PET visual read, the median fold-
+not have their ethnicity specified in medical records. Numbers of par-        change increase in Lumipulse p-tau217 between non-AD and AD
+ticipants in each CKD stage 1 through 4 were CKD-1: 11 (19.0%),               participants was 3.9 (Figure S3A in supporting information). Using the
+CKD-2: 15 (25.9%), CKD-3a: 16 (27.6%), CKD-3b: 9 (15.5%), and CKD-            ALZpath assay, the median fold-change increase in p-tau217 between
+4: 7 (12.1%). BMI data were available from 40 participants (69.0%), in        non-AD and AD participants was 3.2 (Figure S3B).
+whom median BMI was 25.0 (IQR 24.0–28.8; Table S1 in supporting
+information).
+                                                                              3.3    Comparison of AD status classification by
+                                                                              p-tau217 assays
+3.2   Plasma p-tau217 assay performance
+comparison                                                                    3.3.1         CSF cohort
+
+3.2.1        CSF cohort                                                       In the CSF cohort, ROC analysis for prediction of AD status based on
+                                                                              the CSF “amyloid only” definition, using only age and sex as the predic-
+Lumipulse and ALZpath p-tau217 assay measurements were highly                 tors, gave an AUC of 0.673 (95% CI 0.605–0.741). Lumipulse p-tau217
+correlated (rho 0.86, P < 0.001; Figure S1A in supporting information).       on its own gave an AUC of 0.947 (95% CI 0.919–0.974, DeLong test
+   Using the Lumipulse assay AD classification using the CSF “amyloid         P < 0.0001 compared to model including age and sex alone). A com-
+only” definition, the median fold-change increase in p-tau217 between         bined model including age, sex, and Lumipulse p-tau217 gave an AUC
+non-AD and AD participants was 6.7 (Figure S2A in supporting infor-           of 0.950 (95% CI 0.925–0.974, not significantly different to Lumipulse
+mation). Using the ALZpath assay, with AD classification using the CSF        p-tau217 alone). ALZpath p-tau217 on its own gave an AUC of 0.940
+“amyloid only” definition, there was a median fold-change increase in         (95% CI 0.914–0.967, DeLong test P < 0.0001 compared to model
+p-tau217 between non-AD and AD participants of 4.2 (Figure S2B).              including age and sex alone). A combined model including age, sex, and
+Median fold-changes were similar within each assay when using the             ALZpath p-tau217 gave an AUC of 0.946 (95% CI 0.921–0.970, not sig-
+CSF “amyloid and p-tau” definition (Figure S2C,D) or the “clinical AD         nificantly different to ALZpath p-tau217 alone; Table 2). In individuals
+status” definition (Figure S2E,F).                                            with age, sex, serum creatinine, and BMI data available (n = 40), adding
+10 of 18                                                                                                                                      KESHAVAN ET AL .
+
+
+TA B L E 2    ROC analyses: areas under the curve with adjustments for covariates for the CSF and amyloid PET cohorts.
+
+                                        CSF cohort, n = 257                                            Amyloid PET cohort, n = 76
+ Model                                  AUC           Lower 95% CI            Upper 95% CI             AUC            Lower 95% CI           Upper 95% CI
+                                        AD status defined by CSF Aβ42 /Aβ40 only                       AD status defined by amyloid PET visual read
+ Age + sex                              0.673         0.605                   0.741                    0.547          0.409                  0.686
+ Lumipulse p-tau217                     0.947a        0.919                   0.974                    0.879          0.778                  0.980
+                                                a
+ ALZpath p-tau217                       0.940         0.914                   0.967                    0.880          0.786                  0.973
+ Age + sex + Lumipulse p-tau217         0.950a        0.925                   0.974                    0.877          0.775                  0.978
+ Age + sex + ALZpath p-tau217           0.946   a
+                                                      0.921                   0.970                    0.887          0.796                  0.978
+
+Abbreviations: Aβ, amyloid beta; AD, Alzheimer’s disease; AUC, area under the receiver operating characteristic curve; CI, confidence interval; CSF,
+cerebrospinal fluid; PET, positron emission tomography; p-tau, phosphorylated tau; ROC, receiver operating characteristic.
+a
+  P < 0.001 (DeLong test) relative to model including age and sex alone.
+
+
+
+
+these covariates to the plasma p-tau217 models did not alter the result            percentage to achieve < 20% of individuals in the intermediate zone
+(Table S2 in supporting information).                                              and > 90% sensitivity and specificity.36
+   Using the varied AD status definitions for the CSF cohort detailed in
+section 2.1.1, overall the AUCs remained numerically slightly larger for
+the Lumipulse than the ALZpath assay (by ≈ 2%) but the differences in              3.4.1        CSF cohort
+AUC were not statistically significant (De Long test > 0.05 for pairwise
+post hoc comparisons); adding age and sex as covariates again did not              When AD status was classified using the CSF amyloid only definition,
+significantly improve the AUC (Table S3 in supporting information).                using the Lumipulse p-tau217 assay, the cut-points at 95% sensitiv-
+                                                                                   ity and 95% specificity were 0.150 and 0.380 pg/mL. The percentage
+                                                                                   of individuals in the intermediate zone between these cut-points was
+3.3.2        Amyloid PET cohort                                                    18.7% (Table S5 in supporting information). Within this cohort the NPV
+                                                                                   of the lower cut-point was 90.2% (95% CI 81.7–95.7) and the PPV of
+In the amyloid PET cohort, ROC analysis for prediction of AD sta-                  the upper cut-point was 96.1% (95% CI 91.1–98.7), achieving an overall
+tus based on amyloid PET visual read, using only age and sex as the                accuracy of the test for individuals receiving a definitive classification
+predictors, gave an AUC of 0.547 (95% CI 0.409–0.686). Lumipulse                   of low (non-AD) or high (AD) p-tau217 of 93.8% (Table S6 in support-
+p-tau217 on its own gave an AUC of 0.879 (95% CI 0.778–0.980,                      ing information). To further optimize the cut-points, we investigated
+DeLong test P < 0.0001 compared to a model including age and sex                   options that fixed the sensitivity at 95% and increased the specificity
+alone). A combined model including age, sex, and Lumipulse p-tau217                while keeping the proportion in the intermediate zone at < 20%. The
+gave an AUC of 0.877 (95% CI 0.775–0.978, not significantly differ-                optimal cut-point pair was 0.153 and 0.422 pg/mL (97% specificity),
+ent compared to AUC from model including Lumipulse p-tau217 alone);                which gave 19.4% of individuals in the intermediate zone, an NPV of
+further including serum creatinine (n = 46) did not alter the result               90.4% (95% CI 80.6–95.0) and a PPV of 97.6% (95% CI 93.2–99.5), with
+(AUC 0.837, 95% CI 0.703–0.972). ALZpath p-tau217 assay on its                     an overall accuracy for individuals receiving a definitive classification of
+own gave an AUC of 0.880 (95% CI 0.786–0.973). A combined model                    low (non-AD) or high (AD) p-tau217 of 94.7% (Table 3).
+using age, sex, and ALZpath p-tau217 gave an AUC of 0.887 (95% CI                     Using the ALZpath p-tau217 assay, the cut-points at 95% sensitiv-
+0.796–0.978, not significantly different compared to AUC from model                ity and 95% specificity were 0.220 and 0.486 pg/mL, the percentage
+including ALZpath p-tau217 alone; Table 2); further including serum                of individuals in the intermediate zone between these cut-points was
+creatinine did not alter the result (AUC 0.864, 95% CI 0.751–0.976).               23.4%, NPV of the lower cut-point was 87.1% (95% CI 76.2–94.3), the
+No statistically significant differences were identified between AD sta-           PPV of the upper cut-point was 96.3% (95% CI 91.6–98.8), and overall
+tus prediction models when adding age, sex, or serum creatinine to the             accuracy of the test for individuals receiving a definitive classification
+plasma p-tau217 assay models (Table S4 in supporting information).                 of low (non-AD) or high (AD) p-tau217 was 93.4% (Table 3).
+                                                                                      Within-CSF cohort cut-points at varied levels of sensitivity and
+                                                                                   specificity, and related percentage in the intermediate zone, were also
+3.4        Derivation of clinical cut-points for p-tau217                          calculated compared to AD status classified using the CSF “amyloid
+                                                                                   and p-tau” definition, and the “clinical AD status” definition. Both these
+A dual cut-point approach was used and varied levels of sensitivity and            definitions gave wider intermediate zones overall than the cut-points
+specificity were applied to the data to determine p-tau217 cut-points              derived using the “CSF amyloid only definition” (Table S5) but the NPV,
+to be used clinically at the optimal highest sensitivity and specificity           PPV, and accuracy for both assays remained >e 90% when using the
+KESHAVAN ET AL .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        11 of 18
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         respective 95% sensitivity and 95% specificity cut-points (Table S6).
+
+
+
+
+         Performance of 95% sensitivity and maximized specificity cut-points in the CSF derivation cohort (AD status defined by CSF amyloid only definition) and amyloid PET validation cohort.
+                                                                                                                                                                                                                                           Accuracy
+                                                                                                                                                                                                                                           of test
+                                                                                                                                                                                                                                           for individuals                                                                                                                                                                                                               Cut-points calculated using the “Malmö cohort definition” performed
+                                                                                                                                                                                                                                           receiving
+                                                                                                                                                                                                                                           a definite                                                                                                                                                                                                                    better for Lumipulse with smaller intermediate percentage, and similar
+                                                                                                                                                                                                                                           classification
+                                                                                                                                                                                                                                                                                90.0           87.5
+                                                                                                                                                                                                                                           of low                                                                                                                                                                                                                        NPV, PPV, and accuracy to the “amyloid only” definition, but worse for
+                                                                                                                                                                                                                                           or high
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ALZpath with larger intermediate percentage, and lower NPV than the
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         “amyloid only definition.” Cut-points calculated using the “FDA defini-
+                                                                                                                                                                                                                                                                                90.6           87.8
+                                                                                                                                                                                                                                                  Positive
+                                                                                                                                                                                                                                                  predictive
+                                                                                                                                                                                                                                                  value of                                                                                                                                                                                                               tion” gave wider intermediate zones for both assays than the respective
+                                                                                                                                                                                                                                                  upper
+
+
+
+
+                                                                                                                                                                                                  Amyloid PET cohort (validation) n = 76
+                                                                                                                                                                                                                                                                                (75.0–98.0)    (75.2–95.4)
+                                                                                                                                                                                                                                                  cut-point                                                                                                                                                                                                              cut-points derived using the “CSF amyloid only definition,” and lower
+                                                                                                                                                                                                                                                  (95% CI)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         NPV but similar PPV and accuracy than the “amyloid only definition”
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (Tables S5 and S6). Confusion matrices showing the numbers of par-
+
+                                                                                                                                                                                                                                                                                88.9           85.7
+                                                                                                                                                                                                                                                  Negative                                                                                                                                                                                                               ticipants in the categories True CSF Positive and True CSF Negative,
+                                                                                                                                                                                                                                                  predictive
+                                                                                                                                                                                                                                                  value of                                                                                                                                                                                                               according to plasma categorizations of low, indeterminate, and high
+                                                                                                                                                                                                                                                  lower
+                                                                                                                                                                                                                                                  cut-point
+                                                                                                                                                                                                                                                  (95% CI)                      (65.3– 98.6)   (42.1– 99.6)                                                                                                                                                              p-tau217 using the 95% sensitivity and 95% specificity cut-points for
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         both assays, showed that for the Lumipulse assay, those in the indeter-
+                                                                                                                                                                                                                                           Accuracy
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         minate plasma p-tau217 category were overall still more likely to be
+                                                                                                                                                                                                                                           of test
+
+
+
+
+                                                                                                                                                                                                                                                                                                              Abbreviations: AD, Alzheimer’s disease; CI, confidence interval; CSF, cerebrospinal fluid; PET, positron emission tomography; p-tau, phosphorylated tau.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         true CSF positive according to most definitions excepting the “FDA def-
+                                                                                                                                                                                                                                           for individuals
+                                                                                                                                                                                                                                           receiving                            34.2           26.3                                                                                                                                                                      inition,” whereas for the ALZpath assay the distribution depended on
+
+                                                                                                                                                                                                                                           a definite                                                                                                                                                                                                                    the particular CSF reference used (Table S7 in supporting information).
+                                                                                                                                                                                                                                           classification % in                                                                                                                                                                                                              We did a further sensitivity analysis to examine whether externally
+                                                                                                                                                                                                                                           of low          Intermediate                                                                                                                                                                                                  validated 95% sensitivity and 95% specificity cut-points of 0.22 and
+                                                                                                                                                                                                                                           or high         zone                 94.7           93.4                                                                                                                                                                      0.34 pg/mL for the Lumipulse assay from the Malmö cohort would
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         perform comparably to our own within-CSF cohort derived cut-points
+                                                                                                                                                                                                                                                                                97.6           96.3
+                                                                                                                                                                                                                                                  Positive                                                                                                                                                                                                               when applied using the same CSF definitions. First, using the Malmö
+                                                                                                                                                                                                                                                  predictive
+                                                                                                                                                                                                                                                  value of
+                                                                                                                                                                                                                                                  upper                                                                                                                                                                                                                  CSF definition on which these external cut-points were based, although
+                                                                                                                                                                                                                                                                                (93.2–99.5)    (91.6–98.8)
+                                                                                                                                                                                                                                                  cut-point
+                                                                                                                                                                                                                                                  (95% CI)                                                                                                                                                                                                               the external cut-points gave a lower intermediate percentage of 9.7%
+
+
+
+
+                                                                                                                                                                                                  CSF cohort (derivation) n = 257
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         compared to 15.6% from the within-CSF cohort derived cut-points,
+                                                                                                                                                                                                                                                               Negative         90.4           87.1                                                                                                                                                                      the sensitivity of the external lower cut-point was lower (91.4% vs.
+                                                                                                                                                                                                                                                               predictive                                                                                                                                                                                                95%) and correspondingly the NPV was lower (87.1% vs. 90.5%) at
+                                                                                                                                                                                                                                                                                (80.6–95.0)    (76.2–94.3)                                                                                                                                                               62.7% prevalence of AD pathology. Sensitivity and NPV were also
+                                                                                                                                                                                                                                                               value of
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         lower when using the Malmö cohort cut-points against either the “amy-
+                                                                                                                                                                                                                                                               lower
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         loid only” or “FDA” definitions (both of which are based on Lumipulse
+                                                                                                                                                                                                                                                  Intermediate cut-point
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         CSF Aβ42 /Aβ40 ratio only) but specificity and PPV were lower when
+                                                                                                                                                                                                                                                  zone %       (95% CI)         19.4           23.4                                                                                                                                                                      using the Malmö cut-points and comparing against the “amyloid and p-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         tau” and “clinical AD status” definitions; accuracy was reduced across
+
+                                                                                                                                                                                                                                                                  Upper                                                                                                                                                                                                  all definitions using the Malmö cut-points (88.8%–91.5%) compared
+
+                                                                                                                                                                                                                                                                                0.422          0.486
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         to the accuracy afforded by the within-cohort derived cut-points
+                                                                                                                                                                                                                                                                  cut-point
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (93.3%–94.0%).
+
+
+                                                                                                                                                                                                                                                                  Lower
+
+                                                                                                                                                                                                                                                                                0.153          0.220
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         3.4.2       Amyloid PET cohort
+                                                                                                                                                                                                                                                                  cut-point
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         To validate the optimal p-tau217 cut-points determined from the CSF
+                                                                                                                                                                                                                                                                  Specificity                                                                                                                                                                                            cohort (95% sensitivity and 97% specificity cut-points of 0.153 pg/mL
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         and 0.422 pg/mL), we next applied these cut-points to the amyloid
+                                                                                                                                                                                                                                                                  %             97.0           95.0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         PET cohort, the resulting percentage of individuals in the intermedi-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ate zone was 34.2%, the NPV of the lower cut-point was 88.9% (95%
+                                                                                                                                                                                                                                                                  Sensitivity                                                                                                                                                                                            CI 65.3–98.6), and the PPV of the upper cut-point was 90.6% (95%
+
+                                                                                                                                                                                                                                                                  %             95.0           95.0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         CI 75.0–98.0), achieving an overall accuracy of the test for individu-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         als receiving a definitive classification of low (non-AD) or high (AD)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         p-tau217 of 90.0%. The CSF cohort cut-points and related metrics for
+
+
+                                                                                                                                                                                                                                                                                Lumipulse
+                                                                                                                                                                                                                                                              Plasma
+
+        TA B L E 3                                                                                                                                                                                                                                                                             ALZpath
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         both the Lumipulse and ALZpath assays applied to the amyloid PET
+                                                                                                                                                                                                                                                              p-tau217
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         cohort are detailed in Table 3.
+                                                                                                                                                                                                                                                              assay
+12 of 18                                                                                                                              KESHAVAN ET AL .
+
+
+   Within-cohort derivation of cut-points and related metrics for the       and 24 hours in 2 to 8◦ C compared to the samples stored for 2 weeks at
+amyloid PET cohort was also undertaken (Table S8 in supporting infor-       −20◦ C (median relative change at 4 hours, 2–8◦ C = 0.96; at 24 hours,
+mation) and this gave larger proportions within the intermediate zones      2–8◦ C = 0.94; at 2 weeks, −20◦ C = 1.04, Table S10). This finding indi-
+(of 73.7% for Lumipulse and 43.4% for ALZpath assays using the within-      cates that, using the Lumipulse assay, a transient subtle reduction of ≈
+cohort 95% sensitivity and 95% specificity cut-points for each assay        5% in p-tau217 level was seen when post-centrifugation samples were
+respectively). In comparison, when either CSF-cohort derived cut-           kept in the fridge between 4 to 24 hours, which could be mitigated by
+points or those from Figdore et al. were applied, the intermediate zone     storing at −20◦ C instead, for up to 2 weeks.
+was 22.4% to 32.9% for Lumipulse and 26.3% to 35.5% for ALZpath,               Using the ALZpath assay, Experiment 1 (pre-centrifugation delays
+but there was a reduction in specificity (Table S9 in supporting informa-   of samples in room temperature, Figure 2A) led to subtle but statisti-
+tion). Confusion matrices showed that the majority of individuals with      cally significant reductions in relative p-tau217 levels (median relative
+indeterminate Lumipulse p-tau217 results were amyloid PET positive          level at 1 hour = 0.92, Friedman test P = 0.007). Post hoc test-
+regardless of the cut-points used (Table S10 in supporting informa-         ing revealed that this difference occurred between 1 and 3 hours of
+tion); the same was true for ALZpath p-tau217 excepting when the CSF        pre-centrifugation delay (Table S10). No difference existed between
+cohort’s 95% sensitivity and 95% specificity cut-points were used.          the base condition and 3 hour time point, indicating normalization
+                                                                            of plasma p-tau217 levels with longer pre-centrifugation delays at
+                                                                            room temperature. Plasma p-tau217 using the ALZpath assay was also
+3.5    Effects of renal function impairment on                              robust to pre-analytical handling in Experiments 2, 3, and 4 (Table S12).
+plasma p-tau217                                                                Across all four experiments, the median relative change across con-
+                                                                            ditions did not exceed the ± 10% threshold considered likely to be
+To assess the effects of impaired renal function on plasma p-tau217         clinically significant (Figure 2). We noted individual-level variability in
+measurements, we analyzed plasma from a cohort of 58 cognitively            relative p-tau217 changes (for example, one outlier in the Lumipulse
+normal (CN) patients at CKD stages 1 through 4 using the Lumipulse          assay at the 1 hour time point in Experiment 1) which could not be
+p-tau217 assay. We applied the cut-points from the CSF cohort (0.153        explained by a low absolute p-tau217 level (Table S12).
+and 0.422 pg/mL), and compared the CN-CKD samples to the CSF
+cohort samples classified as AD and non-AD. Three (i.e., 5.1%) of the
+CN-CKD stage 1 through 4 samples tested above the upper cut-point           3.7     Lumipulse plasma p-tau217 assay lot-to-lot
+of 0.422pg/mL and 25 samples (i.e., 43.1%) tested in the intermedi-         variability
+ate zone between 0.153 and 0.422 pg/mL. The median (IQR) p-tau217
+concentrations were as follows: for the AD samples 0.727 (0.437–            A comparison of plasma p-tau217 measurements from four kit lots
+1.068) pg/mL, non-AD samples 0.108 (0.061) pg/mL (P value < 0.001           of the Lumipulse plasma p-tau217 assay kits (Fujirebio) (two version
+compared to AD), CKD-1 0.119 (0.082–0.190) pg/mL, CKD-2 0.134               1 lots: 4128 and 5066; two version 2 lots 5084 and 5086) was car-
+(0.106–0.205) pg/mL, CKD-3a 0.164 (0.132–0.218) pg/mL, CKD-3b               ried out to assess lot-to-lot variability in measurements in a subset
+0.208 (0.136–0.257) pg/mL, and CKD-4 0.213 (0.145–0.261) pg/mL              (n = 30) of samples from the CSF cohort. We reported strong cor-
+(Figure 1A), also shown in log10 scale for easier interpretation of group   relations (rho > 0.95) in plasma p-tau217 measurements across kit
+differences (Figure 1B). There was no statistically significant associa-    lots, with the Passing–Bablok regression lines not consistently signif-
+tion between p-tau217 and CN-CKD (either as an ordinal or as a binary       icantly different from the lines of identity when all four kit lots were
+for CKD-3a and above) after adjustment for age, sex, or BMI where           compared pairwise (Figure S4 in supporting information). Three out of
+data were available (Table S11 in supporting information).                  30 individuals had discordant classifications across lots relative to the
+                                                                            established dual cut-points; discordances did not occur due to the same
+                                                                            kit lot. Two of these were re-classifications across the lower cut-point
+3.6        Pre-analytical variation                                         and one was across the upper cut-point.
+
+
+Four experiments assessing the effects of varied pre-analytical sam-
+pling conditions on relative plasma p-tau217 concentrations were            3.8   Plasma sample transport temperature
+undertaken using both the Lumipulse and ALZpath assays. For the             comparison
+Lumipulse assay, Experiments 1 (pre-centrifugation delay at room tem-
+perature, Figure 2A), 2 (pre-centrifugation delay at 2–8◦ C, Figure 2B)     In a small set of 10 samples collected from the ongoing amyloid PET
+and 4 (number of freeze–thaw cycles, Figure 2D) did not yield statis-       cohort, an excellent correlation was observed between Lumipulse p-
+tically significant differences (P > 0.05, Table S10) between groups.       tau217 measurements from samples stored and transported at −20◦ C
+In Experiment 3 (post-centrifugation delay, Figure 2C), a significant       and −80◦ C (rho = 0.998) and there was no systematic bias between
+difference was observed between post-centrifugation delay groups            measurements obtained after the two different transport conditions
+(P = 0.0047, Table S12 in supporting information), which post hoc test-     were applied (Figure S5 in supporting information), indicating that
+ing revealed to be between the post-centrifuged samples stored at 4         intermediate storage at −20◦ C and transport in a Bio-Freeze device at
+KESHAVAN ET AL .                                                                                                                            13 of 18
+
+
+
+
+F I G U R E 1 Lumipulse plasma p-tau217 measurements, on (A) a linear scale and (B) a log10 scale, in renal function impairment samples (from
+the CN-CKD cohort including samples at CKD stage 1 [n = 11], stage 2 [n = 15], stage 3a [n = 16], stage 3b [n = 9], stage 4 [n = 7]) compared to AD
+and non-AD samples (from the CSF cohort with AD [n = 159], and non-AD [n = 98], box plots show median ± IQR; dotted lines represent the 0.153
+and 0.422 pg/mL p-tau217 cut-points derived from the CSF cohort, P < 0.001 **** using a Wilcoxon signed-rank test). AD, Alzheimer’s disease;
+CN-CKD, cognitively normal-chronic kidney disease; CSF, cerebrospinal fluid; IQR, interquartile range; p-tau, phosphorylated tau
+
+
+−20 to 0◦ C would allow for robust measurement of plasma p-tau217 in        fold-change compared to the ALZpath assay in both cohorts, and this
+the ADAPT stage 3 trial.                                                    is consistent with the reports of a recent plasma p-tau round-robin
+                                                                            study.6 The anti-p-tau217 capture antibodies used in these assays are
+                                                                            different (RD85 mAb for Lumipulse, proprietary mAb for ALZpath) and
+4       DISCUSSION                                                          the detector antibodies are also different (the Lumipulse detector anti-
+                                                                            body binds to mid-region tau and ALZpath detector antibody binds
+For stage 1 of the ADAPT study, we aimed to derive and validate             to N-terminal tau),37 so it is possible that different fragments of p-
+plasma p-tau217 cut-points for clinical use. We evaluated plasma p-         tau217 are measured by the two assays; furthermore, the detection
+tau217 measurements by two commercially available assays against            system and degree of automation are different across the Lumipulse
+two independent cohorts with different gold-standard biomarkers             and Simoa assay platforms, and this may impact the fold-change dif-
+used clinically for AD diagnosis (CSF AD biomarkers and amyloid PET).       ferences observed. These factors may also lead to the presence of a
+    Though measurements by the two assays correlated well within            systematic bias across measurements made by the two assays across
+each cohort, the Lumipulse assay performed better in terms of median        their analytical measurement ranges, as was observed by the 95%
+14 of 18                                                                                                                             KESHAVAN ET AL .
+
+
+
+
+F I G U R E 2 Relative change in concentration of plasma p-tau217 across pre-analytical sample handling conditions: (A) pre-centrifugation delay
+at RT, (B) pre-centrifugation delay at 2 to 8◦ C, (C) post-centrifugation delay, (D) number of freeze–thaw cycles, compared to the baseline condition
+using the ALZpath and Lumipulse assays (n = 10 per experiment, data presented as median ± IQR, dotted lines represent the lower and upper
+bounds of a 10% difference threshold from the baseline condition). IQR, interquartile range; p-tau, phosphorylated tau; RT, room temperature
+
+
+CIs for the regression lines for each cohort not overlapping the line        cases with borderline values,39,40 which could explain the lower con-
+of identity. While initial efforts to identify candidate reference mate-     cordance and larger percentage of results in the indeterminate range
+rials for p-tau217 that could be used to standardize measurements            in the amyloid PET cohort identified here, both compared to the CSF
+across assays were not successful,38 further efforts are underway by         cohort, and compared to the report published by Figdore et al.16 who
+the Alzheimer’s Association’s Global Biomarkers Standardization Con-         used a quantitative measure of amyloid PET to derive cut-points for
+sortium to address this issue by identifying both candidate reference        Lumipulse and ALZpath assays. It is also possible that despite having
+methods (which will ideally be antibody free) and develop certified          similar prevalence of AD pathology overall, the two cohorts had differ-
+reference materials against which these and other assays may be              ing degrees of amyloid and/or tau burden; in the amyloid PET cohort
+calibrated.                                                                  51.3% had significant amyloid burden and 11.8% had mild amyloid
+   While ROC analyses showed overall similar AUC for both assays             burden, but in the CSF cohort the degree of amyloid burden was not
+within each cohort, the Lumipulse assay was superior in terms of             known.
+giving a lower percentage of individuals with indeterminate results             Our dual cut-points derived from the CSF cohort and the related
+when applying 95% sensitivity and maximized specificity cut-points           performance metrics are comparable to other published plasma p-
+(0.153/0.422pg/mL). Of note, AUC were lower within the amyloid PET           tau217 cut-points. Arranz et al.5 achieved 95% sensitivity and 95%
+cohort, and applying the CSF cohort–derived cut-points for either            specificity with 19% in the indeterminate zone using cut-points at
+assay to the amyloid PET cohort resulted in the proportion of individ-       0.186 and 0.388 pg/mL for the Lumipulse p-tau217 plasma assay in a
+uals with indeterminate results exceeding 20%. Previous studies have         memory clinic lumbar puncture cohort with CSF definition of AD based
+suggested that there can be discordance between amyloid PET visual           on Lumipulse Aβ42 /Aβ40 ratio < 0.062 (which is similar to our own
+reads and quantitative measures in 5% to 14% of cases, particularly in       CSF Aβ42 /Aβ40 ratio definition of < 0.065). Palmqvist et al.25 derived
+KESHAVAN ET AL .                                                                                                                                 15 of 18
+
+
+Lumipulse plasma p-tau217 cut-points of 0.22 and 0.34 pg/mL for 95%           assay versions, rather than within the same assay version. This lot-to-
+sensitivity and 95% specificity for detecting Lumipulse CSF Aβ42/p-           lot stability is important for maintaining reliability of quantification of
+tau181 ratio < 11.94 (where the lower cut-point in our CSF cohort was         samples in a high throughput clinical service.
+0.239 pg/mL compared to AD status defined by CSF Aβ42/Aβ40 ratio                 This study has some limitations. First, both our derivation (CSF) and
+and p-tau181). Figdore et al.16 achieved 92% sensitivity and 96% speci-       validation (amyloid PET) cohorts consisted of symptomatic individuals
+ficity, with 20% in the indeterminate zone, using cut-points at 0.185         being evaluated for cognitive impairment in specialist memory ser-
+and 0.324 pg/mL in a combined population and memory clinic cohort             vices, so further validation work would be needed to assess the extent
+with amyloid PET definition of AD but notably in that study a quanti-         to which the cut-points derived in our study are transferable to other
+tative threshold of amyloid PET positivity of ≥ 25 Centiloids was used,       populations, such as in the future for primary care, or other intended
+and the tracer was 11 C Pittsburgh compound B (PiB), as opposed to in         uses, such as population-based screening. Second, ethnicity was not
+our study in which amyloid PET positivity was defined by visual reads         systematically recorded and patients from Black, Asian, and other eth-
+derived from 18 F-florbetaben PET scans.                                      nicities comprised 11% of the CSF cohort and 25% of the amyloid PET
+   Our investigation of pre-analytical sample handling factors showed         cohort. While inter-ethnic differences in plasma p-tau17 levels have
+that plasma p-tau217 measured by either the Lumipulse or ALZpath              been noted in other studies,44 the results are mixed, and there is no
+assays is stable across a range of pre-analytical handling variations,        clear indication that differing cut-points would be appropriate to apply
+with any small statistically significant differences in individual con-       based on ethnicity. Further research should be carried out with the
+ditions not exceeding 10% relative change. These findings align with          inclusion of larger numbers of patients from ethnically diverse back-
+and extend those of prior studies,33,41,42 including recently pub-            grounds, to determine any differences in the accuracy of using plasma
+lished Global Biomarker Standardization Consortium sample handling            p-tau217 to diagnose AD. Third, there was partial availability of data
+guidelines,43 showing p-tau217 stability under conditions such as             on participant comorbidities, and lack of availability of more detailed
+delayed centrifugation, refrigeration, and freeze–thaw cycles. Notably,       cognitive and functional measures than MMSE/ACE-III for clinical dis-
+we additionally found that p-tau217 remained stable when stored               ease severity staging in either of the CSF or amyloid PET cohorts. We
+post-centrifugation for up to 2 weeks at 2 to 8◦ C or −20◦ C (−20◦ C          found no significant effect of BMI on plasma p-tau217 measurements
+showed preferable higher stability), supporting its feasibility for use in    and AD status prediction; however, this may be due to our CSF deriva-
+remote settings. Further to this, we showed that post-centrifugation          tion cohort having a median BMI of 25.8 (upper end of healthy weight
+storage of plasma samples at −20◦ C for up to 2 weeks followed by             range/low end of overweight range) which was available from only 59%
+transport at −20 to 0◦ C in a Bio-Freeze device prior to placement            of the cohort (BMI data were not available from the amyloid PET val-
+in longer term −80◦ C storage before p-tau217 quantification main-            idation cohort); low plasma p-tau217 has been previously reported
+tained the stability of p-tau217 measurement compared to immediate            in patients with high BMI, due to higher blood volume,45,46 and our
+−80◦ C post-centrifugation storage and transport on dry ice. Based on         results therefore cannot be interpreted as refuting these previous find-
+these findings, our recommended sample handling protocol for plasma           ings. We also found no significant effect of serum creatinine on plasma
+p-tau217 would include:                                                       p-tau217, again possibly due to the median normal range serum creati-
+                                                                              nine (73–74 µmol/L) of our cohorts and the small sample size with this
+∙ Blood can be stored for up to 3 hours at room temperature or                data available (24% and 60%). We addressed this limitation by analyz-
+  24 hours refrigerated before centrifugation.                                ing plasma p-tau217 in a separate cohort of patients with ADPKD and
+∙ Plasma can be stored for up to 2 weeks frozen at −20◦ C (or                 CKD stages 1 through 4 aged < 60 years. This cohort did not have a ref-
+  refrigerated at 2–8◦ C if necessary).                                       erence standard amyloid biomarker (CSF or PET) but the background
+∙ Up to four freeze–thaw cycles prior to p-tau217 measurements are            prevalence of amyloid pathology was likely to be < 20% according to
+  acceptable.                                                                 age,32 and although we found that plasma p-tau217 was not frequently
+∙ Plasma can be transported at sub-zero temperature using a                   elevated in CKD to levels that could be mistaken with an AD diag-
+  temperature-controlled transport system (e.g., Bio-Freeze) without          nosis, ≥ CKD-3a was associated with elevation of plasma p-tau217
+  the need for dry ice.                                                       predominantly into the intermediate zone. We therefore advocate that
+                                                                              serum creatinine levels should be assessed for patients in whom plasma
+   The robustness of plasma p-tau217 measurement to these varia-              p-tau217 is being used as an adjunct to diagnosis, and extra caution
+tions indicates that it is suitable to apply in settings in which immediate   should be taken when interpreting plasma p-tau217 results in patients
+long-term storage at −80◦ C is not available, and therefore may allow         with ≤ CKD-3a (eGFR < 60) as they may cross into the intermediate
+for its use to be extended to settings in which currently CSF testing         zone.47,48
+(which requires more stringent sample handling due to susceptibility             Recently the US FDA approved the Lumipulse G p-tau217/Aβ42
+of amyloid peptides to pre-analytical variation) is not available.            ratio as a plasma test to aid in AD diagnosis in symptomatic patients
+   Our investigation of variation in the Lumipulse assay measurements         aged ≥ 55 years. We did not test plasma Aβ42 in the ADAPT stage
+by kit lots showed that variations between kit lots were very small and       1 study as the literature at the time of study design was in support
+not consistently statistically significant, and that these variations were    of using p-tau217 as a single biomarker in this context. Subsequent
+similar or even slightly lower comparing kit lots from two different          new data indicate that incorporating plasma Aβ42 in a ratio with p-
+16 of 18                                                                                                                               KESHAVAN ET AL .
+
+
+tau217 does not substantially change the percentage of individuals           Liam O’Donohue, and Miles Chapman at the Neuroimmunology and
+with indeterminate results relative to using plasma p-tau217 as a sin-       CSF laboratory. The ADAPT study is funded by the Blood Biomarker
+gle biomarker.49 Although there is no FDA-approved cut-point for             Challenge grant ARUK-BBC2023-002 (funding partners Alzheimer’s
+Lumipulse p-tau217 as a single biomarker, the susceptibility of plasma       Society, Alzheimer’s Research UK, Postcode Innovation Trust, Peo-
+Aβ42 to pre-analytical handling variation35,50 may also make the p-          ple’s Postcode Lottery, the National Institute for Health and Social
+tau217/Aβ42 ratio more difficult to apply in clinical routine, hence         Care Research). A.K., M.H., M.P.L., N.C.F., H.Z. and J.M.S. acknowl-
+we have implemented the Lumipulse p-tau217 assay in our clinical             edge the support of the UCLH NIHR Biomedical Research Centre.
+laboratory on its own rather than using this ratio.                          The Fluid Biomarker Laboratory at UCL is supported by the UK
+   In conclusion, here we present cut-points (0.153/0.422 pg/mL),            Dementia Research Institute (UKDRI-1003) and the National Institute
+derived against CSF amyloid status classification and validated against      for Health and Care Research University College London Hospitals
+amyloid PET, to be used within the context of specialist memory              Biomedical Research Centre. The National Brain Appeal and the UCLH
+clinic settings for the interpretation of Lumipulse (Fujirebio) plasma p-    Charity funded the acquisition of the Simoa HD-X platform by the
+tau217 results in individuals being evaluated for cognitive impairment.      Neuroimmunology and CSF laboratory.
+The Lumipulse (Fujirebio) plasma p-tau217 assay consistently showed
+higher performance than the ALZpath (Quanterix) assay when using a           CONFLICT OF INTEREST STATEMENT
+dual cut-point interpretation, in terms of having both higher median         A.K. has received consulting fees from Eli Lilly Ltd and is an executive
+fold-change between AD and non-AD groups, and lower proportion               committee member for the Biofluid Biomarkers Professional Interest
+of cases with indeterminate results. The lower and upper cut-points          Area of ISTAART (unpaid role). She is supported by the NIHR Uni-
+derived at 95% sensitivity and 97% specificity using the Lumipulse           versity College London Hospitals Biomedical Research Centre. R.W. is
+assay will be used as the clinical cut-points for interpretation of plasma   supported by an NIHR Academic Clinical Fellowship (Grant Ref: ACF-
+p-tau217 measured from memory clinic samples sent from across the            2024-17-002). M.H. is supported by the University College London
+UK at the United Kingdom Accreditation Service–accredited Neuroim-           Hospitals NIHR Biomedical Research Centre. M.P.L. is supported by the
+munology and CSF Laboratory (NHS) which is the reference laboratory          University College London Hospitals NIHR Biomedical Research Cen-
+for dementia biomarkers in the UK. The Lumipulse assay will be imple-        tre. NICL has a time-limited unrestricted staff salary grant from Eli Lilly
+mented in stage 3 of the ADAPT study: a randomized controlled clinical       Ltd to support a member of scientific staff to assist with biomarker
+trial of result disclosure in community memory clinics. The observa-         R&D and clinical service. M.C.B.D. is a Clinical Research Training
+tions on stability of plasma p-tau17 to variations in the pre-analytical     Fellow funded by the Medical Research Council (MRC) (Grant Ref:
+handling factors assessed in our study have been used to inform the          MR/W016095/1). A.J.H. has undertaken paid consultancy work for
+sample handling protocol that will be sent to trial sites. Robustness        Quanterix Corp. H.Z. has served on scientific advisory boards and/or as
+of sample measurements across different kit lots and assay versions          a consultant for Abbvie, Acumen, Alector, Alzinova, ALZpath, Amylyx,
+indicates that the derived cut-points are likely to be stable in clinical    Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Thera-
+routine testing and across the trial’s recruitment period, but we also       peutics, CogRx, Denali, Eisai, Enigma, LabCorp, Merck Sharp & Dohme,
+plan to confirm this by assessing the performance of the cut-points          Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon
+prospectively over a 3-year period in relation to CSF and amyloid PET.       Therapeutics, Prothena, Quanterix, Red Abbey Labs, reMYND, Roche,
+                                                                             Samumed, ScandiBio Therapeutics AB, Siemens Healthineers, Triplet
+AUTHOR CONTRIBUTIONS                                                         Therapeutics, and Wave, has given lectures sponsored by Alzecure,
+A.K. and J.M.S. conceived the study. K.W., R.W., I.G.-B. and K.T. per-       BioArctic, Biogen, Cellectricon, Fujirebio, LabCorp, Lilly, Novo Nordisk,
+formed the experiments. M.H. and A.J.H. supervised the experiments.          Oy Medix Biochemica AB, Roche, and WebMD; is a co-founder of
+K.W., R.W., M.C.B.D. and O.S.-A. curated the data. A.K., K.W. and            Brain Biomarker Solutions in Gothenburg AB (BBS), which is a part
+R.W. analyzed the data. A.K., K.W., R.W. and J.M.S. drafted the initial      of the GU Ventures Incubator Program; and is a shareholder of CER-
+manuscript. K.W. and R.W. drafted the figures. All authors reviewed and      immune Therapeutics (outside submitted work). N.C.F. has received
+edited the manuscript.                                                       consulting fees from Eisai, F. Hoffmann-La Roche, and Eli Lilly; has
+                                                                             received speaker honoraria from F. Hoffmann-La Roche and Eisai; and
+ACKNOWLEDGMENTS                                                              is an advisory board member for Abbvie, Biogen, and F. Hoffmann-La
+We are very grateful to participants in the UCL DRC Wolfson CSF              Roche. He is a member of the Alzheimer’s Society’s Research Strategy
+study and Biomarkers and Genetics in Cognitive disorders cohorts,            Council. P.M. participates on an independent data safety monitor-
+the Imperial College London pAPC study cohort, and the PKD clini-            ing board for Johnson & Johnson. He is a trustee of the Alzheimer
+cal genetics clinic cohort sponsored by the PKD Charity at the Royal         Society and is the National Institute for Health and Care Research
+Free Hospital. We thank Floey Urban, Boglarka Zilahi, and Millie Bea-        (NIHR) Research Development Network National Specialty Lead for
+ment for their efforts in the collection of samples for the Biomarkers       Dementia and Neurodegeneration. He has grant funding from NIHR,
+and Genetics in Cognitive Disorders study, and Frankie O’Shea and            Alzheimer’s Research UK, Fédération Internationale de Football Asso-
+fellows at the UCL DRC for their efforts in collection of samples            ciation, Football Association, LifeArc, Dementias Platform UK, Medical
+for the Wolfson CSF study. We are grateful to Fotini Mastorakou,             Research Council, UK Dementia Research Institute. J.M.S. has received
+KESHAVAN ET AL .                                                                                                                                17 of 18
+
+
+personal fees from Eli Lilly, Roche, Alamar Biosciences, and Recep-           9. Mendes AJ, Ribaldi F, Lathuiliere A, et al. Head-to-head study of
+tive Bio; speaker honoraria from Eli Lilly and Roche; travel support             diagnostic accuracy of plasma and cerebrospinal fluid p-tau217 ver-
+                                                                                 sus p-tau181 and p-tau231 in a memory clinic cohort. J Neurol.
+from the Alzheimer’s Association, the Americal Academy of Neurology,
+                                                                                 2024;271:2053-66.
+Alzheimer’s Research UK, and Eli Lilly; and royalties from Oxford Uni-       10. Therriault J, Servaes S, Tissot C, et al. Equivalence of plasma p-
+versity Press and Henry Stewart Talks. J.M.S. has received tracer from           tau217 with cerebrospinal fluid in the diagnosis of Alzheimer’s disease.
+Avid Radiopharmaceuticals (a wholly owned subsidiary of Eli Lilly) and           Alzheimers Dement. 2023;19:4967-77.
+                                                                             11. Mattsson-Carlgren N, Janelidze S, Palmqvist S, et al. Longitudinal
+Alliance Medical. J.M.S. is a NIHR senior investigator and is supported
+                                                                                 plasma p-tau217 is increased in early stages of Alzheimer’s disease.
+by the NIHR University College London Hospitals Biomedical Research              Brain. 2020;143:3234-41.
+Centre and the UCL Centre of Research Excellence, an initiative funded       12. Aguillon D, Langella S, Chen Y, et al. Plasma p-tau217 predicts in
+by British Heart Foundation. He has grant funding from Alzheimer’s               vivo brain pathology and cognition in autosomal dominant Alzheimer’s
+                                                                                 disease. Alzheimers Dement. 2023;19:2585-94.
+Research UK, LifeArc, Brain Research UK, Weston Brain Institute,
+                                                                             13. Brickman AM, Manly JJ, Honig LS, et al. Plasma p-tau181, p-tau217,
+Medical Research Council, British Heart Foundation, Wolfson Founda-              and other blood-based Alzheimer’s disease biomarkers in a multi-
+tion, UK Dementia Research Institute, and Alzheimer’s Association. He            ethnic, community study. Alzheimers Dement. 2021;17:1353-64.
+is Chief Medical Officer for Alzheimer’s Research UK. K.W., I.G.-B., K.T.,   14. Milà-Alomà M, Ashton NJ, Shekari M, et al. Plasma p-tau231 and
+L.R., O.S.-A., P.W. and D.P.G. have no disclosures. Author disclosures are       p-tau217 as state markers of amyloid-β pathology in preclinical
+                                                                                 Alzheimer’s disease. Nat Med. 2022;28:1797-801.
+available in the supporting information.
+                                                                             15. Yakoub Y, Gonzalez-Ortiz F, Ashton NJ, et al. Plasma p-tau217 predicts
+                                                                                 cognitive impairments up to ten years before onset in normal older
+CONSENT STATEMENT                                                                adults. medRxiv. 2024.
+All human subjects provided written informed consent.                        16. Figdore DJ, Griswold M, Bornhorst JA, et al. Optimizing cutpoints for
+                                                                                 clinical interpretation of brain amyloid status using plasma p-tau217
+                                                                                 immunoassays. Alzheimers Dement. 2024;20:6506-16.
+DATA AVAILABILITY STATEMENT                                                  17. Pilotto A, Quaresima V, Trasciatti C, et al. Plasma p-tau217 in
+The anonymized data that support the findings of this study are                  Alzheimer’s disease: Lumipulse and ALZpath SIMOA head-to-head
+available on request from qualified academic investigators, after                comparison. Brain. 2025;148:408-15.
+                                                                             18. Schindler SE, Petersen KK, Saef B, et al. Head-to-head comparison
+approval of a proposal and with a signed data access agreement.
+                                                                                 of leading blood tests for Alzheimer’s disease pathology. Alzheimers
+Data will be shared for the sole purpose of replicating procedures               Dement. 2024;20:8074-8096.
+and results. Requests should be directed to the corresponding author:        19. Warmenhoven N, Salvadó G, Janelidze S, et al. A comprehensive head-
+a.keshavan@ucl.ac.uk                                                             to-head comparison of key plasma phosphorylated tau 217 biomarker
+                                                                                 tests. Brain. 2024;148:416-31.
+                                                                             20. Brum WS, Cullen NC, Janelidze S, et al. A two-step workflow based on
+ORCID                                                                            plasma p-tau217 to screen for amyloid β positivity with further confir-
+Ashvini Keshavan      https://orcid.org/0000-0003-1043-5721                      matory testing only in uncertain cases. Nat Aging. 2023;3:1079-90.
+Katharine Wiltshire    https://orcid.org/0009-0006-0576-7819                 21. Mielke MM, Dage JL, Frank RD, et al. Performance of plasma phospho-
+                                                                                 rylated tau 181 and 217 in the community. Nat Med. 2022;28:1398-
+                                                                                 405.
+REFERENCES
+                                                                             22. Verberk IMW, Misdorp EO, Koelewijn J, et al. Characterization of pre-
+ 1. Hansson O, Edelmayer RM, Boxer AL, et al. The Alzheimer’s Asso-              analytical sample handling effects on a panel of Alzheimer’s disease-
+    ciation appropriate use recommendations for blood biomarkers in              related blood-based biomarkers: Results from the Standardization
+    Alzheimer’s disease. Alzheimers Dement. 2022;18:2669-86.                     of Alzheimer’s Blood Biomarkers (SABB) working group. Alzheimers
+ 2. Barthélemy NR, Salvadó G, Schindler SE, et al. Highly accurate blood         Dement. 2022;18:1484-97.
+    test for Alzheimer’s disease is similar or superior to clinical cere-    23. Folstein MF, Folstein SE, McHugh PR. “Mini-mental state”. A practical
+    brospinal fluid tests. Nat Med. 2024;30:1085-95.                             method for grading the cognitive state of patients for the clinician. J
+ 3. Ossenkoppele R, van der Kant R, Hansson O. Tau biomarkers in                 Psychiatr Res. 1975;12:189-98.
+    Alzheimer’s disease: towards implementation in clinical practice and     24. Donepezil, galantamine, rivastigmine and memantine for the treat-
+    trials. Lancet Neurol. 2022;21:726-34.                                       ment of Alzheimer’s disease (TA217). National Institute for Health and
+ 4. Therriault J, Brum WS, Trudel L, et al. Blood phosphorylated tau             Care Excellence; 2024.
+    for the diagnosis of Alzheimer’s disease: a systematic review and        25. Palmqvist S, Warmenhoven N, Anastasi F, et al. Plasma phospho-
+    meta-analysis. Lancet Neurol. 2025;24:740-52.                                tau217 for Alzheimer’s disease diagnosis in primary and secondary
+ 5. Arranz J, Zhu N, Rubio-Guerra S, et al. Diagnostic performance of            care using a fully automated platform. Nat Med. 2025;31:2036-43.
+    plasma pTau(217), pTau(181), Abeta(1-42) and Abeta(1-40) in the          26. FDA. Evaluation of automatic class III designation for Lumipulse
+    LUMIPULSE automated platform for the detection of Alzheimer                  G β-Amyloid Ratio (1-42/1-40) Decision Summary. In: Immunology,
+    disease. Alzheimers Res Ther. 2024;16:139.                                   editor.2022.
+ 6. Ashton NJ, Keshavan A, Brum WS, et al. The Alzheimer’s Associa-          27. Inker LA, Eneanya ND, Coresh J, et al. New creatinine- and cys-
+    tion Global Biomarker Standardization Consortium (GBSC) plasma               tatin C-based equations to estimate GFR without race. N Engl J Med.
+    phospho-tau Round Robin study. medRxiv. 2024;21:e14508.                      2021;385:1737-49.
+ 7. Lai R, Li B, Bishnoi R. P-tau217 as a Reliable Blood-Based Marker of     28. Keshavan A, O’Shea F, Chapman MD, et al. CSF biomarkers for
+    Alzheimer’s Disease. Biomedicines. 2024;12:1836.                             dementia. Pract Neurol. 2022;22:285-94.
+ 8. Palmqvist S, Janelidze S, Quiroz YT, et al. Discriminative accuracy of   29. Hsieh S, Schubert S, Hoon C, Mioshi E, Hodges JR. Validation of the
+    plasma phospho-tau217 for Alzheimer disease vs other neurodegen-             Addenbrooke’s Cognitive Examination III in frontotemporal dementia
+    erative disorders. Jama. 2020;324:772-81.                                    and Alzheimer’s disease. Dement Geriatr Cogn Disord. 2013;36:242-50.
+18 of 18                                                                                                                                   KESHAVAN ET AL .
+
+
+30. Loreto F, Gontsarova A, Scott G, et al. Visual atrophy rating scales and    43. Verberk IMW, Gouda M, Antwi-Berko D, et al. Evidence-based
+    amyloid PET status in an Alzheimer’s disease clinical cohort. Ann Clin          standardized sample handling protocol for accurate blood-based
+    Transl Neurol. 2023;10:619-31.                                                  Alzheimer’s disease biomarker measurement: results and consensus of
+31. Loreto F, Gunning S, Golemme M, et al. Evaluating cognitive profiles            the global biomarker standardization consortium. Alzheimers Dement.
+    of patients undergoing clinical amyloid-PET imaging. Brain Commun.              2025;21:e70752.
+    2021;3:fcab035.                                                             44. Kjaergaard D, Simonsen AH, Waldemar G, Nielsen TR. Ethnic and racial
+32. Jansen WJ, Janssen O, Tijms BM, et al. Prevalence estimates of amy-             influences on blood biomarkers for Alzheimer’s disease: a systematic
+    loid abnormality across the Alzheimer disease clinical spectrum. JAMA           review. J Alzheimers Dis. 2025;103:81-91.
+    Neurol. 2022;79:228-43.                                                     45. Jacobs T, Brien CO, Figueredo L, et al. Body mass index and blood
+33. Kurz C, Stöckl L, Schrurs I, et al. Impact of pre-analytical sam-               volume influence plasma biomarkers and positron emission tomogra-
+    ple handling factors on plasma biomarkers of Alzheimer’s disease. J             phy classification in preclinical Alzheimer’s disease. Alzheimers Dement.
+    Neurochem. 2023;165:95-105.                                                     2025;21:e70765.
+34. Ashton NJ, Suárez-Calvet M, Karikari TK, et al. Effects of pre-analytical   46. Mohammadi S, Rahmani F, Dolatshahi M, Schindler SE, Raji CA,
+    procedures on blood biomarkers for Alzheimer’s pathophysiology,                 Collaborators A. Effects of obesity on plasma biomarker and amy-
+    glial activation, and neurodegeneration. Alzheimers Dement (Amst).              loid PET trajectories in Alzheimer’s disease. Alzheimers Dement.
+    2021;13:e12168.                                                                 2025;17:e70143.
+35. Verberk IMW, Misdorp EO, Koelewijn J, et al. Characterization of pre-       47. Schöll M, Verberk IMW, del Campo M, et al. Challenges in the practical
+    analytical sample handling effects on a panel of Alzheimer’s disease-           implementation of blood biomarkers for Alzheimer’s disease. Lancet
+    related blood-based biomarkers: results from the Standardization                Healthy Longev. 2024;5:100630.
+    of Alzheimer’s Blood Biomarkers (SABB) working group. Alzheimers            48. Bornhorst JA, Lundgreen CS, Weigand SD, et al. Quantitative assess-
+    Dement. 2022;18:1484-97.                                                        ment of the effect of chronic kidney disease on plasma P-Tau217
+36. Schindler SE, Galasko D, Pereira AC, et al. Acceptable performance              concentrations. Neurology. 2025;104:e210287.
+    of blood biomarker tests of amyloid pathology — recommendations             49. Algeciras-Schimnich A, Ashrafzadeh-Kian S, Bornhorst J, et al. Perfor-
+    from the Global CEO Initiative on Alzheimer’s disease. Nat Rev Neurol.          mance of the Lumipulse plasma p-tau217 assay to assess eligibility
+    2024;20:426-39.                                                                 for amyloid-lowering therapies. Alzheimer’s Association International
+37. Wojdała AL, Vanbrabant J, Bayoumy S, et al. Analytical and clinical per-        Conference. Toronto. 2025.
+    formance of eight Simoa(®) and Lumipulse(®) assays for automated            50. Figdore DJ, Schuder BJ, Ashrafzadeh-Kian S, Gronquist T, Bornhorst
+    measurement of plasma p-tau181 and p-tau217. Alzheimers Res Ther.               JA, Algeciras-Schimnich A. Differences in Alzheimer’s disease blood
+    2024;16:266.                                                                    biomarker stability: implications for the use of tau/amyloid ratios.
+38. Ashton NJ, Keshavan A, Brum WS, et al. The Alzheimer’s Associa-                 Alzheimers Dement. 2025;21:e70173.
+    tion Global Biomarker Standardization Consortium (GBSC) plasma
+    phospho-tau Round Robin study. Alzheimers Dement. 2025;21:e14508.
+39. Bucci M, Savitcheva I, Farrar G, et al. A multisite analysis of the
+    concordance between visual image interpretation and quantitative            SUPPORTING INFORMATION
+    analysis of [(18)F]flutemetamol amyloid PET images. Eur J Nucl Med          Additional supporting information can be found online in the Support-
+    Mol Imaging. 2021;48:2183-99.                                               ing Information section at the end of this article.
+40. La Joie R, Mundada NS, Blazhenets G, et al. Quantitative Amyloid-
+    PET in Real-World Practice: Lessons from the Imaging Dementia—
+    Evidence for Amyloid Scanning (IDEAS) study. Alzheimers Dement.
+    2023;19:e082874.
+                                                                                   How to cite this article: Keshavan A, Wiltshire K, Wee R, et al.
+41. Bali D, Hansson O, Janelidze S. Effects of certain pre-analytical factors
+    on the performance of plasma phospho-tau217. Alzheimers Research               The Alzheimer’s Disease Diagnosis and Plasma
+    Therapy. 2024;16:31.                                                           Phospho-Tau217 (ADAPT) study stage 1: Validating clinical
+42. Gouda M, Antwi-Berko D, van Leeuwenstijn MSSA, et al. Plasma                   cut-points against CSF and amyloid PET. Alzheimer’s Dement.
+    phosphorylated tau 217 levels are highly stable under common
+                                                                                   2026;22:e71147 https://doi.org/10.1002/alz.71147
+    pre-analytical sample handling procedures. Alzheimers Dement.
+    2023;19:e078393.
+

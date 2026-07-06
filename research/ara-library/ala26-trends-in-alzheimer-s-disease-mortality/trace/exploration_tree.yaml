@@ -1,0 +1,110 @@
+# Exploration Tree — ala26-trends-in-alzheimer-s-disease-mortality
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only compile. No full text (methods/discussion) was available, so the study's
+# actual internal decision history is largely unobservable. Nodes describing analyses whose RESULTS
+# are stated in the abstract are marked `explicit` (source_refs cite the abstract). Nodes describing
+# design CHOICES the authors must have made but did not report at abstract level are marked
+# `inferred`. No dead_end nodes are asserted: the abstract reveals no failed approach or rejected
+# alternative, and inventing one would violate Rule 9.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract §Objective", "Abstract §Background"]
+    title: "How has AD-with-metabolic-syndrome mortality trended and varied among US adults ≥75, 1999–2020?"
+    description: "Central question: quantify demographic trends and disparities of AD deaths co-occurring with metabolic syndrome-related conditions in the oldest old, given shared pathophysiology and rising burden."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        title: "Use CDC WONDER death-certificate data as the empirical basis"
+        choice: "National multiple-cause-of-death records from CDC WONDER, 1999–2020, underlying cause = AD."
+        alternatives:
+          - "Cohort / registry data with individual-level metabolic-syndrome diagnoses"
+          - "Medicare/administrative claims linkage"
+        evidence: "Abstract §Methods states death certificates from CDC WONDER were examined; choice of a population-complete open database is the enabling design decision."
+        children:
+
+          - id: N03
+            type: decision
+            support_level: inferred
+            title: "Restrict to adults aged ≥75"
+            choice: "Analyze only decedents aged 75 and above."
+            alternatives:
+              - "All-age AD decedents"
+              - "≥65 (conventional older-adult cutoff)"
+            evidence: "Abstract §Objective and §Results specify aged 75 and above; concentrates on the age band where AD mortality is greatest."
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract §Results"]
+                title: "Count total AD-underlying-cause deaths and the metabolic-syndrome subset"
+                result: "2,355,233 total AD-underlying-cause deaths (≥75); 444,488 related to metabolic syndrome-related conditions."
+                evidence: [C01]
+
+              - id: N05
+                type: decision
+                support_level: inferred
+                title: "Express mortality as age-adjusted rates and analyze trends with Joinpoint regression"
+                choice: "Compute AAMR per 100,000 and fit Joinpoint (segmented log-linear) regression across strata."
+                alternatives:
+                  - "Crude rates only"
+                  - "Simple linear/log-linear trend (single slope)"
+                  - "Average annual percent change without joinpoint detection"
+                evidence: "Abstract §Methods: AAMRs per 100,000 and the Joinpoint regression model were used to assess trends in demographic, geographic, and place-of-death variables."
+                children:
+
+                  - id: N06
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract §Results"]
+                    title: "Estimate the overall temporal AAMR trend"
+                    result: "AAMR rose substantially from 36.48 (1999) to 157.93 (2020) per 100,000."
+                    evidence: [C02]
+                    children:
+
+                      - id: N07
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Abstract §Results"]
+                        title: "Detect early-period inflection across racial groups"
+                        result: "From 1999 to the early-to-mid 2000s all races showed a sharp peak in mortality rates."
+                        evidence: [C05]
+
+                  - id: N08
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract §Results"]
+                    title: "Stratify AAMR by sex"
+                    result: "Women consistently higher than men (females 107.79 vs males 79.02 per 100,000)."
+                    evidence: [C03]
+
+                  - id: N09
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract §Results"]
+                    title: "Stratify AAMR by race/ethnicity"
+                    result: "Non-Hispanic African Americans had the highest AAMR among racial groups (121.65 per 100,000)."
+                    evidence: [C04]
+                    also_depends_on: [N07]
+
+                  - id: N10
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract §Results"]
+                    title: "Stratify AAMR by state (geographic disparity)"
+                    result: "Mississippi in the top 90th percentile; Massachusetts in the lower 10th percentile."
+                    evidence: [C06]
+
+                  - id: N11
+                    type: experiment
+                    support_level: inferred
+                    source_refs: ["Abstract §Methods"]
+                    title: "Stratify by place of death"
+                    result: "Place-of-death was analyzed as a trend variable; category-level results not reported at abstract level (Not available — no full text)."

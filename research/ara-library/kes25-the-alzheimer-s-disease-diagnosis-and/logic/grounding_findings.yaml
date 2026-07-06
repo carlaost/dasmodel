@@ -1,0 +1,313 @@
+# RC7 semantic grounding findings (frozen [sem] pass) for kes25-the-alzheimer-s-disease-diagnosis-and.
+# One entry per «quote» occurrence in logic/claims.md Sources blocks. A local paper.pdf was available
+# under research/data/lib/kes25-the-alzheimer-s-disease-diagnosis-and/paper.pdf and was mechanically
+# re-verified via pdftotext extraction for every quote below (string_present judged against the
+# actual extracted text, not plausibility).
+
+- claim_id: C01
+  number: "0.947"
+  quote: "Diagnostic accuracy was similar (area under the ROC Lumipulse 0.947; ALZpath 0.940)"
+  source: "Table 2 / abstract"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verbatim in paper.pdf abstract RESULTS line; matches Statement's AUC=0.947 exactly."
+
+- claim_id: C01
+  number: "0.919-0.974"
+  quote: "0.947 0.919 0.974"
+  source: "Table 2, Lumipulse p-tau217 row"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Matches evidence/tables/table2.md row and paper.pdf running text '(95% CI 0.919-0.974)' exactly."
+
+- claim_id: C02
+  number: "6.7"
+  quote: "the median fold-change increase in p-tau217 between non-AD and AD participants was 6.7 (Figure S2A ...)"
+  source: "§3.2.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.2 (CSF cohort, 'amyloid only' definition, Lumipulse assay)."
+
+- claim_id: C02
+  number: "4.2"
+  quote: "there was a median fold-change increase in p-tau217 between non-AD and AD participants of 4.2 (Figure S2B)"
+  source: "§3.2.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf, ALZpath assay, CSF cohort."
+
+- claim_id: C02
+  number: "3.9"
+  quote: "the median fold-change increase in p-tau217 between non-AD and AD participants was 3.9 (Figure S3A ...)"
+  source: "§3.2.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf, amyloid PET cohort, Lumipulse assay."
+
+- claim_id: C02
+  number: "3.2"
+  quote: "the median fold-change increase in p-tau217 between non-AD and AD participants was 3.2 (Figure S3B)"
+  source: "§3.2.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf, amyloid PET cohort, ALZpath assay."
+
+- claim_id: C02
+  number: "19.4 / 23.4"
+  quote: "Table 3 Intermediate zone % column, Lumipulse 19.4 / ALZpath 23.4"
+  source: "Table 3"
+  string_present: false
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "This Sources bullet is NOT a «quoted» PDF sentence -- it is a paraphrased table-cell description with no delimiters in claims.md, so no literal string to search for. Values (19.4, 23.4) are nonetheless confirmed exact against evidence/tables/table3.md and paper.pdf Table 3 (page 11, CSF-cohort row for both assays)."
+
+- claim_id: C03
+  number: "0.153 / 0.422"
+  quote: "using dual cut-points (0.153/0.422 pg/mL)"
+  source: "abstract"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf abstract and Table 3 Lumipulse row."
+
+- claim_id: C03
+  number: "95 / 97"
+  quote: "Lumipulse p-tau217 achieved 95% sensitivity and 97% specificity"
+  source: "abstract"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf abstract line following the 0.153/0.422 cut-point statement."
+
+- claim_id: C03
+  number: "19.4"
+  quote: "The optimal cut-point pair was 0.153 and 0.422 pg/mL (97% specificity), which gave 19.4% of individuals in the intermediate zone"
+  source: "§3.4.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.4.1 (CSF cohort cut-point derivation)."
+
+- claim_id: C03
+  number: "90.4 / 97.6 / 94.7"
+  quote: "an NPV of 90.4% (95% CI 80.6-95.0) and a PPV of 97.6% (95% CI 93.2-99.5), with an overall accuracy ... of 94.7%"
+  source: "§3.4.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf, continuing directly from the 19.4% intermediate-zone sentence."
+
+- claim_id: C04
+  number: "34.2"
+  quote: "producing indeterminate results in 19.4% (CSF defined) and 34.2% (PET defined)"
+  source: "abstract / §3.4.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Abstract phrasing verified as 'producing indeterminate results in 19.4%' immediately following the cut-point sentence."
+
+- claim_id: C04
+  number: "34.2"
+  quote: "the resulting percentage of individuals in the intermediate zone was 34.2%"
+  source: "§3.4.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Second quote in the same Sources bullet as the abstract quote above; verified verbatim in paper.pdf §3.4.2 amyloid PET validation paragraph."
+
+- claim_id: C04
+  number: "88.9 / 90.6 / 90.0"
+  quote: "the NPV of the lower cut-point was 88.9% (95% CI 65.3-98.6), and the PPV of the upper cut-point was 90.6% (95% CI 75.0-98.0), achieving an overall accuracy ... of 90.0%"
+  source: "§3.4.2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.4.2 (amyloid PET validation)."
+
+- claim_id: C04
+  number: "0.879"
+  quote: "0.879 0.778 0.980"
+  source: "Table 2 amyloid PET Lumipulse p-tau217"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Confirmed in evidence/tables/table2.md PET column and paper.pdf Table 2 row / §3.3.2 running text."
+
+- claim_id: C05
+  number: "0.950 / 0.947"
+  quote: "Age + sex + Lumipulse p-tau217 0.950 ... Lumipulse p-tau217 0.947"
+  source: "Table 2"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Confirmed in evidence/tables/table2.md and paper.pdf Table 2 rows."
+
+- claim_id: C05
+  number: "not significant"
+  quote: "a combined model including age, sex, and Lumipulse p-tau217 gave an AUC of 0.950 (95% CI 0.925-0.974), not significantly different to Lumipulse p-tau217 alone"
+  source: "§3.3.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.3.1. Note the AIC<20 threshold cited in the claim's Statement/falsification criteria is defined separately in Methods §2.6 ('AIC reduction of 20 or more deemed significant') and is not itself repeated in this specific quote, but is a correct paraphrase of the applicable methodological rule."
+
+- claim_id: C06
+  number: "±10% not exceeded"
+  quote: "Across all four experiments, the median relative change across conditions did not exceed the ± 10% threshold considered likely to be clinically significant (Figure 2)"
+  source: "§3.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.6 (note: the parenthetical Figure 2 citation appears in the source without the trailing '(Figure 2)' string exactly co-located, but the '±10% threshold ... clinically significant' sentence is an exact match)."
+
+- claim_id: C06
+  number: "P = 0.0047"
+  quote: "In Experiment 3 (post-centrifugation delay, Figure 2C), a significant difference was observed between post-centrifugation delay groups (P = 0.0047 ...)"
+  source: "§3.6"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "P=0.0047 with Table S12 citation confirmed verbatim in paper.pdf §3.6; Experiment/panel numbering matches Figure 2 evidence file."
+
+- claim_id: C07
+  number: "rho > 0.95"
+  quote: "We reported strong correlations (rho > 0.95) in plasma p-tau217 measurements across kit lots"
+  source: "§3.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.7 (lot-to-lot variability section)."
+
+- claim_id: C07
+  number: "3 of 30"
+  quote: "Three out of 30 individuals had discordant classifications across lots relative to the established dual cut-points; discordances did not occur due to the same kit lot"
+  source: "§3.7"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.7, directly following the rho>0.95 sentence."
+
+- claim_id: C08
+  number: "rho = 0.998"
+  quote: "an excellent correlation was observed between Lumipulse p-tau217 measurements from samples stored and transported at -20°C and -80°C (rho = 0.998)"
+  source: "§3.8"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.8 (transport comparison section); text continues 'and there was no systematic bias between conditions', also matching the Statement."
+
+- claim_id: C09
+  number: "43.1% / 5.1%"
+  quote: "Three (i.e., 5.1%) of the CN-CKD stage 1 through 4 samples tested above the upper cut-point of 0.422 pg/mL and 25 (i.e., 43.1%) tested in the intermediate zone between 0.153 and 0.422 pg/mL"
+  source: "§3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim (with the sentence wrapped across a page/column break) in paper.pdf §3.5."
+
+- claim_id: C09
+  number: "0.119"
+  quote: "CKD-1 0.119 (0.082-0.190) pg/mL"
+  source: "§3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.5 median-concentration list."
+
+- claim_id: C09
+  number: "0.213"
+  quote: "CKD-4 0.213 (0.145-0.261) pg/mL"
+  source: "§3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.5, end of the same median-concentration list."
+
+- claim_id: C09
+  number: "no significant association"
+  quote: "There was no statistically significant association between p-tau217 and CN-CKD ... after adjustment for age, sex, or BMI"
+  source: "§3.5"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.5, including the '(either as an ordinal or as a binary for CKD-3a and above)' clause elided by the '...' in the ARA quote."
+
+- claim_id: C10
+  number: "91.4% vs 95%"
+  quote: "the sensitivity of the external lower cut-point was lower (91.4% vs. 95%)"
+  source: "§3.4.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.4.1 Malmö sensitivity-analysis paragraph."
+
+- claim_id: C10
+  number: "88.8-91.5% vs 93.3-94.0%"
+  quote: "accuracy was reduced across all definitions using the Malmö cut-points (88.8%-91.5%) compared to the accuracy afforded by the within-cohort derived cut-points (93.3%-94.0%)"
+  source: "§3.4.1"
+  string_present: true
+  verdict: supports
+  value_match: exact
+  polarity_ok: true
+  context_match: true
+  note: "Verified verbatim in paper.pdf §3.4.1, end of the Malmö sensitivity-analysis paragraph. Note the Statement's paired NPV figure (87.1% vs 90.5%) is not itself quoted in this claim's Sources block but is separately verified present and exact in paper.pdf §3.4.1 ('the NPV was lower (87.1% vs. 90.5%) at 62.7% prevalence')."

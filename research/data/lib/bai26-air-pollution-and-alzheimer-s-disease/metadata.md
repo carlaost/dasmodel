@@ -1,0 +1,13 @@
+# Air Pollution and Alzheimer’s Disease: A Systematic Review and Meta-Analysis
+
+- **Cite key**: Bai26
+- **Authors**: Ludovico Baiamonte; Domenico Tarantino; Manuela Lodico; Giovanna Bellante; Claudia Migliazzo; Patrizio Allegra; L. Maniscalco; Tommaso Piccoli; N. Vanacore; D. Matranga; Giuseppe Salemi
+- **Year**: 2026  (2026-05-28)
+- **Journal**: Journal of Clinical Medicine
+- **DOI**: 10.3390/jcm15114163
+- **URL**: https://doi.org/10.3390/jcm15114163
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background/Objectives: Alzheimer’s disease (AD) is the most common cause of dementia. Among the various factors associated with the risk of AD, growing attention in recent years has focused on environmental influences, particularly air pollution. The association between air pollutants and AD remains inconclusive due to heterogeneity in available studies. Given these gaps, we performed a systematic review on the topic. Methods: We systematically searched Pubmed, Embase and Scopus. Retrieved records underwent screening by title and abstract and then in full text. We included studies quantitatively exploring the association between exposure to air pollutants and risk of AD. We performed a meta-analysis to identify a pooled estimate of the impact of each pollutant on the probability of developing AD. Results: We retrieved 1081 records and included 27 studies. We found a significant association between PM2.5 levels and AD risk (HR 1.74, 95%CI 1.36–2.23). Our data did not support a relevant role for the other pollutants we analyzed (for PM10 HR = 1.35, 95%CI: 0.86–2.11; for NO2 HR = 1.34, 95%CI 0.96–1.86; and for O3 HR = 1.03, 95%CI 0.68–1.57). Conclusions: PM2.5 emerged as the pollutant most strongly and consistently associated with an increased risk of AD. This robust and statistically significant association underscores the potential neurotoxic effects of fine particulate matter. For other pollutants, a clear role was not found. These results should be interpreted with caution, due to high heterogeneity in the definition of AD in the included studies (in most cases, a clinical definition was used). More research will be needed in the future.

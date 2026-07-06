@@ -1,0 +1,15 @@
+{
+  "idx": 481,
+  "cite_key": "Wen25b",
+  "title": "Trends and differences in cardiovascular disease and alzheimer's disease-related mortality among older adults in the United States, 1999 to 2023: A CDC WONDER database analysis",
+  "authors": "Jianren Wen; Jingxuan Hu; Guohui Zou",
+  "year": "2025",
+  "pub_date": "2025-09-01",
+  "journal": "American Heart Journal Plus: Cardiology Research and Practice",
+  "abstract": "Background Cardiovascular disease (CVD) and Alzheimer's disease (AD) are leading causes of death in the United States and often co-occur, worsening outcomes. AD contributes to CVD mortality through shared risk factors, neurovascular dysfunction, and secondary complications such as immobility and dysautonomia. As global aging intensifies, mortality trends and disparities between these diseases remain poorly summarized. This study examines CVD- and AD-related mortality trends from 1999 to 2023 among U.S. adults aged 65 and older, by sex, race, and region. Methods The death certificates of individuals aged 65 years > from 1999 to 2023 were extracted using the CDC WONDER multi-cause database and listed I00–I99 (CVD) and G30 (AD) as the criteria. Age-adjusted mortality rate per 100,000 people (AAMR) was calculated and Joinpoint regression was used to estimate mean annual percentage change (AAPC) and annual percentage change (APC). Results A total of 1,283,881 deaths from CVD combined with AD were recorded from 1999 to 2023. The overall AAMR increased from 110.13 (95 % CI: 109.02 to 111.25) in 1999 to 116.80 (95 % CI: 115.87 to 117.74) in 2023 (APC: 0.14 (95 % CI: −1.00 to 1.29)). AAMR is consistently higher for women than for men (2023: 126.95 vs 100.64). By race, non-Hispanic whites had the highest number of deaths in 2023 (121.46 (95 %CI: 120.37 to 122.55)), followed by blacks (110.50 ((95 %CI: 107.35 to 113.65), Hispanic ((95 %CI: 112.97 (109.84 to 116.10)) and other races ((95 %CI:74.05 (71.20 to 76.91)). The regional distribution showed that the AAMR in the West was the highest in 2023 (158.43 (95 % CI: 156.13 to 160.74)), followed by the Midwest (118.32 (95 %CI: 116.28). to 120.36)), the South (113.36 (95 %CI: 111.85 to 114.87)) and the Northeast (73.15 (95 %CI: 71.47 to 74.84)). AAMR is highest in people over 85 years of age (17.6). Between 1999 and 2023, the AAMR in rural areas (36.90) was higher than in urban areas (28.75). Conclusion The age-adjusted mortality rate of CVD combined with AD in the United States continued to increase from 1999 to 2023, with the highest burden among women, non-Hispanic whites, rural areas, and individuals over 85 years of age. The results suggest the need for targeted early interventions to mitigate disparities and reduce mortality from comorbidities.",
+  "citation_count": "3",
+  "citations_per_year": "3.6",
+  "doi": "10.1016/j.ahjo.2025.100618",
+  "url": "https://doi.org/10.1016/j.ahjo.2025.100618",
+  "slug": "wen25b-trends-and-differences-in-cardiovascular-disease"
+}

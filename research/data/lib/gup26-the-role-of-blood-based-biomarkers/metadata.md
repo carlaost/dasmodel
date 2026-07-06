@@ -1,0 +1,13 @@
+# The role of blood-based biomarkers in managing the epidemic of Alzheimer’s disease in India
+
+- **Cite key**: Gup26
+- **Authors**: Rishab Gupta
+- **Year**: 2026  (2026-01-07)
+- **Journal**: Future Health
+- **DOI**: 10.25259/fh_77_2025
+- **URL**: https://doi.org/10.25259/fh_77_2025
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Despite being the most common cause of dementia in the world, Alzheimer’s disease (AD) commonly remains underdiagnosed. The burden of AD is felt the most by the developing world and has been rising steadily with the increase in population longevity and increasing incidence of metabolic and vascular risk factors. Several advances have been made in understanding the neurobiological underpinnings of AD. AD is now diagnosed based on its biology, utilizing specific biomarkers as opposed to following the clinical approach, which is less precise. However, the currently used biomarkers (cerebrospinal fluid (CSF) biomarkers and Amyloid positron emission tomography (PET) scan findings) pose a huge challenge in terms of their global adoption because of their low affordability, poor accessibility, and perceived invasiveness. This challenge serves as a major roadblock in the timely and accurate diagnosis of AD, its prognostication, and in terms of pursuing newer targeted therapeutic approaches, which slow down the disease trajectory to some extent. As a result, blood-based biomarkers (BBMs) of AD are being developed. These have an immense potential to transform the landscape of AD diagnosis, treatment, prognostication, and research. Low- and middle-income countries like India should reflect on the role of BBMs of AD and consider ways to either develop them indigenously or adopt them in their healthcare systems to manage the worsening epidemic of AD. This paper discusses the opportunities and challenges faced by India in the context of utilizing BBMs of AD.

@@ -1,0 +1,64 @@
+# Exploration Tree - wan25c-global-burden-of-alzheimer-s-disease
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. No full text was available. The tree is intentionally small and
+# contains no dead_end nodes because the provided abstract/metadata expose no failed approaches,
+# rejected alternatives, or ablation history.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract Introduction"]
+    title: "How did the burden of AD and other dementias change from 1990 to 2021?"
+    description: >
+      The abstract states the study aimed to assess trends, burden, and inequalities of AD and other
+      dementias at global, regional, and national level from 1990 to 2021.
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["metadata.md Abstract Methods"]
+        title: "Use GBD 2021 as the burden data source"
+        choice: "Extract disease-burden data for AD and other dementias during 1990-2021 from GBD 2021."
+        alternatives:
+          - "Not available from provided input"
+        evidence: "The Methods sentence names GBD 2021 as the data source."
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract Result"]
+            title: "Estimate age-standardized prevalence trend"
+            result: >
+              Global age-standardized prevalence increased from 1990 to 2021, with the reported AAPC
+              confidence interval above zero.
+            evidence: [C01]
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract Result"]
+            title: "Estimate age-standardized mortality trend"
+            result: >
+              Age-standardized mortality did not change over 1990-2021 according to the reported AAPC.
+            evidence: [C02]
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract Result"]
+            title: "Estimate age-standardized DALY trend and risk-factor ranking"
+            result: >
+              Age-standardized DALYs slightly increased, and high fasting plasma glucose ranked as the
+              highest DALY risk factor during 1990-2021.
+            evidence: [C03, C05]
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract Result"]
+            title: "Compare burden patterns by age, SDI, and geography"
+            result: >
+              Highest prevalence was reported in population aged 65-69 and high-middle SDI settings
+              such as East Asia/China, while highest mortality and DALYs were reported in population
+              aged 65-69 and low-middle SDI settings such as South Asia/India.
+            evidence: [C04]

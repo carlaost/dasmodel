@@ -1,0 +1,76 @@
+{
+  "query": {
+    "gene_symbol": "MAPT",
+    "organism": "Homo sapiens"
+  },
+  "note": "Full raw ChEMBL response was 315707 chars (count=6), dominated by ~300KB of GO/Reactome/PDB cross-reference metadata per target irrelevant to resolvability. This is a filtered projection keeping only the fields needed for target_compound_resolvability (id/name/type/organism/gene); re-run target_search(gene_symbol='MAPT') for the full response.",
+  "count_full_response": 6,
+  "targets_homo_sapiens": [
+    {
+      "target_chembl_id": "CHEMBL1293224",
+      "pref_name": "Microtubule-associated protein tau",
+      "target_type": "SINGLE PROTEIN",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "MAPT"
+      ]
+    },
+    {
+      "target_chembl_id": "CHEMBL4296122",
+      "pref_name": "Kelch-like ECH-associated protein 1/Microtubule-associated protein tau",
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "MAPT",
+        "KEAP1"
+      ]
+    },
+    {
+      "target_chembl_id": "CHEMBL4296123",
+      "pref_name": "Kelch-like ECH-associated protein 1/Microtubule-associated protein tau/Cullin-3",
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "MAPT",
+        "KEAP1",
+        "CUL3"
+      ]
+    },
+    {
+      "target_chembl_id": "CHEMBL4296124",
+      "pref_name": "Cullin-3/Microtubule-associated protein tau",
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "MAPT",
+        "CUL3"
+      ]
+    },
+    {
+      "target_chembl_id": "CHEMBL6066025",
+      "pref_name": "Protein cereblon/Microtubule-associated protein tau",
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "MAPT",
+        "CRBN"
+      ]
+    },
+    {
+      "target_chembl_id": "CHEMBL6193767",
+      "pref_name": "Sequestosome-1/Microtubule-associated protein tau",
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "organism": "Homo sapiens",
+      "tax_id": 9606,
+      "gene_symbols": [
+        "MAPT",
+        "SQSTM1"
+      ]
+    }
+  ]
+}

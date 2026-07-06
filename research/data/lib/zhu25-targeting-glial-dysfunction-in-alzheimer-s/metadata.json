@@ -1,0 +1,15 @@
+{
+  "idx": 110,
+  "cite_key": "Zhu25",
+  "title": "Targeting glial dysfunction in Alzheimer’s disease: insights into pathogenesis and emerging therapeutics",
+  "authors": "Qing Zhu; Yu Song; Yuanyuan Qian; Ru Zhang; Jianhuang Xue; Yujun Hou",
+  "year": "2025",
+  "pub_date": "2025-09-12",
+  "journal": "Ageing and Neurodegenerative Diseases",
+  "abstract": "Alzheimer’s disease (AD) is a progressive neurodegenerative disorder characterized by cognitive decline, amyloid-β (Aβ) plaques, and neurofibrillary tangles. Despite extensive research, its pathogenesis remains incompletely understood and no disease-modifying therapies are currently available. While early studies focused on neuronal dysfunction, growing evidence implicates glial cells - including microglia, astrocytes, and oligodendrocytes - in driving AD pathogenesis. Microglia initially clear Aβ and cellular debris; however, chronic activation triggers the release of proinflammatory cytokines that worsen Aβ and tau pathology and induce neurotoxic astrocytes. Reactive astrocytes compromise blood-brain barrier integrity, secrete inflammatory mediators, and impair synaptic transmission. Oligodendrocytes and their progenitors, beyond their role in myelination, can adopt disease-associated states that alter metabolic support and immune signaling, yielding both protective and detrimental effects. Recent multi-omics studies have identified critical regulatory pathways, including NF-κB, the NLRP3 inflammasome, and the cGAS-STING axis, that govern glial phenotype transitions. Therapeutic strategies targeting these pathways, such as small-molecule inhibitors, immunomodulators, and NAD+ precursors, have shown promise in preclinical AD models by reducing neuroinflammation, restoring glial homeostasis, and improving cognition. In this review, we summarize glial cell functions in health and disease, dissect molecular mechanisms of glial dysfunction in AD, and evaluate emerging glia-directed therapies. Finally, we discuss translational challenges and outline future directions for leveraging glial biology in the development of effective AD therapies.",
+  "citation_count": "2",
+  "citations_per_year": "2.5",
+  "doi": "10.20517/and.2025.25",
+  "url": "https://doi.org/10.20517/and.2025.25",
+  "slug": "zhu25-targeting-glial-dysfunction-in-alzheimer-s"
+}

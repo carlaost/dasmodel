@@ -1,0 +1,68 @@
+paper:
+  slug: aki26-molecular-signatures-of-resilience-to-alzheimer
+  doi: 10.1038/s41467-026-68920-4
+  title: "Molecular signatures of resilience to Alzheimer’s disease in neocortical layer 4 neurons"
+
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.nature.com/articles/s41467-026-68920-4.pdf
+  source: publisher
+
+code:
+  - url: https://github.com/AkilaRanjith/Molecular-Signatures-of-Resilience-to-Alzheimer-s-Disease-in-Neocortical-Layer-4-Neurons
+    host: github
+    verified: true
+    note: >
+      Author (Akila Ranjith / S. Akila P. Dharshini) repository. README describes
+      the full computational workflow (alignment/QC, differential expression,
+      cell-type prediction, spatial deconvolution, hdWGCNA network analysis,
+      CellProfiler segmentation .cpproj pipelines, pretrained cell-type models).
+      Referenced by the Code Availability statement. Directly matches paper title.
+  - url: https://zenodo.org/records/18113528
+    host: zenodo
+    verified: true
+    note: >
+      Zenodo archive of the GitHub code (DOI 10.5281/zenodo.18113528), titled
+      "Molecular Signatures of Resilience to Alzheimer's Disease in Neocortical
+      Layer 4 Neurons : Github codes". Cited as ref 91 in the Code Availability
+      statement; contains scripts and pretrained models. CC-BY-4.0.
+
+data:
+  - name: Raw snRNA-seq data, metadata, and processed digital expression matrices (newly generated)
+    identifier: GSE263468
+    repository: NCBI GEO
+    access: open
+    verified: true
+  - name: snRNA-seq samples reused from prior studies (8 of 243 samples)
+    identifier: GSE129308; GSE181715
+    repository: NCBI GEO
+    access: open
+    verified: true
+  - name: Interactive snRNA-seq exploration (CELLxGENE collection)
+    identifier: collections/0d35c0fd-ef0b-4b70-bce6-645a4660e5fa
+    repository: CZI CELLxGENE
+    access: open
+    verified: false
+  - name: Xenium spatial transcriptomics dataset (16 sections, BA9 + BA17, 4 AD + 4 control donors)
+    identifier: 10.5281/zenodo.16703438
+    repository: Zenodo
+    access: open
+    verified: true
+
+clinical_trials: []
+
+notes: >
+  Nature Communications (2026), gold open access (CC BY). Data Availability:
+  raw snRNA-seq data, metadata, and processed digital expression matrices deposited
+  in NCBI GEO under GSE263468 (8 of 243 samples reused from GSE129308 and GSE181715);
+  snRNA-seq browsable interactively on CZI CELLxGENE
+  (collection 0d35c0fd-ef0b-4b70-bce6-645a4660e5fa); the Xenium spatial dataset is at
+  Zenodo (10.5281/zenodo.16703438); source data provided with the paper. Code Availability:
+  scripts and pretrained models on GitHub (AkilaRanjith/Molecular-Signatures-of-Resilience...)
+  archived at Zenodo 10.5281/zenodo.18113528. This is a basic/translational neuroscience
+  study (human postmortem brain + AppSAA mouse AAV overexpression); no clinical trial
+  registrations are present. PDF downloaded from the publisher (nature.com); Unpaywall
+  marked it gold OA but did not expose a direct PDF URL, and PMC/Europe PMC PDF endpoints
+  returned empty/HTML, so the verified publisher PDF was used. PMCID PMC12963381, PMID 41620473.

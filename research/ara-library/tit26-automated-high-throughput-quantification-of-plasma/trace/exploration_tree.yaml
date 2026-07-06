@@ -1,0 +1,143 @@
+# Exploration Tree — tit26-automated-high-throughput-quantification-of-plasma
+# Research DAG: nested tree with cross-edges (also_depends_on).
+# Node types: question | experiment | dead_end | decision | pivot
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§Background", "§Introduction (last paragraph)"]
+    title: "Can automated Elecsys p-tau217 match research/batch assays for AD diagnosis in a real memory clinic?"
+    description: >-
+      Plasma p-tau217 is the most accurate blood AD marker but evidence comes from batch/research assays;
+      Elecsys p-tau217 data are scarce. Assess its diagnostic accuracy against a CSF reference standard
+      and benchmark against Lumipulse p-tau217 and Elecsys p-tau181.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§Materials and methods — Study population", "§Study population"]
+        title: "Define reference standard and cohort"
+        choice: "CSF biomarkers (n=180) or amyloid-PET (n=7) classify AD (103) vs non-AD (84); exclude 16 discordant-CSF cases from primary analysis"
+        alternatives:
+          - "Use clinical diagnosis alone as reference (rejected — less objective)"
+          - "Include discordant AT(N) profiles in primary AD/non-AD comparison (deferred to exploratory analysis instead)"
+        evidence: "CSF reference cut-offs (Aβ42/40 ≤0.070, Aβ42 ≤722, p-tau181 ≥50, total tau ≥403 pg/mL)"
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2", "Figure 2", "§Diagnostic accuracy"]
+            title: "Single-cut-off ROC accuracy of the three p-tau assays"
+            result: >-
+              Elecsys p-tau217 AUC 0.939; Lumipulse p-tau217 0.950 (DeLong p=0.485, comparable);
+              Elecsys p-tau181 0.903 (DeLong p=0.043, significantly lower). Youden cut-offs derived.
+            evidence: [C01, C02, C03, "Table 2", "Figure 2"]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 3", "Figure 3", "§two-cut-off approach"]
+            title: "Two-cut-off (grey-zone) classification"
+            result: >-
+              Intermediate zone 19.9% (Elecsys p-tau217), 11.9% (Lumipulse p-tau217), 33.2% (Elecsys p-tau181);
+              Elecsys p-tau217 grey zone within BBM-recommended 15–20%.
+            evidence: [C06, "Table 3"]
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2", "Table 3", "§Diagnostic value of plasma APOE ε4"]
+            title: "Add APOE-ε4 carrier status via logistic regression"
+            also_depends_on: [N03, N04]
+            result: >-
+              Elecsys p-tau217 AUC 0.939→0.970 (p=0.02), grey zone 20.0%→11.0%; carriers gain PPV (95–100%),
+              non-carriers gain NPV (up to 98%). Modest AUC change for Lumipulse assays.
+            evidence: [C04, "Table 2", "Table 3"]
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2", "Table 3", "§Adjustment with Aβ42"]
+            title: "Adjust with Aβ42 / Aβ42-40 on the Fujirebio platform"
+            also_depends_on: [N03]
+            result: >-
+              No significant AUC gain (0.950 vs 0.957; p=0.058 / 0.322); only modest reduction in
+              intermediates (11.9%→10.0%). Limited added value over p-tau217 alone.
+            evidence: [C05, "Table 2", "Table 3"]
+
+      - id: N07
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 1", "§Method comparison"]
+        title: "Method comparison of the two p-tau217 assays"
+        result: >-
+          Strong correlation (rs=0.88) but proportional (slope 1.363) and systematic (intercept 0.113)
+          bias; Bland–Altman relative differences up to 59% (mean 58.7%). Assays not interchangeable
+          in absolute value; harmonization/reference materials needed.
+        evidence: [C07, "Figure 1"]
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Precision, linearity and limit of quantification", "Supplemental Table 1"]
+        title: "Analytical validation (precision, linearity, LLOQ)"
+        result: >-
+          Imprecision 0.5–3.8% (p-tau181) and 0.5–8.6% (p-tau217); linearity to 0.30/0.12 pg/mL;
+          LLOQ 0.32/0.10 pg/mL. Analytically fit for purpose.
+        evidence: [C10]
+
+      - id: N09
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Influence of clinical cofactors on Elecsys p-tau217"]
+        title: "Linear regression of clinical cofactors on Elecsys p-tau217"
+        result: >-
+          Significant association with diagnostic group and baseline MoCA (β=-0.267, p<0.001); NO
+          significant association with age, sex, eGFR, Fazekas 3, or CAA. p-tau217 reflects disease,
+          not physiological variation, in this cohort.
+        evidence: [C09, C08]
+        children:
+
+          - id: N10
+            type: decision
+            support_level: explicit
+            source_refs: ["§Influence of clinical cofactors — MoCA-adjusted regression"]
+            title: "Address possible confounding by cognitive severity (MoCA)"
+            choice: "Perform MoCA-adjusted logistic regression per biomarker"
+            alternatives:
+              - "Report unadjusted associations only (rejected — MoCA differs between groups)"
+            evidence: "Biomarkers remained associated with AD after MoCA adjustment (p-tau217 OR 3.33); MoCA not independently associated in p-tau analyses"
+
+          - id: N11
+            type: experiment
+            support_level: explicit
+            source_refs: ["§Cognitive decline and p-tau217"]
+            title: "Exploratory longitudinal MoCA mixed-effects model"
+            result: >-
+              Among 69 AD patients (median 2.1 y), higher baseline p-tau217 linked to lower baseline MoCA
+              and a non-significant trend to faster decline (p=0.07). Exploratory only.
+            evidence: [C08]
+
+      - id: N12
+        type: experiment
+        support_level: explicit
+        source_refs: ["§Discordant CSF biomarker profiles", "Supplementary Table 5"]
+        title: "Exploratory analysis of excluded discordant-CSF cases"
+        also_depends_on: [N02, N03]
+        result: >-
+          16 discordant cases (15 A+T−N−) resemble non-AD on average but are heterogeneous
+          (37.5% above the p-tau217 cut-off); reclassifying as AD changes AUC/sens/spec only modestly —
+          main cut-offs robust.
+        evidence: [C11]
+
+      - id: N13
+        type: dead_end
+        support_level: explicit
+        source_refs: ["§Discussion — physiological/vascular factors", "§Strengths and limitations"]
+        title: "Renal-function / p-tau217-normalization avenue not pursued"
+        hypothesis: "Kidney dysfunction and small-vessel disease would modulate plasma p-tau217, and p-tau217/total-tau ratios could normalize it."
+        failure_mode: "Only 21 patients had eGFR<60 and none <30 (advanced CKD absent), so no significant renal effect was detectable; p-tau217/total-tau normalization ratios are not available for the Elecsys/Lumipulse immunoassays."
+        lesson: "Renal effects likely require advanced-CKD subjects; normalized ratios need MS-based assays — flagged for future work rather than resolved here."

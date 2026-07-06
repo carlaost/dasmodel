@@ -1,0 +1,43 @@
+{
+  "count": 1,
+  "total": 1,
+  "compounds": [
+    {
+      "molecule_chembl_id": "CHEMBL4297245",
+      "pref_name": "DONANEMAB",
+      "molecule_type": "Antibody",
+      "max_phase": 4,
+      "first_approval": null,
+      "oral": false,
+      "parenteral": true,
+      "topical": false,
+      "black_box_warning": false,
+      "therapeutic_flag": true,
+      "natural_product": false,
+      "withdrawn_flag": false,
+      "availability_type": 1,
+      "chirality": 1,
+      "usan_stem": "-mab",
+      "usan_stem_definition": "monoclonal antibodies",
+      "usan_year": 2018,
+      "atc_classifications": [
+        {
+          "level5": "N06DX05"
+        }
+      ],
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4297245",
+        "molecule_chembl_id": "CHEMBL4297245",
+        "parent_chembl_id": "CHEMBL4297245"
+      },
+      "synonyms": [
+        "Donanemab",
+        "Donanemab-azbt",
+        "Kisunla",
+        "LY 3002813",
+        "LY-3002813",
+        "LY3002813"
+      ]
+    }
+  ]
+}

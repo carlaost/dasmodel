@@ -1,0 +1,46 @@
+{
+  "nct_id": "NCT05108922",
+  "title": "A Phase 3, Open-Label, Parallel-Group, 2-Arm Study to Investigate Amyloid Plaque Clearance With Donanemab Compared With Aducanumab-avwa in Participants With Early Symptomatic Alzheimer's Disease",
+  "brief_title": "A Study of Donanemab (LY3002813) Compared With Aducanumab in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 4)",
+  "status": "COMPLETED",
+  "phase": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "conditions": [
+    "Mild Cognitive Impairment (MCI)",
+    "Alzheimer Disease"
+  ],
+  "interventions": [
+    "Donanemab",
+    "Aducanumab"
+  ],
+  "sponsor": "Eli Lilly and Company",
+  "enrollment": 148,
+  "start_date": "2021-11-16",
+  "primary_completion_date": "2022-09-09",
+  "completion_date": "2023-09-19",
+  "has_results": true,
+  "primary_outcomes": [
+    {
+      "measure": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 PET Scan (Superiority) on Donanemab Versus Aducanumab",
+      "time_frame": "6 Months",
+      "type": "PRIMARY"
+    },
+    {
+      "measure": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 PET Scan in the Low/Medium (Intermediate) Subpopulation (Superiority) on Donanemab Versus Aducanumab",
+      "time_frame": "6 Months",
+      "type": "PRIMARY"
+    }
+  ],
+  "primary_result_values_from_resultsSection": {
+    "overall_6mo": {
+      "Donanemab": 37.9,
+      "Aducanumab": 1.6
+    },
+    "low_medium_tau_6mo": {
+      "Donanemab": 38.5,
+      "Aducanumab": 3.8
+    }
+  }
+}

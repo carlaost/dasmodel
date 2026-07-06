@@ -1,0 +1,42 @@
+slug: jes26-efficacy-and-safety-of-donanemab-in
+fulltext_file: research/metrics/v3/fulltext/jes26.txt
+n_claims_checked: 10
+n_faithful: 9
+claims:
+  - claim_id: "C01"
+    faithful: true
+    note: "Fulltext line 213 gives '-13.0 (0.6) and -10.6 (0.6)' for placebo/donanemab iADRS change at 76 weeks, and line 215 '0.7, 3.9]; p=0.005), representing an 18% (95% CI: 5.2, 30.6) slowing'; Table 2 (line 360) gives 2.32 (0.69, 3.95), p=0.005, 17.9% (5.2, 30.6). All numbers and the 'slowing' (benefit) direction match exactly."
+  - claim_id: "C02"
+    faithful: true
+    note: "Line 220 confirms '-0.7 (95% CI: -1.0, -0.4; p<0.001), with a 28% ... (95% CI: 15.2, 41.3) slowing'; Table 2 (line 361) gives -0.67 (-0.97, -0.37), <0.001, 28.2% (15.2, 41.3). Matches Statement exactly, correct direction (donanemab better = smaller CDR-SB increase)."
+  - claim_id: "C03"
+    faithful: true
+    note: "Lines 266-271 confirm 40.3% lower risk (N=581/174 events donanemab vs N=581/247 events placebo, HR=0.597 [0.5,0.8], p<0.001) and 47.2% reduced progression to CDR-G>=2 (N=565/41 events vs N=567/65 events, HR=0.528 [0.3,0.9], p=0.024); Table 3 (lines 438-445) gives the more precise HR CIs (0.473,0.754) and (0.303,0.919), consistent with rounded text CIs. All numbers and directionality (donanemab reduces risk) match."
+  - claim_id: "C04"
+    faithful: true
+    note: "Lines 234-241 give memory 29.3% (p<0.001), orientation 25.5% (p=0.005), judgement/problem solving 29.9% (p=0.002), home and hobbies 28.1% (p<0.001), personal care 31.4% (p=0.011), and community affairs 16.2% trend not reaching significance -- matches Statement exactly, including the correct non-significant classification of community affairs (p=0.052 per source text elsewhere in that passage)."
+  - claim_id: "C05"
+    faithful: true
+    note: "Lines 273-278 confirm '37% of donanemab-treated participants... clinically stable... at 52 weeks compared with 22%... (p<0.001)' and '25%... versus 18%... had not progressed by 76 weeks (p=0.006)'; Table 3 (lines 450, 455) gives matching n/N and percent estimates. Direction (donanemab = more stability) and all numbers match."
+  - claim_id: "C06"
+    faithful: true
+    note: "Lines 282-284 confirm 'delayed by 4.9 months (95% CI: 3.1, 6.8)' overall and 'an additional 2 months (for a total of 6.9 months [95% CI: 4.9, 8.9])' in the low-medium tau population. Matches Statement's numbers and framing exactly."
+  - claim_id: "C07"
+    faithful: true
+    note: "Lines 290-296 confirm amyloid CFB difference vs placebo of -75.8 CL [-79.4,-72.2] (p<0.001), amyloid clearance rates of 33.5%/69.7%/80.5% at weeks 24/52/76, and P-tau217 CFB difference of -0.20 (-0.22,-0.17); Table 3 (line 466-467) confirms 0/464 (0.0%) vs 363/451 (80.5%) at week 76. All numbers and the reduction/clearance direction match."
+  - claim_id: "C08"
+    faithful: true
+    note: "Lines 308-315 confirm ARIA-E 19.5% (119/609) vs 2.0% (12/603) placebo, symptomatic ARIA-E 4.9% (30/609), serious ARIA-E 1.0% (6/609), ARIA-H 26.4% (161/609) vs 11.1% (67/603); line 251 confirms infusion reactions 8.0% (49) vs 0.2% (1); lines 310-313 confirm '32.0% vs 36.8%' overall-population comparison and 74.8%/94.9% asymptomatic/mild-moderate rates; line 302 and 529 confirm deaths 1.2%/1.3% (7/603, 8/609) with 'no ARIA-related deaths' (line 530: 'Deaths associated with any ARIA... 0, 0'); Table 4 (line 556) confirms Any ARIA 75 (12.4) / 195 (32.0). All numbers and the 'reduced but present' framing match; no inversion or fabrication found."
+  - claim_id: "C09"
+    faithful: false
+    infidelity_type: "polarity_inversion"
+    paper_quote: "After completing donanemab treatment, the rate of amyloid reaccumulation was comparable to that seen with the natural history of the disease [16,17]."
+    note: "The first three sub-claims of C09 (increasing 154-week treatment effect, 29% lower CDR-G progression risk for early-start vs delayed-start, treatment-course-completion framing) are faithfully supported by fulltext lines 392-406. However, the final clause 'amyloid clearance was maintained after treatment completion' has no supporting Sources quote and directly inverts the paper's actual Discussion statement (fulltext lines 421-423, quoted above): the paper says amyloid REACCUMULATES after donanemab is stopped, at a rate comparable to natural, untreated disease progression -- i.e., clearance was NOT maintained, it eroded at a normal (non-accelerated) pace. 'Maintained' and 'reaccumulates' are materially opposite claims about the post-treatment biomarker trajectory, regardless of the pace qualifier. Definitive verdict: the paper supports REACCUMULATION, not maintenance of clearance. This is a polarity_inversion, and also an unsupported_addition in the sense that no Sources bullet in C09 cites this clause at all -- the inversion is the dominant defect."
+  - claim_id: "C10"
+    faithful: true
+    note: "Line 337-344 confirms 'CDR-SB, was 28.2% and 30.8% in the EU-eligible population with and without the hybrid imputation method respectively, compared to 28.9% in the overall TRAILBLAZER-ALZ 2 population'; line 221/275 area confirms 'an 18% to 28% slowing of disease progression... at week 76'; Table 2 (lines 360-364) confirms all five original-vs-conservative rows (iADRS 2.52 vs 2.32; CDR-SB -0.73 vs -0.67; ADAS-Cog13 -1.64 vs -1.37; ADCS-iADL 1.25 vs 1.24; MMSE 0.73 vs 0.61). All numbers match exactly."
+infidelities:
+  - claim_id: "C09"
+    type: "polarity_inversion"
+    paper_quote: "After completing donanemab treatment, the rate of amyloid reaccumulation was comparable to that seen with the natural history of the disease [16,17]."
+    note: "C09's Statement asserts 'amyloid clearance was maintained after treatment completion,' but the paper's Discussion (fulltext lines 421-423) states the opposite: amyloid REACCUMULATES after treatment stops, at a pace comparable to the disease's natural (untreated) history. Reaccumulation at a natural pace is still reaccumulation, not maintenance of clearance -- these are materially different claims about biomarker durability post-treatment. No Sources quote in the claim covers this clause, indicating it was added without textual support and inverts the paper's actual finding."

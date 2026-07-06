@@ -1,0 +1,15 @@
+{
+  "idx": 383,
+  "cite_key": "Mol25",
+  "title": "Systematic review and meta-analysis of rural-urban disparities in Alzheimer’s disease dementia prevalence",
+  "authors": "Abe Mollalo; M. Kramer; Maxwell Cutty; Benyamin Hoseini",
+  "year": "2025",
+  "pub_date": "2025-07-01",
+  "journal": "The Journal of Prevention of Alzheimer's Disease",
+  "abstract": "Background The prevalence of Alzheimer’s disease (AD) dementia varies between rural and urban areas worldwide, with studies reporting mixed patterns. In this study, we conducted a systematic review and meta-analysis to pool the odds ratio (OR) of rural-to-urban prevalence and explored contributing regional and socioeconomic factors. Methods We performed comprehensive searches in PubMed, MEDLINE, CINAHL, Web of Science, and Scopus (January 2000-August 2024) for peer-reviewed studies reporting individual-level AD dementia prevalence comparisons between rural and urban settings. A random-effects model was used to calculate pooled OR at a 95 % confidence interval (CI). Prespecified subgroup analyses examined variations by WHO-defined regions, healthcare expenditure, income level, and educational attainment. Results The meta-analysis incorporated 19 studies (22 datasets, N = 584,863) and found significantly higher AD dementia prevalence in rural areas (pooled OR = 1.247, 95 % CI: 1.059–1.468), with considerable between-study heterogeneity (I2=95.5 %). Regional subgroup analyses revealed marked disparities in the Western Pacific (OR = 1.416, 95 % CI: 1.083–1.851) and Southeast Asia (OR = 1.382, 95 % CI: 1.058–1.805), contrasting with nonsignificant findings in the Americas (OR = 0.989, 95 % CI: 0.785–1.247). Socioeconomic stratification showed pronounced rural disadvantages in: (1) lower healthcare expenditure regions (≤7.5 % GDP: OR = 1.268, 95 % CI: 1.043–1.542) and (2) among lower-middle to upper-middle income countries (OR = 1.260, 95 % CI: 1.030–1.542). This disparity attenuated in high-income settings (OR = 1.206, 95 % CI: 0.979–1.486) and in regions with healthcare expenditure >7.5 % GDP (OR = 1.16, 95 % CI: 0.87–1.53). Educational stratification revealed significant rural-urban disparities in regions with lower educational attainment (≤8.1 mean schooling years: OR=1.43, 95 % CI: 1.15–1.79). In contrast, regions with higher educational attainment (>8.1 years) showed no significant difference (OR=1.05, 95 % CI: 0.89–1.25). Conclusion This review provides useful evidence that AD dementia prevalence is higher in rural areas than in urban areas, particularly in resource-limited settings. Our findings call for targeted rural interventions in vulnerable regions and further research into how healthcare infrastructure and education jointly influence AD dementia disparities.",
+  "citation_count": "11",
+  "citations_per_year": "10.9",
+  "doi": "10.1016/j.tjpad.2025.100305",
+  "url": "https://doi.org/10.1016/j.tjpad.2025.100305",
+  "slug": "mol25-systematic-review-and-meta-analysis-of"
+}

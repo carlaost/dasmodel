@@ -1,0 +1,15 @@
+{
+  "idx": 146,
+  "cite_key": "Afi25",
+  "title": "Vision and convolutional transformers for Alzheimer’s disease diagnosis: a systematic review of architectures, multimodal fusion and critical gaps",
+  "authors": "Ibrahem Afifi; Mostafa Elgendy; M. Abdelfatah; S. El-Sappagh",
+  "year": "2025",
+  "pub_date": "2025-12-17",
+  "journal": "Brain Informatics",
+  "abstract": "Alzheimer’s disease (AD), a significant public health challenge, requires accurate early diagnosis to improve patient outcomes. Vision Transformers (ViTs) and Convolutional Vision Transformers (CViTs) have emerged as powerful Deep Learning architectures for this task. Following PRISMA guidelines, this systematic review analyzes 68 studies selected from 564 publications (2021–2025) across five major databases: Scopus, Web of Science, ScienceDirect, IEEE Xplore, and PubMed. We introduce novel taxonomies to systematically categorize these works by model architecture, data modality, fusion strategy, and diagnostic objective. Our analysis reveals key trends, such as the rise of hybrid CViT frameworks, and critical gaps, including a limited focus on Mild Cognitive Impairment-to-AD progression. Critically, we also assess practical implementation details, revealing widespread challenges in algorithmic reproducibility. The discussion culminates in a forward-looking analysis of Large Vision Models and proposes future directions emphasizing the need for robust multimodal integration, lightweight transformer designs, and Explainable AI to advance AD research and bridge the critical gap between high-performance modeling and clinical applicability.",
+  "citation_count": "5",
+  "citations_per_year": "9.1",
+  "doi": "10.1186/s40708-025-00286-7",
+  "url": "https://doi.org/10.1186/s40708-025-00286-7",
+  "slug": "afi25-vision-and-convolutional-transformers-for-alzheimer"
+}

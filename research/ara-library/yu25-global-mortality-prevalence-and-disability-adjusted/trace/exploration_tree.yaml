@@ -1,0 +1,86 @@
+# Exploration Tree — yu25-global-mortality-prevalence-and-disability-adjusted
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. No dead_end nodes are included because the abstract reports no failed
+# approaches, rejected alternatives, or ablations. Nodes are explicit when the abstract directly
+# states the analysis; decision nodes are inferred only from the abstract's described design.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md — Abstract"]
+    title: "What is the global and regional dementia burden among adults aged 60 years or older?"
+    description: >
+      The study aimed to assess global and regional burden and trends of Alzheimer's disease and
+      other dementias in adults aged 60 years or older from 1990 to 2021, with focus on COVID-19
+      impacts on mortality, prevalence, and DALYs.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        title: "Use GBD 2021 as the analytical source"
+        choice: "Analyze Global Burden of Disease 2021 data for the 1990-2021 period."
+        alternatives:
+          - "Use country-specific surveillance datasets"
+          - "Use a new systematic review or cohort-only dataset"
+        evidence: "The abstract states that the study used GBD 2021 data."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Estimate mortality and prevalence in 2021"
+            result: >
+              The abstract reports substantial 2021 global mortality and prevalence among
+              individuals aged 60 years or older.
+            evidence: [C01]
+
+          - id: N04
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Assess temporal trends from 1990 to 2021"
+            result: >
+              The abstract reports that incidence rates declined from 1990 to 2021 while the overall
+              burden remains substantial.
+            evidence: [C06]
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Identify prominent risk factors"
+            result: "High BMI and High FPG were reported as prominent risk factors."
+            evidence: [C02]
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Compare actual versus expected deaths during COVID-19"
+            result: >
+              The pandemic impacted mortality unevenly, highlighting regional disparities.
+            evidence: [C05]
+
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md — Abstract"]
+            title: "Analyze health inequality across regions"
+            result: "Health inequalities persisted, with higher disease burdens in high-SDI regions."
+            evidence: [C04]
+
+      - id: N08
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md — Abstract"]
+        title: "Project AD cases to 2050 with BAPC techniques"
+        also_depends_on: [N03, N04]
+        result: >
+          Projections suggest a near fourfold increase in AD cases by 2050, driven by population
+          growth and aging, with females disproportionately affected.
+        evidence: [C03, C06]

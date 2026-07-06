@@ -1,0 +1,13 @@
+# Exposure to fibrillar proteins leads to widespread infiltration but only mild tau pathology in cortical organoids
+
+- **Cite key**: Dak26
+- **Authors**: A. Dakhel; T. Mothes; Khalid Eltom; Wojciech Michno; A. Erlandsson
+- **Year**: 2026  (2026-04-01)
+- **Journal**: iScience
+- **DOI**: 10.1016/j.isci.2026.115819
+- **URL**: https://doi.org/10.1016/j.isci.2026.115819
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Summary Alzheimer’s disease (AD) and Parkinson’s disease (PD) are the most common neurodegenerative disorders, both characterized by accumulation of aggregated proteins. In AD, the pathological deposits consist predominantly of amyloid-beta (Aβ) and tau, while alpha-synuclein (αSYN) forms inclusions in PD. However, cross-seeding often generates mixed pathologies. Emerging evidence suggests a role of astrocytes in disease spreading, but the underlying mechanisms remain unclear, partly due to limitations of mouse models in replicating early human disease. To address this, we developed a human cerebral organoid platform to study early sporadic AD/PD events. We introduced fibrillar aggregates of αSYN, Aβ, and tau directly into organoids or via astrocytes pre-exposed to the aggregates. All proteins successfully penetrated the organoids with distinct morphology and distribution patterns. Twelve weeks post-exposure, organoids exposed to Aβ or αSYN-containing astrocytes showed the highest insoluble tau levels, but none developed robust tau pathology, highlighting limitations in organoid modeling of tau pathology.

@@ -1,0 +1,127 @@
+# Exploration Tree — als26-early-onset-alzheimer-s-disease-mortality
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only compile. The full text (Methods/Results narrative that would record the
+# actual research trajectory) was unavailable. This tree RECONSTRUCTS the study's analytic logic from
+# the published abstract. The root research question is `inferred`; the design decisions and analyses
+# are `explicit` (each stated in the abstract's Methods/Results), with source_refs to the abstract.
+# No dead_end nodes are included: the abstract reveals no failed approach or rejected alternative, and
+# fabricating one would violate Compiler Rule 9.
+
+tree:
+  - id: N01
+    type: question
+    support_level: inferred
+    source_refs: ["Abstract (Background/Objective)"]
+    title: "What are the population-level trends and demographic disparities in EOAD mortality in the US, 2015-2024?"
+    description: "Reconstructed driving question. The abstract's Objective states the aim to examine demographic disparities and trends in EOAD mortality; population-level data were described as limited."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Abstract (Methods)"]
+        title: "Use CDC WONDER national death-certificate data as the data source"
+        choice: "Query CDC WONDER US mortality data (2015-2024)."
+        alternatives:
+          - "Other administrative/registry sources (not used)"
+          - "Primary cohort data collection (infeasible for national trends)"
+        evidence: "Abstract: 'We analyzed US mortality data from the CDC WONDER, 2015-2024.'"
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Abstract (Methods)"]
+            title: "Define EOAD deaths by ICD-10-CM G30.0 as underlying cause of death"
+            choice: "Case = G30.0 recorded as underlying cause of death (UCD)."
+            alternatives:
+              - "Multiple/contributing-cause coding (broader, less specific)"
+              - "Unspecified AD codes (G30.9) — not used"
+            evidence: "Abstract: identified EOAD as the UCD using ICD-10-CM code G30.0."
+            children:
+
+              - id: N04
+                type: decision
+                support_level: explicit
+                source_refs: ["Abstract (Methods)"]
+                title: "Use age-adjusted mortality rate (AAMR) per 1,000,000 as the outcome"
+                choice: "Extract AAMRs per 1,000,000 population from CDC WONDER."
+                alternatives:
+                  - "Crude mortality rate (confounded by age structure)"
+                  - "Raw death counts (not comparable across groups)"
+                evidence: "Abstract: 'Age-adjusted mortality rates (AAMRs) per 1,000,000 population were extracted.'"
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract (Methods/Results)"]
+                    title: "Estimate the temporal EOAD mortality trend via Joinpoint regression"
+                    result: "Reported EOAD AAMR rose from 0.14 to 2.59 per 1,000,000 (2015->2024), annual percent change +19.96%."
+                    evidence: [C01]
+
+              - id: N06
+                type: decision
+                support_level: explicit
+                source_refs: ["Abstract (Methods)"]
+                title: "Quantify demographic disparities using rate ratios (RR) of AAMRs"
+                choice: "Compare subgroup AAMRs via rate ratios with 95% confidence intervals."
+                alternatives:
+                  - "Absolute rate differences only"
+                  - "Unadjusted count comparisons"
+                evidence: "Abstract: 'demographic disparities were analyzed and compared using rate ratios (RR) of AAMRs.'"
+                children:
+
+                  - id: N07
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract (Results)"]
+                    title: "Sex disparity: female vs male EOAD mortality"
+                    result: "Females had higher mortality than males (RR = 1.50, 95% CI 1.40-1.59); 63.7% of 4890 deaths female."
+                    evidence: [C02]
+
+                  - id: N08
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract (Results)"]
+                    title: "Racial/ethnic disparity in EOAD mortality"
+                    result: "Non-Hispanic White individuals exhibited the highest EOAD mortality rates."
+                    evidence: [C03]
+
+                  - id: N09
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract (Results)"]
+                    title: "Regional disparity in EOAD mortality"
+                    result: "Residents of the Midwest exhibited the highest EOAD mortality rates."
+                    evidence: [C04]
+
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract (Results)"]
+                title: "Describe the age-at-death distribution of EOAD decedents"
+                result: "Mean age at death 69.8 years; greatest number of deaths in the 65-74 age band."
+                evidence: [C05]
+
+              - id: N11
+                type: decision
+                support_level: explicit
+                source_refs: ["Abstract (Methods)"]
+                title: "Add a sensitivity analysis comparing EOAD (G30.0) with late-onset AD (G30.1)"
+                choice: "Extract G30.1 (LOAD) trends in parallel as an internal comparator."
+                alternatives:
+                  - "No comparator (cannot separate EOAD-specific signal from general AD-coding drift)"
+                evidence: "Abstract: 'Sensitivity analysis compared EOAD trends with late-onset Alzheimer's disease (G30.1).'"
+                children:
+
+                  - id: N12
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract (Results)"]
+                    title: "Compare EOAD vs LOAD mortality increase"
+                    also_depends_on: [N05]
+                    result: "The increase in late-onset AD mortality was lower than that of EOAD, supporting an EOAD-specific rise."
+                    evidence: [C06]

@@ -1,0 +1,95 @@
+{
+  "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+  "genre": "systematic_review_meta_analysis",
+  "genre_source": "gold",
+  "coarse": "SYNTHESIS",
+  "n_claims": 7,
+  "n_experiments": 4,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_trials": 0
+  },
+  "abstract_bound": true,
+  "extractive_fidelity": {
+    "value": "unverifiable",
+    "validity": "abstract_bound",
+    "n_claims_checked": 0,
+    "n_faithful": 0,
+    "infidelities": [],
+    "detail": "the25-blood-phosphorylated-tau-for-the-diagnosis has no full text on disk (fulltext/coverage.md: paywalled / no PMC route / no reachable OA or author copy). Its logic/claims.md was compiled from the abstract alone, so its load-bearing numbers and claim direction cannot be checked against a source paper that isn't available here. Per compiler-model.md, an ARA in this state is unverifiable against the paper \u2014 not assumed faithful by default."
+  },
+  "fidelity_hard_fail": false,
+  "rank_eligible": false,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/5 rw_blocks qualify (1 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.0,
+      "validity": "pending_sem",
+      "n_negative": 0,
+      "detail": "no semantic nulls, refuted claims, or genuine dead-ends found"
+    },
+    "dead_end_density": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_genuine": 0,
+      "n_synthetic": 1,
+      "source_binding_ratio": 0.0,
+      "detail": "N10: synthetic (support_level='inferred' (need explicit); source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt))"
+    },
+    "translation_trial_linkage": {
+      "value": 0.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [],
+        "verified": [],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": 0.773,
+      "validity": "judge_scored",
+      "detail": "17/22 (number,quote) findings pass string_present \u2227 verdict==supports \u2227 value_match\u2208{exact,rounded,derived} \u2227 polarity_ok \u2227 context_match, scored deterministically from the frozen logic/grounding_findings.yaml (a prior [sem] pass's output -- this module does not itself call an LLM, so self-grading is avoided by construction)."
+    },
+    "novel_claim_count": {
+      "value": 2.0,
+      "validity": "pending_sem",
+      "verdict_counts": {
+        "novel": 2,
+        "incremental": 4,
+        "restatement": 1
+      },
+      "detail": "2/7 claims judged genuinely novel (within-ARA judge approximation only; real D4 needs cross-library FOL-dedup of Claim.original against the oshima store, not available on this corpus); verdict breakdown: {'novel': 2, 'incremental': 4, 'restatement': 1} (frozen judge findings, the25-blood-phosphorylated-tau-for-the-diagnosis.yaml)."
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.859,
+    "components": {
+      "grounding_trust": 1.0,
+      "environment_completeness": 1.0,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": 0.4682,
+      "gate_pass_ratio": 1.0
+    },
+    "gates": {
+      "seal_L1": true,
+      "all_links_resolve": true,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": true
+    },
+    "falsification_writing_quality_reportonly": 0.1429,
+    "grounding_detail": {
+      "value": 1.0,
+      "trust_class": "self_contained",
+      "self_contained_ratio": 1.0,
+      "coverage": 22,
+      "detail": "quotes_present=22, checkable=22 (in-repo .md pointer), unverifiable=0 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=22, quote_not_found_extraction=0 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=self_contained."
+    },
+    "low_trust": false
+  }
+}

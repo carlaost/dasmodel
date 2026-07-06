@@ -1,0 +1,68 @@
+# Exploration Tree — smi25-contribution-of-modifiable-midlife-and-late
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. No full text was provided, so the tree is intentionally small and
+# source-bounded. No dead_end nodes are included because the abstract reports no failed attempts,
+# rejected analyses, or ablations.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:17-18"]
+    title: "What proportion of incident dementia is attributable to modifiable vascular risk factors?"
+    description: >
+      The objective is to quantify the proportion of incident dementia attributable to modifiable
+      vascular risk factors measured in midlife and late life, and to examine differences by APOE e4
+      genotype, self-reported race, and sex.
+    children:
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:21-22", "metadata.md:29-34"]
+        title: "Estimate by-age-80 attributable fractions across age windows"
+        result: >
+          The abstract reports nonzero and sizeable attributable fractions for dementia by age 80
+          across the three risk-factor measurement windows.
+        evidence: [C01, C02]
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md:33-34"]
+            title: "Evaluate subgroup differences in attributable fractions"
+            result: >
+              The abstract reports higher attributable fractions in APOE e4 noncarriers, Black
+              individuals, and female individuals for the specified age ranges.
+            evidence: [C03]
+
+      - id: N04
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md:29-34"]
+        title: "Estimate attributable fractions after age 80"
+        result: >
+          The abstract reports much smaller attributable fractions for dementia cases occurring
+          after age 80.
+        evidence: [C04]
+
+  - id: N05
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md:37-38"]
+    title: "Could maintaining optimal vascular health mitigate dementia risk by age 80?"
+    description: >
+      The conclusion frames the result as potentially actionable under an explicit causal
+      assumption.
+    children:
+      - id: N06
+        type: pivot
+        support_level: inferred
+        title: "From attributable-fraction estimation to causal public-health interpretation"
+        from: "Estimating population attributable fractions in observational ARIC data"
+        to: "Interpreting optimal vascular health as a possible dementia-risk mitigation target"
+        trigger: >
+          The conclusion states that, assuming causal relationships, maintaining optimal vascular
+          health could mitigate a sizeable proportion of dementia risk by age 80.
+        evidence: [C01]

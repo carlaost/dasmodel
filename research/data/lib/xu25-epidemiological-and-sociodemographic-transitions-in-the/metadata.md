@@ -1,0 +1,13 @@
+# Epidemiological and sociodemographic transitions in the global burden and risk factors for Alzheimer's disease and other dementias: a secondary analysis of GBD 2021
+
+- **Cite key**: Xu25
+- **Authors**: Changqing Xu; Chuan-ya Jiang; Xiaoxue Liu; Wenqi Shi; Jianjun Bai; S. Mubarik; Fang Wang
+- **Year**: 2025  (2025-05-24)
+- **Journal**: International Journal for Equity in Health
+- **DOI**: 10.1186/s12939-025-02530-2
+- **URL**: https://doi.org/10.1186/s12939-025-02530-2
+- **Citations**: 10 (9.0/yr)
+
+## Abstract
+
+The study aimed to analyze the long-term trends in the global burden of Alzheimer's disease and other dementias(ADOD) in different regions, and assess the association between socio-demographic index(SDI) and disease burden. We extracted data on the incidence, mortality, disability-adjusted life-years(DALYs), and age-standardized rates related to ADOD, as disease burden measures from 1990 to 2021. The joinpoint regression, quantile regression and restricted cubic splines were adopted to estimate the temporal trends and relationships with SDI. Risk factors for deaths and DALYs were also analyzed. Globally, 9.84 million cases of ADOD occurred in 2021, with 1.95 million ADOD-related deaths, causing 36.33 million DALYs. ADOD incidence, mortality and DALYs all increased from 1990 to 2021. Regional and sex variations persisted, with the fastest increase in age-standardized death rate in low-middle SDI quintiles, experienced the highest estimated annual percentage changes (0.41[0.31,0.52]). The incidence of ADOD increased more rapidly as SDI increased in areas that have historically shown lower incidence compared to other areas. In regions with higher mortality or DALYs burden, these indicators decreased relatively faster as SDI increased. High fasting plasma glucose was the main risk factor, particularly in high SDI region, with an increasing trend in attributable burden. The burden attributable to high BMI was increasing, whereas the burden associated with smoking steadily decreased. ADOD poses a significant and escalating challenge to healthcare sustainability, with persistent regional and gender disparities. By learning from successful ADOD management in certain nations, we can proactively reduce health burdens and bridge disparities between countries at various developmental levels.

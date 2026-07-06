@@ -1,0 +1,13 @@
+# The concurrent burden of Alzheimer’s pathology, cerebral amyloid angiopathy, and microinfarcts on cognitive decline
+
+- **Cite key**: You26
+- **Authors**: Mingyao You; Chao Tang; Lian Liu; Dengpeng Chen; Yillin Wu; Dian He
+- **Year**: 2026  (2026-04-16)
+- **Journal**: The Journal of Prevention of Alzheimer's Disease
+- **DOI**: 10.1016/j.tjpad.2026.100568
+- **URL**: https://doi.org/10.1016/j.tjpad.2026.100568
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+Background Alzheimer’s disease (AD) is frequently complicated by vascular co-morbidities. However, the specific mechanistic pathways by which vascular lesions interact with genetic susceptibility to accelerate cognitive decline remain unclear. This study investigated whether cerebral amyloid angiopathy (CAA) and cortical microinfarcts mediate the impact of AD pathology on cognition and evaluated the modifying role of APOE genotype. Methods We conducted a retrospective clinico-pathological study using the National Alzheimer’s Coordinating Center (NACC) database. The cohort included autopsy-confirmed participants aged 50 and older. Structural Equation Modeling (SEM) was employed to quantify the pathways linking AD pathology (Thal phase) to CAA severity, microinfarcts, and cognitive performance (CDR-Sum of Boxes). We further assessed the cumulative burden of pathology by comparing "Pure AD" cases against those with a "Triple Hit" of AD, CAA, and microvascular injury. Results SEM analysis identified a significant statistical mediation pathway wherein parenchymal amyloid is strongly associated with CAA, which correlates with an increased risk of microinfarcts and subsequent cognitive dysfunction. We observed a significant gene-pathology interaction: APOE ε4 carriers demonstrated a steeper trajectory of cognitive decline for a given severity of CAA compared to non-carriers. Furthermore, the "Triple Hit" group exhibited significantly worse cognitive impairment than the "Pure AD" group (P < 0.001), independent of age and education. Conclusions Vascular pathology is a critical mediator of cognitive failure in AD, particularly in APOE ε4 carriers. The concurrent "Triple Hit" of proteinopathy and vasculopathy is associated with a profound failure of cognitive reserve, likely reflecting a more advanced global disease state. These findings highlight the urgent need to target vascular resilience as a disease-modifying strategy in Alzheimer’s disease.

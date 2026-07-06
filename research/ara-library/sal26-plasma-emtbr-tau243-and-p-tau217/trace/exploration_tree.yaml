@@ -1,0 +1,112 @@
+# Exploration Tree — sal26-plasma-emtbr-tau243-and-p-tau217
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. The full text was unavailable at compile time, so this tree is a
+# reconstruction of the study's logic from the published abstract (Key Points) + verified metadata.
+# Almost every node is therefore support_level: inferred. Nodes marked explicit cite the abstract.
+# No dead_end, decision, or experiment node is invented beyond what the abstract states or directly
+# implies (compiler Rule 9).
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract — Key Points: Question (metadata.md)"]
+    title: "Can plasma %p-tau217 + eMTBR-tau243 approximate a PET-based AD biological staging scheme?"
+    description: >
+      Central question stated verbatim in the abstract: whether plasma %p-tau217 and eMTBR-tau243 can
+      be combined to approximate an amyloid- and tau-PET–based Alzheimer disease biological staging
+      scheme.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: inferred
+        title: "Use amyloid+tau PET biological staging as the reference standard"
+        choice: "Define the target as concordance with a PET-based amyloid/tau biological staging scheme"
+        alternatives:
+          - "Use clinical diagnosis as the target label"
+          - "Use CSF-based staging as the reference standard"
+        evidence: "Abstract frames the plasma model as approximating a PET-based staging scheme."
+        children:
+
+          - id: N03
+            type: decision
+            support_level: inferred
+            title: "Combine two plasma markers rather than rely on %p-tau217 alone"
+            choice: "Model uses %p-tau217 + eMTBR-tau243 (combined model), with %p-tau217-only as baseline"
+            alternatives:
+              - "%p-tau217 alone"
+              - "eMTBR-tau243 alone"
+            evidence: "Abstract reports a combined model and a %p-tau217-only comparison model."
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["Abstract — Findings (metadata.md)"]
+                title: "Evaluate concordance of the combined plasma model with PET staging in BioFINDER-2"
+                result: >
+                  In 872 BioFINDER-2 participants, the combined plasma model showed strong concordance
+                  with PET-based biological staging. (Exact concordance statistic not available from
+                  provided input — no full text.)
+                evidence: [C01]
+                children:
+
+                  - id: N05
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract — Findings (metadata.md)"]
+                    title: "Compare combined model vs %p-tau217-only model"
+                    result: >
+                      The combined model outperformed the %p-tau217-only model, particularly for
+                      identifying the intermediate tau stage. (Exact margin not available — no full text.)
+                    evidence: [C02]
+
+                  - id: N06
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract — Findings (metadata.md)"]
+                    title: "Independent external validation in Knight ADRC"
+                    also_depends_on: [N05]
+                    result: >
+                      Findings held in 156 independent Knight ADRC participants (abstract reports the
+                      combined-model results across both cohorts). Cohort-specific statistics not
+                      available from provided input.
+                    evidence: [C01, C02]
+
+                  - id: N07
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Abstract — Findings (metadata.md)"]
+                    title: "Relate plasma stage to clinical severity, other biomarkers, and neuropathology"
+                    result: >
+                      Advanced plasma stages aligned with greater clinical severity, other biomarker
+                      abnormalities, and neuropathologic burden. (Exact associations not available — no
+                      full text.)
+                    evidence: [C03]
+
+      - id: N08
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Abstract — Findings (metadata.md)"]
+        title: "Single-marker (%p-tau217-only) staging is insufficient at the intermediate tau stage"
+        hypothesis: "Plasma %p-tau217 alone could approximate the full PET-based biological staging scheme."
+        failure_mode: >
+          The %p-tau217-only model was outperformed by the combined model, particularly for
+          identifying the intermediate tau stage — i.e., it under-resolves the intermediate tau stage.
+        lesson: >
+          A second, tau-aggregation–sensitive marker (eMTBR-tau243) is needed to resolve the
+          intermediate tau stage; this motivated the combined two-marker model.
+
+      - id: N09
+        type: pivot
+        support_level: inferred
+        title: "From concordance validation to proposed clinical utility"
+        from: "Demonstrating plasma-PET staging concordance"
+        to: "Proposing plasma staging for treatment selection and clinical trial enrichment"
+        trigger: >
+          Strong concordance plus alignment of advanced stages with clinical/pathologic severity
+          motivated the forward-looking 'Meaning' claim of scalable, minimally invasive stratification.
+        evidence: [C04]

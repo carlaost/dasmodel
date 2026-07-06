@@ -1,0 +1,65 @@
+# Exploration Tree — xu25d-global-incidence-trends-and-projections-of
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. The tree is source-bounded and contains no invented dead_end nodes.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract — Background"]
+    title: "How have global Alzheimer disease and other dementia incidence patterns changed, and what is projected next?"
+    description: >
+      The abstract frames Alzheimer disease as a growing global health issue with incidence varying
+      by gender, age, and region, and motivates understanding trends for prevention strategies.
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["metadata.md Abstract — Methods"]
+        title: "Use GBD 2021 as the global incidence data source"
+        choice: "Analyze data from 204 countries and 21 global regions from the GBD 2021 database."
+        alternatives:
+          - "Not available from provided input"
+        evidence: "The abstract directly names GBD 2021, 204 countries, and 21 global regions."
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract — Methods and Results"]
+            title: "Apply APC to historical incidence trends"
+            result: >
+              Global cases increased during 1992-2021 while global ASIR changed only slightly.
+            evidence: [C01]
+            children:
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract — Results"]
+                title: "Compare incidence patterns by SDI region and sex"
+                result: >
+                  ASIR increased in high-middle and middle-SDI regions, declined in low-SDI regions,
+                  and women had higher incidence rates than men across all regions.
+                evidence: [C02, C03]
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract — Methods and Results"]
+            title: "Apply BAPC to forecast future incidence"
+            also_depends_on: [N03]
+            result: >
+              The abstract reports projected 2036 global cases and ASIR.
+            evidence: [C04]
+            children:
+              - id: N06
+                type: pivot
+                support_level: explicit
+                source_refs: ["metadata.md Abstract — Conclusions"]
+                title: "From incidence estimates to public-health priorities"
+                from: "Describing historical and projected incidence burden"
+                to: "Prioritizing early diagnosis, targeted interventions, and health-care inequality reduction"
+                trigger: >
+                  The conclusions attribute rising cases to population ageing and cite low-income
+                  resource limits, gender disparities, and unequal health-care access.
+                evidence: [C05]

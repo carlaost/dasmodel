@@ -1,0 +1,15 @@
+{
+  "idx": 326,
+  "cite_key": "Kyn26",
+  "title": "Geographic Variation in ADRD Prevalence and Mortality and Their Association with Social Vulnerability across US Counties: A Spatial Epidemiological Analysis Using NORC and CDC SVI Data",
+  "authors": "Dean Kyne",
+  "year": "2026",
+  "pub_date": "2026-04-02",
+  "journal": "Dementia and Geriatric Cognitive Disorders EXTRA",
+  "abstract": "Abstract Introduction Geographic disparities in Alzheimer’s disease and related dementias (ADRDs) remain insufficiently understood at the national scale, limiting efforts to address inequities in dementia burden across USA communities. This study examined county-level variation in ADRD prevalence and mortality and evaluates the association between social vulnerability and these outcomes. Methods This cross-sectional ecological study analyzes 2020 county-level ADRD prevalence and all-cause mortality among Medicare beneficiaries from the NORC Dementia DataHub. The analytic sample included 3,108 USA counties in the contiguous USA and the District of Columbia. ADRD outcomes included (1) prevalence of highly likely ADRD and (2) prevalence of all determinations, as defined in NORC’s validated case-classification algorithm using Medicare administrative claims. Mortality was defined as 2020 all-cause deaths among prevalent ADRD cases. Social vulnerability was measured using the CDC/ATSDR Social Vulnerability Index (SVI), including overall SVI and its four domains. Hotspot analysis using Getis-Ord Gi* identified spatial clusters. Multiscale geographically weighted regression (MGWR) estimates spatially varying associations between SVI and ADRD prevalence and mortality, reported with 95% confidence intervals (CIs). Results Counties had a mean prevalence of 65.3 per 1,000 (SD 15.5) for highly likely ADRD and 123.5 per 1,000 (SD 27.0) for all determinations. The mean all-cause mortality rate among ADRD cases was 22.1 per 1,000 (SD 6.6). Hotspot analysis revealed significant high-prevalence and high-mortality clusters in the South, with cold spots in the Mountain West and Upper Midwest. MGWR results indicate that higher county-level social vulnerability was significantly associated with higher ADRD prevalence (overall β range ≈ 0.42–1.87; 95% CI: 0.31–1.98) and mortality (β range ≈ 0.55–2.12; 95% CI: 0.44–2.26), with the strongest, most spatially consistent effects observed for mortality. The magnitude and direction of associations varied regionally, with the largest positive effects in the South, Southwest, and West. Discussion Substantial geographic disparities exist in ADRD prevalence and mortality, with disproportionately higher burdens in socially vulnerable counties. Social vulnerability, particularly socioeconomic disadvantage, is strongly and spatially heterogenously associated with ADRD outcomes, underscoring the importance of targeted public health and policy interventions in high-burden, high-vulnerability regions.",
+  "citation_count": "0",
+  "citations_per_year": "0.0",
+  "doi": "10.1159/000550830",
+  "url": "https://doi.org/10.1159/000550830",
+  "slug": "kyn26-geographic-variation-in-adrd-prevalence-and"
+}

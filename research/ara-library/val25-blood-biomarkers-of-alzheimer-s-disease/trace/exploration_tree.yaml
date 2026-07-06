@@ -1,0 +1,165 @@
+# Exploration Tree — Blood biomarkers of Alzheimer's disease and progression
+# across different stages of cognitive decline in the community (Valletta et al. 2025)
+# Reconstructs the study's analytic sequence and documented modeling decisions from
+# the paper's Results/Methods text. This is an original cohort study, not a synthesis
+# report: it documents explicit methodological decisions and one clear attenuation/
+# null-result pattern, but the paper does not describe any wholly rejected/failed
+# analytic approach — so no fabricated dead ends are added beyond what the text
+# itself reports as an attenuated or null finding (Rule 9). Node types:
+# question | experiment | decision | pivot | dead_end.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["p.1-2 Introduction", "p.2 'We aimed to investigate...'"]
+    title: "How do baseline AD blood biomarker levels relate to transitions across normal cognition, MCI, and dementia in a community-dwelling population followed up to 16 years?"
+    description: "Central driver: prior evidence on AD blood biomarkers came from specialized clinical cohorts (prediction of dementia) or from community cohorts predicting dementia onset from cognitively unimpaired baseline; the transition structure across intermediate MCI states in the community was unexamined."
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.6 Study population", "Table 1", "Supplementary Fig S2 (not in provided input)"]
+        title: "Assemble the SNAC-K analytic cohort and characterize baseline sample"
+        result: "3363 baseline enrollees -> 3123 dementia-free -> 2290 with biomarker data -> 2148 analytic sample after excluding 142 (6.2%) dropouts; 17.7% had MCI at baseline; participants excluded for missing biomarkers were older, less educated, more comorbid."
+        evidence: [C01]
+
+      - id: N03
+        type: decision
+        support_level: explicit
+        source_refs: ["p.7 Statistical analysis"]
+        title: "Choice of statistical model: four-state multistate Markov model vs. simpler transition-specific Cox models"
+        choice: "Fit a single parametric four-state multistate Markov model (NC, MCI, dementia, death-absorbing) with Gompertz baseline hazard and age as time scale, jointly estimating all transitions and handling interval censoring."
+        alternatives:
+          - "Separate Cox proportional-hazards models per transition (would not naturally accommodate the reversible MCI<->NC transition or interval-censored/unknown-state observations)."
+        evidence: "Motivated by the need to model MCI<->NC reversibility, disallow direct NC->dementia transitions, and account for participants of uncertain intermediate state between visits (p.7)."
+
+      - id: N04
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Individual blood biomarkers...'", "Figure 1", "p.3"]
+        title: "Model continuous (spline) biomarker-transition associations"
+        result: "Elevated levels of all biomarkers except Aβ42/40 associated with faster, non-linear MCI->all-cause/AD dementia progression; elevated GFAP also associated with lower MCI->NC reversion hazard; no biomarker associated with NC->MCI."
+        evidence: [C02, "Figure 1"]
+        children:
+
+          - id: N05
+            type: decision
+            support_level: explicit
+            source_refs: ["Fig. 1 caption p.3"]
+            title: "Functional form for continuous biomarkers: restricted cubic splines vs. linear term"
+            choice: "Model z-scored biomarkers with restricted cubic splines (3 knots at 25th/50th/75th percentiles), median as reference, allowing non-linear HR curves."
+            alternatives:
+              - "A single linear HR per unit z-score increase (would miss the U-shaped/plateauing patterns visible in Fig. 1, e.g. Aβ42/40's non-monotonic MCI->dementia curve)."
+            evidence: "Explicit modeling choice stated in the Fig. 1 caption; the resulting curves (Fig. 1) are visibly non-linear for several biomarkers (see evidence/figures/figure1.md)."
+
+      - id: N06
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Similar results were obtained...'", "Table 2", "p.4"]
+        title: "Model dichotomized (predefined cut-off) biomarker-transition associations, basic + fully adjusted"
+        result: "NfL and p-tau217 showed the strongest MCI->dementia associations (basic model), followed by GFAP; a lower Aβ42/40 ratio also associated with faster progression; high p-tau181/NfL/GFAP associated with lower MCI-reversion hazard; no biomarker associated with NC->MCI in either adjustment tier."
+        evidence: [C03, C05, C06, "Table 2"]
+        children:
+
+          - id: N07
+            type: decision
+            support_level: explicit
+            source_refs: ["p.6 Methods, 'Blood biomarkers of Alzheimer's disease'"]
+            title: "Source of dichotomization cut-offs: import from prior study vs. re-derive in this sample"
+            choice: "Import fixed high/low cut-offs derived in a prior study (Grande et al., ref. 9) via bootstrapped (5000-iteration) Youden's-index optimization on an 80/20 train/test split for 10-year all-cause dementia prediction."
+            alternatives:
+              - "Re-derive cut-offs within the current follow-up sample/outcome set (would risk overfitting cut-offs to the very transitions being tested)."
+            evidence: "Explicit in Methods; cut-off values given in Table 2 footnote (0.057 Aβ42/40; 1.512 p-tau181; 0.134 p-tau217; 0.832 t-tau; 20.171 NfL; 142.515 GFAP)."
+
+          - id: N08
+            type: dead_end
+            support_level: explicit
+            source_refs: ["p.2 Results, 'After further adjustment for chronic diseases...'", "Table 2 p-tau181 row"]
+            title: "p-tau181-MCI-reversion association does not survive full comorbidity adjustment"
+            description: "The p-tau181 <-> MCI-reversion association, significant in the basic model (HR 0.50, 95% CI 0.30-0.84), became non-significant after adjusting for chronic kidney disease, heart disease, cerebrovascular disease, anemia, and obesity (HR 0.60, 95% CI 0.32-1.13), though the point estimate was similar. Treated as a genuine attenuation rather than a robust finding."
+            evidence: [C04]
+
+      - id: N09
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Combinations of blood biomarkers...'", "Figure 2", "p.4-5"]
+        title: "Model hazard as a function of the count of elevated biomarkers (p-tau217, NfL, GFAP)"
+        result: "MCI->all-cause dementia hazard rose with number of elevated biomarkers (HR 2.22, 1.50-3.28 for three vs none); AD dementia HR 3.71 (2.22-6.20) for three vs none; MCI->NC reversion hazard fell (HR 0.26, 0.11-0.61 for three vs none, ~70% lower); no association with NC->MCI."
+        evidence: [C07, "Figure 2"]
+        children:
+
+          - id: N10
+            type: decision
+            support_level: explicit
+            source_refs: ["p.2 Results, 'Since p-tau217, NfL, and GFAP showed the strongest associations...'"]
+            title: "Which biomarkers to combine into a count/composite: 3 strongest vs. all 6"
+            choice: "Restrict the combination analysis to the three univariately strongest markers (p-tau217, NfL, GFAP) rather than all six biomarkers."
+            alternatives:
+              - "Combine all six biomarkers into a single composite/count (would dilute signal with the weak Aβ42/40 and more modest t-tau/p-tau181 associations)."
+            evidence: "Explicit rationale given in Results: markers selected because they 'showed the strongest associations with our outcomes' in the univariate analyses (N04/N06)."
+            also_depends_on: [N04, N06]
+
+      - id: N11
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Considering pairs of biomarkers...'", "p.5"]
+        title: "Model hazard by pairwise cross-classification of p-tau217 and NfL"
+        result: "Fastest MCI->dementia progression in individuals with both p-tau217 and NfL elevated (all-cause dementia HR 2.29, 1.62-3.24; AD dementia HR 3.07, 2.04-4.60, vs. low/low reference), exceeding either single-marker-elevated group."
+        evidence: [C08]
+        also_depends_on: [N09]
+
+      - id: N12
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Subgroup and sensitivity analyses'"]
+        title: "Age-stratified subgroup analysis (<78 vs >=78 years)"
+        result: "Associations with MCI->dementia progression slightly stronger under age 78; MCI-reversion results mixed across age strata (exact values in Supplementary Tables S2-S3, not in provided input)."
+        evidence: [C09]
+        also_depends_on: [N06]
+
+      - id: N13
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Sex-stratiﬁed analyses...'", "p.5 Discussion"]
+        title: "Sex-stratified subgroup analysis"
+        result: "Numerically stronger MCI->all-cause-dementia associations in women, but the authors explicitly caveat that overlapping confidence intervals preclude a definitive sex-difference conclusion (exact values in Supplementary Tables S4-S5, not in provided input)."
+        evidence: [C10]
+        also_depends_on: [N06]
+
+      - id: N14
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Most results remained consistent after excluding...'"]
+        title: "Sensitivity analysis excluding participants with baseline MCI"
+        result: "Most results consistent; p-tau181 (MCI->dementia) and NfL/GFAP (MCI reversion) associations attenuated to non-significance, though point estimates remained similar (exact values in Supplementary Tables S6-S7, not in provided input)."
+        evidence: [C11]
+        also_depends_on: [N06, N08]
+
+      - id: N15
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'Sensitivity analyses using inverse probability weighting...'"]
+        title: "Sensitivity analysis using inverse probability weighting (IPW) for attrition"
+        result: "IPW-weighted estimates consistent with the main (unweighted) results (exact values in Supplementary Tables S8-S9, not in provided input)."
+        evidence: [C12]
+        also_depends_on: [N06]
+
+      - id: N16
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results, 'When applying cognitive impairment no dementia (CIND) operationalization...'"]
+        title: "Sensitivity analysis substituting CIND for MCI operationalization"
+        result: "Results comparable to those obtained with the MCI definition (underlying data stated as available upon request, not in provided input)."
+        evidence: [C13]
+        also_depends_on: [N06]
+
+      - id: N17
+        type: experiment
+        support_level: explicit
+        source_refs: ["p.2 Results (continuous)", "p.2 Results (dichotomized)", "p.5 Results (combination)"]
+        title: "Test for association between biomarkers (individually, dichotomized, and combined) and progression from normal cognition to MCI"
+        result: "Null across every analytic specification: no continuous-spline, no dichotomized single-biomarker, and no biomarker-count-combination association with NC->MCI transition — the paper's consistent negative finding, interpreted as biomarkers being uninformative for detecting incipient MCI in cognitively unimpaired community members."
+        evidence: [C05, C07]
+        also_depends_on: [N04, N06, N09]

@@ -1,0 +1,28 @@
+# Developing An Integrated Care Pathway (ICP) For Lewy Body Dementia In Ireland
+
+- **Cite key**: Ler25
+- **Authors**: I. Leroi; S. Timmons; Aoife O'Brien; Jayne Conlon; I. Kinchin; Loredana Frau; Anusha Yasoda-Mohan; Patrick Chirilele; S. Thomas
+- **Year**: 2025  (2025-12-01)
+- **Journal**: Age and Ageing
+- **DOI**: 10.1093/ageing/afaf318.015
+- **URL**: https://doi.org/10.1093/ageing/afaf318.015
+- **Citations**: 0 (0.0/yr)
+
+## Abstract
+
+'
+ 
+ 
+ It is estimated that fewer than 5% of people with LBD (Lewy body dementia) in Ireland receive a formal diagnosis and many are misdiagnosed or have delayed diagnosis, leading to poorer outcomes. This study aimed to develop a nationally agreed integrated care pathway (ICP), co-produced with service users and fully integrated into existing/developing pathways and services. This would map patient care from initial presentation to end of life, to enhance healthcare quality, coordination, efficiency and patient satisfaction.
+ 
+ 
+ 
+ Guided by an ICP expert, a multi-stakeholder team (including service users and families), we co-produced the ICP, linked to ongoing policy and service development through Ireland’s National Dementia Service, and incorporating the DIAMOND Lewy diagnostic-management framework, adapted for Ireland. Consensus and expert opinion was gained through iterative steps, including: (1) Preliminary pathway development - to identify key care to be delivered and map care flows and activity; (2) Systematic problem identification - to understand people with LBD’s priority care elements, and most concerning problem areas; and (3) Pathway refinement - to obtain expert panel input using a modified Delphi iterative review process.
+ 
+ 
+ 
+ The developed ICP is aligned with Ireland’s developing network of memory, movement disorder, and related health services and designed to reduce unwarranted variation and improve the quality of service/support for people with LBD and their families. It enables health care services to scope service provision gaps, making explicit, at a system level, the services required to effectively manage LBD.
+ 
+ 
+ 
+ The ICP will be the basis to improve diagnosis and care for people with LBD in Ireland. Next steps involve structured implementation, and evaluation, across health services in Ireland.

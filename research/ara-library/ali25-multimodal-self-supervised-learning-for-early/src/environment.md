@@ -1,0 +1,22 @@
+# Environment
+
+- **Language/runtime**: Not specified in paper (implied Python; optimizer AdamW, cosine LR schedule suggest a PyTorch-family stack, but no framework or version is stated)
+- **Framework**: Not specified in paper
+- **Hardware**: Not specified in paper (no GPU type, count, or memory reported)
+- **Data sources** (all secondary-use public AD cohorts; registration/DUA-gated — access type recorded per `sources.yaml`, verified):
+  - **ADNI** — Alzheimer's Disease Neuroimaging Initiative; repository adni.loni.usc.edu (LONI IDA); access: request. >2000 subjects; MRI + PET (amyloid, FDG, tau) + CSF. Primary pretraining, diagnosis, and longitudinal source. Refs [28].
+  - **OASIS-3** — Knight ADRC; repository oasis-brains.org (NITRC / central.xnat.org); access: request. ~1098–1100 subjects; MRI (T1/fMRI/DTI) + amyloid PET. OOD transfer target. Refs [29].
+  - **AIBL** — Australian Imaging, Biomarker & Lifestyle Study; repository aibl.org.au / LONI IDA; access: request. 2359 (expanded); baseline 1112 (768 CN / 133 MCI / 211 AD); MRI + amyloid PET. External test. Refs [32,33].
+  - **BioFINDER** — Swedish longitudinal biomarker program; repository biofinder.se; access: request (on reasonable request to study PI). ~1400–2000; MRI + amyloid/tau/FDG PET + CSF. ATN biomarker & AD-vs-CN target. Refs [34,35].
+  - **TADPOLE** — Alzheimer's Disease Prediction Of Longitudinal Evolution challenge; repository tadpole.grand-challenge.org (derived from ADNI); access: request. 219 rollover subjects; MRI + PET + CSF + cognition. Prognosis benchmark. Refs [36,37].
+  - **MIRIAD** — Minimal Interval Resonance Imaging in Alzheimer's Disease; repository miriad.drc.ion.ucl.ac.uk; access: request. 69 subjects (46 AD, 23 CN); T1 MRI, up to 8 scans over 2 years on one 1.5T system. Reliability/test–retest. Refs [38].
+  - No new dataset or accession was released; the Data Availability Statement points only to these public cohorts by citation ("[27–37]").
+- **Code location**: **None released.** §3.2/§3.5 claim seeds, preprocessing versions, and site-stratified 5-fold CV split files are "released to ensure exact reproducibility," but no GitHub/GitLab/Zenodo/OSF/Bitbucket URL appears in the article, Data Availability Statement, or supplement, and none was found via web search (per `sources.yaml`). The reconstructed loss stub in `execution/ssl_losses.py` is derived from the printed equations, not from repository code.
+- **Key dependencies**: External preprocessing tools referenced — N4 bias-field correction, skull stripping, MNI-space registration, ComBat harmonization, FreeSurfer (segmentation, cortical surfaces), DL+DiReCT (thickness maps, Figure 7). Exact versions not specified.
+- **Protocols**:
+  - In-distribution: subject-level, site-stratified 5-fold cross-validation.
+  - OOD: train ADNI → test OASIS-3 and reverse; external AIBL / BioFINDER when available.
+  - Reliability: MIRIAD scan–rescan ICC (ICC3,1), within-subject CV, SRM.
+  - Statistics: 95% CIs via 1000-sample bootstrap; AUC comparison via DeLong's test (stated in §3.6; values not tabulated).
+- **Random seeds**: Stated to be "released" for exact reproducibility but the actual seed values and release location are not given in the paper.
+- **Ethics**: Institutional Review Board Statement — "Not applicable"; Informed Consent Statement — "Not applicable" (secondary use of de-identified public cohorts). Funding: Prince Sattam Bin Abdulaziz University, project PSAU/2025/03/33734.

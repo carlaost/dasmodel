@@ -1,0 +1,13 @@
+# PET Imaging in Alzheimer Disease in the Era of Antiamyloid Therapy in the United States: Clinical Utility, Quantification, and Policy Landscape
+
+- **Cite key**: Sky26
+- **Authors**: Ty Skyles; S. Bouchal; Anna Giarratana; Jacob Wengler; I. Hart; Erin E. Greig; Harmanjeet Singh; Steven Huang; Felipe Martinez; Ba D Nguyen; Clifford H. Shin; Ming Yang; Ephraim E. Parent; W. Robb; Ana M. Franceschi; Brian J. Burkett; Derek R. Johnson; Mary Ellen I Koran
+- **Year**: 2026  (2026-02-10)
+- **Journal**: The Journal of Nuclear Medicine Technology
+- **DOI**: 10.2967/jnmt.125.271835
+- **URL**: https://doi.org/10.2967/jnmt.125.271835
+- **Citations**: 1 (2.5/yr)
+
+## Abstract
+
+Alzheimer disease (AD) is increasingly diagnosed using molecular imaging biomarkers. PET imaging provides the opportunity to visualize amyloid and tau aggregates and in vivo neurodegenerative changes. These techniques provide exciting new avenues toward diagnosis, disease staging, and therapeutic monitoring of AD. Methods: This review details recent advances in amyloid PET, tau PET, and 18F-FDG PET as they relate to the diagnosis, staging, and treatment of AD. The increasing roles of PET in the biologically based diagnosis of AD and antiamyloid immunotherapy response monitoring are addressed. Results: Amyloid PET enables improved detection of amyloid-β plaques within the brain. Amyloid PET is increasingly vital for confirming AD diagnoses given the emergence of antiamyloid immunotherapies, which require biomarker-verified amyloid positivity to initiate treatment. Tau PET provides a direct measure of neurofibrillary tangle pathology and is useful for disease staging, the interpretation of atypical clinical presentations, and treatment decision-making. 18F-FDG PET plays a vital role in distinguishing AD from other dementia subtypes. Expanded reimbursement policies for amyloid and tau PET have increased accessibility to these modalities. Finally, quantitative methods facilitate interscan reproducibility and permit therapeutic monitoring. Conclusion: Molecular neuroimaging is poised to play a central role in the biologic definition, diagnosis, staging, and management of AD. Integrating amyloid, tau, and FDG PET with clinical assessments and fluid biomarkers provides earlier and more accurate diagnoses, opening the door to personalized treatment.

@@ -1,0 +1,151 @@
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Background", "Abstract", "§2 Methods"]
+    title: "Can plasma p-tau217 cut-points be derived and validated for clinical AD diagnosis in a UK memory service?"
+    description: >
+      ADAPT stage 1: select a commercial plasma p-tau217 assay and derive clinically usable
+      cut-points, validated against CSF and amyloid PET, while characterizing pre-analytical
+      and comorbidity influences.
+    children:
+      - id: N02
+        type: question
+        support_level: explicit
+        source_refs: ["§2.5", "§3.2", "Table 2"]
+        title: "Which assay (Lumipulse vs ALZpath) performs best?"
+        description: "Compare Lumipulse (Fujirebio) and ALZpath (Quanterix) on correlation, fold-change, and ROC AUC."
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2", "§3.3.1", "Figure S1A", "Figure S2"]
+            title: "ROC/AUC and fold-change in CSF cohort"
+            evidence: ["C01", "C02"]
+            description: "Both assays high AUC (Lumipulse 0.947, ALZpath 0.940, not significantly different); Lumipulse fold-change 6.7 vs ALZpath 4.2."
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["§4 Discussion", "Abstract"]
+            title: "Select Lumipulse as clinical assay"
+            evidence: ["C02"]
+            description: "Chosen for higher fold-change and lower indeterminate proportion; implemented in UKAS-accredited NHS laboratory."
+          - id: N05
+            type: dead_end
+            support_level: explicit
+            source_refs: ["§4 Discussion"]
+            title: "ALZpath deprioritized for clinical deployment"
+            evidence: ["C02"]
+            description: "ALZpath had smaller fold-change and larger intermediate zone; not selected as the clinical assay (still reported throughout)."
+      - id: N06
+        type: question
+        support_level: explicit
+        source_refs: ["§2.6", "§3.4", "Table 3"]
+        title: "What cut-point strategy translates across reference standards?"
+        description: "Derive dual cut-points (95% sensitivity lower; maximized/95% specificity upper) with an intermediate zone."
+        children:
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 3", "§3.4.1"]
+            title: "Derive Lumipulse dual cut-points in CSF cohort"
+            evidence: ["C03"]
+            description: "0.153/0.422 pg/mL → 95% sens, 97% spec, 19.4% intermediate, accuracy 94.7%."
+          - id: N08
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 3", "§3.4.2"]
+            title: "Validate cut-points in amyloid PET cohort"
+            evidence: ["C04"]
+            description: "Applying CSF cut-points to PET cohort raises intermediate zone to 34.2%, accuracy 90.0%."
+          - id: N09
+            type: dead_end
+            support_level: explicit
+            source_refs: ["§3.4.1"]
+            title: "External Malmö cut-points underperform within-cohort cut-points"
+            evidence: ["C10"]
+            description: "Malmö 0.22/0.34 gave lower sensitivity (91.4% vs 95%), lower NPV, and reduced accuracy (88.8–91.5% vs 93.3–94.0%)."
+          - id: N10
+            type: decision
+            support_level: explicit
+            source_refs: ["§2.1.1", "§3.4.1", "Table S5"]
+            title: "Use CSF 'amyloid only' (Aβ42/Aβ40 ≤ 0.065) as primary derivation definition"
+            evidence: ["C03"]
+            description: "Chosen over amyloid+p-tau, clinical, Malmö, FDA definitions (which were run as sensitivity analyses)."
+      - id: N11
+        type: question
+        support_level: explicit
+        source_refs: ["§3.3.1", "Table 2", "Table S3", "Table S4"]
+        title: "Do demographic/clinical covariates improve the diagnostic model?"
+        description: "Test whether age, sex, serum creatinine, BMI add to p-tau217."
+        children:
+          - id: N12
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 2", "§3.3.1", "§3.3.2"]
+            title: "Covariate-adjusted ROC models"
+            evidence: ["C05"]
+            description: "Adding covariates did not significantly improve AUC (DeLong P > 0.05; AIC reduction < 20)."
+      - id: N13
+        type: question
+        support_level: explicit
+        source_refs: ["§2.4", "§3.6", "Figure 2"]
+        title: "Is plasma p-tau217 robust to pre-analytical handling and transport?"
+        description: "Four handling experiments + transport-temperature comparison."
+        children:
+          - id: N14
+            type: experiment
+            support_level: explicit
+            source_refs: ["Figure 2", "§3.6", "Table S10", "Table S12"]
+            title: "Pre-analytical handling experiments (n=10 each)"
+            evidence: ["C06"]
+            description: "Median relative change within ±10% across all conditions; small significant effects (ALZpath Exp1 P=0.007; Lumipulse Exp3 P=0.0047)."
+          - id: N15
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.8", "Figure S5"]
+            title: "Transport temperature comparison (−20°C vs −80°C)"
+            evidence: ["C08"]
+            description: "rho = 0.998, no systematic bias → Bio-Freeze transport without dry ice feasible."
+          - id: N16
+            type: decision
+            support_level: explicit
+            source_refs: ["§4 Discussion"]
+            title: "Derive recommended sample-handling protocol for trial sites"
+            evidence: ["C06", "C08"]
+            description: "≤3 h RT or 24 h refrigerated before spin; ≤2 weeks −20°C; ≤4 freeze-thaw; sub-zero transport OK."
+      - id: N17
+        type: question
+        support_level: explicit
+        source_refs: ["§2.5.3", "§3.7", "Figure S4"]
+        title: "Are measurements stable across assay kit lots?"
+        description: "Four Lumipulse kit lots on n=30 subset."
+        children:
+          - id: N18
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.7", "Figure S4"]
+            title: "Lot-to-lot variability experiment"
+            evidence: ["C07"]
+            description: "rho > 0.95 across lots; 3/30 discordant classifications, none within-lot."
+      - id: N19
+        type: question
+        support_level: explicit
+        source_refs: ["§2.3", "§3.5", "Figure 1"]
+        title: "Does chronic kidney disease confound plasma p-tau217?"
+        description: "Analyze CN-CKD cohort (n=58, stages G1–G4, age <60)."
+        children:
+          - id: N20
+            type: experiment
+            support_level: explicit
+            source_refs: ["Figure 1", "§3.5", "Table S11"]
+            title: "p-tau217 by CKD stage vs AD/non-AD"
+            evidence: ["C09"]
+            description: "p-tau217 rises with CKD stage into intermediate zone (43.1%); only 5.1% above upper cut-point; no significant CKD association after adjusting age/sex/BMI."
+          - id: N21
+            type: dead_end
+            support_level: explicit
+            source_refs: ["§3.3", "§4 Discussion", "Table S4"]
+            title: "No significant serum-creatinine or BMI effect on p-tau217 / AD prediction"
+            evidence: ["C05", "C09"]
+            description: "Creatinine and BMI added no significant diagnostic value; interpreted cautiously given limited data availability (24–60%)."

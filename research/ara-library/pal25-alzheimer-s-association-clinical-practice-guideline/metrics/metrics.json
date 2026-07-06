@@ -1,0 +1,101 @@
+{
+  "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+  "doi": "10.1002/alz.70535",
+  "n_claims": 8,
+  "n_experiments": 6,
+  "D1_reproducibility": {
+    "cross_layer_binding_resolvability": 1.0,
+    "n_links_resolved": 24,
+    "n_links_total": 24,
+    "environment_completeness": 0.429,
+    "env_fields_present": 3,
+    "env_fields_total": 7,
+    "spec_completeness_setup_proxy": 0.0,
+    "spec_completeness_rubric": {
+      "status": "pending_model",
+      "note": "needs LLM full/partial/absent labels vs a reproduction rubric"
+    },
+    "executable_reproduction_L3": {
+      "status": "pending_exec",
+      "has_code_repo": false,
+      "note": "needs sandboxed run; this library has 0 code repos so L3 is largely N/A"
+    }
+  },
+  "D2_claim_evidence_integrity": {
+    "claim_grounding_ratio": 1.0,
+    "grounded_numbers": 24,
+    "statement_numbers": 24,
+    "falsifiability_presence_proxy": 1.0,
+    "status_honesty_mix": {
+      "supported (as a conditional, low-certainty recommendation)": 2,
+      "supported": 6
+    },
+    "orphan_claims_no_proof": [],
+    "orphan_experiments_no_claim": [],
+    "n_claims": 8,
+    "n_experiments": 6,
+    "evidence_relevance_D1": {
+      "status": "pending_model"
+    },
+    "falsifiability_quality_D2": {
+      "status": "pending_model"
+    },
+    "scope_calibration_D3": {
+      "status": "pending_model"
+    }
+  },
+  "D3_process_transparency": {
+    "dead_end_density_per_claim": 0.0,
+    "n_dead_ends": 0,
+    "n_dead_ends_complete": 0,
+    "decision_branching_factor": null,
+    "explicit_vs_inferred_ratio": 0.0,
+    "failure_knowledge_preservation": 0.0,
+    "negative_result_share": 0.0,
+    "node_type_counts": {}
+  },
+  "D4_novelty_dependency": {
+    "typed_delta_profile": {
+      "imports": 6,
+      "extends": 2,
+      "refutes": 0,
+      "bounds": 2,
+      "baseline": 1
+    },
+    "corrective_science_score": 6,
+    "n_related_work_blocks": 11,
+    "concept_count": 10,
+    "novel_claim_count": {
+      "status": "pending_model",
+      "authored_claims": 8,
+      "note": "needs oshima original-flag + FOL dedup; authored_claims is an upper bound"
+    }
+  },
+  "D6_realworld_grounding": {
+    "n_datasets_linked": 0,
+    "n_datasets_verified": 0,
+    "n_clinical_trials_linked": 0,
+    "verified_ncts": [],
+    "n_code_repos": 0,
+    "pdf_open_access": true,
+    "pdf_downloaded": true,
+    "claim_vs_endpoint_concordance": {
+      "status": "pending_external",
+      "note": "needs ClinicalTrials.gov endpoint pull + LLM finding"
+    },
+    "target_compound_resolvability": {
+      "status": "pending_external",
+      "note": "needs ChEMBL resolution"
+    }
+  },
+  "D7_artifact_quality": {
+    "seal_L1_structural_score": 0.8,
+    "core_files_present": 8,
+    "core_files_total": 10,
+    "auditor_blindspot_orphan_experiments": [],
+    "compilation_fidelity": {
+      "status": "pending_model",
+      "note": "needs source-vs-ARA recall sampling"
+    }
+  }
+}

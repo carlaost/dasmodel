@@ -1,0 +1,63 @@
+# Exploration Tree - zhu25b-global-burden-of-alzheimer-s-disease
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: abstract-only. Only metadata.json and metadata.md were provided. No dead_end,
+# decision, or pivot nodes are invented beyond what the abstract states or directly supports.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["metadata.md Abstract"]
+    title: "What is the global burden of ADRD among adults aged 65 years and older from 1991 to 2021?"
+    description: >
+      The abstract states that the study aims to analyze the prevalence, impact, and disparities of
+      Alzheimer's disease and other dementias among adults aged 65 years and older worldwide, across
+      different regions and countries, spanning 1991-2021.
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["metadata.md Abstract"]
+        title: "Assemble GBD 2021 dementia data for the older-adult global population"
+        result: >
+          The abstract states that GBD 2021 obtained dementia data from vital registration systems,
+          published scientific literature and surveys, and health-service encounters, and that
+          individuals aged >=65 years from 21 regions and 204 countries and territories were analyzed.
+        evidence: [C06]
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["metadata.md Abstract"]
+            title: "Estimate ADRD mortality, prevalence, age-standardized prevalence, deaths, and DALYs"
+            result: >
+              The abstract reports increased mortality and prevalence from 1991 to 2021, a small
+              increase in age-standardized prevalence rate, and 2021 deaths and DALYs attributable to
+              dementia.
+            evidence: [C01, C02, C03, C05]
+            children:
+
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract"]
+                title: "Compare prevalent-case counts by sex"
+                result: >
+                  The abstract reports higher prevalent-case counts for women than men in both 1991
+                  and 2021.
+                evidence: [C04]
+
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["metadata.md Abstract"]
+                title: "Assess named modifiable risk factors for burden attribution"
+                result: >
+                  The abstract identifies high BMI, high fasting glucose, and smoking as modifiable
+                  risk factors considered in relation to ADRD burden metrics, but does not provide
+                  attributable fractions.
+                evidence: [C06]
