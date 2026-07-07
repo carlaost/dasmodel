@@ -693,3 +693,84 @@ observations:
     promoted_to: null
     crystallized_via: null
     stale: false
+
+  - id: O30
+    timestamp: "2026-07-07"
+    provenance: ai-suggested
+    content: >
+      Fable review of the GRO successor-format spec (N51): the strongest, most reusable critical finding is
+      that GRO — and by extension any structure-computes-its-own-credibility program — RELOCATES trust rather
+      than eliminating it. The deterministic tier is genuinely self-checking, but everything funders care
+      about for IMPORTANCE (novelty, significance, validity) sits in the judged tier, whose trust rests on
+      (a) human calibration corpora that don't exist yet and (b) LLM judge ensembles whose independence the
+      spec itself concedes is ASSERTED, not measured — real decorrelation is earned at exactly one non-LLM
+      checkpoint. Three concrete residuals: (1) the compiler-selection problem (what gets typed at all) is
+      patched only by more LLM ensembles with the same shared-blind-spot risk — comfort, not closure; (2) the
+      corpus-scale promise deflates to "deterministic integrity at 100k scale, judged importance only on a
+      shortlist+audit-sample" — so it does NOT surface the un-shortlisted gem, which was the pitch; (3)
+      adoption/incentive participation is assumed away in the spec's first sentence, which is exactly the
+      incentive-design half of the program and the actual determinant of whether any of this matters. Net:
+      credibility infrastructure is a trust-relocation + participation/incentive problem, not a representation
+      problem; the format is necessary-not-sufficient in the same way its own independence checks are. This is
+      the substrate critique made rigorous and is cleanly separable from the format-building.
+    context: "User asked for a final review of the GRO spec 'as Fable'; review delivered in-chat, then folded into the Astera (What-I-don't-know) and SPRU (RQ2/RQ4, WP2) proposals as work-to-improve."
+    potential_type: claim
+    bound_to: [N51, N53]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+
+  - id: O31
+    timestamp: "2026-07-07"
+    provenance: ai-suggested
+    content: >
+      Coherence check of the three-layer "layer cake" publishing-architecture draft (narrative / particle /
+      latent) against everything built. The architecture holds and GRO is a faithful build-out of the middle
+      layer — but the draft's PARTICLE layer silently does two different jobs and GRO only does one: (a)
+      within-object decomposition into typed, inspectable units that compile to narrative — GRO specs this
+      deeply (L1-L8 = typed claims/evidence/methods/data/quantities + typed cross-layer links + render/reconcile
+      narrative binding); (b) a cross-object, git-style CONTRIBUTION GRAPH where replications, reuse, and
+      refutations across projects are countable first-class contributions with credit accrual — GRO barely
+      touches this (its cross-object surfaces, L6 reference spine + L3 entity commons, are explicitly
+      UNSCORED/diagnostic; there is no fork/merge/credit machinery). So the more novel, adoption-critical half
+      of the particle layer is still unbuilt. Two more reconciliations: (1) do NOT conflate GRO's three rigor
+      TIERS (deterministic/anchored/judged) with the cake's three representation LAYERS (narrative/particle/
+      latent) — orthogonal axes; the tiers live inside the particle layer. (2) Appendix-A's "measurable"
+      prerequisite overpromises: standardization unlocks FIDELITY-measurable cheaply/deterministically, but
+      QUALITY/IMPORTANCE-measurable (novelty, validity, contribution significance) stays judged + calibrated +
+      non-scaling (FINDINGS.md + GRO s7) — the sharpest honest caveat the post should absorb. Latent layer
+      (post-2 origin) and narrative layer both hold; narrative is strengthened and could adopt GRO's
+      render-vs-reconcile distinction.
+    context: "User shared the layer-cake pub-architecture draft + asked 'does GRO account for this / does the rest still hold?'; assessment delivered in-chat. Prior posts (papers-block, alien-proteins) read as grounding."
+    potential_type: architecture
+    bound_to: [N51, N53]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+
+  - id: O32
+    timestamp: "2026-07-07"
+    provenance: ai-executed
+    content: >
+      Three-way empirical comparison (12 ARAs) of GRO ideal metrics vs the first ARA-inferred design (v3) vs
+      the ARA Seal L2 verifier yields a coherent picture: the three are COMPLEMENTARY TIERS, not rivals.
+      Deterministic (GRO Tier A) = auditable structural fact, uniformly computable (12/12); reliable-anchored
+      (live PubMed/ClinicalTrials) = external check that can FALSIFY a self-declared metric (reference-
+      resolvability declared 0.52 vs observed 0.96); reproducible-judged (Seal, six semantic dims) = calibrated
+      verdict that catches scope/coherence issues the mechanical flags miss (che26 C05 over-generalization:
+      Seal D3=3 while GRO overclaim=0). Coverage is architectural: the first design (v3) is rank_eligible on
+      only 3/12 because its paper-quality signals need a full-text re-read, whereas typed records make GRO+Seal
+      run on all 12. The three converge on the clearly-broken extreme (ard25: Seal Reject 3.0, GRO broken_ref
+      16, v3 trust 0.15) but none discriminates good-from-bad ALONE — and the corpus has no known-bad papers,
+      so real discrimination still needs a labelled contrast set. Construct-validity flags surfaced: entity_
+      anchoring 0.0 corpus-wide, overclaim_flags concentrated in 2 population-estimate genres, broken_ref in 1
+      ARA (missing experiments.md), a genre_silent_omissions sign bug.
+    context: "Capstone comparison (wf_4998495c + wf_16815c7e + wf_5b8f6cd2); paper at gro repo experiment/comparison/. User asked to capture everything in research manager."
+    potential_type: claim
+    bound_to: [N57, N58]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false

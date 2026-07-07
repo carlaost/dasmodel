@@ -1,0 +1,203 @@
+# Exploration graph for Xu et al. (2025), "Epidemiological and sociodemographic transitions in
+# the global burden and risk factors for Alzheimer's disease and other dementias: a secondary
+# analysis of GBD 2021." International Journal for Equity in Health 24:149.
+# doi:10.1186/s12939-025-02530-2. evidence: fields reference claim IDs (C##) in logic/claims.md.
+# support_level: explicit = grounded in the paper text/tables/figures; inferred = reconstructed.
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction"]
+    title: "What is the epidemiological and sociodemographic transition pattern of the global ADOD burden and its risk factors, 1990-2021?"
+    description: >
+      Using GBD 2021 estimates, what are the long-term (1990-2021) trends in ADOD incidence,
+      mortality, and DALYs by sex and region, how does the socio-demographic index (SDI) relate
+      to these burden measures, and how has the attributable risk-factor profile (smoking, high
+      BMI, high FPG) changed over the same period?
+    status: resolved
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Materials and methods (Data source, Outcome variables)"]
+        title: "Conduct a GBD 2021 secondary analysis stratified by sex, SDI quintile, and GBD region"
+        choice: >
+          Extract GBD 2021 incidence/mortality/DALY estimates (and their age-standardized rates)
+          from the Global Health Data Exchange for 1990-2021, stratified by sex (both/male/female),
+          SDI quintile (5 groups), and GBD region (21 regions), rather than relying on a single
+          global or single-region summary.
+        alternatives:
+          - "Analyze only global aggregate trends without SDI/regional stratification"
+          - "Use an earlier GBD data vintage (2016 or 2019)"
+        evidence: [C01]
+        status: resolved
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Results (Incidence of ADOD)", "Table 1"]
+            title: "Descriptive characterization of ADOD incidence/mortality/DALY burden, 1990/2010/2021"
+            result: >
+              9.84 million incident cases, 1.95 million deaths, 36.33 million DALYs globally in
+              2021; female ASIR exceeds male (ratio 0.78); highest 2021 ASIR in high-middle SDI
+              region and East Asia, lowest in low SDI region and Western Sub-Saharan Africa;
+              regional rank reversal between 1990 and 2021 (high-income North America 1st->3rd,
+              East Asia 7th->1st).
+            evidence: [C01, C03, C11]
+            status: resolved
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["Materials and methods (Statistical analysis)"]
+            title: "Adopt joinpoint regression (not a single linear trend) for temporal segmentation"
+            choice: >
+              Fit segmented log-linear regression ln(ASR) = alpha + beta*x + epsilon to identify
+              joinpoints where the ASIR/ASDR/ASR-DALYs trend slope changes, computing EAPC per
+              segment and AAPC over the full 1990-2021 period, separately for the Global group and
+              each of the five SDI regions.
+            alternatives:
+              - "Fit a single unsegmented linear trend over 1990-2021"
+            evidence: [C02]
+            status: resolved
+            children:
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Incidence; Mortality and DALYs)", "Table 2"]
+                title: "Joinpoint trend-segmentation of ASIR/ASDR/ASR-DALYs by SDI region"
+                result: >
+                  Global ASIR AAPC +0.06(0.05,0.07); only high-middle (+0.32) and middle SDI
+                  (+0.26) regions show rising ASIR, all others declining. Low-middle SDI shows the
+                  fastest-rising ASDR (AAPC 0.41[0.31,0.52]) of any quintile. High SDI is the only
+                  region with a declining ASDR in its most recent segment (EAPC 2016-2021 =
+                  -0.24[-0.32,-0.16]). Low-middle SDI has the highest overall/male DALY AAPC
+                  (0.24/0.22); low SDI has the highest female DALY AAPC (0.25).
+                evidence: [C02, C06, C07, C08]
+                status: resolved
+          - id: N06
+            type: decision
+            support_level: explicit
+            source_refs: ["Materials and methods (Statistical analysis)"]
+            title: "Combine restricted cubic splines (region-year panel) with quantile regression (204-country cross-section) for the SDI-burden association, rather than a single linear correlation"
+            choice: >
+              Fit a 4-knot restricted cubic spline (with outlier-region dummy variables) to the
+              21-region, 1990-2021 panel to flexibly model the mean SDI-ASR association, AND
+              separately fit 5th/25th/50th/75th/95th-percentile quantile regressions to the
+              204-country, 2021 cross-section to test whether the SDI-ASR relationship differs
+              across the distribution, not only at the mean.
+            alternatives:
+              - "Use a single ordinary-least-squares linear regression of ASR on SDI"
+              - "Use only the regional RCS spline without the country-level quantile regression"
+            evidence: [C05]
+            status: resolved
+            children:
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Incidence of ADOD, final paragraph)", "Figure S5 (supplementary, not provided)"]
+                title: "Restricted cubic spline modeling of SDI vs. ASIR/ASDR/DALY rate, 21 regions, 1990-2021"
+                result: >
+                  Non-linear, sex-differentiated SDI-ASIR association: female ASIR flat/slightly
+                  declining at low SDI then accelerating above a threshold; male ASIR rises
+                  rapidly at low SDI then plateaus/slightly declines above SDI~0.6. Underlying plot
+                  (Figure S5) is supplementary material not provided with this input; result
+                  grounded in main-text prose only.
+                evidence: [C05]
+                status: resolved
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Correlations between ADOD incidence, death, DALYs and sociodemographic transition)", "Fig. 2"]
+                title: "Quantile regression of 204-country SDI vs. ASIR/ASDR/DALY rate, 2021"
+                result: >
+                  China (SDI 0.722), USA (SDI 0.862), and India (SDI 0.575) have the highest
+                  incident-case counts; 152/204 countries have ASIR>100, 85.5% of those with
+                  SDI>0.5; nonlinear SDI-ASR relationship confirmed at country level, with wider
+                  quantile spread at SDI extremes than mid-range.
+                evidence: [C04, C05]
+                status: resolved
+          - id: N09
+            type: decision
+            support_level: explicit
+            source_refs: ["Materials and methods (Attributable risk factors)", "Discussion (Limitations)"]
+            title: "Apply GBD comparative risk assessment (PAF) to three data-available risk factors only"
+            choice: >
+              Decompose ADOD deaths/DALYs attributable to smoking, high FPG, and high BMI using
+              the GBD comparative-risk-assessment PAF methodology (ref 17), rather than attempting
+              an exhaustive risk-factor analysis.
+            alternatives:
+              - "Analyze the full GBD risk-factor list for ADOD (88 risk factors)"
+            evidence: [C09]
+            status: resolved
+            children:
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Risk factors attributable to ADOD burden)", "Fig. 3", "Fig. 4"]
+                title: "PAF decomposition of ADOD deaths/DALYs by risk factor, sex, SDI region, GBD region, 1990 vs. 2021"
+                result: >
+                  High FPG is the leading 2021 risk factor globally (ASDR 3.73[0.15,11.84],
+                  DALYs 66.42[3.83,178.85] per 100,000), rising 1990-2021 alongside high BMI, while
+                  smoking's attributable burden fell. Smoking-ASDR higher in males; FPG/BMI-ASDR
+                  higher in females. High-income North America has the highest FPG-attributable
+                  ASDR (5.92 female, 5.34 male); East Asia highest male smoking burden; Andean
+                  Latin America smallest. Central Sub-Saharan Africa (Congo, Gabon) has the
+                  heaviest regional DALY burden.
+                evidence: [C09, C10, C12]
+                status: resolved
+              - id: N11
+                type: decision
+                support_level: explicit
+                source_refs: ["Discussion"]
+                title: "Update prior GBD-2016/GBD-2019 dementia risk-factor ranking with the GBD-2021 high-FPG finding"
+                choice: >
+                  Report high FPG as the new leading attributable risk factor for ADOD, explicitly
+                  contrasting with GBD 2019 Dementia Forecasting Collaborators (ref 20) and GBD
+                  2016 Dementia Collaborators (ref 21), which had reported smoking as predominant
+                  in males and high BMI as predominant in females.
+                alternatives:
+                  - "Report risk-factor ranking as unchanged from prior GBD dementia analyses"
+                evidence: [C09]
+                status: resolved
+      - id: N12
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Discussion (Limitations)"]
+        title: "Prevalence excluded from this analysis"
+        hypothesis: "ADOD prevalence trends could be analyzed alongside incidence, mortality, and DALYs using the same GBD 2021 framework."
+        failure_mode: >
+          "The study's focus on estimated mortality and incidence rates of Alzheimer's disease and
+          other dementias, derived through joint modeling in the GBD study, means prevalence
+          considerations were not included in this analysis." A deliberate scope decision, not an
+          oversight.
+        lesson: "Future GBD-secondary-analysis work on ADOD should incorporate prevalence trends alongside incidence/mortality/DALYs for a fuller epidemiological picture."
+        status: open
+      - id: N13
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Discussion (Limitations)"]
+        title: "Only three risk factors (smoking, high BMI, high FPG) analyzed, not an exhaustive risk-factor set"
+        hypothesis: "All 88 GBD-catalogued risk factors relevant to ADOD could be decomposed in this analysis."
+        failure_mode: >
+          "In the risk factor analysis, while the majority of existing risk factors in the GBD
+          dataset were examined, not all potential risk factors for ADOD were exhaustively
+          considered. Due to the availability of data, this study only focused on three risk
+          factors."
+        lesson: "A more complete GBD risk-factor decomposition for ADOD would require risk factors beyond smoking/high BMI/high FPG once sufficient GBD exposure/RR data become available."
+        evidence: [C09]
+        status: open
+      - id: N14
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Discussion", "Table 1"]
+        title: "Central Sub-Saharan Africa mortality ETPC (14.82%) could not be independently verified"
+        hypothesis: "The Discussion's stated 1990-2021 mortality ETPC of 14.82% for Central Sub-Saharan Africa could be cross-checked against a main-text table."
+        failure_mode: >
+          The cited mortality-ETPC figure depends on Table S1 (supplementary material, not
+          provided with this input). Table 1 (incidence ASIR ETPC, main text) instead shows the
+          value -14.82(-19.55,-10.2) attached to a different region (Australasia), while Central
+          Sub-Saharan Africa's own incidence ETPC in Table 1 is -0.59(-3.02,1.79) -- a numeric
+          coincidence that could not be resolved without the missing supplementary table.
+        lesson: "This figure should be re-verified directly against Table S1 if/when the paper's Supplementary Material becomes available; reported here as an unresolved discrepancy, not silently corrected."
+        evidence: [C13]
+        status: open

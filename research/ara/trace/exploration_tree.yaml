@@ -307,17 +307,17 @@ tree:
     source_refs: ["session 2026-07-05_001 turn 4"]
     provenance: ai-suggested
     timestamp: "2026-07-05"
-    title: "Restrict PDF acquisition to licit open-access sources; do not use Sci-Hub"
+    title: "Restrict PDF acquisition to licit open-access sources"
     choice: >
       Acquire full-text PDFs only from legitimate open-access channels (Unpaywall, PMC / Europe PMC
       full text, preprint servers, author/institutional self-archived copies, publisher OA). For
       paywalled papers with no licit OA copy, record the landing/best-PDF URL and mark the PDF as
-      not-downloaded rather than routing the download through Sci-Hub.
+      not-downloaded rather than routing the download through a non-authorized full-text source.
     alternatives:
-      - "Use Sci-Hub for paywalled DOIs (user request, turn 4) — declined: Sci-Hub distributes paywalled articles without authorization; not building paywall circumvention into the pipeline"
+      - "Route paywalled DOIs through a non-authorized full-text source (user request, turn 4) — declined: it distributes paywalled articles without authorization; not building paywall circumvention into the pipeline"
       - "Compile from abstract + metadata + discovered links when full text is unavailable — accepted as the degraded-but-licit fallback"
     also_depends_on: [N26]
-    status: open   # AI declined the user's Sci-Hub request on copyright grounds; awaiting user response on the licit-only fallback
+    status: open   # AI declined the user's non-authorized-source request on copyright grounds; awaiting user response on the licit-only fallback
 
   - id: N29
     type: decision
@@ -797,3 +797,195 @@ tree:
       - "Tournament all ~60 - rejected; assessment-critique prunes/merges/ranks to what matters first"
     also_depends_on: [N48, N49]
     status: open
+
+  - id: N51
+    type: experiment
+    support_level: explicit
+    source_refs: ["research/metrics/v3/tournament/AFFORDANCE_GAP.md", "research/metrics/v3/tournament/IDEAL_FORMAT_SPEC.md", "workflow wf_f0bc615b-a88 + tail wf_c4cbff37-887"]
+    provenance: ai-executed
+    timestamp: "2026-07-07"
+    title: "12-gap format-design tournament -> Grounded Research Object (GRO) successor-format spec"
+    result: >
+      Took the affordance gap's 12 blocked-metric classes and ran a per-gap design tournament (4 proposers
+      each — 2 GPT-5.5/Codex + 2 Sonnet — Fable/Opus judge picks 2, refine round, reviewer), then merged the
+      12 winning designs and put them through a draft -> adversarial-critique -> final synthesis. Original run
+      wf_f0bc615b-a88 (~99 agents, ~5.55M tokens) hit an account rate limit after all proposals+judges+most
+      refines; the durable harvest (TOURNAMENT_DESIGNS.md, 820KB) was salvaged from the local journal. Tail run
+      wf_c4cbff37-887 (25 agents, ~1.7M tokens, all Opus 4.8) completed the two cut-off refines (VALIDITY,
+      HARDSIGNALS), the review gate (all 12 accepted; 7 sent back once then hardened), and the real synthesis.
+      OUTPUT: IDEAL_FORMAT_SPEC.md — GRO, a record whose unit computes its own credibility across three rigor
+      tiers (deterministic / reliable-anchored / reproducible-judged) with a funder dossier. Honest residuals
+      (spec's own s7): unvalidated for discrimination; judged tier doesn't scale to corpus (triage+sample);
+      checker-independence asserted-not-measured (real decorrelation only at the one non-LLM checkpoint).
+      This is the concrete realization of the "particle layer / better substrate" thesis (layer C of the
+      program map) — NOT an ARA v2; GRO is clean-sheet by design.
+    evidence: ["research/metrics/v3/tournament/IDEAL_FORMAT_SPEC.md", "research/metrics/v3/tournament/TOURNAMENT_DESIGNS.md", "research/metrics/v3/tournament/TAIL_SYNTHESIS_LOG.md"]
+    also_depends_on: [N50]
+    status: resolved
+
+  - id: N52
+    type: decision
+    support_level: explicit
+    source_refs: ["user directive (this session): 'remove all mentions of sci hub in this repo'"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Scrub all textual mentions of Sci-Hub from the repo (extends the N28 licit-only policy)"
+    choice: >
+      Beyond N28's "don't route downloads through it," remove every textual mention of the string across the
+      repo. Operational refs neutralized: fetch_papers.py --base-url default 'https://sci-hub.box/' -> '' (now
+      resolves bare DOIs via https://doi.org/, matching the docstring; verified); fetch_manifest.json one
+      resolve_url nulled to match sibling entries. Trace/provenance refs (exploration_tree N28,
+      pm_reasoning_log, sessions/2026-07-05_001) REPHRASED not gutted: the licit-only decision + copyright
+      rationale kept intact, the proper noun replaced with "non-authorized full-text source"; one verbatim
+      user quote paraphrased. grep for sci[-_ ]?hub now returns zero. (Prior git history still contains the
+      strings; no history rewrite performed.)
+    alternatives:
+      - "Delete the trace records entirely - rejected: they document the licit-only stance (exculpatory), so rephrasing preserves the provenance while removing the mention"
+    also_depends_on: [N28]
+    status: resolved
+
+  - id: N53
+    type: decision
+    support_level: explicit
+    source_refs: ["user directive (this session): 'update the research proposals for astera and sussex uni, as exemplary outcomes and work to be improved upon'"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Fold the GRO spec + format tournament into the Astera and SPRU proposals as exemplary outcome + work-to-improve"
+    choice: >
+      Updated applications/00-research-program-map.md (new Part B.7 = successor-format spec; upgraded Part C;
+      evidence-pointer + draw-down rows), astera-residency.md (What-I-know, WP-A design constraints = GRO
+      three tiers, WP-C target = credibility dossier + discrimination test, What-I-don't-know), and
+      sussex-spru-phd.md (preliminary-work bullet, RQ3, WP2 independence-test, WP3 reference schema = GRO,
+      contribution, references). Framed strictly within the documented positioning: GRO = her substrate-design
+      thesis fed by the ARA critique (layer C), NOT building ARA v2; the spec's honest gaps (unvalidated /
+      non-scaling / independence-asserted) presented as the work-to-improve = the proposed programs.
+    evidence: ["applications/00-research-program-map.md", "applications/astera-residency.md", "applications/sussex-spru-phd.md"]
+    also_depends_on: [N51]
+    status: open
+
+  - id: N54
+    type: decision
+    support_level: explicit
+    source_refs: ["user directives (this session): update the layer-cake draft w/ GRO as middle-layer deep dive + method + funder next-steps; then draft a metrics-entry-point post"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Draft two public-facing posts: layer-cake substrate (GRO as middle-layer deep dive) + metrics-as-entry-point"
+    choice: >
+      Wrote research/sources/substack/layer-cake-substrate-DRAFT.md (rewrite of the layer-cake draft: GRO
+      folded in as the within-object particle-layer spec / three rigor tiers; contradictions resolved
+      new-trumps-old — split within-object vs the still-open cross-object credit graph (O31), render-vs-
+      reconcile narrative, measurable = fidelity-not-importance; added a method section on the affordance
+      tournament + honest-status; referenced figs 1-4, sketched figs 5-7) and metrics-entry-point-DRAFT.md
+      (metrics as the lever + diagnostic; the 7 directions / 64-indicator ledger / two blind tournaments +
+      the negative-result experiments; the three-affordance-class data-shape inference; where citations /
+      ARA-seal / LENS-novelty fall short as three uncalibrated axes; the TOP-10 ideal metrics S1-S10 tagged
+      by rigor tier + 3 flagship direction metrics; 4-step tooling plan; funder callout). Positioning held:
+      metrics + affordance spec = her work (layer B/C), ARA = inherited substrate under critique.
+    evidence: ["research/sources/substack/layer-cake-substrate-DRAFT.md", "research/sources/substack/metrics-entry-point-DRAFT.md"]
+    also_depends_on: [N51, N53]
+    status: open
+
+  - id: N55
+    type: decision
+    support_level: explicit
+    source_refs: ["user directive (this session): create a linked github repo of the research outcomes under name gro, importable into dasmodel as a submodule"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Package the GRO outcomes as a standalone private GitHub repo (carlaost/gro), submodule-ready"
+    choice: >
+      Created github.com/carlaost/gro (PRIVATE, ssh remote) packaging the research outcomes: README (intended
+      data shape + reasoning summary + layout + submodule instructions), SPEC.md (= IDEAL_FORMAT_SPEC.md),
+      methods/ (findings, affordance-gap, metrics-candidates, metrics-merged, novelty-comparison, data-shapes,
+      tournament-designs, tail-synthesis-log + a method README), and ara/ (a snapshot of research/ara/ trimmed
+      to the research-record layers — PAPER.md + logic/ + trace/ + staging/; the ~6MB testbed figure binaries
+      and src/ excluded). The ara/ snapshot was scrubbed of the Sci-Hub strings that the N52 scrub-documentation
+      had (re)introduced, so the new repo satisfies the zero-mentions policy. 29 files, initial commit
+      fdf6ac5. NOT yet added to dasmodel as a submodule — left as a one-line command for the user so dasmodel's
+      (already-dirty) working tree isn't modified unprompted. Kept PRIVATE deliberately: making repo work
+      public is still an open checklist decision and is the one irreversible choice.
+    alternatives:
+      - "Public repo - deferred: public exposure of grant-linked research is an open decision on the user's checklist; private is reversible, public is not"
+      - "Auto-add as a dasmodel submodule now - deferred: would modify dasmodel's main working tree uncommitted; provided the command instead"
+    evidence: ["https://github.com/carlaost/gro"]
+    also_depends_on: [N51, N52, N54]
+    status: open
+
+  - id: N56
+    type: decision
+    support_level: explicit
+    source_refs: ["user directive (this session): create a pdf actual paper, commit it, reference it in the ara artifacts; limitations to fold in the research-proposal thoughts"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Readable paper (PDF) of the program, committed to gro repo"
+    choice: >
+      Wrote a 5-page digest paper (problem -> metrics program -> negative result -> affordance gap -> GRO
+      design -> limitations -> next steps) rather than rendering the 118k-word compiled dossier verbatim
+      (the latter would defeat 'easy to digest'). Limitations section folds in the honest gaps from the
+      Astera/SPRU proposals: unvalidated discrimination, importance-is-judged-and-doesn't-scale, trust-
+      relocation / independence-asserted-not-measured, and adoption-owned-by-incentives. Authored as
+      print-styled HTML, rendered to PDF via headless Chrome (no pandoc/LaTeX available). Committed to
+      gro repo at paper/gro-paper.pdf (+ .html source + README), commit cf433a1; linked from the repo README.
+    evidence: ["https://github.com/carlaost/gro/blob/main/paper/gro-paper.pdf", "research/metrics/v3/tournament/IDEAL_FORMAT_SPEC.md"]
+    also_depends_on: [N55]
+    status: resolved
+
+  - id: N57
+    type: experiment
+    support_level: explicit
+    source_refs: ["user directive (this session): use existing ara artifacts, generate GRO extensions for a more perfect data shape, compute the ideal metrics via sonnet subagents, write a paper"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "GRO extension experiment: typed sidecars over 12 ARAs -> compute deterministic-tier ideal metrics -> paper"
+    result: >
+      Launched workflow wf_69f8f10a-d06 (Sonnet subagents). Phase 1 (Extend): one agent per ARA over 12
+      content-rich compiled ARAs (che26,val25,han26,zim25,jes26,tit26,gau25,zho25,aki26,cum26,xu25,ard25)
+      emits GRO deterministic-tier sidecars into <slug>/gro/ (quantities.yaml, claims_typed.yaml, refs.yaml,
+      entities.yaml, genre.yaml) under a fixed shared schema, not_specified for the ungroundable. Phase 2
+      (Implement): a Sonnet agent writes + RUNS research/metrics/v4-gro/gro_metrics.py computing the
+      deterministic ideal metrics (quantity reconciliation, claim-typing/FOL coverage, entailment
+      precondition, ref resolvability, entity anchoring, genre silent-omissions, over-claim flags, ref
+      integrity) over the sidecars, writing results.json/results.md. Phase 3: an experiment paper. This is
+      the tooling step #1 + the discrimination-adjacent test the GRO paper named as the open next step,
+      scoped to the deterministic tier (anchored/judged tiers need resolvers/calibration, not run).
+      OUTCOME (14 agents, 0 errors): all 12 ARAs extended (60 sidecar files); all 8 Tier-A metrics ran
+      corpus-wide, 0 failures. I INDEPENDENTLY RE-RAN gro_metrics.py — reproduces the reported numbers exactly
+      (integrity check passed, not fabricated). Aggregates: quantity_reconciliation 1.000 (10/12 defined),
+      claim_typing 1.000, entailment_precondition 0.821, reference_resolvability 0.374, entity_anchoring 0.000
+      (uniformly empty = real now-visible gap), genre_silent_omissions total 4, overclaim_flags total 23
+      (cum26 9/10 + xu25 11/13, the population-estimate genres), broken_ref_integrity total 16 (all ard25 — a
+      genuine structural defect: declared layer files absent on disk). FINDING: typing the record converts
+      prose-blocked metrics into deterministic joins (confirmed); does NOT test good-vs-bad discrimination
+      (no external ground truth) — parent negative result stands; extensions are LLM-authored (fidelity ceiling).
+      Committed to gro repo experiment/ (f048283) with a verified 5pp paper.
+    evidence: ["https://github.com/carlaost/gro/tree/main/experiment", "research/metrics/v4-gro/results.json", "research/ara-library/*/gro/"]
+    also_depends_on: [N51, N56]
+    status: resolved
+
+  - id: N58
+    type: experiment
+    support_level: explicit
+    source_refs: ["user directives (this session): run the s7.1 external-validation experiment; then a 3-way comparison paper (GRO ideal metrics vs first ARA-inferred design vs ARA verifier) over ~10 ARAs, subagents per comparison, with graphs+tables"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "External-validation (s7.1) + three-way comparison capstone over 12 ARAs -> comparison paper"
+    result: >
+      Ran three further workflows (all Sonnet subagents, verified real): (a) EXTERNAL VALIDATION wf_16815c7e
+      (8 agents) — anchored+judged tiers against LIVE ClinicalTrials.gov + PubMed: reference resolution,
+      trial-registry concordance (both donanemab papers -> NCT04437511, i pre-verified the NCT), prior-lit
+      novelty, retractions. (b) ARA SEAL L2 wf_5b8f6cd2 (12 agents) — the six-dimension verifier review per
+      ARA (the previously-missing verifier column); reviews are calibrated + differentiated (val25 4.7 Strong
+      Accept .. ard25 3.0 Reject). (c) THREE-WAY COMPARISON wf_4998495c (3 parallel analysis agents + paper) —
+      GRO ideal metrics vs first ARA-inferred design (v3, recomputed to 12/12 via a patched-corpus copy;
+      canonical rollup restored) vs Seal. I generated 4 matplotlib figures (dataviz palette, CVD-validated)
+      and assembled a 13pp comparison paper (COMPARISON_PAPER + PDF). KEY FINDINGS: (1) reference_resolvability
+      FALSIFIED — declared corpus mean 0.52 vs PubMed-observed 0.96 (measures DOI-capture, not verifiability);
+      (2) coverage is architectural — GRO 12/12 & Seal 12/12 vs v3 rank_eligible 3/12; (3) the three tiers are
+      complementary not competing (deterministic fact / anchored check / calibrated judgement), each catches
+      what the others miss (Seal D3 flags che26 C05 over-generalization where GRO overclaim=0; GRO broken_ref=16
+      gives ard25 an auditable count vs v3's boolean); (4) they converge on extremes (ard25 worst on all three);
+      (5) none discriminates good-vs-bad alone and the corpus has no known-bad papers. Committed to gro repo
+      experiment/{external-validation,comparison,seal}/ (commit 7621920, 99 experiment files).
+    evidence: ["https://github.com/carlaost/gro/blob/main/experiment/comparison/gro-comparison-paper.pdf", "research/metrics/v4-gro/COMPARISON_PAPER.md", "research/metrics/v4-gro/seal/", "research/metrics/v4-gro/external/"]
+    also_depends_on: [N57]
+    status: resolved
+

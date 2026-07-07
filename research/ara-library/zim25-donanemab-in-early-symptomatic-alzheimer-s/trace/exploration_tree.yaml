@@ -1,0 +1,296 @@
+# Exploration graph for Zimmer et al. (2025), "Donanemab in early symptomatic Alzheimer's
+# disease: results from the TRAILBLAZER-ALZ 2 long-term extension." J Prev Alzheimers Dis
+# 13:100446. doi:10.1016/j.tjpad.2025.100446. evidence: fields reference claim IDs (C##) in
+# logic/claims.md. support_level: explicit = grounded in the paper text/tables/figures;
+# inferred = reconstructed.
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Introduction", "§1"]
+    title: "Does donanemab's clinical benefit persist and grow over 3 years, including after treatment discontinuation, and how can this be assessed without an internal LTE placebo control?"
+    description: >
+      Following the pivotal 76-week placebo-controlled result (Sims et al. 2023), and given
+      TRAILBLAZER-ALZ 2's limited-duration dosing design (amyloid-based treatment course
+      completion criteria that switch participants to blinded placebo), does clinical benefit
+      persist, grow, or fade over a 78-week long-term extension (154 weeks / ~3 years total),
+      and how quickly does amyloid reaccumulate once dosing stops -- all in the absence of an
+      internal LTE placebo arm?
+    status: resolved
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§2.3 External ADNI control cohort", "§2.5.1 Efficacy"]
+        title: "Use a propensity-score-weighted external control cohort (ADNI) in place of an internal LTE placebo"
+        choice: >
+          Compare CDR-SB trajectories in the LTE to an external, amyloid-targeting-therapy-naive
+          cohort drawn from the Alzheimer's Disease Neuroimaging Initiative (ADNI), matched via
+          propensity score weighting (ATT estimand, inverse probability weighting, WeightIt R
+          package) on age, sex, APOE e4 status, CDR-SB, ADAS-Cog13, and screening MMSE (baseline
+          amyloid CL excluded, missing for 43% of the eligible ADNI population).
+        alternatives:
+          - "Withhold donanemab from a randomized subset of LTE participants to create an internal placebo arm (rejected on ethical grounds, given established 76-week efficacy)"
+          - "Use an unweighted (non-propensity-matched) ADNI comparison"
+        evidence: [C01, C02, C03]
+        status: resolved
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.2 Efficacy", "Fig. 2a"]
+            title: "E01: Early-start CDR-SB efficacy vs weighted ADNI cohort via MMRM"
+            result: >
+              Adjusted mean (LS mean) CDR-SB treatment difference of -1.2 points (95% CI, -1.7 to
+              -0.7) at 3 years (36 months); gap widens monotonically from -0.2 at month 6.
+            evidence: [C01]
+            status: resolved
+            children:
+              - id: N04
+                type: experiment
+                support_level: explicit
+                source_refs: ["§3.2 Efficacy", "Fig. 2c"]
+                title: "E03: CDR-SB efficacy in the 52-week treatment-course-completion subset vs weighted ADNI cohort"
+                result: >
+                  Adjusted mean CDR-SB difference of -1.3 points (95% CI, -1.9 to -0.7) at 3
+                  years (N=198), similar in direction and magnitude to the overall early-start
+                  effect (-1.2), supporting durability of benefit after early treatment
+                  completion.
+                evidence: [C03]
+                status: resolved
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.2 Efficacy", "Fig. 2b"]
+            title: "E02: Delayed-start CDR-SB efficacy vs weighted ADNI cohort via MMRM"
+            result: >
+              Adjusted mean CDR-SB treatment difference of -0.8 points (95% CI, -1.3 to -0.3) 76
+              weeks after donanemab initiation (month 36 on the overall trial timeline).
+            evidence: [C02]
+            status: resolved
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.2 Efficacy", "Fig. S6 (not included in provided PDF)"]
+            title: "E05: Cumulative (AUC) CDR-SB benefit, early-start vs weighted ADNI cohort"
+            result: >
+              Superior cumulative benefit for early-start participants, average treatment
+              difference of 0.97 points across 78 weeks (p<0.001).
+            evidence: [C05]
+            also_depends_on: [N03]
+            status: resolved
+          - id: N07
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.2 Efficacy", "§4 Discussion"]
+            title: "E06: Time-saved back-calculation, early- and delayed-start vs ADNI"
+            result: >
+              Early-start treatment saved approximately 6.9 months at 3 years; delayed-start
+              treatment saved approximately 5.6 months at end of LTE (1.5 years post-initiation)
+              -- an absolute difference of 1.3 months favoring earlier treatment.
+            evidence: [C06]
+            also_depends_on: [N03, N05]
+            status: resolved
+          - id: N08
+            type: dead_end
+            support_level: explicit
+            source_refs: ["§4 Discussion", "ref [16] Lansdall et al. 2023"]
+            title: "Established CDR-SB minimal clinically important difference (MCID) thresholds rejected for interpreting LTE between-group differences"
+            hypothesis: "Published CDR-SB MCID thresholds (individual patient-level change) could be applied to interpret the magnitude of the early-start vs ADNI (or early- vs delayed-start) between-group CDR-SB gap at the 3-year LTE endpoint."
+            failure_mode: >
+              The paper explicitly states these thresholds "evaluate individual patient change
+              and are not fit to interpret between-group differences at a study endpoint" (§4,
+              citing [16]) -- MCID is the wrong statistical object for a between-group LTE
+              comparison.
+            lesson: >
+              Between-group treatment-effect magnitude at a long-term, uncontrolled-multiplicity
+              endpoint requires a different clinical-meaningfulness framing than an
+              individual-patient MCID threshold; the paper substitutes CDR-Global stage
+              transition and time-saved framings instead.
+            evidence: [C04, C06]
+            status: resolved
+          - id: N09
+            type: decision
+            support_level: explicit
+            source_refs: ["§4 Discussion"]
+            title: "Adopt CDR-Global (CDR-G) stage-transition hazard ratio as the primary clinical-meaningfulness framing"
+            choice: >
+              Use a Cox proportional-hazards comparison of early- vs delayed-start participants
+              on CDR-G (any increase confirmed at two consecutive visits = a discrete
+              disease-stage transition), rather than relying on CDR-SB MCID thresholds, as "the
+              best evidence of clinical meaningfulness from the available LTE data."
+            alternatives:
+              - "Rely on CDR-SB MCID thresholds (rejected, see N08)"
+              - "Report only the continuous CDR-SB LS-mean-difference magnitude without a discrete-event framing"
+            evidence: [C04]
+            status: resolved
+            children:
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["§3.2 Efficacy", "Fig. 3"]
+                title: "E04: Early- vs delayed-start CDR-G progression-risk analysis (Cox proportional hazards)"
+                result: >
+                  Early-start participants showed a 27% reduced risk of progressing to the next
+                  clinical stage of disease versus delayed-start participants over 154 weeks
+                  (hazard ratio=0.73 [95% CI, 0.62-0.86]; p<0.001).
+                evidence: [C04]
+                status: resolved
+      - id: N11
+        type: decision
+        support_level: explicit
+        source_refs: ["§2.4 Outcomes", "§2.5.2 Biomarkers"]
+        title: "Align amyloid PET biomarker analyses by donanemab-exposure duration rather than calendar/trial time"
+        choice: >
+          Report amyloid CL reduction and clearance (<24.1 CL) for early- and delayed-start
+          groups at matched post-donanemab-initiation timepoints (weeks 24/52/76), rather than at
+          matched trial-calendar timepoints, to enable a like-for-like biologic-response
+          comparison despite the groups starting donanemab 78 weeks apart.
+        alternatives:
+          - "Compare amyloid trajectories at matched trial-calendar timepoints only"
+        evidence: [C07, C08]
+        status: resolved
+        children:
+          - id: N12
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.3 Amyloid PET", "Fig. 4a", "Fig. 4b"]
+            title: "E07: Amyloid PET reduction and clearance analysis via MMRM, early- vs delayed-start"
+            result: >
+              LS mean (SE) CL reduction of 86.96 (0.92) at 76 weeks post-initiation (early-start)
+              vs 86.01 (0.89) at the matched 76-week post-initiation point (delayed-start,
+              trial week 154). Amyloid clearance (<24.1 CL) achieved by 29.7%/33.2% at week 24,
+              66.1%/66.7% at week 52, 76.4%/76.5% at week 76 post-initiation (early-/delayed-start
+              respectively).
+            evidence: [C07, C08]
+            status: resolved
+            children:
+              - id: N13
+                type: experiment
+                support_level: explicit
+                source_refs: ["§3.3 Amyloid PET"]
+                title: "E09: Descriptive tracking of treatment-course-completion timing, placebo-controlled period vs LTE"
+                result: >
+                  LTE completion-criteria rates at matched post-initiation durations (17.6%/
+                  51.3%/70.7% for delayed-start at 24/52/76 weeks post-initiation) closely mirror
+                  the placebo-controlled-period rates (17.1%/46.6%/69.2% at 24/52/76 weeks),
+                  indicating stable, reproducible amyloid-lowering kinetics across trial phases.
+                evidence: [C09]
+                status: resolved
+              - id: N14
+                type: experiment
+                support_level: explicit
+                source_refs: ["§2.5.2 Biomarkers", "§3.3 Amyloid PET", "Fig. 4c"]
+                title: "E08: Amyloid reaccumulation-rate estimation via cross-study exposure-response model"
+                result: >
+                  52-week completers maintained a mean (SD) amyloid level of 10.99 (14.41) CL at
+                  154 weeks (below the 24.1 CL clearance cutoff). Combining LTE data with three
+                  earlier donanemab studies (phase 1b NCT02624778; TRAILBLAZER-ALZ NCT03367403;
+                  TRAILBLAZER-EXT NCT04640077) yielded a pooled reaccumulation-rate estimate of
+                  2.4 CL/year, described as comparable to the natural (untreated) amyloid
+                  accumulation rate.
+                evidence: [C10]
+                also_depends_on: ["RW05 (Gueorguieva et al. 2025 exposure-response model)"]
+                status: resolved
+      - id: N15
+        type: decision
+        support_level: explicit
+        source_refs: ["§2.5.3 Safety", "§3.4 Safety"]
+        title: "Conduct descriptive (non-inferential) long-term safety tabulation by treatment-sequence group"
+        choice: >
+          Tabulate deaths/SAEs/TEAEs/AEs-of-special-interest separately for three LTE
+          treatment-sequence groups (donanemab->placebo N=393; donanemab->donanemab N=157;
+          placebo->donanemab N=657) and compare descriptively (no formal statistical test) to the
+          previously reported placebo-controlled-period donanemab safety profile.
+        alternatives:
+          - "Pool all donanemab-exposed LTE participants into a single safety group regardless of treatment sequence (would obscure sequence-specific ARIA-risk differences)"
+        evidence: [C11, C12]
+        status: resolved
+        children:
+          - id: N16
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.4 Safety", "Table 1"]
+            title: "E10: Descriptive safety analysis by treatment-sequence group during the LTE"
+            result: >
+              Deaths/SAEs/TEAEs: donanemab->placebo 2.0%/20.4%/80.2%; donanemab->donanemab
+              1.3%/13.4%/84.7%; placebo->donanemab 1.1%/19.6%/86.5%. Two previously reported
+              deaths (ARIA-E; intracranial hemorrhage post-thrombolytic with same-day MRI showing
+              severe ARIA-E). No new AE categories emerged versus the established
+              placebo-controlled-period donanemab safety profile.
+            evidence: [C11]
+            status: resolved
+          - id: N17
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.4 Safety", "Fig. S7/S8 (not included in provided PDF)"]
+            title: "E11: ARIA time-course and post-discontinuation risk analysis"
+            result: >
+              Most ARIA-E events occurred within the first 24 weeks of donanemab exposure;
+              ARIA-E incidence <=1.0% per 6-month interval after last dose; among 52-week
+              completers, post-placebo-switch OAIRs (1.0 ARIA-E, 10.9 ARIA-H) were similar to
+              placebo-controlled-period placebo-arm OAIRs (1.5 ARIA-E, 10.4 ARIA-H).
+            evidence: [C12]
+            also_depends_on: [N16]
+            status: resolved
+      - id: N18
+        type: dead_end
+        support_level: explicit
+        source_refs: ["§4 Discussion"]
+        title: "LTE lacks a true internal placebo comparator; external-control approach carries residual, uncorrected confounding"
+        hypothesis: "A propensity-score-weighted external ADNI cohort can fully substitute for a randomized internal placebo control in estimating the 3-year donanemab treatment effect."
+        failure_mode: >
+          The paper explicitly acknowledges the external ADNI cohort "may differ from the trial
+          population due to differences in study conduct, assessments, time periods, geographic
+          regions, and other unmeasured confounding factors" -- this limitation is not resolved,
+          only disclosed and partially mitigated (propensity weighting, covariate-balance
+          checking, weight trimming).
+        lesson: >
+          Non-randomized external-control comparisons in an LTE setting remain fundamentally
+          more assumption-laden than a randomized concurrent placebo arm; the paper reports this
+          as an open, standing limitation rather than a resolved methodological question.
+        status: open
+      - id: N19
+        type: dead_end
+        support_level: explicit
+        source_refs: ["§4 Discussion"]
+        title: "Early- vs delayed-start comparison confounded by differential baseline disease severity"
+        hypothesis: "The 27% CDR-G hazard-ratio reduction and the 1.3-month time-saved gap between early- and delayed-start groups isolate the causal effect of treatment timing alone."
+        failure_mode: >
+          Delayed-start participants entering the LTE had more severe disease than the overall
+          study population had at placebo-controlled-period baseline; almost half would not have
+          met the study's initial MMSE-based eligibility criteria. This "may create biased
+          efficacy results toward the early-start group."
+        lesson: >
+          Early- vs delayed-start comparisons in this LTE design cannot be interpreted as a clean
+          causal estimate of treatment-timing effect alone; the paper flags this bias direction
+          explicitly rather than correcting for it statistically.
+        evidence: [C04, C06]
+        status: open
+      - id: N20
+        type: dead_end
+        support_level: explicit
+        source_refs: ["§3.2 Efficacy", "§4 Discussion"]
+        title: "Time-saved calculation does not account for disease-stage-dependent progression rate"
+        hypothesis: "The 1.3-month absolute difference in time-saved between early- and delayed-start donanemab treatment fully captures the added benefit of earlier initiation."
+        failure_mode: >
+          The paper states that because the rate of disease progression is generally higher at
+          later disease stages -- a factor not accounted for in the time-saved calculation -- the
+          reported 1.3-month gap likely understates the true benefit of earlier treatment.
+        lesson: >
+          A simple back-calculated time-saved metric, while intuitive, omits a known
+          confounder (severity-dependent progression rate) that biases the estimate
+          conservatively against earlier treatment.
+        evidence: [C06]
+        status: open
+      - id: N21
+        type: dead_end
+        support_level: explicit
+        source_refs: ["§4 Discussion"]
+        title: "Other AD-relevant biomarkers (e.g., plasma P-tau217) not evaluated in this LTE analysis"
+        hypothesis: "The LTE's biomarker analysis scope (amyloid PET only) is sufficient to characterize long-term disease-modification evidence."
+        failure_mode: >
+          The paper explicitly states "future analyses are needed to evaluate other AD-relevant
+          biomarkers, such as plasma P-tau217," which are not reported here.
+        lesson: "A dedicated future analysis should incorporate plasma P-tau217 and other emerging AD biomarkers alongside amyloid PET."
+        status: open

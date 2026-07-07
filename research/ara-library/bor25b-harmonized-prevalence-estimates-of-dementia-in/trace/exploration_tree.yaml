@@ -1,0 +1,275 @@
+# Exploration graph for Börsch-Supan, Douhou, Otero & Tawiah (2025), "Harmonized prevalence
+# estimates of dementia in Europe vary strongly with childhood education." Scientific Reports
+# 15:14024. doi:10.1038/s41598-025-97691-z.
+# Node types: question | decision | experiment | dead_end | pivot
+# support_level: explicit = grounded in the paper text/tables/figures; inferred = reconstructed.
+# evidence: fields reference claim IDs (C##) in logic/claims.md.
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction"]
+    title: "Can validated, harmonized, cross-nationally comparable prevalence estimates of MCI and dementia be produced for all 28 SHARE countries in 2022?"
+    description: >
+      Prior European multi-country dementia-prevalence estimates (EURODEM, EuroCoDe, Alzheimer
+      Europe, OECD) rely on systematic reviews of non-harmonized epidemiological/clinical studies,
+      and prior SHARE-based ML approaches lack a validated classification ground truth (one
+      approach rescales to OECD estimates, inheriting the same non-harmonization problem). Can an
+      internationally harmonized validation protocol (HCAP) be used to validate SHARE-wide
+      dementia/MCI prevalence estimates without OECD-rescaling or cross-country imputation?
+    status: resolved
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Introduction, p.2"]
+        title: "Collect original SHARE-HCAP validation data rather than rescale to OECD estimates"
+        choice: >
+          Administer the international Harmonized Cognitive Assessment Protocol (HCAP) to a
+          SHARE subsample and use standard NIA-AA diagnostic criteria to classify respondents,
+          providing an independently validated ground truth for the entire 2022 SHARE wave.
+        alternatives:
+          - "Rescale SHARE-based ML/algorithmic prevalence estimates to national OECD estimates (Klee et al. 2024 approach)"
+          - "Continue relying on systematic-review-based consortium estimates (EURODEM/EuroCoDe/Alzheimer Europe/OECD)"
+        evidence: [C06]
+        status: resolved
+        children:
+          - id: N03
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Introduction, p.1-2"]
+            title: "Unsupervised ML clustering approaches lack a validated classification ground truth"
+            hypothesis: "Unsupervised machine-learning clustering on SHARE cognition indicators (de Cleret et al. 2018, 2020; Gharbi-Meliani et al. 2023) could substitute for an independently validated MCI/dementia boundary."
+            failure_mode: >
+              These SHARE-based ML approaches use strictly comparable indicators across countries
+              but "lack a validated approach to identify individuals as MCI or demented"; one
+              variant (Klee et al. 2024) instead rescales estimates to OECD national figures,
+              which "suffer from the above-mentioned shortcomings" of non-harmonized consortium
+              studies.
+            lesson: "A validation base independent of both ad hoc clustering thresholds and OECD-rescaling is needed before SHARE-wide prevalence estimates can be trusted for cross-national comparison."
+            status: resolved
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods, p.3 (SHARE-HCAP data collection)"]
+            title: "Select 5 countries to represent East/West/North/South Europe, oversampling low word-recall scorers"
+            choice: >
+              Draw a weighted validation subsample of individuals aged 65+ from Czech Republic
+              (East), France and Germany (West), Denmark (North), and Italy (South), heavily
+              oversampling low word-recall-test scorers to ensure adequate MCI/dementia
+              representation.
+            alternatives:
+              - "Draw a simple random sample across all 5 countries without oversampling low scorers"
+              - "Include all 28 SHARE units in the validation subsample directly"
+            evidence: [C12]
+            status: resolved
+            children:
+              - id: N05
+                type: experiment
+                support_level: explicit
+                source_refs: ["Methods, p.3", "Table 1"]
+                title: "SHARE-HCAP validation data collection (May-Nov 2022)"
+                result: >
+                  Of 3,546 eligible individuals, 2,687 participated (75.8% response rate); subsample
+                  averaged 75.5 years, 56.2% female, 65.1% completed secondary education; closely
+                  resembles the SHARE parent Wave 9 sample on age, sex and health.
+                evidence: [C12, C13]
+                status: resolved
+                children:
+                  - id: N06
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Methods, p.3"]
+                    title: "High item nonresponse on three cognitive measures, concentrated in Italy"
+                    hypothesis: "All 27 cognitive indicators would have comparably low item nonresponse (<2.3%) across the five SHARE-HCAP countries."
+                    failure_mode: >
+                      Story recall (recognition) had 21.9% nonresponse, HRS Number Series 15.4%,
+                      and TMT part B 12.6% -- all three concentrated in Italy, well above the <2.3%
+                      nonresponse rate for the remaining items.
+                    lesson: "Addressed via Full Information Maximum Likelihood (FIML) estimation in the factor analysis rather than case deletion, to avoid biasing the Italian subsample's factor scores."
+                    status: resolved
+          - id: N07
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods, p.3 (Classification in the SHARE-HCAP sample)"]
+            title: "Adopt the Manly et al. (2022) classification algorithm rather than develop a new one"
+            choice: >
+              Classify SHARE-HCAP respondents as normal/MCI/demented using the Manly et al. (2022)
+              factor-score/informant-report decision rule (NIA-AA diagnostic criteria), applied
+              unchanged (see logic/solution/classification_method.md).
+            alternatives:
+              - "Develop a SHARE-specific classification threshold calibrated to European data"
+              - "Use the original Langa-Weir cutoff scale as the sole classification method"
+            evidence: [C06]
+            status: resolved
+            children:
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Methods, p.3"]
+                title: "HCAP classification of the SHARE-HCAP subsample"
+                result: >
+                  Subsample-level classified prevalence: 72.6% normal, 20.4% MCI, 7.0% demented
+                  (Table 2), with per-country classified rates for Germany, Italy, France, Denmark,
+                  and Czech Republic.
+                evidence: [C06]
+                status: resolved
+              - id: N09
+                type: dead_end
+                support_level: explicit
+                source_refs: ["Discussion, p.7"]
+                title: "No European gold-standard calibration target exists for the Manly et al. thresholds"
+                hypothesis: "A European analogue to the US ADAMS study could be used to independently calibrate the Manly et al. classification thresholds for SHARE countries."
+                failure_mode: >
+                  "Without a 'gold standard' calibration target for the European countries and
+                  Israel such as the US ADAMS study, we prefer this approach to relying on
+                  estimates that suffer from the shortcomings described in the introduction."
+                lesson: "The authors proceed under the explicit assumption (A2, logic/solution/constraints.md) that US-derived thresholds transfer to Europe, acknowledging this as unresolved."
+                status: open
+          - id: N10
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods, p.3 (Relation between cognitive status...)"]
+            title: "Adapt the Hurd et al. (2013) regression-based approach to a multi-country setting"
+            choice: >
+              Relate the HCAP classification outcome to shared demographic/cognitive/health
+              variables (orientation, word recall, serial 7s, animal naming, ADL+IADL) available in
+              both SHARE-HCAP and the SHARE parent sample, using a regression approach originally
+              developed to estimate US dementia costs.
+            alternatives:
+              - "Use only the raw shared cognition items without a fitted regression weighting"
+              - "Restrict prevalence estimation to the 5 SHARE-HCAP countries only"
+            evidence: [C06]
+            status: resolved
+            children:
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["Methods, p.3-4", "Table 2"]
+                title: "Internal validation: regression-predicted vs. directly classified prevalence in the subsample"
+                result: >
+                  Predicted (regression-based) subsample prevalence closely tracks classified
+                  (Manly et al.) prevalence: 71.5%/21.5%/7.0% (predicted) vs. 72.6%/20.4%/7.0%
+                  (classified) for normal/MCI/demented; the paper states this "replicates the
+                  classification results... very well" and "documents this validity."
+                evidence: [C06]
+                status: resolved
+              - id: N12
+                type: experiment
+                support_level: explicit
+                source_refs: ["Methods, p.4", "Results, p.4-5", "Table 3"]
+                title: "Full SHARE-parent-sample prediction and country-level aggregation"
+                also_depends_on: [N05]
+                result: >
+                  Country-level HCAP-validated dementia prevalence ranges from 4.6% (Switzerland)
+                  to 22.7% (Spain); MCI from 16.8% (Germany) to 31.1% (Portugal); 28-unit averages
+                  10.9% (dementia) and 23.9% (MCI); prevalence concentrated in Mediterranean and
+                  Southeastern Europe.
+                evidence: [C01, C02, C03, C04]
+                status: resolved
+                children:
+                  - id: N13
+                    type: decision
+                    support_level: explicit
+                    source_refs: ["Methods, p.4"]
+                    title: "Use a separate informant-based rule for the 3.1% proxy-interview respondents"
+                    choice: >
+                      For the 3.1% of Wave 9 respondents unable to complete cognition items
+                      directly, classify via a simple rule based on informant-assessed memory
+                      function: poor -> demented, fair -> MCI, else normal.
+                    alternatives:
+                      - "Exclude proxy-interview respondents from the analytical sample entirely"
+                      - "Apply the same regression-based prediction equation to proxy respondents despite missing cognition items"
+                    status: resolved
+                  - id: N14
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Methods, p.4"]
+                    title: "1.2% of Wave 9 respondents excluded due to missing data"
+                    hypothesis: "All Wave 9 respondents aged 65+ could be assigned a predicted cognitive-status probability using either the regression equation or the informant-based rule."
+                    failure_mode: >
+                      1.2% of respondents had insufficient data to apply either the direct
+                      regression-based prediction (95.7% group) or the informant-based rule (3.1%
+                      group), and were excluded from the analytical sample (N=47,193 vs. the
+                      Wave 9 total of N=47,733).
+                    lesson: "The analytical sample size differs from the full Wave 9 sample size specifically because of this exclusion; downstream prevalence figures (Table 3, Table 4) use N=47,193."
+                    status: resolved
+                  - id: N15
+                    type: decision
+                    support_level: explicit
+                    source_refs: ["Results, p.4", "Table 3"]
+                    title: "Report the original Langa-Weir (LW) scale alongside HCAP-validated estimates as a comparison benchmark"
+                    choice: >
+                      Compute prevalence using the original LW cutoff scale (demented 0-6, normal
+                      12-27, CIND 7-11) on the same SHARE parent Wave 9 sample, reporting it beside
+                      the HCAP-validated estimates in Table 3.
+                    alternatives:
+                      - "Report only the HCAP-validated estimates without an LW comparison"
+                      - "Use the Klee et al. (2024) LW variant (without backwards counting) for comparability with the earlier SHARE study"
+                    evidence: [C05]
+                    status: resolved
+                    children:
+                      - id: N16
+                        type: experiment
+                        support_level: explicit
+                        source_refs: ["Results, p.4", "Table 3"]
+                        title: "Compare HCAP-validated vs. Langa-Weir prevalence and dispersion"
+                        result: >
+                          LW-based estimates are generally lower (28-unit average MCI 17.8% vs.
+                          23.9% HCAP-validated) but show much larger relative cross-national
+                          dispersion (coefficient of variation for Demented,%: 0.80 LW vs. 0.46
+                          HCAP-validated).
+                        evidence: [C05]
+                        status: resolved
+                  - id: N17
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Results, p.5-6", "Table 4"]
+                    title: "Face-validity check: group differences by age, sex, and education"
+                    result: >
+                      Dementia risk rises monotonically and significantly with age (all p<0.0001
+                      except one non-significant MCI comparison, p=0.288); women have higher
+                      age-adjusted MCI risk (p<0.0001) but no significant dementia-risk difference
+                      (p=0.153); higher age/sex-adjusted education is associated with significantly
+                      lower MCI and dementia risk (all p<0.0001).
+                    evidence: [C07, C08]
+                    status: resolved
+                  - id: N18
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Results, p.5-6", "Figure 1"]
+                    title: "Face-validity check: comorbidity and lifestyle regression"
+                    result: >
+                      Stroke (+7.2pp), EURO-D depression >4 (+4.0pp), and diabetes (+0.8pp) are
+                      significant positive associations with dementia probability; physical
+                      activity is protective (~-3pp); smoking is a significant positive risk
+                      factor; high blood pressure, high cholesterol, and excessive alcohol show no
+                      statistically significant association conditional on the other factors.
+                    evidence: [C09, C10]
+                    status: resolved
+                  - id: N19
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Results, p.6", "Discussion, p.6-7", "Figure 2"]
+                    title: "Education-standardization counterfactual simulation"
+                    also_depends_on: [N17]
+                    result: >
+                      Substituting each country's actual childhood-education distribution with the
+                      28-unit average dramatically compresses the cross-national variation in
+                      dementia prevalence relative to the actual (observed) variation, presented as
+                      evidence that education differences are a major driver of the observed
+                      cross-national prevalence variation.
+                    evidence: [C11]
+                    status: resolved
+      - id: N20
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Discussion, p.7"]
+        title: "Non-response bias likely causes residual underestimation of dementia prevalence"
+        hypothesis: "Proxy interviews (3.1% of respondents) and following individuals into nursing homes/institutions would fully correct for higher non-response among people with dementia."
+        failure_mode: >
+          Despite these mitigation efforts, the authors state results "may underestimate the
+          prevalence of dementia because non-response tends to be higher for individuals with
+          dementia."
+        lesson: "Flagged as an open, only partially mitigated limitation rather than a resolved methodological issue -- future work would need additional non-response correction strategies."
+        status: open

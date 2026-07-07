@@ -1,0 +1,13 @@
+paper:
+  slug: mog26-predicting-alzheimer-s-disease-progression-using
+  doi: 10.1117/12.3088066
+  title: 'Predicting Alzheimer’s disease progression using rs‑fMRI and a history‑aware graph neural network'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://arxiv.org/pdf/2604.06469
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

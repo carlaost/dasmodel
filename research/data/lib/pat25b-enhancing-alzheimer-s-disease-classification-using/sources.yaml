@@ -1,0 +1,13 @@
+paper:
+  slug: pat25b-enhancing-alzheimer-s-disease-classification-using
+  doi: 10.1007/s41314-025-00071-8
+  title: "Enhancing Alzheimer's Disease Classification using Transformer based Neuroimaging Technique"
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://link.springer.com/content/pdf/10.1007/s41314-025-00071-8.pdf
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

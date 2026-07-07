@@ -1,0 +1,238 @@
+# Exploration Tree — che25e-apoe4-reprograms-microglial-lipid-metabolism-in
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# NOTE: This is a narrative REVIEW, not an experimental study. The tree reconstructs the review's
+# ARGUMENT structure (questions it poses, evidence lines it marshals, decisions of scope, and
+# limitations it flags). Most nodes are `inferred` reconstructions of the review's reasoning;
+# `explicit` nodes are grounded in specific sections/figures/tables. "experiment" nodes summarize the
+# body of primary evidence the review cites for that thread (not experiments by these authors).
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "§1", "§2"]
+    title: "How does the APOEε4 allele drive Alzheimer's disease pathogenesis, and why are its effects most pronounced in microglia?"
+    description: >
+      Central question of the review: APOEε4 is the strongest genetic risk factor for late-onset AD;
+      the review asks how its structural/genetic properties translate into cell-type-specific lipid
+      metabolic disturbances, and why microglia bear the most pronounced burden.
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["§2.1", "Figure 1A", "refs 16-22"]
+        title: "Characterize APOE4 structural instability ('molten globule') and isoform differences"
+        result: >
+          APOE4 (Arg112/Arg158) is the least stable of the three isoforms; adopts a molten-globule
+          folded-intermediate state enhancing binding to lipid-rich particles and Aβ while impairing
+          lipid transport capacity. (Foundational structural-biology background — problem.md
+          Observation O3 — not itself a synthesized review claim; no claims.md C## binds directly
+          to it.)
+
+      - id: N03
+        type: experiment
+        support_level: explicit
+        source_refs: ["§1", "§2.2", "refs 7,32,33", "Figure 1A"]
+        title: "Establish APOEε4 dose-dependent AD risk and population carrier frequency"
+        result: >
+          Heterozygotes: ~3-4× AD risk; homozygotes: ~9-15× risk; population carrier rate ~23.9%
+          (2.1% ε4/ε4, 20.6% ε3/ε4, 2.3% ε2/ε4); nearly all ε4 homozygotes show AD pathology.
+        evidence: [C12]
+
+      - id: N04
+        type: decision
+        support_level: inferred
+        title: "Survey lipid metabolic disturbances cell-type by cell-type before focusing on microglia"
+        choice: "Structure the review around astrocytes/neurons (§3.1) then microglia (§3.2-§4) rather than a single undifferentiated 'glial APOE4' account."
+        alternatives:
+          - "Treat all glia as a single undifferentiated compartment."
+          - "Focus exclusively on microglia from the outset, omitting astrocyte/neuron comparison."
+        evidence: "Abstract states 'Although impacting astrocytes and neurons, its most pronounced effects occur in microglia' — the comparative framing is load-bearing for the review's thesis."
+        children:
+
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.1", "Figure 2A", "refs 56-64"]
+            title: "Characterize APOE4 astrocyte lipid dysregulation and tau propagation"
+            result: >
+              SREBP2 activation/PPARγ suppression drive cholesterol overproduction and impaired
+              mitophagy; GPC-4/LRP1 upregulation drives tau hyperphosphorylation; poorly lipidated
+              lipoprotein secretion impairs neuronal support.
+            evidence: [C07]
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["§3.1", "Figure 2B", "refs 65-71"]
+            title: "Characterize APOE4 neuron lipid dysregulation and tau aggregation"
+            result: >
+              Excessive LDLR binding causes lysosomal dysfunction/lipofuscin accumulation/impaired
+              autophagy, triggering tau aggregation; deficient LD storage causes lipotoxic FFA
+              accumulation; ABCA1 degradation and mTORC1 senescence activation impair plasticity.
+            evidence: [C08]
+
+      - id: N07
+        type: experiment
+        support_level: explicit
+        source_refs: ["§3.2", "Figure 2C", "refs 72-86"]
+        title: "Characterize microglial subtype diversification (LDAM, DAM, MGnD, TIM)"
+        also_depends_on: [N04]
+        result: >
+          Single-cell profiling reveals distinct APOE4-enriched pathological subtypes: LDAM
+          (canonical lipid/proinflammatory/phagocytosis-impaired), DAM (glycolytic, impaired Aβ
+          uptake), MGnD (normally neuroprotective, suppressed by APOE4-ITGB8-TGFβ), TIM (exhausted,
+          Aβ-clearance-deficient).
+        evidence: [C09]
+        children:
+
+          - id: N08
+            type: experiment
+            support_level: explicit
+            source_refs: ["§4.1.1", "Figure 3", "refs 72-76,89,90"]
+            title: "Establish microglial 'enhanced synthesis–suppressed degradation' lipid imbalance (LDAM formation)"
+            result: >
+              APOE4 upregulates FAS/LD formation (ACSL1, PLIN2) while suppressing lipophagy and FAO
+              (direct mitochondrial damage + indirect proinflammatory-polarization gene suppression);
+              PU.1/NF-κB enrichment at LD-associated enhancers.
+            evidence: [C01]
+            children:
+
+              - id: N09
+                type: dead_end
+                support_level: explicit
+                source_refs: ["§4.1.1", "refs 91,92"]
+                title: "Assume TREM2-R47H uniformly reduces microglial LD accumulation"
+                hypothesis: "The TREM2-R47H risk variant reduces microglial lipid-droplet accumulation regardless of experimental context."
+                failure_mode: >
+                  TREM2-R47H reduced LD accumulation, plaque reactivity, and APOE secretion in vivo
+                  (chimeric AD model) but exacerbated LD accumulation in the same mutant microglia
+                  in vitro — an opposite-direction, context-dependent effect.
+                lesson: >
+                  Microglial lipid phenotype is critically shaped by microenvironmental context, not
+                  determined by genotype alone; in vitro findings for TREM2 variants cannot be
+                  assumed to hold in vivo (or vice versa) without direct comparison.
+                evidence: [C10]
+
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["§4.1.2", "Figure 3", "refs 51,93-100"]
+                title: "Establish cholesterol overload via ER stress–SREBP2 pathway"
+                result: >
+                  ER stress → ER Ca2+ depletion → SREBP2 activation → HMGCR/SQLE transcription;
+                  impaired ABCA1 recycling reduces cholesterol efflux; cholesterol overload reduces
+                  Aβ-degradation capacity and promotes lipid-raft-mediated Aβ generation.
+                evidence: [C02]
+
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["§4.1.3", "Figure 3", "refs 101-106"]
+                title: "Establish microglia-neuron communication disruption (GIRK3/excitability)"
+                also_depends_on: [N10]
+                result: >
+                  Impaired microglial lipid reuptake causes extracellular cholesterol accumulation,
+                  increasing neuronal GIRK3 and hyperpolarizing membrane potential, reducing
+                  excitability; neurons reciprocally regulate microglial lipid metabolism via AMPK.
+                evidence: [C01]
+
+          - id: N12
+            type: experiment
+            support_level: explicit
+            source_refs: ["§4.2", "Figure 4A", "refs 75,78,100,107-114"]
+            title: "Establish direct and lipid-amplified neuroinflammatory activation"
+            also_depends_on: [N08]
+            result: >
+              LilrB3-mediated interferon-stimulated-gene induction and NLRP3/ROS priming (direct
+              route); glycolysis-up/TCA-down metabolic shift → proinflammatory lipid mediators,
+              NF-κB activation, MHC-II/T-cell hyperactivation, 25-HC→IL-1β amplification (lipid
+              route).
+            evidence: [C03, C04]
+
+          - id: N13
+            type: experiment
+            support_level: explicit
+            source_refs: ["§4.3", "Figure 4B", "refs 42,44,74,85,116-126"]
+            title: "Establish phagocytic impairment of Aβ, tau, and synapses"
+            also_depends_on: [N08, N10, N12]
+            result: >
+              Mitochondrial dysfunction, reduced TREM2, ITGB8-TGFβ-mediated Aβ42-clearance
+              suppression, and (in female carriers) IL-17F/IL-17RA signaling impair Aβ clearance;
+              lysosomal dysfunction drives p-tau accumulation and exosomal propagation; increased
+              plaque-proximal synaptic phagocytosis correlates with cognitive decline.
+            evidence: [C05, C06]
+
+      - id: N14
+        type: experiment
+        support_level: explicit
+        source_refs: ["§3.2", "ref 80"]
+        title: "Discover microglia-specific glycolysis-lipid compensatory coupling (HK2 inhibition)"
+        also_depends_on: [N08]
+        result: >
+          Pharmacological HK2 inhibition activates lipoprotein lipase, sustaining ATP production and
+          promoting Aβ clearance — a coupling reported as microglia-specific, not observed in other
+          brain cell types.
+        evidence: [C11]
+
+      - id: N15
+        type: decision
+        support_level: inferred
+        title: "Synthesize the microglial mechanisms into a single self-reinforcing pathogenic triad"
+        also_depends_on: [N08, N12, N13]
+        choice: "Frame lipid dysregulation, neuroinflammation, and phagocytic impairment as a closed, mutually reinforcing 'vicious cycle' (Figure 5) rather than three independent findings."
+        alternatives:
+          - "Present the three arms as independent, unconnected mechanisms without a unifying feedback narrative."
+        evidence: "§6 Conclusion explicitly states the 'pathogenic triad' forms 'a self-perpetuating cycle that exacerbates AD progression.'"
+        children:
+
+          - id: N16
+            type: question
+            support_level: explicit
+            source_refs: ["§5"]
+            title: "Can any therapy specifically correct the microglial-APOE4-lipid axis?"
+            description: >
+              Having established the microglial-lipid-driven pathogenic triad (N15), the review
+              asks whether any existing or emerging therapeutic strategy specifically targets and
+              corrects the microglial-APOE4-lipid axis, rather than APOE4 or neuroinflammation more
+              broadly.
+            result: >
+              14 candidate agents surveyed across lipid metabolism, neuro-inflammation, phagocytosis,
+              and APOE4-targeting; several reached phase I/II trials (bexarotene, AL002c, LX1001).
+            evidence: [C13]
+            children:
+
+              - id: N17
+                type: dead_end
+                support_level: explicit
+                source_refs: ["§5", "ref 158"]
+                title: "Pursue genotype-wide APOE4 correction (CRISPR-Cas9) as the direct solution"
+                hypothesis: "Directly converting the APOE4 allele to APOE3/APOE2 via gene editing is the most complete therapeutic solution."
+                failure_mode: >
+                  CRISPR-Cas9-based APOE modification is accompanied by technical, ethical, and
+                  safety challenges; full-scale APOE4 interventions more broadly risk toxic side
+                  effects relative to cell-type-specific approaches.
+                lesson: >
+                  Cell-type-specific (e.g., microglia-targeted) interventions are favored over
+                  genotype-wide correction for precision and reduced toxicity risk (§5).
+                evidence: [C13]
+
+              - id: N18
+                type: question
+                support_level: explicit
+                source_refs: ["§5"]
+                title: "Why does no drug yet specifically correct APOE4-driven microglial lipid abnormalities?"
+                description: >
+                  Following the CRISPR-Cas9 dead end (N17) and the broader 14-agent survey (N16),
+                  the review poses this as its concluding open question — whether the translational
+                  gap reflects incomplete mechanistic understanding, the multiplicity of
+                  semi-independent pathogenic arms (gap G1), or the inherent difficulty of
+                  precision cell-type-specific targeting (gaps G2, G4).
+                result: >
+                  Despite growing interest, "no effective drugs currently exist to specifically
+                  correct APOE4-driven lipid metabolic abnormalities in microglia"; translating
+                  animal/cellular findings into human therapies "remains challenging."
+                evidence: [C13]

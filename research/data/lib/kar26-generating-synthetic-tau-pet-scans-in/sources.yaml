@@ -1,0 +1,13 @@
+paper:
+  slug: kar26-generating-synthetic-tau-pet-scans-in
+  doi: 10.64898/2026.05.06.26352540
+  title: 'Generating synthetic tau-PET scans in Alzheimer’s disease from MRI, blood biomarkers and demographics with deep learning'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.medrxiv.org/content/medrxiv/early/2026/05/07/2026.05.06.26352540.full.pdf
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

@@ -1,0 +1,13 @@
+paper:
+  slug: the25c-mri2pet-realistic-pet-image-synthesis-from
+  doi: 10.1101/2025.04.23.25326302
+  title: 'MRI2PET: Realistic PET Image Synthesis from MRI for Automated Inference of Brain Atrophy and Alzheimer’s'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.medrxiv.org/content/medrxiv/early/2025/04/25/2025.04.23.25326302.full.pdf
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

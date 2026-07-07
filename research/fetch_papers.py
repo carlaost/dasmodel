@@ -155,7 +155,7 @@ def fetch_one(paper, args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--base-url", default="https://sci-hub.box/",
+    ap.add_argument("--base-url", default="",
                     help="URL prepended to each paper's DOI/URL (your proxy/resolver). "
                          "Empty = plain DOI resolver.")
     ap.add_argument("--key", choices=["doi", "url"], default="doi",

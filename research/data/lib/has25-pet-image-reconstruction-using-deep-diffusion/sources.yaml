@@ -1,0 +1,13 @@
+paper:
+  slug: has25-pet-image-reconstruction-using-deep-diffusion
+  doi: 10.1109/TMI.2026.3659792
+  title: 'PET Image Reconstruction Using Deep Diffusion Image Prior'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://arxiv.org/pdf/2507.15078
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

@@ -1,0 +1,90 @@
+{
+  "slug": "gau25-single-nucleus-and-spatial-transcriptomic-profiling",
+  "genre": "primary_experimental",
+  "genre_source": "tierC",
+  "coarse": "PRIMARY_LAB",
+  "n_claims": 14,
+  "n_experiments": 9,
+  "artifact_facts": {
+    "has_code": false,
+    "has_open_data": false,
+    "n_trials": 0
+  },
+  "abstract_bound": false,
+  "extractive_fidelity": {
+    "value": "pending",
+    "validity": "pending",
+    "n_claims_checked": 0,
+    "n_faithful": 0,
+    "infidelities": [],
+    "detail": "no frozen extractive_fidelity/gau25-single-nucleus-and-spatial-transcriptomic-profiling.yaml on disk and gau25-single-nucleus-and-spatial-transcriptomic-profiling is not in ABSTRACT_ONLY \u2014 an independent adversarial full-text fidelity check has not been produced for it yet; degrading to pending rather than fabricating a score."
+  },
+  "fidelity_hard_fail": false,
+  "rank_eligible": false,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/20 rw_blocks qualify (3 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.0714,
+      "validity": "pending_sem",
+      "n_negative": 1,
+      "detail": "N21 (genuine dead-end, RC3, not claim-duplicated)"
+    },
+    "dead_end_density": {
+      "value": 0.0714,
+      "validity": "source_bound",
+      "n_genuine": 1,
+      "n_synthetic": 3,
+      "source_binding_ratio": 0.25,
+      "detail": "N14: synthetic (source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt)); N16: synthetic (source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt)); N18: synthetic (source_refs only point to Table/Outcome/Abstract/\u00a73-4/Results/Discussion/Conclusion (conclusion-reporting apparatus, not a documented attempt); hypothesis mirrors/negates a supported headline claim (jaccard=0.265)); N21: genuine"
+    },
+    "translation_trial_linkage": {
+      "value": 0.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [],
+        "verified": [],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": "pending",
+      "validity": "pending_sem",
+      "detail": "no frozen logic/grounding_findings.yaml on this ARA and no LLM [sem] pass is wired into this run. RC7 asks whether the cited quote SUPPORTS the number (not just whether the string is present) -- that requires semantic judgment this deterministic module cannot fabricate, so it degrades to pending rather than guessing a score. Expected path on this well-compiled corpus (plan.md RC7): low yield here, guardrail for worse ARAs."
+    },
+    "novel_claim_count": {
+      "value": "pending",
+      "validity": "pending",
+      "detail": "stub \u2014 no sem_findings/<slug>.yaml"
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.685,
+    "components": {
+      "grounding_trust": null,
+      "environment_completeness": 0.429,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": null,
+      "gate_pass_ratio": 0.75
+    },
+    "gates": {
+      "seal_L1": true,
+      "all_links_resolve": true,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": false
+    },
+    "falsification_writing_quality_reportonly": null,
+    "grounding_detail": {
+      "value": null,
+      "trust_class": "no_parseable_quotes",
+      "self_contained_ratio": null,
+      "coverage": 0,
+      "detail": "quotes_present=0, checkable=0 (in-repo .md pointer), unverifiable=0 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=0, quote_not_found_extraction=0 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=no_parseable_quotes."
+    },
+    "low_trust": false
+  }
+}

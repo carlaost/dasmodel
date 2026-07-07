@@ -1,0 +1,214 @@
+# Exploration Tree — zho25-microglia-networks-within-the-tapestry-of
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+#
+# GROUNDING: full-text PDF (14 pages) + visually extracted figures. This is a narrative review, so
+# the tree reconstructs the review's own synthesized research questions and the primary-literature
+# findings it reports as answers — not a first-hand experimental trajectory run by Zhou & Glass
+# themselves. All nodes are support_level: explicit (grounded in stated review text); no dead_end or
+# decision nodes are included because the review does not report rejected alternatives or explicit
+# design trade-offs made by its own authors (it is a synthesis of others' completed studies).
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["paper.pdf p.2 — Background"]
+    title: "How do microglia and their neighborhood interact with the pathological hallmarks in AD brains?"
+    description: >
+      The review's stated central open question: despite scRNAseq-defined microglial states,
+      how microglia interact spatially with amyloid plaques, tau aggregates, and neighboring
+      cell types remained unresolved absent spatial context (paper.pdf p.2: "a fundamental
+      question remains unsolved: how do microglia and their neighborhood interact with the
+      pathological hallmarks in the AD brains").
+    children:
+
+      - id: N02
+        type: question
+        support_level: explicit
+        source_refs: ["paper.pdf p.2-3 — Overview of spatial transcriptomics technologies"]
+        title: "What spatial transcriptomics platforms exist, and how do they trade off resolution against transcriptome coverage?"
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.2-3", "Fig. 1", "Fig. 2"]
+            title: "Survey and visually benchmark img-ST (MERFISH/seqFISH/ISS) vs. seq-ST (Visium/Slide-seq/Visium HD/Stereo-seq) platform resolution and panel coverage"
+            result: >
+              img-ST platforms achieve sub-cellular to single-molecule resolution but require a
+              pre-selected gene panel; seq-ST platforms capture the whole transcriptome across a
+              resolution range from ~50 μm (Visium) down to ~220 nm (Stereo-seq).
+            evidence: [C01]
+
+      - id: N04
+        type: question
+        support_level: explicit
+        source_refs: ["paper.pdf p.5 — Microglia regional and functional heterogeneity"]
+        title: "Are microglia a spatially and functionally homogeneous population?"
+        children:
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.5"]
+            title: "Regionally dissect and scRNAseq-profile sorted microglia across brain regions"
+            result: >
+              Microglia constitute ~4-10% of CNS cells with a brain-wide density gradient (similar
+              in cortex/striatum/hippocampus, roughly half in thalamus/midbrain, lowest in
+              cerebellum), and show regional transcriptomic heterogeneity.
+            evidence: [C02]
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.5"]
+            title: "Compare DAM, ARM, and MGnD gene signatures across independent neurodegeneration mouse models"
+            result: >
+              DAM (5xFAD/APP-PS1), ARM (AD models), and MGnD (ALS/MS/neurodegeneration models) were
+              discovered independently but share substantially overlapping activation gene programs
+              (Clec7a, Apoe, Trem2, Tyrobp, Cst7, Lpl, among others).
+            evidence: [C03]
+            also_depends_on: [N05]
+
+      - id: N07
+        type: question
+        support_level: explicit
+        source_refs: ["paper.pdf p.6-8 — Microglia in the amyloid plaque niche"]
+        title: "How is the amyloid plaque niche spatially organized across cell types, and what mediates cell-cell crosstalk within it?"
+        children:
+          - id: N08
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.6-7"]
+            title: "Define plaque-induced genes (PIGs) via seq-ST with a fixed plaque-boundary mask in the AppNL-G-F mouse model"
+            result: >
+              57 PIGs were identified using a 100 μm spot seq-ST method with a 50 μm plaque-boundary
+              mask; PIGs are strongly associated with DAM and inflammatory-astrocyte signatures and
+              are primarily but not exclusively microglia-driven.
+            evidence: [C04]
+            also_depends_on: [N06]
+
+          - id: N09
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.7"]
+            title: "Bin cells by distance from plaque boundary using img-ST (STARmap Plus) in the TauPS2APP model"
+            result: >
+              Microglia are the most plaque-proximal cell type (enriched within 10 and 10-20 μm);
+              astrocytes, oligodendrocytes, OPCs, and endothelial cells peak at 10-30 μm (with
+              oligodendrocytes further specifically enriched at 20-40 μm and OPCs at 10-30 μm in
+              late AD); disease-associated astrocytes (DAA-like) comprise ~14% of the astrocyte
+              population and peak at an intermediate 10-40 μm distance band.
+            evidence: [C05, C06]
+            also_depends_on: [N08]
+
+          - id: N10
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.7"]
+            title: "Infer receptor-ligand interactions between microglia and astrocytes as a function of plaque distance (CosMx + Stereo-seq)"
+            result: >
+              130 candidate microglia-astrocyte RL pairs were identified (11 overlapping with PIGs);
+              interaction strength for named pairs (e.g., Csf1-Csf1r, astrocytic Cd44/Clu/Apoe with
+              microglial Tyrobp/Trem2) increases as cells approach the plaque.
+            evidence: [C07]
+            also_depends_on: [N08]
+
+          - id: N11
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.7"]
+            title: "Cross conditional Ifnar1 knockouts (microglia-specific vs. neuron-specific) onto 5xFAD mice and quantify synaptic/plaque phenotypes"
+            result: >
+              Half of Clec7a+ DAMs are interferon-responsive; microglial Ifnar1 deletion reduces
+              post-synaptic terminal loss near plaques, while neuronal Ifnar1 deletion restores
+              pre-synaptic terminals and decreases plaque accumulation — establishing IFN-I as a
+              bidirectional, cell-type-specific signaling node.
+            evidence: [C08]
+            also_depends_on: [N06]
+
+          - id: N12
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.8 — Microglia and vulnerable neurons"]
+            title: "Jointly image p-tau and microglia via STAR-MAP across disease time points in TauPS2APP mice"
+            result: >
+              The dominant p-tau+ excitatory neuron subtype shifts from CTX-Ex2 (8 months) to CA1
+              hippocampal (13 months); inhibitory neurons remain <20% of the p-tau+ population,
+              shifting from predominantly Pvalb (8mo) to Sst (13mo); oligodendrocytes are the most
+              enriched cell type near high p-tau signal in white-matter-adjacent regions.
+            evidence: [C09]
+
+      - id: N13
+        type: question
+        support_level: explicit
+        source_refs: ["paper.pdf p.8-9 — Microglia in aging brains"]
+        title: "How do microglia and their spatial neighborhood change with brain aging (independent of AD pathology)?"
+        children:
+          - id: N14
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.8-9"]
+            title: "Apply combined MERFISH + electron microscopy to LPC-induced demyelination/remyelination lesions"
+            result: >
+              Foamy microglia (lipid-droplet-laden) at the lesion center co-express DAM and
+              lipid/cholesterol metabolism genes (Plin2, Soat1, Abca1, Abcg1) and localize near a
+              molecularly distinct interferon-responsive microglial subset, oligodendrocytes,
+              astrocytes, and CD8+ T cells.
+            evidence: [C12]
+            also_depends_on: [N06]
+
+          - id: N15
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.9"]
+            title: "Compute a curated-gene-panel MERFISH 'activation score' across aging mouse frontal cortex and striatum"
+            result: >
+              A 421-gene MERFISH panel-derived activation score (11 microglia genes, 8 astrocyte
+              genes) shows aged-animal-enriched glial clusters correlate with adjacent
+              oligodendrocyte inflammation level.
+            evidence: [C10]
+
+          - id: N16
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.9"]
+            title: "Build and cross-apply a 300-gene MERFISH 'Spatial Ageing Clock' across the mouse lifespan and independent perturbation datasets"
+            result: >
+              Microglia accelerate the predicted aging of spatial neighbors (replicated in LPS, EAE,
+              localized-injury, and AD datasets); NSCs exert a rejuvenating proximity effect on
+              neighbors, confirmed via the Cd9 exocytosis marker by immunostaining.
+            evidence: [C11]
+            also_depends_on: [N15]
+
+      - id: N17
+        type: question
+        support_level: explicit
+        source_refs: ["paper.pdf p.9-10 — AD in human samples"]
+        title: "Do human AD brain samples confirm the spatial cellular-interaction patterns found in mouse models?"
+        description: >
+          The review notes mouse models "have proved the limitations in fully representing human
+          AD brain environment and molecular complexities" (paper.pdf p.9) and surveys a smaller,
+          comparatively sparse set of human-tissue ST studies (human PIG co-expression networks
+          replicating late-stage AD alterations; DLPFC and middle temporal gyrus mapping; genetic
+          vs. sporadic AD comparisons; microglial mechanisms in immunized AD patients) as partial
+          confirmation, without a single unifying quantitative finding comparable to the mouse-model
+          nodes above.
+        also_depends_on: [N08]
+
+      - id: N18
+        type: question
+        support_level: explicit
+        source_refs: ["paper.pdf p.10 — Conclusions"]
+        title: "What complementary modalities are needed to address ST's remaining limitations (resolution, multi-omic integration, mRNA-protein dissociation, 3D context)?"
+        children:
+          - id: N19
+            type: experiment
+            support_level: explicit
+            source_refs: ["paper.pdf p.10"]
+            title: "Cross-validate ST-derived microglial subsets against imaging-based spatial proteomics, and quantify mRNA-protein correlation for pro-inflammatory genes"
+            result: >
+              Spatial proteomics platforms multiplexing 30-60 protein targets independently confirm
+              plaque-associated microglial subsets found by ST; however, pro-inflammatory mRNA
+              levels do not necessarily correlate with corresponding protein abundance following
+              innate immune challenge, revealing a post-transcriptional/translational regulatory
+              gap not captured by transcriptomics alone.
+            evidence: [C13, C14]

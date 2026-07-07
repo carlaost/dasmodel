@@ -1,0 +1,13 @@
+paper:
+  slug: vis26-multimodal-fusion-and-explainability-of-artificial
+  doi: 10.1186/s40708-025-00291-w
+  title: 'Multimodal fusion and explainability of artificial intelligence models in Alzheimer’s Disease detection'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://link.springer.com/content/pdf/10.1186/s40708-025-00291-w.pdf
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

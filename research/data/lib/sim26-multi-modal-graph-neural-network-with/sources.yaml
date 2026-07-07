@@ -1,0 +1,13 @@
+paper:
+  slug: sim26-multi-modal-graph-neural-network-with
+  doi: 10.1007/978-3-031-72086-4_48
+  title: 'Multi-modal Graph Neural Network with Transformer-Guided Adaptive Diffusion for Preclinical Alzheimer Classification'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://arxiv.org/pdf/2606.03322
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

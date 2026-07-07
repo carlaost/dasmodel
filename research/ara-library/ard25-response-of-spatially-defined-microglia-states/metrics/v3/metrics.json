@@ -1,0 +1,90 @@
+{
+  "slug": "ard25-response-of-spatially-defined-microglia-states",
+  "genre": "primary_experimental",
+  "genre_source": "tierC",
+  "coarse": "PRIMARY_LAB",
+  "n_claims": 13,
+  "n_experiments": 0,
+  "artifact_facts": {
+    "has_code": true,
+    "has_open_data": true,
+    "n_trials": 0
+  },
+  "abstract_bound": false,
+  "extractive_fidelity": {
+    "value": "pending",
+    "validity": "pending",
+    "n_claims_checked": 0,
+    "n_faithful": 0,
+    "infidelities": [],
+    "detail": "no frozen extractive_fidelity/ard25-response-of-spatially-defined-microglia-states.yaml on disk and ard25-response-of-spatially-defined-microglia-states is not in ABSTRACT_ONLY \u2014 an independent adversarial full-text fidelity check has not been produced for it yet; degrading to pending rather than fabricating a score."
+  },
+  "fidelity_hard_fail": false,
+  "rank_eligible": false,
+  "paper_rankers": {
+    "corrective_science_score": {
+      "value": 0.0,
+      "validity": "invalid_fabricated",
+      "n_corrective_edges": 0,
+      "detail": "0/0 rw_blocks qualify (0 typed refutes/bounds present but baseline-relabeling / no contrastive Delta language / no claims_affected)"
+    },
+    "negative_result_share": {
+      "value": 0.0769,
+      "validity": "pending_sem",
+      "n_negative": 1,
+      "detail": "C11 (semantic null despite status='supported')"
+    },
+    "dead_end_density": {
+      "value": 0.0,
+      "validity": "source_bound",
+      "n_genuine": 0,
+      "n_synthetic": 0,
+      "source_binding_ratio": null,
+      "detail": "no dead_end nodes in exploration_tree \u2014 nothing to fabricate or bind"
+    },
+    "translation_trial_linkage": {
+      "value": 0.0,
+      "validity": "ref_string_bound",
+      "detail": {
+        "ncts": [],
+        "verified": [],
+        "note": "name-drop count; superseded by claim_graph per_claim_trial_concordance"
+      }
+    },
+    "semantic_grounding": {
+      "value": "pending",
+      "validity": "pending_sem",
+      "detail": "no frozen logic/grounding_findings.yaml on this ARA and no LLM [sem] pass is wired into this run. RC7 asks whether the cited quote SUPPORTS the number (not just whether the string is present) -- that requires semantic judgment this deterministic module cannot fabricate, so it degrades to pending rather than guessing a score. Expected path on this well-compiled corpus (plan.md RC7): low yield here, guardrail for worse ARAs."
+    },
+    "novel_claim_count": {
+      "value": "pending",
+      "validity": "pending",
+      "detail": "stub \u2014 no sem_findings/<slug>.yaml"
+    }
+  },
+  "artifact_trust": {
+    "weight_w": 0.15,
+    "components": {
+      "grounding_trust": 1.0,
+      "environment_completeness": 0.0,
+      "falsifiability_presence": 1.0,
+      "compiler_fidelity": null,
+      "gate_pass_ratio": 0.5
+    },
+    "gates": {
+      "seal_L1": false,
+      "all_links_resolve": false,
+      "no_orphan_experiments": true,
+      "grounding_layer_present": true
+    },
+    "falsification_writing_quality_reportonly": null,
+    "grounding_detail": {
+      "value": 1.0,
+      "trust_class": "mixed",
+      "self_contained_ratio": 0.783,
+      "coverage": 47,
+      "detail": "quotes_present=60, checkable=47 (in-repo .md pointer or PyMuPDF-resolved PDF, +47 boosted), unverifiable=13 (bare paper.pdf/\u00a7 pointer, no PDF resolution available/matched), verified=47, quote_not_found_extraction=0 (checkable but string-match failed even after NFKC+dash-fold+whitespace normalization -- an extraction/format issue, routed to trust_class/coverage, not scored as a semantic grounding failure) -> trust_class=mixed."
+    },
+    "low_trust": true
+  }
+}

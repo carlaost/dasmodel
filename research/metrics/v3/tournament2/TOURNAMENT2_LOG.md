@@ -61,3 +61,23 @@ Merges: re-use/FAIR/reproducibility/added-value cluster + X↔Y-consistency fami
 - M09 c1 winners: exp2 (A), exp4 (B)
 - M14 DONE: WINNER A (sound external-literature recall; honestly-limited proxy)
 - M18 DONE: WINNER B (sound arithmetic drift-check; A's identity formula non-reproducible)
+
+## CHECKPOINT — 2026-07-06: HALTED on org monthly spend limit
+
+**Stop cause:** Org monthly spend limit reached. All new subagents fail with
+"You've hit your org's monthly spend limit." This is a HARD limit (not a rolling
+usage window) — requires a manual raise via `/usage-credits` or claude.ai/admin-settings/usage.
+No ScheduleWakeup set: a monthly cap does not auto-reset tonight.
+
+**Final winners locked (critique_c3.md present): 2/10**
+- M14 → WINNER A ("sound external recall, honestly-limited proxy")
+- M18 → WINNER B ("sound arithmetic; A's identity formula non-reproducible")
+
+**Ready to resume (per status2.py):**
+- M17: i3 done (A+B) → LAUNCH final critique (pick 1 + qualify)
+- M19, M48, M36, M30, M32, M64, M09: LAUNCH 2 cycle-3 improvers each
+- Stale .imp3_launched markers cleared for M48/M36/M30/M32/M64 so resume re-fires cleanly.
+
+**To resume:** run `python3 status2.py`, fire the LAUNCH actions it reports
+(implementers on Sonnet, reviewer on Fable), loop until all 10 have critique_c3.md,
+then write TOURNAMENT2_SUMMARY.md and capture round-2 results to the ARA.

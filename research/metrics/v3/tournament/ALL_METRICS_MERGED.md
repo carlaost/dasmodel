@@ -252,7 +252,153 @@ not a measure of whether the science is good.
 
 ---
 
+# PART E — Candidate indicator metrics: what the artifacts afford (from Carla's `Indicators` blocks → `tournament2/METRICS_CANDIDATES.md`)
+
+This is the layer Parts A–D do not contain: not what the compiler *emits* (A), nor what the verifier /
+round-1 tournament already *score* (B/C/D), but what each artifact shape **affords as a good-science
+indicator** — Carla's rough per-artifact `Indicators` drafts, harvested and organized. Many of these
+deliberately require an external tool (`[ext]`) or semantic judgement (`[sem]`) — i.e. they aim past
+the offline/single-file ceiling round-1 hit.
+
+## E.1 Full extraction — 64 candidate metrics (M01–M64), by artifact
+
+| M-id | Name | Artifact | Intent |
+|---|---|---|---|
+| M01 | Metadata comprehensiveness | §1 PAPER.md | Basics present + a persistent id (DOI/accession) |
+| M02 | Artifact comprehensiveness / article-type inference | §1 PAPER.md | Which layers exist, and what that implies about paper genre |
+| M03 | Claim comprehensiveness (subfields/falsifiability/status) | §2 claims | All claim subfields filled, falsifiable, status set |
+| M04 | Claims ↔ results matching (+ publication-bias) | §2 claims | Do claims match reported results; cross-check a connected clinical trial reporting different results |
+| M05 | Abstract-only relevance discount | §2 claims | Down-weight relevance when source is abstract-only |
+| M06 | References & anchor claims (dependencies) | §2 claims | Dependency chains resolve; anchor claims identified |
+| M07 | Claim novelty | §2 claims | Are the claims new vs prior literature |
+| M08 | Claim contradictions | §2 claims | Internal (claim↔claim) and external contradictions |
+| M09 | FOL-ability (Oshima principles) | §2 claims | Can a first-order-logic graph be drawn cleanly over the claims |
+| M10 | Controlled-vocabulary referenceability | §2 claims | Uses translatable, anchorable (ontology-mappable) terms |
+| M11 | Context & content novelty (Evans) | §3 concepts | Novelty of concept space in Evans sense |
+| M12 | Anchoredness (latent layer / canonical dataset) | §3 concepts | Is there a latent layer / canonical dataset referenced |
+| M13 | Internal consistency: claims ↔ concepts | §3 concepts | Concepts cover/agree with the vocabulary claims use |
+| M14 | Reference-landscape comprehensiveness | §4 problem | Cites full relevant landscape (island / k-NN ~500 / undermind) incl. contradicting claims |
+| M15 | Gap ↔ claims match | §4 problem | Do stated gaps line up with what claims resolve |
+| M16 | Gap truthfulness vs literature | §4 problem | Existing-attempts completeness + why-they-fail accuracy vs real lit |
+| M17 | Insight novelty & relevance (+ impact) | §4 problem | Done before? societal/science impact if solved [sem] |
+| M18 | Reference truthfulness / claim drift | §4 problem | Cited sources actually say what they're cited for |
+| M19 | Experiment ↔ claim alignment | §5 experiments | Experiments actually test the claims they verify [sem] |
+| M20 | Comprehensiveness of reporting (benchmark) | §5 experiments | Reporting completeness, briefly benchmarked |
+| M21 | Experiments account for existing efforts & gap | §5 experiments | Design reflects prior efforts + gap analysis |
+| M22 | Reference reasonability | §5 experiments | Are cited comparators/refs reasonable |
+| M23 | Claim drift | §6 related_work | Same as M18 at the related-work layer |
+| M24 | Gap size / novelty | §6 related_work | Magnitude/novelty of the delta over prior work |
+| M25 | Replication bonus points | §6 related_work | Credit for replicating/confirming prior work |
+| M26 | Dependency-graph comprehensiveness | §6 related_work | Citation dependency graph is complete |
+| M27 | Method improvement | §6 related_work | Does the work improve on the cited method |
+| M28 | Conditionality / generalizability | §7 constraints | How far do results generalize |
+| M29 | Validity given claim ↔ experiment gaps/match | §7 constraints | Constraint validity in light of claim/experiment fit |
+| M30 | Assumption realism, validity & fairness | §7 constraints | Dreamcase vs real-world assumptions |
+| M31 | Limitation validity | §7 constraints | Do limitations add real new conditions on the hypotheses |
+| M32 | Method validity | §7 method | Is the method sound |
+| M33 | Method → constraint reasonability | §7 method | Do method choices justify the stated constraints |
+| M34 | Method novelty | §7 method | Is the method new |
+| M35 | Method verification status | §7 method | Widely-accepted method vs over-generalized/unjustified one |
+| M36 | Combination of perspectives | §7 method | Multi-lens (e.g. wet-lab × computational) vs single, reflected in constraints |
+| M37 | Heuristics reflect constraints | §7 heuristics | Are heuristics consistent with the constraints |
+| M38 | Heuristics presence | §7 heuristics | There is always some abstraction — is it captured |
+| M39 | Heuristics distance from optimum | §7 heuristics | How far the heuristic sits from the optimum |
+| M40 | Started from a logical place | §8 tree | Did the DAG start where the literature left off |
+| M41 | Abandoned paths reasoned & explained | §8 tree | Dead-ends are reasoned about, not bare |
+| M42 | Abandoned-path pothole sufficiency | §8 tree | Enough context to let others avoid the pothole |
+| M43 | DAG validly structured | §8 tree | Is the DAG structurally valid |
+| M44 | Tree comprehensiveness (vs clinical-trial report) | §8 tree | Coverage, esp. when a clinical-trial report is available |
+| M45 | Tree includes claim references | §8 tree | Tree evidence refs match the claim references |
+| M46 | Misses search-bot-relevant references | §8 tree | Penalize omitting abandoned paths a search bot deems discoverable |
+| M47 | Hypothesis failure-mode coverage | §8 tree | Substantial coverage of a hypothesis's failure modes |
+| M48 | E2E reproducibility (fig+data+code) | §9 evidence | Evidence bundles figure + data + code for end-to-end reproduction |
+| M49 | Evidence ↔ claim match | §9 evidence | Evidence substantiates the claims [sem] |
+| M50 | Evidence ↔ constraints | §9 evidence | Evidence consistent with stated constraints |
+| M51 | Evidence ↔ method | §9 evidence | Evidence consistent with the method |
+| M52 | Reproduction value | §9 evidence | Confirms existing hypotheses (replication) vs new perspective |
+| M53 | Re-use | §10 src | Are components re-used |
+| M54 | FAIR | §10 src | Findable/Accessible/Interoperable/Reusable compliance |
+| M55 | Reproducibility | §10 src | Reproducibility of the implementation layer |
+| M56 | Added value / novelty / field expansion | §10 src | Does the code/artifact expand the field |
+| M57 | Env ↔ evidence/method/constraints match | §10 src | Environment consistent with the other layers |
+| M58 | Re-use | §11 data | Are datasets re-used |
+| M59 | FAIR | §11 data | Dataset FAIR compliance |
+| M60 | Reproducibility | §11 data | Reproducibility from the data layer |
+| M61 | Added value / novelty / field expansion | §11 data | Does the dataset expand the field |
+| M62 | Data ↔ evidence/method/constraints match | §11 data | Dataset consistent with the other layers |
+| M63 | Data homogeneity & standard adherence | §11 data | Homogeneity + adherence to data standards |
+| M64 | Referencing controlled vocabs / latent spaces | §11 data | Data references existing controlled vocabularies / latent spaces |
+
+## E.2 Ranked survivors (after prune + merge)
+
+Ranked by: (i) net-new vs verifier, (ii) tighter than verifier where overlapping, (iii) down-weighted
+if a pure re-implementation of a round-1 winner or a verifier gate. `[ext]` = needs an external tool;
+`[sem]` = needs LLM semantic judgement.
+
+| Rank | Survivor | Name | Constituents | vs round-1 / verifier | Needs |
+|---|---|---|---|---|---|
+| 1 | S1 (M14) | Reference-landscape completeness | M14,M16,M21,M22,M26,M40,M46 | **strictly net-new** (neither reaches external lit) | [ext] |
+| 2 | S2 (M17) | Novelty vs literature | M07,M11,M17,M24,M34 | net-new ("done before?" out of scope for both) | [ext][sem] |
+| 3 | S3 (M18) | Claim drift / reference truthfulness | M18,M23 | tighter than L1 §10 (source-supports-it, not self-quote) | [ext][sem] |
+| 4 | S4 (M19) | Claim↔Experiment↔Evidence entailment (+ publication-bias) | M04,M13,M15,M19,M29,M49 | = verifier D1, beyond round-1; trial-registry bias check beats both | [sem][ext] |
+| 5 | S5 (M48) | End-to-end reproducibility bundle (fig+data+code) | M48,M55,M60 | tighter than D6 (tri-layer, cross-layer) | cross-layer |
+| 6 | S6 (M36) | Multi-perspective triangulation | M36 | net-new (absent from both) | [sem] |
+| 7 | S7 (M30) | Assumption realism & limitation validity | M28,M30,M31 | tighter than round-1 07 + verifier D3 (realism, not just concreteness/explicitness) | [sem] |
+| 8 | S8 (M32) | Method validity & verification status | M32,M33,M35 | tighter facet of verifier D6 | [sem] |
+| 9 | S9 (M64) | Controlled-vocabulary & latent-space anchoring | M10,M12,M64 | net-new interoperability signal | [ext] |
+| 10 | S10 (M09) | FOL-ability (Oshima) | M09 | net-new formal-checkability signal | [ext]/[sem] |
+| 11 | S11 (M08) | Claim contradictions | M08 | broader than D4 (claim↔claim + external) | [sem][ext] |
+| 12 | S12 (M42) | Abandoned-path pothole sufficiency | M42 | richer than round-1 08 / D5 (reusable-to-prevent-repeat) | [sem] |
+| 13 | S13 (M47) | Hypothesis failure-mode coverage | M47 | completeness axis beyond disclosure | [sem] |
+| 14 | S14 (M44) | Tree comprehensiveness vs clinical-trial report | M44 | net-new (external registry) | [ext] |
+| 15 | S15 (M53) | Reuse & FAIR-ness | M53,M54,M58,M59 | FAIR-as-standard net-new | [ext] |
+| 16 | S16 (M56) | Added value / field expansion | M56,M61 | net-new (overlaps S2 novelty) | [ext][sem] |
+| 17 | S17 (M25) | Replication vs novel-perspective value | M25,M52 | net-new | [sem][ext] |
+| 18 | S18 (M50) | Resource↔spec grounding | M50,M51,M57,M62 | = verifier D4 territory, structural | [sem] |
+| 19 | S19 (M37) | Heuristics adequacy | M37,M38,M39 | presence is round-1; distance-from-optimum net-new | [sem] |
+| 20 | S20 (M20) | Reporting comprehensiveness / benchmark | M20 | overlaps round-1 05 + D6 | [sem] |
+| 21 | S21 (M02) | Artifact comprehensiveness / article-type | M02 | mostly proxied by round-1 01 + L1 | — |
+| 22 | S22 (M63) | Data homogeneity & standard adherence | M63 | net-new | [ext] |
+| 23 | S23 (M05) | Genre / abstract-only relevance discount | M05 | already handled by round-1 penalize-don't-skip | — |
+
+**Pruned** (pure duplicates of a round-1 winner or an L1 gate): M01 (↔ round-1 01 + L1 frontmatter),
+M03 (↔ round-1 02 + D2 + L1 regex), M06 (↔ round-1 02 dependency + L1 §9), M27 (subsumed by S2/S8),
+M43 (↔ round-1 08 + L1 §8), M45 (↔ L1 §9 + round-1 08).
+
+## E.3 Top 10 to tournament first (max signal beyond round-1 + verifier)
+
+1. **S1 — Reference-landscape completeness** `[ext]` — the clearest hole; neither round-1 nor verifier reaches external literature.
+2. **S2 — Novelty vs literature** `[ext][sem]` — "done before?" is structurally impossible offline and out of scope for L2.
+3. **S3 — Claim drift / reference truthfulness** `[ext][sem]` — turns L1 §10's self-quote check into a real does-the-source-support-it check.
+4. **S4 — Claim↔Experiment↔Evidence entailment (+ publication-bias)** `[sem][ext]` — D1 semantically, beyond round-1; trial-registry bias cross-check beats both.
+5. **S5 — End-to-end reproducibility bundle** (fig+data+code, cross-layer).
+6. **S6 — Multi-perspective triangulation** `[sem]` — wholly absent from both.
+7. **S7 — Assumption realism & limitation validity** `[sem]` — tighter than round-1 07 concreteness and D3 explicitness.
+8. **S8 — Method validity & verification status** `[sem]` — tighter facet of D6.
+9. **S9 — Controlled-vocabulary & latent-space anchoring** `[ext]` — net-new interoperability signal.
+10. **S10 — FOL-ability (Oshima)** `[ext]/[sem]` — net-new formal-checkability signal.
+
+## E.4 MISSING — net-new signals neither round-1 nor the verifier capture
+
+- **Publication-bias detection via registry cross-reference** (M04): match a claim to a registered/completed trial and flag divergent reported outcomes. Needs a trial-registry lookup; currently one buried sub-bullet.
+- **External novelty / "done-before" resolution** against the literature island / k-NN neighborhood (undermind / semantic-scholar) — the dependency the entire round-1 pool was explicitly built *without*.
+- **FOL-graph constructability (Oshima)** as a formal, tool-checkable rigor signal — no tooling/operationalization exists yet.
+- **Controlled-vocabulary / ontology anchoring & latent-space referenceability** — cross-artifact; needs an ontology/latent-space resolver; enables cross-ARA interoperability nothing else scores.
+- **Multi-perspective (wet-lab × computational) triangulation strength** — completely uncovered.
+- **Heuristic "distance from the optimum" (M39)** — a genuinely novel, hard signal (how far the chosen shortcut sits from the ideal); named but fully under-specified.
+- **Data homogeneity & standards adherence (M63)** — adherence to field data standards, distinct from provenance hygiene.
+- **"Started where the literature left off" positioning (M40)** — external-lit-anchored trajectory check on the exploration tree.
+
+**How Part E relates to the novelty comparison.** Nearly every top-10 survivor is `[ext]`/`[sem]` and
+several are novelty/literature-positioning checks (S1, S2, S16, S14, M40) — i.e. Carla's indicator
+drafts are already reaching toward exactly the **external, novelty axis** the Metascience Novelty
+Indicators Challenge / LENS occupies (see `NOVELTY_INDICATORS_COMPARISON.md`). Part E is where our
+toolkit's roadmap and the external benchmark's territory start to converge.
+
+---
+
 ## Sources
-- `research/metrics/v3/tournament/DATA_SHAPES.md`
+- `research/metrics/v3/tournament/DATA_SHAPES.md` (incl. Carla's per-artifact `Indicators` blocks)
 - `research/metrics/v3/tournament/VERIFIER_COMPARISON.md`
 - `research/metrics/v3/tournament/TOURNAMENT_SUMMARY.md`
+- `research/metrics/v3/tournament2/METRICS_CANDIDATES.md` (64-candidate ledger → survivors → top-10 → missing)

@@ -1,0 +1,150 @@
+# Exploration Tree — zha25-assessing-and-projecting-the-global-impacts
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | decision | dead_end | pivot
+#
+# This is a secondary descriptive-and-forecasting epidemiology study. It reveals its data-source
+# and methodological DECISIONS explicitly (GBD 2021 as sole source, ICD case definition, USA-claims
+# exclusion, GAM choice for projection), and its six analysis steps map directly to experiments
+# E01-E06. Per Rule 9, no dead_end or ablation node is invented: the paper reports no rejected
+# modeling alternatives, no failed forecasting approach, and no ablation study of its own.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "§Introduction p.2"]
+    title: "What is the global burden and 2022-2030 projected trend of Alzheimer's disease, by sex, SDI, region, and country?"
+    description: >
+      Central question: quantify historical (1990-2021) age-standardized incidence, death, and
+      DALY rates for Alzheimer's disease from GBD 2021, then forecast 2022-2030 trends via GAM,
+      computing EAPC for both windows and testing the association between SDI and projected 2030
+      burden across regions/countries/continents.
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§Data source p.2", "§Data availability statement p.4"]
+        title: "Use GBD 2021 (via GHDx) as the sole data source; no primary data collection"
+        choice: "Extract pre-computed GBD 2021 ASIR/ASDR/DALY-rate estimates via the GHDx GBD tool"
+        alternatives:
+          - "Collect or meta-analyse primary AD epidemiological studies directly"
+          - "Use an older GBD cycle without the newly added incidence data"
+        evidence: "GBD 2021 covers 371 diseases/injuries and 87 risk factors across 204 countries/territories with a standardized, publicly available pipeline"
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["§Data source p.2 (ICD codes)"]
+            title: "Case definition: ICD-9 290.0-290.9 / ICD-10 G30.0-G30.9"
+            choice: "Adopt GBD's ICD-9/ICD-10 Alzheimer's disease coding as the reference case definition across all age groups"
+            alternatives:
+              - "Use a clinical/cognitive-scale-based case definition (e.g., DSM, CDR) independent of ICD coding"
+            evidence: "ICD-9 290.0/290.1/290.9 and ICD-10 G30.0/G30.1/G30.8/G30.9 provide 'a comprehensive framework for diagnosing Alzheimer's disease across all age groups'"
+
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["§Data source p.2 ('To minimize undue influence...')"]
+            title: "Exclude USA claims data from dementia modeling"
+            choice: "Exclude USA claims data from the GBD dementia model inputs"
+            alternatives:
+              - "Include USA claims data at full weight alongside other input sources"
+            evidence: "USA claims data were excluded 'due to their disproportionate weight on global prevalence and incidence patterns relative to other input data'; adjustments made via matched datasets to adhere to the reference case definition"
+
+          - id: N05
+            type: decision
+            support_level: explicit
+            source_refs: ["§Statistical analysis p.2-3 (GAM formula)"]
+            title: "Use a Generalized Additive Model (GAM) to forecast 2022-2030 ASRs"
+            choice: "Fit y = beta0 + s(x1) + s(x2) + ... + s(xn) + epsilon to the 1990-2021 ASR series, with smooth functions of predictors such as calendar year and median age"
+            alternatives:
+              - "Simple linear extrapolation of the 1990-2021 trend"
+              - "Joinpoint regression (used by some other GBD-derived burden papers, not by this one)"
+            evidence: "GAMs 'flexibly model disease trends over time, with smooth functions adjusting to variations in predictor variables like calendar year and median age'"
+
+          - id: N06
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 1", "§Results 3.1 p.3"]
+            title: "E01 - Global historical (1990-2021) and projected (2022-2030) trend"
+            result: >
+              Global DALY/death/incidence EAPCs are negative (declining) in both the historical
+              and projected windows, all significant (95% CI excludes 0): DALYs -1.5552 to -1.4375,
+              deaths -1.5340 to -1.7982, incidence -1.5811 to -1.2718.
+            evidence: [C01, "Table 1"]
+            children:
+
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["§Results 3.2 p.3"]
+                title: "E02 - Sex-stratified global projection"
+                result: >
+                  Both sexes show projected decline 2022-2030; male death EAPC -2.28 vs. female
+                  -1.03; male incidence EAPC -1.73 vs. female -1.03 (identical to the female death
+                  value - see C02 data-quality flag). 2030 ASRs given by sex for death, DALY,
+                  incidence.
+                evidence: [C02, "§Results 3.2"]
+
+              - id: N08
+                type: experiment
+                support_level: explicit
+                source_refs: ["Table 1", "Figure 1", "Figure 2", "§Results 3.3 p.5"]
+                title: "E03 - GBD-region-level EAPC and ASR ranking"
+                result: >
+                  Andean/Southern Latin America and the Caribbean have the highest projected DALY
+                  EAPC (0.94, 0.77, 0.59); Eastern/Central Europe and East Asia the lowest (-16.31,
+                  -12.03, -2.77). Central/Eastern/Southern Sub-Saharan Africa and Oceania have the
+                  highest 2030 DALY ASR; Eastern/Central Europe and High-income Asia Pacific the
+                  lowest.
+                evidence: [C03, C04, "Table 1", "Figure 1", "Figure 2"]
+
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["§Results 3.4 p.6"]
+                title: "E04 - Country-level EAPC and ASR ranking"
+                result: >
+                  Cyprus, Serbia, Montenegro have the highest projected DALY EAPC; Bahrain,
+                  Armenia, Qatar the lowest. Cyprus, North Macedonia have the highest 2030 DALY ASR;
+                  Armenia/Bulgaria/Romania/Guatemala/Bahrain share an identical 0.05 floor value at
+                  the low end (see C06 data-quality flag).
+                evidence: [C05, C06, "§Results 3.4"]
+
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["§Results 3.5 p.6"]
+                title: "E05 - SDI-threshold group comparison (Mann-Whitney U)"
+                also_depends_on: [N06]
+                result: >
+                  Countries with SDI >=0.8 (and, separately, >=0.7) show significantly higher 2030
+                  ASIR/ASDR/DALY ASR than below-threshold countries; the 5-category SDI breakdown
+                  is monotonic with "highly significant" p-values (exact statistics deferred to
+                  unreleased Supplementary Figures 2-4).
+                evidence: [C07, "§Results 3.5"]
+
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["§Results 3.5 pp.6-7", "§Discussion p.7"]
+                title: "E06 - Continent-level SDI-burden correlation analysis"
+                also_depends_on: [N06]
+                result: >
+                  Oceania has the strongest SDI-burden correlation across ASIR/ASDR/DALY (only
+                  continent reaching p<0.05, for ASIR and DALY); Africa and America show weak/
+                  negligible correlation. Two (R-squared, p) pairs are printed identically across
+                  different continent/measure combinations (see C08 data-quality flag).
+                evidence: [C08, "§Results 3.5", "§Discussion p.7"]
+
+      - id: N12
+        type: decision
+        support_level: inferred
+        title: "Interpret the projected global decline via improved screening, pharmacological/non-pharmacological advances, and public awareness"
+        choice: "Attribute the projected 2022-2030 decline to advancements in early detection, intervention strategies, and preventive public-health measures"
+        alternatives:
+          - "Attribute the projected decline primarily to GAM extrapolation artifacts of a pre-existing 1990-2021 downward trend, without new causal mechanisms"
+          - "Treat regional/country divergence as within-uncertainty noise given the wide UIs on low-count countries (cf. C06)"
+        evidence: "Discussion (pp.6-9) attributes the decline to 'advancements in medical interventions, early detection, and public health strategies' and sex/regional differences to hormonal, lifestyle, and healthcare-system factors; this is narrative interpretation, not tested by the study's own data (kept out of claim Statements per C-h)"

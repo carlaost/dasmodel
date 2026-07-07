@@ -1,0 +1,133 @@
+# Exploration Tree — cav25-global-societal-burden-of-alzheimer-s
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+# This paper is a targeted literature review (TLR); nodes reconstruct its search,
+# extraction, and synthesis decisions as reported in Methods/Results/Discussion.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Introduction, p.1800", "Abstract"]
+    title: "What is the total societal economic burden of AD/dementia, broken down by disease severity and care setting?"
+    description: "The review sets out to characterize total societal economic burden of AD across four research topics: cost of care across disease stages; cost of community vs. institutional care; caregiver burden costs as part of indirect costs; and societal cost burdens reflecting dementia-related deteriorating everyday-task capabilities."
+    children:
+
+      - id: N02
+        type: experiment
+        support_level: explicit
+        source_refs: ["Fig. 2", "Methods, Search Strategy", "Results, Study Selection and Characteristics"]
+        title: "Targeted literature search and PRISMA-S screening (MEDLINE, Embase, grey literature)"
+        result: "3699 database records screened (3531 AD-specific + 168 broader-dementia hits after dedup) plus a parallel grey-literature stream (113 records identified); 452 records assessed for eligibility from the database stream and 5 from grey literature; final corpus of 81 included studies (59 prospective/retrospective studies, 2 AD reports, 20 SLRs/meta-analyses)."
+        evidence: ["C04"]
+        children:
+
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Introduction, p.1800", "Methods, Search Strategy"]
+            title: "Whether to restrict the search to AD-specific literature or also include broader-dementia systematic reviews"
+            choice: "Expanded the original AD-specific search with a secondary, broader-dementia search (systematic reviews covering any dementia etiology) to increase capture of AD-relevant, severity-stratified cost studies."
+            alternatives:
+              - "Restrict entirely to AD-specific search terms/records"
+            evidence: "The broader-dementia secondary search added 168 additional screened hits and ultimately contributed a share of the review's 81 included studies (per Fig. 2's combined identification counts)."
+            children: []
+
+          - id: N04
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods, Data Extraction, p.1802"]
+            title: "How to reconcile five different disease-severity staging instruments (MMSE, CDR-SB, FAST, GDS, DS) across the 81 studies"
+            choice: "Harmonize all studies' severity categories into four common buckets — MCI/very mild, mild (incl. mild-to-moderate), moderate, and severe (incl. moderately severe/severe, very severe) — for consistent reporting in tables and figures, regardless of the instrument each study originally used."
+            alternatives:
+              - "Restrict inclusion to studies using a single common staging instrument (e.g., MMSE only)"
+              - "Attempt a formal cross-instrument severity crosswalk/conversion before aggregation"
+            evidence: "Discussion, Limitations: authors state they 'believe overall conclusions of this would not reasonably change if scales were standardized, given the consistency with which overall results were observed,' but this was not empirically tested within the review."
+            children: []
+
+          - id: N05
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods, Data Extraction, p.1802", "Discussion, Limitations, p.1820-1821"]
+            title: "Whether to standardize reported costs to a common cost-year and currency"
+            choice: "Report costs as originally published, with no modification of cost year or currency, to preserve raw source data for downstream health-economic evaluation use."
+            alternatives:
+              - "Inflate all costs to a single common cost-year and convert to a single currency for direct comparability"
+            evidence: "Discussion, Limitations, L2: 'This limits the ability to compare how costs have evolved over time, across geographies, and across care settings. However, raw data from studies were important to provide...'"
+            children: []
+
+      - id: N06
+        type: experiment
+        support_level: explicit
+        source_refs: ["Results, Societal Costs, p.1804-1807", "Table 3", "Fig. 4"]
+        title: "Severity-stratified societal-cost extraction and cross-severity percentage-change calculation"
+        also_depends_on: [N04]
+        result: "Societal costs typically increased by >=1.5x (community care) moving to a more severe stage; largest single MCI-to-mild increase was 126% (Finland, Jetsonen et al. 2021); largest single mild-to-severe increase was four-fold (Iran, Aajami et al. 2019); CDR-based studies showed larger fold-changes (2.1-3.3x) than MMSE-based studies (1.4-2.0x)."
+        evidence: ["C01", "C03", "C04"]
+        children:
+
+          - id: N07
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Results, Direct Costs, p.1806-1807"]
+            title: "Attempt to characterize direct-cost patterns by severity within institutional care specifically"
+            hypothesis: "Institutional-care direct costs would show a clear severity-progression pattern comparable to what was found in community care."
+            failure_mode: "Only 1 of the 81 included studies was set specifically and solely in institutional care; explicitly: 'Studies focusing on institutional care were not available to show patterns in direct costs with advancing disease.'"
+            lesson: "The community-vs-institutional direct-cost comparison in this review rests on total-cost/indirect-cost data (Table 3, Table 6) rather than a severity-resolved direct-cost series for institutional care alone (see constraints.md L4)."
+
+          - id: N08
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Results, Caregiver Burden and Indirect Costs, p.1813"]
+            title: "Attempt to isolate patient-specific (as opposed to caregiver) indirect/productivity-loss costs by severity"
+            hypothesis: "Multiple studies would report patient-specific productivity losses stratified by AD severity, allowing separation of patient-side vs. caregiver-side indirect cost."
+            failure_mode: "'Few studies reported on patient-specific indirect costs...in fact, only one presented data stratified by AD severity [67], where costs substantially increased from the mild stage (€0) to the severe stage (€873).'"
+            lesson: "Indirect-cost figures reported throughout this review (Table 6, Fig. 5) predominantly reflect caregiver-borne productivity/leisure loss, not combined patient+caregiver loss (see constraints.md L5)."
+
+          - id: N09
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Discussion, By Disease Severity, p.1817"]
+            title: "Investigate an anomalous Brazilian study showing costs decreasing (not increasing) with AD severity"
+            hypothesis: "Given the near-universal cost-rises-with-severity pattern across the corpus, this Brazilian study was expected to show the same monotonic increase."
+            failure_mode: "The study 'showed larger costs in the milder compared to more severe stages' because it 'utilized the FAST scale to determine disease severity based on dependence, which may not be entirely comparable to studies that assessed disease severity based on MMSE or CDR scoring.'"
+            lesson: "Instrument choice (FAST's dependence-based staging vs. MMSE's cognition-based or CDR's combined staging) can reverse the apparent direction of the cost-severity relationship, reinforcing the need for caution in cross-instrument comparison (feeds C04)."
+
+      - id: N10
+        type: experiment
+        support_level: explicit
+        source_refs: ["Fig. 5", "Results, Societal Costs, p.1807"]
+        title: "Cost-component breakdown and proportional normalization by severity (granular-breakdown subset, n=6 studies)"
+        also_depends_on: [N06]
+        result: "Informal caregiving was the largest normalized cost-component share at every severity level, exceeding 50% of total cost specifically at the moderate stage; direct costs comprised at least one-third (31-52% in mild-stage studies) of total societal cost across stages."
+        evidence: ["C02", "C09"]
+        children: []
+
+      - id: N11
+        type: experiment
+        support_level: explicit
+        source_refs: ["Fig. 6", "Fig. 7", "Results, Caregiver Burden and Indirect Costs, p.1812-1814"]
+        title: "Caregiver profile and weekly caregiving-hours synthesis by severity and care setting"
+        result: "Community-care caregiving hours rose >=1.4x from mild (1-83 h/week, 23 studies) to severe (21-120 h/week, 25 studies); institutional-care hours rose from up to 69 h/week (moderate, n=5) to up to 97 h/week (severe, n=5); caregivers were predominantly female (58-72%), spouse or child of the patient, and near retirement age across severities."
+        evidence: ["C07"]
+        children: []
+
+      - id: N13
+        type: pivot
+        support_level: explicit
+        source_refs: ["Introduction, p.1799-1800"]
+        title: "Broaden the review's cost definition beyond conventional AD direct/indirect medical and caregiving costs"
+        from: "Conventional AD cost-of-illness review scope: direct medical/non-medical costs plus indirect (informal caregiving) costs only."
+        to: "Expanded scope deliberately including financial delinquency, police call-outs, public fiscal losses, and intangible quality-of-life costs as additional societal-cost categories."
+        trigger: "'diminished mental acuity and changed behavior owing to cognitive decline can lead to additional societal costs resulting from impairment observed in day-to-day life (e.g., impaired personal financial managements leading to financial delinquency and police call-outs...). While anecdotes...are prevalent, studies quantifying this type of impairment in costs are limited [19-21].'"
+        children:
+
+          - id: N12
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 5", "Results, Direct Costs / Caregiver Burden and Indirect Costs, p.1809-1815"]
+            title: "Under-reported societal cost capture: financial delinquency, public fiscal loss, and intangible QoL loss"
+            also_depends_on: [N02]
+            result: "UK scam cost rose £37 (mild) to £231 (moderate) then fell to £6 (severe); heating bills, police call-outs, power-of-attorney, and reduced-mobility costs showed the same mild/moderate-peak-then-severe-fall pattern; German lifetime direct tax loss ranged €7783-€28,142 with a separately estimated €74,288 net incremental government/social-security loss; patient intangible (QoL) costs rose $1496->$3196 PPPM (MCI->severe) while caregiver intangible costs fell $1187->$769 PPPM (mild->severe)."
+            evidence: ["C05", "C06", "C10"]
+            children: []

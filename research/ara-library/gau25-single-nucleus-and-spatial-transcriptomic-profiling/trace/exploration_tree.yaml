@@ -1,0 +1,317 @@
+# Exploration graph for Gaur, Bryois, Calini et al. (2025), "Single-nucleus and spatial
+# transcriptomic profiling of human temporal cortex and white matter reveals key associations with
+# AD pathology." Nature Communications 16:10395. doi:10.1038/s41467-025-65350-6.
+# evidence: fields reference claim IDs (C##) in logic/claims.md.
+# support_level: explicit = grounded directly in the paper's text; inferred = reconstructed.
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction"]
+    title: "What cell-type-specific, tissue-compartment (GM vs WM) changes are associated with AD Braak-stage pathology in the human temporal cortex, and do dissociated-nuclei findings hold in intact, spatially-resolved tissue?"
+    description: >
+      For gray matter (GM) and white matter (WM) of the human temporal cortex, which neuronal and
+      glial subpopulations change in relative abundance and gene expression with AD (Braak-stage)
+      pathology; do these associations generalize across brain regions and cohorts; and can they be
+      validated (and extended, via proximity to pathological inclusions) using a spatial in-situ
+      sequencing platform on the same donor tissue?
+    status: resolved
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Introduction"]
+        title: "Use Braak stage (tau/NFT spread) rather than amyloid-beta pathology as the primary AD-progression proxy variable"
+        choice: >
+          Adopt Braak stage (categorized 0-1/2-4/5-6) as the primary continuous-to-categorical
+          AD-pathology-progression variable throughout all statistical models, citing that "the
+          spread of tangles in the brain is more stereotyped" and "global post-mortem tau is more
+          strongly correlated with cognitive impairment than post-mortem amyloid-beta" (Bennett
+          et al. 2012).
+        alternatives:
+          - "Use amyloid-beta pathology stage (e.g. Thal phase) as the primary AD-progression proxy"
+          - "Use clinical/cognitive diagnosis alone as the primary AD-progression proxy"
+        evidence: [C01]
+        status: resolved
+        children:
+          - id: N03
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods (Trait association in TC region)"]
+            title: "Categorize continuous Braak stage into three discrete bins (0-1, 2-4, 5-6) for all statistical models"
+            choice: >
+              Collapse the 6-point Braak scale into three bins (0-1, 2-4, 5-6) for ANCOM-BC trait
+              association, glmmTMB differential expression, and lmerTest CARTANA-validation models
+              alike, to increase per-bin statistical power at the cost of finer-grained resolution.
+            alternatives:
+              - "Model Braak stage as a continuous covariate in all statistical models"
+              - "Retain all 6 discrete Braak stages as separate categorical levels"
+            evidence: [C01]
+            status: resolved
+      - id: N04
+        type: decision
+        support_level: explicit
+        source_refs: ["Introduction", "Methods (Nuclei isolation and library preparation)"]
+        title: "Adopt a paired per-donor gray matter (GM) / white matter (WM) sampling design"
+        choice: >
+          Collect two cryosections per donor (temporal-cortex GM and its associated subcortical WM,
+          separated with a razor blade) from all 40 individuals, enabling within-donor GM-vs-WM
+          comparison and an explicit Braak-stage x tissue interaction term in downstream models,
+          rather than GM-only profiling as in most prior AD snRNA-seq studies.
+        alternatives:
+          - "Profile gray matter only (the predominant design in prior AD snRNA-seq literature)"
+          - "Profile white matter only"
+        evidence: [C01, C03]
+        status: resolved
+        children:
+          - id: N05
+            type: experiment
+            support_level: explicit
+            source_refs: ["Results (Transcriptional states of CNS cell types...)", "Fig. 1"]
+            title: "snRNA-seq profiling, QC, Harmony/Louvain clustering, and Random-Forest-based subcluster refinement of 80 TC samples"
+            result: >
+              430,271 nuclei retained after QC and cluster identification, segregated into 8 broad
+              cell types (glutamatergic neurons, GABAergic neurons, microglia, astrocytes,
+              oligodendrocytes, OPCs, endothelial cells, pericytes), each further subclustered
+              (20/22/7/5/4/3/3/6 subpopulations respectively).
+            evidence: [C01]
+            status: resolved
+            children:
+              - id: N06
+                type: decision
+                support_level: explicit
+                source_refs: ["Methods (Data processing and quality control)", "Methods (Trait association in TC region)"]
+                title: "Exclude low-quality samples and AD001/AD002 from downstream trait-association and differential-expression analyses"
+                choice: >
+                  Filter out two samples from one individual (fewer than 500 cells, low UMI/gene
+                  counts, elevated mitochondrial-read percentage) from the TC snRNA-seq dataset
+                  entirely, and separately exclude samples AD001 and AD002 from all trait-association
+                  and differential-expression analyses for not meeting QC criteria.
+                alternatives:
+                  - "Retain all samples regardless of per-sample QC metrics, applying only nucleus-level filtering"
+                evidence: [C01]
+                status: resolved
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Neuronal and glial subpopulations with lower prevalence...)", "Fig. 2"]
+                title: "ANCOM-BC trait-association (subpopulation proportion) analysis in GM and WM"
+                result: >
+                  Distinct, and in some cases tissue-compartment-specific (including
+                  opposite-direction), sets of neuronal and glial subclusters show significant
+                  proportional depletion (e.g. RORB+/IL1RAPL2+, SPARCL1+, PVALB+ subpopulations,
+                  RPL19+ microglia) or enrichment (e.g. THEMIS+/POSTN+ neurons, HSPA1A+ OPCs,
+                  MGP+ pericytes, TNC+ astrocytes) with Braak stage in GM vs. WM.
+                evidence: [C01, C02, C03]
+                status: resolved
+                children:
+                  - id: N09
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Results (Consistency of subcluster associations...)"]
+                    title: "Cross-region and cross-cohort replication of subcluster-Braak-stage trait associations"
+                    result: >
+                      After Harmony integration with 6 external multi-region studies and Cell Type
+                      Mapper label transfer onto SEA-AD MTG (84 individuals) and ROSMAP PFC (424
+                      individuals), THEMIS+/POSTN+ glutamatergic-neuron enrichment and
+                      PVALB+/TMEM132C+ GABAergic-neuron depletion at late Braak stage replicate
+                      across brain regions and in both much larger external cohorts.
+                    evidence: [C04]
+                    status: resolved
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Differential expression analysis identifies additional cell type-specific genes...)", "Fig. 3a"]
+                title: "Pseudobulk glmmTMB differential expression across Braak stages, with a Braak-stage x tissue interaction term"
+                result: >
+                  Only 17 FDR-significant DEGs at early Braak stage (2-4 vs 0-1, restricted to
+                  GABAergic neurons/oligodendrocytes/OPCs) versus 1230 at late Braak stage (5-6 vs
+                  0-1, ~90% cell-type-specific); 644 genes additionally affected differently by
+                  late-stage pathology between GM and WM, including FCER1G, APOE, and ABCA7.
+                evidence: [C05, C06]
+                status: resolved
+                children:
+                  - id: N11
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Results (Differential expression analysis...)", "Fig. 3d"]
+                    title: "LOEUF gene-constraint comparison of differentially expressed vs. non-differentially-expressed genes"
+                    result: >
+                      Genes upregulated in glutamatergic neurons at late Braak stage, and genes
+                      differentially affected by the Braak5-6 x tissue interaction, are significantly
+                      more evolutionarily constrained (lower LOEUF) than non-DE genes.
+                    evidence: [C07]
+                    status: resolved
+                  - id: N12
+                    type: experiment
+                    support_level: explicit
+                    source_refs: ["Results (Differential expression analysis...)", "Fig. 3c, e"]
+                    title: "MAGMA/fgsea pathway enrichment of differentially expressed genes against AD genetic-risk pathways"
+                    result: >
+                      Distinct, cell-type-specific AD-relevant pathway enrichments: amyloid-fibril-
+                      formation regulation in inhibitory neurons, lipid/lipoprotein response in
+                      microglia/OPCs, vesicle-transport/endocytosis in glutamatergic
+                      neurons/astrocytes, tissue-specific amyloid-beta-formation regulation in WM
+                      oligodendrocytes.
+                    evidence: [C08]
+                    status: resolved
+      - id: N13
+        type: decision
+        support_level: explicit
+        source_refs: ["Results (Characterizing susceptible and resilient cell signatures...)"]
+        title: "Generate a targeted 155-gene CARTANA in-situ sequencing dataset co-registered with amyloid/tau immunostaining on the same tissue sections"
+        choice: >
+          Perform CARTANA in-situ sequencing (155-gene probe panel) on 13 of the study's own donors,
+          then immunostain the same sections for beta-amyloid (MOAB-2) and phospho-tau (Ser202/Thr205)
+          after probe removal, enabling joint spatial localization of gene expression and pathology
+          within a single tissue section — rather than relying solely on dissociated-nuclei
+          proportion/expression associations, which cannot rule out dissociation artifacts or
+          localize signals relative to pathological inclusions.
+        alternatives:
+          - "Rely solely on dissociated snRNA-seq proportion/expression associations, without spatial validation"
+          - "Use a spot-based (non-single-cell-resolution) spatial transcriptomics platform instead of single-cell in-situ sequencing"
+        evidence: [C09]
+        status: resolved
+        children:
+          - id: N14
+            type: dead_end
+            support_level: explicit
+            source_refs: ["Results (Characterizing susceptible and resilient cell signatures...)"]
+            title: "Probe-design constraints preclude using the optimal snRNA-seq-derived marker gene for several subclusters in the 155-gene CARTANA panel"
+            hypothesis: >
+              The single best (most differentially expressed) snRNA-seq-derived marker gene for
+              every subcluster of interest could be included in the fixed 155-gene CARTANA probe
+              panel.
+            failure_mode: >
+              "Because of probe design challenges in the system, alternative markers for several
+              subclusters had to be selected, instead of the optimal markers based on single-nucleus
+              RNA-seq" — e.g. the THEMIS+/POSTN+ population had to be marked alternatively via the
+              combination of PPP1R1A and CC2D1B.
+            lesson: >
+              Alternative (non-optimal) marker-gene combinations can still discriminate subtypes
+              adequately in practice, but this substitution is an explicit assumption (A4) rather
+              than a guaranteed equivalence, and is a documented limitation of the CARTANA validation
+              arm.
+            evidence: [C09]
+            status: resolved
+          - id: N15
+            type: experiment
+            support_level: explicit
+            source_refs: ["Results (Validation of snRNA-seq derived associations...)", "Fig. 4c"]
+            title: "CARTANA validation of snRNA-seq-derived cell-type-marker-gene Braak-stage associations"
+            result: >
+              Directionally concordant, statistically significant (uncorrected p<0.05) marker-gene-
+              Braak-stage associations confirmed in intact tissue for genes including ACTG1,
+              ALDH1A1, TM2D1, CC2D1B, PPP1R1A (glutamatergic); ACTG1, SCG3, PDCD6 (GABAergic); CD74,
+              P2RY12 (microglia); GFAP (astrocytes) in GM, and PDCD6, ANXA7 (GABAergic) in WM.
+            evidence: [C09]
+            status: resolved
+            children:
+              - id: N16
+                type: dead_end
+                support_level: explicit
+                source_refs: ["Discussion (limitations)"]
+                title: "Sparse per-cell CARTANA gene detection precludes definitive assignment of every cell to an snRNA-seq-derived subcluster"
+                hypothesis: >
+                  CARTANA cells could be definitively assigned directly to fine snRNA-seq-derived
+                  subclusters (not just broad major-class labels), enabling a full
+                  transcriptome-wide, subcluster-level proportion-replication analysis in situ.
+                failure_mode: >
+                  "Our use of multiplexed ISH through the CARTANA platform does suffer from
+                  sparsity, leading to noncomprehensive assignment of individual cells to broad cell
+                  classes or subtypes" — sparse detection of many subcluster-specific genes meant
+                  cells could only be reliably assigned to 8 broad major-class labels via a
+                  marker-gene z-score approach, not to the finer snRNA-seq-derived subclusters.
+                lesson: >
+                  Validation had to proceed via a linear-mixed-model marker-gene-expression
+                  association test within major cell classes (E06), not a direct subcluster-
+                  proportion replication in intact tissue; differential expression in CARTANA data
+                  cannot by itself distinguish cluster depletion from within-cluster expression
+                  change.
+                status: resolved
+              - id: N17
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Validation of snRNA-seq derived associations...)"]
+                title: "Global (all-cell-class) CARTANA differential expression across Braak stage and binarized pathology"
+                result: >
+                  No genes significant after multiple-testing correction at the global level, but a
+                  2-4-fold nominal enrichment above the null detected for both Braak-stage (29 genes)
+                  and low/high-pathology (31 genes) comparisons; includes an unexpected upregulation
+                  of TMEM119 discordant with co-measured P2RY12.
+                evidence: [C10, C11]
+                status: resolved
+                children:
+                  - id: N18
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Results (Validation of snRNA-seq derived associations...)", "Discussion"]
+                    title: "TMEM119-vs-P2RY12 discordance in CARTANA data left mechanistically unresolved"
+                    hypothesis: >
+                      Homeostatic microglial markers TMEM119 and P2RY12 would show concordant
+                      (both downregulated) direction with advanced pathology in the CARTANA data, as
+                      expected from their shared homeostatic-marker classification and as observed
+                      in this study's own snRNA-seq data.
+                    failure_mode: >
+                      "The expression of TMEM119, a presumed homeostatic microglial gene, is
+                      unexpectedly upregulated in donors with advanced pathology. This contrasts with
+                      P2RY12... which is typically downregulated in similar conditions; this
+                      discrepancy is not found in the snRNA-seq data." The underlying cause remains
+                      unclear despite partial literature precedent (Satoh et al. 2016; Mercurio
+                      et al. 2022).
+                    lesson: >
+                      TMEM119 should not be uncritically used as a homeostatic-microglia proxy in
+                      spatial/ISH data; whether this is a platform-specific or dissociation-
+                      sensitivity artifact is an open question the paper explicitly does not resolve.
+                    evidence: [C11]
+                    status: open
+              - id: N19
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Spatial analysis identifies genes with altered expression near pathological inclusions)", "Fig. 5b, c"]
+                title: "Distance-based spatial mixed-effects modeling of gene expression relative to plaque/tangle proximity"
+                result: >
+                  Distinct, cell-type-specific gene sets show proximity-dependent expression
+                  gradients for plaques (e.g. NEFL/NEFM lower, ALDH5A1 higher, near plaques in
+                  glutamatergic neurons) vs. tangles (e.g. THEMIS, GFAP, PLP1 higher far from
+                  tangles); GFAP shows a significantly higher Hartigan's dip statistic (greater
+                  deviation from unimodality) in the plaque-proximal bin than intermediate/far bins,
+                  reconciling the counter-intuitive average-GFAP-expression finding with prior IHC
+                  literature.
+                evidence: [C12, C13]
+                status: resolved
+              - id: N20
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Spatial analysis identifies genes with altered expression near pathological inclusions)"]
+                title: "Tile-based (plaque-density) paired differential expression analysis"
+                also_depends_on: [N19]
+                result: >
+                  No genes survive multiple-testing correction, but a 2-fold nominal enrichment (15
+                  genes) is detected, including lower NEFM in plaque-free tiles (consistent with the
+                  distance-based finding), higher microglial BIN1 in plaque-containing tiles, and
+                  low-pathology-specific reduced SERPINE1 in plaque-containing tiles.
+                evidence: [C14]
+                status: resolved
+                children:
+                  - id: N21
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Results (Spatial analysis...)", "Methods (Microenvironment-induced gene expression variability...)"]
+                    title: "Tile-based microenvironment analysis could not be extended to tau tangles"
+                    hypothesis: >
+                      The tile-based (plaque-density-style) paired differential-expression approach
+                      could also be applied to tau tangles, mirroring the amyloid-plaque tile
+                      analysis, to capture tangle-microenvironment (not just nearest-tangle-distance)
+                      effects.
+                    failure_mode: >
+                      "This microenvironment-based analysis was only carried out for amyloid-beta
+                      plaques, because individuals with cortical tangle pathology did not have
+                      sufficient tangle-free tiles" to construct a paired
+                      tangle-containing-vs-tangle-free comparison.
+                    lesson: >
+                      Tangle spatial-density (tile-based) analysis is infeasible given this tissue's
+                      tangle distribution; only the per-cell distance-based model (N19) could be
+                      applied to tangles, leaving tangle-microenvironment (as opposed to
+                      nearest-tangle-distance) effects uncharacterized.
+                    status: open

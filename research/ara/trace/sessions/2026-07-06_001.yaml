@@ -76,3 +76,10 @@ round2_ai_action:
     action: "Inserted Carla's 11 per-artifact indicator blocks into tournament/DATA_SHAPES.md (now 1477 lines); created tournament2/ with TOURNAMENT2_LOG.md (flow+DoD+Codex->Sonnet policy) and EXPAND_BRIEF.md; dispatched the Fable assessment-critique to extract/prune/merge/rank the ~60 proposed metrics into a ranked ledger + top-10 (METRICS_CANDIDATES.md)."
     provenance: ai-executed
     files_changed: ["research/metrics/v3/tournament/DATA_SHAPES.md", "research/metrics/v3/tournament2/TOURNAMENT2_LOG.md", "research/metrics/v3/tournament2/EXPAND_BRIEF.md"]
+
+# --- turn 3 ai_action (merged-doc correction) ---
+turn3_ai_action:
+  - turn: 3
+    action: "User flagged the merged doc missed the rough indicator metric drafts ('not just the data shapes but what they afford'). Added PART E to ALL_METRICS_MERGED.md folding in Carla's per-artifact Indicators blocks via tournament2/METRICS_CANDIDATES.md: full 64-candidate table (M01-M64), 23 ranked survivors (S1-S23), top-10, and the net-new MISSING list; updated the intro to name the 4th source. Added a connecting note to NOVELTY_INDICATORS_COMPARISON.md — the round-2 candidates (S1/S2/S14/M40) already reach toward the external novelty axis LENS occupies."
+    provenance: ai-executed
+    files_changed: ["research/metrics/v3/tournament/ALL_METRICS_MERGED.md", "research/metrics/v3/tournament/NOVELTY_INDICATORS_COMPARISON.md"]

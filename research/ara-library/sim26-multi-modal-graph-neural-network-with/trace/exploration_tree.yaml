@@ -1,0 +1,117 @@
+# Exploration Tree — sim26-multi-modal-graph-neural-network-with
+# Research DAG: nested tree with cross-edges (also_depends_on) forming a DAG.
+# Node types: question | experiment | dead_end | decision | pivot
+# Reconstructed from the paper's stated motivation (§1), method (§2), and
+# results (§3-4); this is a single 10-page paper with no supplementary
+# material, so the tree reflects only what the text and tables directly
+# reveal or clearly imply about the design process.
+
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["§1 Introduction"]
+    title: "How to build an interpretable multi-modal GNN that captures both local (short-range) and global (long-range) brain-network structure for preclinical AD classification?"
+    description: "Motivated by two observed failure modes: convolution/diffusion-based GNNs (GCN, GAT, GraphHeat, GDC, ADC, LSAP) rely on a homophily assumption and 'ineffectively aggregate information from distant neighborhoods,' while graph transformers (NodeFormer, DIFFormer, SGFormer) capture long-range influence but 'often disregard sufficient expressive power of the central nodes, lacking interpretation of the result.' The problem is compounded by multi-modal nodal features introducing heterogeneity (§1)."
+    children:
+
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["§2"]
+        title: "Combine a per-node, per-modality adaptive diffusion (local) block with a downstream modality-wise transformer (global) block, trained jointly end-to-end"
+        choice: "Modality-wise Adaptive Convolution Block (trainable node-wise heat-kernel scale s^m) feeding a Modality-wise Self-Attention Block (one attention head per modality), with the classification loss backpropagated through both, including into the scales."
+        alternatives:
+          - "Fixed-scale heat-kernel diffusion only (GraphHeat, GDC) — no adaptivity"
+          - "Adaptive diffusion only, no downstream global attention (ADC, and the authors' own prior LSAP work [18])"
+          - "Graph-transformer attention only, no explicit node-centric local mechanism (NodeFormer, DIFFormer, SGFormer)"
+        evidence: "§1 motivating limitations; Table 1 shows single-mechanism baselines (diffusion-only or transformer-only) each underperform GTAD across all four modality combinations."
+        children:
+
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Table 1", "§3"]
+            title: "Main benchmark: GTAD vs. 9 baselines across 4 modality combinations (E01)"
+            result: "GTAD attains the highest accuracy/precision/recall of all 10 methods in all 4 modality combinations (Cortical Thickness & β-Amyloid: 0.945/0.901/0.919; Cortical Thickness & FDG: 0.963/0.935/0.948; β-Amyloid & FDG: 0.962/0.935/0.946; All Imaging Features: 0.963/0.943/0.941). Accuracy exceeds 96% in 3 of 4 combinations; the exception is Cortical Thickness & β-Amyloid at 94.5%."
+            evidence: ["C01", "Table 1"]
+            children:
+
+              - id: N04
+                type: decision
+                support_level: explicit
+                source_refs: ["Table 2", "§4 Ablation Study on the Blocks"]
+                title: "Convolution-block choice: Adaptive Convolution Layer (not MLP, not non-adaptive Graph Convolution)"
+                choice: "Adaptive Convolution Layer (Eq. 3, trainable per-node heat-kernel scale)"
+                alternatives:
+                  - "Multi-Layer Perceptron (MLP) as convolution block"
+                  - "Standard (non-adaptive) Graph Convolution Layer as convolution block"
+                evidence: "Table 2: Adaptive Convolution Layer is the accuracy maximum both without MM attention (0.945±0.03 vs MLP 0.939±0.03 vs Graph Conv 0.899±0.01) and with MM attention (0.963±0.01 vs MLP 0.947±0.02 vs Graph Conv 0.900±0.01)."
+                children:
+
+                  - id: N05
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Table 2"]
+                    title: "MLP as the local convolution block"
+                    hypothesis: "A simple MLP encoder (implicitly connecting all ROIs globally, per §4's own description) might match or exceed a graph-structured local block, especially once combined with global attention."
+                    failure_mode: "MLP block accuracy (0.939±0.03 without MM attention, 0.947±0.02 with MM attention) trails the Adaptive Convolution Layer at both settings (0.945±0.03 / 0.963±0.01); MLP also gains only +0.8pp from adding multi-modal attention, versus +1.8pp for Adaptive Convolution."
+                    lesson: "Explicit graph-structured, node-wise-adaptive local aggregation outperforms an unstructured MLP encoder even when both are paired with the same global attention mechanism; the paper attributes the small MLP attention-gain to MLP 'connect[ing] all ROIs globally' already (§4), leaving less for attention to add."
+
+                  - id: N06
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Table 2"]
+                    title: "Standard (non-adaptive) Graph Convolution Layer as the local convolution block"
+                    hypothesis: "A conventional graph-convolution layer (fixed, non-adaptive local aggregation) might be sufficient once paired with global multi-modal attention."
+                    failure_mode: "Graph Convolution Layer is the weakest of the three blocks at both attention settings (0.899±0.01 without MM attention, 0.900±0.01 with MM attention) and shows almost no benefit from adding multi-modal attention (+0.1pp)."
+                    lesson: "Because this block 'is not adaptively guided by the transformer' (§4), the global attention mechanism has almost nothing complementary to add — node-wise adaptivity in the local block appears to be a precondition for the attention block's benefit to manifest, not an independent, separable gain."
+
+              - id: N07
+                type: decision
+                support_level: explicit
+                source_refs: ["Table 2", "§4"]
+                title: "Attention design: one self-attention head per modality (multi-modal/MM attention), not generic position-wise attention over concatenated features"
+                choice: "Modality-wise multi-head self-attention (Eq. 4-5), each head assigned to one imaging modality"
+                alternatives:
+                  - "Position-wise attention obtained by concatenating per-modality features into a single encoder [21]"
+                evidence: "Table 2: for every convolution-block type, the MM-attention row has equal-or-higher accuracy/precision/recall than the corresponding position-wise-attention row; the gap is largest for the Adaptive Convolution Layer (+1.8pp accuracy)."
+                also_depends_on: [N04]
+                children:
+
+                  - id: N08
+                    type: dead_end
+                    support_level: explicit
+                    source_refs: ["Table 2"]
+                    title: "Position-wise attention over concatenated multi-modal features"
+                    hypothesis: "Concatenating all modalities' features into one encoder before a single generic attention mechanism might capture cross-modal interaction as well as per-modality attention heads."
+                    failure_mode: "Underperforms multi-modal (per-modality-head) attention in every one of the three convolution-block rows in Table 2, most notably paired with Adaptive Convolution (94.5% vs 96.3% accuracy)."
+                    lesson: "Preserving a per-modality attention channel (rather than an early concatenation) both improves accuracy and, per the paper's own later use of this structure, is what makes the per-modality attention-score interpretability analysis (Fig. 3) possible at all."
+
+          - id: N09
+            type: decision
+            support_level: inferred
+            source_refs: ["Eq. (7)"]
+            title: "Enforce scale positivity softly via an ℓ1 penalty with an indicator function, rather than a hard reparameterization"
+            choice: "Add α · (1/M) Σ_m Σ_n 1[s^m_n<0] |s^m_n| to the cross-entropy loss (Eq. 7)"
+            alternatives:
+              - "Hard reparameterization of s (e.g. softplus/exp) to guarantee positivity by construction — not mentioned or used in the paper"
+            evidence: "Eq. (7) and its accompanying text: 'With an ℓ1 norm regularization on s^m_n to impose positive scale for the heat-kernel...' (§2). The paper does not discuss why a soft penalty was chosen over a hard constraint; this rationale is not stated, so the alternative is inferred rather than an alternative the paper explicitly considered and rejected."
+
+      - id: N10
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 2", "§4 Discussion on the Scales"]
+        title: "Post-hoc interpretation of trained per-modality node scales (E03)"
+        result: "Learned scales differ visibly by modality even at the same anatomical ROI; the paper reads small scale as 'needs local neighbors' and large scale as 'needs distant features.' The 8 smallest-scale ROIs per modality span subcortical (thalamus, putamen, globus pallidus), temporal, and frontal regions, and are not identical across the three modalities."
+        evidence: ["C04", "Figure 2"]
+        also_depends_on: [N03]
+
+      - id: N11
+        type: experiment
+        support_level: explicit
+        source_refs: ["Figure 3", "§4 Pre-clinical AD via ROI Attention"]
+        title: "Post-hoc interpretation of trained attention scores / Importance Rate (E03)"
+        result: "Lingual gyrus (G.oc.temp.med.Lingual) has the single highest Importance Rate across all three modalities (23.13% / 28.75% / 30.00%); hippocampus is notably high in FDG (6.25%) and putamen is notably high in Cortical Thickness (15.63%) and β-Amyloid (14.38%). The paper links these ROIs to prior AD neuroscience literature [9,10,13,16]."
+        evidence: ["C05", "Figure 3"]
+        also_depends_on: [N03]

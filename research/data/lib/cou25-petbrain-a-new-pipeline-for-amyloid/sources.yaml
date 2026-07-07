@@ -1,0 +1,13 @@
+paper:
+  slug: cou25-petbrain-a-new-pipeline-for-amyloid
+  doi: 10.1186/s13195-025-01839-y
+  title: 'petBrain: a new pipeline for amyloid, Tau tangles and neurodegeneration quantification using PET and MRI'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://link.springer.com/content/pdf/10.1186/s13195-025-01839-y.pdf
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

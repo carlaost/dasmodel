@@ -1,0 +1,15 @@
+# Environment
+
+This is a targeted literature review — an analytical synthesis of published studies, not a primary experimental study. There is no original code, model, dataset, or registered clinical trial released with this paper; "environment" here documents the search infrastructure, source literature, and visualization tooling used to produce the review.
+
+- **Language/runtime**: Analytical — no code released. Visualization performed in R (RStudio, version 4.4.1) and Microsoft Excel.
+- **Framework**: R packages named in Methods: dplyr (data manipulation, ref. [38]), ggplot2 (graphics, ref. [39]), the broader tidyverse (ref. [40]), and ggalluvial (alluvial-style plots in ggplot2, ref. [41]). Exact package version numbers beyond dplyr 0.7.6 ("R package version 076") are not specified in paper; ggplot2/tidyverse/ggalluvial version numbers not specified.
+- **Hardware**: n/a (literature review; no computation requiring specified hardware).
+- **Data sources**:
+  - **Bibliographic databases**: MEDLINE and Embase, searched per PRISMA-S guidelines (2013-01-01 to 2024-06-12 for SLRs/meta-analyses; individual pre-2013 studies admitted only via an eligible SLR reporting cost by severity).
+  - **Grey literature**: Hand-searched organisation websites, patient advocacy reports, and citation searching/snowballing (113 additional records identified; see [logic/solution/study_design.md](../logic/solution/study_design.md)).
+  - **Underlying primary studies**: 81 included studies (59 prospective/retrospective studies, 2 AD reports, 20 SLRs/meta-analyses) — see [logic/related_work.md](../logic/related_work.md) for the full citation footprint, and Table S2 (not available in the provided `paper.pdf`) for the complete list of included studies.
+  - **Access**: No dataset of extracted records is released as structured data within the main article; the authors state "All data generated or analyzed during this study are included in this published article/as supplementary information files" (Data Availability statement) — the supplementary files (Tables S1–S8, Figures S1–S2) were not provided as part of this ARA's input and are therefore not captured in the evidence layer beyond what the main text quotes from them.
+- **Key dependencies**: PRISMA-S reporting guideline (literature-search methodology standard); PICOS framework (study eligibility criteria, Table 1).
+- **Protocols**: Single-reviewer title/abstract screening and full-text eligibility assessment against pre-defined PICOS criteria (Table 1); second-reviewer selective quality-assurance check; third-reviewer adjudication of disagreements; predesigned data-extraction form capturing study design, country, indication, price year, costing approach, definitions, and economic components, with independent-reviewer validation of extracted data. No formal registered review protocol (e.g., PROSPERO) is mentioned in the paper.
+- **Random seeds**: n/a (no stochastic computational procedure; this is a manual literature synthesis).

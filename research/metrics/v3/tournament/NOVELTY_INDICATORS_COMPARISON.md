@@ -141,6 +141,12 @@ Legend: ✓ = does this substantively · ~ = partial / adjacent proxy · ✗ = d
    priority builds all require the same thing LENS operationalizes: an LLM/external step that reads the
    real source and reasons about it (SOTA reconstruction ≈ whole-ARA integration; balanced for/against
    ≈ adversarial verification; source-grounded scoring ≈ quote-at-cited-line + live-registry checks).
+   This is even clearer in the **round-2 candidate pool** (`ALL_METRICS_MERGED.md` Part E): Carla's
+   indicator drafts already include explicit external-novelty metrics — **S1 Reference-landscape
+   completeness**, **S2 Novelty vs literature ("done before?")**, S14 tree-vs-registry, M40
+   "started where the literature left off" — all `[ext]`/`[sem]`. So the novelty axis is not just a
+   gap we lack; it is a gap we have *already drafted candidate metrics for* but not yet built. LENS is
+   a working reference implementation of that exact axis.
    LENS is a working proof that an LLM-judge indicator, adversarially calibrated against experts, can
    beat both bibliometrics and inter-human agreement — which is the ceiling our deterministic metrics
    provably cannot reach alone.

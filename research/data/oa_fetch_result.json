@@ -1,0 +1,285 @@
+{
+  "sim26-multi-modal-graph-neural-network-with": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "dis26-human-hippocampal-neurogenesis-in-adulthood-ageing": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC13048220/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13048220/pdf/"
+    ],
+    "error": "not a PDF (got b'\\n\\n\\n\\n<html>\\n  <head>\\n')"
+  },
+  "bro25b-microglial-phagocytosis-in-alzheimer-disease": {
+    "oa": false
+  },
+  "chr25b-artificial-intelligence-in-alzheimer-s-disease": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.mdpi.com/2077-0383/14/16/5913/pdf?version=1755782663",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "din25-glymphatic-and-meningeal-lymphatic-dysfunction-in": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.70709",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "twi25-global-diseases-deserve-global-solutions-alzheimer": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.mdpi.com/2035-8377/17/6/92/pdf?version=1749899390",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "maj26-global-trends-in-the-incidence-and": {
+    "oa": false
+  },
+  "rog25-long-term-air-pollution-exposure-and": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.thelancet.com/pdfs/journals/lanplh/PIIS2542-5196(25)00118-4.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "pin25-csf-transport-at-the-brain-meningeal": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12315021/pdf/nihms-2098137.pdf",
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "bav25-unveiling-alzheimer-s-disease-1901-2025": {
+    "oa": false
+  },
+  "kar25c-machine-learning-prediction-of-tau-pet": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.14600",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "lee25-modulating-neuroinflammation-as-a-prospective-therapeutic": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.mdpi.com/2073-4409/14/3/168/pdf?version=1737544911",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "spr25-lipid-and-lipoprotein-metabolism-in-microglia": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC12538436/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12538436/pdf/"
+    ],
+    "error": "not a PDF (got b'\\n\\n\\n\\n<html>\\n  <head>\\n')"
+  },
+  "wal25-social-determinants-of-dementia-a-scoping": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.70524",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "che25e-apoe4-reprograms-microglial-lipid-metabolism-in": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "pah25-blood-based-biomarkers-for-detecting-alzheimer": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.70828",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "hud25-senescent-brain-cell-types-in-alzheimer": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12047392/pdf/main.pdf",
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "cav25-global-societal-burden-of-alzheimer-s": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "zho25e-the-global-regional-and-national-burdens": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC11922445/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11922445/pdf/"
+    ],
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "sor25-barriers-for-access-and-utilization-of": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "fri25-apoe4-reshapes-the-lipid-droplet-proteome": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC12187248/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12187248/pdf/"
+    ],
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "joi25-treatment-related-amyloid-clearance-trac-a": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.70997",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "wan25b-molecular-pathways-and-diagnosis-in-spatially": {
+    "oa": false
+  },
+  "zha25-assessing-and-projecting-the-global-impacts": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "sau26-tanycytic-degeneration-impairs-tau-clearance-and": {
+    "oa": false
+  },
+  "yin25-the-global-regional-and-national-burden": {
+    "oa": false
+  },
+  "reu25-health-system-community-based-or-usual": {
+    "oa": false
+  },
+  "dod25-donanemab-for-alzheimer-s-disease-from": {
+    "oa": false
+  },
+  "kas25-non-invasive-retinal-biomarkers-for-early": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.mdpi.com/2227-9059/13/2/283/pdf?version=1737698059",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "mol25-systematic-review-and-meta-analysis-of": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC12501328/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12501328/pdf/"
+    ],
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "ber25b-risk-reduction-and-precision-prevention-across": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC12627892/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12627892/pdf/"
+    ],
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "zim25-donanemab-in-early-symptomatic-alzheimer-s": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC12869028/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12869028/pdf/"
+    ],
+    "error": "not a PDF (got b'\\n\\n\\n\\n<html>\\n  <head>\\n')"
+  },
+  "qin25-global-trends-in-alzheimer-s-disease": {
+    "oa": true,
+    "source": "pmc",
+    "url": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC12668476/fullTextPDF",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668476/pdf/"
+    ],
+    "error": "not a PDF (got b'<!doctype html><html')"
+  },
+  "gau25-single-nucleus-and-spatial-transcriptomic-profiling": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "ren25-fecal-microbiota-transplantation-in-alzheimer-s": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.mdpi.com/2076-2607/13/8/1956/pdf?version=1755778336",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "you25-data-leakage-in-deep-learning-for": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://www.mdpi.com/2075-4418/15/18/2348/pdf?version=1758024686",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "gra25c-human-longevity-and-alzheimer-s-disease": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae339/61296232/awae339.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "vas25-diagnostic-journey-and-management-of-patients": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://journals.sagepub.com/doi/pdf/10.1177/13872877251322978",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "zho25-microglia-networks-within-the-tapestry-of": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "li25-brain-targeted-intranasal-delivery-of-biologics": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://pubs.rsc.org/en/content/articlepdf/2025/pm/d5pm00148j",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "xu25-epidemiological-and-sociodemographic-transitions-in-the": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "gam25-cognitive-reserve-and-its-impact-on": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://academic.oup.com/ageing/article-pdf/54/1/afae284/61362358/afae284.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "mur25-comprehensive-dementia-care-models": {
+    "oa": true,
+    "source": "unpaywall",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11869813/pdf/nihms-2055819.pdf",
+    "error": "not a PDF (got b'\\n\\n\\n\\n<html>\\n  <head>\\n')"
+  },
+  "bor25b-harmonized-prevalence-estimates-of-dementia-in": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "chi25-the-role-of-amyloid-and-tau": {
+    "oa": false
+  },
+  "zha25b-global-trends-in-alzheimer-s-disease": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "che25j-human-ipsc-derived-microglial-cells-protect": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "wee25-early-intervention-anti-a-immunotherapy-attenuates": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "pin26-aging-and-alzheimer-s-the-critical": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  },
+  "ame25-amyloid-solutions-lecanemab-gantenerumab-and-donanemab": {
+    "oa": true,
+    "source": "unpaywall",
+    "have": true
+  }
+}

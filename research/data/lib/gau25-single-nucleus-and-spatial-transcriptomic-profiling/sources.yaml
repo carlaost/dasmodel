@@ -1,0 +1,13 @@
+paper:
+  slug: gau25-single-nucleus-and-spatial-transcriptomic-profiling
+  doi: 10.1038/s41467-025-65350-6
+  title: 'Single-nucleus and spatial transcriptomic profiling of human temporal cortex and white matter reveals key associations with AD pathology'
+pdf:
+  oa: true
+  downloaded: true
+  path: paper.pdf
+  url: https://www.nature.com/articles/s41467-025-65350-6.pdf
+  source: unpaywall
+code: []
+data: []
+clinical_trials: []

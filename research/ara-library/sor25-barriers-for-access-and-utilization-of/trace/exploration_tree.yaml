@@ -1,0 +1,187 @@
+# Exploration graph for Sorrentino et al. (2025), "Barriers for access and utilization of
+# dementia care services in Europe: a systematic review." BMC Geriatrics 25:162.
+# doi:10.1186/s12877-025-05805-z. evidence: fields reference claim IDs (C##) in logic/claims.md.
+# support_level: explicit = grounded in the paper text/tables/figure; inferred = reconstructed.
+tree:
+  - id: N01
+    type: question
+    support_level: explicit
+    source_refs: ["Abstract", "Introduction"]
+    title: "What are the barriers to accessing and utilising dementia care services in Europe, and how can they be systematically categorised?"
+    description: >
+      For people living with dementia, their formal/informal caregivers, and healthcare workers
+      in European dementia-care settings, what informational, organisational, cultural, financial,
+      and logistical barriers hinder access to and utilization of care services, and what does the
+      2013-2023 literature reveal about their relative prevalence and regional distribution?
+    status: resolved
+    children:
+      - id: N02
+        type: decision
+        support_level: explicit
+        source_refs: ["Methods"]
+        title: "Conduct a PRISMA-guided systematic review using a PICO-based search strategy"
+        choice: >
+          Use the PRISMA reporting framework and a PICO-derived search string (Population:
+          Alzheimer/Dementia; Intervention/Outcome: Barrier*/Access/Healthcare/Health Care
+          Utilization; Geography: Europe; Timeframe: 2013-2023) across five databases, with
+          Rayyan-assisted screening and MMAT quality appraisal.
+        alternatives:
+          - "Narrative review without PRISMA structure"
+          - "Meta-analysis of quantitative outcome measures"
+        evidence: [C01]
+        status: resolved
+        children:
+          - id: N03
+            type: experiment
+            support_level: explicit
+            source_refs: ["Results (Study selection and quality assessment)", "Fig. 1"]
+            title: "Multi-database systematic search and PRISMA screening pipeline"
+            result: >
+              1748 database-identified + 4 reference-mined records; 1202 unique after
+              deduplication; 1129 excluded at title/abstract; 73 full-text reviewed; 44 excluded
+              at full-text; 29 studies included.
+            evidence: [C01]
+            status: resolved
+            children:
+              - id: N04
+                type: dead_end
+                support_level: explicit
+                source_refs: ["Results (Study selection and quality assessment)", "Fig. 1"]
+                title: "44 full-text-reviewed studies excluded"
+                hypothesis: "All 73 studies surviving title/abstract screening would meet full inclusion criteria."
+                failure_mode: >
+                  27 studies lacked assessments of barriers, 12 were excluded due to study
+                  design/type, 4 were not set in a European nation, and 1 was not focused on
+                  people living with dementia.
+                lesson: >
+                  Title/abstract-level "dementia care" framing is an imprecise screening signal;
+                  a majority of full-text exclusions (27/44) were papers that discussed dementia
+                  care but did not actually assess a barrier to it.
+                evidence: [C02]
+                status: resolved
+              - id: N05
+                type: decision
+                support_level: explicit
+                source_refs: ["Methods (Search strategy)"]
+                title: "Supplement database search via reference mining"
+                choice: >
+                  Manually mine the reference lists of three prior systematic/narrative reviews
+                  (refs 36-38) for additional relevant papers, yielding 4 extra included records.
+                alternatives:
+                  - "Rely solely on the five-database search string"
+                evidence: [C01]
+                status: resolved
+          - id: N06
+            type: decision
+            support_level: explicit
+            source_refs: ["Methods (Data extraction and quality assessment)"]
+            title: "Adopt MMAT for design-heterogeneous quality appraisal"
+            choice: >
+              Apply the Mixed Methods Appraisal Tool (revised 2018 version) to all 29 included
+              studies regardless of design (qualitative/quantitative/mixed-methods), retaining
+              (not excluding) studies scoring below the 50% threshold for cautious interpretation.
+            alternatives:
+              - "Apply a single design-specific critical-appraisal tool only"
+              - "Skip formal quality appraisal"
+            evidence: [C03]
+            status: resolved
+            children:
+              - id: N07
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Study selection and quality assessment)", "Table 3"]
+                title: "MMAT quality scoring of the 29 included studies"
+                result: >
+                  26 of 29 studies scored 100%; three scored lower (Giebel et al. 2021 [58]: 30%,
+                  Rusowicz et al. 2021 [63]: 30%, Dibao-Dina et al. 2022 [67]: 40%), all
+                  mixed-methods/quantitative studies with sampling or reporting limitations.
+                evidence: [C03]
+                status: resolved
+          - id: N08
+            type: decision
+            support_level: explicit
+            source_refs: ["Results (Identified barriers)"]
+            title: "Use narrative synthesis rather than meta-analysis"
+            choice: >
+              Categorise identified barriers narratively into thematic domains
+              (organisational, informational/educational, cultural/stigma-related, logistical,
+              financial) rather than pooling effect sizes, given the heterogeneity of qualitative,
+              quantitative, and mixed-methods designs.
+            alternatives:
+              - "Statistical meta-analysis of quantitative outcomes only"
+            evidence: [C04]
+            status: resolved
+            children:
+              - id: N09
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Identified barriers)", "Discussion"]
+                title: "Thematic categorisation of barriers across the 29 studies"
+                result: >
+                  Organisational barriers were most prevalent (n=17), followed by
+                  informational/educational (n=11), cultural/stigma-related (stated n=10),
+                  logistical (n=6), and financial (n=4).
+                evidence: [C04]
+                status: resolved
+              - id: N10
+                type: experiment
+                support_level: explicit
+                source_refs: ["Discussion (Cultural and stigma-related barriers)"]
+                title: "Identification of minority/migrant-specific barriers"
+                result: >
+                  Distinct cultural/communication barriers reported for Sikh caregivers (UK),
+                  Bangladeshi communities (England), Middle Eastern/Eastern European/Pakistani
+                  minorities (Denmark), and Somali/Pakistani/Turkish/Polish/Croatian/Indian
+                  minorities (Norway).
+                evidence: [C10]
+                status: resolved
+              - id: N11
+                type: experiment
+                support_level: explicit
+                source_refs: ["Results (Study characteristics)", "Table 3"]
+                title: "Study-characteristics tabulation and cross-tabulation"
+                result: >
+                  Publication-year, country, design/method, population-group, and care-setting
+                  distributions across the 29 included studies (2013-2022; UK-concentrated;
+                  predominantly qualitative; home-based-care-dominant).
+                evidence: [C05, C06, C07, C08, C09]
+                status: resolved
+      - id: N12
+        type: decision
+        support_level: explicit
+        source_refs: ["Table 1 (Eligibility criteria)", "Discussion (Strengths and limitations)"]
+        title: "Exclude RCTs and other non-original-research designs a priori"
+        choice: >
+          Restrict eligible study types to original research (cohort, cross-sectional,
+          case-control, qualitative), deliberately excluding randomized controlled trials,
+          editorials, letters, and conference papers, to prioritize in-depth real-world barrier
+          accounts over intervention-testing designs.
+        alternatives:
+          - "Include RCTs to capture intervention-effectiveness evidence alongside barriers"
+        evidence: [C07]
+        status: resolved
+      - id: N13
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Discussion (Strengths and limitations)"]
+        title: "Assistive-technology barriers excluded from this review iteration"
+        hypothesis: "Barriers related to assistive technologies in dementia care could be assessed within this review's scope."
+        failure_mode: >
+          The complexity and scope of assistive-technology barriers were judged to necessitate a
+          dedicated review; this topic was excluded despite its growing significance, especially
+          given the surge in assistive-technology reliance during/after COVID-19.
+        lesson: "A dedicated future review should address assistive-technology-specific barriers in dementia care."
+        status: open
+      - id: N14
+        type: dead_end
+        support_level: explicit
+        source_refs: ["Discussion (Strengths and limitations)"]
+        title: "Most included studies did not report participant ethnicity/race"
+        hypothesis: "Minority-specific barriers could be systematically compared across all 29 included studies."
+        failure_mode: >
+          Most studies did not specify the race and ethnicity of participants, limiting
+          understanding of barriers across different racial/ethnic groups; only a subset of
+          studies (refs 41, 50, 53, 54) specifically investigated minority-group barriers.
+        lesson: "Future primary studies should report participant ethnicity/race to enable systematic minority-specific barrier synthesis."
+        evidence: [C10]
+        status: open
