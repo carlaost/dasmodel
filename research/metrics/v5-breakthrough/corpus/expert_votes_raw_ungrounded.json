@@ -1,0 +1,330 @@
+{
+ "sim26-multi-modal-graph-neural-network-with": {
+  "trialist": 28,
+  "neuroscientist": 30,
+  "metascientist": 33
+ },
+ "kho25-explainable-artificial-intelligence-in-neuroimaging-of": {
+  "neuroscientist": 10,
+  "metascientist": 12,
+  "trialist": 20
+ },
+ "cav25-global-societal-burden-of-alzheimer-s": {
+  "neuroscientist": 6,
+  "metascientist": 7,
+  "trialist": 7
+ },
+ "ard25-response-of-spatially-defined-microglia-states": {
+  "metascientist": 69,
+  "neuroscientist": 70,
+  "trialist": 67
+ },
+ "ave25-uncovering-plaque-glia-niches-in-human": {
+  "trialist": 57,
+  "metascientist": 61,
+  "neuroscientist": 56
+ },
+ "guo25c-the-disease-burden-risk-factors-and": {
+  "metascientist": 6,
+  "trialist": 6,
+  "neuroscientist": 6
+ },
+ "che25e-apoe4-reprograms-microglial-lipid-metabolism-in": {
+  "trialist": 22,
+  "metascientist": 23,
+  "neuroscientist": 27
+ },
+ "wan25c-global-burden-of-alzheimer-s-disease": {
+  "trialist": 6
+ },
+ "20225-2025-alzheimer-s-disease-facts-and": {
+  "trialist": 6,
+  "metascientist": 4,
+  "neuroscientist": 3
+ },
+ "hao25-trend-analysis-and-future-predictions-of": {
+  "trialist": 7,
+  "metascientist": 7,
+  "neuroscientist": 6
+ },
+ "kes25-the-alzheimer-s-disease-diagnosis-and": {
+  "trialist": 60,
+  "metascientist": 50,
+  "neuroscientist": 42
+ },
+ "cum26-alzheimer-s-disease-drug-development-pipeline": {
+  "neuroscientist": 7,
+  "metascientist": 8,
+  "trialist": 8
+ },
+ "iac25-a-practical-overview-of-the-use": {
+  "neuroscientist": 12,
+  "trialist": 22,
+  "metascientist": 14
+ },
+ "aku25b-effects-of-medicare-predictors-in-health": {
+  "neuroscientist": 21,
+  "metascientist": 44,
+  "trialist": 38
+ },
+ "tit26-automated-high-throughput-quantification-of-plasma": {
+  "metascientist": 40,
+  "neuroscientist": 33,
+  "trialist": 39
+ },
+ "smi25-contribution-of-modifiable-midlife-and-late": {
+  "neuroscientist": 23,
+  "metascientist": 42,
+  "trialist": 44
+ },
+ "aks25-an-explainable-web-based-diagnostic-system": {
+  "metascientist": 18,
+  "trialist": 18,
+  "neuroscientist": 16
+ },
+ "val25-blood-biomarkers-of-alzheimer-s-disease": {
+  "trialist": 57,
+  "neuroscientist": 47,
+  "metascientist": 44
+ },
+ "ahm26b-trends-and-disparities-in-alzheimer-disease": {
+  "metascientist": 7,
+  "neuroscientist": 6,
+  "trialist": 7
+ },
+ "pal25-alzheimer-s-association-clinical-practice-guideline": {
+  "trialist": 43,
+  "metascientist": 16,
+  "neuroscientist": 22
+ },
+ "che26-diagnostic-performance-of-plasma-p-tau217": {
+  "neuroscientist": 27,
+  "metascientist": 27,
+  "trialist": 33
+ },
+ "ada26-adult-human-ex-vivo-brain-slices": {
+  "metascientist": 58,
+  "trialist": 44,
+  "neuroscientist": 57
+ },
+ "huu25-apoe-e4-alzheimer-s-risk-converges": {
+  "trialist": 56,
+  "neuroscientist": 60,
+  "metascientist": 63
+ },
+ "han26-tau-pathological-activity-in-plasma-before": {
+  "metascientist": 67,
+  "neuroscientist": 70,
+  "trialist": 71
+ },
+ "gau25-single-nucleus-and-spatial-transcriptomic-profiling": {
+  "trialist": 57,
+  "neuroscientist": 60,
+  "metascientist": 46
+ },
+ "the25-blood-phosphorylated-tau-for-the-diagnosis": {
+  "trialist": 59,
+  "metascientist": 44,
+  "neuroscientist": 42
+ },
+ "div25-the-microcirculation-the-blood-brain-barrier": {
+  "metascientist": 22,
+  "trialist": 30,
+  "neuroscientist": 22
+ },
+ "liu25h-global-burden-of-alzheimer-s-disease": {
+  "metascientist": 6,
+  "neuroscientist": 5,
+  "trialist": 6
+ },
+ "gie25-geographical-inequalities-in-dementia-diagnosis-and": {
+  "neuroscientist": 6,
+  "trialist": 13,
+  "metascientist": 14
+ },
+ "ala26-trends-in-alzheimer-s-disease-mortality": {
+  "neuroscientist": 7,
+  "trialist": 8,
+  "metascientist": 9
+ },
+ "ali26-privacy-preserving-multimodal-fusion-for-alzheimer": {
+  "neuroscientist": 22,
+  "metascientist": 24,
+  "trialist": 26
+ },
+ "ji25-alzheimer-s-disease-patient-brain-extracts": {
+  "metascientist": 67,
+  "neuroscientist": 66,
+  "trialist": 63
+ },
+ "ami25-prevalence-deaths-and-disability-adjusted-life": {
+  "trialist": 6,
+  "metascientist": 4,
+  "neuroscientist": 4
+ },
+ "aki26-molecular-signatures-of-resilience-to-alzheimer": {
+  "trialist": 70,
+  "neuroscientist": 70,
+  "metascientist": 71
+ },
+ "gon25b-stereo-seq-of-the-prefrontal-cortex": {
+  "trialist": 57,
+  "metascientist": 60,
+  "neuroscientist": 54
+ },
+ "liu25i-single-cell-multiregion-epigenomic-rewiring-in": {
+  "trialist": 72,
+  "metascientist": 70,
+  "neuroscientist": 82
+ },
+ "jes26-efficacy-and-safety-of-donanemab-in": {
+  "metascientist": 31,
+  "neuroscientist": 31,
+  "trialist": 47
+ },
+ "bor25b-harmonized-prevalence-estimates-of-dementia-in": {
+  "trialist": 21,
+  "metascientist": 31,
+  "neuroscientist": 10
+ },
+ "ahm26-machine-learning-and-deep-learning-for": {
+  "neuroscientist": 7,
+  "metascientist": 9,
+  "trialist": 10
+ },
+ "sor25-barriers-for-access-and-utilization-of": {
+  "metascientist": 11,
+  "trialist": 10,
+  "neuroscientist": 8
+ },
+ "als25-the-role-of-glial-cell-senescence": {
+  "trialist": 24,
+  "neuroscientist": 23,
+  "metascientist": 20
+ },
+ "bec25-a-neuroimmune-cerebral-assembloid-model-to": {
+  "neuroscientist": 45,
+  "metascientist": 44,
+  "trialist": 43
+ },
+ "als26-early-onset-alzheimer-s-disease-mortality": {
+  "metascientist": 9,
+  "neuroscientist": 6,
+  "trialist": 10
+ },
+ "ant26-mapea-project-evolution-of-care-for": {
+  "metascientist": 5,
+  "trialist": 8,
+  "neuroscientist": 6
+ },
+ "sal26-plasma-emtbr-tau243-and-p-tau217": {
+  "trialist": 70,
+  "neuroscientist": 61,
+  "metascientist": 59
+ },
+ "alb26-early-detection-of-alzheimer-s-disease": {
+  "metascientist": 21,
+  "trialist": 20,
+  "neuroscientist": 20
+ },
+ "afi25-vision-and-convolutional-transformers-for-alzheimer": {
+  "metascientist": 14,
+  "neuroscientist": 18,
+  "trialist": 20
+ },
+ "aku25-population-attributable-fractions-associated-with-alzheimer": {
+  "trialist": 9,
+  "neuroscientist": 9,
+  "metascientist": 13
+ },
+ "ali25-multimodal-self-supervised-learning-for-early": {
+  "neuroscientist": 21,
+  "metascientist": 23,
+  "trialist": 27
+ },
+ "amo25-regional-differences-in-the-incidence-of": {
+  "metascientist": 17,
+  "neuroscientist": 13,
+  "trialist": 20
+ },
+ "20226-2026-alzheimer-s-disease-facts-and": {
+  "neuroscientist": 4,
+  "trialist": 6,
+  "metascientist": 6
+ },
+ "ols25-microglial-mechanisms-drive-amyloid-clearance-in": {
+  "trialist": 74,
+  "metascientist": 72,
+  "neuroscientist": 74
+ },
+ "qi25-alzheimer-s-disease-digital-biomarkers-multidimensional": {
+  "metascientist": 10,
+  "neuroscientist": 12,
+  "trialist": 19
+ },
+ "sal25-trailblazer-alz-4-a-phase-3": {
+  "neuroscientist": 46,
+  "trialist": 57,
+  "metascientist": 43
+ },
+ "raz25-advancements-in-deep-learning-for-early": {
+  "trialist": 13,
+  "neuroscientist": 8,
+  "metascientist": 9
+ },
+ "wee25-early-intervention-anti-a-immunotherapy-attenuates": {
+  "trialist": 42,
+  "neuroscientist": 33,
+  "metascientist": 38
+ },
+ "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms": {
+  "trialist": 55,
+  "neuroscientist": 59,
+  "metascientist": 58
+ },
+ "wu25-a-2025-update-on-treatment-strategies": {
+  "trialist": 13,
+  "neuroscientist": 7,
+  "metascientist": 8
+ },
+ "xu25-epidemiological-and-sociodemographic-transitions-in-the": {
+  "trialist": 8,
+  "neuroscientist": 7,
+  "metascientist": 9
+ },
+ "xu25d-global-incidence-trends-and-projections-of": {
+  "trialist": 6,
+  "neuroscientist": 6,
+  "metascientist": 8
+ },
+ "yu25-global-mortality-prevalence-and-disability-adjusted": {
+  "trialist": 6,
+  "neuroscientist": 5,
+  "metascientist": 6
+ },
+ "zha25-assessing-and-projecting-the-global-impacts": {
+  "trialist": 6,
+  "neuroscientist": 6,
+  "metascientist": 7
+ },
+ "zha25h-a-review-of-multimodal-fusion-based": {
+  "trialist": 9,
+  "neuroscientist": 10,
+  "metascientist": 8
+ },
+ "zho25-microglia-networks-within-the-tapestry-of": {
+  "trialist": 14,
+  "neuroscientist": 20,
+  "metascientist": 18
+ },
+ "zhu25b-global-burden-of-alzheimer-s-disease": {
+  "trialist": 6,
+  "neuroscientist": 5,
+  "metascientist": 6
+ },
+ "zim25-donanemab-in-early-symptomatic-alzheimer-s": {
+  "trialist": 63,
+  "neuroscientist": 57,
+  "metascientist": 57
+ }
+}

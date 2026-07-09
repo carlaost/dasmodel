@@ -1,0 +1,23 @@
+# References (R###). The key prior works this trial builds on / is compared to.
+# (Full 60+-reference list is in the paywalled full text; only anchors used by claims/deltas/sota.)
+refs:
+  - id: R001
+    key: mintun2021_tba1
+    citation: "Mintun MA, et al. Donanemab in Early Alzheimer's Disease. N Engl J Med 2021;384:1691-1704."
+    doi: 10.1056/NEJMoa2100708
+    role: direct_predecessor_phase2       # same drug, same iADRS primary outcome
+    note: "TRAILBLAZER-ALZ phase 2; the borderline (P=.04) signal this phase 3 confirms."
+
+  - id: R002
+    key: vandyck2023_clarityad
+    citation: "van Dyck CH, et al. Lecanemab in Early Alzheimer's Disease. N Engl J Med 2023;388:9-21."
+    doi: 10.1056/NEJMoa2212948
+    role: contemporaneous_comparator      # concurrent anti-amyloid phase 3, CDR-SB primary
+    note: "CLARITY-AD; CDR-SB difference -0.45 baseline for the cross-trial CDR-SB delta."
+
+  - id: R003
+    key: buddhaeberlein2022_emerge
+    citation: "Budd Haeberlein S, et al. Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease (EMERGE and ENGAGE). J Prev Alzheimers Dis 2022;9:197-210."
+    doi: 10.14283/jpad.2022.30
+    role: prior_class_precedent           # first approved anti-amyloid mAb; discordant results
+    note: "Motivating precedent; discordant phase 3 results, not quantified as a clean delta here."

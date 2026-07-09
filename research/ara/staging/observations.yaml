@@ -774,3 +774,140 @@ observations:
     promoted_to: null
     crystallized_via: null
     stale: false
+
+  - id: O33
+    timestamp: "2026-07-07T23:30"
+    provenance: ai-executed
+    content: >
+      The GRO metrics program has NO scientific-breakthrough metric. Disruption / CD-index / surprise are
+      measured by none of the three sources and disruption is DELIBERATELY excluded (needs future citations,
+      per novelty-comparison.md). The only implemented adjacent signal is novelty_vs_prior_literature in
+      v3/claim_graph.py — a per-claim "done-before?" PubMed check the code itself scopes to "an audited
+      SPOTLIGHT, not a corpus metric" (run on 6 ARAs/31 claims, judged tier, flagged most-uncertain). Novelty+
+      impact is recognized as the single biggest gap (M17/S2 "Novelty vs literature + impact", TOP-10, designed
+      not run). Breakthrough sits one rung above novelty: it is forward-looking + cross-object and the current
+      single-snapshot shape cannot express it — it needs a cross-object edge graph + temporal spine + labels
+      the emitted sidecars lack.
+    context: "Turn: user asked whether we have breakthrough metrics; 4-subagent investigation across research/metrics v1-v4, gro/METRICS+SPEC, the three v4-gro papers, and the ARA trace. Synthesis written to research/metrics/breakthrough-metric.md."
+    potential_type: claim
+    bound_to: [N61]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+
+  - id: O34
+    timestamp: "2026-07-07T23:30"
+    provenance: ai-suggested
+    content: >
+      Proposed decomposition + enabling shape for a breakthrough metric: treat "breakthrough" as a COMPOSITE
+      over three tier-separated signals, never one number — (1) DISRUPTION (structural, deterministic once the
+      graph exists): an ARA-native CD-index over a cross-object claim/contribution graph, not the citation
+      network; (2) SIGNIFICANCE/novelty (reproducible-judged): L8 NOVELANCHOR contributions + verified deltas
+      vs a resolver-frozen SOTA neighborhood + P1 NOVELSCORE; (3) REALIZED UPTAKE (anchored): countable time-
+      stamped downstream replications/refutations/reuse. The load-bearing new shape is corpus/edges.yaml (typed
+      inter-ARA edges) + a temporal spine; the rest is materializing L8 sidecars GRO already specifies. Metrics
+      must distinguish "not-yet-a-breakthrough" (young, sparse graph) from "failed-to-become-one" (old, empty).
+    context: "Design in research/metrics/breakthrough-metric.md + STEPS + shapes/12_breakthrough.md; extends the O31 unbuilt-particle-layer gap into a concrete build target."
+    potential_type: architecture
+    bound_to: [N61]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+
+  - id: O35
+    timestamp: "2026-07-08T00:30"
+    provenance: ai-executed
+    content: >
+      Empirical (real citation graph, 539-paper 2025-26 AD corpus, OpenAlex): UPTAKE (in-corpus citation count)
+      discriminates known-breakthrough landmark papers from derivative work by ~15x (47.2 vs 3.25 mean) and
+      survives age-normalization (10.35 vs 3.25 per year). CD-INDEX / disruption does NOT discriminate (positive
+      -0.446 vs negative -0.333) — the landmark breakthroughs are CONSOLIDATING, not disruptive (donanemab CD
+      -0.836). Raw uptake has a Goodhart hole (a heavily-cited annual review scores high), so the significance
+      signal from GRO L8 sidecars is required to separate a cited review from a cited discovery. Implication for
+      the metric design: weight uptake/significance, down-weight or drop naive disruption.
+    context: "N63 (build_citation_graph.py + compute_breakthrough_v1.py). The 3-signal composite (adding significance from a running GRO-compile, wf_a3176248-fee) is not yet computed; recency confound (positives 2017-23 vs negatives 2025-26) still open."
+    potential_type: claim
+    bound_to: [N63, N61]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+
+  - id: O36
+    timestamp: "2026-07-08T01:30"
+    provenance: ai-executed
+    content: >
+      3-signal breakthrough composite over a real labelled AD corpus: the SIGNIFICANCE signal derived from the
+      GRO L8 shape (contribution typing + source_verified quantified deltas + sota_anchor) is the clean, age-
+      independent discriminator of known breakthroughs from derivative work (POS 0.731 vs NEG 0.223; classes
+      linearly separable), and it closes the uptake Goodhart hole (number-dense recent reviews floor at ~0.16).
+      Uptake discriminates on the mean but not cleanly; CD-index/disruption does not discriminate at all. NET:
+      the GRO extended shape (not the raw citation graph) is what makes breakthrough separability possible on
+      this corpus. CAVEAT/open: positives 2017-23 vs negatives 2025-26 -> add recent-breakthrough + old-
+      derivative controls before claiming significance != maturity; and only 1/5 positives had full text.
+    context: "N64 / wf_a3176248-fee. Supersedes/refines O35 (graph-only signals). The metric-design tournament has NOT been run yet; this is a hand-built v1 composite, evidence to seed it."
+    potential_type: claim
+    bound_to: [N64, N63, N61]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+
+  - id: O37
+    timestamp: "2026-07-08T03:30"
+    provenance: user-revised
+    content: >
+      Methodological critique (user-raised, formalized): the significance signal as built is largely an
+      INTERNAL signal — it reads the paper's own contribution typing and its own claimed deltas. Compiler-
+      assessed contribution type is meant to be author-framing-independent (double-typed author_framed vs
+      compiler_assessed) but is still a reading of the paper; a well-framed incremental result can score up, and
+      statistical significance is not breakthrough. The only external hook is source_verified deltas (confirms a
+      comparison exists, not that it matters). Genuine external signals: uptake (historical only), JOURNAL
+      BRAND (immediate, editorial-importance proxy), and Evans content/context NOVELTY (age-independent). Also:
+      CD-index/disruption fails here because landmarks CONSOLIDATE not disrupt. The composite is admittedly
+      conventional; the novelty is computing it deterministically off a typed shape, not the formula.
+      DEFINED NEXT EXPERIMENT: test whether Evans novelty retro-predicts known breakthroughs, with journal brand
+      + citation count as the ground-truth proxy; if Evans + venue add power beyond internal significance, fold
+      them into the significance tier.
+    context: "User feedback this turn on paper-intermediate. Folded into the paper: CD-index made intelligible (3.3), internal-vs-external caveat added to limitations (4), Evans+journal-brand validation design added to next-steps (5), and a worked-compile Appendix A (generated paper -> every sidecar value)."
+    potential_type: claim
+    bound_to: [N64, N65]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+  - id: O38
+    timestamp: "2026-07-09T15:40"
+    provenance: ai-executed
+    content: "All 16 tournament contestants independently proposed the same GRO extension: a normalized genre.primary field (controlled vocab: primary_research|surveillance_report|review|trial_readout|method_paper) present on EVERY paper. genre.yaml exists but is inconsistently schematised (some papers have genre.primary+novelty_prior, most only free-text paper_type), so it cannot be used as a clean conditioning variable. The metric's worst residuals (cum26, kes25, wan25c) are genre confusions -> highest-confidence data-shape fix."
+    context: "Dogfood ask on the GRO substrate arising from N66/N69; needed to detect report-genre directly instead of via the delta confound-proxy (H07)."
+    potential_type: constraint
+    bound_to: [N66, N69]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+  - id: O39
+    timestamp: "2026-07-09T15:40"
+    provenance: ai-executed
+    content: "GRO extension needed: a downstream_assessment / stance edge — per-citer, whether later work confirms/extends vs contests/supersedes/fails-to-replicate the cited paper. The substrate has citation counts (dead on recent papers) and the compiler's untested novelty reading, but nothing for how the field actually reacted. This is the materialized cross-object contribution graph (O31) and the only path to measuring REALIZED impact + to breaking the shared-LLM-bias worry (N70). Highest ceiling, slowest to build."
+    context: "Dogfood ask; 4 of 16 contestants; addresses C20 open validation."
+    potential_type: architecture
+    bound_to: [N66, N70]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false
+  - id: O40
+    timestamp: "2026-07-09T15:40"
+    provenance: ai-executed
+    content: "GRO extension needed: a standalone anchor_resolution_confidence in [0,1], split from today's overloaded `anchor` field (which conflates resolution-success with a buggy density reward). The tournament winner had to repurpose anchor_n as a confidence gate for lack of a clean one. Marginal value (anchor signal did not transfer) but a real bug fix. 14 of 16 contestants."
+    context: "Dogfood ask; lowest priority of the three extensions."
+    potential_type: constraint
+    bound_to: [N66]
+    promoted: false
+    promoted_to: null
+    crystallized_via: null
+    stale: false

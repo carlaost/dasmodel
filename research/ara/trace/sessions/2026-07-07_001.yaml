@@ -2,8 +2,8 @@ session:
   id: "2026-07-07_001"
   date: "2026-07-07"
   started: "2026-07-07T09:00"
-  last_turn: "2026-07-07T15:40"
-  turn_count: 9
+  last_turn: "2026-07-07T17:00"
+  turn_count: 12
   summary: >
     Resumed the format-tournament thread after the prior account hit its session limit (docs + the
     local d346d4a6 transcript were fully recoverable). Ran a tail workflow (wf_c4cbff37-887, 25 agents,
@@ -62,8 +62,67 @@ events_logged:
     routing: direct
     provenance: user
     summary: "Created private GitHub repo carlaost/gro packaging the GRO outcomes (SPEC + methods/ + scrubbed ara/ snapshot); submodule-ready, kept private (public = open decision)."
+  - turn: 8
+    type: decision
+    id: "N61"
+    routing: direct
+    provenance: user
+    summary: "Launch breakthrough-metric program (12_breakthrough): confirmed no breakthrough metric exists; full program (option 3) = extend GRO shape (L8 + cross-object edges.yaml + temporal spine) -> emit via GRO compiler over Alzheimer's corpus w/ lineage -> labelled contrast set -> tournament -> both-shapes compute + blind validation. Delivered gating one-pager PDF + runnable scaffold."
+  - turn: 8
+    type: observation
+    id: "O33"
+    routing: staged
+    provenance: ai-executed
+    summary: "No breakthrough metric in the program; disruption/CD-index explicitly excluded; only a narrow judged PubMed novelty spotlight coded. Breakthrough is forward-looking + cross-object; current single-snapshot shape can't express it."
+  - turn: 8
+    type: observation
+    id: "O34"
+    routing: staged
+    provenance: ai-suggested
+    summary: "Breakthrough = composite over 3 tier-separated signals (disruption/structural, significance/judged, uptake/anchored); enabling shape = cross-object edges.yaml + temporal spine + materialized L8. Must separate not-yet from failed-to-become."
+  - turn: 9
+    type: pivot
+    id: "N62"
+    routing: direct
+    provenance: user
+    summary: "PIVOT (user): drop the 12-ARA/ARA-shape/sparse-graph plan; build the real citation graph over the full 539-paper corpus, select papers with actual lineage (cite each other), label positive/negative, GRO-compile + run metrics over THAT. Stopped the mis-scoped workflow wf_eac7db02-847."
+  - turn: 9
+    type: experiment
+    id: "N63"
+    routing: direct
+    provenance: ai-executed
+    summary: "Built real citation graph (OpenAlex): 309 intra-corpus edges, 216-paper component, landmark backbone. v1 graph signals: UPTAKE discriminates breakthroughs ~15x (47.2 vs 3.25, age-robust); CD-index/disruption does NOT (landmarks consolidate). All 5 positives OA. Launched GRO-compile-for-significance wf_a3176248-fee."
+  - turn: 9
+    type: observation
+    id: "O35"
+    routing: staged
+    provenance: ai-executed
+    summary: "Empirical: uptake discriminates known breakthroughs ~15x (age-robust); disruption/CD-index does not (landmarks consolidate); raw uptake has a cited-review Goodhart hole -> significance signal (GRO L8) needed. Design implication: weight uptake+significance, down-weight naive disruption."
+  - turn: 10
+    type: experiment
+    id: "N64"
+    routing: direct
+    provenance: ai-executed
+    summary: "3-signal composite over the labelled corpus (5 landmark positives GRO-compiled + 10 derivative negatives L8-extended, wf_a3176248-fee). SIGNIFICANCE (GRO L8) cleanly separates classes (POS 0.731 vs NEG 0.223, linearly separable) + closes the uptake Goodhart hole; composite clean (0.961 vs -0.480); CD-index still fails. Confound: positives 2017-23 vs negatives 2025-26."
+  - turn: 11
+    type: experiment
+    id: "N65"
+    routing: direct
+    provenance: user
+    summary: "Recency-controlled run launched (wf_4393bd93-d80, ~130 agents): 67 recent 2025-26 ARAs -> GRO L8 shape -> metric vs BLIND informed-agent full-read ground truth (+2nd reader subset for inter-rater). Holds age constant to kill the N64 confound. Wrote brief 3pp intermediate PDF paper. Evans novelty deferred to discussion/future."
+  - turn: 10
+    type: observation
+    id: "O36"
+    routing: staged
+    provenance: ai-executed
+    summary: "The GRO extended shape (L8 significance), not the raw citation graph, is what makes breakthrough separability possible; uptake discriminates only on the mean, disruption not at all. Open: recency confound (need recent-breakthrough + old-derivative controls); 1/5 positives full-text."
 
 ai_actions:
+  - turn: 12
+    action: "Expanded paper-intermediate (method 2.1 paper->GRO-shape compile pipeline w/ sidecar->signal table + 2.2 shape->metric deterministic computation; 3.3 plain-language CD-index; 4 internal-vs-external-signal caveat; 5 Evans+journal-brand retro-prediction validation design; Appendix A worked compile: generated paper -> every sidecar value w/ annotations). 6pp PDF re-rendered."
+    provenance: ai-executed
+    files_changed:
+      - "research/metrics/v5-breakthrough/paper-intermediate.{html,pdf}"
   - turn: 1
     action: "Ran tail workflow wf_c4cbff37-887; wrote final GRO spec, backed up interim, wrote tail synthesis log."
     provenance: ai-executed
@@ -117,6 +176,15 @@ ai_actions:
       - "github.com/carlaost/gro/experiment/*"
       - "research/metrics/v4-gro/{gro_metrics.py,results.json,results.md,EXPERIMENT_PAPER.md}"
       - "research/ara-library/<12 slugs>/gro/*.yaml (60 files)"
+  - turn: 8
+    action: "Breakthrough-metric investigation (4 read-only subagents) + wrote assessment (do we have one: no; can we compute it: no; shape extension needed) + execution steps + rendered a one-page pre-run PDF via Chrome headless (matched prior papers' print-CSS HTML). Built the v5-breakthrough scaffold: tree, cloned+adapted briefs, gated status.py, log, and the shapes/12_breakthrough.md extended-shape spec (state machine gate now clears)."
+    provenance: ai-executed
+    files_changed:
+      - "research/metrics/breakthrough-metric.md"
+      - "research/metrics/breakthrough-metric-STEPS.md"
+      - "research/metrics/v5-breakthrough/onepager.{html,pdf}"
+      - "research/metrics/v5-breakthrough/tournament/{PROPOSER_BRIEF,CRITIQUE_BRIEF,TOURNAMENT_LOG}.md"
+      - "research/metrics/v5-breakthrough/tournament/{status.py,shapes/12_breakthrough.md}"
 
 claims_touched: []
 
@@ -139,5 +207,12 @@ open_threads:
 
   - "N58 capstone: external-validation (s7.1, real PubMed/ClinicalTrials) + ARA Seal L2 generation + 3-way comparison paper (13pp, 4 figures) committed to gro repo experiment/. Findings: ref-resolvability falsified, coverage architectural, tiers complementary, none discriminates alone. O32 staged."
 
+  - "N59 substrate benchmark (the core hypothesis): H1 extension-vs-ARA = affordance/cost/determinism win, NOT fidelity (raw ARA closer to PubMed truth on ref-resolvability); H2 verifier-vs-GRO = complementary. Paper s2 + 4 figures, pushed."
+
+  - "N60 GRO-compiler dogfood: composed ARA-compile + GRO-extend, ran over our 4 papers -> ARA+GRO sidecars (research/self-compiled/), pushed to gro (2b3d90d). GRO compiler = ARA compiler + extension step (not a single tool)."
+
+  - "N61 breakthrough-metric program launched (full/option-3): scaffold + extended-shape spec built and the tournament gate clears, but Phase 2+ (emit shape via GRO compiler over the Alzheimer's corpus w/ lineage), Phase 3 (labelled contrast set), and Phase 4 (proposer/judge fan-out) are NOT started — the fan-out costs money and the prior round-2 tournament died on an org spend cap; confirm budget before launching. Long poles are the shape emission + labelled lineage corpus, not the tournament."
+
 ai_suggestions_pending:
   - "O30: the trust-relocation / participation-problem critique of GRO (ai-suggested; folded into proposals but not user-affirmed as a standing claim)."
+  - "O33/O34: breakthrough gap + 3-signal decomposition (ai; O33 ai-executed synthesis, O34 ai-suggested design) — staged, awaiting user affirmation or the program producing an artifact that commits to them."

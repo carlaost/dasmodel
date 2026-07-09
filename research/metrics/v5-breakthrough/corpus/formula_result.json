@@ -1,0 +1,405 @@
+{
+  "formula": "(r['significance'] or 0)",
+  "name": "candidate",
+  "n": 66,
+  "spearman_new": 0.3036,
+  "spearman_old": 0.3036,
+  "rows": [
+    {
+      "slug": "aki26-molecular-signatures-of-resilience-to-alzheimer",
+      "candidate": 0.7967,
+      "expert": 68.33,
+      "significance": 0.7967
+    },
+    {
+      "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+      "candidate": 0.7784,
+      "expert": 22.33,
+      "significance": 0.7784
+    },
+    {
+      "slug": "cum26-alzheimer-s-disease-drug-development-pipeline",
+      "candidate": 0.7679,
+      "expert": 6.33,
+      "significance": 0.7679
+    },
+    {
+      "slug": "zim25-donanemab-in-early-symptomatic-alzheimer-s",
+      "candidate": 0.7408,
+      "expert": 39.0,
+      "significance": 0.7408
+    },
+    {
+      "slug": "20225-2025-alzheimer-s-disease-facts-and",
+      "candidate": 0.689,
+      "expert": 4.0,
+      "significance": 0.689
+    },
+    {
+      "slug": "20226-2026-alzheimer-s-disease-facts-and",
+      "candidate": 0.6156,
+      "expert": 5.0,
+      "significance": 0.6156
+    },
+    {
+      "slug": "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms",
+      "candidate": 0.5642,
+      "expert": 59.33,
+      "significance": 0.5642
+    },
+    {
+      "slug": "gau25-single-nucleus-and-spatial-transcriptomic-profiling",
+      "candidate": 0.5463,
+      "expert": 46.67,
+      "significance": 0.5463
+    },
+    {
+      "slug": "smi25-contribution-of-modifiable-midlife-and-late",
+      "candidate": 0.5444,
+      "expert": 30.67,
+      "significance": 0.5444
+    },
+    {
+      "slug": "aku25b-effects-of-medicare-predictors-in-health",
+      "candidate": 0.5339,
+      "expert": 26.33,
+      "significance": 0.5339
+    },
+    {
+      "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+      "candidate": 0.5096,
+      "expert": 26.0,
+      "significance": 0.5096
+    },
+    {
+      "slug": "wan25c-global-burden-of-alzheimer-s-disease",
+      "candidate": 0.4962,
+      "expert": 5.67,
+      "significance": 0.4962
+    },
+    {
+      "slug": "han26-tau-pathological-activity-in-plasma-before",
+      "candidate": 0.4919,
+      "expert": 69.33,
+      "significance": 0.4919
+    },
+    {
+      "slug": "ahm26b-trends-and-disparities-in-alzheimer-disease",
+      "candidate": 0.488,
+      "expert": 6.0,
+      "significance": 0.488
+    },
+    {
+      "slug": "sim26-multi-modal-graph-neural-network-with",
+      "candidate": 0.4869,
+      "expert": 26.67,
+      "significance": 0.4869
+    },
+    {
+      "slug": "ami25-prevalence-deaths-and-disability-adjusted-life",
+      "candidate": 0.486,
+      "expert": 5.0,
+      "significance": 0.486
+    },
+    {
+      "slug": "ard25-response-of-spatially-defined-microglia-states",
+      "candidate": 0.4633,
+      "expert": 67.67,
+      "significance": 0.4633
+    },
+    {
+      "slug": "huu25-apoe-e4-alzheimer-s-risk-converges",
+      "candidate": 0.4542,
+      "expert": 50.0,
+      "significance": 0.4542
+    },
+    {
+      "slug": "ave25-uncovering-plaque-glia-niches-in-human",
+      "candidate": 0.4486,
+      "expert": 51.33,
+      "significance": 0.4486
+    },
+    {
+      "slug": "gon25b-stereo-seq-of-the-prefrontal-cortex",
+      "candidate": 0.4464,
+      "expert": 45.67,
+      "significance": 0.4464
+    },
+    {
+      "slug": "liu25i-single-cell-multiregion-epigenomic-rewiring-in",
+      "candidate": 0.4464,
+      "expert": 66.33,
+      "significance": 0.4464
+    },
+    {
+      "slug": "che26-diagnostic-performance-of-plasma-p-tau217",
+      "candidate": 0.4453,
+      "expert": 23.33,
+      "significance": 0.4453
+    },
+    {
+      "slug": "ols25-microglial-mechanisms-drive-amyloid-clearance-in",
+      "candidate": 0.4414,
+      "expert": 74.0,
+      "significance": 0.4414
+    },
+    {
+      "slug": "afi25-vision-and-convolutional-transformers-for-alzheimer",
+      "candidate": 0.4406,
+      "expert": 10.0,
+      "significance": 0.4406
+    },
+    {
+      "slug": "ji25-alzheimer-s-disease-patient-brain-extracts",
+      "candidate": 0.4401,
+      "expert": 56.67,
+      "significance": 0.4401
+    },
+    {
+      "slug": "xu25-epidemiological-and-sociodemographic-transitions-in-the",
+      "candidate": 0.44,
+      "expert": 8.67,
+      "significance": 0.44
+    },
+    {
+      "slug": "liu25h-global-burden-of-alzheimer-s-disease",
+      "candidate": 0.4318,
+      "expert": 5.33,
+      "significance": 0.4318
+    },
+    {
+      "slug": "bor25b-harmonized-prevalence-estimates-of-dementia-in",
+      "candidate": 0.4258,
+      "expert": 24.33,
+      "significance": 0.4258
+    },
+    {
+      "slug": "val25-blood-biomarkers-of-alzheimer-s-disease",
+      "candidate": 0.4254,
+      "expert": 36.67,
+      "significance": 0.4254
+    },
+    {
+      "slug": "ant26-mapea-project-evolution-of-care-for",
+      "candidate": 0.425,
+      "expert": 5.33,
+      "significance": 0.425
+    },
+    {
+      "slug": "wee25-early-intervention-anti-a-immunotherapy-attenuates",
+      "candidate": 0.4243,
+      "expert": 34.33,
+      "significance": 0.4243
+    },
+    {
+      "slug": "ada26-adult-human-ex-vivo-brain-slices",
+      "candidate": 0.4215,
+      "expert": 40.67,
+      "significance": 0.4215
+    },
+    {
+      "slug": "amo25-regional-differences-in-the-incidence-of",
+      "candidate": 0.4213,
+      "expert": 14.0,
+      "significance": 0.4213
+    },
+    {
+      "slug": "ali25-multimodal-self-supervised-learning-for-early",
+      "candidate": 0.4199,
+      "expert": 22.33,
+      "significance": 0.4199
+    },
+    {
+      "slug": "hao25-trend-analysis-and-future-predictions-of",
+      "candidate": 0.4108,
+      "expert": 7.33,
+      "significance": 0.4108
+    },
+    {
+      "slug": "alb26-early-detection-of-alzheimer-s-disease",
+      "candidate": 0.4068,
+      "expert": 22.33,
+      "significance": 0.4068
+    },
+    {
+      "slug": "als26-early-onset-alzheimer-s-disease-mortality",
+      "candidate": 0.4067,
+      "expert": 8.0,
+      "significance": 0.4067
+    },
+    {
+      "slug": "bec25-a-neuroimmune-cerebral-assembloid-model-to",
+      "candidate": 0.4024,
+      "expert": 38.33,
+      "significance": 0.4024
+    },
+    {
+      "slug": "kes25-the-alzheimer-s-disease-diagnosis-and",
+      "candidate": 0.386,
+      "expert": 30.67,
+      "significance": 0.386
+    },
+    {
+      "slug": "zhu25b-global-burden-of-alzheimer-s-disease",
+      "candidate": 0.3826,
+      "expert": 4.67,
+      "significance": 0.3826
+    },
+    {
+      "slug": "aku25-population-attributable-fractions-associated-with-alzheimer",
+      "candidate": 0.3823,
+      "expert": 10.0,
+      "significance": 0.3823
+    },
+    {
+      "slug": "che25e-apoe4-reprograms-microglial-lipid-metabolism-in",
+      "candidate": 0.3736,
+      "expert": 15.67,
+      "significance": 0.3736
+    },
+    {
+      "slug": "div25-the-microcirculation-the-blood-brain-barrier",
+      "candidate": 0.3736,
+      "expert": 17.33,
+      "significance": 0.3736
+    },
+    {
+      "slug": "raz25-advancements-in-deep-learning-for-early",
+      "candidate": 0.3736,
+      "expert": 6.67,
+      "significance": 0.3736
+    },
+    {
+      "slug": "qi25-alzheimer-s-disease-digital-biomarkers-multidimensional",
+      "candidate": 0.3719,
+      "expert": 13.0,
+      "significance": 0.3719
+    },
+    {
+      "slug": "sor25-barriers-for-access-and-utilization-of",
+      "candidate": 0.3702,
+      "expert": 6.33,
+      "significance": 0.3702
+    },
+    {
+      "slug": "wu25-a-2025-update-on-treatment-strategies",
+      "candidate": 0.3702,
+      "expert": 7.67,
+      "significance": 0.3702
+    },
+    {
+      "slug": "zha25h-a-review-of-multimodal-fusion-based",
+      "candidate": 0.3694,
+      "expert": 7.67,
+      "significance": 0.3694
+    },
+    {
+      "slug": "iac25-a-practical-overview-of-the-use",
+      "candidate": 0.3669,
+      "expert": 8.0,
+      "significance": 0.3669
+    },
+    {
+      "slug": "ala26-trends-in-alzheimer-s-disease-mortality",
+      "candidate": 0.362,
+      "expert": 6.67,
+      "significance": 0.362
+    },
+    {
+      "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+      "candidate": 0.3596,
+      "expert": 60.67,
+      "significance": 0.3596
+    },
+    {
+      "slug": "sal25-trailblazer-alz-4-a-phase-3",
+      "candidate": 0.35,
+      "expert": 35.67,
+      "significance": 0.35
+    },
+    {
+      "slug": "kho25-explainable-artificial-intelligence-in-neuroimaging-of",
+      "candidate": 0.3495,
+      "expert": 7.67,
+      "significance": 0.3495
+    },
+    {
+      "slug": "guo25c-the-disease-burden-risk-factors-and",
+      "candidate": 0.3492,
+      "expert": 6.67,
+      "significance": 0.3492
+    },
+    {
+      "slug": "cav25-global-societal-burden-of-alzheimer-s",
+      "candidate": 0.3481,
+      "expert": 8.67,
+      "significance": 0.3481
+    },
+    {
+      "slug": "tit26-automated-high-throughput-quantification-of-plasma",
+      "candidate": 0.3402,
+      "expert": 29.0,
+      "significance": 0.3402
+    },
+    {
+      "slug": "xu25d-global-incidence-trends-and-projections-of",
+      "candidate": 0.3275,
+      "expert": 6.67,
+      "significance": 0.3275
+    },
+    {
+      "slug": "zha25-assessing-and-projecting-the-global-impacts",
+      "candidate": 0.3233,
+      "expert": 6.0,
+      "significance": 0.3233
+    },
+    {
+      "slug": "aks25-an-explainable-web-based-diagnostic-system",
+      "candidate": 0.3183,
+      "expert": 17.0,
+      "significance": 0.3183
+    },
+    {
+      "slug": "als25-the-role-of-glial-cell-senescence",
+      "candidate": 0.2961,
+      "expert": 9.67,
+      "significance": 0.2961
+    },
+    {
+      "slug": "gie25-geographical-inequalities-in-dementia-diagnosis-and",
+      "candidate": 0.2961,
+      "expert": 7.67,
+      "significance": 0.2961
+    },
+    {
+      "slug": "ahm26-machine-learning-and-deep-learning-for",
+      "candidate": 0.2936,
+      "expert": 5.67,
+      "significance": 0.2936
+    },
+    {
+      "slug": "zho25-microglia-networks-within-the-tapestry-of",
+      "candidate": 0.2936,
+      "expert": 11.0,
+      "significance": 0.2936
+    },
+    {
+      "slug": "ali26-privacy-preserving-multimodal-fusion-for-alzheimer",
+      "candidate": 0.2883,
+      "expert": 21.0,
+      "significance": 0.2883
+    },
+    {
+      "slug": "yu25-global-mortality-prevalence-and-disability-adjusted",
+      "candidate": 0.2784,
+      "expert": 5.33,
+      "significance": 0.2784
+    },
+    {
+      "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+      "candidate": 0.2768,
+      "expert": 15.0,
+      "significance": 0.2768
+    }
+  ]
+}

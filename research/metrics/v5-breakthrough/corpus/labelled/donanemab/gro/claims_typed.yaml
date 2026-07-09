@@ -1,0 +1,91 @@
+# Typed claims (C##). Grounded in logic/claims.md and evidence/quotes.md.
+claims:
+  - id: C01
+    statement: "Donanemab significantly slowed iADRS decline vs placebo at 76 weeks in the low/medium tau population (difference 3.25; P<.001)."
+    type: empirical_primary_outcome
+    polarity: positive
+    evidence_type: rct_primary_endpoint
+    grounding: "Abstract/Results"
+    quantities: [Q01, Q02, Q03]
+    confidence: high
+
+  - id: C02
+    statement: "The iADRS benefit held in the combined low/medium + high tau population (difference 2.92; P<.001)."
+    type: empirical_primary_outcome
+    polarity: positive
+    evidence_type: rct_primary_endpoint
+    grounding: "Abstract/Results"
+    quantities: [Q04, Q05, Q06]
+    confidence: high
+
+  - id: C03
+    statement: "Donanemab slowed CDR-SB decline vs placebo at 76 weeks in the low/medium tau population (difference -0.67; P<.001)."
+    type: empirical_secondary_outcome
+    polarity: positive
+    evidence_type: rct_secondary_endpoint
+    grounding: "Abstract/Results"
+    quantities: [Q07, Q08, Q09]
+    confidence: high
+
+  - id: C04
+    statement: "The CDR-SB benefit held in the combined population (difference -0.70; P<.001)."
+    type: empirical_secondary_outcome
+    polarity: positive
+    evidence_type: rct_secondary_endpoint
+    grounding: "Abstract/Results"
+    quantities: [Q10, Q11, Q12]
+    confidence: high
+
+  - id: C05
+    statement: "23 of 24 prespecified gated outcomes were statistically significant, indicating a robust, alpha-controlled effect across the outcome family."
+    type: empirical_robustness
+    polarity: positive
+    evidence_type: rct_gated_hierarchy
+    grounding: "Abstract/Results"
+    quantities: [Q13, Q14]
+    confidence: high
+
+  - id: C06
+    statement: "ARIA-E occurred in 24.0% of donanemab vs 2.1% of placebo participants (52 symptomatic in donanemab arm)."
+    type: empirical_safety
+    polarity: adverse
+    evidence_type: rct_safety
+    grounding: "Abstract/Results"
+    quantities: [Q15, Q16, Q17]
+    confidence: high
+
+  - id: C07
+    statement: "Infusion-related reactions occurred in 8.7% of donanemab vs 0.5% of placebo participants."
+    type: empirical_safety
+    polarity: adverse
+    evidence_type: rct_safety
+    grounding: "Abstract/Results"
+    quantities: [Q18, Q19]
+    confidence: high
+
+  - id: C08
+    statement: "Three treatment-related deaths occurred in the donanemab group vs one in placebo."
+    type: empirical_safety
+    polarity: adverse
+    evidence_type: rct_safety
+    grounding: "Abstract/Results"
+    quantities: [Q20, Q21]
+    confidence: high
+
+  - id: C09
+    statement: "Donanemab significantly slowed clinical progression of early symptomatic AD with amyloid+tau pathology at 76 weeks."
+    type: conclusion
+    polarity: positive
+    evidence_type: rct_overall
+    grounding: "Abstract/Conclusions"
+    quantities: [Q03, Q06, Q09, Q12]
+    confidence: high
+
+  - id: C10
+    statement: "The trial enrolled a biomarker-confirmed, tau-PET-stratified cohort (n=1736; 68.1% low/medium tau, 31.8% high tau) with 76% completion, establishing the primary (low/medium tau) analysis population."
+    type: methodological_design
+    polarity: positive
+    evidence_type: cohort_characterization
+    grounding: "Abstract/Results"
+    quantities: [Q22, Q23, Q24, Q25, Q26, Q27]
+    confidence: high

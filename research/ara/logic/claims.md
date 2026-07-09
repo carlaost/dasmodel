@@ -235,3 +235,43 @@ Numbers are copied exactly from source; each load-bearing number carries a `**So
   the artifact-trust axis. It does NOT close RC1/RC2 — external validity remains open by construction.
 - **Dependencies**: —
 - **Tags**: metrics, compiler-critique, methodology, v3-design
+
+## C17: The shipped GRO significance composite does not measure breakthrough-ness
+- **Statement**: The shipped metric `significance = 0.40·contribution + 0.40·delta + 0.20·anchor` reaches only Spearman ρ≈0.30 against a SOTA-grounded expert panel over 66 recent (2025–2026) AD papers — worse than its own best component (`contribution` alone ρ≈0.57) — because the `delta` (ρ≈−0.09) and `anchor_mean_overlap` (ρ≈−0.39) terms point opposite to expert judgement.
+- **Sources**: [0.30 ← research/metrics/v5-breakthrough/corpus/apply_formula.py «shipped significance composite, all: 0.304» [result]]; [contribution 0.57 / delta -0.09 / anchor_mean_overlap -0.39 ← research/metrics/v5-breakthrough/RESULTS_PAPER.md:§3 per-feature table [result]]
+- **Status**: supported
+- **Provenance**: ai-executed
+- **Falsification criteria**: On a corpus with resolved anchors, the composite exceeds `contribution` alone; OR `delta`/`anchor` correlate positively with expert breakthrough judgement.
+- **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §3, corpus/formula_result.json]
+- **Dependencies**: [C16]
+- **Tags**: breakthrough-metric, v5, negative-result
+
+## C18: The simplest metric wins — a single contribution-depth feature; elaborations overfit
+- **Statement**: The best breakthrough metric is a single feature, `contrib_wmean` (the compiler's confidence-weighted mean assessed contribution-novelty), reaching held-out Spearman ρ≈0.57 with no train→test gap. Every richer formula from a 16→4→2→1 tournament climbed the training score and failed to transfer (winner 0.77 train → 0.53 test; delta-hack 0.71→0.45, below plain depth; novelty-alone 0.63→0.27).
+- **Sources**: [contrib_wmean 0.533 train / 0.571 test ← research/metrics/v5-breakthrough/corpus/apply_formula.py «contrib_wmean alone ... test 0.571» [result]]; [winner 0.771 train / 0.534 test ← research/metrics/v5-breakthrough/corpus/tournament16_result.json + apply_formula.py [result]]
+- **Status**: supported
+- **Provenance**: ai-executed
+- **Falsification criteria**: A multi-term formula beats `contrib_wmean` on a held-out split by more than noise; OR `contrib_wmean` shows a large train→test gap on a fresh split.
+- **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §4-§5, corpus/split.json]
+- **Dependencies**: [C17]
+- **Tags**: breakthrough-metric, occam, overfitting, held-out-validation
+
+## C19: The metric reaches ~59% of the achievable ceiling; the gap is structured, not a wall
+- **Statement**: A single expert judge predicts the mean panel at Spearman ρ≈0.97 (leave-one-judge-out) — the achievable ceiling. The best metric reaches ρ≈0.57, i.e. ~59% of it; the ~0.40 gap is structured (concentrated on genre confusions — e.g. `cum26`/`kes25`/`sal26` — not noise), so a better data shape can close it. We have NOT hit a ceiling.
+- **Sources**: [ceiling 0.97 ← research/metrics/v5-breakthrough/corpus/apply_formula.py leave-one-judge-out «mean human/LLM ceiling: 0.974» [result]]; [metric 0.57 ← same, contrib_wmean held-out [result]]
+- **Status**: supported
+- **Provenance**: ai-executed
+- **Falsification criteria**: The metric-vs-expert residuals are shown to be unstructured noise; OR adding a genre/stance data shape fails to raise ρ above 0.57 on held-out data.
+- **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §6]
+- **Dependencies**: [C18]
+- **Tags**: breakthrough-metric, ceiling, expert-agreement, data-shape
+
+## C20: The generalizing signal is the compiler's reading, not GRO's prior-art/delta machinery
+- **Statement**: The only feature that transfers to held-out data is the [PAPER→LLM] contribution typing (`contrib_wmean`); the [PRIOR-ART] anchor novelty and [PAPER→LLM/PRIOR-ART] delta-ledger shapes did not transfer (novelty ρ 0.63 train→0.27 test; delta a weak confound-proxy). This is either a genuine finding (contribution-typing is what matters) or an artifact of the metric and the LLM expert panel sharing a model bias — distinguishable only on a second, non-AD corpus.
+- **Sources**: [novelty 0.627 train / 0.266 test ← research/metrics/v5-breakthrough/corpus/apply_formula.py «novelty alone ... 0.266» [result]]; [inter-judge ρ 0.96 ← RESULTS_PAPER.md §9 [result]]
+- **Status**: weakened
+- **Provenance**: ai-executed
+- **Falsification criteria**: On a second corpus with human raters, `contrib_wmean` retains ρ≈0.57 (→ real signal, promote); OR it collapses (→ shared-LLM-bias artifact, refute).
+- **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §7, §9]
+- **Dependencies**: [C18]
+- **Tags**: breakthrough-metric, provenance, shared-bias, open-validation

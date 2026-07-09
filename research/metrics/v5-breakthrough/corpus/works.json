@@ -1,0 +1,4695 @@
+{
+  "n_corpus": 526,
+  "n_resolved": 521,
+  "meta": {
+    "20225": {
+      "oid": "https://openalex.org/W4409980681",
+      "doi": "10.1002/alz.70235",
+      "year": 2025,
+      "oa_cited_by": 347,
+      "csv_cited_by": 346,
+      "n_refs": 901,
+      "title": "2025 Alzheimer's disease facts and figures"
+    },
+    "20226": {
+      "oid": "https://openalex.org/W7155059170",
+      "doi": "10.1002/alz.71345",
+      "year": 2026,
+      "oa_cited_by": 5,
+      "csv_cited_by": 3,
+      "n_refs": 837,
+      "title": "2026 Alzheimer's disease facts and figures"
+    },
+    "Ack26": {
+      "oid": "https://openalex.org/W7136900770",
+      "doi": "10.1093/gerona/glag068",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 49,
+      "title": "Substituting blood-based biomarkers for imaging measures in Alzheimer\u2019s disease studies: implications for sample size an"
+    },
+    "Ada26": {
+      "oid": "https://openalex.org/W7123339475",
+      "doi": "10.64898/2026.01.12.698855",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 78,
+      "title": "Adult human ex vivo brain slices for dissecting glial biology and multicellular communication"
+    },
+    "Adu25": {
+      "oid": "https://openalex.org/W4416442543",
+      "doi": "10.1007/s40278-025-91314-8",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 1,
+      "title": "Aducanumab"
+    },
+    "Afi25": {
+      "oid": "https://openalex.org/W4417419447",
+      "doi": "10.1186/s40708-025-00286-7",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 5,
+      "n_refs": 242,
+      "title": "Vision and convolutional transformers for Alzheimer\u2019s disease diagnosis: a systematic review of architectures, multimoda"
+    },
+    "Ahm26": {
+      "oid": "https://openalex.org/W7156114291",
+      "doi": "10.63125/vf6dkg22",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Machine Learning and Deep Learning for Alzheimer\u2019s Disease Diagnosis: A Survey of MRI, PET, Multimodal Fusion, Transform"
+    },
+    "Ahm26b": {
+      "oid": "https://openalex.org/W7133303850",
+      "doi": "10.1097/wad.0000000000000712",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 28,
+      "title": "Trends and Disparities in Alzheimer Disease-Related Mortality in the United States From 1999 to 2020: A CDC WONDER Analy"
+    },
+    "Aki26": {
+      "oid": "https://openalex.org/W7126419116",
+      "doi": "10.1038/s41467-026-68920-4",
+      "year": 2026,
+      "oa_cited_by": 5,
+      "csv_cited_by": 1,
+      "n_refs": 77,
+      "title": "Molecular signatures of resilience to Alzheimer\u2019s disease in neocortical layer 4 neurons"
+    },
+    "Aks25": {
+      "oid": "https://openalex.org/W4415058217",
+      "doi": "10.3390/diagnostics15202559",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 16,
+      "title": "An Explainable Web-Based Diagnostic System for Alzheimer\u2019s Disease Using XRAI and Deep Learning on Brain MRI"
+    },
+    "Aku25": {
+      "oid": "https://openalex.org/W7118064705",
+      "doi": "10.1093/geroni/igaf122.2529",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Population Attributable Fractions Associated with Alzheimer\u2019s Disease Risk Factors"
+    },
+    "Aku25b": {
+      "oid": "https://openalex.org/W4409345075",
+      "doi": "10.1002/trc2.70078",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 50,
+      "title": "Effects of Medicare predictors in health disparities in the risk of Alzheimer's disease"
+    },
+    "Ala26": {
+      "oid": "https://openalex.org/W7160023525",
+      "doi": "10.1177/13872877261445035",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 42,
+      "title": "Trends in Alzheimer's disease mortality with metabolic syndrome-related conditions among older adults in the United Stat"
+    },
+    "Alb26": {
+      "oid": "https://openalex.org/W7123338642",
+      "doi": "10.1109/access.2026.3652249",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 53,
+      "title": "Early Detection of Alzheimer\u2019s Disease Using Vision Transformers on CWT-Transformed EEG Signals in Response to Olfactory"
+    },
+    "Alg25": {
+      "oid": "https://openalex.org/W7117469220",
+      "doi": "10.1002/alz.71045",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 9,
+      "title": "False positive plasma p\u2010tau217 results associated with heterophilic antibody interference: A potential clinical pitfall"
+    },
+    "Ali25": {
+      "oid": "https://openalex.org/W4417158745",
+      "doi": "10.3390/diagnostics15243135",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 34,
+      "title": "Multimodal Self-Supervised Learning for Early Alzheimer\u2019s: Cross-Modal MRI\u2013PET, Longitudinal Signals, and Site Invarianc"
+    },
+    "Ali26": {
+      "oid": "https://openalex.org/W7130509386",
+      "doi": "10.1016/j.compmedimag.2026.102730",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 85,
+      "title": "Privacy-preserving multimodal fusion for Alzheimer's staging: A federated vision transformer framework with explainable "
+    },
+    "Als25": {
+      "oid": "https://openalex.org/W4408846149",
+      "doi": "10.1111/jnc.70051",
+      "year": 2025,
+      "oa_cited_by": 41,
+      "csv_cited_by": 25,
+      "n_refs": 197,
+      "title": "The Role of Glial Cell Senescence in Alzheimer's Disease"
+    },
+    "Als26": {
+      "oid": "https://openalex.org/W7162487346",
+      "doi": "10.1177/13872877261453030",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 32,
+      "title": "Early-onset Alzheimer's disease mortality in the United States: A population-based study of trends and disparities, 2015"
+    },
+    "Alz25": {
+      "oid": "https://openalex.org/W4414476069",
+      "doi": "10.1002/alz.70701",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 1,
+      "title": "Alzheimer's Association releases its first clinical practice guideline for blood\u2010based biomarker tests"
+    },
+    "Ame25": {
+      "oid": "https://openalex.org/W4410212228",
+      "doi": "10.1186/s41983-025-00968-3",
+      "year": 2025,
+      "oa_cited_by": 10,
+      "csv_cited_by": 9,
+      "n_refs": 233,
+      "title": "Amyloid solutions: lecanemab, gantenerumab, and donanemab in the treatment of Alzheimer's disease"
+    },
+    "Ami25": {
+      "oid": "https://openalex.org/W4408062950",
+      "doi": "10.1038/s41598-025-89899-w",
+      "year": 2025,
+      "oa_cited_by": 14,
+      "csv_cited_by": 16,
+      "n_refs": 60,
+      "title": "Prevalence, deaths and disability-adjusted life years due to Alzheimer\u2019s disease and other dementias in Middle East and "
+    },
+    "Amo25": {
+      "oid": "https://openalex.org/W4414019792",
+      "doi": "10.3389/fneur.2025.1584127",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 44,
+      "title": "Regional differences in the incidence of Alzheimer\u2019s disease and related dementias in South Carolina"
+    },
+    "Ani25": {
+      "oid": "https://openalex.org/W7162646502",
+      "doi": "10.4103/jmhit.jmhit_11_25",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 6,
+      "title": "Donanemab in the Treatment of Alzheimer\u2019s Disease: A Comprehensive Review"
+    },
+    "Ant26": {
+      "oid": "https://openalex.org/W7161178895",
+      "doi": "10.1016/j.regg.2026.101787",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 14,
+      "title": "[MapEA Project: evolution of care for Alzheimer disease and other dementias in Spain (2017-2024)]."
+    },
+    "Ard25": {
+      "oid": "https://openalex.org/W4412387828",
+      "doi": "10.1038/s41593-025-02006-0",
+      "year": 2025,
+      "oa_cited_by": 22,
+      "csv_cited_by": 19,
+      "n_refs": 76,
+      "title": "Response of spatially defined microglia states with distinct chromatin accessibility in a mouse model of Alzheimer\u2019s dis"
+    },
+    "Ard26": {
+      "oid": "https://openalex.org/W7134185143",
+      "doi": "10.1002/trc2.70229",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 20,
+      "title": "Infusion\u2010related reactions in donanemab\u2010treated participants with early symptomatic Alzheimer's disease"
+    },
+    "Arr25": {
+      "oid": "https://openalex.org/W7119228274",
+      "doi": "10.1002/alz70856_105569",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Prospective evaluation of plasma pTau217 stability and diagnostic accuracy for the detection of Alzheimer's disease in a"
+    },
+    "Asc25": {
+      "oid": "https://openalex.org/W7110215748",
+      "doi": "10.1109/bhi67747.2025.11269558",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 43,
+      "title": "Long-term Exposure to Air Pollutants and Alzheimer\u2019s Disease Dementia Prevalence Across the Contiguous United States: An"
+    },
+    "Ash26": {
+      "oid": "https://openalex.org/W7160432942",
+      "doi": "10.1109/aaiml67890.2026.11498183",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 45,
+      "title": "Longitudinal Graph Neural Networks for Prognostic Modeling of Alzheimer\u2019s Disease Progression"
+    },
+    "Ath25": {
+      "oid": "https://openalex.org/W4414653830",
+      "doi": "10.3390/ijms26199531",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 174,
+      "title": "The Biomarker Profile of Alzheimer\u2019s Disease for Disease-Modifying Treatment Eligibility: Questions and Debates"
+    },
+    "Au26": {
+      "oid": "https://openalex.org/W7160308378",
+      "doi": "10.1097/yco.0000000000001089",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 55,
+      "title": "The myth of digital biomarkers in Alzheimer's disease: how to make them a reality"
+    },
+    "Ave25": {
+      "oid": "https://openalex.org/W4412480976",
+      "doi": "10.1186/s44477-025-00002-z",
+      "year": 2025,
+      "oa_cited_by": 12,
+      "csv_cited_by": 14,
+      "n_refs": 73,
+      "title": "Uncovering plaque-glia niches in human Alzheimer\u2019s disease brains using spatial transcriptomics"
+    },
+    "B26": {
+      "oid": "https://openalex.org/W7154577650",
+      "doi": "10.37506/z8c4xd33",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Dementia in Developing countries: A Community-Focused Review of Prevalence, Risk Factors, and Public Health Priorities"
+    },
+    "Bag26": {
+      "oid": "https://openalex.org/W7160436749",
+      "doi": "10.1002/ardp.70248",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 135,
+      "title": "Current Landscape of Indole Hybrids in the Design and Development of Anti-Alzheimer Agents: Structural Insights, Therape"
+    },
+    "Bai26": {
+      "oid": "https://openalex.org/W7162675622",
+      "doi": "10.3390/jcm15114163",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 84,
+      "title": "Air Pollution and Alzheimer\u2019s Disease: A Systematic Review and Meta-Analysis"
+    },
+    "Bas25": {
+      "oid": "https://openalex.org/W4415756896",
+      "doi": "10.1016/j.mcn.2025.104052",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 98,
+      "title": "Bridging the gap in the management of Alzheimer's disease using fecal microbiota transplantation."
+    },
+    "Bas25b": {
+      "oid": "https://openalex.org/W4413168162",
+      "doi": "10.1016/j.procs.2025.07.130",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 25,
+      "title": "Prompting to Bridge the Gap: Accelerating Research in Multi-Modal Medical Report Generation for Alzheimer\u2019s Disease"
+    },
+    "Bav25": {
+      "oid": "https://openalex.org/W4417211974",
+      "doi": "10.1016/j.arr.2025.102990",
+      "year": 2025,
+      "oa_cited_by": 14,
+      "csv_cited_by": 10,
+      "n_refs": 74,
+      "title": "\"Unveiling Alzheimer's Disease (1901-2025): Historical Insights, Global Burden, Biological Mechanisms, Diagnostics, And "
+    },
+    "Baw25": {
+      "oid": "https://openalex.org/W7117452285",
+      "doi": "10.1371/journal.pone.0339785",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "Mapping the mortality-to-incidence ratios of Alzheimer\u2019s Disease and Related Dementias (ADRDs): Evidence from the South "
+    },
+    "Bay25": {
+      "oid": "https://openalex.org/W4416814411",
+      "doi": "10.1186/s40246-025-00875-x",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 87,
+      "title": "Multi-region spatial transcriptomics reveals region specific differences in response to amyloid beta (A\u03b2) plaque induced"
+    },
+    "Bda26": {
+      "oid": "https://openalex.org/W7155376584",
+      "doi": "10.1007/s00406-026-02250-w",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 25,
+      "title": "National trends and disparities in Alzheimer disease's mortality (1999-2023) with scenario projections and a data-driven"
+    },
+    "Bec25": {
+      "oid": "https://openalex.org/W4414933579",
+      "doi": "10.1186/s12974-025-03544-x",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 56,
+      "title": "A neuroimmune cerebral assembloid model to study the pathophysiology of familial Alzheimer\u2019s disease"
+    },
+    "Bel26": {
+      "oid": "https://openalex.org/W7131127972",
+      "doi": "10.1007/s12035-026-05745-8",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 63,
+      "title": "Regulon Reconstruction Uncovers Novel Deregulated Factors in Alzheimer\u2019s Disease"
+    },
+    "Ber25": {
+      "oid": "https://openalex.org/W4415823464",
+      "doi": "10.3390/jcm14217752",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 252,
+      "title": "Alzheimer Syndrome or Age-Related Dementia\u2014History, Therapy and Prevention"
+    },
+    "Ber25b": {
+      "oid": "https://openalex.org/W4415560293",
+      "doi": "10.1016/j.tjpad.2025.100367",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 7,
+      "n_refs": 62,
+      "title": "Risk reduction and precision prevention across the Alzheimer\u2019s disease continuum: a systematic review of clinical trials"
+    },
+    "Bha25": {
+      "oid": "https://openalex.org/W4414713370",
+      "doi": "10.3389/fchem.2025.1642190",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 0,
+      "n_refs": 286,
+      "title": "Comprehensive medicinal chemistry survey highlights a portfolio of lead molecules for Alzheimer\u2019s disease therapy"
+    },
+    "Bha25b": {
+      "oid": "https://openalex.org/W7117144208",
+      "doi": "10.1002/alz70856_097537",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Harmonising Multisite Brain MRI Data: Insights from the Dementias Platform UK (DPUK) PET\u2010MR harmonisation Study"
+    },
+    "Bir26": {
+      "oid": "https://openalex.org/W7125771598",
+      "doi": "10.9734/bpi/mono/978-93-47485-62-6",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Advance Care Planning for Alzheimer\u2019s Disease and Related Dementias: A Comprehensive Basic-to-Advanced Framework"
+    },
+    "Bis26": {
+      "oid": "https://openalex.org/W7162648754",
+      "doi": "10.3390/cells15110990",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 163,
+      "title": "Mitochondrial Dysfunction in Alzheimer\u2019s Disease and Mitochondria-Targeted Therapeutics"
+    },
+    "Bla25b": {
+      "oid": "https://openalex.org/W7119511700",
+      "doi": "10.1002/alz70856_107124",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Every Centiloid, from Everywhere, All at Once"
+    },
+    "Bla25c": {
+      "oid": "https://openalex.org/W7116971107",
+      "doi": "10.1002/alz70860_101261",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Creating a sustainable brain health navigator model to improve the diagnostic journey for Alzheimer's disease: the exper"
+    },
+    "Blu26": {
+      "oid": "https://openalex.org/W7131068148",
+      "doi": "10.1097/wco.0000000000001462",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 90,
+      "title": "Integration over reduction: multimodal PET and fluid biomarkers in Alzheimer's disease and beyond"
+    },
+    "Bol25": {
+      "oid": "https://openalex.org/W7116986425",
+      "doi": "10.1002/trc2.70190",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 25,
+      "title": "Implementing robust amyloid PET quantification in multi\u2010center studies: AMYPAD approach to address data acquisition, pro"
+    },
+    "Bol25b": {
+      "oid": "https://openalex.org/W7119508906",
+      "doi": "10.1002/alz70856_106771",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Interchangeability of Centiloid values from different research and commercial software using [18F]flutemetamol PET image"
+    },
+    "Bon25": {
+      "oid": "https://openalex.org/W4406972675",
+      "doi": "10.1016/j.neurot.2025.e00535",
+      "year": 2025,
+      "oa_cited_by": 14,
+      "csv_cited_by": 9,
+      "n_refs": 121,
+      "title": "Perivascular brain clearance as a therapeutic target in cerebral amyloid angiopathy and Alzheimer's disease"
+    },
+    "Bor25": {
+      "oid": "https://openalex.org/W7117416712",
+      "doi": "10.64898/2025.12.27.696668",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 53,
+      "title": "Neuropathologically validated MRI to tau PET synthesis via Covariate-modulated attention networks"
+    },
+    "Bor25b": {
+      "oid": "https://openalex.org/W4409709778",
+      "doi": "10.1038/s41598-025-97691-z",
+      "year": 2025,
+      "oa_cited_by": 13,
+      "csv_cited_by": 10,
+      "n_refs": 30,
+      "title": "Harmonized prevalence estimates of dementia in Europe vary strongly with childhood education"
+    },
+    "Bou25": {
+      "oid": "https://openalex.org/W7116975635",
+      "doi": "10.1002/alz70862_110298",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Using AI to improve cross\u2010sectional and longitudinal Amyloid PET quantification: A validation study across 7 large cohor"
+    },
+    "Bou26": {
+      "oid": "https://openalex.org/W7128596905",
+      "doi": "10.1002/alz.71162",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 49,
+      "title": "AI\u2010enhanced Centiloid quantification of amyloid PET images"
+    },
+    "Boz25": {
+      "oid": "https://openalex.org/W4416858074",
+      "doi": "10.1177/21501319251394537",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 6,
+      "title": "Feasibility of an Alzheimer\u2019s Disease Care Pathway: Findings from an Educational Pilot in 2 Healthcare Systems"
+    },
+    "Bra25": {
+      "oid": "https://openalex.org/W4408774017",
+      "doi": "10.1503/cmaj.241076",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Nonpharmacologic management of the behavioural and psychological symptoms of dementia"
+    },
+    "Bre25": {
+      "oid": "https://openalex.org/W4416806068",
+      "doi": "10.1055/a-2744-9871",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 136,
+      "title": "Review of Artificial Intelligence for Clinical Use in Alzheimer\u2019s Disease and Related Dementias"
+    },
+    "Bro25": {
+      "oid": "https://openalex.org/W4410338260",
+      "doi": "10.1016/j.ypsc.2025.03.004",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 99,
+      "title": "Non-pharmacological Interventions to Reduce Behavioral and Psychological Symptoms of Dementia"
+    },
+    "Bro25b": {
+      "oid": "https://openalex.org/W4416789883",
+      "doi": "10.1038/s41582-025-01162-y",
+      "year": 2025,
+      "oa_cited_by": 23,
+      "csv_cited_by": 17,
+      "n_refs": 272,
+      "title": "Microglial phagocytosis in Alzheimer disease"
+    },
+    "Bru25": {
+      "oid": "https://openalex.org/W7119499113",
+      "doi": "10.1002/alz70856_106492",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Plasma p\u2010tau changes across the clinical spectrum of Alzheimer's disease: a systematic review and meta\u2010analysis"
+    },
+    "Bur25": {
+      "oid": "https://openalex.org/W4408993805",
+      "doi": "10.1002/alz.70013",
+      "year": 2025,
+      "oa_cited_by": 8,
+      "csv_cited_by": 6,
+      "n_refs": 26,
+      "title": "A look at caregivers for community\u2010living persons with dementia: Implications for the GUIDE model"
+    },
+    "Bur26": {
+      "oid": "https://openalex.org/W7154990678",
+      "doi": "10.1001/jamaneurol.2026.0801",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 8,
+      "title": "Reimagining Care Delivery for Alzheimer Disease."
+    },
+    "Byn25": {
+      "oid": "https://openalex.org/W4406956971",
+      "doi": "10.1001/jama.2024.28066",
+      "year": 2025,
+      "oa_cited_by": 11,
+      "csv_cited_by": 11,
+      "n_refs": 5,
+      "title": "Challenges and Innovations in Dementia Care-Evaluating Comprehensive Models."
+    },
+    "Can25": {
+      "oid": "https://openalex.org/W7119521981",
+      "doi": "10.1002/alz70856_106046",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Plasma biomarkers move at different rates across the Alzheimer's disease continuum"
+    },
+    "Can25b": {
+      "oid": "https://openalex.org/W4407432541",
+      "doi": "10.1093/geront/gnaf059",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 4,
+      "n_refs": 16,
+      "title": "Healthcare and Community Organizations Implementing Evidence-Based Dementia Caregiving Programs: Findings From Best Prog"
+    },
+    "Can26": {
+      "oid": "https://openalex.org/W7124834534",
+      "doi": "10.3390/cells15020182",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 50,
+      "title": "Cerebellar Resistance to Amyloid Plaque Deposition and Elevated Microglial ECM Proteoglycan Uptake in 5xFAD Mice"
+    },
+    "Car25": {
+      "oid": "https://openalex.org/W4416933689",
+      "doi": "10.1186/s12974-025-03562-9",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 3,
+      "n_refs": 70,
+      "title": "High throughput identification of genetic regulators of microglial inflammatory processes in Alzheimer's disease"
+    },
+    "Cav25": {
+      "oid": "https://openalex.org/W4413767126",
+      "doi": "10.1007/s40120-025-00815-w",
+      "year": 2025,
+      "oa_cited_by": 12,
+      "csv_cited_by": 11,
+      "n_refs": 81,
+      "title": "Global Societal Burden of Alzheimer\u2019s Disease by Severity: a Targeted Literature Review"
+    },
+    "Cha25d": {
+      "oid": "https://openalex.org/W4407565225",
+      "doi": "10.3390/neurosci6010016",
+      "year": 2025,
+      "oa_cited_by": 8,
+      "csv_cited_by": 6,
+      "n_refs": 35,
+      "title": "Trends and Disparities in Alzheimer\u2019s Disease Mortality in the United States: The Impact of COVID-19"
+    },
+    "Cha26": {
+      "oid": "https://openalex.org/W7135202516",
+      "doi": "10.1016/j.tjpad.2026.100530",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 24,
+      "title": "Discordance in amyloid positivity between visual reads and Centiloids: Impact of white matter uptake."
+    },
+    "Che25e": {
+      "oid": "https://openalex.org/W4413348787",
+      "doi": "10.5582/bst.2025.01148",
+      "year": 2025,
+      "oa_cited_by": 15,
+      "csv_cited_by": 12,
+      "n_refs": 165,
+      "title": "APOE4 reprograms microglial lipid metabolism in Alzheimer's disease: Mechanisms and therapeutic implications."
+    },
+    "Che25g": {
+      "oid": "https://openalex.org/W4410297102",
+      "doi": "10.1109/isbi60581.2025.10980900",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 4,
+      "n_refs": 14,
+      "title": "PLASMA-CYCLEGAN: PLASMA BIOMARKER-GUIDED MRI TO PET CROSS-MODALITY TRANSLATION USING CONDITIONAL CYCLEGAN"
+    },
+    "Che25h": {
+      "oid": "https://openalex.org/W4416862790",
+      "doi": "10.1097/md.0000000000046219",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 22,
+      "title": "Global burden of Alzheimer disease and other dementias reveals escalating geographical disparities and metabolic risks: "
+    },
+    "Che25i": {
+      "oid": "https://openalex.org/W7117162489",
+      "doi": "10.1002/alz70855_105855",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Genomic and epigenomic insights into purkinje and granule cells in Alzheimer's disease\u2010related dementia using single\u2010nuc"
+    },
+    "Che25j": {
+      "oid": "https://openalex.org/W4406209102",
+      "doi": "10.1038/s42003-024-07401-0",
+      "year": 2025,
+      "oa_cited_by": 17,
+      "csv_cited_by": 12,
+      "n_refs": 52,
+      "title": "Human iPSC-derived microglial cells protect neurons from neurodegeneration in long-term cultured adhesion brain organoid"
+    },
+    "Che25l": {
+      "oid": "https://openalex.org/W4416356047",
+      "doi": "10.1016/j.intimp.2025.115853",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 188,
+      "title": "The mtDNA-ZBP1 axis in alzheimer's disease: Mechanisms, pathogenesis, and therapeutic implications."
+    },
+    "Che26": {
+      "oid": "https://openalex.org/W7163390780",
+      "doi": "10.3389/fnagi.2026.1834591",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 34,
+      "title": "Diagnostic performance of plasma p-Tau217, p-Tau181, and p-Tau231 across the Alzheimer\u2019s disease continuum: a network me"
+    },
+    "Che26b": {
+      "oid": "https://openalex.org/W7163683858",
+      "doi": "10.1016/j.tjpad.2026.100613",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "Diagnostic performance of an automated plasma p-tau217 chemiluminescent assay for detecting A\u03b2 pathology in a Chinese me"
+    },
+    "Che26d": {
+      "oid": "https://openalex.org/W7125959995",
+      "doi": "10.1159/000549913",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 62,
+      "title": "A Global, Regional, and National Survey on Burden and Quality of Care Index of Alzheimer\u2019s Disease and Other Dementias i"
+    },
+    "Chi25": {
+      "oid": "https://openalex.org/W4416666951",
+      "doi": "10.2967/jnumed.124.268339",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 5,
+      "n_refs": 128,
+      "title": "The Role of Amyloid-\u03b2 and Tau PET in the New Era of Alzheimer Disease Therapies"
+    },
+    "Chi26": {
+      "oid": "https://openalex.org/W7130931780",
+      "doi": "10.1002/alz.71208",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 117,
+      "title": "Spatially resolved transcriptomic profiling identifies distinct signatures in parenchymal and vascular microenvironments"
+    },
+    "Cho25": {
+      "oid": "https://openalex.org/W7116847010",
+      "doi": "10.1002/alz70860_099037",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "The Incidence and Prevalence of Dementia in Alberta, Canada between 2014 and 2022"
+    },
+    "Cho25b": {
+      "oid": "https://openalex.org/W7116964322",
+      "doi": "10.1002/alz70860_102210",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Dementia Care Aware: Building Primary Care Capacity for Early Detection of Dementia in California"
+    },
+    "Cho26": {
+      "oid": "https://openalex.org/W7163668209",
+      "doi": "10.1016/j.tjpad.2026.100615",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 36,
+      "title": "Plasma brain-derived p-Tau217 outperforms other p-Tau species in detecting abnormal brain amyloid in an Asian cohort of "
+    },
+    "Chr25": {
+      "oid": "https://openalex.org/W4415616458",
+      "doi": "10.3390/biomedicines13112632",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 51,
+      "title": "Magnetic Resonance Imaging and Cerebrospinal Fluid Biomarker Clustering Defines Biological Subtypes of Alzheimer\u2019s Disea"
+    },
+    "Chr25b": {
+      "oid": "https://openalex.org/W4413376587",
+      "doi": "10.3390/jcm14165913",
+      "year": 2025,
+      "oa_cited_by": 18,
+      "csv_cited_by": 21,
+      "n_refs": 109,
+      "title": "Artificial Intelligence in Alzheimer\u2019s Disease Diagnosis and Prognosis Using PET-MRI: A Narrative Review of High-Impact "
+    },
+    "Chu25": {
+      "oid": "https://openalex.org/W4412203494",
+      "doi": "10.1159/000547312",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 40,
+      "title": "Group Live Music Reminiscence Therapy for People with Dementia: A Mixed-Method Systematic Review"
+    },
+    "Cie25": {
+      "oid": "https://openalex.org/W4415644416",
+      "doi": "10.1002/trc2.70170",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 30,
+      "title": "Piloting the MIND at Home Dementia Care Navigation Program in primary care"
+    },
+    "Cie26": {
+      "oid": "https://openalex.org/W7160436980",
+      "doi": "10.18794/aams/218631",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 42,
+      "title": "Donanemab: A comprehensive review of mechanism, clinical efficacy, and safety in early stage Alzheimer\u2019s disease therapy"
+    },
+    "Cla25": {
+      "oid": "https://openalex.org/W4410038720",
+      "doi": "10.5694/mja2.52657",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 32,
+      "title": "The intersection of rurality and dementia prevalence in Australia for Aboriginal and Torres Strait Islander and non\u2010Indi"
+    },
+    "Cod25": {
+      "oid": "https://openalex.org/W4414452933",
+      "doi": "10.1002/alz.70697",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 34,
+      "title": "Comparison of amyloid PET acquired through standardized and unstandardized protocols"
+    },
+    "Col25": {
+      "oid": "https://openalex.org/W4415188507",
+      "doi": "10.1002/alz.70763",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 4,
+      "n_refs": 72,
+      "title": "Complementary utility of plasma biomarkers and A\u03b2\u2010PET for diagnosis, risk\u2010stratification, and treatment monitoring in Al"
+    },
+    "Col26": {
+      "oid": "https://openalex.org/W7160452078",
+      "doi": "10.1017/s1478951526102478",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 70,
+      "title": "Anticipatory grief among caregivers of people living with dementia: A scoping review"
+    },
+    "Com26b": {
+      "oid": "https://openalex.org/W7124829950",
+      "doi": "10.21203/rs.3.rs-8549806/v1",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 55,
+      "title": "Glial and Neuronal Alzheimer's Disease-Related Alterations Reproduced in Human Induced Pluripotent Stem Cells With Prese"
+    },
+    "Cor25": {
+      "oid": "https://openalex.org/W7127449193",
+      "doi": "10.5327/rpda25034",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Diagnostic accuracy of plasma p-tau217 and A\u03b242/40 ratio across the Alzheimer\u2019s disease continuum"
+    },
+    "Cou25": {
+      "oid": "https://openalex.org/W4414751692",
+      "doi": "10.1186/s13195-025-01839-y",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 4,
+      "n_refs": 40,
+      "title": "petBrain: a new pipeline for amyloid, Tau tangles and neurodegeneration quantification using PET and MRI"
+    },
+    "Cum26": {
+      "oid": "https://openalex.org/W7160306843",
+      "doi": "10.1002/trc2.70251",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Alzheimer's disease drug development pipeline: 2026"
+    },
+    "D26": {
+      "oid": "https://openalex.org/W7147650689",
+      "doi": "10.1007/s42399-026-02299-7",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 138,
+      "title": "Neuroimaging Modalities in Alzheimer\u2019s Brain: An Integrative Review of Advanced Neurovisualization Techniques, Emerging "
+    },
+    "Dai25": {
+      "oid": "https://openalex.org/W4413345688",
+      "doi": "10.1001/jamanetworkopen.2025.28001",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 1,
+      "n_refs": 50,
+      "title": "Race and Ethnicity and Comorbidities Among Medicare Beneficiaries With Young-Onset Dementia"
+    },
+    "Dak26": {
+      "oid": "https://openalex.org/W7155014570",
+      "doi": "10.1016/j.isci.2026.115819",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 42,
+      "title": "Exposure to fibrillar proteins leads to widespread infiltration but only mild tau pathology in cortical organoids"
+    },
+    "Dan26": {
+      "oid": "https://openalex.org/W7123749580",
+      "doi": "10.64898/2026.01.06.26343479",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 32,
+      "title": "Forecasting Alzheimer's Disease Progression with Deep Multimodal Learning: Integration of 3D MRI and Tabular Clinical Re"
+    },
+    "Dar26": {
+      "oid": "https://openalex.org/W7128495531",
+      "doi": "10.1007/s10571-026-01685-y",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 150,
+      "title": "Decoding Alzheimer's Disease One Cell Class at a Time"
+    },
+    "Das25": {
+      "oid": "https://openalex.org/W4408071915",
+      "doi": "10.7759/cureus.79881",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 10,
+      "n_refs": 36,
+      "title": "Blood-Based \u03b2-Amyloid and Phosphorylated Tau (p-Tau) Biomarkers in Alzheimer\u2019s Disease: A Systematic Review of Their Dia"
+    },
+    "Das25c": {
+      "oid": "https://openalex.org/W7117260421",
+      "doi": "10.1002/alz70855_107838",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "The next generation of spatial transcriptomics and AI to understand complex interactions between glial cells"
+    },
+    "Dat25": {
+      "oid": "https://openalex.org/W7126213592",
+      "doi": "10.1109/iconat66879.2025.11362426",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 8,
+      "title": "Multilingual Machine Learning Strategies for Alzheimer's Disease Detection via Spontaneous Speech"
+    },
+    "Dav26": {
+      "oid": "https://openalex.org/W7126218561",
+      "doi": "10.1002/alz.71102",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 10,
+      "title": "A framework for implementing high\u2010quality dementia care navigation: recommendations from the Alzheimer's Association Dem"
+    },
+    "Den25": {
+      "oid": "https://openalex.org/W7117247384",
+      "doi": "10.1002/alz70856_102116",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Development of a multimodal system based on acoustic analysis and EEG signals for early detection of Alzheimer's disease"
+    },
+    "Der25": {
+      "oid": "https://openalex.org/W7117100694",
+      "doi": "10.1002/alz70855_105337",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Examining the Role of SORL1 in Driving Alzheimer's Disease\u2010Related Alterations in Endolysosomal Trafficking in Neurons a"
+    },
+    "Des25": {
+      "oid": "https://openalex.org/W4408957422",
+      "doi": "10.1212/wnl.0000000000213464",
+      "year": 2025,
+      "oa_cited_by": 7,
+      "csv_cited_by": 4,
+      "n_refs": 20,
+      "title": "The Social Vulnerability Index and Incidence of Alzheimer Disease in a Population-Based Sample of Older Adults"
+    },
+    "Dhi25": {
+      "oid": "https://openalex.org/W4416960993",
+      "doi": "10.1109/embc58623.2025.11251809",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 2,
+      "n_refs": 17,
+      "title": "Leveraging a Vision-Language Model with Natural Text Supervision for MRI Retrieval, Captioning, Classification, and Visu"
+    },
+    "Dic25": {
+      "oid": "https://openalex.org/W4407860922",
+      "doi": "10.1093/jnen/nlaf007",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 37,
+      "title": "Alzheimer disease-associated tau post-translational modification mimics impact tau propagation and uptake"
+    },
+    "Din25": {
+      "oid": "https://openalex.org/W4415645916",
+      "doi": "10.1002/alz.70709",
+      "year": 2025,
+      "oa_cited_by": 20,
+      "csv_cited_by": 17,
+      "n_refs": 127,
+      "title": "Glymphatic and meningeal lymphatic dysfunction in Alzheimer's disease: Mechanisms and therapeutic perspectives"
+    },
+    "Din26": {
+      "oid": "https://openalex.org/W7133323780",
+      "doi": "10.1097/wad.0000000000000711",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 3,
+      "title": "Lecanemab and Donanemab Combination Therapy for Alzheimer's Disease-The Cocktail May Work Even Better Together."
+    },
+    "Dis26": {
+      "oid": "https://openalex.org/W7131406260",
+      "doi": "10.1038/s41586-026-10169-4",
+      "year": 2026,
+      "oa_cited_by": 20,
+      "csv_cited_by": 14,
+      "n_refs": 61,
+      "title": "Human hippocampal neurogenesis in adulthood, ageing and Alzheimer\u2019s disease"
+    },
+    "Div25": {
+      "oid": "https://openalex.org/W4408387186",
+      "doi": "10.1016/j.pharmr.2025.100052",
+      "year": 2025,
+      "oa_cited_by": 44,
+      "csv_cited_by": 42,
+      "n_refs": 521,
+      "title": "The microcirculation, the blood-brain barrier, and the neurovascular unit in health and Alzheimer disease: The aberrant "
+    },
+    "Dod25": {
+      "oid": "https://openalex.org/W4413108225",
+      "doi": "10.1080/14737175.2025.2546868",
+      "year": 2025,
+      "oa_cited_by": 12,
+      "csv_cited_by": 10,
+      "n_refs": 70,
+      "title": "Donanemab for Alzheimer\u2019s disease: from preclinical research to the clinical application"
+    },
+    "Dod26": {
+      "oid": "https://openalex.org/W7143402080",
+      "doi": "10.52778/ppt20260008",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Therapie der Alzheimer-Krankheit mit Antik\u00f6rpern gegen Amyloid-beta: Donanemab"
+    },
+    "Dog25": {
+      "oid": "https://openalex.org/W7117761268",
+      "doi": "10.65092/autfm.1733075",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 93,
+      "title": "Synaptic Dysfunction in Alzheimer\u2019s Disease: A Narrative Review of Neuronal Changes"
+    },
+    "Dol25": {
+      "oid": "https://openalex.org/W7117125327",
+      "doi": "10.1002/alz70855_101122",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Dissecting the complex interplay between AD and cerebrovascular dysfunction in human brains across the genetic and molec"
+    },
+    "Don25": {
+      "oid": "https://openalex.org/W4410380651",
+      "doi": "10.3389/fpubh.2025.1581871",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 26,
+      "title": "Global, regional, and national disease burden of tobacco-related Alzheimer\u2019s disease among individuals over the age of 5"
+    },
+    "Don26": {
+      "oid": "https://openalex.org/W7128685146",
+      "doi": "10.1007/s40278-026-92539-7",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 1,
+      "title": "Donanemab/Lecanemab"
+    },
+    "Dor26": {
+      "oid": "https://openalex.org/W7128488317",
+      "doi": "10.2967/jnmt.125.271678",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 47,
+      "title": "Quantitative Amyloid Brain Imaging: A Literature Review of the Centiloid Scale in Alzheimer Disease Evaluation"
+    },
+    "Dua25b": {
+      "oid": "https://openalex.org/W4416841241",
+      "doi": "10.3389/fnagi.2025.1678212",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 39,
+      "title": "Global, regional, and national burden of Alzheimer\u2019s disease and other dementias from 1990 to 2021: findings from the Gl"
+    },
+    "Dur26": {
+      "oid": "https://openalex.org/W7154992846",
+      "doi": "10.1111/jnc.70443",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 53,
+      "title": "Contextualizing Blood\u2010Based Biomarkers for Dementia Globally"
+    },
+    "Elf26": {
+      "oid": "https://openalex.org/W7124446426",
+      "doi": "10.1208/s12249-025-03316-z",
+      "year": 2026,
+      "oa_cited_by": 4,
+      "csv_cited_by": 2,
+      "n_refs": 131,
+      "title": "Challenges and Opportunities of Drug Delivery for Treatment of Alzheimer\u2019s Disease"
+    },
+    "Esc25": {
+      "oid": "https://openalex.org/W4412057240",
+      "doi": "10.70838/pemj.411003",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 25,
+      "title": "Having a Family Member with Alzheimer\u2019s Disease: The Experiences of Family Caregivers"
+    },
+    "Esp25b": {
+      "oid": "https://openalex.org/W4411035099",
+      "doi": "10.2174/0117450179376076250530074402",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 19,
+      "title": "Mortality from Alzheimer's Disease and Other Dementias in Ecuador during the Period 2012-2022"
+    },
+    "Exa25": {
+      "oid": "https://openalex.org/W4411456437",
+      "doi": "10.3390/brainsci15060661",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 3,
+      "n_refs": 16,
+      "title": "Geographic Distribution and Future Projections of Mild Cognitive Impairment and Dementia in Greece: Analysis from 1991 t"
+    },
+    "Fai26": {
+      "oid": "https://openalex.org/W7160294475",
+      "doi": "10.1097/ms9.0000000000005016",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 11,
+      "title": "Demographic trends in mortality related to Alzheimer\u2019s disease and pneumonia: a two-decade (1999\u20132022) analysis from the"
+    },
+    "Fal26": {
+      "oid": "https://openalex.org/W7153985714",
+      "doi": "10.1186/s40814-026-01781-2",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 49,
+      "title": "Living Memory Home for Dementia Care Pairs (LMH-4-DCP): study protocol for a pilot randomized trial of a web-based remin"
+    },
+    "Fan25b": {
+      "oid": "https://openalex.org/W4410814776",
+      "doi": "10.1097/js9.0000000000002460",
+      "year": 2025,
+      "oa_cited_by": 9,
+      "csv_cited_by": 7,
+      "n_refs": 46,
+      "title": "Mortality from alzheimer's disease and other dementias and its heterogeneity across states in india findings from GBD 20"
+    },
+    "Far26b": {
+      "oid": "https://openalex.org/W7163805012",
+      "doi": "10.1002/alz.71534",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 73,
+      "title": "Social vulnerability shapes deep clinical phenotypes and brain health in aging and dementia across Latin America"
+    },
+    "Fer25": {
+      "oid": "https://openalex.org/W7117012153",
+      "doi": "10.1002/alz70860_106204",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Rural\u2010urban disparities in Alzheimer's Disease and Related Dementia: The role of state\u2010level nurse practitioner policies"
+    },
+    "Fli26": {
+      "oid": "https://openalex.org/W7134892737",
+      "doi": "10.1002/dad2.70305",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 9,
+      "title": "Pitfalls in estimating secular changes in incidence and prevalence of dementia from administrative datasets"
+    },
+    "Flu25": {
+      "oid": "https://openalex.org/W4417153474",
+      "doi": "10.1016/j.tins.2025.11.002",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 0,
+      "n_refs": 149,
+      "title": "Evolving insights into the identity and function of dark microglia."
+    },
+    "Foi26": {
+      "oid": "https://openalex.org/W7160213799",
+      "doi": "10.64898/2026.04.26.720932",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 62,
+      "title": "Spatial Single-Cell Proteomics Reveals Molecular Trajectories Of Tangle-Bearing Neurons In Alzheimer\u2019s Disease"
+    },
+    "Fow26": {
+      "oid": "https://openalex.org/W7140134081",
+      "doi": "10.1002/dad2.70267",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 29,
+      "title": "Implementation of a blood test for Alzheimer's disease in primary care: A pilot study"
+    },
+    "Fra25": {
+      "oid": "https://openalex.org/W4414613690",
+      "doi": "10.4103/nrr.nrr-d-25-00569",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 10,
+      "title": "Blood biomarkers for Alzheimer\u2019s disease: Key challenges of clinical implementation"
+    },
+    "Fri25": {
+      "oid": "https://openalex.org/W4410877579",
+      "doi": "10.1016/j.nbd.2025.106983",
+      "year": 2025,
+      "oa_cited_by": 21,
+      "csv_cited_by": 14,
+      "n_refs": 76,
+      "title": "APOE4 reshapes the lipid droplet proteome and modulates microglial inflammatory responses"
+    },
+    "Fro25": {
+      "oid": "https://openalex.org/W4415396632",
+      "doi": "10.1002/trc2.70165",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 2,
+      "n_refs": 79,
+      "title": "Tau biology, biomarkers, and therapeutics"
+    },
+    "Gam25": {
+      "oid": "https://openalex.org/W4406149410",
+      "doi": "10.1093/ageing/afae284",
+      "year": 2025,
+      "oa_cited_by": 16,
+      "csv_cited_by": 13,
+      "n_refs": 45,
+      "title": "Cognitive reserve and its impact on cognitive and functional abilities, physical activity and quality of life following "
+    },
+    "Gar25": {
+      "oid": "https://openalex.org/W7117414115",
+      "doi": "10.1186/s13195-025-01944-y",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 1,
+      "n_refs": 60,
+      "title": "Exploring cellular heterogeneity: single-cell and spatial transcriptomics of Alzheimer's disease brains and iPSC-derived"
+    },
+    "Gar25b": {
+      "oid": "https://openalex.org/W4414533224",
+      "doi": "10.1186/s12877-025-06339-0",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 100,
+      "title": "Mortality and institutionalization of patients with dementia treated in primary care: influence of neuropsychiatric symp"
+    },
+    "Gau25": {
+      "oid": "https://openalex.org/W4416593355",
+      "doi": "10.1038/s41467-025-65350-6",
+      "year": 2025,
+      "oa_cited_by": 7,
+      "csv_cited_by": 6,
+      "n_refs": 62,
+      "title": "Single-nucleus and spatial transcriptomic profiling of human temporal cortex and white matter reveals key associations w"
+    },
+    "Gav25": {
+      "oid": "https://openalex.org/W4416740919",
+      "doi": "10.3390/jdad2040044",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 16,
+      "title": "Trends in Alzheimer\u2019s Disease Mortality in the Mississippi Delta, 2016\u20132022"
+    },
+    "Geb26": {
+      "oid": "https://openalex.org/W7160116255",
+      "doi": "10.1007/s12035-026-05864-2",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 63,
+      "title": "From Cerebrospinal Fluid to Blood Draw: Plasma p-Tau217 as a Non-Invasive Biomarker for Alzheimer\u2019s Disease: A Fagan Nom"
+    },
+    "Geo25": {
+      "oid": "https://openalex.org/W7116881942",
+      "doi": "10.1002/alz70855_099033",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Multi\u2010'omic characterisation of vulnerable synaptic components in Alzheimer's Disease"
+    },
+    "Gho25": {
+      "oid": "https://openalex.org/W7117291177",
+      "doi": "10.1007/s10571-025-01651-0",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 2,
+      "n_refs": 170,
+      "title": "Neuroimmune Dysregulation and AI-Driven Therapeutic Strategies in Alzheimer\u2019s Disease"
+    },
+    "Gie25": {
+      "oid": "https://openalex.org/W4407824874",
+      "doi": "10.1016/j.inpsyc.2025.100051",
+      "year": 2025,
+      "oa_cited_by": 29,
+      "csv_cited_by": 26,
+      "n_refs": 58,
+      "title": "Geographical inequalities in dementia diagnosis and care: A systematic review"
+    },
+    "Gob26": {
+      "oid": "https://openalex.org/W7160922351",
+      "doi": "10.1002/trc2.70259",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 61,
+      "title": "Functional connectome metrics reveal distinct prognostic subtypes in two Phase 3 gantenerumab trials"
+    },
+    "Gon25b": {
+      "oid": "https://openalex.org/W4406152883",
+      "doi": "10.1038/s41467-024-54715-y",
+      "year": 2025,
+      "oa_cited_by": 41,
+      "csv_cited_by": 29,
+      "n_refs": 122,
+      "title": "Stereo-seq of the prefrontal cortex in aging and Alzheimer\u2019s disease"
+    },
+    "Gon26": {
+      "oid": "https://openalex.org/W7155912146",
+      "doi": "10.1109/trpms.2026.3688162",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "TauGenNet: Plasma-Driven Tau PET Image Synthesis via Text-Guided 3D Diffusion Models"
+    },
+    "Gra25": {
+      "oid": "https://openalex.org/W7117299966",
+      "doi": "10.1002/alz70856_102566",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Digital Biomarkers in Early Alzheimer's Disease from Wearables or Portables: A Scoping Review"
+    },
+    "Gra25c": {
+      "oid": "https://openalex.org/W4406168419",
+      "doi": "10.1093/brain/awae339",
+      "year": 2025,
+      "oa_cited_by": 10,
+      "csv_cited_by": 14,
+      "n_refs": 88,
+      "title": "Human longevity and Alzheimer\u2019s disease variants act via microglia and oligodendrocyte gene networks"
+    },
+    "Gra26": {
+      "oid": "https://openalex.org/W7128486454",
+      "doi": "10.2967/jnmt.125.271823",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 22,
+      "title": "Centiloids in Amyloid PET: A Practical Guide to Quantitation Interpretation"
+    },
+    "Gre25": {
+      "oid": "https://openalex.org/W4413656054",
+      "doi": "10.1007/s40266-025-01238-w",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 3,
+      "n_refs": 61,
+      "title": "Deprescribing for People with Dementia: A Roadmap"
+    },
+    "Gri25": {
+      "oid": "https://openalex.org/W4416910641",
+      "doi": "10.1001/jamaneurol.2025.4726",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 14,
+      "title": "Blood Tests for Alzheimer Disease-What to Do With the Holy Grail."
+    },
+    "Gri25b": {
+      "oid": "https://openalex.org/W4406739309",
+      "doi": "10.1101/2025.01.23.634408",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 3,
+      "n_refs": 116,
+      "title": "A synaptic-astrocytic proteomic signature associated with synaptopathy in Alzheimer\u2019s Disease"
+    },
+    "Gro25": {
+      "oid": "https://openalex.org/W4413688477",
+      "doi": "10.1186/s12913-025-13113-w",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 47,
+      "title": "The real-time experiences of older people with dementia, informal caregivers and professional caregivers during the tran"
+    },
+    "Guo25": {
+      "oid": "https://openalex.org/W4415293173",
+      "doi": "10.1007/s00415-025-13456-8",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 244,
+      "title": "Advances of therapeutic strategies for Alzheimer\u2019s disease"
+    },
+    "Guo25b": {
+      "oid": "https://openalex.org/W4406928256",
+      "doi": "10.1186/s12889-025-21600-2",
+      "year": 2025,
+      "oa_cited_by": 12,
+      "csv_cited_by": 9,
+      "n_refs": 28,
+      "title": "Ambient air pollution and Alzheimer\u2019s disease and other dementias: a global study between 1990 and 2019"
+    },
+    "Guo25c": {
+      "oid": "https://openalex.org/W4408229734",
+      "doi": "10.1016/j.tjpad.2025.100122",
+      "year": 2025,
+      "oa_cited_by": 32,
+      "csv_cited_by": 26,
+      "n_refs": 30,
+      "title": "The disease burden, risk factors and future predictions of Alzheimer's disease and other types of dementia in Asia from "
+    },
+    "Guo26": {
+      "oid": "https://openalex.org/W7163135578",
+      "doi": "10.1021/acschemneuro.6c00284",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 98,
+      "title": "Lipid Droplet-Accumulating Microglia as a Therapeutic Node in Neurodegenerative Disease."
+    },
+    "Guo26b": {
+      "oid": "https://openalex.org/W7125406886",
+      "doi": "10.1021/acs.jproteome.5c00588",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 32,
+      "title": "Application of Open-Search Proteomics for Comprehensive and Accurate Profiling of Known Tau PTMs and Characteristic Mass"
+    },
+    "Gup26": {
+      "oid": "https://openalex.org/W7118869341",
+      "doi": "10.25259/fh_77_2025",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 29,
+      "title": "The role of blood-based biomarkers in managing the epidemic of Alzheimer\u2019s disease in India"
+    },
+    "Hal25": {
+      "oid": "https://openalex.org/W4406696784",
+      "doi": "10.1148/ryai.240779",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 9,
+      "title": "Machine Learning to Harmonize Interscanner Variability of Brain MRI Volumetry: Why and How."
+    },
+    "Hal26": {
+      "oid": "https://openalex.org/W7160249218",
+      "doi": "10.64898/2026.04.29.721607",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 48,
+      "title": "New Human IPSC Models of Late-onset Alzheimer\u2019s Disease Polygenic Risk Identify Multiple Impairments of Microglial Funct"
+    },
+    "Han26": {
+      "oid": "https://openalex.org/W7149715877",
+      "doi": "10.64898/2026.04.03.26350110",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Tau pathological activity in plasma before the onset of symptomatic Alzheimer\u2019s disease"
+    },
+    "Hao25": {
+      "oid": "https://openalex.org/W4411882036",
+      "doi": "10.1186/s12916-025-04169-w",
+      "year": 2025,
+      "oa_cited_by": 58,
+      "csv_cited_by": 51,
+      "n_refs": 52,
+      "title": "Trend analysis and future predictions of global burden of alzheimer\u2019s disease and other dementias: a study based on the "
+    },
+    "Har25": {
+      "oid": "https://openalex.org/W4412726625",
+      "doi": "10.1093/geront/gnaf170",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 4,
+      "n_refs": 34,
+      "title": "\u201cIt may cost you your money, it costs you your life\u201d: a framework for financial hardship in dementia"
+    },
+    "Har25b": {
+      "oid": "https://openalex.org/W4409278743",
+      "doi": "10.1093/geront/gnaf092",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 43,
+      "title": "Financial Toxicity in Dementia Caregiving: Sociodemographic Predictors in a U.S. Nationally-Representative Survey."
+    },
+    "Has25": {
+      "oid": "https://openalex.org/W7126189134",
+      "doi": "10.1109/tmi.2026.3659792",
+      "year": 2026,
+      "oa_cited_by": 4,
+      "csv_cited_by": 5,
+      "n_refs": 0,
+      "title": "PET Image Reconstruction Using Deep Diffusion Image Prior"
+    },
+    "Has26": {
+      "oid": "https://openalex.org/W7161938973",
+      "doi": "10.3390/ijms27104621",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 239,
+      "title": "Glial Cells in Behavioral and Psychological Symptoms of Alzheimer\u2019s Disease"
+    },
+    "Has26c": {
+      "oid": "https://openalex.org/W7127912418",
+      "doi": "10.1002/alz.71117",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 0,
+      "n_refs": 73,
+      "title": "Generation and characterization of iPSC\u2010derived microglia for in vitro modeling of stimuli\u2010specific neuroimmune response"
+    },
+    "Haz26": {
+      "oid": "https://openalex.org/W7160303690",
+      "doi": "10.1212/wnl.0000000000214953",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 36,
+      "title": "What Does a Positive Alzheimer Disease Blood-Based Biomarker Result Mean in People With Mild Cognitive Impairment?"
+    },
+    "Haz26b": {
+      "oid": "https://openalex.org/W7130680620",
+      "doi": "10.1016/j.tjpad.2026.100511",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 1,
+      "title": "Long-term extension data do not robustly support clinical disease course modification with donanemab"
+    },
+    "He26": {
+      "oid": "https://openalex.org/W7127931678",
+      "doi": "10.1016/j.arr.2026.103055",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 153,
+      "title": "Neuroimmune Dysregulation in Alzheimer's Disease: Mechanisms and Therapeutic Strategies."
+    },
+    "He26b": {
+      "oid": "https://openalex.org/W7164412078",
+      "doi": "10.1159/000552995",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "The shifting burden of Alzheimer's disease and other dementias in China: a systematic analysis and forecasting to 2035 b"
+    },
+    "Heb26": {
+      "oid": "https://openalex.org/W7143355715",
+      "doi": "10.1016/j.crmeth.2026.101365",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 71,
+      "title": "Recapitulation of plaque formation, tau pathology, and neurodegeneration in a human 3D matrix model of Alzheimer\u2019s disea"
+    },
+    "Hei25": {
+      "oid": "https://openalex.org/W7117316977",
+      "doi": "10.1007/s11011-025-01763-y",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 105,
+      "title": "An overview of gene and cell therapy approaches for Alzheimer\u2019s disease"
+    },
+    "Hil25": {
+      "oid": "https://openalex.org/W4413965020",
+      "doi": "10.2196/73387",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 58,
+      "title": "Mobile Telehealth Intervention to Support Care Partners of Patients With Alzheimer Disease and Related Dementias (I-CARE"
+    },
+    "Hof26": {
+      "oid": "https://openalex.org/W7160133177",
+      "doi": "10.1002/alz.71442",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 48,
+      "title": "Usage and positivity rates of Alzheimer's disease biomarkers in a memory clinic"
+    },
+    "Hon25": {
+      "oid": "https://openalex.org/W4416770030",
+      "doi": "10.48550/arxiv.2511.20154",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Alzheimers Disease Progression Prediction Based on Manifold Mapping of Irregularly Sampled Longitudinal Data"
+    },
+    "Hos26": {
+      "oid": "https://openalex.org/W7134123080",
+      "doi": "10.1016/j.tice.2026.103443",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 75,
+      "title": "Modeling sporadic Alzheimer's disease using brain organoids: Emerging trends and translational opportunities."
+    },
+    "Hou25": {
+      "oid": "https://openalex.org/W4412558024",
+      "doi": "10.3389/fpubh.2025.1616232",
+      "year": 2025,
+      "oa_cited_by": 8,
+      "csv_cited_by": 7,
+      "n_refs": 42,
+      "title": "Trends and forecasts of the prevalence and mortality of Alzheimer\u2019s disease and other dementias in China"
+    },
+    "Hu25": {
+      "oid": "https://openalex.org/W4417510919",
+      "doi": "10.1159/000549854",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 42,
+      "title": "Global, Regional, and National Disparities in the Burden of Alzheimer's Disease and Other Dementias, 1990-2021."
+    },
+    "Hua25": {
+      "oid": "https://openalex.org/W4416251843",
+      "doi": "10.1109/ijcnn64981.2025.11228726",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "Comparative Analysis of Foundation Models for EEG-Based Alzheimer\u2019s Disease Detection"
+    },
+    "Hud25": {
+      "oid": "https://openalex.org/W4406110326",
+      "doi": "10.1016/j.neurot.2024.e00519",
+      "year": 2025,
+      "oa_cited_by": 20,
+      "csv_cited_by": 20,
+      "n_refs": 173,
+      "title": "Senescent brain cell types in Alzheimer's disease: Pathological mechanisms and therapeutic opportunities"
+    },
+    "Huu25": {
+      "oid": "https://openalex.org/W4416441330",
+      "doi": "10.1101/2025.11.20.689483",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 126,
+      "title": "APOE E4 Alzheimer\u2019s Risk Converges on an Oligodendrocyte Subtype in the Human Entorhinal Cortex"
+    },
+    "Iac25": {
+      "oid": "https://openalex.org/W4408287803",
+      "doi": "10.1016/j.nicl.2025.103765",
+      "year": 2025,
+      "oa_cited_by": 40,
+      "csv_cited_by": 32,
+      "n_refs": 107,
+      "title": "A practical overview of the use of amyloid-PET Centiloid values in clinical trials and research"
+    },
+    "Jai26": {
+      "oid": "https://openalex.org/W7126068252",
+      "doi": "10.1161/str.57.suppl_1.tp008",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Abstract TP008: Trends and Disparities in Alzheimer Disease and Stroke-Related Deaths Among Older Adults in the United S"
+    },
+    "Jar25": {
+      "oid": "https://openalex.org/W4406967954",
+      "doi": "10.1093/ageing/afae277.096",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "2671 A description of a patient navigator program for persons living with dementia in Canada"
+    },
+    "Jeh25": {
+      "oid": "https://openalex.org/W4414345445",
+      "doi": "10.1080/17582024.2025.2562772",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 30,
+      "title": "Trends in mortality in elderly patients with Alzheimer's dementia and aspiration pneumonitis in the United States."
+    },
+    "Jen25": {
+      "oid": "https://openalex.org/W7118104482",
+      "doi": "10.1093/geroni/igaf122.2221",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Designing a Palliative Care Pathway for Enhanced Dementia Care"
+    },
+    "Jen25b": {
+      "oid": "https://openalex.org/W4409517266",
+      "doi": "10.1002/alz.70154",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 57,
+      "title": "Improving quality measurement for dementia care"
+    },
+    "Jes26": {
+      "oid": "https://openalex.org/W7162521783",
+      "doi": "10.1016/j.tjpad.2026.100605",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 14,
+      "title": "Efficacy and safety of donanemab in the European eligible population: TRAILBLAZER-ALZ 2 post-hoc analyses"
+    },
+    "Ji25": {
+      "oid": "https://openalex.org/W4410029183",
+      "doi": "10.1038/s41380-025-03041-w",
+      "year": 2025,
+      "oa_cited_by": 33,
+      "csv_cited_by": 27,
+      "n_refs": 137,
+      "title": "Alzheimer\u2019s disease patient brain extracts induce multiple pathologies in novel vascularized neuroimmune organoids for d"
+    },
+    "Jia26e": {
+      "oid": "https://openalex.org/W7127147029",
+      "doi": "10.1007/s11427-025-2991-7",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 487,
+      "title": "Advances in Alzheimer's disease: mechanistic insights and therapeutic targets."
+    },
+    "Joh25": {
+      "oid": "https://openalex.org/W7116908933",
+      "doi": "10.1002/alz70855_097892",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Developing a transcriptomic atlas of Alzheimer's Disease progression in the Tg2576 mouse model using single\u2010cell RNA\u2010seq"
+    },
+    "Joi25": {
+      "oid": "https://openalex.org/W4416718333",
+      "doi": "10.1002/alz.70997",
+      "year": 2025,
+      "oa_cited_by": 11,
+      "csv_cited_by": 8,
+      "n_refs": 44,
+      "title": "Treatment\u2010related amyloid clearance (TRAC): a framework to characterize patients in the era of anti\u2010amyloid therapies"
+    },
+    "Jun26": {
+      "oid": "https://openalex.org/W7149357832",
+      "doi": "10.21474/ijar01/22982",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "MULTIDOMAIN LIFESTYLE INTERVENTIONS FOR DEMENTIA PREVENTION: FROM MECHANISMS TO CLINICAL IMPLEMENTATION A NARRATIVE REVI"
+    },
+    "Kac25b": {
+      "oid": "https://openalex.org/W4414597377",
+      "doi": "10.48550/arxiv.2509.10453",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 2,
+      "n_refs": 0,
+      "title": "SSL-AD: Spatiotemporal Self-Supervised Learning for Generalizability and Adaptability Across Alzheimer's Prediction Task"
+    },
+    "Kam26": {
+      "oid": "https://openalex.org/W7140113543",
+      "doi": "10.1177/13872877261433198",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 46,
+      "title": "Association between retinal neurodegeneration assessed by optical coherence tomography and PET-detected cerebral amyloid"
+    },
+    "Kar25b": {
+      "oid": "https://openalex.org/W4410622495",
+      "doi": "10.1002/alz.70199",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 5,
+      "n_refs": 67,
+      "title": "Regional variability of the impact of cardiometabolic diseases on incident dementia in United States Medicare beneficiar"
+    },
+    "Kar25c": {
+      "oid": "https://openalex.org/W4407851922",
+      "doi": "10.1002/alz.14600",
+      "year": 2025,
+      "oa_cited_by": 25,
+      "csv_cited_by": 24,
+      "n_refs": 66,
+      "title": "Machine learning prediction of tau\u2010PET in Alzheimer's disease using plasma, MRI, and clinical data"
+    },
+    "Kar26": {
+      "oid": "https://openalex.org/W7160551948",
+      "doi": "10.64898/2026.05.06.26352540",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Generating synthetic tau-PET scans in Alzheimer\u2019s disease from MRI, blood biomarkers and demographics with deep learning"
+    },
+    "Kas25": {
+      "oid": "https://openalex.org/W4406805438",
+      "doi": "10.3390/biomedicines13020283",
+      "year": 2025,
+      "oa_cited_by": 15,
+      "csv_cited_by": 16,
+      "n_refs": 107,
+      "title": "Non-Invasive Retinal Biomarkers for Early Diagnosis of Alzheimer\u2019s Disease"
+    },
+    "Kav26": {
+      "oid": "https://openalex.org/W7155051677",
+      "doi": "10.64898/2026.04.20.719763",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Seeding patient-derived tau induces tauopathy-specific aggregation and lysosomal disruption in human cells"
+    },
+    "Ken25b": {
+      "oid": "https://openalex.org/W7118087262",
+      "doi": "10.1093/geroni/igaf122.2225",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Person-Centered Care Reduces Psychotropic Medication Usage in Randomized, Controlled, Alzheimer\u2019s Trial"
+    },
+    "Kes25": {
+      "oid": "https://openalex.org/W7130508546",
+      "doi": "10.1002/alz.71147",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 41,
+      "title": "The Alzheimer's Disease Diagnosis and Plasma Phospho\u2010Tau217 (ADAPT) study stage 1: Validating clinical cut\u2010points agains"
+    },
+    "Kes25b": {
+      "oid": "https://openalex.org/W4413150345",
+      "doi": "10.1016/s1474-4422(25)00274-1",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 1,
+      "n_refs": 9,
+      "title": "Plasma phosphorylated tau for Alzheimer's disease diagnosis."
+    },
+    "Kha25": {
+      "oid": "https://openalex.org/W4406079164",
+      "doi": "10.1101/2025.01.04.25319996",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 17,
+      "title": "Enhancing the Diagnostic Accuracy of Amyloid PET: The Impact of MR-Guided PET Reconstruction"
+    },
+    "Kha25b": {
+      "oid": "https://openalex.org/W4413212912",
+      "doi": "10.1109/trpms.2025.3597845",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 2,
+      "n_refs": 0,
+      "title": "Enhancing the Diagnostic Accuracy of Amyloid PET: The Impact of MR-Guided PET Reconstruction"
+    },
+    "Kha25c": {
+      "oid": "https://openalex.org/W4408697811",
+      "doi": "10.1109/trpms.2025.3553409",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 0,
+      "title": "A Novel Method in PET Image Reconstruction Using MRI Anatomical Priors"
+    },
+    "Kha25d": {
+      "oid": "https://openalex.org/W7117303336",
+      "doi": "10.3390/tomography12010004",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 49,
+      "title": "Detection and Classification of Alzheimer\u2019s Disease Using Deep and Machine Learning"
+    },
+    "Kha26": {
+      "oid": "https://openalex.org/W7156164541",
+      "doi": "10.1016/j.cca.2026.121046",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 95,
+      "title": "Bridging the gaps in Alzheimer's disease biomarker research: From multi-omics integration to point-of-care diagnostics, "
+    },
+    "Kha26b": {
+      "oid": "https://openalex.org/W7163573544",
+      "doi": "10.3390/biomedicines14061280",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 17,
+      "title": "APOE \u03b54 Allele Dose and Time to Clinical Conversion from Mild Cognitive Impairment to Alzheimer\u2019s Disease Dementia: An A"
+    },
+    "Khe25": {
+      "oid": "https://openalex.org/W4416096183",
+      "doi": "10.3389/fnmol.2025.1665802",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 3,
+      "n_refs": 201,
+      "title": "The transcriptional and cellular landscape of cognitive resilience to Alzheimer\u2019s disease"
+    },
+    "Kho25": {
+      "oid": "https://openalex.org/W4408155937",
+      "doi": "10.3390/diagnostics15050612",
+      "year": 2025,
+      "oa_cited_by": 51,
+      "csv_cited_by": 49,
+      "n_refs": 164,
+      "title": "Explainable Artificial Intelligence in Neuroimaging of Alzheimer\u2019s Disease"
+    },
+    "Kia26": {
+      "oid": "https://openalex.org/W7125772933",
+      "doi": "10.1186/s12877-026-07031-7",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 57,
+      "title": "Alzheimer\u2019s disease and related dementias in rural medicare populations: a scoping review"
+    },
+    "Kim26": {
+      "oid": "https://openalex.org/W7143418421",
+      "doi": "10.1186/s13195-026-02013-8",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 113,
+      "title": "AI-enabled digital phenotyping for Alzheimer\u2019s disease: a review of multimodal sensor integration and symptom trajectori"
+    },
+    "Kim26d": {
+      "oid": "https://openalex.org/W7138870200",
+      "doi": "10.1111/jcmm.71074",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 43,
+      "title": "Apolipoprotein E Deficiency Impairs Human Microglial Proliferation Accompanied by Elevated Cellular Oxidative Stress"
+    },
+    "Kli25": {
+      "oid": "https://openalex.org/W7118097514",
+      "doi": "10.1093/geroni/igaf122.992",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Caregiver-Reported Barriers and Facilitators to Deprescribing in Older Adults With Dementia: A Systematic Review"
+    },
+    "Kne25": {
+      "oid": "https://openalex.org/W7118069771",
+      "doi": "10.1093/geroni/igaf122.608",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Embedding Dementia Care Navigation into Primary Care"
+    },
+    "Koh25b": {
+      "oid": "https://openalex.org/W4412585953",
+      "doi": "10.1080/13607863.2025.2534406",
+      "year": 2025,
+      "oa_cited_by": 9,
+      "csv_cited_by": 5,
+      "n_refs": 103,
+      "title": "What are the unmet needs in people affected by dementia? A scoping review of reviews"
+    },
+    "Kom25": {
+      "oid": "https://openalex.org/W4406119566",
+      "doi": "10.1007/s10787-024-01636-3",
+      "year": 2025,
+      "oa_cited_by": 8,
+      "csv_cited_by": 6,
+      "n_refs": 130,
+      "title": "Advancements in nose-to-brain drug targeting for Alzheimer\u2019s disease: a review of nanocarriers and clinical insights"
+    },
+    "Kon25": {
+      "oid": "https://openalex.org/W4410141906",
+      "doi": "10.1101/2025.05.01.651759",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 0,
+      "title": "Spatial profiling of chromatin accessibility reveals alteration of glial cells in Alzheimer\u2019s disease mouse brain"
+    },
+    "Kon26": {
+      "oid": "https://openalex.org/W7161631802",
+      "doi": "10.1002/alz.71462",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 46,
+      "title": "Speech\u2010based digital cognitive assessment for clinical trials: Detecting cognitive impairment stages and AD biomarker re"
+    },
+    "Kov25": {
+      "oid": "https://openalex.org/W4407971270",
+      "doi": "10.1016/j.gerinurse.2025.02.007",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 137,
+      "title": "Scoping review of outpatient dementia care programs in the U.S. from 2011-2023."
+    },
+    "Koz25": {
+      "oid": "https://openalex.org/W4414533504",
+      "doi": "10.1093/arclin/acaf084.029",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "A \u2013 5 The long goodbye: anticipatory grief in family members of individuals with Alzheimer's disease"
+    },
+    "Kra25": {
+      "oid": "https://openalex.org/W4413913447",
+      "doi": "10.1177/13872877251372144",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 45,
+      "title": "The role of built and social environments in Alzheimer's disease dementia prevalence in the United States: A machine lea"
+    },
+    "Kum26": {
+      "oid": "https://openalex.org/W7162672065",
+      "doi": "10.5935/jetia.v12i59.3720",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Multimodal Diffusion Model for Synthetic Alzheimer\u2019s Disease Data Generation Using MRI, PET, and Clinical Biomarkers"
+    },
+    "Kum26c": {
+      "oid": "https://openalex.org/W7162999310",
+      "doi": "10.1016/j.bcp.2026.118107",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 127,
+      "title": "From capillaries to cognition: decoding neurovascular unit dysfunction and cerebrovascular contributions in Alzheimer's "
+    },
+    "Kum26d": {
+      "oid": "https://openalex.org/W4415532073",
+      "doi": "10.1016/j.arr.2025.102928",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 86,
+      "title": "Three-dimensional human brain organoids: A next-generation model to decode Alzheimer\u2019s disease"
+    },
+    "Kyn26": {
+      "oid": "https://openalex.org/W7148310296",
+      "doi": "10.1159/000550830",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Geographic Variation in ADRD Prevalence and Mortality and Their Association with Social Vulnerability across US Counties"
+    },
+    "Lab26": {
+      "oid": "https://openalex.org/W7125829112",
+      "doi": "10.1002/advs.202514783",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 108,
+      "title": "Autophagy Activators Normalize Aberrant Tau Proteostasis and Rescue Synapses in Human Familial Alzheimer's Disease iPSC\u2010"
+    },
+    "Lao25": {
+      "oid": "https://openalex.org/W4415370569",
+      "doi": "10.1101/2025.10.17.683150",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 89,
+      "title": "Transcriptomic and protein analysis of human cortex reveals genes and pathways linked to NPTX2 disruption in Alzheimer\u2019s"
+    },
+    "Lau25": {
+      "oid": "https://openalex.org/W4414740804",
+      "doi": "10.1093/clinchem/hvaf086.651",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "B-264 Clinical validation of a plasma-based p-Tau217 immunoassay"
+    },
+    "Lau25b": {
+      "oid": "https://openalex.org/W4416213089",
+      "doi": "10.1093/geront/gnaf248",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 31,
+      "title": "Design, implementation, and pilot testing of electronic health record deprescribing tools for persons living with dement"
+    },
+    "Le26": {
+      "oid": "https://openalex.org/W7161820850",
+      "doi": "10.1109/isbi61048.2026.11515499",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 20,
+      "title": "Predicting Longitudinal Brain Change from Baseline 3D MRI and Detecting Abnormal Atrophy Using Deep Learning"
+    },
+    "Lee25": {
+      "oid": "https://openalex.org/W4406698197",
+      "doi": "10.3390/cells14030168",
+      "year": 2025,
+      "oa_cited_by": 30,
+      "csv_cited_by": 24,
+      "n_refs": 299,
+      "title": "Modulating Neuroinflammation as a Prospective Therapeutic Target in Alzheimer\u2019s Disease"
+    },
+    "Lee25b": {
+      "oid": "https://openalex.org/W4417470519",
+      "doi": "10.1109/nss/mic/rtsd57106.2025.11287264",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Denoising Low-Dose 18F-FBB PET Using Flow Matching with Multimodal Prior Guidance"
+    },
+    "Lee26": {
+      "oid": "https://openalex.org/W7161821636",
+      "doi": "10.1016/j.neuint.2026.106188",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 34,
+      "title": "Paeonol ameliorates scopolamine- and \u03b2-amyloid 1-42 oligomer-induced cognitive impairments through modulation of the TGR"
+    },
+    "Ler25": {
+      "oid": "https://openalex.org/W4417043214",
+      "doi": "10.1093/ageing/afaf318.015",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Developing An Integrated Care Pathway (ICP) For Lewy Body Dementia In Ireland"
+    },
+    "Li25": {
+      "oid": "https://openalex.org/W4414342256",
+      "doi": "10.1039/d5pm00148j",
+      "year": 2025,
+      "oa_cited_by": 11,
+      "csv_cited_by": 9,
+      "n_refs": 204,
+      "title": "Brain-targeted intranasal delivery of biologics: a perspective for Alzheimer\u2019s disease treatment"
+    },
+    "Li25c": {
+      "oid": "https://openalex.org/W4415882125",
+      "doi": "10.48550/arxiv.2510.15556",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Diffusion Bridge Networks Simulate Clinical-grade PET from MRI for Dementia Diagnostics"
+    },
+    "Li25e": {
+      "oid": "https://openalex.org/W4415396991",
+      "doi": "10.1002/alz.70803",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 184,
+      "title": "Entwined processes in Alzheimer's disease: Brain cellular senescence and Alzheimer's disease pathology"
+    },
+    "Li25f": {
+      "oid": "https://openalex.org/W4413108122",
+      "doi": "10.1111/acel.70189",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 58,
+      "title": "Microglial States Are Susceptible to Senescence and Cholesterol Dysregulation in Alzheimer's Disease"
+    },
+    "Li25i": {
+      "oid": "https://openalex.org/W4416981668",
+      "doi": "10.1007/s11064-025-04623-4",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 136,
+      "title": "Targeting Liquid-Liquid Phase Separation and Autophagy in Alzheimer\u2019s Disease: Insights into Molecular Mechanisms and Th"
+    },
+    "Li26": {
+      "oid": "https://openalex.org/W7125193484",
+      "doi": "10.1007/s00429-026-03072-1",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 39,
+      "title": "The pineal gland in ageing and alzheimer\u2019s disease: age-related molecular changes"
+    },
+    "Li26c": {
+      "oid": "https://openalex.org/W7125195888",
+      "doi": "10.1002/alz.71065",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 40,
+      "title": "Midlife and late\u2010life population attributable fractions of risk factors for dementia in the United States: The Dementia "
+    },
+    "Li26h": {
+      "oid": "https://openalex.org/W7161387877",
+      "doi": "10.64898/2026.05.15.725551",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 118,
+      "title": "Dissecting Alzheimer\u2019s disease heterogeneity by cross-trait polygenic prediction"
+    },
+    "Li26i": {
+      "oid": "https://openalex.org/W7154628890",
+      "doi": "10.1007/s12035-026-05851-7",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 56,
+      "title": "CDGSH Iron Sulfur Domain 1 Relieves Neuronal Ferroptosis via Activating AMPK Pathway in Alzheimer's Disease."
+    },
+    "Lin25": {
+      "oid": "https://openalex.org/W7117479723",
+      "doi": "10.1002/alz.71029",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 51,
+      "title": "A vision\u2013language foundation model for Alzheimer's disease diagnosis using MRI and clinical data"
+    },
+    "Lin26": {
+      "oid": "https://openalex.org/W7140026511",
+      "doi": "10.1002/alz.71282",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 35,
+      "title": "Population and single\u2010cell analyses reveal immune cell\u2010specific expression profiles associated with Alzheimer's disease "
+    },
+    "Lit25": {
+      "oid": "https://openalex.org/W4417410217",
+      "doi": "10.48550/arxiv.2509.03141",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Temporally-Aware Diffusion Model for Brain Progression Modelling with Bidirectional Temporal Regularisation"
+    },
+    "Lit26": {
+      "oid": "https://openalex.org/W7154854883",
+      "doi": "10.1016/j.inpsyc.2026.100209",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "Treatment patterns of agitation associated with Alzheimer's dementia (AAD) patients in Canada."
+    },
+    "Liu25": {
+      "oid": "https://openalex.org/W4413021074",
+      "doi": "10.1016/j.celbio.2025.100158",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 4,
+      "n_refs": 77,
+      "title": "Ceria-nanocluster based therapy for Alzheimer's disease through the modulation of activated microglia and attenuation of"
+    },
+    "Liu25d": {
+      "oid": "https://openalex.org/W7117313712",
+      "doi": "10.1016/j.lana.2025.101346",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 49,
+      "title": "Sex differences in the association of vascular risk and APOE Genotype with cognitive decline and dementia: evidence from"
+    },
+    "Liu25h": {
+      "oid": "https://openalex.org/W4409169729",
+      "doi": "10.1186/s12889-025-22378-z",
+      "year": 2025,
+      "oa_cited_by": 51,
+      "csv_cited_by": 49,
+      "n_refs": 39,
+      "title": "Global burden of Alzheimer\u2019s disease and other dementias in adults aged 65 years and over, and health inequality related"
+    },
+    "Liu25i": {
+      "oid": "https://openalex.org/W4412826966",
+      "doi": "10.1016/j.cell.2025.06.031",
+      "year": 2025,
+      "oa_cited_by": 38,
+      "csv_cited_by": 32,
+      "n_refs": 195,
+      "title": "Single-cell multiregion epigenomic rewiring in Alzheimer\u2019s disease progression and cognitive resilience"
+    },
+    "Liu25k": {
+      "oid": "https://openalex.org/W4414533307",
+      "doi": "10.1002/alz.70488",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 15,
+      "title": "Longitudinal methods for Alzheimer's cognitive status prediction with deep learning"
+    },
+    "Liu25l": {
+      "oid": "https://openalex.org/W4417439455",
+      "doi": "10.1126/sciadv.adw4917",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 3,
+      "n_refs": 97,
+      "title": "Single-nucleus multiomics reveals the disrupted regulatory programs in three brain regions of sporadic early-onset Alzhe"
+    },
+    "Liu26": {
+      "oid": "https://openalex.org/W7125812630",
+      "doi": "10.3389/fnagi.2026.1744279",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 43,
+      "title": "Feasibility randomized controlled trial of a home-based support program for family caregivers of people with Alzheimer\u2019s"
+    },
+    "Liu26b": {
+      "oid": "https://openalex.org/W7125944864",
+      "doi": "10.3389/fnagi.2025.1683158",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 35,
+      "title": "Trends and cross-country inequalities in the global burden of Alzheimer\u2019s disease and other dementias among adults aged "
+    },
+    "Liu26c": {
+      "oid": "https://openalex.org/W7154509143",
+      "doi": "10.3389/fimmu.2026.1798288",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 122,
+      "title": "The complement system in Alzheimer\u2019s disease: mechanisms, biomarkers, and therapeutic implications"
+    },
+    "Liu26d": {
+      "oid": "https://openalex.org/W7154454702",
+      "doi": "10.1177/13872877261439948",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 37,
+      "title": "Global burden, trends, and projections of Alzheimer's disease and other dementias attributable to high body mass index f"
+    },
+    "Liu26f": {
+      "oid": "https://openalex.org/W7139978124",
+      "doi": "10.1038/s41380-026-03529-z",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 61,
+      "title": "Comprehensive single-cell transcriptomic atlas of microglia in Alzheimer\u2019s disease mouse models"
+    },
+    "Liu26g": {
+      "oid": "https://openalex.org/W7164170854",
+      "doi": "10.1186/s13024-026-00962-0",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Meningeal lymphatic dysfunction in Alzheimer's disease: molecular mechanisms, clinical implications, and future perspect"
+    },
+    "Lop26": {
+      "oid": "https://openalex.org/W7124909755",
+      "doi": "10.3390/epidemiologia7010014",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 30,
+      "title": "Trends and Determinants of Dementia-Related Mortality in Mexico, 2017\u20132023"
+    },
+    "Lou26": {
+      "oid": "https://openalex.org/W7153162702",
+      "doi": "10.1002/trc2.70232",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 20,
+      "title": "The I\u2010Learn Cognition and Behavior program for non\u2010pharmacological treatment of agitation in nursing home residents with"
+    },
+    "Lun25": {
+      "oid": "https://openalex.org/W4410711839",
+      "doi": "10.1136/jnnp-2025-336572",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 4,
+      "title": "Biomarker-based Alzheimer\u2019s diagnosis: learning to use p-tau217 wisely"
+    },
+    "Luq25": {
+      "oid": "https://openalex.org/W4409728356",
+      "doi": "10.1101/2025.04.14.648597",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 0,
+      "n_refs": 72,
+      "title": "Cell type-specific associations with Alzheimer\u2019s Disease conserved across racial and ethnic groups"
+    },
+    "Mac25": {
+      "oid": "https://openalex.org/W4409337229",
+      "doi": "10.5334/ijic.icic24258",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Navigating Dementia Care: An Integrated Program for People with Dementia, Care Partners, and the Care Team"
+    },
+    "Mac25b": {
+      "oid": "https://openalex.org/W4416404284",
+      "doi": "10.1017/s0714980825100342",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 28,
+      "title": "Piloting Patient Navigation for Dementia: A Mixed-Methods Study in Primary Care."
+    },
+    "Mac26": {
+      "oid": "https://openalex.org/W7143490141",
+      "doi": "10.1111/jnc.70416",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 170,
+      "title": "Advances in hiPSC\u2010Derived Brain Organoids as a Model to Study Neuroinflammation in Alzheimer's Disease"
+    },
+    "Mag25": {
+      "oid": "https://openalex.org/W4411981710",
+      "doi": "10.1016/j.stemcr.2025.102570",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 4,
+      "n_refs": 26,
+      "title": "Modeling common Alzheimer\u2019s disease with high and low polygenic risk in human iPSC: A large-scale research resource"
+    },
+    "Mah25": {
+      "oid": "https://openalex.org/W4414121931",
+      "doi": "10.1016/j.bioorg.2025.108949",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 122,
+      "title": "Integrating molecular imaging with near-infrared theranostics to improve early detection and therapy of Alzheimer's dise"
+    },
+    "Maj25": {
+      "oid": "https://openalex.org/W4413469881",
+      "doi": "10.1016/j.bioadv.2025.214474",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 6,
+      "n_refs": 156,
+      "title": "Advanced intranasal peptide delivery systems for improved management of Alzheimer's disease."
+    },
+    "Maj26": {
+      "oid": "https://openalex.org/W7153986181",
+      "doi": "10.1556/1661.2025.00106",
+      "year": 2026,
+      "oa_cited_by": 4,
+      "csv_cited_by": 5,
+      "n_refs": 0,
+      "title": "Global trends in the incidence and prevalence of Alzheimer's disease"
+    },
+    "Mak25": {
+      "oid": "https://openalex.org/W7116880861",
+      "doi": "10.17816/nb690471",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 67,
+      "title": "Ophthalmic imaging and artificial intelligence in early diagnosis of Alzheimer disease"
+    },
+    "Mam25b": {
+      "oid": "https://openalex.org/W4408627945",
+      "doi": "10.1101/2025.03.16.643481",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 79,
+      "title": "Genetic risk implicating endolysosomal network genes correlates with endolysosomal dysfunction across neural cell types "
+    },
+    "Man25b": {
+      "oid": "https://openalex.org/W7124922223",
+      "doi": "10.1109/sci68648.2025.11333833",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 20,
+      "title": "Machine Learning Based Prognosis of Alzheimer\u2019s Disease Using Multimodal Data"
+    },
+    "Man25c": {
+      "oid": "https://openalex.org/W4414340533",
+      "doi": "10.1080/13576275.2025.2561691",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 2,
+      "n_refs": 79,
+      "title": "Pre-death grief among family caregivers of individuals living with cognitive impairment and dementia: a comprehensive re"
+    },
+    "Mar25": {
+      "oid": "https://openalex.org/W4417362310",
+      "doi": "10.4415/ann_25_04_04",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Integrated care pathways for people with dementia in Italy: assessing key elements for quality of care in a nationwide e"
+    },
+    "Mar25c": {
+      "oid": "https://openalex.org/W4415696050",
+      "doi": "10.3390/brainsci15101038",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 3,
+      "n_refs": 54,
+      "title": "Artificial Intelligence in PET Imaging for Alzheimer\u2019s Disease: A Narrative Review"
+    },
+    "Mar26": {
+      "oid": "https://openalex.org/W7160320309",
+      "doi": "10.1515/cclm-2026-0395",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 41,
+      "title": "Analytical agreement and platform-specific decision thresholds for plasma p-tau217 measured on Lumipulse G600II and Coba"
+    },
+    "Mar26b": {
+      "oid": "https://openalex.org/W7158071750",
+      "doi": "10.1007/s00259-026-07885-4",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "The Dementias Platform UK PET/MR harmonisation and test-retest study: assessment of PET repeatability and reproducibilit"
+    },
+    "Mar26c": {
+      "oid": "https://openalex.org/W7161320199",
+      "doi": "10.1016/j.eanmi.2026.100273",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 44,
+      "title": "Q Amyloid: an open platform for quantitative A\u03b2 PET imaging"
+    },
+    "Mar26d": {
+      "oid": "https://openalex.org/W7161849991",
+      "doi": "10.1177/25424823261449503",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 96,
+      "title": "Identifying influential environmental drivers of Alzheimer's disease at the county level using machine learning and expl"
+    },
+    "Mar26e": {
+      "oid": "https://openalex.org/W7160164347",
+      "doi": "10.1177/13872877261441774",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 19,
+      "title": "Projected burden of Alzheimer's disease and other dementias in the Western Pacific, 2023-2050."
+    },
+    "Mat26": {
+      "oid": "https://openalex.org/W7134821922",
+      "doi": "10.3390/organoids5010008",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Understanding Alzheimer\u2019s Disease Through Neurodevelopment: Insights from Human Cerebral Organoids"
+    },
+    "Mat26c": {
+      "oid": "https://openalex.org/W7130641938",
+      "doi": "10.1097/wco.0000000000001471",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 33,
+      "title": "Clinical amyloid and tau positron emission tomography imaging in Alzheimer's disease: image interpretation in the era of"
+    },
+    "Mce25": {
+      "oid": "https://openalex.org/W4414075713",
+      "doi": "10.1002/alz.70650",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 48,
+      "title": "Associations between comorbid conditions with mild cognitive impairment and Alzheimer's disease by race\u2010ethnicity and se"
+    },
+    "Mcm25": {
+      "oid": "https://openalex.org/W4407568777",
+      "doi": "10.1117/12.3047135",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 4,
+      "n_refs": 27,
+      "title": "A technical assessment of latent diffusion for Alzheimer\u2019s Disease progression"
+    },
+    "Med26": {
+      "oid": "https://openalex.org/W7151911393",
+      "doi": "10.3389/fneur.2026.1804163",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 6,
+      "title": "From clinical judgment to biology: a clinician's opinion on the use of blood-based biomarkers in Alzheimer's disease"
+    },
+    "Meg26": {
+      "oid": "https://openalex.org/W7161792057",
+      "doi": "10.1007/s00259-026-07911-5",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 44,
+      "title": "The clinical Alzheimer's disease spectrum classified in the A/T/N framework with 18F-Flutemetamol-Centiloid, 18F-MK-6240"
+    },
+    "Meh26": {
+      "oid": "https://openalex.org/W7135057088",
+      "doi": "10.2174/0118746098417839251201152714",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Glymphatic Dysfunction in Alzheimer\u2019s Disease: Mechanisms,\nBiomarkers, and Emerging Therapeutic Perspectives"
+    },
+    "Men26b": {
+      "oid": "https://openalex.org/W7161547259",
+      "doi": "10.1007/s11357-026-02304-w",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 49,
+      "title": "Development of 5-year risk prediction models for incident dementia and mortality in a community-dwelling older Japanese "
+    },
+    "Mil25": {
+      "oid": "https://openalex.org/W4416446439",
+      "doi": "10.1093/jimmun/vkaf283.495",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "An exhausted-like microglial population accumulates in aged and APOE4 genotype Alzheimer\u2019s brains 2593"
+    },
+    "Mil26": {
+      "oid": "https://openalex.org/W7162772194",
+      "doi": "10.1177/13872877261452660",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 39,
+      "title": "Associations between Alzheimer's disease blood biomarkers and neighborhood disadvantage: A HABS-HD community cohort stud"
+    },
+    "Mis26": {
+      "oid": "https://openalex.org/W7164209904",
+      "doi": "10.1007/s11033-026-12108-y",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 66,
+      "title": "Advances in anti-tau therapeutics for alzheimer\u2019s disease: immunotherapy, gene modulation, and combination approaches"
+    },
+    "Mog26": {
+      "oid": "https://openalex.org/W7148305444",
+      "doi": "10.1117/12.3088066",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Predicting Alzheimer\u2019s disease progression using rs\u2011fMRI and a history\u2011aware graph neural network"
+    },
+    "Moh25b": {
+      "oid": "https://openalex.org/W4407747985",
+      "doi": "10.1016/j.nic.2024.12.004",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 4,
+      "n_refs": 85,
+      "title": "Altered Clearance in Alzheimer\u2019s Disease and Cerebral Amyloid Angiopathy"
+    },
+    "Mol25": {
+      "oid": "https://openalex.org/W4412707630",
+      "doi": "10.1016/j.tjpad.2025.100305",
+      "year": 2025,
+      "oa_cited_by": 10,
+      "csv_cited_by": 11,
+      "n_refs": 64,
+      "title": "Systematic review and meta-analysis of rural-urban disparities in Alzheimer\u2019s disease dementia prevalence"
+    },
+    "Mol25b": {
+      "oid": "https://openalex.org/W4409624167",
+      "doi": "10.1177/15333175251335570",
+      "year": 2025,
+      "oa_cited_by": 10,
+      "csv_cited_by": 9,
+      "n_refs": 92,
+      "title": "Alzheimer\u2019s Disease Dementia Prevalence in the United States: A County-Level Spatial Machine Learning Analysis"
+    },
+    "Mon25": {
+      "oid": "https://openalex.org/W4412866989",
+      "doi": "10.33546/bnj.3835",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 2,
+      "n_refs": 17,
+      "title": "Exploring dementia care for community-dwelling older adults in Thailand: A qualitative descriptive study"
+    },
+    "Mor25b": {
+      "oid": "https://openalex.org/W4410196535",
+      "doi": "10.1016/j.compbiomed.2025.110241",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 3,
+      "n_refs": 43,
+      "title": "Longitudinal dementia trajectories for Alzheimer's Disease characterization and prediction"
+    },
+    "Mor26": {
+      "oid": "https://openalex.org/W7162424030",
+      "doi": "10.1007/s00415-026-13874-2",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 52,
+      "title": "Precision pathways: optimising amyloid PET for sustainable Alzheimer\u2019s disease care"
+    },
+    "Mos25b": {
+      "oid": "https://openalex.org/W7116868638",
+      "doi": "10.1002/alz70862_109722",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Alzheimer's Imaging Consortium."
+    },
+    "Mun25": {
+      "oid": "https://openalex.org/W4411531968",
+      "doi": "10.1007/978-3-031-96235-6_11",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 2,
+      "n_refs": 22,
+      "title": "Functional Connectivity Disruptions in Alzheimer's Disease: A Resting-State fMRI Classification Study"
+    },
+    "Mun26": {
+      "oid": "https://openalex.org/W7154252325",
+      "doi": "10.1080/07317115.2026.2659355",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 38,
+      "title": "Caregiver-Targeted Online Multicomponent Intervention and Quality of Life in Alzheimer's Disease: A Randomized Controlle"
+    },
+    "Mur25": {
+      "oid": "https://openalex.org/W4406655543",
+      "doi": "10.3928/19404921-20241211-02",
+      "year": 2025,
+      "oa_cited_by": 13,
+      "csv_cited_by": 13,
+      "n_refs": 51,
+      "title": "Comprehensive Dementia Care Models"
+    },
+    "Mur26": {
+      "oid": "https://openalex.org/W7149259132",
+      "doi": "10.64898/2026.04.03.715591",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Single-Nuclei Transcriptomic Characterization of APOE4-Associated Alzheimer\u2019s Disease"
+    },
+    "Nad25": {
+      "oid": "https://openalex.org/W4410252363",
+      "doi": "10.70389/pjn.100007",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 62,
+      "title": "Gut Dysbiosis in Alzheimer\u2019s Disease Pathogenesis and Therapeutic Implications"
+    },
+    "Nai26": {
+      "oid": "https://openalex.org/W7162957545",
+      "doi": "10.1080/13803395.2026.2681010",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 58,
+      "title": "Blood-based biomarkers and the current landscape of Alzheimer's disease diagnosis: ethical considerations and practical "
+    },
+    "Nan25": {
+      "oid": "https://openalex.org/W7151555538",
+      "doi": "10.1109/icosec67334.2025.11459733",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 12,
+      "title": "A Novel Transformer-CNN Hybrid Framework for Early Alzheimer\u2019s Diagnosis using Multimodal MRI and PET"
+    },
+    "Nas25": {
+      "oid": "https://openalex.org/W4415791851",
+      "doi": "10.1002/trc2.70162",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "Early Alzheimer's disease patient care pathway and health system readiness: A framework for integrated care"
+    },
+    "Nep25": {
+      "oid": "https://openalex.org/W4407436351",
+      "doi": "10.1016/j.bpj.2024.11.2189",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "BPS2025 - Mapping of the molecular architecture of pathological protein deposits in Alzheimer's disease"
+    },
+    "Ni25": {
+      "oid": "https://openalex.org/W4409241909",
+      "doi": "10.1016/j.jamda.2025.105584",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 50,
+      "title": "Effects of Dyadic Psychosocial Education on People Living With Cognitive Impairment and Their Informal Caregivers: A Sys"
+    },
+    "Noh26": {
+      "oid": "https://openalex.org/W7162392195",
+      "doi": "10.3928/19404921-20260518-01",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 36,
+      "title": "Factors Associated With Financial Toxicity Among Family Caregivers of People Living With Dementia in South Korea: A Cros"
+    },
+    "Nua26": {
+      "oid": "https://openalex.org/W7147090535",
+      "doi": "10.1002/hsr2.72229",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 8,
+      "title": "Alzheimer's Disease in Africa: A Scoping Review Protocol"
+    },
+    "Obr25": {
+      "oid": "https://openalex.org/W7116950097",
+      "doi": "10.1002/alz70860_100447",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Building a cognitive screening and assessment pathway for primary care: The experience of one health care system"
+    },
+    "Obr26": {
+      "oid": "https://openalex.org/W7135377830",
+      "doi": "10.1002/trc2.70207",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "Study of the utility and impact of a plasma p\u2010tau181 Alzheimer's biomarker (SUITABLE)"
+    },
+    "Oh25": {
+      "oid": "https://openalex.org/W4412196688",
+      "doi": "10.5483/bmbrep.2025-0077",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 2,
+      "n_refs": 92,
+      "title": "Decoding tau acetylation in Alzheimer\u2019s disease and tauopathies: from site-specific mechanisms to therapeutic horizons"
+    },
+    "Ola25": {
+      "oid": "https://openalex.org/W4413346415",
+      "doi": "10.53771/ijbpsa.2025.10.1.0064",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Spatial transcriptomics in Alzheimer\u2019s disease: Mapping cellular dysregulation in the brain microenvironment"
+    },
+    "Oll26": {
+      "oid": "https://openalex.org/W7148234771",
+      "doi": "10.31435/ijitss.1(49).2026.4885",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 69,
+      "title": "NEW DISEASE-MODIFYING THERAPIES IN ALZHEIMER\u2019S DISEASE: A CLINICAL REVIEW OF LECANEMAB AND DONANEMAB"
+    },
+    "Ols25": {
+      "oid": "https://openalex.org/W4408201841",
+      "doi": "10.1038/s41591-025-03574-1",
+      "year": 2025,
+      "oa_cited_by": 107,
+      "csv_cited_by": 94,
+      "n_refs": 60,
+      "title": "Microglial mechanisms drive amyloid-\u03b2 clearance in immunized patients with Alzheimer\u2019s disease"
+    },
+    "Ori26": {
+      "oid": "https://openalex.org/W7131639514",
+      "doi": "10.1016/j.bbr.2026.116138",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 173,
+      "title": "Modulating Glymphatic Clearance in Alzheimer's Disease: Molecular Mechanisms, Imaging Biomarkers, and Emerging Intervent"
+    },
+    "Pah25": {
+      "oid": "https://openalex.org/W4415945511",
+      "doi": "10.1002/alz.70828",
+      "year": 2025,
+      "oa_cited_by": 14,
+      "csv_cited_by": 9,
+      "n_refs": 47,
+      "title": "Blood\u2010based biomarkers for detecting Alzheimer's disease pathology in cognitively impaired individuals within specialize"
+    },
+    "Pal25": {
+      "oid": "https://openalex.org/W4412721482",
+      "doi": "10.1002/alz.70535",
+      "year": 2025,
+      "oa_cited_by": 111,
+      "csv_cited_by": 95,
+      "n_refs": 76,
+      "title": "Alzheimer's Association Clinical Practice Guideline on the use of blood\u2010based biomarkers in the diagnostic workup of sus"
+    },
+    "Pal25b": {
+      "oid": "https://openalex.org/W4412000956",
+      "doi": "10.1177/13872877251352120",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 41,
+      "title": "Neighborhood deprivation and mortality among people with Alzheimer\u2019s disease and related dementia"
+    },
+    "Pan26": {
+      "oid": "https://openalex.org/W7134049862",
+      "doi": "10.3389/fmolb.2025.1699404",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 35,
+      "title": "miRNA-associated gene networks reveal potential candidate markers for Alzheimer\u2019s disease"
+    },
+    "Pan26b": {
+      "oid": "https://openalex.org/W7162033530",
+      "doi": "10.1002/14651858.cd016358",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 29,
+      "title": "Artificial intelligence for detection and staging of Alzheimer\u2019s disease using retinal images"
+    },
+    "Pap25": {
+      "oid": "https://openalex.org/W4417335690",
+      "doi": "10.1186/s13024-025-00916-y",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 435,
+      "title": "The complement cascade in Alzheimer\u2019s disease: modern implications of an ancient immune protagonist"
+    },
+    "Pat25": {
+      "oid": "https://openalex.org/W4417036000",
+      "doi": "10.1007/s12017-025-08898-2",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 3,
+      "n_refs": 219,
+      "title": "Targeting Microglial Activation to Modulate Neuroinflammation in Alzheimer\u2019s Disease"
+    },
+    "Pat25b": {
+      "oid": "https://openalex.org/W4415028605",
+      "doi": "10.1007/s41314-025-00071-8",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 22,
+      "title": "Enhancing Alzheimer's Disease Classification using Transformer based Neuroimaging Technique"
+    },
+    "Per25": {
+      "oid": "https://openalex.org/W4415779905",
+      "doi": "10.1002/dad2.70207",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 2,
+      "n_refs": 16,
+      "title": "How can Alzheimer's disease blood\u2010based biomarkers reach clinical practice?"
+    },
+    "Pes26": {
+      "oid": "https://openalex.org/W7147657933",
+      "doi": "10.1016/j.tips.2026.02.009",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 111,
+      "title": "Programmable CAR immunotherapies for neurodegenerative proteinopathies."
+    },
+    "Pet25": {
+      "oid": "https://openalex.org/W7117150723",
+      "doi": "10.1002/alz70855_104516",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Adult global deletion of C1q reduces reactive astrocytes and rescues synaptic loss independently of amyloid phagocytosis"
+    },
+    "Pha26": {
+      "oid": "https://openalex.org/W7130513586",
+      "doi": "10.1007/s00604-026-07871-5",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 56,
+      "title": "Development and human samples validation of a plasma pTau\u2011217 electrochemical sensor for Alzheimer\u2019s detection in Vietna"
+    },
+    "Pha26b": {
+      "oid": "https://openalex.org/W7157941744",
+      "doi": "10.1002/alz.71276",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 0,
+      "title": "System changes to empower primary care in Alzheimer's disease detection and care"
+    },
+    "Pin25": {
+      "oid": "https://openalex.org/W4410514066",
+      "doi": "10.1016/s1474-4422(25)00115-2",
+      "year": 2025,
+      "oa_cited_by": 33,
+      "csv_cited_by": 19,
+      "n_refs": 122,
+      "title": "CSF transport at the brain\u2013meningeal border: effects on neurological health and disease"
+    },
+    "Pin26": {
+      "oid": "https://openalex.org/W7118014182",
+      "doi": "10.3389/fnsyn.2025.1676317",
+      "year": 2026,
+      "oa_cited_by": 3,
+      "csv_cited_by": 4,
+      "n_refs": 230,
+      "title": "Aging and Alzheimer\u2019s: the critical role of mitochondrial dysfunction and synaptic alterations"
+    },
+    "Poc25": {
+      "oid": "https://openalex.org/W4408839420",
+      "doi": "10.1080/13607863.2025.2481978",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 5,
+      "n_refs": 59,
+      "title": "Financial difficulties and well-being among caregivers of persons with severe dementia"
+    },
+    "Por25": {
+      "oid": "https://openalex.org/W4417194642",
+      "doi": "10.1002/alz.70753",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 4,
+      "n_refs": 48,
+      "title": "Validation status of cognitive digital assessments by the FDA BEST framework and context of use in preclinical AD studie"
+    },
+    "Pow25": {
+      "oid": "https://openalex.org/W7116847657",
+      "doi": "10.1002/alz70860_100503",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Introduction of an open\u2010access national\u2010level U.S. dementia surveillance system"
+    },
+    "Pre26": {
+      "oid": "https://openalex.org/W7150729129",
+      "doi": "10.1080/14737175.2026.2653170",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 91,
+      "title": "The value and risks of antidepressant therapy in Alzheimer's disease: a field update and its clinical implications."
+    },
+    "Qad25": {
+      "oid": "https://openalex.org/W4414788463",
+      "doi": "10.1177/13872877251378454",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 21,
+      "title": "Epidemiological and economic burden of dementia in the Middle East and North African region"
+    },
+    "Qi25": {
+      "oid": "https://openalex.org/W4411324838",
+      "doi": "10.1038/s41746-025-01640-z",
+      "year": 2025,
+      "oa_cited_by": 51,
+      "csv_cited_by": 51,
+      "n_refs": 208,
+      "title": "Alzheimer\u2019s disease digital biomarkers multidimensional landscape and AI model scoping review"
+    },
+    "Qin25": {
+      "oid": "https://openalex.org/W4416873078",
+      "doi": "10.1371/journal.pone.0338018",
+      "year": 2025,
+      "oa_cited_by": 10,
+      "csv_cited_by": 6,
+      "n_refs": 29,
+      "title": "Global trends in Alzheimer\u2019s disease and other dementias: A comprehensive analysis of incidence, socio-demographic varia"
+    },
+    "Qiu26": {
+      "oid": "https://openalex.org/W7160987182",
+      "doi": "10.62347/trun6708",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "The divergent effects of population aging: comparative analysis of the burden of Alzheimer's disease and other dementias"
+    },
+    "Rag26": {
+      "oid": "https://openalex.org/W7163318220",
+      "doi": "10.1109/icoei68323.2026.11541674",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 12,
+      "title": "Multimodal Deep Learning for Alzheimer\u2019s Disease Detection using MRI and PET Imaging"
+    },
+    "Rah25": {
+      "oid": "https://openalex.org/W4413400905",
+      "doi": "10.1136/bmjopen-2025-105955",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 43,
+      "title": "Epidemiology and risk factors of Alzheimer\u2019s disease and related dementias in South and Southeast Asia: a systematic rev"
+    },
+    "Rap26": {
+      "oid": "https://openalex.org/W7155220704",
+      "doi": "10.3390/medicina62040796",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 309,
+      "title": "The Impact of Dementia Caregiving on the Health of the Spousal Caregiver"
+    },
+    "Raz25": {
+      "oid": "https://openalex.org/W4410040849",
+      "doi": "10.3389/fninf.2025.1557177",
+      "year": 2025,
+      "oa_cited_by": 46,
+      "csv_cited_by": 42,
+      "n_refs": 185,
+      "title": "Advancements in deep learning for early diagnosis of Alzheimer\u2019s disease using multimodal neuroimaging: challenges and f"
+    },
+    "Ren25": {
+      "oid": "https://openalex.org/W4413396007",
+      "doi": "10.3390/microorganisms13081956",
+      "year": 2025,
+      "oa_cited_by": 11,
+      "csv_cited_by": 9,
+      "n_refs": 167,
+      "title": "Fecal Microbiota Transplantation in Alzheimer\u2019s Disease: Mechanistic Insights Through the Microbiota\u2013Gut\u2013Brain Axis and "
+    },
+    "Ren26": {
+      "oid": "https://openalex.org/W7125430809",
+      "doi": "10.1101/gr.280436.125",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 87,
+      "title": "Cell type\u2013specific gene regulatory atlas prioritizes drug targets and repurposable medicines in Alzheimer's disease"
+    },
+    "Reu25": {
+      "oid": "https://openalex.org/W4406954743",
+      "doi": "10.1001/jama.2024.25056",
+      "year": 2025,
+      "oa_cited_by": 21,
+      "csv_cited_by": 16,
+      "n_refs": 39,
+      "title": "Health System, Community-Based, or Usual Dementia Care for Persons With Dementia and Caregivers: The D-CARE Randomized C"
+    },
+    "Reu26": {
+      "oid": "https://openalex.org/W7139095469",
+      "doi": "10.1111/jgs.70384",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 25,
+      "title": "Rational Use of Blood-Based Biomarkers for Alzheimer's Disease: Navigating Between the Hope and the Hype."
+    },
+    "Rev26": {
+      "oid": "https://openalex.org/W7161013953",
+      "doi": "10.64898/2026.05.12.724612",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 96,
+      "title": "Impaired lipoprotein secretion by APOE4 leads to lysosomal and mitochondrial dysfunction in human microglia"
+    },
+    "Rib25": {
+      "oid": "https://openalex.org/W4415094557",
+      "doi": "10.69849/revistaft/ar10202510122227",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "CUIDADOS PALIATIVOS EM PACIENTES COM DOEN\u00c7A DE ALZHEIMER: UMA REVIS\u00c3O INTEGRATIVA."
+    },
+    "Roa25": {
+      "oid": "https://openalex.org/W4416531289",
+      "doi": "10.1186/s13024-025-00912-2",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 117,
+      "title": "Multidomain therapy for Alzheimer\u2019s disease: a scoping review of cognitive decline trials"
+    },
+    "Roc26": {
+      "oid": "https://openalex.org/W7160381457",
+      "doi": "10.1097/crd.0000000000001287",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 30,
+      "title": "Long-Term Exposure to PM2.5 and Risk of Incident Dementia: A Systematic Review and Meta-Analysis of Cohort Studies."
+    },
+    "Rod25": {
+      "oid": "https://openalex.org/W4405969783",
+      "doi": "10.1101/2024.12.31.630881",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 92,
+      "title": "Cell-type specific profiling of human entorhinal cortex at the onset of Alzheimer\u2019s disease neuropathology"
+    },
+    "Rog25": {
+      "oid": "https://openalex.org/W4412625372",
+      "doi": "10.1016/s2542-5196(25)00118-4",
+      "year": 2025,
+      "oa_cited_by": 33,
+      "csv_cited_by": 20,
+      "n_refs": 136,
+      "title": "Long-term air pollution exposure and incident dementia: a systematic review and meta-analysis."
+    },
+    "Roh26": {
+      "oid": "https://openalex.org/W7127334700",
+      "doi": "10.30773/pi.2025.0400",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 83,
+      "title": "Evolving Alzheimer\u2019s Disease Clinical Practice: Updated Diagnostic Criteria, Fluid Biomarkers, and Special Consideration"
+    },
+    "Sak25": {
+      "oid": "https://openalex.org/W4411436579",
+      "doi": "10.1111/ggi.70088",
+      "year": 2025,
+      "oa_cited_by": 9,
+      "csv_cited_by": 8,
+      "n_refs": 73,
+      "title": "Multidomain interventions for prevention of dementia: Achievements, challenges and future perspectives"
+    },
+    "Sal25": {
+      "oid": "https://openalex.org/W4410510363",
+      "doi": "10.1002/alz.70293",
+      "year": 2025,
+      "oa_cited_by": 24,
+      "csv_cited_by": 17,
+      "n_refs": 21,
+      "title": "TRAILBLAZER\u2010ALZ 4: A phase 3 trial comparing donanemab with aducanumab on amyloid plaque clearance in early, symptomatic"
+    },
+    "Sal25c": {
+      "oid": "https://openalex.org/W4412697394",
+      "doi": "10.1002/jbt.70405",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 4,
+      "n_refs": 165,
+      "title": "Exploring the Endoplasmic Reticulum's Role in Alzheimer's Disease and Its Potential as a Therapeutic Target"
+    },
+    "Sal26": {
+      "oid": "https://openalex.org/W7162405065",
+      "doi": "10.1001/jamaneurol.2026.1405",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 46,
+      "title": "Plasma eMTBR-tau243 and %p-tau217 for Biological Staging of Alzheimer Disease"
+    },
+    "Sal26b": {
+      "oid": "https://openalex.org/W7162071788",
+      "doi": "10.34133/csbj.0134",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 87,
+      "title": "Integrated Multi-Tissue Transcriptomics Reveals Antagonistic Pleiotropy in Aging and Alzheimer\u2019s Disease"
+    },
+    "San26": {
+      "oid": "https://openalex.org/W7161592252",
+      "doi": "10.1038/s41593-026-02267-3",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 72,
+      "title": "Spatial proteomic analysis in human Alzheimer's disease brains enables identification of microenvironment-dependent micr"
+    },
+    "Sau26": {
+      "oid": "https://openalex.org/W7134012583",
+      "doi": "10.1016/j.cpblue.2026.100003",
+      "year": 2026,
+      "oa_cited_by": 7,
+      "csv_cited_by": 4,
+      "n_refs": 126,
+      "title": "Tanycytic degeneration impairs tau clearance and contributes to Alzheimer\u2019s disease pathology"
+    },
+    "Sav25": {
+      "oid": "https://openalex.org/W4413177283",
+      "doi": "10.3389/fpubh.2025.1620744",
+      "year": 2025,
+      "oa_cited_by": 5,
+      "csv_cited_by": 5,
+      "n_refs": 26,
+      "title": "Gender differences in spousal caregiver strain and paid service use among dementia caregivers in rural Appalachia"
+    },
+    "Seg26": {
+      "oid": "https://openalex.org/W7126245382",
+      "doi": "10.1016/j.fmc.2025.08.001",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 38,
+      "title": "Avances en el tratamiento de la enfermedad de Alzheimer"
+    },
+    "Sha25b": {
+      "oid": "https://openalex.org/W4416451645",
+      "doi": "10.1016/j.brainres.2025.150047",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 398,
+      "title": "Next-generation neurotherapeutics: mechanistic insights on monoclonal antibodies in Alzheimer's disease."
+    },
+    "Sha25d": {
+      "oid": "https://openalex.org/W4414823276",
+      "doi": "10.1016/j.aggp.2025.100214",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 29,
+      "title": "Urban\u2013Rural Disparities in Dementia-Related Mortality Among Older Adults in the U.S. from 1999\u20132020"
+    },
+    "Sha25e": {
+      "oid": "https://openalex.org/W7162007160",
+      "doi": "10.1109/iccta68914.2025.11519825",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 25,
+      "title": "Time-Variant Transformer for Predicting Alzheimer's Disease Progression from Longitudinal Data"
+    },
+    "Sha26": {
+      "oid": "https://openalex.org/W7160536671",
+      "doi": "10.1016/j.arr.2026.103168",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 263,
+      "title": "The mitochondria-synapse axis in Alzheimer's disease: Lost coordination in early stages."
+    },
+    "She25": {
+      "oid": "https://openalex.org/W4411606196",
+      "doi": "10.1148/radiol.251704",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 9,
+      "title": "Imaging the Treatment of Alzheimer Disease: 2030 Could Look Very Different."
+    },
+    "She25b": {
+      "oid": "https://openalex.org/W7119464676",
+      "doi": "10.1002/alz70856_107368",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Passive Smartphone Sensing Reveals Gait and Typing Biomarkers of Cognitive Impairment"
+    },
+    "She25d": {
+      "oid": "https://openalex.org/W4415569097",
+      "doi": "10.3390/diagnostics15212709",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 4,
+      "n_refs": 55,
+      "title": "Lightweight Deep Learning Models with Explainable AI for Early Alzheimer\u2019s Detection from Standard MRI Scans"
+    },
+    "She26": {
+      "oid": "https://openalex.org/W7125640179",
+      "doi": "10.1002/alz.71122",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 48,
+      "title": "Astrocyte\u2013vascular interplay in Alzheimer's disease pathology: Novel insights into stage\u2010specific biomarkers and therape"
+    },
+    "Shi25": {
+      "oid": "https://openalex.org/W4416998842",
+      "doi": "10.1016/j.arr.2025.102981",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 4,
+      "n_refs": 31,
+      "title": "Influence of patient characteristics on efficacy and safety of anti-amyloid monoclonal antibodies in Alzheimer's disease"
+    },
+    "Shi25d": {
+      "oid": "https://openalex.org/W4416203181",
+      "doi": "10.1126/sciadv.ads7973",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 104,
+      "title": "Single-nucleus multi-omics identifies shared and distinct pathways in Pick\u2019s and Alzheimer\u2019s disease"
+    },
+    "Shr25": {
+      "oid": "https://openalex.org/W4416810641",
+      "doi": "10.4103/ijnpnd.ijnpnd_118_25",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 25,
+      "title": "Strengthening Dementia-Friendly Communities for Improving the Quality of Life and Social Inclusion of Individuals with A"
+    },
+    "Sim26": {
+      "oid": "https://openalex.org/W4403088732",
+      "doi": "10.1007/978-3-031-72086-4_48",
+      "year": 2024,
+      "oa_cited_by": 5,
+      "csv_cited_by": 6,
+      "n_refs": 19,
+      "title": "Multi-modal Graph Neural Network with Transformer-Guided Adaptive Diffusion for Preclinical Alzheimer Classification"
+    },
+    "Sin26": {
+      "oid": "https://openalex.org/W7164008455",
+      "doi": "10.64229/cztyf245",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Nose-to-Brain Drug Delivery Strategies for Alzheimer\u2019s Disease: Advancing Therapeutic Efficacy and Patient Outcomes"
+    },
+    "Sir25": {
+      "oid": "https://openalex.org/W4406877143",
+      "doi": "10.1177/13872877251314144",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 50,
+      "title": "Survival disparities among Alzheimer's disease patients in Hawaii"
+    },
+    "Sky26": {
+      "oid": "https://openalex.org/W7128526974",
+      "doi": "10.2967/jnmt.125.271835",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 64,
+      "title": "PET Imaging in Alzheimer Disease in the Era of Antiamyloid Therapy in the United States: Clinical Utility, Quantificatio"
+    },
+    "Smi25": {
+      "oid": "https://openalex.org/W4410955094",
+      "doi": "10.1001/jamaneurol.2025.1495",
+      "year": 2025,
+      "oa_cited_by": 38,
+      "csv_cited_by": 33,
+      "n_refs": 60,
+      "title": "Contribution of Modifiable Midlife and Late-Life Vascular Risk Factors to Incident Dementia."
+    },
+    "Smi25b": {
+      "oid": "https://openalex.org/W4415308833",
+      "doi": "10.1177/13872877251386439",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 49,
+      "title": "Summary population attributable fraction of dementia prevalence associated with sensory risk factors"
+    },
+    "Sni25": {
+      "oid": "https://openalex.org/W4411501157",
+      "doi": "10.1002/trc2.70094",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 51,
+      "title": "System readiness and the patient care pathway for Alzheimer's disease diagnosis and treatment"
+    },
+    "Sol25b": {
+      "oid": "https://openalex.org/W4414711398",
+      "doi": "10.1002/alz.70732",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 34,
+      "title": "Calibration of multisite raters for prospective visual reads of amyloid PET scans"
+    },
+    "Sol26": {
+      "oid": "https://openalex.org/W7134139839",
+      "doi": "10.1016/j.tjpad.2026.100512",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 7,
+      "title": "Long-term treatment of early Alzheimer\u2019s disease with donanemab"
+    },
+    "Son25": {
+      "oid": "https://openalex.org/W4414586485",
+      "doi": "10.1186/s40035-025-00511-7",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 219,
+      "title": "The medial septum-hippocampus-lateral septum circuitry in spatial memory: linking healthy function to early Alzheimer\u2019s "
+    },
+    "Son26b": {
+      "oid": "https://openalex.org/W7160411301",
+      "doi": "10.1016/j.clinph.2026.2111917",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 80,
+      "title": "Combining EEG, event-related potentials, and MRI biomarkers for detection of mild cognitive impairment: A machine learni"
+    },
+    "Sor25": {
+      "oid": "https://openalex.org/W4408275562",
+      "doi": "10.1186/s12877-025-05805-z",
+      "year": 2025,
+      "oa_cited_by": 22,
+      "csv_cited_by": 16,
+      "n_refs": 120,
+      "title": "Barriers for access and utilization of dementia care services in Europe: a systematic review"
+    },
+    "Spr25": {
+      "oid": "https://openalex.org/W4413048371",
+      "doi": "10.1016/j.jlr.2025.100872",
+      "year": 2025,
+      "oa_cited_by": 17,
+      "csv_cited_by": 15,
+      "n_refs": 179,
+      "title": "Lipid and lipoprotein metabolism in microglia: Alzheimer\u2019s disease mechanisms and interventions"
+    },
+    "Sri26": {
+      "oid": "https://openalex.org/W7162292832",
+      "doi": "10.2174/0115672050433653251208201102",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Mitochondrial Dysfunction in Alzheimer's Disease: Beyond Energy Failure Toward a Pathogenic Nexus."
+    },
+    "Su25": {
+      "oid": "https://openalex.org/W4416426933",
+      "doi": "10.1016/j.arr.2025.102947",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 44,
+      "title": "From Genes to Lifestyle: A Multi-Dimensional Framework for Alzheimer's Disease Prevention and Therapy."
+    },
+    "Sua26": {
+      "oid": "https://openalex.org/W7162679911",
+      "doi": "10.1016/s0140-6736(26)00909-8",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 15,
+      "title": "Blood biomarkers for Alzheimer's disease: from detection to decisions."
+    },
+    "Sun25": {
+      "oid": "https://openalex.org/W4416295050",
+      "doi": "10.1101/2025.11.16.688710",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 22,
+      "title": "Spatial Multi-Omics Workflow and Analytical Guidelines for Alzheimer\u2019s Neuropathology"
+    },
+    "Sun25b": {
+      "oid": "https://openalex.org/W4416642489",
+      "doi": "10.14336/ad.2025.1201",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 4,
+      "n_refs": 0,
+      "title": "Senescence in Aging and Alzheimer's Disease."
+    },
+    "Szu26": {
+      "oid": "https://openalex.org/W7161697554",
+      "doi": "10.64898/2026.05.14.26353149",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 35,
+      "title": "MR-Guided PET Denoising and Resolution Enhancement Improves Visual Interpretation and Preserves Quantitative Behavior Ac"
+    },
+    "Tab25": {
+      "oid": "https://openalex.org/W4411393784",
+      "doi": "10.2490/jjrmc.62.382",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 10,
+      "title": "Rehabilitation for Disabilities of IADL/BADL in Older Adults with Alzheimer's Disease"
+    },
+    "Tan26": {
+      "oid": "https://openalex.org/W7135240674",
+      "doi": "10.1016/j.tjpad.2026.100533",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 4,
+      "title": "Donanemab therapy in Alzheimer's disease with mild cognitive impairment: Convergent amyloid, tau, and plasma biomarker n"
+    },
+    "Tan26c": {
+      "oid": "https://openalex.org/W7160697596",
+      "doi": "10.1177/13872877261446573",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 119,
+      "title": "Early diagnosis of Alzheimer's disease through handwriting analysis and deep learning: A review."
+    },
+    "Tar26": {
+      "oid": "https://openalex.org/W7123034579",
+      "doi": "10.3389/fdgth.2025.1727707",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 57,
+      "title": "Merging multimodal digital biomarkers into \u201cDigital Neuro Fingerprints\u201d for precision neurology in dementias: the promis"
+    },
+    "Tay25": {
+      "oid": "https://openalex.org/W7117120426",
+      "doi": "10.1002/alz70855_103465",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Exploring Alzheimer's Disease Subtype Replicability"
+    },
+    "Ter26": {
+      "oid": "https://openalex.org/W7160950756",
+      "doi": "10.1016/j.arr.2026.103173",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 37,
+      "title": "Plasma p-Tau217 and A\u03b242/40 for identifying amyloid PET positivity in cognitively unimpaired asian individuals: A system"
+    },
+    "The25": {
+      "oid": "https://openalex.org/W4413150283",
+      "doi": "10.1016/s1474-4422(25)00227-3",
+      "year": 2025,
+      "oa_cited_by": 59,
+      "csv_cited_by": 36,
+      "n_refs": 42,
+      "title": "Blood phosphorylated tau for the diagnosis of Alzheimer's disease: a systematic review and meta-analysis."
+    },
+    "The25c": {
+      "oid": "https://openalex.org/W4409787794",
+      "doi": "10.1101/2025.04.23.25326302",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 5,
+      "n_refs": 37,
+      "title": "MRI2PET: Realistic PET Image Synthesis from MRI for Automated Inference of Brain Atrophy and Alzheimer\u2019s"
+    },
+    "Tho25b": {
+      "oid": "https://openalex.org/W7118094119",
+      "doi": "10.1093/geroni/igaf122.674",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Impact of an ADRD caregiver intervention during the Covid-19 pandemic"
+    },
+    "Tia25": {
+      "oid": "https://openalex.org/W4415152961",
+      "doi": "10.1002/ana.78060",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 0,
+      "n_refs": 48,
+      "title": "Prioritizing Modifiable Risk Factors for Dementia Prevention across the Spectrum of Genetic Susceptibility: A Prospectiv"
+    },
+    "Tit26": {
+      "oid": "https://openalex.org/W7132840833",
+      "doi": "10.1186/s13195-026-01996-8",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 49,
+      "title": "Automated high-throughput quantification of plasma p-tau217 and APOE-\u03b54 for Alzheimer\u2019s disease diagnosis and cognitive "
+    },
+    "Tou25": {
+      "oid": "https://openalex.org/W7116937935",
+      "doi": "10.1002/alz70861_108093",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Operational Consideration and Best Practices for Implementation of an Early Alzheimer's Disease Patient Care Pathway"
+    },
+    "Tse25": {
+      "oid": "https://openalex.org/W4412440368",
+      "doi": "10.1101/2025.07.11.664346",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 61,
+      "title": "Scalable human neuronal models of tauopathy producing endogenous seed-competent 4R tau"
+    },
+    "Tso26": {
+      "oid": "https://openalex.org/W7140822970",
+      "doi": "10.1007/s12149-026-02194-0",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 108,
+      "title": "SPECT and PET imaging of Alzheimer\u2019s disease revisited: from biomarkers to artificial intelligence-based prediction"
+    },
+    "Twi25": {
+      "oid": "https://openalex.org/W4411382333",
+      "doi": "10.3390/neurolint17060092",
+      "year": 2025,
+      "oa_cited_by": 27,
+      "csv_cited_by": 24,
+      "n_refs": 109,
+      "title": "Global Diseases Deserve Global Solutions: Alzheimer\u2019s Disease"
+    },
+    "Ull26": {
+      "oid": "https://openalex.org/W7149905099",
+      "doi": "10.3390/jdad3020018",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 91,
+      "title": "Digital Biomarkers for Early Detection of Alzheimer\u2019s Disease: A Comprehensive Review and Bibliometric Analysis"
+    },
+    "Val25": {
+      "oid": "https://openalex.org/W4416551480",
+      "doi": "10.1038/s41467-025-66728-2",
+      "year": 2025,
+      "oa_cited_by": 7,
+      "csv_cited_by": 6,
+      "n_refs": 53,
+      "title": "Blood biomarkers of Alzheimer\u2019s disease and progression across different stages of cognitive decline in the community"
+    },
+    "Vas25": {
+      "oid": "https://openalex.org/W4408667244",
+      "doi": "10.1177/13872877251322978",
+      "year": 2025,
+      "oa_cited_by": 11,
+      "csv_cited_by": 12,
+      "n_refs": 79,
+      "title": "Diagnostic journey and management of patients with mild cognitive impairment and Alzheimer's disease dementia: A multina"
+    },
+    "Vel25": {
+      "oid": "https://openalex.org/W4415978970",
+      "doi": "10.1097/yco.0000000000001053",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 72,
+      "title": "The incidence of dementia in populations around the globe."
+    },
+    "Ven26": {
+      "oid": "https://openalex.org/W7135102405",
+      "doi": "10.1038/s43856-026-01443-7",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 59,
+      "title": "Leveraging electronic health records to examine differential clinical outcomes in people with Alzheimer\u2019s disease"
+    },
+    "Ver26": {
+      "oid": "https://openalex.org/W7140136634",
+      "doi": "10.1177/13872877261430858",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 27,
+      "title": "From autopsy to PET to cerebrospinal fluid to blood: Quantifying reference-standard dependence in Alzheimer's disease am"
+    },
+    "Ver26b": {
+      "oid": "https://openalex.org/W7122705500",
+      "doi": "10.21203/rs.3.rs-8492792/v1",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 24,
+      "title": "Amyloid Probability in Alzheimer Disease From Plasma, Cerebrospinal Fluid, and Amyloid Imaging"
+    },
+    "Vil25": {
+      "oid": "https://openalex.org/W7116994018",
+      "doi": "10.1002/alz70862_110093",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Introducing Q Amyloid: a tool for automated PET\u2010based amyloid\u2010beta quantification"
+    },
+    "Vin26": {
+      "oid": "https://openalex.org/W7125769873",
+      "doi": "10.1177/13872877251411451",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 20,
+      "title": "Comorbidities associated with mild cognitive impairment and Alzheimer's disease in the United States"
+    },
+    "Vis26": {
+      "oid": "https://openalex.org/W7127105310",
+      "doi": "10.1186/s40708-025-00291-w",
+      "year": 2026,
+      "oa_cited_by": 3,
+      "csv_cited_by": 1,
+      "n_refs": 85,
+      "title": "Multimodal fusion and explainability of artificial intelligence models in Alzheimer\u2019s Disease detection"
+    },
+    "Vra25": {
+      "oid": "https://openalex.org/W4416083369",
+      "doi": "10.1177/13872877251392184",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 46,
+      "title": "Behavioral dyadic interventions in the context of Alzheimer's disease and related dementia: A call to action"
+    },
+    "Wal25": {
+      "oid": "https://openalex.org/W4412691512",
+      "doi": "10.1002/alz.70524",
+      "year": 2025,
+      "oa_cited_by": 15,
+      "csv_cited_by": 16,
+      "n_refs": 160,
+      "title": "Social determinants of dementia: A scoping review"
+    },
+    "Wan25": {
+      "oid": "https://openalex.org/W4408097165",
+      "doi": "10.1097/cm9.0000000000003496",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 5,
+      "title": "Alzheimer\u2019s disease diagnosis among dementia patients via blood biomarker measurement based on the AT(N) system"
+    },
+    "Wan25b": {
+      "oid": "https://openalex.org/W4409108734",
+      "doi": "10.1016/j.neuron.2025.03.002",
+      "year": 2025,
+      "oa_cited_by": 21,
+      "csv_cited_by": 16,
+      "n_refs": 108,
+      "title": "Molecular pathways and diagnosis in spatially resolved Alzheimer's hippocampal atlas."
+    },
+    "Wan25c": {
+      "oid": "https://openalex.org/W4406664914",
+      "doi": "10.1159/000543578",
+      "year": 2025,
+      "oa_cited_by": 31,
+      "csv_cited_by": 33,
+      "n_refs": 29,
+      "title": "Global Burden of Alzheimer\u2019s Disease and Other Dementias during 1990\u20132021: A Global Burden of Disease and Risk Factors S"
+    },
+    "Wan26": {
+      "oid": "https://openalex.org/W7163171807",
+      "doi": "10.3390/ijms27115020",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 65,
+      "title": "Multi-Dimensional Transcriptomics Reveals the Prominent Role of Neuroinflammation in Alzheimer\u2019s Disease"
+    },
+    "Wan26b": {
+      "oid": "https://openalex.org/W7133508085",
+      "doi": "10.3389/fnagi.2026.1748418",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 383,
+      "title": "Emerging pathological mechanisms of Alzheimer\u2019s disease pathogenesis: from neuroimmune interactions to intercellular com"
+    },
+    "Wan26h": {
+      "oid": "https://openalex.org/W7155228465",
+      "doi": "10.1186/s40035-026-00548-2",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 168,
+      "title": "Dysfunction of the neurovascular unit as a temporal driver in Alzheimer\u2019s pathogenesis"
+    },
+    "War25": {
+      "oid": "https://openalex.org/W7118069457",
+      "doi": "10.1093/geroni/igaf122.2519",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Community Rates of Alzheimer\u2019s Disease and Related Dementias and Supportive Services in CT, MA, & RI"
+    },
+    "Wat26": {
+      "oid": "https://openalex.org/W7128698058",
+      "doi": "10.1146/annurev-clinpsy-061724-085912",
+      "year": 2026,
+      "oa_cited_by": 2,
+      "csv_cited_by": 1,
+      "n_refs": 121,
+      "title": "Management of Behavioral and Psychological Symptoms of Dementia: Nonpharmacologic and Pharmacologic Interventions."
+    },
+    "Wee25": {
+      "oid": "https://openalex.org/W4413334673",
+      "doi": "10.1186/s13024-025-00878-1",
+      "year": 2025,
+      "oa_cited_by": 8,
+      "csv_cited_by": 7,
+      "n_refs": 123,
+      "title": "Early intervention anti-A\u03b2 immunotherapy attenuates microglial activation without inducing exhaustion at residual plaque"
+    },
+    "Wei25": {
+      "oid": "https://openalex.org/W4409722714",
+      "doi": "10.1177/13872877251330320",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 62,
+      "title": "Glial changes and gene expression in Alzheimer's disease from snRNA-Seq and spatial transcriptomics"
+    },
+    "Wen25": {
+      "oid": "https://openalex.org/W4409762677",
+      "doi": "10.1186/s12974-025-03433-3",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 2,
+      "n_refs": 170,
+      "title": "A 3D human iPSC-derived multi-cell type neurosphere system to model cellular responses to chronic amyloidosis"
+    },
+    "Wen25b": {
+      "oid": "https://openalex.org/W4414282238",
+      "doi": "10.1016/j.ahjo.2025.100618",
+      "year": 2025,
+      "oa_cited_by": 3,
+      "csv_cited_by": 3,
+      "n_refs": 52,
+      "title": "Trends and differences in cardiovascular disease and alzheimer's disease-related mortality among older adults in the Uni"
+    },
+    "Wen25c": {
+      "oid": "https://openalex.org/W7131114151",
+      "doi": "10.1109/iccvw69036.2025.00239",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 1,
+      "n_refs": 29,
+      "title": "Multi-Modal Deep Clustering Survival Machines for Alzheimer\u2019s Disease Subtype Discovery"
+    },
+    "Wen25d": {
+      "oid": "https://openalex.org/W7117326805",
+      "doi": "10.1002/alz70856_103597",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 0,
+      "title": "Spatially resolved transcriptomics/proteomics identifies increased inflammatory response in Alzheimer's disease patients"
+    },
+    "Whi26": {
+      "oid": "https://openalex.org/W7125384811",
+      "doi": "10.1001/jama.2025.26049",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 8,
+      "title": "Blood-Based Biomarkers for Alzheimer Disease"
+    },
+    "Wie26": {
+      "oid": "https://openalex.org/W7163324069",
+      "doi": "10.1177/13872877261456294",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 80,
+      "title": "Connected-speech digital biomarkers for monitoring transcranial pulse stimulation in Alzheimer's disease: A pilot study."
+    },
+    "Wij25": {
+      "oid": "https://openalex.org/W7117150342",
+      "doi": "10.1002/alz70855_104480",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Impaired A\u03b2 Clearance Mechanisms at the Inner Blood\u2010Retina Barrier in Alzheimer's Disease: Insights from Ex Vivo Retinal"
+    },
+    "Wil26": {
+      "oid": "https://openalex.org/W7151455345",
+      "doi": "10.1002/dad2.70323",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 46,
+      "title": "The primary care brain health navigator: A perspective on implementation"
+    },
+    "Woj25": {
+      "oid": "https://openalex.org/W4406001137",
+      "doi": "10.1038/s41467-024-54878-8",
+      "year": 2025,
+      "oa_cited_by": 23,
+      "csv_cited_by": 20,
+      "n_refs": 52,
+      "title": "Immunoassay detection of multiphosphorylated tau proteoforms as cerebrospinal fluid and plasma Alzheimer\u2019s disease bioma"
+    },
+    "Woo25": {
+      "oid": "https://openalex.org/W4414001769",
+      "doi": "10.1101/2025.08.29.673089",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 53,
+      "title": "Spatially Resolved Microglial Expression Around A\u03b2 Plaques in Human Alzheimer\u2019s Disease Tissue"
+    },
+    "Wu25": {
+      "oid": "https://openalex.org/W4410907062",
+      "doi": "10.1097/jcma.0000000000001252",
+      "year": 2025,
+      "oa_cited_by": 41,
+      "csv_cited_by": 29,
+      "n_refs": 59,
+      "title": "A 2025 update on treatment strategies for the Alzheimer\u2019s disease spectrum"
+    },
+    "Wu26": {
+      "oid": "https://openalex.org/W7132827516",
+      "doi": "10.61173/vcqdw178",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Single-cell RNA sequencing decodes celltype- specific pathogenesis in Alzheimer\u2019s disease"
+    },
+    "Wu26b": {
+      "oid": "https://openalex.org/W7126049766",
+      "doi": "10.4103/ant.ant-d-25-00098",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 42,
+      "title": "Behavioral Variant in Alzheimer's Disease."
+    },
+    "Wu26c": {
+      "oid": "https://openalex.org/W7125185461",
+      "doi": "10.1016/j.neuroimage.2026.121746",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 21,
+      "title": "Standardized quantification of [18F]Florbetazine amyloid PET with the Centiloid scale"
+    },
+    "Xia25": {
+      "oid": "https://openalex.org/W7117312600",
+      "doi": "10.1002/alz.71026",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 9,
+      "title": "Blood\u2010based biomarkers for Alzheimer's disease: a milestone guideline paving the way for scalable diagnosis"
+    },
+    "Xia26": {
+      "oid": "https://openalex.org/W7151904613",
+      "doi": "10.1002/dad2.70328",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 21,
+      "title": "A prospective real\u2010world study of the efficacy and safety of aducanumab in China: Focus on early\u2010onset and autosomal dom"
+    },
+    "Xia26b": {
+      "oid": "https://openalex.org/W7126240172",
+      "doi": "10.3389/fnagi.2026.1661370",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 27,
+      "title": "Dynamic trends, spatial clustering, and multi-model projections of the global burden of Alzheimer\u2019s disease and other de"
+    },
+    "Xie25": {
+      "oid": "https://openalex.org/W4415970415",
+      "doi": "10.1177/25424823251395318",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 2,
+      "n_refs": 42,
+      "title": "Rural-urban differences in modifiable dementia risk factors among U.S. populations aged 45 years or older"
+    },
+    "Xin25": {
+      "oid": "https://openalex.org/W4413767312",
+      "doi": "10.1101/2025.08.21.671401",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 38,
+      "title": "ComBat-Predict enhances generalizability of neuroimaging models to new sites"
+    },
+    "Xio25": {
+      "oid": "https://openalex.org/W4416956497",
+      "doi": "10.54254/2753-8818/2026.au30169",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Blood and Digital Biomarkers for Alzheimers Disease in 2025: A Two-Tier ML Triage Workflow from Screening to Confirmatio"
+    },
+    "Xu25": {
+      "oid": "https://openalex.org/W4410708741",
+      "doi": "10.1186/s12939-025-02530-2",
+      "year": 2025,
+      "oa_cited_by": 10,
+      "csv_cited_by": 10,
+      "n_refs": 51,
+      "title": "Epidemiological and sociodemographic transitions in the global burden and risk factors for Alzheimer's disease and other"
+    },
+    "Xu25b": {
+      "oid": "https://openalex.org/W7117253564",
+      "doi": "10.1002/alz70855_107196",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "The Alzheimer's Cell Atlas: A comprehensive brain single\u2010cell transcriptomic atlas using a generative AI foundation mode"
+    },
+    "Xu25d": {
+      "oid": "https://openalex.org/W4410696824",
+      "doi": "10.7189/jogh.15.04156",
+      "year": 2025,
+      "oa_cited_by": 27,
+      "csv_cited_by": 25,
+      "n_refs": 41,
+      "title": "Global incidence trends and projections of Alzheimer disease and other dementias: an age-period-cohort analysis 2021"
+    },
+    "Xu25e": {
+      "oid": "https://openalex.org/W7126111652",
+      "doi": "10.1109/bibm66473.2025.11356202",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 18,
+      "title": "Multi-View Community-Contrastive Graph Attention Network for Fmri-Based Alzheimer's Disease Classification"
+    },
+    "Xu25f": {
+      "oid": "https://openalex.org/W4415390407",
+      "doi": "10.1016/j.psychres.2025.116781",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 69,
+      "title": "The effectiveness of art-based interventions among older adults with dementia: A systematic review and meta-analysis."
+    },
+    "Xu26": {
+      "oid": "https://openalex.org/W7154272668",
+      "doi": "10.4103/nrr.nrr-d-25-00911",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Molecular subtypes of the Alzheimer's disease spectrum: Multimodal biomarker integration, mechanistic validation, and ad"
+    },
+    "Xu26b": {
+      "oid": "https://openalex.org/W7125960009",
+      "doi": "10.1177/13872877261415634",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 36,
+      "title": "Analysis of trends and driving factors in burden of Alzheimer's disease and other dementias from 1990 to 2021 and projec"
+    },
+    "Yan25": {
+      "oid": "https://openalex.org/W4410985762",
+      "doi": "10.1109/jbhi.2025.3576436",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 6,
+      "n_refs": 0,
+      "title": "ADFound: A Foundation Model for Diagnosis and Prognosis of Alzheimer's Disease"
+    },
+    "Yan25b": {
+      "oid": "https://openalex.org/W7116869077",
+      "doi": "10.1002/alz70860_103901",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Alzheimer's Disease and Related Dementia and Related Health Conditions Among American Indian and Alaska Native Medicare "
+    },
+    "Yan26f": {
+      "oid": "https://openalex.org/W7154910745",
+      "doi": "10.1016/j.neurobiolaging.2026.04.005",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 66,
+      "title": "Predicting future cognitive impairment in preclinical Alzheimer's disease using amyloid PET and MRI: A multisite machine"
+    },
+    "Ye26b": {
+      "oid": "https://openalex.org/W7127980654",
+      "doi": "10.1002/alz.71185",
+      "year": 2026,
+      "oa_cited_by": 3,
+      "csv_cited_by": 2,
+      "n_refs": 81,
+      "title": "Spatial heterogeneity in microglia\u2010complement crosstalk: Implications for synaptic pruning in Alzheimer's disease"
+    },
+    "Yeh25": {
+      "oid": "https://openalex.org/W4411256755",
+      "doi": "10.1177/07334648251343330",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 35,
+      "title": "Dementia Care Navigation: The Role and Training of Dementia Care Specialists in Managed Care Organizations"
+    },
+    "Yeo26": {
+      "oid": "https://openalex.org/W7161970125",
+      "doi": "10.1177/14713012261452907",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 52,
+      "title": "Building a Dementia-Ready Workforce in Malaysia: Family Caregivers' Insights."
+    },
+    "Yin25": {
+      "oid": "https://openalex.org/W4412548461",
+      "doi": "10.1177/13872877251360221",
+      "year": 2025,
+      "oa_cited_by": 14,
+      "csv_cited_by": 11,
+      "n_refs": 59,
+      "title": "The global, regional, and national burden and attributable risk factors of Alzheimer's disease and other dementias, 1990"
+    },
+    "You25": {
+      "oid": "https://openalex.org/W4414240569",
+      "doi": "10.3390/diagnostics15182348",
+      "year": 2025,
+      "oa_cited_by": 13,
+      "csv_cited_by": 8,
+      "n_refs": 67,
+      "title": "Data Leakage in Deep Learning for Alzheimer\u2019s Disease Diagnosis: A Scoping Review of Methodological Rigor and Performanc"
+    },
+    "You26": {
+      "oid": "https://openalex.org/W7154619016",
+      "doi": "10.1016/j.tjpad.2026.100568",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 34,
+      "title": "The concurrent burden of Alzheimer\u2019s pathology, cerebral amyloid angiopathy, and microinfarcts on cognitive decline"
+    },
+    "Yu25": {
+      "oid": "https://openalex.org/W4410493608",
+      "doi": "10.1186/s12888-025-06661-2",
+      "year": 2025,
+      "oa_cited_by": 31,
+      "csv_cited_by": 29,
+      "n_refs": 35,
+      "title": "Global mortality, prevalence and disability-adjusted life years of Alzheimer\u2019s disease and other dementias in adults age"
+    },
+    "Yu26": {
+      "oid": "https://openalex.org/W7160769382",
+      "doi": "10.1002/alz.71463",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 39,
+      "title": "Single\u2010cell transcriptomic analysis reveals APOE genotype\u2010dependent sex differences in Alzheimer's disease"
+    },
+    "Yua26": {
+      "oid": "https://openalex.org/W7136910440",
+      "doi": "10.1177/13872877261430764",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 21,
+      "title": "CTAD 2025: Key trends redefining therapeutic and diagnostic strategies in Alzheimer's disease"
+    },
+    "Zam25": {
+      "oid": "https://openalex.org/W4414587671",
+      "doi": "10.48550/arxiv.2505.19954",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 2,
+      "n_refs": 0,
+      "title": "An Explainable Diagnostic Framework for Neurodegenerative Dementias via Reinforcement-Optimized LLM Reasoning"
+    },
+    "Zar26": {
+      "oid": "https://openalex.org/W7154466505",
+      "doi": "10.1002/brb3.71374",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 53,
+      "title": "Sleep\u2010Dependent Clearance of Brain Metabolites via the Glymphatic System: Implications for Alzheimer's Pathophysiology"
+    },
+    "Zed26b": {
+      "oid": "https://openalex.org/W7160710181",
+      "doi": "10.1016/j.neucom.2026.133916",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 24,
+      "title": "Foundation models meet multimodal neuroimaging: A generative transformer-based framework for Alzheimer\u2019s disease diagnos"
+    },
+    "Zen25": {
+      "oid": "https://openalex.org/W4409485835",
+      "doi": "10.1159/000545885",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 29,
+      "title": "Trends of Alzheimer\u2019s Disease and Other Dementias with Socioeconomic Insights: An Age-Period-Cohort Analysis and Forecas"
+    },
+    "Zen26": {
+      "oid": "https://openalex.org/W7131303217",
+      "doi": "10.1097/wco.0000000000001475",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 77,
+      "title": "Blood-based biomarkers of Alzheimer's disease: potential utility in clinical practice"
+    },
+    "Zha25": {
+      "oid": "https://openalex.org/W4406396619",
+      "doi": "10.3389/fpubh.2024.1453489",
+      "year": 2025,
+      "oa_cited_by": 16,
+      "csv_cited_by": 17,
+      "n_refs": 50,
+      "title": "Assessing and projecting the global impacts of Alzheimer\u2019s disease"
+    },
+    "Zha25b": {
+      "oid": "https://openalex.org/W4413822662",
+      "doi": "10.1371/journal.pone.0331204",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 7,
+      "n_refs": 73,
+      "title": "Global trends in Alzheimer\u2019s disease and other dementias in adults aged 55 and above (1992\u20132021): An age-period-cohort a"
+    },
+    "Zha25c": {
+      "oid": "https://openalex.org/W4416348158",
+      "doi": "10.48550/arxiv.2511.02206",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Language-Enhanced Generative Modeling for PET Synthesis from MRI and Blood Biomarkers"
+    },
+    "Zha25f": {
+      "oid": "https://openalex.org/W4411801799",
+      "doi": "10.26599/bsa.2024.9050034",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 24,
+      "title": "ComBat-Centiloid: A Calibration-Free Method for Quantifying Centiloid Values in Amyloid PET Imaging"
+    },
+    "Zha25g": {
+      "oid": "https://openalex.org/W4411857745",
+      "doi": "10.1186/s12886-025-04157-x",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 66,
+      "title": "Correlating retinal and choroidal vascular parameters with volumetric MRI in Alzheimer\u2019s disease and amnestic mild cogni"
+    },
+    "Zha25h": {
+      "oid": "https://openalex.org/W4409744080",
+      "doi": "10.1016/j.neuroscience.2025.04.035",
+      "year": 2025,
+      "oa_cited_by": 19,
+      "csv_cited_by": 25,
+      "n_refs": 106,
+      "title": "A review of multimodal fusion-based deep learning for Alzheimer's disease."
+    },
+    "Zha25i": {
+      "oid": "https://openalex.org/W4411995368",
+      "doi": "10.3389/fneur.2025.1628577",
+      "year": 2025,
+      "oa_cited_by": 4,
+      "csv_cited_by": 3,
+      "n_refs": 11,
+      "title": "Incidence trends and age-period-cohort analysis of Alzheimer\u2019s disease and other dementias in the world and China from 1"
+    },
+    "Zha25m": {
+      "oid": "https://openalex.org/W4415477469",
+      "doi": "10.2967/jnumed.125.270607",
+      "year": 2025,
+      "oa_cited_by": 6,
+      "csv_cited_by": 4,
+      "n_refs": 37,
+      "title": "Exploring Centiloid Robustness: Impact of Sample Size and Image Resolution on Centiloid Conversion Accuracy"
+    },
+    "Zha25n": {
+      "oid": "https://openalex.org/W4410297448",
+      "doi": "10.1109/isbi60581.2025.10980922",
+      "year": 2025,
+      "oa_cited_by": 8,
+      "csv_cited_by": 4,
+      "n_refs": 22,
+      "title": "CLASSIFFICATION OF MILD COGNITIVE IMPAIRMENT BASED ON DYNAMIC FUNCTIONAL CONNECTIVITY USING SPATIO-TEMPORAL TRANSFORMER"
+    },
+    "Zha25o": {
+      "oid": "https://openalex.org/W4411044852",
+      "doi": "10.1002/sim.70128",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 61,
+      "title": "Radiomics of PET using Neural Networks for Prediction of Alzheimer\u2019s Disease Diagnosis"
+    },
+    "Zha26": {
+      "oid": "https://openalex.org/W7134972352",
+      "doi": "10.1093/bib/bbag057",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "An integrative multi-omics framework for decoding microglial ecosystems in Alzheimer's disease"
+    },
+    "Zha26b": {
+      "oid": "https://openalex.org/W7152015287",
+      "doi": "10.3389/fnut.2026.1818913",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 0,
+      "n_refs": 61,
+      "title": "The role of nutrition and multimodal lifestyle interventions in Alzheimer\u2019s prevention and management: a mini-review"
+    },
+    "Zha26d": {
+      "oid": "https://openalex.org/W7163203027",
+      "doi": "10.1177/13872877261456313",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 50,
+      "title": "Global research landscape of oligodendrocytes in Alzheimer's disease: A bibliometric and knowledge-mapping analysis from"
+    },
+    "Zha26e": {
+      "oid": "https://openalex.org/W7163675999",
+      "doi": "10.1016/j.tjpad.2026.100614",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 44,
+      "title": "The growing burden of dementia in Asia: Comparative insights from Japan, China, and India."
+    },
+    "Zha26g": {
+      "oid": "https://openalex.org/W7161554709",
+      "doi": "10.1002/alz.71451",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 204,
+      "title": "Reconstructing cerebral lymphatic clearance: an emerging target in the Alzheimer's disease therapeutic pipeline"
+    },
+    "Zha26h": {
+      "oid": "https://openalex.org/W7139001953",
+      "doi": "10.1186/s12967-026-08027-y",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 37,
+      "title": "Dysfunctional astrocytes regulate excitatory neurons via cell adhesion and vascular lesions in patients with Alzheimer\u2019s"
+    },
+    "Zha26i": {
+      "oid": "https://openalex.org/W7128542647",
+      "doi": "10.1109/tbme.2026.3663181",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Unsupervised Disentanglement of Brain Heterogeneity for Identifying Subtypes of Alzheimer's Disease."
+    },
+    "Zho25": {
+      "oid": "https://openalex.org/W4414607318",
+      "doi": "10.1186/s13024-025-00897-y",
+      "year": 2025,
+      "oa_cited_by": 9,
+      "csv_cited_by": 7,
+      "n_refs": 164,
+      "title": "Microglia networks within the tapestry of alzheimer\u2019s disease through spatial transcriptomics"
+    },
+    "Zho25b": {
+      "oid": "https://openalex.org/W4417051611",
+      "doi": "10.1371/journal.pone.0337741",
+      "year": 2025,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 62,
+      "title": "Co-regulation of microglial subgroups in Alzheimer\u2019s amyloid pathology: Implications for diagnosis and drug development"
+    },
+    "Zho25e": {
+      "oid": "https://openalex.org/W4408561258",
+      "doi": "10.1097/md.0000000000041836",
+      "year": 2025,
+      "oa_cited_by": 23,
+      "csv_cited_by": 16,
+      "n_refs": 40,
+      "title": "The global, regional, and national burdens of dementia in 204 countries and territories from 1990 to 2021: A trend analy"
+    },
+    "Zho26d": {
+      "oid": "https://openalex.org/W7140073770",
+      "doi": "10.1177/13872877261433196",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 45,
+      "title": "Meta-analysis of the efficacy of interventions for persons living with Alzheimer's disease: The role of music therapy."
+    },
+    "Zhu25": {
+      "oid": "https://openalex.org/W4414149110",
+      "doi": "10.20517/and.2025.25",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 2,
+      "n_refs": 290,
+      "title": "Targeting glial dysfunction in Alzheimer\u2019s disease: insights into pathogenesis and emerging therapeutics"
+    },
+    "Zhu25b": {
+      "oid": "https://openalex.org/W4411875970",
+      "doi": "10.3389/fpubh.2025.1585711",
+      "year": 2025,
+      "oa_cited_by": 58,
+      "csv_cited_by": 54,
+      "n_refs": 36,
+      "title": "Global Burden of Alzheimer's disease and other dementias in adults aged 65 years and older, 1991\u20132021: population-based "
+    },
+    "Zhu25c": {
+      "oid": "https://openalex.org/W4409046181",
+      "doi": "10.3389/fpubh.2025.1575906",
+      "year": 2025,
+      "oa_cited_by": 2,
+      "csv_cited_by": 3,
+      "n_refs": 28,
+      "title": "A GBD 2021 study of Alzheimer\u2019s disease and other dementias attributable to metabolic risk factors and forecasts to 2045"
+    },
+    "Zhu26b": {
+      "oid": "https://openalex.org/W7128393163",
+      "doi": "10.1016/j.neunet.2026.108689",
+      "year": 2026,
+      "oa_cited_by": 1,
+      "csv_cited_by": 1,
+      "n_refs": 34,
+      "title": "CGLK-GNN : A connectome generation network with large kernels for GNN based Alzheimer's disease analysis"
+    },
+    "Zim25": {
+      "oid": "https://openalex.org/W4416862829",
+      "doi": "10.1016/j.tjpad.2025.100446",
+      "year": 2025,
+      "oa_cited_by": 12,
+      "csv_cited_by": 6,
+      "n_refs": 20,
+      "title": "Donanemab in early symptomatic Alzheimer\u2019s disease: results from the TRAILBLAZER-ALZ 2 long-term extension"
+    },
+    "Zon26b": {
+      "oid": "https://openalex.org/W7128687688",
+      "doi": "10.1117/12.3087349",
+      "year": 2026,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 0,
+      "title": "Integrating retinal fundus imaging and computable phenotypes for subphenotype discovery and LLM\u2011assisted early and late\u2011"
+    },
+    "Zou25": {
+      "oid": "https://openalex.org/W4415069757",
+      "doi": "10.1007/s40588-025-00244-1",
+      "year": 2025,
+      "oa_cited_by": 0,
+      "csv_cited_by": 0,
+      "n_refs": 107,
+      "title": "Fecal Microbiota Transplantation for Alzheimer\u2019s Disease: a Review of Current Evidence and Future Perspectives"
+    }
+  }
+}

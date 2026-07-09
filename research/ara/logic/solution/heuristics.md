@@ -61,3 +61,19 @@ as an observation and matured on artifact-commitment + the user's directive to a
 - **Sensitivity**: low — diagnostic only; does not change scores, just flags them.
 - **Code ref**: [research/metrics/v2/compute_metrics_v2.py]
 - **Source**: staged O10; wave-1 review (N30)
+
+## H06: Score metric candidates on a held-out split, never on training rho
+- **Rationale**: On small evaluation sets (here 40 train / 26 test) formula complexity buys overfitting, not signal. A 16→4→2→1 tournament optimizing training ρ selected a winner at 0.77 train that fell to 0.53 test, below a one-feature baseline at 0.57 with no gap. Only the held-out column reveals which metrics generalize; train ρ ranks them wrong.
+- **Sources**: [winner 0.771→0.534, plain-depth 0.546→0.572 ← research/metrics/v5-breakthrough/corpus/apply_formula.py --split train|test [result]]
+- **Status**: active
+- **Provenance**: user-revised
+- **Sensitivity**: high
+- **Code ref**: [research/metrics/v5-breakthrough/corpus/apply_formula.py, corpus/split.json, tournament16_workflow.js]
+
+## H07: Sign-flip a negative feature only if it is a true inverse construct, not a confound proxy
+- **Rationale**: `1 − anchor_overlap` is legitimate (novelty IS distance from prior art — causal, generalizes). Subtracting `delta`/`n_deltas` is not (they correlate with breakthrough only because report-genre papers pile up deltas in this corpus); the delta-hack underperformed doing nothing on held-out data and misfired on real discoveries. Test: would intervening on the feature causally change the target?
+- **Sources**: [delta-hack 0.712→0.449 vs plain-depth 0.572 ← research/metrics/v5-breakthrough/corpus/apply_formula.py [result]]
+- **Status**: active
+- **Provenance**: user-revised
+- **Sensitivity**: high
+- **Code ref**: [research/metrics/v5-breakthrough/corpus/FEATURES.md, RESULTS_PAPER.md §7]

@@ -1,0 +1,32 @@
+# L8 significance tier - contributions (CT##), double-typed (author_framed + compiler_assessed).
+# ANTI-PUFFERY LOCK: every realized_in references real C## in claims_typed.yaml.
+contributions:
+  - id: CT01
+    author_framed_type: efficacy_demonstration_phase3
+    compiler_assessed_type:
+      primary: new_finding
+      confidence: 0.72
+    typing_rationale: "A fully powered, alpha-controlled phase 3 showing donanemab slows AD clinical progression on iADRS and CDR-SB with 23/24 gated outcomes significant. Partly confirmatory of the phase 2 signal (replication flavor), but the robust positive result at scale is itself the new finding for the field."
+    typing_divergence: adjacent          # new_finding vs replication - it confirms phase 2 yet is the definitive positive result
+    adjudication: not_triggered
+    realized_in: [C01, C02, C03, C04, C05, C09]
+
+  - id: CT02
+    author_framed_type: tau_PET_stratified_trial_design
+    compiler_assessed_type:
+      primary: new_method
+      confidence: 0.6
+    typing_rationale: "Prospectively stratifies enrollment and the primary analysis by baseline tau-PET burden (low/medium vs high tau) with an explicit alpha split (.04 / .01), and uses a limited-duration dosing regimen that stops on amyloid clearance. A trial-design/methodology contribution beyond the efficacy result."
+    typing_divergence: none
+    adjudication: not_triggered
+    realized_in: [C10, C01, C02]
+
+  - id: CT03
+    author_framed_type: comparative_efficacy_positioning
+    compiler_assessed_type:
+      primary: incremental_improvement
+      confidence: 0.5
+    typing_rationale: "Donanemab's absolute CDR-SB treatment effect (-0.67 to -0.70) is numerically larger than the contemporaneous lecanemab result (-0.45). Cross-trial, not head-to-head, so confidence is capped; grounds D02/D03."
+    typing_divergence: adjacent
+    adjudication: not_triggered
+    realized_in: [C03, C04]

@@ -1,0 +1,557 @@
+{
+  "n": 55,
+  "spearman": -0.11842176526196996,
+  "pearson": -0.06625365180022236,
+  "rows": [
+    {
+      "slug": "liu25i-single-cell-multiregion-epigenomic-rewiring-in",
+      "sig": 0.2864,
+      "exp": 74.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.511,
+      "delta": 0.105,
+      "gap": -2.433481361380316
+    },
+    {
+      "slug": "ols25-microglial-mechanisms-drive-amyloid-clearance-in",
+      "sig": 0.2814,
+      "exp": 73.3,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4984,
+      "delta": 0.105,
+      "gap": -2.4075863020426436
+    },
+    {
+      "slug": "aki26-molecular-signatures-of-resilience-to-alzheimer",
+      "sig": 0.7967,
+      "exp": 70.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.5917,
+      "delta": 0.9,
+      "gap": 1.5529960862495862
+    },
+    {
+      "slug": "han26-tau-pathological-activity-in-plasma-before",
+      "sig": 0.2599,
+      "exp": 69.3,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.6247,
+      "delta": 0.0,
+      "gap": -2.387158766787847
+    },
+    {
+      "slug": "ard25-response-of-spatially-defined-microglia-states",
+      "sig": 0.2313,
+      "exp": 68.7,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.5533,
+      "delta": 0.0,
+      "gap": -2.5724768476726014
+    },
+    {
+      "slug": "ji25-alzheimer-s-disease-patient-brain-extracts",
+      "sig": 0.2801,
+      "exp": 65.3,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4953,
+      "delta": 0.105,
+      "gap": -2.0571533712015033
+    },
+    {
+      "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+      "sig": 0.1696,
+      "exp": 63.3,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.2939,
+      "delta": 0.105,
+      "gap": -2.7874765716333805
+    },
+    {
+      "slug": "huu25-apoe-e4-alzheimer-s-risk-converges",
+      "sig": 0.2942,
+      "exp": 59.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.5304,
+      "delta": 0.105,
+      "gap": -1.7004171377523576
+    },
+    {
+      "slug": "ave25-uncovering-plaque-glia-niches-in-human",
+      "sig": 0.2886,
+      "exp": 58.0,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.5164,
+      "delta": 0.105,
+      "gap": -1.6654732846474178
+    },
+    {
+      "slug": "gon25b-stereo-seq-of-the-prefrontal-cortex",
+      "sig": 0.2864,
+      "exp": 57.0,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.511,
+      "delta": 0.105,
+      "gap": -1.6367954246573961
+    },
+    {
+      "slug": "gau25-single-nucleus-and-spatial-transcriptomic-profiling",
+      "sig": 0.3863,
+      "exp": 54.3,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.5157,
+      "delta": 0.35,
+      "gap": -0.7736165039435476
+    },
+    {
+      "slug": "ada26-adult-human-ex-vivo-brain-slices",
+      "sig": 0.4215,
+      "exp": 53.0,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.4488,
+      "delta": 0.105,
+      "gap": -0.45378052902081956
+    },
+    {
+      "slug": "kes25-the-alzheimer-s-disease-diagnosis-and",
+      "sig": 0.226,
+      "exp": 50.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.115,
+      "delta": 0.35,
+      "gap": -1.8016345858528762
+    },
+    {
+      "slug": "val25-blood-biomarkers-of-alzheimer-s-disease",
+      "sig": 0.2654,
+      "exp": 49.3,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4935,
+      "delta": 0.07,
+      "gap": -1.4461170565219024
+    },
+    {
+      "slug": "sal25-trailblazer-alz-4-a-phase-3",
+      "sig": 0.35,
+      "exp": 48.7,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.47,
+      "delta": 0.105,
+      "gap": -0.7910463175138251
+    },
+    {
+      "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+      "sig": 0.3196,
+      "exp": 48.3,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.4241,
+      "delta": 0.35,
+      "gap": -0.9987295724863354
+    },
+    {
+      "slug": "bec25-a-neuroimmune-cerebral-assembloid-model-to",
+      "sig": 0.2424,
+      "exp": 44.0,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4009,
+      "delta": 0.105,
+      "gap": -1.3783117591541565
+    },
+    {
+      "slug": "tit26-automated-high-throughput-quantification-of-plasma",
+      "sig": 0.3402,
+      "exp": 37.3,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.4455,
+      "delta": 0.105,
+      "gap": -0.35068107080105076
+    },
+    {
+      "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+      "sig": 0.6184,
+      "exp": 36.3,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4459,
+      "delta": 1.0,
+      "gap": 1.759666622209731
+    },
+    {
+      "slug": "smi25-contribution-of-modifiable-midlife-and-late",
+      "sig": 0.3844,
+      "exp": 36.3,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.511,
+      "delta": 0.35,
+      "gap": 0.022467118190980184
+    },
+    {
+      "slug": "aku25b-effects-of-medicare-predictors-in-health",
+      "sig": 0.5339,
+      "exp": 34.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.4847,
+      "delta": 0.35,
+      "gap": 1.2223655888910492
+    },
+    {
+      "slug": "sim26-multi-modal-graph-neural-network-with",
+      "sig": 0.4869,
+      "exp": 30.3,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.5672,
+      "delta": 0.35,
+      "gap": 1.0534829217848278
+    },
+    {
+      "slug": "che26-diagnostic-performance-of-plasma-p-tau217",
+      "sig": 0.2133,
+      "exp": 29.0,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.5082,
+      "delta": 0.0,
+      "gap": -0.9191905342368479
+    },
+    {
+      "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+      "sig": 0.2768,
+      "exp": 27.0,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.287,
+      "delta": 0.105,
+      "gap": -0.357750000911192
+    },
+    {
+      "slug": "div25-the-microcirculation-the-blood-brain-barrier",
+      "sig": 0.1836,
+      "exp": 24.7,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.329,
+      "delta": 0.105,
+      "gap": -0.9461360694478711
+    },
+    {
+      "slug": "ali26-privacy-preserving-multimodal-fusion-for-alzheimer",
+      "sig": 0.2883,
+      "exp": 24.0,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.1158,
+      "delta": 0.105,
+      "gap": -0.1373432969123252
+    },
+    {
+      "slug": "che25e-apoe4-reprograms-microglial-lipid-metabolism-in",
+      "sig": 0.3736,
+      "exp": 24.0,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.329,
+      "delta": 0.105,
+      "gap": 0.4959178898090401
+    },
+    {
+      "slug": "ali25-multimodal-self-supervised-learning-for-early",
+      "sig": 0.4199,
+      "exp": 23.7,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.1998,
+      "delta": 0.35,
+      "gap": 0.8531489773304937
+    },
+    {
+      "slug": "als25-the-role-of-glial-cell-senescence",
+      "sig": 0.2961,
+      "exp": 22.3,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.3353,
+      "delta": 0.105,
+      "gap": -0.002918788449047083
+    },
+    {
+      "slug": "bor25b-harmonized-prevalence-estimates-of-dementia-in",
+      "sig": 0.2658,
+      "exp": 20.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4595,
+      "delta": 0.105,
+      "gap": -0.1558470445916023
+    },
+    {
+      "slug": "alb26-early-detection-of-alzheimer-s-disease",
+      "sig": 0.4068,
+      "exp": 20.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.1669,
+      "delta": 0.35,
+      "gap": 0.9089312174821008
+    },
+    {
+      "slug": "afi25-vision-and-convolutional-transformers-for-alzheimer",
+      "sig": 0.4406,
+      "exp": 17.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.4965,
+      "delta": 0.105,
+      "gap": 1.2948915494280537
+    },
+    {
+      "slug": "aks25-an-explainable-web-based-diagnostic-system",
+      "sig": 0.3183,
+      "exp": 17.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.1908,
+      "delta": 0.105,
+      "gap": 0.38694497104560394
+    },
+    {
+      "slug": "amo25-regional-differences-in-the-incidence-of",
+      "sig": 0.2613,
+      "exp": 16.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4483,
+      "delta": 0.105,
+      "gap": -0.009212707762793815
+    },
+    {
+      "slug": "iac25-a-practical-overview-of-the-use",
+      "sig": 0.2069,
+      "exp": 16.0,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.3122,
+      "delta": 0.105,
+      "gap": -0.3815671193699116
+    },
+    {
+      "slug": "kho25-explainable-artificial-intelligence-in-neuroimaging-of",
+      "sig": 0.1595,
+      "exp": 14.0,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.3038,
+      "delta": 0.07,
+      "gap": -0.643440368077074
+    },
+    {
+      "slug": "qi25-alzheimer-s-disease-digital-biomarkers-multidimensional",
+      "sig": 0.2119,
+      "exp": 13.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.3248,
+      "delta": 0.105,
+      "gap": -0.24092331057906347
+    },
+    {
+      "slug": "gie25-geographical-inequalities-in-dementia-diagnosis-and",
+      "sig": 0.2961,
+      "exp": 11.0,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.3353,
+      "delta": 0.105,
+      "gap": 0.5056999169164327
+    },
+    {
+      "slug": "aku25-population-attributable-fractions-associated-with-alzheimer",
+      "sig": 0.3823,
+      "exp": 10.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.3858,
+      "delta": 0.07,
+      "gap": 1.1771499936214362
+    },
+    {
+      "slug": "raz25-advancements-in-deep-learning-for-early",
+      "sig": 0.1836,
+      "exp": 10.0,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.329,
+      "delta": 0.105,
+      "gap": -0.2844816474237516
+    },
+    {
+      "slug": "sor25-barriers-for-access-and-utilization-of",
+      "sig": 0.3702,
+      "exp": 9.7,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.3206,
+      "delta": 0.105,
+      "gap": 1.1143267495585172
+    },
+    {
+      "slug": "ahm26-machine-learning-and-deep-learning-for",
+      "sig": 0.2936,
+      "exp": 8.7,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.329,
+      "delta": 0.105,
+      "gap": 0.5906642544246289
+    },
+    {
+      "slug": "als26-early-onset-alzheimer-s-disease-mortality",
+      "sig": 0.4067,
+      "exp": 8.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.4117,
+      "delta": 0.105,
+      "gap": 1.448314883326865
+    },
+    {
+      "slug": "ala26-trends-in-alzheimer-s-disease-mortality",
+      "sig": 0.362,
+      "exp": 8.0,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.3001,
+      "delta": 0.105,
+      "gap": 1.1299683859521374
+    },
+    {
+      "slug": "cum26-alzheimer-s-disease-drug-development-pipeline",
+      "sig": 0.6079,
+      "exp": 7.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.4797,
+      "delta": 0.94,
+      "gap": 2.969015802542577
+    },
+    {
+      "slug": "ahm26b-trends-and-disparities-in-alzheimer-disease",
+      "sig": 0.488,
+      "exp": 6.7,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.37,
+      "delta": 0.35,
+      "gap": 2.1238971598701757
+    },
+    {
+      "slug": "cav25-global-societal-burden-of-alzheimer-s",
+      "sig": 0.1881,
+      "exp": 6.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.2652,
+      "delta": 0.105,
+      "gap": -0.10253929848548049
+    },
+    {
+      "slug": "hao25-trend-analysis-and-future-predictions-of",
+      "sig": 0.2508,
+      "exp": 6.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.422,
+      "delta": 0.105,
+      "gap": 0.36294108143749293
+    },
+    {
+      "slug": "ant26-mapea-project-evolution-of-care-for",
+      "sig": 0.425,
+      "exp": 6.3,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.4126,
+      "delta": 0.35,
+      "gap": 1.6741938030557366
+    },
+    {
+      "slug": "guo25c-the-disease-burden-risk-factors-and",
+      "sig": 0.1892,
+      "exp": 6.0,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.3029,
+      "delta": 0.07,
+      "gap": -0.06286562260097117
+    },
+    {
+      "slug": "wan25c-global-burden-of-alzheimer-s-disease",
+      "sig": 0.3362,
+      "exp": 6.0,
+      "n": 1,
+      "anchor": 0.2,
+      "contrib": 0.3904,
+      "delta": 0.35,
+      "gap": 1.0284520145390135
+    },
+    {
+      "slug": "liu25h-global-burden-of-alzheimer-s-disease",
+      "sig": 0.2418,
+      "exp": 5.7,
+      "n": 3,
+      "anchor": 0.05,
+      "contrib": 0.2296,
+      "delta": 0.35,
+      "gap": 0.34113622079791006
+    },
+    {
+      "slug": "20226-2026-alzheimer-s-disease-facts-and",
+      "sig": 0.6156,
+      "exp": 5.3,
+      "n": 3,
+      "anchor": 0.6,
+      "contrib": 0.4789,
+      "delta": 0.76,
+      "gap": 3.1342052714851403
+    },
+    {
+      "slug": "ami25-prevalence-deaths-and-disability-adjusted-life",
+      "sig": 0.326,
+      "exp": 4.7,
+      "n": 3,
+      "anchor": 0.2,
+      "contrib": 0.3651,
+      "delta": 0.35,
+      "gap": 1.0112415899640865
+    },
+    {
+      "slug": "20225-2025-alzheimer-s-disease-facts-and",
+      "sig": 0.689,
+      "exp": 4.3,
+      "n": 3,
+      "anchor": 1.0,
+      "contrib": 0.4224,
+      "delta": 0.8,
+      "gap": 3.724132202004297
+    }
+  ]
+}

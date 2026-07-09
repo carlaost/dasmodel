@@ -989,3 +989,220 @@ tree:
     also_depends_on: [N57]
     status: resolved
 
+  - id: N59
+    type: experiment
+    support_level: explicit
+    source_refs: ["user directive (this session): the core hypothesis is GRO-vs-ARA (same metric, both shapes) and ARA-verifier-vs-GRO-metrics; benchmark them; the extension is the whole point, v3 secondary"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Substrate benchmark — H1 GRO extension vs raw ARA (metric held constant) + H2 verifier vs GRO metrics"
+    result: >
+      benchmark.py runs the SAME metric logic over both shapes (raw-ARA prose parsed from claims.md/
+      related_work.md/experiments.md vs GRO typed sidecars) on the 4 dual-expressible constructs; ref-
+      resolvability validated vs live PubMed. FINDINGS (honest, sharpen rather than flatter the thesis):
+      (H1) the extension's win is AFFORDANCE + COST + DETERMINISM, not fidelity — only 4/8 GRO metrics have
+      any prose form; the other 4 (claim-typing, entity-anchoring, over-claim, genre) are computable ONLY on
+      the typed shape; typed is ~100x cheaper (ref-resolv 0.05ms vs 4.9ms) and bit-identical. BUT the shape
+      materially changes the value (mean |prose-typed| 0.17-0.28) and on the one construct with external truth
+      the RAW ARA prose is CLOSER to PubMed truth than the typed sidecar (MAE 0.31 vs 0.44) — the LLM extension
+      under-declared, so typing an already-expressible metric can lose fidelity. (H2) verifier vs GRO metrics
+      is COMPLEMENTARY not a win: GRO metrics win coverage(12/12)/determinism/cost(0 vs ~66k tok/ARA)/
+      auditability/external-checkability; Seal wins reaching science-quality judgement (scope/coherence) GRO
+      is blind to. Neither discriminates good-vs-bad alone. Added 4 figures + a primary-result section (paper
+      s2), re-rendered to 16pp, pushed to gro repo (3d9a086, rebased over the user's paper-credit edit b6863ce).
+    evidence: ["research/metrics/v4-gro/benchmark.json", "research/metrics/v4-gro/benchmark.py", "https://github.com/carlaost/gro/tree/main/experiment/comparison"]
+    also_depends_on: [N57, N58]
+    status: resolved
+
+  - id: N60
+    type: experiment
+    support_level: explicit
+    source_refs: ["user directive (this session): run the GRO compiler over all our experiments/papers; reuse the extension process; push that to gro"]
+    provenance: user
+    timestamp: "2026-07-07"
+    title: "Reflexive GRO compile (dogfood) — our 4 papers -> ARA + GRO sidecars"
+    result: >
+      Confirmed the GRO compiler is not a single packaged tool but the ARA compiler composed with the GRO
+      extension step; built + ran that composition (wf_876478e8, 8 Sonnet agents, 0 errors) over our own
+      four papers: comparison, external-validation, deterministic-experiment, and the GRO spec. Each was
+      compiled to an ARA (PAPER.md + logic/{claims,problem,experiments}.md + evidence/) then GRO-extended to
+      typed sidecars. Result: p-comparison 10 claims/49 quantities, p-external-validation 8/35, p-deterministic
+      -experiment 11/49, p-gro-spec 12/11; 20 sidecar files, all parse; claims are grounded (numbers copied
+      verbatim from each source paper into the Sources DSL). Output at research/self-compiled/; pushed to the
+      gro repo self-compiled/ (commit 2b3d90d). Dogfoods the substrate on the research that produced it.
+    evidence: ["research/self-compiled/", "https://github.com/carlaost/gro/tree/main/self-compiled"]
+    also_depends_on: [N58, N59]
+    status: resolved
+
+
+  - id: N61
+    type: decision
+    support_level: explicit
+    source_refs: ["user (this session): 'Do we have any metrics on scientific breakthroughs? If not, use the tournament style ... based on the GRO data shape'; then chose option 3 (full program) + 'use the paper corpus we have started to turn into ara papers (alzheimers) ... try to find lineage ... then use the gro compiler with this extension to create a metrics substrate ... before all this compile quick pdf onepager'"]
+    provenance: user
+    timestamp: "2026-07-07T23:30"
+    title: "Launch the breakthrough-metric program (category 12_breakthrough): extend the GRO shape, then tournament over both shapes, validate vs a labelled lineage corpus"
+    choice: >
+      Confirmed no breakthrough metric exists (disruption/CD-index explicitly excluded; only a narrow PubMed
+      novelty spotlight coded). Decided to run the FULL program (user option 3): (Phase 1) design the extended
+      GRO shape shapes/12_breakthrough.md = materialize the already-spec'd L8 novelty tier + a NEW cross-object
+      edges.yaml graph (the unbuilt particle-layer half, O31) + a temporal spine; (Phase 2) emit it via the GRO
+      compiler + extension over the Alzheimer's ARA corpus, deliberately tracing predecessor/successor LINEAGE
+      to give the cross-object graph depth; (Phase 3) build a labelled breakthrough/incremental contrast set;
+      (Phase 4) run the blind 4->2->1 Fable tournament reusing v3/tournament machinery; (Phase 5-7) both-shapes
+      compute (H1/H2 method) + blind validation + write-up. Delivered the gating PDF one-pager first per user
+      directive. Built the runnable scaffold: v5-breakthrough/ tree, cloned+adapted PROPOSER/CRITIQUE briefs,
+      gated status.py state machine, TOURNAMENT_LOG.md, and the shapes/12_breakthrough.md spec (gate now clears).
+    alternatives: ["Shape+specs only (stop after Phase 1)", "Through Phase 4 on current corpus (no labels)", "Full program incl. labelled lineage corpus (CHOSEN)"]
+    evidence: ["research/metrics/breakthrough-metric.md", "research/metrics/breakthrough-metric-STEPS.md", "research/metrics/v5-breakthrough/onepager.pdf", "research/metrics/v5-breakthrough/tournament/shapes/12_breakthrough.md", "research/metrics/v5-breakthrough/tournament/status.py"]
+    also_depends_on: [N51, N57, N58, N59]
+    status: open
+
+  - id: N62
+    type: pivot
+    support_level: explicit
+    source_refs: ["user (this session, verbatim): 'I dont want just 12 artifacts, and definitely not the ARA shape, where this is all about the GRO shapes. Find papers where there is actually a lineage, and you can just check if they cite each other. Get some positive and negative examples, and then run those metrics and the data shape compilers over that corpus.'"]
+    provenance: user
+    timestamp: "2026-07-08T00:10"
+    title: "Pivot the breakthrough corpus: from 12 contemporaneous ARAs (sparse graph) to a lineage-selected labelled set over the full 539-paper corpus"
+    from: "workflow wf_eac7db02-847: emit GRO shape over the 12 gro-enabled ARAs + tournament (sparse/near-empty cross-object graph, no labels)"
+    to: "build the real citation graph over all-papers.csv (539 papers), select papers with actual lineage (cite each other), label positive (landmark-ancestor breakthroughs) vs negative (derivative clusters), THEN GRO-compile + run metrics over that corpus"
+    trigger: "the 12-ARA set is contemporaneous with ~0 inter-citation; user wants real citation lineage + positive/negative examples; stopped the mis-scoped workflow"
+    also_depends_on: [N61]
+    status: resolved
+
+  - id: N63
+    type: experiment
+    support_level: explicit
+    source_refs: ["build_citation_graph.py + compute_breakthrough_v1.py over all-papers.csv via OpenAlex"]
+    provenance: ai-executed
+    timestamp: "2026-07-08T00:30"
+    title: "Build the real citation graph + compute breakthrough v1 graph signals (uptake, disruption) over a labelled set"
+    result: >
+      OpenAlex resolved 521/526 corpus DOIs; 309 intra-corpus citation edges; largest connected component
+      216 papers (real lineage). Landmark-ancestor backbone surfaced (lecanemab shared by 72 corpus papers,
+      donanemab 61, NIA-AA framework 46, DAM microglia 33, p-tau217 24). Labelled 5 OA landmark positives vs
+      derivative-cluster negatives (GBD-burden + DL-detection + facts-and-figures). v1 graph signals (means):
+      UPTAKE positive 47.2 vs negative 3.25; UPTAKE/YEAR (age-normalized) 10.35 vs 3.25 -> uptake DISCRIMINATES
+      known breakthroughs ~15x and survives age-normalization. CD-INDEX (disruption) positive -0.446 vs negative
+      -0.333 -> disruption does NOT track breakthrough here; landmarks are CONSOLIDATING (donanemab CD -0.836),
+      matching the metascience result that many landmark works consolidate not disrupt. Goodhart hole: the one
+      high-uptake negative is the annual facts-and-figures review -> raw uptake would misclassify a cited review,
+      motivating the significance signal (GRO L8). All 5 positives confirmed open-access -> GRO-compilable.
+    evidence: ["research/metrics/v5-breakthrough/corpus/graph.json", "research/metrics/v5-breakthrough/corpus/ancestors.json", "research/metrics/v5-breakthrough/corpus/breakthrough_v1_results.json", "research/metrics/v5-breakthrough/corpus/RESULTS.md"]
+    also_depends_on: [N62]
+    status: resolved
+
+  - id: N64
+    type: experiment
+    support_level: explicit
+    source_refs: ["wf_a3176248-fee (16 agents): GRO-compile 5 OA landmark positives + GRO-extend 10 derivative negatives to full L8 shape; compute_significance.py + compute_composite.py over the real citation graph"]
+    provenance: ai-executed
+    timestamp: "2026-07-08T01:30"
+    title: "3-signal breakthrough composite over the labelled corpus: significance (GRO L8) is the clean discriminator"
+    result: >
+      Labelled set = 5 landmark-ancestor positives (lecanemab, donanemab, ptau217, dam_microglia,
+      nia_aa_framework; 4 abstract-only + 1 fulltext GRO compiles) vs 10 derivative negatives (GBD-burden +
+      DL-detection ARAs), all with GRO L8 sidecars. Means: SIGNIFICANCE (from L8 contributions/deltas/sota)
+      POS 0.731 vs NEG 0.223, CLEAN separation (min-POS 0.527 > max-NEG 0.336). COMPOSITE POS 0.961 vs NEG
+      -0.480, clean (min-POS 0.077 > max-NEG -0.202). CD-index still does NOT discriminate (-0.446 vs -0.470).
+      Significance CLOSES v1's uptake Goodhart hole: kho25 (8.0 cites/yr, beats 3 of 4 landmarks on uptake) and
+      aks25 ("99.18% accuracy") floor at ~0.16 because their deltas are self_reported/claimed_unresolved with no
+      source_verified baseline and contributions type as synthesis/incremental. HONEST CONFOUND: all positives
+      2017-2023 (established_downstream), all negatives 2025-2026 (not_yet_determined) -> significance works
+      because it is age-independent, but the labelled set lacks recent-breakthrough + old-derivative controls to
+      fully rule out significance==maturity. donanemab initially failed on a transient API error; resume
+      completed 5/5.
+    evidence: ["research/metrics/v5-breakthrough/corpus/breakthrough_final_results.json", "research/metrics/v5-breakthrough/corpus/breakthrough_final_results.md", "research/metrics/v5-breakthrough/corpus/compute_significance.py", "research/metrics/v5-breakthrough/corpus/compute_composite.py"]
+    also_depends_on: [N63]
+    status: resolved
+
+  - id: N65
+    type: experiment
+    support_level: explicit
+    source_refs: ["user (this session): 'run a new iteration of experiments ... over recent breakthroughs, all your alzheimers papers should be pretty new ... compile those into GRO shapes and apply the metrics, see how they hold up against a full read of the paper by an informed agent ... compile these intermediate results in a pdf paper ... then run the experiment on a more recent corpus to address that one current limitation. novelty is for discussion ... or as a possible fix'"]
+    provenance: user
+    timestamp: "2026-07-08T02:30"
+    title: "Recency-controlled breakthrough experiment: 67 recent (2025-26) ARAs -> GRO L8 shape -> metric vs blind informed-agent full-read ground truth"
+    description: >
+      Addresses the N64 recency confound by holding age constant: ALL 67 papers are 2025-26, so if the
+      (age-independent) significance signal still tracks breakthrough it is not merely detecting maturity.
+      Ground truth = a blind informed-agent full read per paper (breakthrough_score 0-100 + tier + per-
+      dimension), the best available proxy for work too new to have citations; + a 2nd independent reader on a
+      ~17-paper subset for inter-rater agreement. Design: GRO-extend the 47 ARAs lacking L8; informed-read all
+      67 blind to gro/; compute significance (L8) + uptake/CD-index (real graph, join by DOI) + composite;
+      Spearman-correlate metric vs informed rating. Launched as wf_4393bd93-d80 (~130 agents). Also wrote a
+      brief 3-page intermediate PDF paper (the N64 landmark result) in the house style. Evans content/context
+      novelty NOTED as deferred (discussion / candidate fix if the metric fails on new work), not built.
+    evidence: ["research/metrics/v5-breakthrough/paper-intermediate.pdf", "research/metrics/v5-breakthrough/corpus/ (recent_results.* pending workflow)"]
+    also_depends_on: [N64]
+    status: open
+  - id: N66
+    type: experiment
+    provenance: ai-executed
+    timestamp: "2026-07-09T13:20"
+    title: "Full breakthrough evaluation: 66 recent ARAs, SOTA-grounded 3-persona expert panel, held-out 40/26 split, 16-4-2-1 metric design tournament"
+    description: >
+      Resolves N65. All 66 recent AD papers GRO-compiled with L8 sidecars; all 66 SOTA anchors genuinely
+      resolved (references + live OpenAlex). Ground truth = blind 3-persona panel (trialist/neuroscientist/
+      metascientist) each given a prior-art reading list (titles/years, NOT the metric's overlap scores) and
+      rating advance-beyond-SOTA 0-100; score = MEAN of judges. 40 train / 26 test stratified split; formula
+      search on train only, test scored once by organizer. 16-4-2-1 critique-carrying tournament (Sonnet
+      contestants; judges requested Fable but silently ran Opus). All correlations recomputed from raw data.
+    result: >
+      Shipped significance composite rho~0.30 (all 66). Best metric = single feature contrib_wmean, rho~0.57
+      held-out with NO train->test gap. Tournament winner (depth x novelty x confidence) 0.77 train -> 0.53
+      test (overfit). Ceiling (leave-one-judge-out, single judge vs panel) = 0.97. Metric at ~59% of ceiling;
+      residual gap structured (genre confusions), not noise.
+    evidence: ["research/metrics/v5-breakthrough/RESULTS_PAPER.pdf", "research/metrics/v5-breakthrough/corpus/tournament16_result.json", "research/metrics/v5-breakthrough/corpus/apply_formula.py"]
+    also_depends_on: [N65, N61]
+    status: resolved
+  - id: N67
+    type: dead_end
+    provenance: ai-executed
+    timestamp: "2026-07-09T14:10"
+    title: "Subtracting delta/n_deltas as a report-suppressor (the 'delta hack')"
+    hypothesis: "Reports pile up quantified deltas, so subtracting delta_max/n_deltas from a depth core suppresses report-genre papers and improves breakthrough ranking."
+    failure_mode: >
+      Held-out: delta-hack v1 = 0.71 train -> 0.45 test, WORSE than plain depth (0.57). delta is a CONFOUND
+      PROXY (correlates with report-genre only in this corpus), not a causal inverse construct. Misfires on
+      genuine discoveries that legitimately report big numbers (aki26, expert 68, delta_max 1.0).
+    lesson: >
+      A negatively-correlated feature may be sign-flipped ONLY if it is a true inverse construct (novelty =
+      1 - anchor_overlap: causal), not a corpus-specific confound proxy. Test: would intervening on the feature
+      causally change breakthrough-ness?
+    also_depends_on: [N66]
+    status: resolved
+  - id: N68
+    type: dead_end
+    provenance: ai-executed
+    timestamp: "2026-07-09T14:20"
+    title: "Elaborate multi-term formulas (tournament winner: depth x novelty x resolution-confidence)"
+    hypothesis: "A richer metric combining contribution depth, prior-art novelty, and anchor confidence beats plain depth."
+    failure_mode: >
+      Every elaboration climbed TRAIN rho and failed to transfer. Winner 0.77 train -> 0.53 test; novelty-alone
+      0.63 -> 0.27 (corpus-specific). The 16-4-2-1 tournament, optimizing train rho, walked into overfitting 40
+      points. Nothing beat the one-feature contrib_wmean (0.57) on held-out data.
+    lesson: "On 40-66 points, formula complexity buys overfitting not signal; a held-out split is essential — train rho is misleading. Occam: adopt contrib_wmean."
+    also_depends_on: [N66]
+    status: resolved
+  - id: N69
+    type: decision
+    provenance: ai-suggested
+    timestamp: "2026-07-09T15:20"
+    title: "Adopt contrib_wmean as the breakthrough triage metric; report the ceiling, not a clever formula"
+    choice: "Ship the single-feature metric (contrib_wmean, rho~0.57 held-out) and frame the paper around the measured ceiling (0.97) and the structured ~0.40 gap."
+    alternatives: ["ship the tournament winner (overfit)", "ship the delta-hack (refuted N67)"]
+    evidence: ["research/metrics/v5-breakthrough/RESULTS_PAPER.pdf"]
+    also_depends_on: [N66, N67, N68]
+    status: resolved
+  - id: N70
+    type: question
+    provenance: ai-suggested
+    timestamp: "2026-07-09T15:30"
+    title: "Shared-LLM-bias: is the 0.57 real, or two LLMs agreeing with themselves?"
+    description: >
+      Signal (contrib_wmean, an LLM reading) and target (LLM panel, inter-judge rho 0.96 — implausibly high for
+      independent humans) may share a model prior. Decisive cheap test: run contrib_wmean on a second non-AD
+      corpus, ideally with human ratings. If 0.57 holds, metric is real; if it collapses, it is an echo.
+    status: open

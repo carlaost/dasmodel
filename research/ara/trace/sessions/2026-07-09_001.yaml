@@ -1,0 +1,47 @@
+session:
+  id: "2026-07-09_001"
+  date: "2026-07-09"
+  started: "2026-07-08T02:30"
+  last_turn: "2026-07-09T23:10"
+  turn_count: 1
+  summary: >
+    Executed the breakthrough-metric program (N61) end-to-end. GRO-compiled 66 recent AD papers with L8
+    sidecars; resolved all 66 SOTA anchors (references + OpenAlex, ~2.9M tok). Built ground truth: blind
+    SOTA-grounded 3-persona expert panel (prior-art reading list, mean aggregation), all 66 judged. 40/26
+    held-out split. Ran 16-4-2-1 critique tournament (Sonnet contestants; judges fell back Opus). RESULT: shipped
+    significance composite rho~0.30 (C17); best metric = single feature contrib_wmean rho~0.57 held-out with no
+    overfit gap, all elaborations overfit (C18, N67/N68 dead-ends); achievable ceiling 0.97 => metric at ~59%,
+    gap structured (C19); generalizing signal is compiler's reading not GRO machinery (C20). Adopted contrib_wmean
+    (N69). Wrote+rendered RESULTS_PAPER (md/html/pdf, ceiling-as-abstract). 3 GRO extensions surfaced (O38-O40).
+    Open: shared-LLM-bias 2nd-corpus test (N70). Dogfood: this run recorded into ara/.
+events_logged:
+  - { turn: 1, type: experiment, id: N66, routing: direct, provenance: ai-executed, summary: "66-paper eval + SOTA-grounded panel + 40/26 split + 16-4-2-1 tournament; contrib_wmean 0.57 held-out, ceiling 0.97" }
+  - { turn: 1, type: dead_end, id: N67, routing: direct, provenance: ai-executed, summary: "delta-subtraction hack refuted (0.45 held-out, confound proxy)" }
+  - { turn: 1, type: dead_end, id: N68, routing: direct, provenance: ai-executed, summary: "elaborate multi-term formulas overfit (winner 0.77 train -> 0.53 test)" }
+  - { turn: 1, type: decision, id: N69, routing: direct, provenance: ai-suggested, summary: "adopt contrib_wmean; frame paper on ceiling" }
+  - { turn: 1, type: question, id: N70, routing: direct, provenance: ai-suggested, summary: "shared-LLM-bias: validate on 2nd non-AD corpus + human raters" }
+  - { turn: 1, type: observation, id: O38, routing: staged, provenance: ai-executed, summary: "GRO ext: normalized genre.primary (highest-confidence fix)" }
+  - { turn: 1, type: observation, id: O39, routing: staged, provenance: ai-executed, summary: "GRO ext: downstream_assessment stance edge (highest ceiling)" }
+  - { turn: 1, type: observation, id: O40, routing: staged, provenance: ai-executed, summary: "GRO ext: standalone anchor_resolution_confidence (bug fix)" }
+claims_touched:
+  - { id: C17, action: created, turn: 1 }
+  - { id: C18, action: created, turn: 1 }
+  - { id: C19, action: created, turn: 1 }
+  - { id: C20, action: created, turn: 1 }
+ai_actions:
+  - turn: 1
+    action: "Full breakthrough evaluation + tournament + paper; recorded run into ara/ (dogfood)"
+    provenance: ai-executed
+    files_changed: ["research/metrics/v5-breakthrough/RESULTS_PAPER.md", "research/metrics/v5-breakthrough/RESULTS_PAPER.pdf", "research/metrics/v5-breakthrough/corpus/apply_formula.py", "research/metrics/v5-breakthrough/corpus/split.json", "research/metrics/v5-breakthrough/corpus/FEATURES.md", "research/metrics/v5-breakthrough/tournament16_workflow.js"]
+key_context:
+  - turn: 1
+    excerpt: "User: 'only marginally beating the delta hack right... worth complicating it?' -> triggered the held-out comparison that showed plain depth (0.57) beats all elaborations (N68, C18)."
+  - turn: 1
+    excerpt: "User: 'how far from the expert judges were our metrics / have we hit a ceiling' -> computed leave-one-judge-out ceiling 0.97; metric at ~59% (C19)."
+open_threads:
+  - "N70: validate contrib_wmean on a second non-AD corpus with human raters (shared-LLM-bias test) — gates whether GRO extensions are worth building"
+  - "Build normalized genre.primary shape (O38) — highest-confidence path above 0.57"
+  - "GitHub push of RESULTS_PAPER + corpus to carlaost/gro"
+ai_suggestions_pending:
+  - "O38-O40 GRO extensions staged, not yet user-affirmed"
+  - "N69 adopt contrib_wmean (ai-suggested), not yet user-affirmed"

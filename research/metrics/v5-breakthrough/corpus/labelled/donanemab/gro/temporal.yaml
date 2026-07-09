@@ -1,0 +1,17 @@
+# Temporal spine.
+publication_date: 2023-07-17          # JAMA 2023;330(6):512-527 (July 17, 2023 issue)
+precedence_date: 2023
+cutoff_date: 2023
+trial_dates:
+  enrollment_start: 2020-06
+  enrollment_end: 2021-11
+  last_primary_outcome_visit: 2023-04
+corpus_window:
+  start: 2023
+  end: 2026
+  rationale: "Downstream uptake could form between publication (2023) and the corpus observation date (2026)."
+predecessor_dates:
+  donanemab_phase2: 2021       # R001
+  lecanemab_clarityad: 2023    # R002 (Jan 2023)
+  aducanumab_emerge: 2022      # R003
+downstream_note: "Young record (2023) relative to the window. The corpus edges layer (corpus/edges.yaml) is maintained at corpus scope; sparse downstream edges here should be read as corpus-boundedness / not-yet-determined, NOT as failed-to-become."

@@ -1,0 +1,14 @@
+# Entities (EN-*).
+entities:
+  - {id: EN-DRUG-DONANEMAB, type: intervention, name: "donanemab", note: "IgG1 mAb targeting a pyroglutamate-modified form of deposited amyloid-beta (N3pG)"}
+  - {id: EN-TRIAL-TBA2, type: trial, name: "TRAILBLAZER-ALZ 2", note: "phase 3 RCT, NCT04437511"}
+  - {id: EN-SPONSOR-LILLY, type: organization, name: "Eli Lilly and Company", note: "sponsor"}
+  - {id: EN-COND-EARLYAD, type: condition, name: "early symptomatic Alzheimer disease", note: "MCI or mild dementia due to AD"}
+  - {id: EN-OUTCOME-IADRS, type: outcome_measure, name: "integrated Alzheimer Disease Rating Scale (iADRS)", note: "range 0-144; lower = worse; primary outcome"}
+  - {id: EN-OUTCOME-CDRSB, type: outcome_measure, name: "Clinical Dementia Rating-Sum of Boxes (CDR-SB)", note: "range 0-18; higher = worse; key secondary"}
+  - {id: EN-BIO-AMYLOID-PET, type: biomarker, name: "amyloid PET", note: "enrollment/clearance biomarker"}
+  - {id: EN-BIO-TAU-PET, type: biomarker, name: "tau PET (flortaucipir)", note: "stratification: low/medium vs high tau"}
+  - {id: EN-AE-ARIA-E, type: adverse_event, name: "amyloid-related imaging abnormality - edema/effusion (ARIA-E)"}
+  - {id: EN-AE-INFUSION, type: adverse_event, name: "infusion-related reaction"}
+  - {id: EN-DRUG-LECANEMAB, type: comparator_intervention, name: "lecanemab", note: "anti-protofibril mAb; CLARITY-AD comparator"}
+  - {id: EN-DRUG-ADUCANUMAB, type: comparator_intervention, name: "aducanumab", note: "first FDA-approved anti-amyloid mAb; EMERGE/ENGAGE"}

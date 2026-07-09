@@ -1,0 +1,36 @@
+# Comparative deltas (D##). claimed_value = THIS paper's Q##; baseline_value = prior work's XQ##.
+# All absolute/relative deltas are compiler-computed (delta.abs.v1 / delta.rel.v1) on canonical units;
+# author-entered deltas are not used. Sign convention noted per delta.
+deltas:
+  - id: D01
+    description: "iADRS treatment effect (low/medium tau): donanemab phase 3 vs donanemab phase 2. Point estimate near-identical; the advance is robustness (n 1736 vs 257; P<.001 vs P=.04; CI 1.88-4.62 vs 0.12-6.27)."
+    delta_status: quantified
+    claimed_value: Q03          # 3.25 (this paper, low/medium tau)
+    baseline_value: XQ01        # 3.20 (donanemab phase 2)
+    absolute_delta: 0.05        # 3.25 - 3.20; positive = slightly more slowing (higher iADRS diff = more benefit)
+    relative_delta: 0.016       # 0.05 / 3.20
+    baseline_verification: source_verified
+    baseline_ref: R001
+    rationale: "Same drug/outcome/timepoint; near-identical effect size CONFIRMED at ~7x sample size with far tighter CI. The breakthrough is confirmatory power, not a larger point estimate."
+
+  - id: D02
+    description: "CDR-SB treatment effect (low/medium tau) vs lecanemab CLARITY-AD. Donanemab shows numerically larger absolute slowing."
+    delta_status: quantified
+    claimed_value: Q09          # -0.67 (this paper, low/medium tau)
+    baseline_value: XQ02        # -0.45 (lecanemab)
+    absolute_delta: -0.22       # -0.67 - (-0.45); more negative = greater slowing of decline
+    relative_delta: 0.489       # |0.22| / |0.45| = ~49% larger absolute CDR-SB effect
+    baseline_verification: source_verified
+    baseline_ref: R002
+    rationale: "Cross-trial comparison (NOT head-to-head): different antibody, dosing, tau-stratified population, and 76-wk vs 18-mo windows. Direction is robust but magnitude should be read cautiously."
+
+  - id: D03
+    description: "CDR-SB treatment effect (combined population) vs lecanemab CLARITY-AD."
+    delta_status: quantified
+    claimed_value: Q12          # -0.70 (this paper, combined)
+    baseline_value: XQ02        # -0.45 (lecanemab)
+    absolute_delta: -0.25       # -0.70 - (-0.45)
+    relative_delta: 0.556       # |0.25| / |0.45|
+    baseline_verification: source_verified
+    baseline_ref: R002
+    rationale: "Same cross-trial caveat as D02; combined-population estimate included because CLARITY-AD reported a single (non-tau-stratified) population."

@@ -1,0 +1,15 @@
+Prior-work baseline (source-verified) for delta ledger:
+
+Janelidze S, et al. "Plasma P-tau181 in Alzheimer's disease: relationship to other
+biomarkers, differential diagnosis, neuropathology and longitudinal progression to
+Alzheimer's dementia." Nat Med. 2020;26:379-386. DOI: 10.1038/s41591-020-0755-1
+
+Verbatim from abstract (Europe PMC, fetched 2026-07-08):
+"It correlated with CSF P-tau181 and predicted positive Tau positron emission
+tomography (PET) scans (area under the curve (AUC) = 0.87-0.91 for different brain
+regions). Plasma P-tau181 differentiated AD dementia from non-AD neurodegenerative
+diseases with an accuracy similar to that of Tau PET and CSF P-tau181 (AUC = 0.94-0.98)"
+
+Barthelemy NR, et al. "Blood plasma phosphorylated-tau isoforms track CNS change in
+Alzheimer's disease." J Exp Med. 2020;217(11):e20200861. DOI: 10.1084/jem.20200861
+(contemporaneous MS-based plasma p-tau217 work)

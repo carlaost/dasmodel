@@ -1,0 +1,494 @@
+[
+  {
+    "name": "lecanemab",
+    "label": "POSITIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/.claude/worktrees/wf_a3176248-fee-1/research/metrics/v5-breakthrough/corpus/labelled/lecanemab/gro",
+    "gro_present": true,
+    "significance": 0.8065,
+    "contribution": {
+      "score": 0.5162,
+      "peak": 0.574,
+      "wmean": 0.4295,
+      "n": 3,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 1.0,
+      "max": 1.0,
+      "frac_quant_verified": 1.0,
+      "n_deltas": 2,
+      "n_quant_verified": 2,
+      "status_counts": {
+        "quantified": 2
+      }
+    },
+    "anchor": {
+      "score": 1.0,
+      "n_neighbors": 4,
+      "provenance": "unspecified",
+      "second_resolver": 0.71,
+      "reason": "real neighborhood + second resolver"
+    }
+  },
+  {
+    "name": "donanemab",
+    "label": "POSITIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/metrics/v5-breakthrough/corpus/labelled/donanemab/gro",
+    "gro_present": true,
+    "significance": 0.814,
+    "contribution": {
+      "score": 0.5351,
+      "peak": 0.504,
+      "wmean": 0.5819,
+      "n": 3,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 1.0,
+      "max": 1.0,
+      "frac_quant_verified": 1.0,
+      "n_deltas": 3,
+      "n_quant_verified": 3,
+      "status_counts": {
+        "quantified": 3
+      }
+    },
+    "anchor": {
+      "score": 1.0,
+      "n_neighbors": 3,
+      "provenance": "unspecified",
+      "second_resolver": 0.7,
+      "reason": "real neighborhood + second resolver"
+    }
+  },
+  {
+    "name": "ptau217",
+    "label": "POSITIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/.claude/worktrees/wf_a3176248-fee-3/research/metrics/v5-breakthrough/corpus/labelled/ptau217/gro",
+    "gro_present": true,
+    "significance": 0.753,
+    "contribution": {
+      "score": 0.5824,
+      "peak": 0.504,
+      "wmean": 0.7,
+      "n": 4,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.8,
+      "max": 1.0,
+      "frac_quant_verified": 0.3333,
+      "n_deltas": 6,
+      "n_quant_verified": 2,
+      "status_counts": {
+        "quantified": 5,
+        "qualitative_only": 1
+      }
+    },
+    "anchor": {
+      "score": 1.0,
+      "n_neighbors": 6,
+      "provenance": "unspecified",
+      "second_resolver": 0.66,
+      "reason": "real neighborhood + second resolver"
+    }
+  },
+  {
+    "name": "dam_microglia",
+    "label": "POSITIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/.claude/worktrees/wf_a3176248-fee-4/research/metrics/v5-breakthrough/corpus/labelled/dam_microglia/gro",
+    "gro_present": true,
+    "significance": 0.5266,
+    "contribution": {
+      "score": 0.6665,
+      "peak": 0.63,
+      "wmean": 0.7213,
+      "n": 4,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.35,
+      "max": 0.5,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 3,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "quantified": 2,
+        "qualitative_only": 1
+      }
+    },
+    "anchor": {
+      "score": 0.6,
+      "n_neighbors": 4,
+      "provenance": "unspecified",
+      "second_resolver": null,
+      "reason": "real neighborhood, single resolver"
+    }
+  },
+  {
+    "name": "nia_aa_framework",
+    "label": "POSITIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/.claude/worktrees/wf_a3176248-fee-5/research/metrics/v5-breakthrough/corpus/labelled/nia_aa_framework/gro",
+    "gro_present": true,
+    "significance": 0.7565,
+    "contribution": {
+      "score": 0.7912,
+      "peak": 0.82,
+      "wmean": 0.7479,
+      "n": 4,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.8,
+      "max": 1.0,
+      "frac_quant_verified": 0.3333,
+      "n_deltas": 3,
+      "n_quant_verified": 1,
+      "status_counts": {
+        "quantified": 2,
+        "qualitative_only": 1
+      }
+    },
+    "anchor": {
+      "score": 0.6,
+      "n_neighbors": 5,
+      "provenance": "unspecified",
+      "second_resolver": null,
+      "reason": "real neighborhood, single resolver"
+    }
+  },
+  {
+    "name": "guo25c",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/guo25c-the-disease-burden-risk-factors-and/gro",
+    "gro_present": true,
+    "significance": 0.1892,
+    "contribution": {
+      "score": 0.3029,
+      "peak": 0.294,
+      "wmean": 0.3161,
+      "n": 3,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.07,
+      "max": 0.1,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 5,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "claimed_unresolved": 4,
+        "not_claimed": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 4,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  },
+  {
+    "name": "hao25",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/hao25-trend-analysis-and-future-predictions-of/gro",
+    "gro_present": true,
+    "significance": 0.2508,
+    "contribution": {
+      "score": 0.422,
+      "peak": 0.42,
+      "wmean": 0.425,
+      "n": 2,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.105,
+      "max": 0.15,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 2,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "qualitative_only": 1,
+        "not_claimed": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 4,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  },
+  {
+    "name": "yu25",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/yu25-global-mortality-prevalence-and-disability-adjusted/gro",
+    "gro_present": true,
+    "significance": 0.2784,
+    "contribution": {
+      "score": 0.2909,
+      "peak": 0.28,
+      "wmean": 0.3071,
+      "n": 3,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.105,
+      "max": 0.15,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 2,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "qualitative_only": 2
+      }
+    },
+    "anchor": {
+      "score": 0.6,
+      "n_neighbors": 3,
+      "provenance": "unspecified",
+      "second_resolver": null,
+      "reason": "real neighborhood, single resolver"
+    }
+  },
+  {
+    "name": "ami25",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/ami25-prevalence-deaths-and-disability-adjusted-life/gro",
+    "gro_present": true,
+    "significance": 0.326,
+    "contribution": {
+      "score": 0.3651,
+      "peak": 0.364,
+      "wmean": 0.3667,
+      "n": 2,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.35,
+      "max": 0.5,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 4,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "quantified": 3,
+        "qualitative_only": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 4,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  },
+  {
+    "name": "zhu25b",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/zhu25b-global-burden-of-alzheimer-s-disease/gro",
+    "gro_present": true,
+    "significance": 0.2226,
+    "contribution": {
+      "score": 0.1064,
+      "peak": 0.093,
+      "wmean": 0.1265,
+      "n": 2,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.35,
+      "max": 0.5,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 4,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "quantified": 3,
+        "not_claimed": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 1,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  },
+  {
+    "name": "wan25c",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/wan25c-global-burden-of-alzheimer-s-disease/gro",
+    "gro_present": true,
+    "significance": 0.3362,
+    "contribution": {
+      "score": 0.3904,
+      "peak": 0.315,
+      "wmean": 0.5036,
+      "n": 3,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.35,
+      "max": 0.5,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 4,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "quantified": 2,
+        "qualitative_only": 1,
+        "not_claimed": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 0,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  },
+  {
+    "name": "raz25",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/raz25-advancements-in-deep-learning-for-early/gro",
+    "gro_present": true,
+    "significance": 0.1836,
+    "contribution": {
+      "score": 0.329,
+      "peak": 0.315,
+      "wmean": 0.35,
+      "n": 2,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.105,
+      "max": 0.15,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 1,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "qualitative_only": 1
+      }
+    },
+    "anchor": {
+      "score": 0.05,
+      "n_neighbors": 0,
+      "provenance": "unspecified",
+      "second_resolver": null,
+      "reason": "empty neighborhood -> penalize ambiguity (resolver-limited, not first-in-field)"
+    }
+  },
+  {
+    "name": "kho25",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/kho25-explainable-artificial-intelligence-in-neuroimaging-of/gro",
+    "gro_present": true,
+    "significance": 0.1595,
+    "contribution": {
+      "score": 0.3038,
+      "peak": 0.273,
+      "wmean": 0.35,
+      "n": 1,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.07,
+      "max": 0.1,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 1,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "not_claimed": 1
+      }
+    },
+    "anchor": {
+      "score": 0.05,
+      "n_neighbors": 0,
+      "provenance": "unspecified",
+      "second_resolver": null,
+      "reason": "empty neighborhood -> penalize ambiguity (resolver-limited, not first-in-field)"
+    }
+  },
+  {
+    "name": "ali26",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/ali26-privacy-preserving-multimodal-fusion-for-alzheimer/gro",
+    "gro_present": true,
+    "significance": 0.1283,
+    "contribution": {
+      "score": 0.1158,
+      "peak": 0.093,
+      "wmean": 0.15,
+      "n": 4,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.105,
+      "max": 0.15,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 4,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "claimed_unresolved": 2,
+        "qualitative_only": 1,
+        "not_claimed": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 4,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  },
+  {
+    "name": "aks25",
+    "label": "NEGATIVE",
+    "gro_dir": "/Users/carlaostmann/code/dasmodel/research/ara-library/aks25-an-explainable-web-based-diagnostic-system/gro",
+    "gro_present": true,
+    "significance": 0.1583,
+    "contribution": {
+      "score": 0.1908,
+      "peak": 0.175,
+      "wmean": 0.2145,
+      "n": 3,
+      "n_puffery": 0,
+      "n_unadjudicated": 0
+    },
+    "delta": {
+      "score": 0.105,
+      "max": 0.15,
+      "frac_quant_verified": 0.0,
+      "n_deltas": 3,
+      "n_quant_verified": 0,
+      "status_counts": {
+        "qualitative_only": 2,
+        "claimed_unresolved": 1
+      }
+    },
+    "anchor": {
+      "score": 0.2,
+      "n_neighbors": 4,
+      "provenance": "compiler_estimated",
+      "second_resolver": null,
+      "reason": "compiler_estimated (not resolver-produced) -> penalized"
+    }
+  }
+]

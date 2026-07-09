@@ -1,0 +1,10 @@
+# Resolver-produced precedence neighborhood. precedence_date = publication year.
+precedence_date: 2023
+cutoff_date: 2023
+neighborhood:
+  - {ref: R001, overlap: 0.82, contemporaneous_uncited: false}   # donanemab phase 2 (same drug/outcome) - direct predecessor
+  - {ref: R002, overlap: 0.71, contemporaneous_uncited: false}   # lecanemab CLARITY-AD (2023, anti-amyloid phase 3)
+  - {ref: R003, overlap: 0.55, contemporaneous_uncited: false}   # aducanumab EMERGE/ENGAGE (prior class precedent)
+overlap_jaccard_second_resolver: 0.70
+retrospective_resolution: {gap_days: 0}
+note: "Not first-in-field: a dense, well-populated anti-amyloid phase 3 neighborhood in 2021-2023. Novelty rests on being the definitive robust positive donanemab phase 3 (CT01) and its tau-PET-stratified design (CT02), not on precedence emptiness."

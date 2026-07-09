@@ -1,0 +1,12 @@
+# Genre / artifact-type descriptor.
+genre:
+  primary: pivotal_phase3_rct
+  secondary: disease_modifying_therapy_efficacy_trial
+  empirical_content: primary_measurement       # measured effect sizes + safety event rates
+  evidence_mode: randomized_controlled_experiment
+  reference_count: null                          # not extractable from abstract-only source
+  self_described_scope: "efficacy and adverse events of donanemab in early symptomatic AD"
+  deliverable_type: clinical_efficacy_and_safety_result
+  quantities_nature: "measured treatment differences (iADRS, CDR-SB) with 95% CIs and P values, plus adverse-event rates and cohort counts"
+  breakthrough_axis: confirmatory_efficacy_and_trial_design   # first fully-powered robust positive phase 3 for donanemab; tau-PET-stratified design
+  notes: "Landmark by clinical impact: a robust (23/24 gated outcomes significant) positive phase 3 anti-amyloid trial. Deltas are genuine cross-trial effect-size comparisons vs donanemab phase 2 and lecanemab CLARITY-AD (both source-verified)."

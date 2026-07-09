@@ -1,0 +1,417 @@
+{
+  "top_shared_ancestors": [
+    {
+      "title": "Lecanemab in Early Alzheimer\u2019s Disease",
+      "year": 2022,
+      "cited_by": 5277,
+      "doi": "https://doi.org/10.1056/nejmoa2212948",
+      "shared_by_n_corpus_papers": 72
+    },
+    {
+      "title": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+      "year": 2024,
+      "cited_by": 2282,
+      "doi": "https://doi.org/10.1002/alz.13859",
+      "shared_by_n_corpus_papers": 66
+    },
+    {
+      "title": "Donanemab in Early Symptomatic Alzheimer Disease",
+      "year": 2023,
+      "cited_by": 2599,
+      "doi": "https://doi.org/10.1001/jama.2023.13239",
+      "shared_by_n_corpus_papers": 61
+    },
+    {
+      "title": "NIA\u2010AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "year": 2018,
+      "cited_by": 10439,
+      "doi": "https://doi.org/10.1016/j.jalz.2018.02.018",
+      "shared_by_n_corpus_papers": 46
+    },
+    {
+      "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "year": 2024,
+      "cited_by": 3056,
+      "doi": "https://doi.org/10.1016/s0140-6736(24)01296-0",
+      "shared_by_n_corpus_papers": 42
+    },
+    {
+      "title": "2024 Alzheimer's disease facts and figures",
+      "year": 2024,
+      "cited_by": 2234,
+      "doi": "https://doi.org/10.1002/alz.13809",
+      "shared_by_n_corpus_papers": 40
+    },
+    {
+      "title": "Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Stud",
+      "year": 2022,
+      "cited_by": 5193,
+      "doi": "https://doi.org/10.1016/s2468-2667(21)00249-8",
+      "shared_by_n_corpus_papers": 37
+    },
+    {
+      "title": "Alzheimer's disease",
+      "year": 2021,
+      "cited_by": 4918,
+      "doi": "https://doi.org/10.1016/s0140-6736(20)32205-4",
+      "shared_by_n_corpus_papers": 36
+    },
+    {
+      "title": "A Unique Microglia Type Associated with Restricting Development of Alzheimer\u2019s Disease",
+      "year": 2017,
+      "cited_by": 5644,
+      "doi": "https://doi.org/10.1016/j.cell.2017.05.018",
+      "shared_by_n_corpus_papers": 33
+    },
+    {
+      "title": "Single-cell transcriptomic analysis of Alzheimer\u2019s disease",
+      "year": 2019,
+      "cited_by": 2737,
+      "doi": "https://doi.org/10.1038/s41586-019-1195-2",
+      "shared_by_n_corpus_papers": 32
+    },
+    {
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "year": 2020,
+      "cited_by": 10296,
+      "doi": "https://doi.org/10.1016/s0140-6736(20)30367-6",
+      "shared_by_n_corpus_papers": 28
+    },
+    {
+      "title": "2023 Alzheimer's disease facts and figures",
+      "year": 2023,
+      "cited_by": 3127,
+      "doi": "https://doi.org/10.1002/alz.13016",
+      "shared_by_n_corpus_papers": 24
+    },
+    {
+      "title": "Discriminative Accuracy of Plasma Phospho-tau217 for Alzheimer Disease vs Other Neurodegenerative Disorders",
+      "year": 2020,
+      "cited_by": 1558,
+      "doi": "https://doi.org/10.1001/jama.2020.12134",
+      "shared_by_n_corpus_papers": 24
+    },
+    {
+      "title": "Neuropathological stageing of Alzheimer-related changes",
+      "year": 1991,
+      "cited_by": 16345,
+      "doi": "https://doi.org/10.1007/bf00308809",
+      "shared_by_n_corpus_papers": 23
+    },
+    {
+      "title": "Donanemab in Early Alzheimer\u2019s Disease",
+      "year": 2021,
+      "cited_by": 1697,
+      "doi": "https://doi.org/10.1056/nejmoa2100708",
+      "shared_by_n_corpus_papers": 23
+    },
+    {
+      "title": "Lecanemab: Appropriate Use Recommendations",
+      "year": 2023,
+      "cited_by": 809,
+      "doi": "https://doi.org/10.14283/jpad.2023.30",
+      "shared_by_n_corpus_papers": 23
+    },
+    {
+      "title": "Human microglial state dynamics in Alzheimer\u2019s disease progression",
+      "year": 2023,
+      "cited_by": 418,
+      "doi": "https://doi.org/10.1016/j.cell.2023.08.037",
+      "shared_by_n_corpus_papers": 23
+    },
+    {
+      "title": "Blood Biomarkers to Detect Alzheimer Disease in Primary Care and Secondary Care",
+      "year": 2024,
+      "cited_by": 333,
+      "doi": "https://doi.org/10.1001/jama.2024.13855",
+      "shared_by_n_corpus_papers": 23
+    },
+    {
+      "title": "The TREM2-APOE Pathway Drives the Transcriptional Phenotype of Dysfunctional Microglia in Neurodegenerative Diseases",
+      "year": 2017,
+      "cited_by": 3063,
+      "doi": "https://doi.org/10.1016/j.immuni.2017.08.008",
+      "shared_by_n_corpus_papers": 22
+    },
+    {
+      "title": "New insights into the genetic etiology of Alzheimer\u2019s disease and related dementias",
+      "year": 2022,
+      "cited_by": 2487,
+      "doi": "https://doi.org/10.1038/s41588-022-01024-z",
+      "shared_by_n_corpus_papers": 22
+    },
+    {
+      "title": "Global, regional, and national burden of Alzheimer's disease and other dementias, 1990\u20132019",
+      "year": 2022,
+      "cited_by": 669,
+      "doi": "https://doi.org/10.3389/fnagi.2022.937486",
+      "shared_by_n_corpus_papers": 22
+    },
+    {
+      "title": "Global, regional, and national burden of Alzheimer's disease and other dementias, 1990\u20132016: a systematic analysis for the Global Burden of ",
+      "year": 2018,
+      "cited_by": 2473,
+      "doi": "https://doi.org/10.1016/s1474-4422(18)30403-4",
+      "shared_by_n_corpus_papers": 21
+    },
+    {
+      "title": "The Centiloid Project: Standardizing quantitative amyloid plaque estimation by PET",
+      "year": 2014,
+      "cited_by": 1336,
+      "doi": "https://doi.org/10.1016/j.jalz.2014.07.003",
+      "shared_by_n_corpus_papers": 21
+    },
+    {
+      "title": "Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience to Alzheimer\u2019s disease pathology",
+      "year": 2023,
+      "cited_by": 486,
+      "doi": "https://doi.org/10.1016/j.cell.2023.08.039",
+      "shared_by_n_corpus_papers": 19
+    },
+    {
+      "title": "Alzheimer Disease as a Clinical-Biological Construct\u2014An International Working Group Recommendation",
+      "year": 2024,
+      "cited_by": 355,
+      "doi": "https://doi.org/10.1001/jamaneurol.2024.3770",
+      "shared_by_n_corpus_papers": 19
+    },
+    {
+      "title": "The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging\u2010Alzheimer's Association workgroup",
+      "year": 2011,
+      "cited_by": 18860,
+      "doi": "https://doi.org/10.1016/j.jalz.2011.03.005",
+      "shared_by_n_corpus_papers": 18
+    },
+    {
+      "title": "Population estimate of people with clinical Alzheimer's disease and mild cognitive impairment in the United States (2020\u20132060)",
+      "year": 2021,
+      "cited_by": 1250,
+      "doi": "https://doi.org/10.1002/alz.12362",
+      "shared_by_n_corpus_papers": 18
+    },
+    {
+      "title": "The Alzheimer's Association appropriate use recommendations for blood biomarkers in Alzheimer's disease",
+      "year": 2022,
+      "cited_by": 589,
+      "doi": "https://doi.org/10.1002/alz.12756",
+      "shared_by_n_corpus_papers": 18
+    },
+    {
+      "title": "Neurotoxic reactive astrocytes are induced by activated microglia",
+      "year": 2017,
+      "cited_by": 8058,
+      "doi": "https://doi.org/10.1038/nature21029",
+      "shared_by_n_corpus_papers": 17
+    },
+    {
+      "title": "Diagnostic Accuracy of a Plasma Phosphorylated Tau 217 Immunoassay for Alzheimer Disease Pathology",
+      "year": 2024,
+      "cited_by": 774,
+      "doi": "https://doi.org/10.1001/jamaneurol.2023.5319",
+      "shared_by_n_corpus_papers": 17
+    },
+    {
+      "title": "Centiloid recommendations for clinical context\u2010of\u2010use from the AMYPAD consortium",
+      "year": 2024,
+      "cited_by": 85,
+      "doi": "https://doi.org/10.1002/alz.14336",
+      "shared_by_n_corpus_papers": 17
+    },
+    {
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE)",
+      "year": 2024,
+      "cited_by": 4506,
+      "doi": "https://doi.org/10.1016/s0140-6736(24)00757-8",
+      "shared_by_n_corpus_papers": 16
+    },
+    {
+      "title": "A single-cell atlas of entorhinal cortex from individuals with Alzheimer\u2019s disease reveals cell-type-specific gene expression regulation",
+      "year": 2019,
+      "cited_by": 1039,
+      "doi": "https://doi.org/10.1038/s41593-019-0539-4",
+      "shared_by_n_corpus_papers": 16
+    },
+    {
+      "title": "Alzheimer's Disease: The Amyloid Cascade Hypothesis",
+      "year": 1992,
+      "cited_by": 7434,
+      "doi": "https://doi.org/10.1126/science.1566067",
+      "shared_by_n_corpus_papers": 15
+    },
+    {
+      "title": "Alzheimer Disease: An Update on Pathobiology and Treatment Strategies",
+      "year": 2019,
+      "cited_by": 3218,
+      "doi": "https://doi.org/10.1016/j.cell.2019.09.001",
+      "shared_by_n_corpus_papers": 15
+    },
+    {
+      "title": "Comprehensive Review on Alzheimer\u2019s Disease: Causes and Treatment",
+      "year": 2020,
+      "cited_by": 2678,
+      "doi": "https://doi.org/10.3390/molecules25245789",
+      "shared_by_n_corpus_papers": 15
+    },
+    {
+      "title": "Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease",
+      "year": 2022,
+      "cited_by": 1330,
+      "doi": "https://doi.org/10.14283/jpad.2022.30",
+      "shared_by_n_corpus_papers": 15
+    },
+    {
+      "title": "Single-cell multiregion dissection of Alzheimer\u2019s disease",
+      "year": 2024,
+      "cited_by": 271,
+      "doi": "https://doi.org/10.1038/s41586-024-07606-7",
+      "shared_by_n_corpus_papers": 15
+    },
+    {
+      "title": "Donanemab: Appropriate use recommendations",
+      "year": 2025,
+      "cited_by": 167,
+      "doi": "https://doi.org/10.1016/j.tjpad.2025.100150",
+      "shared_by_n_corpus_papers": 15
+    },
+    {
+      "title": "Complement and microglia mediate early synapse loss in Alzheimer mouse models",
+      "year": 2016,
+      "cited_by": 3366,
+      "doi": "https://doi.org/10.1126/science.aad8373",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "The neuropathological diagnosis of Alzheimer\u2019s disease",
+      "year": 2019,
+      "cited_by": 3342,
+      "doi": "https://doi.org/10.1186/s13024-019-0333-5",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "Genetic meta-analysis of diagnosed Alzheimer\u2019s disease identifies new risk loci and implicates A\u03b2, tau, immunity and lipid processing",
+      "year": 2019,
+      "cited_by": 3210,
+      "doi": "https://doi.org/10.1038/s41588-019-0358-2",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "National Institute on Aging\u2013Alzheimer\u2019s Association guidelines for the neuropathologic assessment of Alzheimer\u2019s disease: a practical approa",
+      "year": 2011,
+      "cited_by": 2932,
+      "doi": "https://doi.org/10.1007/s00401-011-0910-3",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "The Major Risk Factors for Alzheimer\u2019s Disease: Age, Sex, and Genes Modulate the Microglia Response to A\u03b2 Plaques",
+      "year": 2019,
+      "cited_by": 978,
+      "doi": "https://doi.org/10.1016/j.celrep.2019.03.099",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "Acceptable performance of blood biomarker tests of amyloid pathology \u2014 recommendations from the Global CEO Initiative on Alzheimer\u2019s Disease",
+      "year": 2024,
+      "cited_by": 269,
+      "doi": "https://doi.org/10.1038/s41582-024-00977-5",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "The Role of Amyloid PET in Imaging Neurodegenerative Disorders: A Review",
+      "year": 2022,
+      "cited_by": 243,
+      "doi": "https://doi.org/10.2967/jnumed.121.263195",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "A two-step workflow based on plasma p-tau217 to screen for amyloid \u03b2 positivity with further confirmatory testing only in uncertain cases",
+      "year": 2023,
+      "cited_by": 242,
+      "doi": "https://doi.org/10.1038/s43587-023-00471-5",
+      "shared_by_n_corpus_papers": 14
+    },
+    {
+      "title": "Association of Amyloid Positron Emission Tomography With Subsequent Change in Clinical Management Among Medicare Beneficiaries With Mild Cog",
+      "year": 2019,
+      "cited_by": 667,
+      "doi": "https://doi.org/10.1001/jama.2019.2000",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Highly accurate blood test for Alzheimer\u2019s disease is similar or superior to clinical cerebrospinal fluid tests",
+      "year": 2024,
+      "cited_by": 414,
+      "doi": "https://doi.org/10.1038/s41591-024-02869-z",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Clinical diagnosis of Alzheimer's disease",
+      "year": 1984,
+      "cited_by": 28001,
+      "doi": "https://doi.org/10.1212/wnl.34.7.939",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer\u2019s disease risk",
+      "year": 2019,
+      "cited_by": 2531,
+      "doi": "https://doi.org/10.1038/s41588-018-0311-9",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Human and mouse single-nucleus transcriptomics reveal TREM2-dependent and TREM2-independent cellular responses in Alzheimer\u2019s disease",
+      "year": 2020,
+      "cited_by": 1209,
+      "doi": "https://doi.org/10.1038/s41591-019-0695-9",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Single cell RNA sequencing of human microglia uncovers a subset associated with Alzheimer\u2019s disease",
+      "year": 2020,
+      "cited_by": 777,
+      "doi": "https://doi.org/10.1038/s41467-020-19737-2",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Amyloid-related imaging abnormalities (ARIA): radiological, biological and clinical characteristics",
+      "year": 2023,
+      "cited_by": 354,
+      "doi": "https://doi.org/10.1093/brain/awad188",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Integrated multimodal cell atlas of Alzheimer\u2019s disease",
+      "year": 2024,
+      "cited_by": 264,
+      "doi": "https://doi.org/10.1038/s41593-024-01774-5",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Early Alzheimer\u2019s disease pathology in human cortex involves transient cell states",
+      "year": 2023,
+      "cited_by": 210,
+      "doi": "https://doi.org/10.1016/j.cell.2023.08.005",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Plasma phospho-tau217 for Alzheimer\u2019s disease diagnosis in primary and secondary care using a fully automated platform",
+      "year": 2025,
+      "cited_by": 147,
+      "doi": "https://doi.org/10.1038/s41591-025-03622-w",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Updated appropriate use criteria for amyloid and tau PET: A report from the Alzheimer's Association and Society for Nuclear Medicine and Mol",
+      "year": 2025,
+      "cited_by": 102,
+      "doi": "https://doi.org/10.1002/alz.14338",
+      "shared_by_n_corpus_papers": 13
+    },
+    {
+      "title": "Effect of Collaborative Dementia Care via Telephone and Internet on Quality of Life, Caregiver Well-being, and Health Care Use",
+      "year": 2019,
+      "cited_by": 269,
+      "doi": "https://doi.org/10.1001/jamainternmed.2019.4101",
+      "shared_by_n_corpus_papers": 12
+    }
+  ]
+}

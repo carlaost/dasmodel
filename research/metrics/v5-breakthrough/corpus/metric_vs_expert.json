@@ -1,0 +1,349 @@
+{
+  "n_joined": 55,
+  "spearman": -0.0982,
+  "rows": [
+    {
+      "slug": "ols25-microglial-mechanisms-drive-amyloid-clearance-in",
+      "significance": 0.2814,
+      "expert": 74,
+      "spread": 2
+    },
+    {
+      "slug": "liu25i-single-cell-multiregion-epigenomic-rewiring-in",
+      "significance": 0.2864,
+      "expert": 72,
+      "spread": 12
+    },
+    {
+      "slug": "aki26-molecular-signatures-of-resilience-to-alzheimer",
+      "significance": 0.7967,
+      "expert": 70,
+      "spread": 1
+    },
+    {
+      "slug": "han26-tau-pathological-activity-in-plasma-before",
+      "significance": 0.2599,
+      "expert": 70,
+      "spread": 4
+    },
+    {
+      "slug": "ard25-response-of-spatially-defined-microglia-states",
+      "significance": 0.2313,
+      "expert": 69,
+      "spread": 3
+    },
+    {
+      "slug": "ji25-alzheimer-s-disease-patient-brain-extracts",
+      "significance": 0.2801,
+      "expert": 66,
+      "spread": 4
+    },
+    {
+      "slug": "sal26-plasma-emtbr-tau243-and-p-tau217",
+      "significance": 0.1696,
+      "expert": 61,
+      "spread": 11
+    },
+    {
+      "slug": "huu25-apoe-e4-alzheimer-s-risk-converges",
+      "significance": 0.2942,
+      "expert": 60,
+      "spread": 7
+    },
+    {
+      "slug": "ada26-adult-human-ex-vivo-brain-slices",
+      "significance": 0.4215,
+      "expert": 57,
+      "spread": 14
+    },
+    {
+      "slug": "ave25-uncovering-plaque-glia-niches-in-human",
+      "significance": 0.2886,
+      "expert": 57,
+      "spread": 5
+    },
+    {
+      "slug": "gau25-single-nucleus-and-spatial-transcriptomic-profiling",
+      "significance": 0.3863,
+      "expert": 57,
+      "spread": 14
+    },
+    {
+      "slug": "gon25b-stereo-seq-of-the-prefrontal-cortex",
+      "significance": 0.2864,
+      "expert": 57,
+      "spread": 6
+    },
+    {
+      "slug": "kes25-the-alzheimer-s-disease-diagnosis-and",
+      "significance": 0.226,
+      "expert": 50,
+      "spread": 18
+    },
+    {
+      "slug": "val25-blood-biomarkers-of-alzheimer-s-disease",
+      "significance": 0.2654,
+      "expert": 47,
+      "spread": 13
+    },
+    {
+      "slug": "sal25-trailblazer-alz-4-a-phase-3",
+      "significance": 0.35,
+      "expert": 46,
+      "spread": 14
+    },
+    {
+      "slug": "bec25-a-neuroimmune-cerebral-assembloid-model-to",
+      "significance": 0.2424,
+      "expert": 44,
+      "spread": 2
+    },
+    {
+      "slug": "the25-blood-phosphorylated-tau-for-the-diagnosis",
+      "significance": 0.3196,
+      "expert": 44,
+      "spread": 17
+    },
+    {
+      "slug": "smi25-contribution-of-modifiable-midlife-and-late",
+      "significance": 0.3844,
+      "expert": 42,
+      "spread": 21
+    },
+    {
+      "slug": "tit26-automated-high-throughput-quantification-of-plasma",
+      "significance": 0.3402,
+      "expert": 39,
+      "spread": 7
+    },
+    {
+      "slug": "aku25b-effects-of-medicare-predictors-in-health",
+      "significance": 0.5339,
+      "expert": 38,
+      "spread": 23
+    },
+    {
+      "slug": "jes26-efficacy-and-safety-of-donanemab-in",
+      "significance": 0.6184,
+      "expert": 31,
+      "spread": 16
+    },
+    {
+      "slug": "sim26-multi-modal-graph-neural-network-with",
+      "significance": 0.4869,
+      "expert": 30,
+      "spread": 5
+    },
+    {
+      "slug": "che26-diagnostic-performance-of-plasma-p-tau217",
+      "significance": 0.2133,
+      "expert": 27,
+      "spread": 6
+    },
+    {
+      "slug": "ali26-privacy-preserving-multimodal-fusion-for-alzheimer",
+      "significance": 0.2883,
+      "expert": 24,
+      "spread": 4
+    },
+    {
+      "slug": "ali25-multimodal-self-supervised-learning-for-early",
+      "significance": 0.4199,
+      "expert": 23,
+      "spread": 6
+    },
+    {
+      "slug": "als25-the-role-of-glial-cell-senescence",
+      "significance": 0.2961,
+      "expert": 23,
+      "spread": 4
+    },
+    {
+      "slug": "che25e-apoe4-reprograms-microglial-lipid-metabolism-in",
+      "significance": 0.3736,
+      "expert": 23,
+      "spread": 5
+    },
+    {
+      "slug": "div25-the-microcirculation-the-blood-brain-barrier",
+      "significance": 0.1836,
+      "expert": 22,
+      "spread": 8
+    },
+    {
+      "slug": "pal25-alzheimer-s-association-clinical-practice-guideline",
+      "significance": 0.2768,
+      "expert": 22,
+      "spread": 27
+    },
+    {
+      "slug": "bor25b-harmonized-prevalence-estimates-of-dementia-in",
+      "significance": 0.2658,
+      "expert": 21,
+      "spread": 21
+    },
+    {
+      "slug": "alb26-early-detection-of-alzheimer-s-disease",
+      "significance": 0.4068,
+      "expert": 20,
+      "spread": 1
+    },
+    {
+      "slug": "afi25-vision-and-convolutional-transformers-for-alzheimer",
+      "significance": 0.4406,
+      "expert": 18,
+      "spread": 6
+    },
+    {
+      "slug": "aks25-an-explainable-web-based-diagnostic-system",
+      "significance": 0.3183,
+      "expert": 18,
+      "spread": 2
+    },
+    {
+      "slug": "amo25-regional-differences-in-the-incidence-of",
+      "significance": 0.2613,
+      "expert": 17,
+      "spread": 7
+    },
+    {
+      "slug": "iac25-a-practical-overview-of-the-use",
+      "significance": 0.2069,
+      "expert": 14,
+      "spread": 10
+    },
+    {
+      "slug": "gie25-geographical-inequalities-in-dementia-diagnosis-and",
+      "significance": 0.2961,
+      "expert": 13,
+      "spread": 8
+    },
+    {
+      "slug": "kho25-explainable-artificial-intelligence-in-neuroimaging-of",
+      "significance": 0.1595,
+      "expert": 12,
+      "spread": 10
+    },
+    {
+      "slug": "qi25-alzheimer-s-disease-digital-biomarkers-multidimensional",
+      "significance": 0.2119,
+      "expert": 12,
+      "spread": 9
+    },
+    {
+      "slug": "sor25-barriers-for-access-and-utilization-of",
+      "significance": 0.3702,
+      "expert": 10,
+      "spread": 3
+    },
+    {
+      "slug": "ahm26-machine-learning-and-deep-learning-for",
+      "significance": 0.2936,
+      "expert": 9,
+      "spread": 3
+    },
+    {
+      "slug": "aku25-population-attributable-fractions-associated-with-alzheimer",
+      "significance": 0.3823,
+      "expert": 9,
+      "spread": 4
+    },
+    {
+      "slug": "als26-early-onset-alzheimer-s-disease-mortality",
+      "significance": 0.4067,
+      "expert": 9,
+      "spread": 4
+    },
+    {
+      "slug": "raz25-advancements-in-deep-learning-for-early",
+      "significance": 0.1836,
+      "expert": 9,
+      "spread": 5
+    },
+    {
+      "slug": "ala26-trends-in-alzheimer-s-disease-mortality",
+      "significance": 0.362,
+      "expert": 8,
+      "spread": 2
+    },
+    {
+      "slug": "cum26-alzheimer-s-disease-drug-development-pipeline",
+      "significance": 0.6079,
+      "expert": 8,
+      "spread": 1
+    },
+    {
+      "slug": "ahm26b-trends-and-disparities-in-alzheimer-disease",
+      "significance": 0.488,
+      "expert": 7,
+      "spread": 1
+    },
+    {
+      "slug": "cav25-global-societal-burden-of-alzheimer-s",
+      "significance": 0.1881,
+      "expert": 7,
+      "spread": 1
+    },
+    {
+      "slug": "hao25-trend-analysis-and-future-predictions-of",
+      "significance": 0.2508,
+      "expert": 7,
+      "spread": 1
+    },
+    {
+      "slug": "20226-2026-alzheimer-s-disease-facts-and",
+      "significance": 0.6156,
+      "expert": 6,
+      "spread": 2
+    },
+    {
+      "slug": "ant26-mapea-project-evolution-of-care-for",
+      "significance": 0.425,
+      "expert": 6,
+      "spread": 3
+    },
+    {
+      "slug": "guo25c-the-disease-burden-risk-factors-and",
+      "significance": 0.1892,
+      "expert": 6,
+      "spread": 0
+    },
+    {
+      "slug": "liu25h-global-burden-of-alzheimer-s-disease",
+      "significance": 0.2418,
+      "expert": 6,
+      "spread": 1
+    },
+    {
+      "slug": "wan25c-global-burden-of-alzheimer-s-disease",
+      "significance": 0.3362,
+      "expert": 6,
+      "spread": 0
+    },
+    {
+      "slug": "20225-2025-alzheimer-s-disease-facts-and",
+      "significance": 0.689,
+      "expert": 4,
+      "spread": 3
+    },
+    {
+      "slug": "ami25-prevalence-deaths-and-disability-adjusted-life",
+      "significance": 0.326,
+      "expert": 4,
+      "spread": 2
+    }
+  ],
+  "missing_expert": [
+    "wee25-early-intervention-anti-a-immunotherapy-attenuates",
+    "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms",
+    "wu25-a-2025-update-on-treatment-strategies",
+    "xu25-epidemiological-and-sociodemographic-transitions-in-the",
+    "xu25d-global-incidence-trends-and-projections-of",
+    "yu25-global-mortality-prevalence-and-disability-adjusted",
+    "zha25-assessing-and-projecting-the-global-impacts",
+    "zha25h-a-review-of-multimodal-fusion-based",
+    "zho25-microglia-networks-within-the-tapestry-of",
+    "zhu25b-global-burden-of-alzheimer-s-disease",
+    "zim25-donanemab-in-early-symptomatic-alzheimer-s"
+  ]
+}

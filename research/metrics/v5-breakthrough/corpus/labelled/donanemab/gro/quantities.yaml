@@ -1,0 +1,41 @@
+# THIS paper's quantities (Q##). All copied verbatim from the JAMA abstract; see evidence/quotes.md.
+# Primary empirical trial: these are measured effect sizes, safety event rates, and cohort counts.
+quantities:
+  # --- iADRS, low/medium tau (primary outcome, primary population) ---
+  - {id: Q01, value: -6.02, ci95: [-7.01, -5.03], unit: iADRS_points, meaning: "LSM iADRS change at 76 wk, donanemab, low/medium tau", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q02, value: -9.27, ci95: [-10.23, -8.31], unit: iADRS_points, meaning: "LSM iADRS change at 76 wk, placebo, low/medium tau", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q03, value: 3.25, ci95: [1.88, 4.62], unit: iADRS_points, meaning: "iADRS treatment difference (placebo minus donanemab decline) at 76 wk, low/medium tau; P<.001", location: "Abstract/Results", kind: treatment_difference}
+  # --- iADRS, combined population ---
+  - {id: Q04, value: -10.2, ci95: [-11.22, -9.16], unit: iADRS_points, meaning: "LSM iADRS change at 76 wk, donanemab, combined population", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q05, value: -13.1, ci95: [-14.10, -12.13], unit: iADRS_points, meaning: "LSM iADRS change at 76 wk, placebo, combined population", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q06, value: 2.92, ci95: [1.51, 4.33], unit: iADRS_points, meaning: "iADRS treatment difference at 76 wk, combined population; P<.001", location: "Abstract/Results", kind: treatment_difference}
+  # --- CDR-SB, low/medium tau ---
+  - {id: Q07, value: 1.20, ci95: [1.00, 1.41], unit: CDR-SB_points, meaning: "LSM CDR-SB change at 76 wk, donanemab, low/medium tau", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q08, value: 1.88, ci95: [1.68, 2.08], unit: CDR-SB_points, meaning: "LSM CDR-SB change at 76 wk, placebo, low/medium tau", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q09, value: -0.67, ci95: [-0.95, -0.40], unit: CDR-SB_points, meaning: "CDR-SB treatment difference at 76 wk, low/medium tau; P<.001", location: "Abstract/Results", kind: treatment_difference}
+  # --- CDR-SB, combined population ---
+  - {id: Q10, value: 1.72, ci95: [1.53, 1.91], unit: CDR-SB_points, meaning: "LSM CDR-SB change at 76 wk, donanemab, combined population", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q11, value: 2.42, ci95: [2.24, 2.60], unit: CDR-SB_points, meaning: "LSM CDR-SB change at 76 wk, placebo, combined population", location: "Abstract/Results", kind: measured_effect}
+  - {id: Q12, value: -0.7, ci95: [-0.95, -0.45], unit: CDR-SB_points, meaning: "CDR-SB treatment difference at 76 wk, combined population; P<.001", location: "Abstract/Results", kind: treatment_difference}
+  # --- outcome hierarchy ---
+  - {id: Q13, value: 24, unit: count, meaning: "gated outcomes (primary, secondary, exploratory)", location: "Abstract/Main outcomes", kind: design_count}
+  - {id: Q14, value: 23, unit: count, meaning: "gated outcomes that were statistically significant", location: "Abstract/Results", kind: result_count}
+  # --- safety: ARIA-E ---
+  - {id: Q15, value: 205, value_pct: 24.0, unit: participants, meaning: "ARIA of edema/effusion (ARIA-E), donanemab (24.0%)", location: "Abstract/Results", kind: safety_event}
+  - {id: Q16, value: 52, unit: participants, meaning: "symptomatic ARIA-E, donanemab", location: "Abstract/Results", kind: safety_event}
+  - {id: Q17, value: 18, value_pct: 2.1, unit: participants, meaning: "ARIA-E, placebo (2.1%; 0 symptomatic during study)", location: "Abstract/Results", kind: safety_event}
+  # --- safety: infusion reactions ---
+  - {id: Q18, value: 74, value_pct: 8.7, unit: participants, meaning: "infusion-related reactions, donanemab (8.7%)", location: "Abstract/Results", kind: safety_event}
+  - {id: Q19, value: 4, value_pct: 0.5, unit: participants, meaning: "infusion-related reactions, placebo (0.5%)", location: "Abstract/Results", kind: safety_event}
+  # --- safety: deaths ---
+  - {id: Q20, value: 3, unit: deaths, meaning: "treatment-related deaths, donanemab", location: "Abstract/Results", kind: safety_event}
+  - {id: Q21, value: 1, unit: deaths, meaning: "treatment-related deaths, placebo", location: "Abstract/Results", kind: safety_event}
+  # --- population / retention ---
+  - {id: Q22, value: 1736, unit: participants, meaning: "randomized participants (donanemab 860 / placebo 876)", location: "Abstract", kind: cohort_count}
+  - {id: Q23, value: 73.0, unit: years, meaning: "mean age", location: "Abstract/Results", kind: cohort_stat}
+  - {id: Q24, value: 996, value_pct: 57.4, unit: participants, meaning: "women (57.4%)", location: "Abstract/Results", kind: cohort_stat}
+  - {id: Q25, value: 1182, value_pct: 68.1, unit: participants, meaning: "low/medium tau pathology (68.1%)", location: "Abstract/Results", kind: cohort_stat}
+  - {id: Q26, value: 552, value_pct: 31.8, unit: participants, meaning: "high tau pathology (31.8%)", location: "Abstract/Results", kind: cohort_stat}
+  - {id: Q27, value: 1320, value_pct: 76, unit: participants, meaning: "completed the trial (76%)", location: "Abstract/Results", kind: retention}
+  - {id: Q28, value: 277, unit: sites, meaning: "medical research centers/hospitals in 8 countries", location: "Abstract/Design", kind: design_count}
+  - {id: Q29, value: 76, unit: weeks, meaning: "primary endpoint timepoint (baseline to 76 weeks)", location: "Abstract/Main outcomes", kind: design_param}
