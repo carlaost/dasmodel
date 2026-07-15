@@ -1,0 +1,9 @@
+{
+ "n": 27,
+ "claude_vs_mdi": -0.273,
+ "consensus_vs_mdi": -0.16,
+ "consensus_ci": [
+  -0.574,
+  0.273
+ ]
+}
