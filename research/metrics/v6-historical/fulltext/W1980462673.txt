@@ -1,0 +1,387 @@
+Original Article
+
+
+
+International Journal of Audiology 2005; 44:31 /38
+
+John D. Durrant*
+Catherine V. Palmer*
+Thomas Lunner$
+*Departments of Communication
+Science and Disorders and
+Otolaryngology, University of
+Pittsburgh, Pittsburgh, USA
+$
+Oticon A/S, Research Centre
+Eriksholm, Snekkersten, Denmark,
+and Department of Technical
+Audiology, Linköping University,
+Sweden
+
+Key Words
+Hearing impairment
+Hearing aids
+Alzheimer’s disease
+Aging
+Mathematical model
+Dynamic systems
+Single-subject design
+Outcomes measures
+
+Analysis of counted behaviors in a singlesubject design: Modeling of hearing-aid
+intervention in hearing-impaired patients with
+Alzheimer’s disease
+Análisis del conteo de conductas en un diseño
+unipersonal: Modelo de intervención con auxiliar
+auditivo en pacientes hipoacúsicos con enfermedad de
+Alzheimer
+Abstract
+
+Sumario
+
+Clinical procedures related to patients with Alzheimer’s
+Disease (AD) largely fail to address the patient’s hearing.
+Given the challenges of this population, unconventional
+indicators of treatment efficacy may be required. Palmer
+et al (1999) reported on caregiver-tracked behaviors as
+outcome measures for hearing aid intervention. Using
+these data, hearing aid use and subsequent behavior was
+modeled as a first-order dynamic system, characterized
+by responses following an exponential time course. The
+results of such modeling suggest predictable outcomes of
+hearing aid intervention, or at least useful parameters of
+quantification (e.g. time-constant and steady-state response), permitting critical assessment of effects of
+intervention on negative behaviors versus hearing aid
+use, comparisons among behaviors, and/or comparisons
+of hearing-aid-use patterns and behavior counts among
+patients. Use in this and other difficult-to-test populations warrant further study to evaluate clinical efficacy of
+the analysis described.
+
+Los procedimientos clı́nicos relacionados con pacientes
+con Enfermedad de Alzheimer (AD) fracasan en su
+intento de medir la audición. Los retos de esta poblacıón
+obligan a utilizar indicadores no convencionales de
+eficacia de tratamiento. Palmer et al (1999) reportaron
+sobre las observaciones que hacı́a el cuidador responsable, en la conducta del paciente, después de una
+intervención con auxiliar auditivo. El uso de un auxiliar
+auditivo y la conducta subsiguiente, se utilizaron para
+crear un modelo dinámico de primer orden, caracterizado
+por las respuestas subsecuentes a un tiempo exponencial.
+Los resultados de este modelo sugieren resultados
+predecibles en la adaptación de un auxiliar auditivo o al
+menos, parámetros útiles de cuantificación (p.ej. respuestas constantes o estables) que permiten un análisis crı́tico
+de los efectos de la intervención, en conductas negativas
+versus uso del auxiliar auditivo, en comparación de
+conductas y/o comparación de los patrones y conductas
+registradas con uso de un auxiliar auditivo entre los
+pacientes. El uso del análisis descrito en esta y otras
+poblaciones difı́ciles de evaluar demandan mayor estudio
+para evaluar su eficacia clı́nica
+
+unaidable or even less-aidable than non-demented and/or
+younger patients, a priori? There are several considerations
+that must be made in addressing this question.
+
+Loss of hearing with advanced age is well established and
+broadly accepted as a fact of life. There is widespread suspicion and some evidence suggesting that age-related deterioration of auditory function may extend centrally (e.g. see Gates et
+al, 1990; Cooper & Gates, 1991). Age-related deterioration in
+auditory function involves more than decreased sensitivity of
+hearing (e.g. see Orchik & Burgess, 1977; Jerger et al, 1991).
+Furthermore, diseases such as Alzheimer’s Disease (AD) appear
+to be associated with increased difficulty with central auditory
+processing (Weinstein & Amsel, 1987; Gates et al, 1995; Fenton,
+1986; Strouse et al, 1995; Sinha et al, 1993).
+Conventional wisdom dictates that, in the face of central
+processing disorders, the appropriateness or value of a hearing
+aid (HA) is questionable. Does this mean, however, that patients
+with dementia, such as AD patients, should be considered as
+
+1. Are demented patients less well tested and/or managed
+clinically in the first place?
+2. Is even basic speech recognition performance different for
+demented patients, thereby potentially diminishing benefit of
+the major goal of amplification */improving speech audibility?
+3. Is (are) hearing aid(s) less beneficial in demented patients,
+per se, due to putative concomitant central auditory
+dysfunction affecting yet other auditory capabilities (for
+instance, speech recognition in noise, high-rate speech
+processing, and binaural processing)?
+
+ISSN 1499-2027 print
+DOI: 10.1080/14992020400022637
+# 2005 British Society of Audiology, International
+Society of Audiology, and Nordic Audiological Society
+
+John D. Durrant
+Department of Communication Science and Disorders, University of Pittsburgh,
+Forbes Tower 4033, Pittsburgh, PA 15260, USA
+E-mail: durrant@pitt.edu
+
+Received:
+October 29, 2003
+Accepted:
+March 26, 2004
+
+Table 1. Mean speech recognition scores and findings of frequency of hearing aid use in samples of patients with Alzheimer’ s
+Disease (AD) and control subjects matched for age and hearing loss, N /10/group. Tests were conducted under earphones (phones),
+sound field in quiet (SFQ) and sound field in noise (SFN). Frequencies of hearing loss per group are indicated below
+SRT (dB)
+
+Speech Recognition (%)
+
+Group
+
+RE
+
+LE
+
+Phones
+
+SFQ
+
+SFN
+
+AD:
+Control:
+Hearing Aid User? {n}
+Group
+AD:
+Control:
+
+25
+31
+
+28
+29
+
+85
+82
+
+74
+67
+
+49
+44
+
+NO
+9
+4
+
+YES
+1
+6
+
+[Summary of results from Durrant et al, 1991.]
+
+We have previously evaluated questions 1 and 2 (Durrant et al,
+1991), and these and other results from our center are
+summarized in Table 1. Results relevant to question 3, however,
+are sparse in the literature (Strouse et al, 1995), perhaps belying
+a general dearth of clinical information. Indeed, results of
+Durrant and his associates suggested substantial neglect of the
+hearing handicap in AD patients.
+Durrant and coworker’s (1991) findings make it difficult to
+understand the lack of attention to hearing health care in AD
+patients. Their results derived from a pilot study of 10 AD
+patients; these subjects were recruited through the university’s
+center for AD research. These cases suffered moderate to severe
+AD (Mini Mental State Exam [MMSE], Folstein et al, 1975),
+and they were untreated for their suspected hearing impairments
+at the time of referral to the hearing clinic. Perhaps counter to
+expectations, these subjects participated in hearing tests quite
+well, although certainly needing some encouragement at times.
+Alzheimer’s Disease patients perform relatively well in highly
+structured situations (Holland et al, 1986), as characterized by
+hearing tests. For purposes of the study, the subjects were
+examined according to standard clinical evaluation to determine
+need and probable benefit of amplification. Results (Table 1)
+showed nearly identical findings to those of age- and hearingloss-matched subjects in terms of speech recognition ability in
+quiet under earphones, in sound field in quiet, and in sound field
+with competing noise. The sound field tests were administered
+with speech presented essentially at conversational level */60 dB
+HL */calibrated at the position of the patient’s ear. The results
+for both AD and control groups suggested that at least the
+majority of cases in both groups should benefit from amplification. However, the frequency of hearing-aid use showed that,
+whereas 6 of the 10 controls already were HA users, only one of
+the AD patients was aided, largely as a result of our interaction
+with our AD research center in the course of mounting the study.
+The Fisher-Exact test showed a statistically significant difference
+between groups (p 5/.05). These results indicate that AD patients
+can be evaluated efficaciously, at least with skilled patient
+testing, yet they are rarely treated for degrees of hearing
+impairment for which their age- and hearing-loss-matched
+non-AD peers are commonly treated.
+Palmer et al (1999) subsequently endeavored to determine
+whether AD patients demonstrate behavioral changes suggesting
+benefit from HA use. Unlike typical HA studies, the approach
+focused on caregiver-reported behaviors of the AD patients. An
+inherent problem in the management of hearing disorders in AD
+
+patients is the reliability of information obtained directly from
+the patient. Patients with AD commonly exhibit various
+‘negative’ behaviors, such as perseverance in manual tasks or
+spoken phrases, and often saying ‘no’ to things asked of them to
+do. Hearing-impaired AD patients also demonstrate negative
+behaviors commonly associated with hearing loss (e.g. turning
+the radio/television up too loud or asking for repetition of
+phrases spoken to them). Palmer and colleagues examined such
+behaviors by asking caregivers to tally target problem behaviors
+days before and following intervention with a HA. A typical set
+of such data for the behavior of their subject identified as #2 is
+shown in Figure 1. These data illustrate that, as might be
+expected, there are ups and down in the tally before and after
+treatment. Patients’ behavior tallies naturally vary, and caregivers cannot be expected to capture/report every event faithfully, day after day. Still, these and the results in most cases
+suggested clear and important trends in patients’ behaviors.
+Over the days leading up to treatment, the behavior tallies
+were relatively constant or only slowly changing. However, upon
+intervention, a fairly rapid change in the count occurred,
+resulting in sharp diminutions of the target behaviors (see
+Figure 1b). The exact (individual) rate of change appeared to
+be a function of two or more variables. The first was the patient’s
+reaction to the intervention and perhaps actual perceived
+benefit. The other was somewhat of an artifact, albeit consistent
+with the standard of care in hearing aid habilitation/rehabilitation. Conventional practice dictates an adaptive schedule of use
+of a new instrument, rather than all-out use from day one (see
+Figure 1a). Thereafter, tallies were seen to settle toward an
+apparent asymptotic value, substantially below the pre-fitting
+level (Figure 1). This trend was taken to indicate significant
+benefit.
+The data presented in Figure 1 (and those of other subjects
+and behaviors observed in the original study), were variable
+or ‘noisy’, yet the time course of change in behaviors recorded illustrate more systematic trends than previously appreciated. Therefore, it may be fruitful to try to model any
+underlying phenomena. Upon inspection, most subjects seemed
+to indicate an exponential transition response, both in HA use
+and tallies, followed by an asymptotic steady-state response.
+Thus, it seemed as if it took some time for the intervention
+to take full effect, suggesting exponential-like growth of hearing
+aid use and exponentially decaying tallies of events, despite
+the prescribed time-table of adaptation (see Figure 1a and
+Methods).
+
+32
+
+International Journal of Audiology, Volume 44 Number 1
+
+a
+Hours HA Use per Day
+
+18
+
+target
+
+15
+12
+9
+6
+3
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+60
+
+80
+
+Days
+
+b
+
+15
+
+Events per Day
+
+12
+9
+6
+3
+0
+
+0
+
+20
+
+40
+
+Days
+Figure 1. (a) Tracking of hearing-aid use (hours/day). Hearingaid use commenced on the 47th day of observation. (b) Behavior
+counts (events per day) of subject’s claims of ‘can’t hear’, subject
+#2. Dashed-line function: linear schedule of hours/day commonly recommended clinically for initial hearing aid use.
+Original data from Palmer et al (1999) are re-plotted to conform
+to the format of the current report.
+It is well known that, in most systems, the output signal value
+at a given point in time not only depends on the input signal
+value, but also on past input values. Systems with this
+characteristic of ‘remembering’ old input signal values, wherein
+the input value right now also affects future values of the output,
+are called dynamic systems. It is reasonable that the system in the
+case of behavior of the AD subject (measured as hours of HA
+use per day and tallies of ‘negative events’ per day), has some
+kind of memory. On the other hand, it is not reasonable that he/
+she, in response to an intervention, immediately adjusts his/her
+behavior; rather, ‘old’ input values (even behavior before
+intervention) possibly affects behavior at any given time (again,
+as manifested both in the HA-use hours and the event tallies per
+day). This is reminiscent, specifically, of the response of dynamic
+systems to a step or ramp input (here, HA intervention). For
+example, in successful hearing aid use there is (at least to some
+extent) an accrued value of hearing aid use. The patient neither
+starts immediately with full-time use of the instrument, nor is the
+final benefit evident from the first-time use.
+Analysis of counted behaviors in a singlesubject design: Modeling of hearing-aid
+intervention in hearing-impaired patients
+with Alzheimer’s disease
+
+The potential relevance of the exponential function here goes
+beyond impressions from inspection of the data; nor is it merely
+an educated guess. The exponential and closely related functions
+often fit nature well or are deemed useful (e.g. the logarithmic
+transform popularized in hearing science */the decibel, a
+logarithmic transform, and the logarithmic frequency scale).
+Exponential functions are inherently adaptive in character, and
+neural discharge patterns, sensations, behavior, and other aspects
+of nature tend to be more-or-less adaptive, showing asymptotic
+growth or decay. An example is developmental effects. Eggermont (1988, 1992) applied exponential fits to the development of
+sensory/auditory evoked potentials to show overall similarities,
+yet differences, among components per level of the nervous
+system, thereby providing a parsimonious view of somewhat
+complicated data.
+Such approaches to the analysis of data are valuable for
+providing useful quantitative outcomes. First, there is the
+straight-forward aspect of estimating the central tendencies of
+such data. Fitting of such data is generally accomplished
+using least-squares methods, by definition a variance-reducing
+strategy. Second, the parameters of the function fit can provide
+useful measures, such as the time constant. These values, in
+turn, may lend themselves to still other mathematical or
+statistical analyses. Whatever the specific parameters of interest,
+the advantage is found in the prospect of representing rather
+complex data by one or a few values. Such an approach can
+yield results that permit robust opportunities to both quantify
+and simplify noisy real-world data, fostering bases for
+critical comparisons among data sets from different subjects/
+groups and comparisons across diverse measures that follow
+related time-courses. Interpolation within and extrapolation
+beyond data sets is another advantage. Lastly, the best-fit
+function itself may help to define the nature of the underlying
+behavior.
+Returning to AD, per se, there has hardly been a groundswell
+of interest in the hearing problems of patients with AD, or other
+dementias for that matter. Therefore, the literature in this area
+remains sparse. Perhaps a perceived obstacle to systemic study of
+possible benefits of HA intervention in patients with dementia,
+especially AD, is concern for the lack of quantitative bases by
+which to evaluate outcomes. Since the characteristic findings of
+Palmer et al (1999) suggest a behavior that might be characterized by a mathematical function, the original results of the
+study were analyzed further in an effort to develop specific
+parameters of quantification of hearing aid use and caregivercounted behaviors. The mathematical model applied and the
+results of data fitting suggest an efficacious approach to data
+reduction, yielding several parameters as potentially practical
+measures. Furtherm

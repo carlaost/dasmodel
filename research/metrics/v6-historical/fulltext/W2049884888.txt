@@ -1,0 +1,369 @@
+ORIGINAL ARTICLE
+
+Safety and Tolerability of the Rivastigmine Patch
+Results of a 28-week Open-label Extension
+George Grossberg, MD,* Carl Sadowsky, MD,w Hans Förstl, MD,z Lutz Frölich, MD, PhD,y
+Jennifer Nagel, PhD,J Sibel Tekin, MD,z Stefanie Zechner, PhD,J Jacqueline Ros, PhD,J
+and Jean-Marc Orgogozo, MD#
+
+Abstract: The primary objective of the open-label extension was to
+evaluate the long-term safety and tolerability of a transdermal
+rivastigmine patch up to 1 year, as a novel approach to treatment in
+Alzheimer disease. This was a 28-week extension to a 24-week,
+double-blind, double-dummy, placebo-controlled, and active-controlled study evaluating rivastigmine patches [9.5 mg/24 h (10 cm2)
+and 17.4 mg/24 h (20 cm2)] and oral capsules (3 to 6 mg twice-daily).
+Patients entering the extension were switched directly to 9.5 mg/
+24 h rivastigmine patch and increased to 17.4 mg/24 h patch,
+irrespective of their double-blind study treatment. Primary
+measures included safety and tolerability assessments, including
+adverse events and serious adverse events. Of 1195 patients
+randomized to treatment, 870 (72.8%) completed the double-blind
+study and entered the open-label extension. During weeks 1 to 4 of
+the extension, 9.5 mg/24 h rivastigmine patch was well tolerated
+overall by patients formerly randomized to rivastigmine capsule or
+patch groups: r2.5% reported nausea and r1.9% reported
+vomiting. No unexpected safety issues arose, and skin tolerability
+was good; similar to the double-blind study. During the 28-week,
+open-label extension phase, the patch seemed to be well tolerated
+with a favorable safety proﬁle.
+Key Words: Alzheimer disease, cholinesterase inhibitor, rivastigmine, patch, transdermal
+
+(Alzheimer Dis Assoc Disord 2009;23:158–164)
+
+A
+
+lzheimer disease (AD) is characterized by cholinergic
+deﬁcits primarily in the cortex and hippocampus.1
+Cholinesterase inhibitors, which currently form the mainstay of AD therapy in many countries worldwide, act by
+inhibiting the degradation of acetylcholine in the synapse.
+Rivastigmine is an inhibitor of acetylcholinesterase
+and butyrylcholinesterase, and is widely approved for the
+symptomatic treatment of mild to moderate AD and
+
+Received for publication December 12, 2007; accepted July 12, 2008.
+From the *Department of Neurology and Psychiatry, St. Louis
+University School of Medicine, St. Louis, MO; wDivision of
+Neurology, Nova Southeastern University, Fort Lauderdale, FL;
+zNovartis Pharmaceuticals Corp, East Hanover, NJ; zClinic of
+Psychiatry and Psychotherapy, Technical University of Munich,
+Munich; yDivision of Geriatric Psychiatry, Central Institute for
+Mental Health, Ruprecht-Karls-University of Heidelberg, Germany; JNovartis Pharma AG, Basel, Switzerland; and #Department of Neurology, Université de Bordeaux, CHU Pellegrin and
+CRI INSERM 897, Bordeaux, France.
+Supported by Novartis Pharma AG, Basel, Switzerland. Alpha-Plus
+Medical Communications Ltd (UK) provided editorial assistance
+with the production of the manuscript.
+Reprints: George T. Grossberg, MD, Department of Neurology and
+Psychiatry, St Louis University School of Medicine, 1438 South
+Grand Boulevard, St. Louis, MO 63104 (e-mail: Grossbgt@
+aol.com).
+Copyright r 2009 by Lippincott Williams & Wilkins
+
+158 | www.alzheimerjournal.com
+
+Parkinson disease dementia. Until recently, all cholinesterase inhibitors were administered orally, but a novel
+rivastigmine transdermal patch has now been developed.
+Patches provide smooth and continuous drug delivery
+through the skin and into the bloodstream, avoiding ﬁrstpass eﬀects in the gut and the liver2 and oﬀering potential
+beneﬁts over conventional oral administration in patients
+with AD.
+Acute or protracted gastrointestinal adverse events
+(AEs), such as nausea and vomiting, are typically observed
+with orally administered cholinesterase inhibitors, and may
+result in discontinuation of therapy.3 These events have
+been associated with high plasma concentrations (Cmax)
+and short time to Cmax (tmax).4 Measures that reduce Cmax
+and prolong tmax (such as smoother drug delivery) can help
+to reduce the incidence of these AEs,5 allowing easier access
+to optimal therapeutic doses and better compliance to
+treatment.
+Pharmacokinetic studies in AD patients have shown
+that the 9.5 mg/24 h rivastigmine patch (10 cm2) delivers
+comparable levels of drug exposure to the highest dose of
+capsules (12 mg/d), with a smoother pharmacokinetic
+proﬁle (lower Cmax and longer tmax).5 Consistent with these
+observations, comparable eﬃcacy on measures of both
+cognition and activities of daily living, but with only onethird the incidence of nausea or vomiting, were reported for
+the 9.5 mg/24 h rivastigmine patch versus highest doses of
+conventional capsules (12 mg/d) in the 24-week, doubleblind, randomized study.6
+Furthermore, results from the double-blind study
+showed that caregivers of AD patients preferred the
+rivastigmine patch to capsules.7 Patches allow the caregiver
+to manage treatment eﬀectively, act as a visual reminder,
+and may help improve compliance. This, in turn, may
+further enhance the eﬃcacy of the treatment.8
+To date, only short-term studies of the eﬃcacy, safety,
+and tolerability of the rivastigmine patch have been
+reported. The primary objective of this open-label extension
+to a 24-week, double-blind, randomized study was to
+evaluate the safety and tolerability of rivastigmine patch
+treatment up to 1 year. The study was also designed to
+provide data that could help develop guidance for
+physicians when switching patients from rivastigmine
+capsules to the 9.5 mg/24 h rivastigmine patch.
+
+METHODS
+Patients
+The full methodology of the 24-week, multicenter,
+randomized, double-blind, double-dummy, placebo-controlled, and active-controlled study has been described
+previously.6 Written informed consent was obtained from
+Alzheimer Dis Assoc Disord  Volume 23, Number 2, April–June 2009
+
+Alzheimer Dis Assoc Disord  Volume 23, Number 2, April–June 2009
+
+each patient and caregiver before randomization. Consent
+was not requested for the open-label extension phase.
+Patients eligible for the double-blind study were men
+or women aged 50 to 85 years with a mini-mental state
+examination9 score of 10 to 20 and diagnoses of dementia
+of the Alzheimer type10 and probable AD.11 Patients with
+an advanced, severe, progressive, or unstable disease, which
+could explain the dementia, were excluded from the study.
+The use of investigational drugs, cholinesterase inhibitors,
+memantine, or any other approved treatment for AD
+during the 4 weeks before randomization was also
+prohibited.
+All patients completing the double-blind study were
+eligible to enter the open-label extension phase, irrespective
+of their former double-blind study treatment group [9.5 mg/
+24 h rivastigmine patch, 17.4 mg/24 h rivastigmine patch
+(20 cm2), 12 mg/d rivastigmine capsule, or placebo]. Upon
+entry into the open-label extension, all patients were to
+begin treatment directly with a 9.5 mg/24 h rivastigmine
+patch dose. Patients’ doses were then raised in 4-week steps
+to a 13.3 mg/24 h (15 cm2) and then a 17.4 mg/24 h
+rivastigmine patch, dependent upon tolerability, and
+maintained at this or their highest tolerated dose for the
+remainder of the extension. Adjustments to the treatment
+dose (interruptions or dose decreases) were permitted to
+address any safety or tolerability issues.
+Patches were administered by the caregiver to clean,
+dry, hairless skin on the patient’s upper back every morning
+and worn for 24 hours. Normal activities, including
+bathing, were permitted. To minimize any skin irritation
+the application-site of the patch was alternated daily
+between the left and the right sides.
+In this article, ‘‘baseline’’ refers to week 0 (the
+beginning of the double-blind study), ‘‘week 24’’ corresponds to the end of the double-blind study and the
+beginning of the open-label extension, and ‘‘week 52’’ to the
+end of the open-label extension.
+
+Outcome Measures
+The primary objective of the open-label extension
+phase was to evaluate the long-term safety and tolerability
+of the rivastigmine patch. Assessments were made at weeks
+24, 28, 32, 36, 40, 46, and 52. Safety evaluations consisted
+of recording all AEs and serious adverse events (SAEs),
+together with ratings of their severity and relationship to
+the study drug, and recording patients’ vital signs. At each
+study visit, skin irritation was assessed by an investigator
+using a speciﬁc rating scale to record the severity of
+individual symptoms. Summary evaluations of skin irritation since the last visit were provided by the caregiver via a
+speciﬁc questionnaire. Routine laboratory tests were
+performed at week 24, but not thereafter, unless required
+for investigative or diagnostic purposes. Any abnormal
+clinical laboratory ﬁndings associated with symptoms
+considered clinically signiﬁcant or that required therapy
+were recorded as AEs.
+Eﬃcacy outcomes were recorded at week 24 and at
+week 52 as secondary measures for the open-label extension. These included the Alzheimer Disease Assessment
+Scale—Cognitive subscale (ADAS-cog),12 Alzheimer Disease Cooperative Study—Clinical Global Impression of
+Change,13 and Alzheimer Disease Cooperative Study—
+Activities of Daily Living scale.14 An additional ADAS-cog
+evaluation was performed at week 40. To ensure standarr 2009 Lippincott Williams & Wilkins
+
+Safety and Tolerability of the Rivastigmine Patch
+
+dization of the eﬃcacy measures investigators received
+speciﬁc training before patient evaluation.
+
+Statistical Analyses
+There was no prospective sample size calculation for
+the open-label extension, as all patients who completed the
+double-blind study6 and were willing and able to participate
+in the extension phase were included.
+For the open-label extension phase, safety and
+tolerability data were tabulated. These data are presented
+by former randomized treatment group and overall
+population. Tolerability data are presented by the full 28week duration and by weeks 25 to 28 to establish the eﬀects
+of switching from each double-blind study treatment to the
+9.5 mg/24 h patch. Eﬃcacy data are also presented in a
+descriptive way.
+The open-label ‘‘safety population’’ was deﬁned as all
+patients who had at least 1 dose of study medication and at
+least 1 safety evaluation during the open-label extension
+phase. The primary eﬃcacy analysis population for the
+open-label extension is the intent-to-treat observed case
+population. This was predeﬁned as all patients who received
+at least 1 dose of study drug in the open-label extension and
+had at least 1 eﬃcacy assessment on open-label treatment,
+without imputation of any missing values or assessments.
+
+RESULTS
+Patients
+Of the 1195 patients who were initially randomized to
+the primary trial, 1190 received treatment and 970 completed
+the double-blind study. Of these, 870 patients entered the
+open-label extension and received at least 1 dose of study
+medication; 209 (24.0%) were formerly randomized to the 17.4 mg/24 h patch, 204 (23.5%) to the 9.5
+mg/24 h patch, 209 (24.0%) to capsules, and 248 (28.5%) to
+placebo. The intent-to-treat observed case population comprised 780 patients (72.9% formerly randomized to active
+rivastigmine treatment and 27.1% to placebo). In total, 704
+patients (80.9%) completed the open-label extension (Fig. 1)
+and 166 patients discontinued.
+For the 870 patients entering the open-label extension
+phase, the mean age at baseline was 73.5 years, 66% were
+women, and the mean duration of AD (since ﬁrst diagnosis
+by a physician) was 1.1 years. Baseline demographics and
+background characteristics are summarized in Table 1;
+these were similar to the baseline characteristics of the 1195
+patients who entered the double-blind study,6 suggesting an
+absence of dropout bias. The majority of the study
+population received concomitant medication during the
+open-label extension, of which 43.3% received central
+nervous system-related medications, most commonly sedatives, antidepressants, and antipsychotics; 75.6% received
+non-central nervous system-related medications, most
+commonly acetylsalicylic acid (24.6%) and angiotensinconverting enzyme inhibitors for hypertension (21.3%).
+Concomitant memantine, cholinesterase inhibitors, or other
+approved treatments for AD were not permitted during the
+study.
+
+Safety and Tolerability
+During the ﬁrst 4 weeks of the open-label extension
+(weeks 25 to 28), patients formerly randomized to
+rivastigmine treatment (capsule or patch) reported fewer
+AEs than those formerly randomized to placebo (r15.2%
+www.alzheimerjournal.com | 159
+
+Alzheimer Dis Assoc Disord  Volume 23, Number 2, April–June 2009
+
+Grossberg et al
+
+1,195 patients randomized
+
+17.4 mg/24 h (20 cm2) patch
+303 patients
+
+9.5 mg/24 h (10 cm2) patch
+293 patients
+
+Capsule
+297 patients
+
+Placebo
+302 patients
+
+241 (79.5%)
+completed the study
+
+229 (78.2%)
+completed the study
+
+234 (78.8%)
+completed the study
+
+266 (88.1%)
+completed the study
+
+970 (81.2%) patients completed the double-blind phase;
+870 patients entered the open-label extension
+
+209 (24.0%)*
+entered the extension
+
+204 (23.5%)*
+entered the extension
+
+209 (24.0%)*
+entered the extension
+
+248 (28.5%)*
+entered the extension
+
+All patients switched to 9.5 mg/24 h patch
+and raised to 17.4 mg/24 h
+
+166 patients discontinued
+• 8.3% adverse events
+• 5.4% subject withdrew consent
+• 2.0% lost to follow-up
+• 1.1% unsatisfactory therapeutic effect
+• 0.9% death
+• 1.4% other
+
+704 patients (80.9%)*
+completed the study
+
+FIGURE 1. Disposition of the double-blind study and open-label extension phase. *With respect to the open-label extension safety
+population.
+
+vs. 28.2%). This prior exposure eﬀect was noted for nausea
+(r2.5% vs. 8.5%) and vomiting (r1.9% vs. 6.0%)
+(Table 2).
+A total of 501 patients (57.6%) reported AEs during
+the full open-label extension (weeks 25 to 52). These were
+predominantly cholinergic in nature and mild to moderate
+in severity, with nausea and vomiting reported most
+frequently (15.7% and 14.3%, respectively) (Table 3).
+As anticipated, patients formerly randomized to 17.4
+mg/24 h patch or capsule treatment during the doubleblind study reported fewer gastrointestinal AEs than those
+formerly randomized to 9.5 mg/24 h or placebo.
+Skin tolerability at the application site was good.
+During the open-label extension, over 90% of all patients
+experienced ‘‘no, slight, or mild’’ irritation as their most
+
+160 | www.alzheimerjournal.com
+
+severe application-site skin reaction, comparable with the
+results from the double-blind study.6 The symptoms that
+were most commonly reported as moderate or severe on the
+skin irritation rating scale were erythema and pruritus
+(7.7% and 5.6%, respectively). A minority of patients
+(3.7%) withdrew owing to application-site skin reactions.
+With the exception of the week 28 assessment, the
+proportion of patients who reported no skin irritation
+remained similar throughout the entire 52-week study
+period. In addition, there was no trend toward an increase
+in the severity of adverse skin reactions over time (5.0%
+and 2.6% reported moderate irritation at weeks 24 and 52,
+respectively; 1.6% and 1.5% reported severe irritation).
+SAEs occurred in 1.0% (n = 9) of patients during the
+ﬁrst 4 weeks of the open-label extension phase (weeks 25 to
+r 2009 Lippincott Williams & Wilkins
+
+Alzheimer Dis Assoc Disord  Volume 23, Number 2, April–June 2009
+
+TABLE 1. Baseline (Week 0) Characteristics and Demographics
+for Patients Entering the Open-label Extension
+
+All Patients Entering the Open-label
+Extension (n = 870)
+Age, y
+Mean (SD)
+Range
+Sex, %
+Male: female
+Ethnic origin, n (%)
+White
+Black
+Oriental
+Other
+Years of formal education
+Mean (SD)
+Time since AD was
+diagnosed by physician, y
+Mean (SD)
+Living situation, n (%)
+Alone
+With caregiver or others
+Assisted living
+Baseline MMSE
+Mean (SD) scores
+
+73.5 (7.5)
+50-89
+34.0:66.0
+
+Safety and Tolerability of the Rivastigmine Patch
+
+from the rivastigmine capsule group, and 2 (1%) were from
+each of the

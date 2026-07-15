@@ -1,0 +1,222 @@
+THE JOURNAL OF BIOLOGICAL CHEMISTRY
+© 2005 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+Vol. 280, No. 15, Issue of April 15, pp. 14605–14610, 2005
+Printed in U.S.A.
+
+Examination of Lipid-bound Conformation of Apolipoprotein E4 by
+Pyrene Excimer Fluorescence*
+Received for publication, December 14, 2004, and in revised form, February 11, 2005
+Published, JBC Papers in Press, February 11, 2005, DOI 10.1074/jbc.M414019200
+
+Jessica Drury and Vasanthy Narayanaswami‡
+From the Lipid Biology in Health and Disease Research Group, Children’s Hospital Oakland Research Institute,
+Oakland, California 94609
+
+Apolipoprotein E (apoE) is a 34-kDa resident of lipoproteins that plays a key role in cholesterol homeostasis in
+plasma and in brain. It is composed of an N-terminal (NT)
+domain (residues 1–191) and a C-terminal (CT) domain
+(residues 201–299). Of the three major isoforms (apoE2,
+-E3, and -E4), apoE4 is considered a risk factor for both
+cardiovascular and Alzheimer disease. Compared with
+apoE3, domain interaction between NT and CT domains is
+believed to direct the lipoprotein distribution preference
+of apoE4 for very low density lipoprotein-sized particles.
+We examined the relative disposition of apoE4 NT and CT
+domains in lipid-free and lipid-bound forms by monitoring pyrene excimer fluorescence emission as a direct indicator of spatial proximity. Site-specific labeling of
+apoE4 by N-(1-pyrene)maleimide was accomplished after
+substitution of Cys residues for Arg-61 in NT domain and
+Glu-255 in CT domain. Pyrene labeling did not alter the
+lipoprotein distribution pattern of apoE4 in plasma. Pyrene excimer fluorescence was noted in lipid-free pyreneR61C/E255C/apoE4 in mixtures containing excess wildtype apoE4, which was attributed to intramolecular
+spatial proximity between these specified sites. Upon disruption of tertiary interaction, a large decrease in excimer fluorescence emission was noted in pyrene-R61C/
+E255C/apoE4. In dimyristoylphosphatidylcholine/pyreneR61C/E255C/apoE4 discoidal complexes, pyrene excimer
+fluorescence emission was retained. Taken together with
+fluorescence quenching and cross-linking analysis, a
+looped-back model of apoE4 is proposed in lipid-bound
+state, including spherical lipoprotein particles, wherein
+residues Arg-61 and Glu-255 are proximal to one another.
+
+Apolipoprotein E (apoE)1 belongs to the super family of exchangeable apolipoproteins that are major constituents of lipoproteins (1). It plays a crucial role in lipid homeostasis, not
+only in the plasma but also in the brain. ApoE exerts a protective effect against development of atherosclerosis (2, 3) by
+promoting cellular uptake (4) and clearance of triglyceride-rich
+
+* This work was supported by a Pfizer International HDL Research
+Award and Grant TLL-03-5281 from the Alzheimer Association (to
+V.N.). The costs of publication of this article were defrayed in part by
+the payment of page charges. This article must therefore be hereby
+marked “advertisement” in accordance with 18 U.S.C. Section 1734
+solely to indicate this fact.
+‡ To whom correspondence should be addressed: 5700 Martin Luther
+King Way, Oakland, CA 94609. Tel.: 510-428-3885 (ext. 2965); Fax:
+510-450-7910; E-mail: vnarayan@chori.org.
+1
+The abbreviations used are: apoE, apolipoprotein E; LDL, low density lipoprotein; NT, N-terminal; CT, C-terminal; HDL, high density
+lipoprotein; VLDL, very low density lipoprotein; DMS, dimethyl suberimidate; DMPC, dimyristoylphosphatidylcholine; WT, wild type; TBS,
+Tris-buffered saline; TFE, trifluoroethanol; PC, phosphatidylcholine;
+DSA, doxyl stearic acid; KI, potassium iodide; Pyr, pyrene.
+This paper is available on line at http://www.jbc.org
+
+lipoproteins from blood (5, 6). In addition, apoE in macrophages
+has a direct antiatherogenic effect independent of alterations in
+plasma lipoproteins (7) by promoting cholesterol efflux (8) from
+cell lining of arteries by a process termed reverse cholesterol
+transport (9 –11). The role of apoE in cholesterol homeostasis in
+the brain is emerging with evidence of its protective role
+against neuronal injury and neurodegeneration (12).
+In humans, apoE displays polymorphism with three major
+genetic variants identified in the population, apo⑀2, -⑀3, and
+-⑀4, with allelic frequencies of 8%, 77%, and 14%, respectively,
+determining six apoE phenotypes, apoE2/E2, apoE3/E3, apoE4/
+E4, apoE2/E3, apoE2/E4, and apoE3/E4 (13). The apoE isoforms determine the atherogenic fate of the lipoproteins on
+which they reside. Although the apoE2 isoform is associated
+with type III hyperlipoproteinemia, peripheral atherosclerosis,
+and accumulation of remnant lipoproteins, apoE4 is consistently associated with higher levels of low density lipoprotein
+(LDL) and cholesterol in plasma, and persons bearing the
+apoE4 isoform are more prone to develop atherosclerosis than
+those with the apoE3 isoform, which is generally considered
+antiatherogenic (5, 14). In addition, the apo⑀4 allele is strongly
+linked to both sporadic and familial late-onset Alzheimer disease, although the precise mechanistic details of this association are unclear (15, 16).
+Understanding the structural basis of apoE isoforms provides insights into its physiological role in lipoprotein metabolism. ApoE is a 34-kDa, 299-residue protein composed of a
+22-kDa N-terminal (NT) domain (residues 1–191) folded as a
+four-helix bundle (17) and a 10-kDa C-terminal (CT) domain
+(residues 201–299) that promotes apoE oligomerization (18 –
+22). The two domains are linked via a protease-sensitive linker
+loop region. The three isoforms differ at positions 112 and 158:
+apoE2 bears cysteines and apoE4 bears arginines at both sites,
+whereas apoE3 contains a cysteine and an arginine at positions
+112 and 158, respectively. Thus, the differences between the
+three isoforms lie in the NT domain, which houses receptorbinding sites (residues 130 –150) for the LDL receptor family.
+Whereas apoE3 and -E4 display identical receptor binding activities, apoE2 seems to bear 1– 60% activity compared with
+apoE3 (13). In turn, subtle differences exist in the lipoprotein
+binding preference of apoE3 and -E4; apoE3 displays a preference for high density lipoprotein (HDL)-sized particles,
+whereas apoE4 displays a preference for the larger very low
+density lipoprotein (VLDL)-sized particles compared with
+apoE3 (23–27).
+Employing a combination of x-ray analysis of isolated apoE3
+and E4 NT domains, site-directed mutagenesis, and plasma
+lipoprotein binding analysis of intact apoE, the presence of Arg
+at position 112 in apoE4 has been suggested to lead to salt
+bridge formation with Glu-109, which in turn displaces Arg-61
+to potentially form a salt bridge with Glu-255 in the CT domain. ApoE3, however, bearing a Cys at position 112, accom-
+
+14605
+
+14606
+
+Lipid-bound Conformation of Apolipoprotein E4
+
+modates Arg-61 in a locale where it is unable to form a salt
+bridge with Glu-255. The salt bridge between Arg-61 and Glu255 has been postulated to contribute to domain-domain interaction, which in turn directs the lipoprotein binding preference
+of apoE4 for VLDL (23, 24). Indeed, replacement of Arg-61 in
+apoE4 with threonine (as noted in mouse apoE) shifts the
+lipoprotein binding preference from VLDL to HDL (28).
+In the present study, we examined the relative disposition
+between apoE4 NT and CT domains in lipid-free and bound
+states, taking advantage of the unique fluorescence properties
+of N-(1-pyrene)maleimide as a probe of spatial proximity. We
+monitored the location of Arg-61 and Glu-255 with respect to
+each other in different environments and concluded that they
+remained proximal to each other after lipid interaction.
+EXPERIMENTAL PROCEDURES
+
+Materials—N-(1-Pyrene)maleimide and tris(2-cyanoethyl)-phosphine were obtained from Molecular Probes, Inc. (Eugene, OR). Dimethyl suberimidate (DMS) was from Pierce Biotechnology. Dimyristoylphosphatidylcholine (DMPC) was obtained from Sigma. All other
+chemicals and solvents were of analytical grade.
+Site-directed Mutagenesis and Protein Expression—Cysteine residues were introduced into human apoE4 by site-directed mutagenesis
+as described previously, and the DNA sequences were verified (29).
+Arg-61 and Glu-255 were replaced by Cys to create a double-cysteinecontaining apoE4 variant R61C/E255C/apoE4. Recombinant human
+wild-type (WT) and R61C/E255C/apoE4 were expressed in Escherichia
+coli using the pTYB2 vector and purified using the IMPACT-CN system
+(New England BioLabs, Beverly, MA) as described earlier (30). The
+purified protein was present in 25 mM Tris-HCl, pH 7.4, containing 140
+mM NaCl and 3 mM KCl (TBS), unless otherwise specified.
+Pyrene Modification—R61C/E255C/apoE4 was initially incubated
+with 5-fold molar excess tris(2-cyanoethyl)-phosphine for 2 h at 37 °C to
+maintain the sulfhydryl groups in a reduced state, followed by incubation with a 5-fold molar excess of N-(1-pyrene)maleimide at 37 °C for
+16 h (31). Unbound N-(1-pyrene)maleimide was removed by gel filtration chromatography. The stoichiometry of labeling was calculated to be
+1.9 pyrene/apoE4 molecule in the pyrene-labeled variant (pyr-R61C/
+E255C/apoE4), using the extinction coefficient for pyrene ⑀340 ⫽ 40,000
+⫺1
+M
+cm⫺1. Circular dichroism spectroscopy of the modified variant revealed that the labeling did not affect the overall secondary structural
+characteristics of apoE4.
+Fluorescence Measurements—Fluorescence spectra were recorded
+on a Perkin-Elmer MPF-44B spectrofluorometer. A slit width of 5 nm
+was used for both excitation and emission monochromators. Emission
+spectra were collected from 350 – 600 nm by setting the excitation
+wavelength at 340 nm; in some cases, excitation spectra were recorded between 250 and 350 nm by setting the emission wavelength
+at 375 nm. For all calculations, the area under the monomer emission
+peak was calculated from 370 to 410 nm, whereas the area under the
+excimer emission peak was calculated from 440 to 510 nm. To monitor
+the status of the excimer emission peak, data were normalized with
+respect to fluorescence emission intensity at 375 nm. Unless otherwise
+mentioned, all experiments were carried out with pyr-R61C/E255C/apoE4
+mixed with a 10-fold molar excess wild-type apoE4 under denaturing
+conditions followed by extensive dialysis against 25 mM TBS (henceforth
+referred to as pyr-R61C/E255C/apoE4). This ensured that each labeled
+apoE4 was typically surrounded by unlabeled protein in lipid-free state or
+in the context of lipid particles.
+Determination of Lipoprotein Binding Preference of pyr-R61C/E255C/
+apoE4 —To verify that modified apoE4 still retained lipoprotein binding
+preference as reported by Weisgraber and colleagues (23, 24), pyrR61C/E255C/apoE4 (900 ␮g of total protein) was incubated with 150 ␮l
+of human plasma at 37 °C for 2 h. The lipoprotein fractions were
+separated by size exclusion chromatography on a Superose 6 PC 3.2/30
+column equilibrated with TBS using a fast performance liquid chromatography system (Amersham Biosciences) at a flow rate of 0.1 ml/min,
+with 50-␮l fractions. Each fraction was assayed for cholesterol (Bayer
+Health Care, Tarrytown, NY) and triglyceride (Sigma-Aldrich) content
+to confirm the nature of lipoprotein. In addition, fluorescence analysis
+of each fraction was carried out to determine the location of
+pyr-E255C/R61C/apoE4.
+Effect of Trifluoroethanol, pH Alteration, and Micelle Formation on
+pyr-R61C/E255C/apoE4 Fluorescence—Fluorescence emission spectra
+of 12 ␮g of pyr-R61C/E255C/apoE4 in the absence or presence of varying
+
+concentrations of trifluoroethanol (TFE) were recorded, after incubation
+of protein at room temperature for 16 h. The final TFE concentrations
+ranged from 0% to 50% (v/v) in the incubation mixtures. The effect of pH
+was evaluated by equilibrating 12 ␮g of pyr-R61C/E255C/apoE4 with 50
+mM sodium phosphate (pH 6.0, 7.0, and 8.0) and 50 mM sodium acetate
+(pH 3.0, 4.0, and 5.0) for 16 h, followed by fluorescence analysis. The effect
+of micelle formation was followed by incubating 12 ␮g of pyr-R61C/E255C/
+apoE4 with 0.4% lysophosphatidylcholine (lyso-PC).
+Preparation and Characterization of DMPC/pyr-R61C/E255C/apoE4
+Complexes—Discoidal complexes were prepared as described previously
+(30). Before disc formation, pyr-R61C/E255C/apoE4 was mixed with a
+10-fold molar excess of WT apoE4 to enhance the probability of the
+presence of one pyr-R61C/E255C/apoE4 molecule surrounded by several WT apoE4 on a lipoprotein complex. Discoidal complexes were
+separated from unbound protein by density gradient ultracentrifugation, followed by extensive dialysis. The phospholipid and protein content were estimated using the phospholipids assay kit (Wako Chemicals
+GmbH, Neuss, Germany) and the bicinchoninic acid kit (Pierce Biotechnology), respectively, to calculate lipid/protein ratio of the reconstituted lipoprotein particles. Non-denaturing PAGE of the isolated
+lipoprotein complexes was carried out to evaluate the molecular mass
+and size of the particle on a 4 –20% gradient gel for 20 h at 150 V and
+stained with Amido Black. The particle sizes were calculated from a
+calibration curve using the following standards and their corresponding Stokes diameters: thyroglobulin, 17 nm; ferritin, 12.2 nm; catalase, 9.2 nm; and lactate dehydrogenase, 8.2 nm. For electron microscopic analysis, DMPC/pyr-R61C/E255C/apoE4 complexes were
+dialyzed against ammonium acetate buffer followed by negative
+staining with 2% sodium phosphotungstate as described previously
+(Zeiss 10; 80 kV) (32).
+Cross-linking Studies—Cross-linking of DMPC/pyr-R61C/E255C/
+apoE4 (10 ␮g of protein) was carried out at DMS concentrations of 0.46,
+4.6, and 23 mM for 2 h at 24 °C (33, 34). DMS was prepared in 1 M
+triethanolamine HCl, pH 9.7. The volume of 1 M triethanolamine HCl
+was maintained at one tenth of the final volume of the reaction mixture.
+DMS is a non-cleavable homobifunctional, amine-specific cross-linker
+with a spacer arm of 11.4-Å. The reaction was stopped by the addition
+of SDS-PAGE sample treatment buffer followed by electrophoresis on
+4 –20% acrylamide gradient gel.
+Fluorescence Emission Analysis of Lipid-associated pyr-R61C/
+E255C/apoE4 —Fluorescence emission analysis of lipoproteinassociated pyr-R61C/E255C/apoE4 was carried out to evaluate lipidtriggered spatial repositioning of apoE4 domains on reconstituted
+discoidal lipoprotein particles and on large and small spherical lipoprotein particles. Fluorescence emission spectrum of DMPC/pyrR61C/E255C/apoE4 complexes (12 ␮g of protein) was recorded after
+excitation at 340 nm. Pyr-R61C/E255C/apoE4 was incubated with
+plasma and the various lipoprotein classes were separated by gel filtration
+as described above. Fluorescence emission spectra of VLDL- and HDLassociated pyr-R61C/E255C/apoE4 were recorded (fractions 7 and 21,
+respectively). Spectra of corresponding lipoprotein fractions collected from
+plasma incubations without any added pyr-R61C/E255C/apoE4 were subtracted to account for background fluorescence contribution.
+Quenching Studies—Quenching of fluorescence emission of lipid-free
+pyr-R61C/E255C/apoE4 and DMPC/pyr-R61C/E255C/apoE4 complexes
+was carried out as described earlier (31, 35) using aqueous quenchers such
+as potassium iodide (KI) to evaluate the degree of solvent exposure of the
+fluorophores. Increasing concentrations of KI were added in 50 mM potassium phosphate, pH 7.4, with 1 mM sodium thiosulfate to suppress free
+iodine formation. To assess the depth of location of the fluorophores with
+respect to the phospholipid bilayer in DMPC/pyr-R61C/E255C/apoE4 discoidal complexes, 5-DOXYL stearic acid (5-DSA) or 12-DOXYL stearic
+acid (12-DSA) were employed, where the DOXYL group (quenching moiety) is located at different depths along the fatty acyl chain. Aliquots of
+5-DSA or 12-DSA (1.3 mM stock in ethanol) were added directly to DMPC/
+pyr-R61C/E255C/apoE4 (keeping final concentration of ethanol ⱕ1% (v/
+v)), and fluorescence intensities were measured at 375 nm after equilib

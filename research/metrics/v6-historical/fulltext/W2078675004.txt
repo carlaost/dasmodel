@@ -1,0 +1,212 @@
+REVIEW
+
+Brain ischemia and ischemic blood–brain barrier
+as etiological factors in sporadic Alzheimer’s
+disease
+Ryszard Pluta
+Marzena Ułamek
+Laboratory of Ischemic
+and Neurodegenerative Brain
+Research, Department
+of Neurodegenerative Disorders,
+Medical Research Centre, Polish
+Academy of Sciences, Warsaw, Poland
+
+Abstract: The development of neuronal death and amyloid plaques is a characteristic feature
+of ischemic- and Alzheimer-type dementia. An important aspect of neuronal loss and amyloid
+plaques are their topography and neuropathogenesis. This review was performed to present the
+hypothesis that different fragments of blood-borne amyloid precursor protein are able to enter the
+ischemic blood–brain barrier. Chronic disruption of the blood–brain barrier after ischemic injury
+was shown. As an effect of chronic ischemic blood–brain barrier injury, a visible connection
+of amyloid plaques with neurovasculature was observed. This neuropathology appears to have
+similar distribution and mechanisms to Alzheimer’s disease. The usefulness of rival ischemic
+theory in elucidating the neuropathogenesis of amyloid plaques formation and neuronal death
+in Alzheimer’s disorder is discussed.
+Keywords: brain ischemia, ischemic blood–brain barrier, neuronal death, amyloid plaques,
+platelets, leukocytes, dementia, Alzheimer’s disease
+
+Introduction
+
+Correspondence: Ryszard Pluta
+Laboratory of Ischemic
+and Neurodegenerative Brain Research,
+Department of Neurodegenerative
+Disorders, Medical Research Centre,
+Polish Academy of Sciences, 02-106
+Warsaw, Pawinskiego 5 Str., Poland
+Tel +48 22 6086 540
+Fax +48 22 668 55 32
+Email pluta@cmdik.pan.pl
+
+Two forms (genetic and sporadic) of Alzheimer’s disease involve main common events:
+neuronal damage and amyloid plaques accumulation in the human brain. Neuronal
+changes in the end-stage patient brain are diffuse and widespread and neuropathological autopsy ﬁndings include signiﬁcant neuron death. Moreover Alzheimer’s disease
+is characterized by a progressive dementia. An interesting suggestion about this
+phenomenon is that neuronal cells, which are involved with learning and memory,
+may synthesize speciﬁc substances associated with these cognitive activities and
+that dysfunction of the blood–brain barrier (Sohrabji 2007; Zipser et al 2007) may
+cause selective loss of these speciﬁc cells (Arshavsky 2006). The extracellular space
+in brain is inﬁltrated by blood borne β-amyloid peptide 1–42, a neurotoxic peptide
+that interferes with the cells’ vital mechanisms and ultimately kills them (Atwood
+et al 2003a; Swerdlow 2007). This additional supporting evidence for blood–brain
+barrier disruption in Alzheimer’s disease, which is related to the accumulation of
+β-amyloid peptide; the featured lesion of the disorder (Pluta et al 1996). The brain
+vessels show signs of vessel inﬂammation and amyloid depositions. Another set of
+evidence suggests that Alzheimer’s disease may have an autoimmune root, where
+especially neuronal cells are targeted after opening blood–brain barrier (D’Andrea
+2005). The ﬁrst description of the neuropathology in the patient brain suffering from
+Alzheimer’s disease by Alzheimer in 1907 presented cerebrovascular alterations of
+endothelium especially in small vessels (blood–brain barrier vessels) (Kalaria 1999,
+2002; Grammas 2000; Humpel and Marksteiner 2005; Dede et al 2007) that have not
+received much attention (Pluta 2000). The onset of Alzheimer’s disease is unknown
+and symptoms develop slowly during patient life. In the end stage of this disorder,
+
+Neuropsychiatric Disease and Treatment 2008:4(5) 855–864
+855
+© 2008 Pluta and Ułamek, publisher and licensee Dove Medical Press Ltd. This is an Open Access
+article which permits unrestricted noncommercial use, provided the original work is properly cited.
+
+Pluta and Ułamek
+
+patients are totally dependent on caregivers and other diseases
+may lead them to death.
+The etiology and important risk factors for Alzheimer’s
+disease are not well known (Spires and Hyman 2005; Pluta
+2006a). It is believed that major causes for this disorder
+include diseases of old age such as transient focal and complete brain ischemic (Kalaria 2000; Pluta 2006a) and head
+(Nimmo et al 2004) injuries. Single and most probably multiple brain ischemic injuries can develop changes similar to
+those observed in Alzheimer’s disease (Pluta 2006a).
+Some investigators have presented the hypothesis that the
+primary event in the onset of Alzheimer’s disease is ischemic
+injury of brain (Kalaria 2000; Pluta 2004b, 2006a). According
+to this rival theory the blood–brain barrier vessels are damaged (Kalaria 1999; Dede et al 2007) and at the same time
+cause the neurotoxic β-amyloid peptide to be released from
+circulatory system into brain parenchyma (Pluta et al 1996)
+and subsequently react with ischemic neurons (Koistinaho
+et al 2002) as secondary cause of neuronal death (Figure 1).
+The precursor protein for β-amyloid peptide can exist as
+both a membrane cell surface receptor and a soluble form,
+mostly in circulating blood. Blood platelets carry large
+amounts of β-amyloid peptide and its precursor (Chen et al
+1995). The prolonged opening of ischemic blood–brain barrier to β-amyloid peptide (Pluta 2003, 2005; Pluta et al 2006)
+and exposure to the potentially neurotoxic peptide probably
+initiates amyloid plaques formation/maturation (Kawai et al
+1990; Dickstein et al 2006) with further additional neuronal
+cell death (Koistinaho et al 2002) and massive neuronal
+network destruction (Iwasaki et al 2006).
+According to the ischemic theory of Alzheimer’s disease,
+neuronal cells are ﬁrst damaged and then the blood–brain
+barrier vessels are impaired, which causes the neurotoxic
+β-amyloid peptide to be released from blood and subsequently inﬁltrate the neuronal cells and brain parenchyma
+(Pluta 2004a, 2004b, 2006a, 2006b, 2007a, 2007b). As a late
+effect, there will be a narrowing of the small vessels lumen
+leading to secondary ischemic brain episodes as a vicious
+cycle (Pluta 2006b, 2007b) in which the neuronal network
+will be completely impaired.
+In this review we present data that supports the role of ischemia in neuronal death and ischemic blood–brain barrier in amyloid plaques development in Alzheimer’s disease etiology.
+
+Influence of ischemia and β-amyloid
+peptide on brain cells
+In the ischemic brain, the main neuropathological focus is
+concentrated on structural changes in hippocampus because
+
+856
+
+this part of the brain is selectively vulnerable to ischemic- and
+Alzheimer-type injury. In some cases, complete disappearance of vulnerable pyramidal neurons in the CA1 area was
+noted 7 days after ischemia (Butler et al 2002). Moreover,
+one third of cases with experimental brain ischemia did not
+present full disappearance of pyramidal cells in CA1 region
+during short-term survival (Sadowski et al 1999; Pluta 2000).
+These animals developed complete death of all neurons of
+CA1 sector in late stages (Pluta 2000, 2002a, 2002b). Some
+studies presented marked structural changes in neurons
+considered to be resistant to ischemia such as: in sector
+CA2, CA3, and CA4 of hippocampus and dentate gyrus
+(Pluta 2000). These areas presented acute ischemic changes
+in neurons from 1 to 12 months following ischemic injury
+(Pluta 2000). Recently was found that pathological structural
+processes in ischemic neurons continue well beyond the
+acute stages of insult (Pluta 2000, 2002a). In these situations,
+enduring ischemic blood–brain barrier dysfunction (Pluta
+2006b, 2007b) probably leads to enhanced ischemic neuronal vulnerability to β-amyloid peptide (Figure 1) (Table 1)
+(Koistinaho et al 2002).
+Some studies show that astrocytic apoptosis may contribute to the pathogenesis of different disorders such as ischemic
+brain and Alzheimer’s disease (Takuma et al 2004; Pluta
+2006a). Astrocytic reactions that are noted in the ischemic
+brain and Alzheimer’s disease are swelling, astrogliosis,
+and astrocytosis (Bernaudin et al 1998; Stoltzner et al
+2000). In brain ischemia, some experimental studies noted
+the early import of different epitopes of amyloid precursor
+protein from brain parenchyma and circulatory system to the
+astrocytes and in the late stages the export of the neurotoxic
+C-terminal of amyloid precursor protein and β-amyloid
+peptide from dead astrocytes to the brain tissue (Table 1)
+(Pluta et al 1994b; Pluta 2002b, 2004a, 2004b).
+At early stages of brain ischemia and reperfusion, the
+N-terminal of amyloid precursor protein (Pluta et al 1994b)
+may be synthesized by cells derived from the vascular endothelium that became fragmented after injury (Badan et al
+2004). This idea is supported by the expression and production of β-secretase in ischemic brain (Wen et al 2004; Sun et al
+2006; Zhang et al 2007). Furthermore presenilin expressed
+in ischemic brain (Tanimukai et al 1998; Pennypacker et al
+1999; Pluta 2001) is involved in the metabolism of amyloid
+precursor protein to produce β-amyloid peptide through the
+γ-secretase complex (Wolfe et al 1999). These secretases are
+involved in amyloidogenic metabolism of amyloid precursor protein. At ﬁrst, amyloid precursor protein is cleaved
+at the N-terminal of the β-amyloid peptide domain by
+
+Neuropsychiatric Disease and Treatment 2008:4(5)
+
+Brain ischemia and Alzheimer’s disease
+
+Brain ischemia
+
+β-secretase
+
+γ-secretase
+
+APP
+
+BBB
+
+Monocytes+β A
+
+Ischemic neurons
+
+Platelets
+
+Macrophages+β A
+
+Microglial cells+β A
+
+βA
+
+βA
+
+βA
+
+βA
+
+Amyloid
+plaques
+
+Neuronal death
+
+Dementia
+Alzheimer’s disease
+
+Figure 1 Schematic diagram of the main ischemic pathological processes in sporadic Alzheimer’s disease.
+Abbreviations: APP, amyloid precursor protein; βA, β-amyloid peptide; BBB, blood–brain barrier.
+
+Neuropsychiatric Disease and Treatment 2008:4(5)
+
+857
+
+Pluta and Ułamek
+
+Table 1 Ischemia and β-amyloid peptide and brain cells
+Cells
+
+Influence
+
+Neurons

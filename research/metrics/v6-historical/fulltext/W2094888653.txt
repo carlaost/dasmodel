@@ -1,0 +1,251 @@
+Original Paper
+
+Diseases
+
+Neurodegenerative Dis 2011;8:15–24
+DOI: 10.1159/000313903
+
+Received: December 21, 2009
+Accepted after revision: April 15, 2010
+Published online: August 4, 2010
+
+TASTPM Mice Expressing Amyloid Precursor
+Protein and Presenilin-1 Mutant Transgenes
+Are Sensitive to ␥-Secretase Modulation and
+Amyloid-␤42 Lowering by GSM-10h
+Ishrut Hussain David C. Harrison Julie Hawkins Trevor Chapman Ian Marshall
+Laura Facci Sharlin Ahmed Kim Brackenborough Stephen D. Skaper
+Tania L. Mead Beverley B. Smith Gerard M.P. Giblin Adrian Hall
+M. Isabel Gonzalez Jill C. Richardson
+Neurosciences Centre of Excellence for Drug Discovery, GlaxoSmithKline Research and Development Ltd.,
+Harlow, UK
+
+Abstract
+Background: Cleavage of the amyloid precursor protein
+(APP) by -site APP-cleaving enzyme and -secretase results
+in the generation of amyloid- (A) peptides that aggregate
+and deposit as senile plaques in brains of Alzheimer disease
+patients. Due to the fundamental role -secretase plays in
+the proteolysis of a number of proteins including Notch,
+pharmacological inhibition of -secretase has been associated with mechanism-based toxicities. Therefore, efforts
+have focussed on the modulation of -secretase activity to
+selectively decrease levels of A42 peptide while avoiding
+deleterious activity on Notch processing. Objective: Here,
+we describe the in vitro and in vivo characterisation of a novel -secretase modulator, GSM-10h, and investigate the potential for shorter A peptides to induce neurotoxicity in rat
+primary cortical neurons. Methods: The effect of GSM-10h
+on A levels was investigated in SH-SY5Y cells expressing
+
+© 2010 S. Karger AG, Basel
+1660–2854/11/0082–0015$38.00/0
+Fax +41 61 306 12 34
+E-Mail karger@karger.ch
+www.karger.com
+
+Accessible online at:
+www.karger.com/ndd
+
+mutant APP and in TASTPM mice expressing APP and presenilin-1 mutant transgenes. The effect of GSM-10h on Notch
+processing was also determined. Results: In cells, GSM-10h
+decreased levels of A42 while concomitantly increasing levels of A38 in the absence of effects on A40 levels. In TASTPM
+mice, GSM-10h effectively lowered brain A42 and increased
+brain A38, with no effect on Notch signalling. Unlike A42,
+which causes neuronal cell death, neither A37 nor A38 were
+neurotoxic. Conclusions: These findings confirm GSM-10h
+exhibits the profile of a -secretase modulator. In addition,
+TASTPM mice are shown to be responsive to treatment with
+a -secretase modulator, thereby highlighting the utility of
+this bitransgenic mouse model in drug discovery efforts focussed on the development of -secretase modulators.
+Copyright © 2010 S. Karger AG, Basel
+
+Introduction
+
+A major pathological hallmark of Alzheimer’s disease
+(AD) is the presence of extracellular senile plaques and
+intracellular neurofibrillary tangles in the brain [1, 2].
+
+Ishrut Hussain
+Neurosciences Centre of Excellence for Drug Discovery
+GlaxoSmithKline Research and Development Ltd.
+New Frontiers Science Park, Harlow, Essex CM19 5AW (UK)
+Tel. +44 1279 622 647, Fax +44 1279 622 005, E-Mail Ishrut.2.Hussain @ gsk.com
+
+Downloaded by:
+Washington University
+198.143.32.1 - 1/27/2016 4:11:09 PM
+
+Key Words
+-Secretase ⴢ Modulator ⴢ Amyloid- ⴢ Amyloid precursor
+protein ⴢ TASTPM ⴢ Alzheimer’s disease
+
+16
+
+Neurodegenerative Dis 2011;8:15–24
+
+Materials and Methods
+Compound Synthesis
+The synthesis of GSM-10h has been described elsewhere [14].
+Cell Treatments
+Human neuroblastoma SH-SY5Y cells expressing APP695
+Swedish variantK595N/M596L (SH-SY5Y-APPswe) were cultured in
+Dulbecco’s modified Eagle’s medium/Ham’s F12 (1: 1) (Invitrogen, Paisley, UK) containing 10% fetal bovine serum, 2 m M glutamine and 400 g/ml geneticin (Invitrogen) at 37 ° C with 5%
+CO2/95% air. For 24-hour treatment with inhibitor, cells were cultured to confluency in 96-well plates in medium lacking geneticin. Compounds were dissolved in dimethylsulphoxide (DMSO)
+(Sigma-Aldrich, Poole, UK) and added to cells at the appropriate
+test concentration, ensuring that the final DMSO concentration
+was !0.5%. A DMSO solvent control was included in each experiment. The effect of compounds on cell viability was assessed using the WST-1 cell proliferation assay (Roche Diagnostics, Burgess Hill, UK).
+In vivo TASTPM Studies
+TASTPM mice that express human APPsweK595N/M596L and
+presenilin-1 (PS-1)M146V transgenes in the brain [15] and were
+aged approximately 60 days were used for in vivo efficacy studies.
+In the time-course study, TASTPM mice (mixed gender; n = 11/
+group) were orally administered vehicle (1% methylcellulose in
+water) or GSM-10h (100 mg/kg) at a volume of 10 ml/kg. At 3, 6,
+15 or 24 h after drug administration, the mice were euthanised
+in accordance with the 1986 Animals (Scientific Procedures) Act
+by intraperitoneal injection of a lethal dose of pentobarbitone
+sodium (Euthatal; Rhone Merieux, Harlow, UK) and blood and
+brain samples taken. For the dose-response studies, male
+TASTPM mice (n = 9–10/group) were orally administered either
+vehicle (1% methylcellulose in water) or GSM-10h (3, 10, 30 or 100
+mg/kg) at a volume of 10 ml/kg. In the acute study, mice were
+euthanised 6 h after receiving a single dose of vehicle or GSM10h. In the subchronic study, mice were given GSM-10h or vehicle once daily for 5 days. Six hours after the final dose, the mice
+were euthanised as described above. In all studies, brains were
+removed and hemisected. The left brain hemisection was snap
+frozen for subsequent measurement of A peptides. In the doseresponse studies, a 10-mm section of ileum was taken, 30–40 mm
+from the junction with the caecum. The contents were gently removed and the tissues snap frozen for subsequent TaqMan쏐 analysis. From mice in the subchronic study, whole thymi were dissected, rinsed with cold Roswell Park Memorial Institute (RPMI)
+medium (Invitrogen) and placed in RPMI medium for subsequent flow cytometry.
+A Enzyme-Linked Immunosorbent Assays
+Medium from cells was assayed for A40 or A42 using a sensitive BioVerisTM (Witney, UK) immunoassay employing A Cterminal-specific antibodies as described previously [16]. A38
+was assayed using an MSD쏐 human (6E10) A38 ultrasensitive
+kit as described by the manufacturer (Meso Scale Discovery,
+Gaithersburg, Md., USA). Total A levels in the medium were
+determined as follows. Total A was captured using a midregion
+A antibody, 1E8 [17], precoated on Nunc Maxisorb microtitre
+plates (Thermo Fischer Scientific, Roskilde, Denmark). Detec-
+
+Hussain et al.
+
+Downloaded by:
+Washington University
+198.143.32.1 - 1/27/2016 4:11:09 PM
+
+The main protein components of senile plaques are amyloid- (A) peptides, predominantly 40 or 42 amino acids in length (A40, A42), which are generated following
+sequential cleavage of the amyloid precursor protein
+(APP) by -site APP-cleaving enzyme 1 (BACE1) and secretase [3]. Due to its pivotal role in A generation, secretase is an attractive target for therapeutic intervention. A number of potent -secretase inhibitors have been
+identified from cell-based screens and shown to inhibit
+A40 and A42 production in cells and in APP transgenic mice [4]. However, due to the critical role -secretase
+plays in the intramembrane proteolysis of a number of
+other proteins, these compounds produced mechanismbased toxicities in preclinical disease-relevant models [4–
+6]. These adverse events occurred in the gastrointestinal
+tract and immune system and were primarily due to inhibition of Notch cleavage and subsequent downregulation of the Notch signalling pathway.
+Modulation of -secretase to inhibit selectively A42
+production with no effect on the cleavage of Notch and
+other -secretase substrates is thus desirable to avoid the
+toxicological issues hindering the development of secretase inhibitors. Modulation of -secretase was initially demonstrated by non-steroidal anti-inflammatory
+drugs (NSAIDs) [7, 8]. NSAIDs such as indomethacin
+and sulindac sulphide were found to decrease A42 production selectively by shifting cleavage away from the
+amyloidogenic A42 site towards cleavage at the A37 and
+A38 sites. Encouragingly, no effect on Notch cleavage
+was observed. Subsequent drug discovery efforts resulted
+in the identification of more potent -secretase modulators [9–13].
+We recently reported on the generation of a potent and
+selective -secretase modulator GSM-10h: {(2S,4R)-1{(1 R)-4-methyl-1-[6-(trif luoromethyl)-3-pyridinyl]
+pentyl}-2-[4-(trifluoromethyl)phenyl]-4-piperidinyl}acetic acid [14]. This compound inhibited A42 production
+in cells with no effect on Notch cleavage. Pharmacokinetic profiling of this compound in vivo demonstrated
+low clearance and excellent oral bioavailability. Despite
+containing a carboxylic acid and being zwitterionic,
+GSM-10h showed good central nervous system (CNS)
+penetration in the mouse with a brain-blood concentration ratio of 0.74:1 [14]. These findings suggested GSM10h had the potential to lower brain A42 levels in vivo.
+We now describe the in vitro and in vivo pharmacology
+of this compound and investigate the potential neurotoxic properties of shorter A peptides.
+
+Hairy and Enhancer of Split Homologue-1 mRNA Analysis
+Total RNA was extracted from ileum samples of TASTPM
+mice using Maxwell 16 total RNA purification kits (Promega,
+Fitchburg, Wisc., USA) according to the manufacturer’s instructions. RNA was quantified and then reverse transcribed using reverse transcriptase SuperscriptIITM (Invitrogen). Quantifications
+of hairy and enhancer of split homologue (Hes)-1 and glyceraldehyde 3-phosphate dehydrogenase (GAPDH; housekeeping gene)
+mRNA transcripts were performed using the PCR-based 5ⴕ nuclease assay utilizing gene-specific primer and fluorogenic TaqMan
+probes. The primer and probe sequences used for Hes-1 were: 5ⴕCGGCTTCAGCGAGTGCAT-3ⴕ (forward sense); 5ⴕ-ACCTCGGTGTTAACGCCCTC-3ⴕ (reverse sense), and FAM-5ⴕ-AGGTGACCCGCTTCCTGTCCACG-3ⴕ-TAMRA (fluorogenic probe).
+The primer and probe sequences used for GAPDH were: 5ⴕGAACATCATCCCTGCATCCA-3ⴕ (forward sense); 5ⴕ-CCAGTGAGCTTCCCGTTCA-3ⴕ (reverse sense), and FAM-5ⴕ-CTTGCCCACAGCCTTGGCAGC-3ⴕ-TAMRA (fluorogenic probe).
+TaqMan analysis was performed using the Abi PrismTM 7700
+Sequence Detection System for thermal cycling and real-time
+fluorescence measurements (Applied Biosystems, Cheshire, UK).
+Parametric analyses of data were performed by software packages
+Statistica version 5.1 (StatSoft Inc.) and Microsoft쏐 Excel 2003
+(Microsoft, Redmond, Wash., USA) with an add-on toolkit for the
+analysis of real-time PCR data (Prism Training and Consultancy,
+Cambridge, UK). Hes-1 mRNA data were analysed using one-way
+ANCOVA after a log10 transformation, with GAPDH mRNA copy
+numbers, also log10 transformed, used as a covariate for normalisation.
+
+on a 4-colour FACSCalibur flow cytometer (Becton Dickinson,
+Mountain View, Calif., USA) using CellQuest software. The relative proportion of CD4–CD8–, CD4+CD8–, CD4–CD8+ and
+CD4+CD8+ thymocytes was determined using a quadrant analysis from FL1 versus FL3 plots. In preliminary experiments, isotype-matched control antibodies were used to assess non-specific
+binding and to define the position of analysis gates. Data were
+analysed by one-way ANOVA followed by planned comparisons
+of least-square means by the post hoc Fisher test using Statistica
+version 5.1 (StatSoft Inc.).
+Determination of Drug Concentrations
+Blood (n = 10–11) and brain (n = 2) samples were analysed for
+GSM-10h using a method based on protein precipitation and
+liquid chromatography-mass spectrometry (LC-MS)/MS analysis. Prior to analysis, brain samples were homogenised with
+an equal weight of deionised water. To samples of blood (25 l
+diluted with 25 l of water) and brain homogenate (50 l),
+acetonitrile/ammonium acetate (10 m M; 8: 2; 125 l) containing
+an appropriate internal standard was added. The samples were
+mixed thoroughly (mechanical shaking for 20 min), and then
+centrifuged (2,465 g for 15 min at room temperature). An aliquot
+of the resulting supernatant was analysed for GSM-10h by reverse-phase LC-MS/MS using a heat-assisted electrospray interface in negative ion mode (Sciex API 3000) and a Synergi FusionRP column (50 ! 2 mm i.d.; Thermo Fischer). The mobile phase
+was delivered as a linear gradient of 20–95% acetonitrile/ammonium acetate (10 m M containing 0.1% v/v formic acid) over 0.8
+min. The final composition was held for 0.8 min before returning
+to the initial composition. The nominal multiple reaction monitoring transition for the free base of GSM-10h was 515–210. Concentration ranges for the assays were 0.02–30 g/ml for the blood
+samples with a lower limit of quantification of 0.02 g/ml, and
+0.01–60 g/g for the brain samples with a lower limit of quantification of 0.01 g/g.
+
+Fluorescence-Activated Cell Sorting Analysis of Thymic Cell
+Populations
+Thymi were washed in RPMI medium at 4 ° C and the outer
+capsules torn apart with a forceps. Cells were shaken into RPMI
+medium and diluted to a final concentration of approximately 108
+cells/ml. The cells were then incubated with the following monoclonal antibodies: allophycocyanin-labelled anti-mouse CD3
+(clone 145-C11), fluorescein-isothiocyanate-labelled anti-mouse
+CD4 (clone RM4-5) and peridinin-chlorophyll-protein-labelled
+anti-mouse CD8 (53-6.7; BD Biosciences, Oxford, UK) for 10 min
+at 4 ° C, diluted in fresh RPMI medium and analysed immediately
+
+Rat Cortical A Cell Death Assay
+Cortical neurons were cultured from gestational day 18 rat
+embryos (strain: CD; Charles River, Margate, UK) as previously
+described [18], with minor modifications. The animals were euthanised in accordance with the 1986 Animals (Scientific Procedures) Act. Briefly, after removal of the meninges, the cerebral
+cortices were dissected and dissociated with a papain tissue dissociation kit (Worthington, Lakewood, N.J., USA) following the
+manufacturer’s instructions. Cells were resuspended in Neurobasal medium containing 2% B27 supplements, 1 m M sodium
+pyruvate, 2 m M L-glutamine and penicillin (100 U/ml)-streptomycin (50 g/ml; all from Invitrogen), and plated in poly-D -lysine-coated 96-well plates (Corning, N.Y., USA) at 0.3 ! 105 cells
+per well in 0.10 ml. The poly-D -lysine-coated culture wells were
+exposed overnight to medium containing 10% fetal bovine serum prior to cell seeding. After 2 days, the cultures received 0.10
+ml per well of plating medium, but containing B27 supplement
+without antioxidants. The cultures were maintained at 37 ° C in a
+5% CO2 humidified atmosphere and used after 6 days for A toxicity experiments. A42 (lot MP0415) and A38 (lot MM0125)
+were from California Peptide Research (Napa, Calif., USA); A37
+peptide (lot 52157) was from AnaSpec (San Jose, Calif., USA). All
+A peptides were prepared by dissolving in 1,1,1,3,3,3-hexafluoro-2-propanol (Sigma-Aldrich) to a concentration of 2.5 mg/ml
+
+In vivo Characterisation of GSM-10h
+
+Neurodegenerative Dis 2011;8:15–24
+
+17
+
+Downloaded by:
+Washington University
+198.143.32.1 - 1/27/2016 4:11:09 PM
+
+tion was by means of biotinylated 6E10 (Signet Laboratories,
+Dedham, Mass., USA) and binding of streptavidin-europium
+(Perkin Elmer, Waltham, Mass., USA), permitting quantification
+by DELFIA (Delayed Enhanced Lanthanide Fluorescence Immunoassay; Perkin Elmer).
+Brain hemisections were homogenised in 5 M guanidine HCl
+(Sigma-Aldrich) as described previously [16] and assayed in triplicate for A peptides as described above. Standard curves were
+constructed using human A38 (Meso Scale Discovery), A40
+(Biosource, Nivelles, Belgium) and A42 (Innogenetics, Gent, Belgium) peptides diluted in assay buffer containing 0.5 M guanidine
+HCl. Data from the time-course study was analysed by three-way
+ANOVA with a post hoc Fisher least significant difference test using Statistica version 5.1 (StatSoft Inc., Tulsa, Okla., USA). Data
+from the dose-response studies were analysed by one-way ANOVA and pairwise comparisons made between vehicle- and GSM10h-treated mice by a post

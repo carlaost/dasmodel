@@ -1,0 +1,390 @@
+Worldwide distribution of PSEN1
+Met146Leu mutation
+A large variability for a founder mutation
+
+A.C. Bruni, MD
+L. Bernardi, PhD
+R. Colao, MD
+E. Rubino, PhD
+N. Smirne, BSc
+F. Frangipane, MD
+B. Terni, PhD
+S.A.M. Curcio, PhD
+M. Mirabelli, PhD
+A. Clodomiro, MD
+R. Di Lorenzo, MD
+R. Maletta, MD
+M. Anfossi, PhD
+M. Gallo, PhD
+S. Geracitano, PhD
+C. Tomaino, PhD
+M.G. Muraca, MRS
+A. Leotta, MD
+S.G. Lio, MD
+L. Pinessi, MD
+I. Rainero, MD
+S. Sorbi, MD
+L. Nee, MSW
+G. Milan, MD
+S. Pappatà, MD
+A. Postiglione, MD
+N. Abbamondi, MD
+G. Forloni, MD
+P. St. George Hyslop,
+MD, FRCP(C)
+E. Rogaeva, PhD
+O. Bugiani, MD
+G. Giaccone, MD
+J.F. Foncin, MD
+M.G. Spillantini, PhD
+G. Puccio, MD
+
+Address correspondence and reprint
+requests to Dr. A.C. Bruni, Centro
+Regionale di Neurogenetica, Azienda
+Sanitaria Provinciale Catanzaro, Viale
+A. Perugini, 88046 Lamezia Terme
+(CZ), Italy
+bruni@arn.it
+
+Editorial, page 790
+Supplemental data at
+www.neurology.org
+
+798
+
+ABSTRACT
+
+Objective: Large kindreds segregating familial Alzheimer disease (FAD) offer the opportunity of
+studying clinical variability as observed for presenilin 1 (PSEN1) mutations. Two early-onset FAD
+(EOFAD) Calabrian families with PSEN1 Met146Leu (ATG/CTG) mutation constitute a unique
+population descending from a remote common ancestor. Recently, several other EOFAD families
+with the same mutation have been described worldwide.
+
+Methods: We searched for a common founder of the PSEN1 Met146Leu mutation in families with
+different geographic origins by genealogic and molecular analyses. We also investigated the phenotypic variability at onset in a group of 50 patients (mean age at onset 40.0 ⫾ 4.8 years) by
+clinical, neuropsychological, and molecular methodologies.
+
+Results: EOFAD Met146Leu families from around the world resulted to be related and constitute
+a single kindred originating from Southern Italy before the 17th century. Phenotypic variability at
+onset is broad: 4 different clinical presentations may be recognized, 2 classic for AD (memory
+deficits and spatial and temporal disorientation), whereas the others are expressions of frontal
+impairment. The apathetic and dysexecutive subgroups could be related to orbital-medial prefrontal cortex and dorsolateral prefrontal cortex dysfunction.
+Conclusions: Genealogic and molecular findings provided evidence that the PSEN1 Met146Leu
+families from around the world analyzed in this study are related and represent a single kindred
+originating from Southern Italy. The marked phenotypic variability might reflect early involvement
+by the pathologic process of different cortical areas. Although the clinical phenotype is quite
+variable, the neuropathologic and biochemical characteristics of the lesions account for neurodegenerative processes unmistakably of Alzheimer nature. Neurology® 2010;74:798 –806
+GLOSSARY
+AD ⫽ Alzheimer disease; EOFAD ⫽ early-onset familial Alzheimer disease; FAD ⫽ familial Alzheimer disease; H-E ⫽
+hematoxylin-eosin.
+
+Alzheimer disease (AD) is a common degenerative disorder of unknown etiology, believed
+to involve a combination of genetic and environmental factors. About 47% of families
+with early-onset familial AD (EOFAD) have been attributed to PSEN1 mutations
+(http://molgen-www.ua.ac.be/ADmutations). Since the early 1970s, we have been studying 2 large
+Calabrian EOFAD kindreds: the N family1 and the TO family,2 both instrumental for the
+cloning of PSEN1 gene.3 A shared extended haplotype containing the PSEN1 gene and the
+Met146Leu (ATG/CTG) mutation was shown to be identical by descent,3 thus confirming a
+posteriori the common origin of the families.4 Both Calabrian kindreds encompass branches inde-
+
+e-Pub ahead of print on February 17, 2010, at www.neurology.org.
+From the Regional Neurogenetic Centre (A.C.B., L.B., R.C., N.S., F.F., S.A.M.C., M.M., A.C., R.D., R.M., M.A., M.G., S.G., C.T., M.G.M.,
+G.P.) and Pathology Department (A.L., S.G.L.), ASP Catanzaro, Lamezia Terme (CZ); Neurology II–Department of Neuroscience (E.R., L.P., I.R.),
+University of Turin, Italy; Brain Repair Centre (B.T., M.G.S.), Cambridge, UK; Department of Neurological Science (S.S.), University of Florence,
+Italy; National Institutes of Health (L.N.), Bethesda, MD; Dementia Study Center (G.M., A.P.), Department of Clinical and Experimental Disease,
+University “Federico II” & ASL-Napoli 1, Naples; Institute of Biomaging and Biostructures (S.P.), CNR, Naples; ASL-Napoli 1 (N.A.), Naples;
+Department of Neurosciences (G.F.), Mario Negri Institute, Milan, Italy; Centre for Research in Neurodegenerative Diseases (P.S.G.H., E.R.),
+Department of Medicine, University of Toronto, Toronto, Canada; Department of Neuropathology (O.B., G.G.), Neurological Institute “Carlo
+Besta,” Milan, Italy; and Laboratoire de Neurohistologie EPHE (J.F.F.), Brie Comte Robert, France.
+Study funding: Supported by the Italian Health Ministry (DGRST no. 4/2760-P/I.9.ab and RFPS-2006-7-334858, 2006).
+Disclosure: Author disclosures are provided at the end of the article.
+Copyright © 2010 by AAN Enterprises, Inc.
+
+pendently identified in different geographic
+places and at different times. The EOFAD pedigree described in 19635 was later genealogically
+linked to the N family1 and the C family,6
+whereas the FJ01 family ascertained in Milan in
+1990 was linked to the TO family in 1993.7
+Emigrated branches dispersed throughout the
+world suggest that all PSEN1 Met146Leu
+(ATG/CTG) families (or apparently sporadic
+cases) could belong to the Calabrian kindreds,
+thus indicating that this mutation is a private
+and founder one.
+Clinically, the PSEN1-EOFAD phenotype
+presents with a picture of cognitive disorder
+typical of AD. However, instances of frontotemporal dementia8-12 have been reported,
+even if mutations in Progranulin might explain some of these atypical cases.13
+The aims of the study were 1) to demonstrate the genealogic and genetic links among
+the different PSEN1 Met146Leu (ATG/
+CTG) families reported in the literature or investigated by the authors and 2) to investigate
+the phenotypic variability with specific reference to clinical symptoms.
+METHODS Families. We included 3 EOFAD families with
+the PSEN1 Met146Leu (ATG/CTG) mutation: the 2 Calabrian
+kindreds1-4 and the recently identified Naples family.
+
+N and TO families. The N and TO families are considered as
+a unique EOFAD population reconstructed from the present to
+the 17th century, over 11 generations and consisting of 138 affected subjects (49 personal examination, 13 neuropathologically
+confirmed, 36 clinical records, 40 reported affected by history)
+and 15 obligate carriers. Age at onset is 41.8 ⫾ 5.8 years; age at
+death is 49.9 ⫾ 5.8 years; duration is 7.3 ⫾ 4.1 years (1–16);
+segregation ratio is 0.67; sex ratio M:F is 1:1.32.
+The genealogic database reconstructed around the Calabrian
+kindreds contains approximately 50,000 individuals from the
+17th century onwards.
+Naples family. The apparent origin of the Naples family is in
+the town of TdG (near Naples) in 1800, where ancestors were
+traced by historical documents belonging to the family (figure
+1). The proband (133611, IV-1), a 40-year-old man showing
+memory loss, attention and planning deficits, and partial insight,
+had been diagnosed with familial AD caused by a PSEN1
+Met146Leu (ATG/CTG) mutation at the Neurology Department of the University of Florence (appendix e-1 and table e-1
+on the Neurology® Web site at www.neurology.org).
+History revealed that 6 other members of the family over 4
+generations developed dementia. One of them had been clinically diagnosed with Pick disease (appendix e-1).
+Database searches of PubMed using the key words EOFADPSEN1 mutations and of the AD&FTD Mutation Database
+(http://www.molgen.ua.ac.be/ADmutations) produced 7 articles
+in which EOFAD families (or single subjects) were associated
+
+with the Met146Leu (ATG/CTG) mutation, subsequent to the
+first presentation of Calabrian kindreds.3,14-20 The authors of the
+articles were contacted to trace the family origins. Consent was
+obtained from the family members for this specific purpose.
+
+Standard protocol approvals, registrations, and patient
+consent. This study was financially supported by the Italian
+Health Ministry projects: 1) DGRST no. 4/2760-P/I.9.ab, 2007; 2)
+RFPS-2006-7-334858, 2006, both with ethics committee approval.
+Written informed consent was obtained from all patients (or guardians of patients) participating in the study (consent for research).
+Medical records belonging to affected deceased subjects are
+recorded in the archives of the Provincial Psychiatric Hospital.
+Clinical trial identifier number and public trials registry are
+not applicable.
+
+Genealogic methods. Data from municipal documents since
+1809 and from parish registers dating back to 1606 were gathered to reconstruct family trees (appendix e-2).
+To verify whether members of the Naples family, and of all
+affected subjects reported in the literature or their possible ancestors, were already present we searched the database for specific
+surnames in specific periods.
+
+Genetic analysis. All available patients or their families provided informed written consent to participate in this study.
+Genomic DNA was extracted from blood buffy-coats using standard phenol-chloroform procedures.
+Screening for PSEN1 Met146Leu (ATG/CTG) mutation by
+sequencing, and screening for APOE genotype, tau haplotypes,
+and the prion protein gene (PRNP) Val129Met polymorphism
+by PCR–restriction fragment length polymorphism, was performed as described previously.21-24
+To determine whether the PSEN1 Met146Leu mutation had
+been inherited from a common ancestor, haplotype analysis on
+one affected subject per family (N family 1193; TO family
+16056; Naples family 133611) was performed. Six adjacent microsatellite markers, from centromere to telomere, D14S1002,
+D14S1028, D14S77, D14S1377, D14S999, and D14S53, located within a 6-Mb region on the physical map surrounding the
+PSEN1 gene, were studied. In particular, D14S77 and D14S53
+were previously used in genetic linkage studies.3 All microsatellites were selected when informative (heterozygosity ⬎75%),
+with an interval between markers of about 1 Mb. Primer sequences
+for microsatellite markers are listed at www.ncbi.nlm.nih.gov
+and www.ensembl.org. Each marker was amplified by PCR with
+one fluorescent labeled primer using standard conditions for microsatellites. The PCR products were assessed on the ABI Prism
+Genetic Analyzer (Applied Biosystems) and analyzed with Genescan version 3.0 and Genotyper software version 2.1. Marker allele
+frequencies were established in 40 chromosomes from Italian controls unrelated to the patients. To estimate ancestry proportions for
+each individual and to determine whether the recurring mutation
+represented an independent mutational event or was due to a common ancestry, we analyzed the ancestry information content from a
+set of 17 very informative microsatellite markers on different chromosomes, analyzing them as independent alleles, using the program
+STRUCTURE, which is based on the Bayesian approach.25
+
+Neuropathologic study. The brains of patients 1768 and 1772
+were obtained for neuropathologic investigation 5 hours after death.
+One hemisphere was fixed in 10% formalin; the other was dissected
+into coronal slices and immediately frozen at ⫺80°C.
+Fixed specimens of several areas of cerebral hemispheres, brainstem, and cerebellum were embedded in paraffin for histology that
+was carried out on 10-␮m-thick sections stained by hematoxylinNeurology 74
+
+March 9, 2010
+
+799
+
+800
+
+Neurology 74
+
+March 9, 2010
+
+Pedigree
+
+Extended pedigree representing known affected subjects of all families with Met146Leu mutation and magnification of Naples family pedigree. E ⫽ explanted brain; PH ⫽ patients hospitalized in
+psychiatric hospital.
+
+Figure 1
+
+eosin (H-E), treated by Thioflavine S, and immunostained for A␤
+(antibody: pan␤ Biosource, 1:1,000), phosphorylated tau (P-tau)
+(AT8 Innogenetics, 1:1,000), the tau isoforms with 3 (RD3, Upstate Biotechnology, 1:3,000) or 4 microtubule-binding repeat domains (RD4, Upstate Biotechnology, 1:100), as well as ␣-synuclein
+(clone 4D6, Signet, 1:5,000). Immunostaining was visualized
+by the EnVision Plus/Horseradish Peroxidase System for rabbit and mouse immunoglobulins (DakoCytomation) with
+3-3⬘diaminobenzidine as chromogen.
+Sarcosyl–insoluble tau was extracted as previously indicated26
+and immunoblotting was performed with antiserum BR133.26
+
+Analysis of the clinical variability. Fifty patients (mean age
+at onset 40.0 ⫾ 4.8 years, of which 18 were alive; 38% female) out
+of 148 patients with PSEN1 Met146leu mutation (138 from Calabrian kindreds, 7 from Naples, and 3 from the previously
+reported Australian family20) with reliable data regarding history and clinical picture were selected for the study of the
+variability of the clinical phenotype at onset and during the
+initial stages of the disease. Twenty-seven patients were personally studied by the authors through a complete neurologic
+evaluation, neuropsychological battery,27 and morphologic
+and functional brain imaging. Twenty-three patients were selected on the basis of completeness of clinical records. For deceased Calabrian patients, a complete survey of the records of the
+Provincial Psychiatric Hospital archives, encompassing data
+from 1881 to 1980, was performed. A checklist including demographic (age at death) and clinical data (age at onset, duration,
+cognitive and behavioral symptoms relying on Lund and
+Manchester clinical criteria28) was filled out for all patients.
+Statistical analyses. Hierarchical cluster analysis29 was applied
+to establish whether subgroups existed. Cross-tabulation tables
+with ␹2 test were performed to calculate the association between
+variables. Quantitative data were compared with independent t
+tests between subgroups. Descriptive statistics and all analyses
+were performed using SPSS 11.5 software. Structure 2.2 program was used to analyze microsatellites frequencies.25 For all
+analyses, significance was p ⬍ 0.05.
+RESULTS Genealogic links. A genealogic link was
+established with all the subjects carrying PSEN1
+Met146Leu mutation reported in the literature (figure 1, appendix e-1, and figure e-1).
+
+Table 1
+
+a
+
+Demographic characteristics of the families with the
+Met146Leu mutationa
+
+Families
+
+N_TO
+
+Naples
+
+Australian
+
+All kindreds
+
+Patients
+
+138
+
+7
+
+3
+
+148
+
+Generations
+
+11
+
+6
+
+11
+
+11
+
+Affected generations
+
+6
+
+4
+
+2
+
+6
+
+Postmortem examination
+
+13
+
+0
+
+2
+
+15
+
+Obligate carriers
+
+15
+
+0
+
+4
+
+19
+
+Age at onset, y
+
+41.7 ⫾ 5.8
+
+40.9 ⫾ 5.2
+
+40.0 ⫾ 0.0
+
+41.6 ⫾ 5.7
+
+Age at death, y
+
+49.9 ⫾ 5.8
+
+47.0 ⫾ 4.1
+
+46.0 ⫾ 1.2
+
+49.7 ⫾ 5.7
+
+Duration
+
+7.3 ⫾ 4.0
+
+6.8 ⫾ 4.1
+
+7.0 ⫾ 1.4
+
+7.6 ⫾ 4.1
+
+Segregation ratio
+
+0.67
+
+0.54
+
+0.45
+
+0.55
+
+Sex ratio M:F
+
+1:1.23
+
+1:1
+
+1:2
+
+1:1.24
+
+Values are n or mean ⫾ SD.
+
+The reconstituted Calabrian kindreds plus the
+Naples family and the Australian family (table 1)
+comprises 148 affected persons and 19 obligate carriers from the 17th century onwards.
+Molecular link. A common shared DNA haplotype was
+
+identified among Calabrian kindreds and the Naples
+family, thus suggesting that the Met146Leu mutation
+occurred in a common ancestor (appendix e-1). None
+of the controls had the same haplotype identified in the
+subjects from N and the Naples family. Patient 16056,
+belonging to the TO family, previously linked to the N
+family,3 showed a unique allelic pattern for the D14S53
+marker. This microsatellite marker is the marker most
+distant from PSEN1 gene and it is possible that a single
+recombination event occurred in this region. Unfortunately, we cannot estimate the exact number of generations separating them from the common founder
+because of the limited number of available Naples family members.
+Neuropathologic study. The weights of the 2 brains
+examined were 970 and 1,230 g. Gross examination
+showed diffuse brain atrophy. Microscopic examination identified substantial A␤ and P-tau immunoreactivity (IR) in both brains. A␤ amyloid deposition
+was prese

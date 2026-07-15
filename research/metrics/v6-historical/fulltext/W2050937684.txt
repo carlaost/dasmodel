@@ -1,0 +1,314 @@
+INTERNATIONAL JOURNAL OF GERIATRIC PSYCHIATRY
+Int J Geriatr Psychiatry 2008; 23: 387–392.
+Published online 1 October 2007 in Wiley InterScience
+(www.interscience.wiley.com) DOI: 10.1002/gps.1891
+
+Behavioural and psychological symptoms are not related to
+white matter hyperintensities and medial temporal lobe
+atrophy in Alzheimer’s disease
+Salka S. Staekenborg 1*, Freek Gillissen 1, Rolinka Romkes 1, Yolande A. L. Pijnenburg 1,
+Frederik Barkhof 2, Philip Scheltens 1 and Wiesje M. van der Flier 1
+1
+2
+
+Alzheimer Centre and Department of Neurology, Vrije Universiteit Medical Centre, Amsterdam, the Netherlands
+Alzheimer Centre and Department of Radiology, Vrije Universiteit Medical Centre, Amsterdam, the Netherlands
+
+SUMMARY
+Background The neuropathology of behavioural and psychological symptoms is much less understood than the neuropathology of cognitive impairment in AD. On MRI, medial temporal lobe atrophy (MTA) is presumed to reﬂect Alzheimertype pathology. White matter hyperintensities (WMH) are considered markers of vascular pathology.
+Aim We investigated differences in prevalence of behavioural and psychological symptoms in AD according to the presence of MTA and WMH on MRI.
+Methods Behavioural and psychological symptoms of 111 consecutive AD patients were assessed using the Neuropsychatric Inventory (NPI). Symptoms were considered present when the score was 1. On MRI, MTA was rated using the
+ﬁve-point Scheltens-scale and WMH using the four-point Fazekas-scale. Both MRI measures were dichotomised (MTA:
+absent 0/1, present 2–4; WMH absent 0/1, present 2/3).
+Results Of the 111 AD patients, 60(55%) had MTA, and 32(29%) had WMH. The presence of MTA was associated with
+the presence of WMH (x2 ¼ 11.8, p < 0.001). The prevalence of behavioural and psychological symptoms––deﬁned as a NPI
+score of 1 on at least one symptom––was 74%.The median NPI score of the total study population was 6(0–41). There was
+no difference in prevalence according to MTA ( p ¼ 0.53) or WMH ( p ¼ 0.18). On inspection of individual NPI items, neither
+MTA, nor WMH was related to any of the symptoms.
+Conclusions There were no differences in prevalence of behavioural and psychological symptoms according to MTA or
+WMH, as rated on MRI. This suggests that the occurrence of those symptoms depends on other determinants, such as coping
+style or genetic make-up. Copyright # 2007 John Wiley & Sons, Ltd.
+key words — behavioural and psychological symptoms; MRI; AD
+
+INTRODUCTION
+Alzheimer’s disease (AD) is the most common form of
+dementia, characterised by gradually increasing cognitive impairment (McKhann et al., 1984). In addition
+to cognitive impairment, behavioural and psychological symptoms in AD are considered to be equally
+important (Robert et al., 2005). These symptoms have
+*Correspondence to: S. S. Staekenborg, Department of Neurology
+and Alzheimer Centre, Vrije Universiteit Medical Centre, PO Box
+7057, 1007 MB Amsterdam, The Netherlands.
+E-mail: s.staekenborg@vumc.nl
+Copyright # 2007 John Wiley & Sons, Ltd.
+
+been shown to be associated with worse prognosis,
+higher cost of care, earlier institutionalisation and
+increased caregiver burden (Finkel, 2001; Craig et al.,
+2005). However, little is known about the radiological
+underpinnings of these behavioural and psychological
+symptoms.
+On MRI, medial temporal lobe atrophy (MTA) and
+white matter hyperintensities (WMH) are both commonly observed in AD. MTA is presumed to reﬂect
+disease severity as it has been related to the burden of
+Alzheimer-type pathology (Gosche et al., 2002;
+Mortimer et al., 2004). WMH are regarded as suggestive of vascular pathology and considered to reﬂect
+Received 12 March 2007
+Accepted 19 July 2007
+
+388
+
+s. s. staekenborg ET AL.
+
+ischemic damage to the brain (Pantoni and Garcia,
+1997). MTA and WMH are both associated with cognitive problems in AD (Scheltens et al., 1995; Burns
+et al., 2005). Moreover, both MRI abnormalities have
+been shown to be involved in the earliest stages of
+cognitive decline, even before dementia (van der Flier
+et al., 2005). In AD, MTA especially has been related to
+memory impairment, whereas WMH has been reported
+to affect frontal lobe function resulting in executive
+dysfunction (Pantel et al., 2004; Tullberg et al., 2004).
+Still, it is unclear whether MTA and WMH are also
+associated with other symptoms in dementia such as
+behavioural and psychological symptoms. Hypothetically these may be caused by disruption of the connections between the anterior cingulated gyrus and other
+cortical and subcortical areas or by affecting structures
+relevant to emotion and social behaviour including the
+amygdala and anterior temporal cortex.
+Few studies have focused on behavioural and
+psychological symptoms and MRI abnormalities in
+AD. Only one previous study examined involvement
+of the medial temporal lobe and showed an association
+with delusions in a small group of AD patients
+(Geroldi et al., 2000). Reports about the role of
+WMH and behavioural and psychological symptoms
+in AD have been conﬂicting. Associations between
+WMH and apathy (Starkstein et al., 1997), depression
+(O’Brien et al., 2000), suicidal ideation (Lopez et al.,
+1997), delusional misidentiﬁcation (Lee et al., 2006)
+and aberrant motor behaviour (Hirono et al., 2000)
+have been described. However, the studies were
+relatively small, and none of the studies could conﬁrm
+the results of the previous reports. Moreover, other
+studies did not ﬁnd any relation between WMH and
+psychiatric symptoms (Harrell et al., 1991; Lopez
+et al., 1992; Lind et al., 2006). We hypothesised that,
+since MTA is known to progress along with dementia
+severity, the presence of MTA would be related to the
+occurrence of behavioural and psychological symptoms. Furthermore, we expected vascular involvement
+as illustrated by WMH to express with a different
+behavioural and psychological proﬁle compared to
+patients without vascular involvement. WMH in nondemented older subjects have been associated with
+depressive symptoms (O’Brien et al., 2006), and we
+hypothesised that likewise, affective symptoms would
+be promoted by WMH in AD patients as well.
+To our knowledge, no previous report has examined
+both MRI markers in relation to behavioural and
+psychological symptoms in dementia. We have therefore assessed the associations between these symptoms and MTA and WMH in a relatively large sample
+of AD patients attending a memory clinic.
+Copyright # 2007 John Wiley & Sons, Ltd.
+
+METHODS
+We consecutively recruited 111 patients with probable AD from the outpatient memory clinic of the
+Alzheimer Centre of the VU University Medical
+Centre (VUmc). Standardised dementia assessment
+included medical history, neurological exam, laboratory tests, neuropsychological testing including MiniMental State Examination (MMSE) (Folstein et al.,
+1975), electroencephalogram (EEG) and magnetic
+resonance imaging (MRI) of the brain. Diagnoses
+were made in a multidisciplinary consensus meeting
+according to the National Institute of Neurological and
+Communicative Disorders and Stroke (NINCDS) and
+the Alzheimer’s Disease and Related Disorders Association (ADRDA) diagnostic criteria (McKhann et al.,
+1984). The study was approved by the local Medical
+Ethical Committee. All patients gave written informed
+consent.
+Behavioural and psychological assessment
+To evaluate behavioural and psychological symptoms
+(including delusions, hallucinations, agitation/aggression, depression/dysphoria, anxiety, elation/euphoria,
+apathy, disinhibition, irritability, and aberrant motor
+behaviour), the Neuropsychiatric Inventory (NPI tenitem), an informant rated instrument, was used (Cummings et al., 1994). For each neuropsychiatric domain,
+frequency (range 0–4) and severity (range 0–3) are
+rated. Subsequently, the domain score is calculated as
+the product of the frequency and severity. The sum of
+the ten domain scores provides the total NPI score
+(maximum score ¼ 120). Presence of behavioural and
+psychological symptoms was deﬁned as a score of 1.
+The abbreviated Geriatric Depression Scale (GDS-15)
+was used to additionally assess depressive symptoms
+(Sheikh and Yesavage, 1986).
+MRI
+MRI was performed on a 1.0 Tesla machine
+(Magnetom Impact Expert Siemens AG, Erlangen,
+Germany) following a standard protocol, including
+coronal T1-weighted 3D MPRAGE (magnetisation
+prepared rapid acquisition gradient echo; 168 slices,
+FOV 250 mm, matrix 256  256, slice thickness
+1.5 mm, TE: 7 ms, TR: 15 ms, TI 300 ms, ﬂip angle
+15 degrees) and axial FLAIR (ﬂuid attenuated inversion recovery, 17 slices, FOV 250 mm, matrix 256 
+256, slice thickness: 5 mm, interslice gap: 1.5 mm,
+TE: 105 ms, TR: 9000 ms, TI 2200 ms, ﬂip angle
+180 degrees). Visual rating of MTA was performed on
+Int J Geriatr Psychiatry 2008; 23: 387–392.
+DOI: 10.1002/gps
+
+white matter hyperintensities and medial temporal lobe atrophy in ad
+
+389
+
+coronal T1-weighted images according to the ﬁvepoint (0–4) Scheltens scale (Scheltens et al., 1995).
+The degree of WMH severity was rated visually
+on axial FLAIR images using the four-point (0–3)
+Fazekas scale (Fazekas et al., 1987). Both MRI measures were dichotomised (MTA average score 0/1 ¼ no
+atrophy, MTA score 2–4 ¼ atrophy; WMH grade 0/
+1 ¼ no WMH, grade 2/3 ¼ WMH present).
+
+Statistical analysis
+Statistical analysis was performed by means of SPSS
+12.0 (SPSS Inc). Group comparisons were performed
+using chi-squared tests for dichotomous outcome
+variables and independent samples t-tests for continuous data. Subsequently, we used logistic regression
+models with the individual NPI symptoms as dependent variables, and the presence of MTA or WMH
+as categorical covariate, adjusting for age, sex and
+MMSE.
+
+Figure 1. Prevalence of behavioural and psychological symptoms
+according to presence of MTA. A symptom was considered present
+with a NPI score of 1. MTA was considered present with a
+Scheltens score of 2.
+
+RESULTS
+Demographic, clinical and MRI variables are shown in
+Table 1. More than half of the patients had MTA, while
+one-third of patients showed moderate or severe
+WMH. The combination of both MTA and WMH was
+observed in 26 (23%) of the patients. The presence of
+MTA was associated with the presence of WMH
+(x2 ¼ 11.8, p ¼ 0.001). Both MTA and WMH were
+associated with a higher age (MTA t ¼ 4.3, p ¼ 0.03;
+WMH t ¼ 4.3, p < 0.001). Patients with MTA tended
+to have a lower MMSE (t ¼ 2.1, p ¼ 0.057), but there
+was no relation between WMH and MMSE (t ¼ 0.2,
+
+p ¼ 0.22). There were no differences in sex or depressive symptoms as measured using the GDS according to MTA or WMH.
+In the total cohort of 111 patients, the prevalence of
+any behavioural or psychological symptom was 74%,
+with a median NPI score of 6 (range 0–41). Apathy
+and irritability were the most common symptoms in
+
+Table 1. Characteristics of patients
+N
+Sex (% female)
+Age
+Mini Mental State Examinationa
+Geriatric Depression Scaleb
+Neuropsychiatric Inventory (% 1)
+NPI score
+Medial Temporal lobe Atrophy present
+MTA score
+White Matter Hyperintensities present
+WMH score
+
+111
+62 (57%)
+70 (9)
+20 (5)
+2.5 (0–9)
+81 (74%)
+6 (0–41)
+60 (55%)
+1.5 (0–4)
+32 (29%)
+1 (0–3)
+
+Data are represented as mean (SD), median (range) or n (percentage).
+MTA ¼ medial temporal lobe atrophy (present ¼ Scheltens score
+2); NPI ¼ neuropsychiatric inventory; WMH ¼ white matter
+hyperintensities (present ¼ Fazekas score 2/3).
+a
+Data available for 105 patients.
+b
+Data available for 102 patients.
+Copyright # 2007 John Wiley & Sons, Ltd.
+
+Figure 2. Prevalence of behavioural and psychological symptoms
+according to presence of WMH. A symptom was considered present
+with a NPI score of 1. WMH was considered present with a
+Fazekas score of 2/3.
+Int J Geriatr Psychiatry 2008; 23: 387–392.
+DOI: 10.1002/gps
+
+390
+
+s. s. staekenborg ET AL.
+
+the whole group, euphoria was the rarest symptom
+(affecting 60%, 26% and 0% patients, respectively).
+The presence of any symptom was related to a higher
+GDS score (t ¼ 4.2, p < 0.001), and related to a lower
+MMSE (t ¼ 2.5, p ¼ 0.01). There was no difference in
+prevalence of any behavioural or psychological symptom according to MTA (x2 ¼ 0.4, p ¼ 0.53) or WMH
+(x2 ¼ 1.8, p ¼ 0.18). Also the combination of MTA
+and WMH showed no difference in presence of symptoms compared to patients without MTA or WMH
+(x2 ¼ 0.2, p ¼ 0.64). Figures 1 and 2 show the
+prevalence of individual behavioural and psychological symptoms according to the presence of MTA and
+WMH, respectively. We did not ﬁnd a relation
+between MTA or WMH and any of the individual
+symptoms (all p > 0.12). These results remained unchanged after adjustment for age, sex and MMSE.
+DISCUSSION
+The main ﬁnding of this study is the absence of any
+association between the behavioural and psychological proﬁle and MTA or WMH, two widely used MRI
+markers in AD. On examination of individual NPI
+items, neither MTA nor WMH was related to any of
+the symptoms. These ﬁndings suggest that the
+presence of behavioural and psychological symptoms
+depends on other determinants.
+We hypothesised that MTA would be related to the
+prevalence of symptoms. However, we did not ﬁnd an
+association between any behavioural or psychological
+symptom and MTA. Our ﬁndings are in agreement
+with the observation that––unlike cognition that gradually declines in the course of the disease––
+behavioural and psychological symptoms may have
+a more ﬂuctuating manifestation (Cummings, 2000).
+Apparently behavioural and psychological symptoms
+are not directly related to disease progression as
+measured using MTA, but depend on other factors. A
+previous report examined AD patients with delusions,
+and showed asymmetric involvement of the medial
+temporal lobe (Geroldi et al., 2000). However, a different study method was used; only delusional symptoms were examined, while we evaluated the whole
+spectrum of behavioural and psychological symptoms,
+and CT-scans were used instead of MRI. To our
+knowledge, other behavioural or psychological symptoms have never been explored in relation to MTA in
+AD patients. In non-demented patients, smaller hippocampal volume has been related to depression
+(Campbell et al., 2004; Janssen et al., 2004). As
+possible cause of this decline in volume in depressed
+patients, repeated stress and associated glucocorticoid
+Copyright # 2007 John Wiley & Sons, Ltd.
+
+excess have been suggested (Campbell et al., 2004).
+On the contrary, decrease of hippocampal volume in
+AD has been related to the extent of Alzheimer-type
+neuropathology (Gosche et al., 2002). Probably, primary depression should be considered as a psychiatric
+illness which develops following a different mechanism than behavioural and psychological symptoms
+in AD.
+We hypothesised that vascular involvement as indicated by WMH would express with a different clinical
+presentation of behavioural and psychological symptoms compared to patients without vascular involvement, but we could not objectify such dissimilarity.
+The concept of ‘vascular depression’ assumes that a
+disruption of fronto-striatal circuits, due to vascular
+lesions such as WMH, predisposes, perpetuates or
+exacerbates depressive symptoms (Alexopoulos,
+2005). We were not able to show any difference in
+prevalence of neuropsychological or behavioural
+symptoms in AD patients with or without vascular
+involvement, measured as WMH. However, others did
+ﬁnd a relation in AD patients. Associations between
+WMH and apathy (Starkstein et al., 1997), depression
+(O’Brien et al., 2000), suicidal ideation (Lopez et al.,
+1997), delusional misidentiﬁcation (Lee et al., 2006)
+and aberrant motor behaviour (Hirono et al., 2000)
+have been described. Nevertheless, none of the studies
+could conﬁrm the results of the previous reports
+and other reports were negative (Harrell et al., 1991;
+Lopez et al., 1992; Lind et al., 2006). Moreover, a
+recent study showed that patients with AD and with
+vascular dementia have similar neuropsychiatric
+proﬁles (Srikanth et al., 2005). This provides further
+support for our results, that within a group of 

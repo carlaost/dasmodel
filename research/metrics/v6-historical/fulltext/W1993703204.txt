@@ -1,0 +1,319 @@
+J Neuropathol Exp Neurol
+Copyright Ó 2005 by the American Association of Neuropathologists, Inc.
+
+Vol. 64, No. 8
+August 2005
+pp. 675–680
+
+ORIGINAL ARTICLE
+
+Ectopic Expression of Musashi-1 in Alzheimer Disease
+and Pick Disease
+Mark A. Lovell, PhD and William R. Markesbery, MD
+
+Abstract
+
+Key Words: Alzheimer disease, Neurofibrillary tangles (NFT), Pick
+bodies, tau.
+
+MATERIALS AND METHODS
+Case Selection and
+Neuropathologic Examination
+
+INTRODUCTION
+Musashi-1 (Msi-1) is a neural, RNA-binding protein
+with 2 conserved RNA recognition motifs with a preference
+for G/A(U)nAGU sequences (1). Musashi-1 is highly expressed in neural progenitor cells (NPC) (2–6) and is widely
+used as a positive identifier of NPC. In Drosophila, musashi is
+required for 2 successive asymmetric divisions of sensory
+organ precursor cells (7). In mammals, Msi-1 expression is
+enriched in NPC in embryonic central nervous system (3, 6, 8)
+and is generally downregulated during neural differentiation.
+Msi-1 is not present in newly generated postmitotic neurons (6),
+although Msi-1 transcripts have been detected in the early
+From the Departments of Chemistry (MAL) and Neurology and Pathology
+(WRM) and the Sanders-Brown Center on Aging (MAL, WRM),
+University of Kentucky, Lexington, Kentucky.
+Send correspondence and reprint requests to: Mark A. Lovell, PhD, 135
+Sanders-Brown Building, 800 S. Limestone Street, Lexington, KY 40536;
+E-mail: malove2@uky.edu
+Supported by NIH grants 5-P01-AG05119 and 5-P50-AG05144, and a grant
+from the Abercrombie Foundation.
+
+J Neuropathol Exp Neurol  Volume 64, Number 8, August 2005
+
+Serial sections of paraffin-embedded hippocampus were
+obtained from 5 AD, 4 PD, and 5 aged normal control subjects
+through the neuropathology core of the University of Kentucky
+Alzheimer’s Disease Research Center (UK-ADRC). All subjects had annual mental status testing and physical and neurologic examinations. All AD subjects demonstrated progressive
+intellectual decline and met NINCDS-ADRDA Workgroup (18)
+criteria for the clinical diagnosis of probable AD. Histopathologic examination of multiple sections of neocortex, hippocampus, entorhinal cortex, amygdala, basal ganglia, nucleus
+basalis of Meynert, midbrain, pons, medulla, and cerebellum
+using hematoxylin and eosin and the modified Bielschowsky
+stains along with 10D-5 (for Ab) and a-synuclein immunochemistry were carried out on all subjects. All patients with
+AD met accepted criteria for the histopathologic diagnosis of
+AD (19, 20), typically demonstrated Braak scores of VI, and
+met high likelihood NIA-Reagan Institute criteria for the histopathologic diagnosis of AD. Control subjects were derived
+from the longitudinal control population followed by the UKADRC. Control subjects demonstrated Braak scores of I or
+II and met NIA/Reagan low likelihood criteria for the
+histopathologic diagnosis of AD. All patients with PD showed
+
+675
+
+Downloaded from http://jnen.oxfordjournals.org/ by guest on June 7, 2016
+
+Abnormal accumulation of proteins in filamentous cytoplasmic
+inclusions is a hallmark of several neurodegenerative disorders,
+including Alzheimer disease (AD) and Pick disease (PD). Musashi-1
+(Msi-1), an RNA-binding protein associated with neural progenitor
+cells, has been shown by others to increase the accumulation of tau
+isoforms in intracellular inclusions in frontotemporal dementia and
+parkinsonism linked to chromosome 17. We investigated the expression of Msi-1 in the hippocampus of AD, PD, and aged normal
+control subjects using immunohistochemistry. Comparison of immediately adjacent serial sections stained using the modified
+Bielschowsky method and immunostained for Msi-1 showed that
+Msi-1 was present in 83 6 6% of neurofibrillary tangle bearing
+neurons in AD and 94 6 14% of Pick bodies in PD specimens. Aged
+control hippocampus demonstrated virtually no Msi-1 immunostaining. The presence of Msi-1 in a significant percentage of neurons
+containing cytoplasmic inclusions in 2 different neurodegenerative
+diseases suggests that it may play a role in the pathogenesis of these
+lesions.
+
+postnatal brain and in adults in proliferating neuronal or glial
+precursor cells of the subventricular zone (SVZ) of the hippocampus and in cells of an astrocyte lineage (6).
+The selective expression of Msi-1 in the cytoplasm of
+NPC (3, 6) suggests that it may help to maintain cells in an
+undifferentiated state during posttranslational gene regulation,
+perhaps by translationally repressing synthesis of Numb, a
+Notch antagonist (9–11), thus regulating neuronal differentiation (12). In addition, ectopic expression of Msi-1 in N2a
+cells and in experimental mouse models led to increased
+production and accumulation of tau transcripts containing
+exon-10 (13) that is characteristic of intracellular inclusions
+observed in the brains of subjects with frontotemporal dementia and parkinsonism linked to chromosome 17 (14–17).
+Based on these observations, we carried out immunohistochemical studies to determine if Msi-1 protein is observed
+in lesion-bearing neurons in the brains of patients with Alzheimer
+disease (AD) and Pick disease (PD) compared with aged
+normal control subjects.
+
+J Neuropathol Exp Neurol  Volume 64, Number 8, August 2005
+
+Lovell and Markesbery
+
+typical clinical features of frontotemporal dementia (personality, emotional, and behavioral alterations, decline in executive
+function, and subsequent language changes). Frontal and
+temporal lobe atrophy was observed at autopsy, and
+microscopic examination showed neuron loss, abundant Pick
+bodies, and, in most cases, rare balloon neurons. Subject
+demographic data are shown in the Table.
+
+Immunohistochemical Staining
+and Quantitative Comparisons
+
+TABLE. Subject Demographics
+AD
+PD
+Control
+
+Age (years)
+
+Sex
+
+PMI (hours)
+
+Braak Score
+
+82.8 6 4.2
+66.3 6 0.8*
+81.0 6 1.5
+
+3 M/2 F
+3 M/1 F
+3 M/2 F
+
+3.1 6 0.3
+9.5 6 3.0*
+2.9 6 0.3
+
+6.0 6 0*
+1.0 6 1.0
+1.6 6 0.2
+
+*, p , 0.05, 2-tailed t-test.
+AD, Alzheimer disease; PD, Pick disease; PMI, postmortem interval.
+
+676
+
+Statistical Analysis
+Age, postmortem interval (PMI), and Braak scores were
+compared using a 2-tailed t-test and ABSTAT software
+(AndersonBell, Arvada, CO).
+q 2005 American Association of Neuropathologists, Inc.
+
+Downloaded from http://jnen.oxfordjournals.org/ by guest on June 7, 2016
+
+Serial sections (10 mm) of paraffin-embedded hippocampus/parahippocampal gyrus (HPG) from 5 AD, 4 PD, and
+5 aged normal control subjects were cut using a Shandon
+Finesse microtome, placed on Plus-slides, and rehydrated
+through xylene, descending alcohols, and water. Section 1 of
+the series was stained using the modified Bielschowsky
+method. The adjacent section was used for Msi-1 immunohistochemistry. The sections were rehydrated to water and incubated for 10 minutes in a 0.75-mg/mL trypsin solution
+prepared in 150 mM Tris Hcl (pH 7.6) containing 3.3 mM
+CaCl2 at 37°C. After 3 rinses in phosphate-buffered saline, the
+sections were immunostained using the Dako Envision System (Dako, Carpinteria, CA) per manufacturer’s instructions.
+Briefly, endogenous peroxidase activity was blocked by
+incubation for 5 minutes in 3% hydrogen peroxide/methanol.
+After 3 washes in water and Tris-buffered saline containing
+0.1% Tween-20 (TTBS), the sections were incubated for
+30 minutes in a 1:100 dilution of rabbit polyclonal raised
+against amino acids 5 through 21 of human Msi-1 (Chemicon
+International, Temecula, CA) in TBS containing 1% fetal
+bovine serum. After 3 to 5 washes in TBS containing 0.1%
+Tween-20 (TTBS), the sections were incubated in peroxidaselabeled polymer conjugated to goat antirabbit IgG in Tris-HCl
+for 30 minutes. The sections were then washed 5 times in
+TTBS and color-developed using diaminobenzidine (DAB)
+provided in the kit. Sections were counterstained with hematoxylin and eosin, dehydrated through graded ascending alcohols and xylene, and coverslipped.
+To verify specificity of the Msi-1 antibody, Western blot
+analyses of human NPC isolated from AD brain and crude
+homogenates of AD and control HPG were carried out. Cultures of NPC were prepared from representative AD HPG as
+previously described (21, 22) and modified by our laboratory
+(23). Briefly, frozen specimens of HPG (0.2–1.0 g) were
+thawed for 5 minutes in 5 mL of warm, sterile artificial colonystimulating factor (A-CSF) consisting of 124 mM NaCl, 5 mM
+KCl, 1.3 mM MgCl2, 0.1 mM CaCl2, 26 mM NaHCO3, 10
+mM glucose, 50 mU/mL penicillin, and 10 mg/mL strepto-
+
+mycin (pH 7.3) (Invitrogen Corp., Carlsbad, CA). After
+thawing, tissues were placed in sterile plastic bags and
+homogenized for 5 minutes using a Stomacher-80 tissue
+homogenizer (Seward Medical, London, UK) at medium
+speed. After homogenization, the solution was forced sequentially through 120 and 70-mm stainless steel mesh using sterile
+Cellector tissue sieves and glass pestles (Thomas Scientific,
+Swedesboro, NJ). The resulting solution was mixed with an
+equal volume of sterile 90% Percoll (Amersham Biosciences,
+Uppsala, Sweden)/10% phosphate-buffered saline and centrifuged at 20,000 3 g for 30 minutes at 18°C to separate tissue
+debris from precursor cells as described by Palmer et al (22).
+Precursor cells were washed free of Percoll by 3 to 4 rinses in
+growth medium consisting of basal serum-free DMEM/F-12
+media (Euroclone, Pero, Italy) containing 2 mM glutamine,
+0.6% glucose, 6.6 mg/mL putrescine, 6.3 ng/mL progesterone,
+5.2 ng/mL sodium selenite, 0.025 mg/mL insulin, 0.1 mg/mL
+apo-transferrin, 20 ng/mL epidermal growth factor (EGF)
+(ICN Biomedical, Costa Mesa, CA), and 20 ng/mL basic
+fibroblast growth factor (bFGF) (ICN Biomedical). All other
+chemicals were from Sigma (St. Louis, MO). After a final
+wash, cells were resuspended in 1 to 2 mL of growth media,
+passed through progressively smaller pipette tips, and plated
+into uncoated 6-well culture plates (Costar, Cambridge, MA)
+as free-floating single-cell suspensions. The cells were pelleted
+by centrifugation at 850 3 g for 10 minutes and homogenized
+in 300 mL distilled/deionized water using a micro-Dounce
+homogenizer. Homogenates of HPG from representative AD
+and control subjects were prepared by homogenizing ;100
+mg tissue in 5 mL phosphate-buffered saline using a chilled
+Dounce homogenizer. For Western blot analysis, aliquots of
+protein (20 mg) were mixed with an equal volume (40 mL
+total) of SDS loading buffer containing 15% v/v glycerol,
+0.125 M Tris HCl (pH 6.8), 5 mM Na2EDTA, 2% SDS, 1% 2mercaptoethanol, and 0.1% bromophenol blue and boiled 5
+minutes. The samples were cooled to room temperature and
+separated on a 4% to 20% gradient SDS-PAGE gel (Bio-Rad,
+Hercules, CA) and transferred to nitrocellulose. The gels were
+blocked overnight in 5% dry milk/TTBS and were probed with
+Msi-1 at a dilution of 1:500. To further verify specificity of the
+antibody, serial sections of hippocampus from a representative
+AD subject were immunostained using the antibody as described previously and also using antibody that had been preincubated with immunizing peptide (APQPGLASPDSPHDPCK)
+for 24 hours.
+Counts of neurofibrillary tangles (NFTs) and Pick
+bodies were performed by taking serial photographs of immediately adjacent Bielschowsky-stained sections and Msi-1
+immunostained sections of all of the CA1 and subiculum of
+each case using a 203 objective on a Nikon Eclipse E600
+microscope. These micrographs were printed on 8" 3 10"
+paper and each margin defined so as not to allow any overlap.
+Each NFT and Pick body was circled and counted with the
+naked eye.
+
+J Neuropathol Exp Neurol  Volume 64, Number 8, August 2005
+
+Ectopic Expression of Musashi-1 in AD and PD
+
+RESULTS
+Subject Demographics
+Statistical comparison of age, PMI, and Braak scores
+(Table) showed no significant differences in age between AD
+and control subjects. Pick disease subjects showed a statistically significant (p , 0.05) lower age (66.3 6 0.8 years) compared with control subjects (82.8 6 4.2 years). Pick disease
+subjects showed a significantly higher PMI (9.5 6 3.0 hours)
+compared with control subjects (2.9 6 0.3 hours). There were
+no other significant differences in PMI. Braak scores were
+significantly higher (6 6 0) in AD subjects compared with
+control subjects. There were no differences in Braak scores for
+PD subjects compared with control subjects.
+
+Verification of Msi-1 Antibody Specificity
+
+Alzheimer Disease
+Sections immunostained with Msi-1 antibody revealed
+staining of NFT-bearing neurons throughout CA1, subiculum
+(Fig. 3 and inset), and the parahippocampal gyrus. Immunostaining was present in typical flame-shaped, globular, and
+hemispiked NFT. Rare ghost tangles were Msi-1-positive but
+most were not stained. The staining suggested a filamentous
+nature of some NFT-bearing neurons, whereas in others,
+
+FIGURE 2. Section of subiculum from a patient with Alzheimer
+disease from an area similar to Figure 3 stained with Msi-1
+antibody that had been preincubated with the immunizing
+peptide. Note lack of staining (2003).
+
+a microgranular appearance was found. In some partially
+stained neurons, there was a granular character of the staining
+in the cytoplasm. The nuclei of NFT-bearing neurons were not
+immunostained. Glial cells were not Msi-1-positive. Although
+most senile plaques (SP) were not immunopositive, a few
+neurites of rare neuritic SP in the subiculum were Msi-1positive. Neuropil threads did not label with the Msi-1 antibody. Counts of NFT-bearing neurons on immediately adjacent
+sections stained with Msi-1 and the modified Bielschowsky
+stain showed that Msi-1 immunostained 83 6 6% of NFTbearing neurons stained with the Bielschowsky method.
+
+Pick Disease
+
+FIGURE 1. Western blot analysis of 20-mg specimens of
+homogenate from Alzheimer disease (AD) (lane 1) and control
+(lane 2) hippocampus/parahippocampal gyrus (HPG) and
+neural progenitor cells isolated from AD HPG (lane 3) probed
+for Msi-1. Neural progenitor cells from several AD subjects
+were combined for Western blot analysis.
+q 2005 American Association of Neuropathologists, Inc.
+
+In Pick disease, immunostaining with Msi-1 showed that
+abundant Pick bodies were positive in the granule neurons of
+the dentate gyrus (Fig. 4), CA1, subiculum (Fig. 5), parahippocampal gyrus, and inferior temporal gyrus. The overall
+regional pattern and staining of individual Pick bodies were
+similar in adjacent Msi-1 and modified Bielschowsky-stained
+sections. Most Pick bodies were seen as discreet, round, densely
+staining cytoplasmic inclusions with sharp borders filling much
+of the neuron cytoplasm. They were especially abundant in the
+granule neurons of the dentate gyrus. In the parahippocampal
+and inferior temporal gyri, they were most prominent in lamina
+II. The nuclei of neurons containing Pick bodies showed
+no immunostaining. Counts of Pick bodies in the CA1 and
+subiculum of adjacent sections stained with Msi-1 and the
+Bielschowsky stain showed that 94 6 14% of Pick bodies
+stained with the modified Bielschowsky stain were immunopositive for Msi-1.
+
+677
+
+Downloaded from http://jnen.oxfordjournals.org/ by guest on June 7, 2016
+
+Western blot analysis of 20-mg aliquots of NPC from
+AD brain and crude homogenates of AD and control HPG
+probed for Msi-1 showed a predominate band at ;39 kDa
+consistent with the molecular weight of Msi-1 in NPC. Analysis of crude homogenate from AD and control HPG showed
+the presence of a band at ;39 kDa and a second band above
+85 kDa that may represent aggregated protein. Figure 1 demonstrates that Msi-1 expression is most pronounced in NPC,
+although there is minimal staining present in crude homogenate of AD brain. To verify specificity of the antibody, sections of a representative AD subject were immunostained
+using antibody alone and antibody that had been preincubated
+with immunizing peptide. The immunizing peptide completely
+blocked Msi-1 immunostaining confirming specificity of the
+antibody (Fig. 2).
+
+J Neuropathol Exp Neurol  Volume 64, Number 8, August 2005
+
+Lovell and Markesbery
+
+DISCUSSION
+Based on the observation tha

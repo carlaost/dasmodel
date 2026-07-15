@@ -1,0 +1,379 @@
+ORIGINAL ARTICLE
+
+Rate of Cognitive Change Measured by Neuropsychologic
+Test Performance in 3 Distinct Dementia Syndromes
+Alissa H. Wicklund, PhD,* Alfred Rademaker, PhD,*w Nancy Johnson, PhD,*
+Bing Bing Weitner, MS,*w and Sandra Weintraub, PhD*
+
+Abstract: Progressive decline in cognition is a hallmark feature
+of dementia, and the rate and proﬁle of cognitive decline
+has been well characterized in Alzheimer disease (AD). Less is
+known about decline in cognition over time in other forms of
+dementia such as the behavioral variant of frontotemporal
+dementia (FTD) and primary progressive aphasia (PPA). The
+present study examined rate of cognitive decline across domains
+of memory, language, and executive function measured by
+neuropsychologic tests, in AD (n = 84), FTD (n = 66), and PPA
+(n = 44). Patients were in the mild stages of dementia, with
+comparable duration of illness at the baseline evaluation. A best
+linear unbiased predictor (BLUP) analysis was used in which the
+slope of the relationship between a cognitive measure and time
+was estimated for each person. AD subjects demonstrated a
+ﬂoor eﬀect on measures of memory at baseline and a decline on
+measures of language and executive functioning over time. FTD
+showed the greatest decline over time on the Mini-Mental State
+Examination, executive functioning, and naming. PPA patients
+demonstrated prominent decline on language measures, verbal
+memory measures, and attention. Results suggest that the proﬁle
+of rate of change over time has unique features on the basis of
+the type of dementia syndrome. However, there is overlap in the
+proﬁles of decline likely inﬂuenced by the overlap in cognitive
+constructs measured by neuropsychologic tests. The comparison
+of the rate of decline in FTD and PPA may also reﬂect the
+neuroanatomic overlap in these syndromes over time.
+Key Words: cognitive change, Alzheimer disease, frontotemporal
+dementia, primary progressive aphasia
+(Alzheimer Dis Assoc Disord 2007;21:S70–S78)
+
+O
+
+ne common feature among neurodegenerative diseases that cause dementia is the progressive nature
+of cognitive decline. In Alzheimer disease (AD), this is
+
+From the *Departments of Psychiatry and Behavioral Sciences and
+Neurology, Cognitive Neurology and Alzheimer’s Disease Center;
+and wDepartment of Preventive Medicine, Feinberg School of
+Medicine, Northwestern University, Chicago, IL.
+Supported in part by an Alzheimer’s Disease Core Center grant
+(AG13854) from the National Institute on Aging to Northwestern
+University, Chicago, IL, and a grant from the National Alzheimer’s
+Coordinating Center (S. Weintraub, PI).
+Reprints: Alissa H. Wicklund, PhD, Cognitive Neurology and Alzheimer’s Disease Center, 320 E. Superior, Searle 11-465, Chicago, IL
+60611 (e-mail: a-wicklund@northwestern.edu).
+Copyright r 2007 by Lippincott Williams & Wilkins
+
+S70
+
+characterized by initially focal and progressive memory
+loss, and eventual deﬁcits in other cognitive domains. In
+the spectrum of frontotemporal dementia (FTD) associated with frontotemporal lobar degeneration (FTLD),
+language or behavior changes may be the initial clinical
+symptom, with gradual decline and then subsequent
+spread to other cognitive domains.1 More speciﬁcally,
+FTD is broadly classiﬁed into 2 variants: one in which
+there are initially focal and progressive behavioral and
+personality changes (FTD) and the second in which the
+primary symptom is aphasia. The aphasic variant is
+referred to as primary progressive aphasia (PPA) and the
+aphasia can take any form including agrammatic,
+semantic, and logopenic.2
+The tracking, staging, and progression of AD has
+been well characterized3–7 as there is good clinical
+diagnostic accuracy, a focus on identifying and studying
+individuals in the very earliest stages (ie, those with Mild
+Cognitive Impairment), and batteries designed to assess
+even the most severely impaired patients (ie, Severe
+Impairment Battery8). By contrast, the rate and pattern of
+cognitive decline have not been well characterized in the
+dementia syndromes associated with FTLD, particularly
+comparing the language and behavioral variants. This is
+due in part to methodological challenges. First, there is
+diﬃculty accurately identifying the diagnosis in early
+stages, with the use of neuropsychologic tests in
+individuals with aphasia or executive function deﬁcits,
+each of which can inﬂuence test performance in other
+primary domains being assessed, such as memory.
+Second, severe impairment during the disease course
+further limits test-taking abilities in these patients.
+Rascovsky and colleagues9 compared cognitive and
+functional decline in autopsy conﬁrmed cases of FTD and
+AD matched for age, education, and baseline MiniMental State Examination (MMSE) scores. Decline was
+measured by subtracting scores between visits and
+dividing by the number of years between visits to
+calculate an annualized rate of change. Their results
+showed that MMSE scores declined faster in FTD, as did
+scores on measures of activities of daily living. Binetti and
+colleagues10 modeled change in cognitive test performance versus duration of illness and age using linear
+regression models in individuals with autopsy conﬁrmed
+Pick disease (PcD; both behavioral and language variants
+clinically) and AD. They showed that patients with PcD
+declined faster than those with AD on neuropsychologic
+
+Alzheimer Dis Assoc Disord  Volume 21, Number 4, October–December 2007
+
+Alzheimer Dis Assoc Disord  Volume 21, Number 4, October–December 2007
+
+tests of language (naming and category ﬂuency), global
+cognitive impairment, and activities of daily living. There
+were no diﬀerences in rate of decline between the groups
+on measures of reasoning, attention, visuospatial processing, or immediate and delayed recall. One limitation in
+that study is a lack of diﬀerentiation between the
+language and behavioral variants of FTD, potentially
+conﬂating diﬀerences between proﬁles of cognitive decline
+in these groups.
+Two studies have examined the rate of cognitive
+decline in FTD and AD using the MMSE. In one,
+Pasquier and colleagues11 used linear regression models
+to examine decline in MMSE and survival rate, modeled
+against time since disease onset, in individuals with the
+behavioral variant of FTD and AD. Patients with PPA
+were not included in this analysis. They showed a greater
+mean annual decline for AD patients, but noted that there
+was an abrupt decline in MMSE scores for FTD patients
+when these individuals became mute and more apathetic.
+They concluded that the MMSE is not an appropriate
+measure to examine cognitive decline in FTD. In a second
+study, Chow and colleagues12 also analyzed the rate of
+the decline on the MMSE, but divided the items by
+cognitive domain. They compared individuals with AD,
+and those with language and behavior variants of FTD.
+They calculated the annualized rate of change by using
+the ﬁrst and last visit scores for each subject divided by
+the number of years between visits. In contrast to the
+Pasquier study, this study demonstrated a greater annualized rate of decline in FTD compared with AD. In
+addition, individuals with both the behavior and language
+variants of FTD declined faster on the language items on
+the MMSE, the AD subjects declined faster on memory
+items, and FTD subjects showed better constructional
+praxis than the AD group. There were no diﬀerences in
+the attention subscore among groups.
+Finally, a recent study by Blair and colleagues13
+examined language decline over the course of 2 years in
+AD, FTD (behavioral variant; FTD-bv), and PPA on the
+Western Aphasia Battery (WAB). Using a repeated
+measures analysis of variance, results showed that FTDbv and PPA declined faster on language measures,
+represented by the Aphasia Quotient of the WAB, relative
+to a more gradual decline in AD. Individuals with PPA
+showed greater language impairment at baseline than
+FTD-bv, but overtime the FTD-bv showed a similar rate
+and pattern of decline as the PPA subjects. They
+concluded that the eventual overlap in language impairment in PPA and FTD-bv is indicative of the overlap in
+the disorders, at clinical, neuroanatomic, and neuropathologic levels.
+In general, comparisons of rate of decline in FTD
+and PPA have been limited to small studies primarily
+using the MMSE, and with mixed results. The study by
+Binetti and colleagues10 used a more comprehensive
+neuropsychologic test battery, but failed to diﬀerentiate
+between the language and behavioral variants in their
+group of individuals with autopsy conﬁrmed PcD. In
+addition, methodological problems exist with the aforer 2007 Lippincott Williams & Wilkins
+
+Cognitive Change in Dementia
+
+mentioned analyses. For example, many of the studies
+used annualized rate of change analysis (subtracting ﬁrst
+from last visit scores and dividing by time between the
+visits). However, this method does not fully use all
+available data points in between ﬁrst and last visits.
+Studies have shown variability in the rate of decline in
+FTD and PPA on the basis of the factors such as age of
+onset and sex.14 The goal of the present study was to
+examine the rate of cognitive change in individuals with
+AD, the behavioral variant of FTD, and PPA. The
+method of best linear unbiased predictors (BLUPs)15,16
+was used to examine rate of change on neuropsychologic
+tests of memory, attention, executive function, language,
+and memory. The BLUPs analysis uses all available data
+points for each subject, and creates an estimated slope
+separately for each person. The beneﬁt is that the BLUPs
+estimate an annualized rate of change for each subject on
+the basis of all available longitudinal data from that
+subject, rather than only the ﬁrst and last visits.
+We hypothesized that (1) all subject groups would
+show decline in cognition over time due to the progressive
+nature of neurodegenerative disease, and (2) the proﬁle of
+decline would diﬀer among the subject groups. Speciﬁcally, AD subjects were hypothesized to show greater
+decline on measures related to memory abilities, with
+FTD subjects showing most impairment over time on
+tests reliant on attention and executive function. Finally,
+language was hypothesized to be the most prominent
+cognitive domain to decline in PPA. In addition,
+diﬀerences were expected in the proﬁle of decline across
+all measures when comparing performance between PPA
+and FTD, due to diﬀerences in their early clinical
+presentation (ie, language vs. behavior and prominent
+executive function deﬁcits, respectively).
+
+METHODS
+Data were analyzed from 194 patients with a clinical
+diagnosis of AD (n = 84), behavioral variant FTD
+(n = 66), or PPA (n = 44) and 228 healthy elderly
+cognitively normal control subjects (NC) (Table 1). All
+subjects were participants in the Clinical Core of the
+Cognitive Neurology and Alzheimer’s Disease Center
+(CNADC) at Northwestern University, and had been
+enrolled on a protocol approved by the Institutional
+Review Board. All subjects and caregivers had given
+written informed consent. Participants enrolled in the
+Clinical Core underwent a comprehensive neurologic and
+neuropsychologic evaluation and those enrolled after
+September 2005 were examined according to the methods
+of the Uniform Data Set (UDS)17 and additional
+procedures speciﬁc to the CNADC. Inclusion criteria
+for all subjects in this study included an MMSE >17
+(mild to moderate dementia). Individuals with AD were
+diagnosed by a neurologist in a clinical evaluation and
+met National Institute of Neurological and Communicative Disorder and Stroke-Alzheimers’s Disease and
+Related Disorder Association diagnostic criteria for
+probable AD.18 The behavioral variant of FTD was
+
+S71
+
+Alzheimer Dis Assoc Disord  Volume 21, Number 4, October–December 2007
+
+Wicklund et al
+
+TABLE 1. Demographic Summary for NC, AD, FTD, and PPA Subjects
+NC (n = 228)
+% Male
+Age at baseline
+Education (y)
+Duration of illness at baseline (y)
+
+FTD (n = 66)
+
+PPA (n = 44)
+
+Mean
+
+SEM
+
+Mean
+
+AD (n = 84)
+SEM
+
+Mean
+
+SEM
+
+Mean
+
+SEM
+
+P
+
+Pairwise*
+
+50
+68.9
+15.8
+NA
+
+0.5
+0.2
+NA
+
+32
+73.7
+14.5
+4.2
+
+1.0
+0.3
+0.3
+
+40
+62.3
+14.8
+3.4
+
+1.2
+0.3
+0.3
+
+25
+66.9
+15.5
+4.4
+
+1.0
+0.4
+0.5
+
+<0.0001
+<0.0001
+0.0003
+NS
+
+1256
+12456
+23
+
+*Code for pairwise tests (Tukey) -1: NC diﬀerent from PPA; 2: NC diﬀerent from FTD; 3: NC diﬀerent from AD; 4: PPA diﬀerent from FTD; 5: PPA diﬀerent from
+AD; 6: FTD diﬀerent from AD.
+NA indicates not applicable; NS, not signiﬁcant.
+
+diagnosed by a neurologist in individuals who fulﬁlled
+criteria outlined by the most recent work-group consensus
+statement on frontotemporal lobar degeneration, and was
+also based on performance on neuropsychologic tests in a
+comprehensive clinical evaluation.1 A diagnosis of PPA
+was also based on performance on a comprehensive
+clinical evaluation, including neuropsychologic evaluation, and the criteria outlined by Mesulam.19 All subtypes
+of PPA, that is agrammatic, logopenic, and semantic,2
+were included and subgroups were not diﬀerentiated for
+the purpose of this study. Once enrolled, patients were
+followed on an annual basis.
+
+Neuropsychologic Test Measures
+Participants were administered a battery of neuropsychologic tests annually as part of their Clinical Core
+enrollment. The tests were a combination of measures
+speciﬁed in the UDS17 and additional measures selected
+to provide a comprehensive assessment across multiple
+cognitive domains. The test battery included the Logical
+Memory and Visual Reproduction subtests of the
+Wechsler Memory Scale—Revised (WMS—R)20; the
+Consortium to Establish a Registry for Alzheimer’s
+Disease (CERAD) battery (word list learning, recall,
+recognition hits, and recognition false positives; category
+ﬂuency and constructions subtests)21; Controlled Oral
+Word Association Test (COWA; F,A,S)22,23; Boston
+Naming Test (BNT)24; Trail Making Test, Parts A and
+B25; Visual-Verbal Test26 abbreviated 10-item version27;
+and the MMSE.28 Over time, adjustments had been made
+to the clinical core battery for reasons of length,
+comprehensiveness, and to conform to new priorities of
+the center over time. As such, not all subjects received all
+tests. Measures that had been administered to an ample
+number of subjects to provide adequate sample size for
+data analysis were subsequently used. These criteria
+resulted in the exclusion of the following tests from
+analysis: WMS-R subtests, CERAD constructions, and
+the Visual-Verbal Test—abbreviated 10 items. Follow-up
+data were available for up to 8 years for AD and FTD
+subjects, and 3 years for PPA subjects.
+
+Data Analysis
+One-way analysis of variance was used to examine
+diﬀerences in baseline test scores. Scores were analyzed at
+baseline to identify possible ﬂoor eﬀects (ie, scores that
+approached severe impairment even on initial testing),
+
+S72
+
+which would aﬀect the ability to demonstrate decline in
+test performance over time. Rate of change was compared
+across groups using BLUPs.16 The analysis approach was
+similar to that described by Gould et al15 in a study
+examining the rate of cognitive change in individuals with
+AD. By that method, the slope of the relationship
+between a cognitive measure and time was estimated for
+each person. As described above, the BLUP estimate
+represents an annualized rate of change for each subject
+using all available longitudinal data from that subject,
+rather than just the ﬁrst and last visits. The slope
+represents the decrease in the mean score per year,
+assuming a linear trend across the follow-up period.
+Negative values represent a decrease, and positive values
+represent an increase. These estimates were then subjected
+to a 1-way analysis of covariance to analyze diﬀerences
+across the 4 diagnostic groups, with age as a covariate.
+Signiﬁcant diﬀerences were subjected to pairwise comparisons among the groups using the Tukey-Kramer
+method.29 Tests that measure speed of performance (eg,
+number of seconds to complete the Trail Making Test)
+are reported in a positive direction with higher times
+indicating a slowing of reaction time.
+
+RESULTS
+Ta

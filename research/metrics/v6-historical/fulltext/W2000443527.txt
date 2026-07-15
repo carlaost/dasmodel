@@ -1,0 +1,346 @@
+Original Research Article
+Accepted: April 19, 2010
+Published online: June 5, 2010
+
+Dement Geriatr Cogn Disord 2010;29:516–522
+DOI: 10.1159/000313981
+
+Validity and Reliability of the Persian
+Language Version of the Neuropsychiatry
+Unit Cognitive Assessment Tool
+M. Barekatain a M. Walterfang b, c M. Behdad a M. Tavakkoli a J. Mahvari d
+M.R. Maracy e D. Velakoulis b, c
+a
+
+Department of Psychiatry and Behavioral Sciences Research Center, Isfahan University of Medical Sciences,
+Isfahan, Iran; b Neuropsychiatry Unit, Royal Melbourne Hospital, and c Melbourne Neuropsychiatry Centre,
+University of Melbourne, Parkville, Vic., Australia; d Department of Neurology, e Faculty of Health and Behavioral
+Sciences Research Center, Isfahan University of Medical Sciences, Isfahan, Iran
+
+Key Words
+Cognition ⴢ Screening ⴢ Neurocognition ⴢ Mini-Mental State
+Examination
+
+specificity of 100%) patients from controls. Conclusions: The
+Persian language NUCOG appears to perform strongly in an
+unselected population, reliably differentiating patients with
+dementia from controls, and detecting cognitive impairment in a range of clinical disorders.
+
+Abstract
+Background/Aims: Only a limited number of cognitive
+screening tools are available for the Persian-speaking population, and we sought to translate and validate the Neuropsychiatry Unit Cognitive Assessment Tool (NUCOG), a multidimensional cognitive screening tool. Methods: We used multiple language specialists to translate and then back-translate
+the NUCOG, and administered the Persian language NUCOG
+and Mini-Mental State Examination (MMSE) to 184 individuals: 60 controls and 124 patients, 33 of whom had dementia,
+30 non-dementing neurological disorders and 61 a psychiatric illness. Results: The NUCOG outperformed the MMSE in
+differentiating the patient groups and controls. The ‘profile’
+across the 5 NUCOG domains differentiated dementia subgroups such as senile dementia of the Alzheimer type (SDAT),
+frontotemporal dementia and mild cognitive impairment
+(MCI). Psychiatric patients with psychosis and posttraumatic
+stress disorder were more impaired than patients with affective disorders. The NUCOG reliably differentiated controls
+from patients with MCI (at 86.5/100, sensitivity of 83.3% and
+specificity of 87.5%) and SDAT (at 75/100, sensitivity and
+
+Copyright © 2010 S. Karger AG, Basel
+
+© 2010 S. Karger AG, Basel
+1420–8008/10/0296–0516$26.00/0
+Fax +41 61 306 12 34
+E-Mail karger@karger.ch
+www.karger.com
+
+Accessible online at:
+www.karger.com/dem
+
+Introduction
+
+Many instruments are available for the clinician who
+wants to undertake a brief and rapid screening of cognitive status. Ideally, a cognitive tool balances breadth,
+depth and brevity, enabling the evaluation of most domains of cognition in the shortest possible time. The reliable assessment of cognition in psychiatric and neurological practice not only allows for the detection of significant cognitive impairment when it exists, but may add
+significantly to the diagnostic process, providing additional clinical information that allows for the differentiation of clinical neurocognitive disorders.
+The Mini-Mental State Examination (MMSE) [1] is the
+most widely used tool both by primary care physicians
+and specialists. The MMSE does not require specialized
+training or specific equipment, and its administration
+time is short. The MMSE is sensitive to cognitive impairDr. Mark Walterfang
+Level 2, John Cade Building
+Royal Melbourne Hospital, Grattan Street
+Parkville, Vic. 3050 (Australia)
+Tel. +61 3 9342 8750, Fax +61 3 9342 8483, E-Mail mark.walterfang @ mh.org.au
+
+Table 1. The 5 different cognitive domains of the NUCOG, and individual items that make up each domain
+Attention
+
+Visuoconstructional
+
+Memory
+
+Executive
+
+Language
+
+Orientation
+Digit span – forward
+Digit span – reverse
+Days of the week in reverse
+
+Drawing reproduction
+Limb and orobuccal praxis
+Left/right orientation
+Visual/somatosensory neglect
+Calculation
+
+Verbal memory – registration
+and recall
+Spatial recall
+Remote memory
+
+Motor sequencing
+Categorical fluency
+Abstraction
+Managing interference
+
+Verbal comprehension
+Repetition
+Object naming
+Sentence writing
+Written comprehension
+Word finding
+
+ment in a range of disorders [2]. It has been translated and
+validated in several languages including Persian, the Iranian language, for clinical screening and research purposes in the Persian-speaking population [3].
+The MMSE has a number of limitations as a screening
+tool in the broad range of patients who may present with
+cognitive impairment in a conventional clinical setting
+[4–6]. Most notably, executive functioning is not evaluated, and the MMSE has no assessment of delayed spatial
+recall [7]. Furthermore, it has a reduced sensitivity to early cognitive impairment (ceiling effect), in addition to a
+poor sensitivity to cognitive decline in patients that have
+severe cognitive impairment (floor effect) [5]. Finally, it
+results in a single unitary score, with a variable contribution to the final MMSE score by the domains of language,
+attention and memory, and it lacks graded scoring in a
+number of cognitive domains [7]. Although other valid
+and reliable tools such as the Neurobehavioral Cognitive
+Status Examination [8], Addenbrooke’s Cognitive Examination (ACE) [9, 10] and the modified MMSE [11] have
+been introduced to overcome some of the structural limitations of the MMSE, they too have strengths and weaknesses including limited sensitivity in some patient populations, lack of multidimensional scoring, and limited executive function testing.
+Walterfang et al. [12] attempted to address some of
+these limitations in the design and implementation of the
+Neuropsychiatry Unit Cognitive Assessment Tool (NUCOG). The NUCOG was designed to be a brief and portable bedside cognitive screening tool with a high degree
+of face validity, covering all major cognitive domains,
+generating graded scores for specific cognitive functions,
+and providing multidimensional scoring and the generation of a cognitive ‘profile’. The NUCOG tests cognitive
+functions in five main areas: attention, memory, executive functioning, language and visuoconstructional function, utilizing a number of tests in each domain (table 1).
+Each of the five domains has a maximum score of 20,
+yielding a maximum possible total score of 100. It showed
+
+a high correlation with the MMSE and formal neuropsychological testing in a large mixed sample of neuropsychiatric patients and controls, discriminated broad patient groups, reliably differentiated between demented
+and non-demented patients, and showed superior specificity and sensitivity for the detection of significant cognitive impairment when compared with the MMSE [12,
+13].
+To date, the MMSE is the only cognitive screening instrument validated for use in Iran. We sought to translate
+the NUCOG into Persian and investigated the validity
+and reliability of the Persian version of the NUCOG in
+patients with dementia, major psychiatric disorders and
+neurological disorders compared to healthy control subjects. Additionally, we sought to compare the performance of the Persian NUCOG in this population with the
+Persian MMSE.
+
+Validity and Reliability of the Persian
+NUCOG
+
+Dement Geriatr Cogn Disord 2010;29:516–522
+
+Methodology
+The protocol of this study was approved by the Research and
+Ethics Council of the Behavioral Sciences Research Center, Isfahan University of Medical Sciences, Isfahan, Iran.
+Participants
+The total sample for the study consisted of 184 subjects. The
+patient group had been selected randomly from adult inpatients
+and outpatients who were referred to Noor, Al-Zahra and Kashani
+Hospitals, affiliated to the Isfahan University of Medical Sciences,
+for psychiatric or neurological evaluation between November
+2008 and May 2009. The patients (n = 124) consisted of 3 distinct
+groups: patients with major psychiatric disorders (n = 61), patients
+with dementia (n = 33), and non-demented neurological patients
+(n = 30). Of the psychiatric patients, the main diagnostic groups
+were primary psychotic disorders (n = 9), major depressive disorder (n = 22), bipolar affective disorder (n = 15), posttraumatic
+stress disorder (n = 9) and other psychiatric disorders (n = 6). The
+demented group was made up of senile dementia of the Alzheimer
+type (SDAT, diagnosed according to NINCDS-ADRDA criteria;
+n = 17), mild cognitive impairment (MCI, diagnosed as patients
+with pure amnestic memory impairment in the setting of otherwise normal functioning and activities of daily living; n = 8), fron-
+
+517
+
+Table 2. Baseline demographic characteristics, MMSE and NUCOG total scores, and NUCOG subscale scores
+
+Agea, years
+Educationa, years
+Maleb, n (%)
+MMSE totala
+NUCOG totala
+NUCOG attentiona
+NUCOG visuospatiala
+NUCOG memorya
+NUCOG executivea
+NUCOG languagea
+
+Neurological (n = 30)
+
+Psychiatric (n = 61)
+
+Dementia (n = 33)
+
+Control (n = 60)
+
+49.57814.75
+11.0783.10
+17 (56.66)
+25.7783.54
+78.85811.07
+13.3083.26
+17.1382.17
+14.7083.04
+15.0583.14
+18.6681.47
+
+53.11813.80
+10.6483.27
+36 (59.01)
+26.8482.59
+80.95810.99
+13.6782.94
+17.5782.38
+14.7183.27
+15.9583.18
+19.0381.42
+
+59.5289.56
+8.5283.34
+20 (60.60)
+23.5284.34
+63.72816.85
+9.9084.46
+14.3984.13
+10.8083.90
+10.7184.02
+17.9082.51
+
+61.0888.69
+10.9383.43
+32 (53.33)
+28.9381.31
+90.5484.38
+15.7581.25
+18.9381.10
+17.6081.48
+18.5581.41
+19.7080.56
+
+A ll figures except male gender are presented as means 8 SD.
+a Kruskal-Wallis test, p < 0.003. b ␹2 test, p > 0.05.
+
+totemporal dementia (FTD, diagnosed according to Neary’s consensus criteria; n = 6) and other dementing disorders (n = 2). The
+neurological group was made up of patients with central nervous
+system tumours (n = 6), multiple sclerosis (n = 5), epilepsy (n = 5),
+stroke (n = 4), Parkinson’s disease (n = 4), head trauma (n = 3) and
+hypoxic or metabolic brain injury (n = 3). The Mini-International Neuropsychiatric Interview (MINI) was used to confirm the
+diagnosis [14]. Healthy control subjects (n = 60) were randomly
+selected from relatives and carers of patients of neurology and
+psychiatry clinics who had never been diagnosed with a psychiatric and neurological illness, and who were negative when screened
+by the MINI [14], and by physical and neurological examination.
+All subjects had passed elementary school, had clear consciousness and normal sensory perception.
+Measures
+Mini-Mental State Examination. The MMSE is a well-established cognitive screening tool [1]. The Persian version of this tool
+has been demonstrated as reliable (Cronbach’s ␣ = 0.81) and valid
+in a dementia population [3].
+Neuropsychiatry Unit Cognitive Assessment Tool. The NUCOG evaluates cognition in 5 domains (attention, visuoconstructional functioning, memory, executive functioning and language). NUCOG scores have been shown to correlate strongly
+with the MMSE (r = 0.894; p ! 0.001) and the internal consistency
+of the NUCOG is very high (Cronbach’s ␣ = 0.915) [13]. The NUCOG was translated into Persian by 2 experienced biological psychiatrists (M. Barekatain and M. Behdad) and tested by backtranslation into English.
+Mini-International Neuropsychiatric Interview. The MINI is a
+brief standardized psychiatric procedure, focusing predominantly on current axis I DSM-IV disorders using an efficient series of
+probe questions [14].
+Translation Procedure
+Two native Pesian-speaking specialists translated the NUCOG independently from English to Persian. The differences in
+the initial translation were resolved by consensus in a session with
+a third interpreter. Then, back-translation of the translated Per-
+
+518
+
+Dement Geriatr Cogn Disord 2010;29:516–522
+
+sian version was undertaken by 2 English-speaking linguists who
+were blinded to the original English language NUCOG and the
+aim of this study. The differences were resolved via consensus
+amongst the 5 translators.
+Language-Based Alterations
+The following changes were made due to differing linguistic
+properties of the 2 languages: as the days of the week in Persian
+are ordered by number (‘yek-shanbe, do-shanbe, se-shanb’, etc.,
+translating into ‘one-day, two-day, three-day’, etc.), we replaced
+reverse-naming of days of the week with months of the year based
+on the Iranian calendar (‘Esfand, Bahman, Day, Azar, Aban,
+Mehr, Shahrivar’). Regarding the vocabulary, we replaced ‘guitar’
+with ‘setar’, a popular musical instrument similar to the guitar.
+We also replaced ‘banana’ with ‘ananas’ (pineapple), ‘artillery’
+with ‘baarbary’ (handling), and ‘constitutional’ with ‘farsishenasi’ (the knowledge of Persian language syntax and semantics). To
+choose suitable synonymous sentences for ‘the orchestra played
+and the audience applauded’ and ‘no ifs, ands, or buts’ from the
+NUCOG, a list of possible surrogates were tested through a pilot
+study and the most appropriate ones were chosen.
+Statistical Analysis
+Demographic and cognitive data were compared using the
+Kruskal-Wallis test, and the ␹2 test was used for gender proportion. Criterion validity was assessed by receiver operator characteristic (ROC) curves. The influence of demographic variables on
+the NUCOG scores was calculated using Pearson’s correlation coefficient. Convergent validity was evaluated using Spearman’s
+correlation coefficient. Internal consistency was measured by
+Cronbach’s ␣. Comparison of the performance of the MMSE,
+NUCOG and its subscales across patient group samples was undertaken using one-way analysis of covariance (ANCOVA) with
+post hoc comparisons undertaken by the Games-Howell procedure. Repeated-measures ANCOVA, controlling for age and years
+of education, was used for group-by-subscale analyses, with interaction effects tested using the Greenhouse-Geisser test.
+
+Barekatain/Walterfang/Behdad/
+Tavakkoli/Mahvari/Maracy/Velakoulis
+
+Results
+20
+
+The demographic characteristics and cognitive performance of the sample are outlined in table 2.
+
+Relationship between Demographic and Cognitive
+Variables
+In the control group, MMSE scores were significantly
+correlated with age (r = –0.488; p ! 0.0001) and years of
+education (r = 0.564; p ! 0.0001). Although the MMSE
+scores did not significantly correlate with age across the
+patient group as a whole (r = –0.129; p 1 0.05), there was
+a significant correlation between years of education and
+MMSE scores (r = 0.203; p ! 0.05). The MMSE score
+showed a significant difference between the 3 patient
+groups (p ! 0.003; dementia ! neurologic = psychiatric !
+controls).
+Similarly, the total NUCOG scores in the control group
+revealed significant correlations with age (r = –0.500; p !
+0.0001) and years of education (r = 0.691; p ! 0.0001).
+There was a significant correlation between the total NUCOG score and years of education (r = 0.364; p ! 0.0001)
+but not age (r = 0.101; p 1 0.05) in the entire patient group.
+The total NUCOG score showed significant differences in
+scoring between the 3 patient groups (F2, 123 = 20.387; p !
+0.0001; dementia ! neurologic = psychiatric ! control).
+Distinguishing Patient Groups by Test
+An interaction of test by diagnostic group was found
+in favor of the NUCOG across the 4 study groups
+(F3, 180 = 56.67; p ! 0.0001) and the 3 patient groups
+(F2, 123 = 17.04; p ! 0.0001). However, the NUCOG showed
+no advantage over the MMSE in differentiating psychiatric from neurological patients (F1, 90 = 0.584; p = 0.447).
+Performance of NUCOG Subscales
+There was a significant subscale-by-group effect
+(F3, 183 = 319.10; p ! 0.0001), suggesting that different subject groups showed distinctly different ‘cognitive profiles’
+(fig. 1). The NUCOG profile differentiated dementia subgroups, with the FTD and SDAT groups being most impaired compared to other patients, particularly in executive functioning (F3, 32 = 2.733; p ! 0.005) (fig. 2), although
+Validity and Reliability of the Persian
+NUCOG
+
+15
+
+Scale score
+
+Demographic Data
+There were significant differences between groups in
+age (p ! 0.0001; neurologic ! psychiatric ! dementia !
+controls) and years of education (p ! 0.005; dementia !
+psychiatric ! neuro

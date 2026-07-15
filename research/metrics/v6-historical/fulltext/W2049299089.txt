@@ -1,0 +1,222 @@
+THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 284, NO. 31, pp. 20830 –20839, July 31, 2009
+© 2009 by The American Society for Biochemistry and Molecular Biology, Inc. Printed in the U.S.A.
+
+Inhibition of Tau Polymerization with a Cyanine Dye in Two
+Distinct Model Systems*
+Received for publication, May 1, 2009, and in revised form, May 22, 2009 Published, JBC Papers in Press, May 28, 2009, DOI 10.1074/jbc.M109.016089
+
+Erin E. Congdon‡, Yvette H. Figueroa‡, Lili Wang‡, Galina Toneva‡, Edward Chang§, Jeff Kuret¶,
+Christopher Conrad‡, and Karen E. Duff‡1
+From the ‡Department of Pathology, Taub Institute, Columbia University and Department of Integrative Neuroscience, New York
+State Psychiatric Institute, New York, New York 10032 and the §Integrated Biomedical Science Program and ¶Department of
+Cellular and Molecular Biology, Ohio State University, Columbus, Ohio 43210
+
+Abnormal accumulation of aggregated proteins is a common
+feature of many neurodegenerative disorders including Parkinson, Huntington, and Alzheimer diseases. The defining lesions
+in Alzheimer disease include the extracellular plaques composed of amyloid ␤ and intracellular polymers of the microtubule-associated protein Tau. Under normal conditions, as
+much as 90% of the Tau expressed in neurons is bound to
+
+* This work was supported, in whole or in part, by National Institutes of Health
+Grants NS047447 (to K. D.) and AG14452 (to J. K.) from the NINDS. This work
+was also supported by the Alzheimer Drug Discovery Foundation/Institute
+for the Study of Aging, a Rosalinde and Arthur Gilbert Foundation/American Federation for Aging Research New Investigator Award in Alzheimer
+Disease, and the American Health Assistance Foundation.
+1
+To whom correspondence should be addressed: P&S 12th Floor, Rm. 12-461,
+Columbia University Medical Center, New York, NY 10032. Tel.: 212-3058970; Fax: 212-342-0119; E-mail: ked2115@columbia.edu.
+
+20830 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+microtubules providing stability for the cytoskeleton. In addition, Tau may also play a role in the microtubule interactions of
+both Golgi membranes and dynein (1, 2).
+Intracellular Tau aggregates are a defining feature in a host of
+neurodegenerative disorders including Alzheimer disease, corticobasal degeneration, and frontotemporal dementia. Development of neurofibrillary pathology in Alzheimer disease follows a highly stereotyped pattern (3, 4) and the appearance of
+tangles correlates with both neuronal loss and severity of cognitive symptoms (5–7). Evidence suggests that Tau polymerization may also be directly linked to degeneration. Mutations in
+the Tau gene are sufficient to cause familial cases of frontotemporal dementia and the disease causing mutations have been
+shown to alter the propensity for secondary structure and to
+promote Tau aggregation in vitro (8 –10). Transgenic animals
+expressing aggregation-prone mutant Tau develop synaptic
+dysfunction (11). In contrast, animals expressing Tau containing an aggregation-inhibiting mutation displayed no changes in
+synapse number despite similar levels of hyperphosphorylation
+(11). Neurons containing Tau polymers have also been shown
+to have both accumulation of pro-apoptotic caspases as well as
+signaling deficits (12, 13). Impaired neurotransmission and
+morphological changes were observed in lesion-bearing neurons in a Caenorhabditis elegans model of tauopathy (14). Additionally, abnormal Tau aggregates have also been found to
+affect both gene transcription and proteasome activity (15, 16).
+In cell culture models higher levels of Tau polymerization was
+correlated with increased cell death (17, 18). Conversely, treatment with Tau aggregation inhibitors reduced levels of cell loss
+(18, 19). These findings indicate that development of Tau
+aggregation inhibitors is a potential avenue for the creation of
+disease modifying therapies.
+A number of polymerization inhibitors have been studied
+including Congo red derivatives, anthraquinones (Pickhardt et
+al. (20), disputed in Crowe et al. (21)), 2,3-di(furan-2-yl)-quinoxalines (21), phenylthiazolylhydrazide (22, 23), polyphenols
+and porphyrins (24), and cyanine dyes (25–27). Cyanine dyes
+were identified in a small molecule screen as Tau fibrillization
+antagonists. Of these, 3-(2-hydroxyethyl)-2-[2-[[3-(2-hydroxyethyl)-5-methoxy-2-benzthiazolylidene]methyl]-1-butenyl]-5methoxybenzothiazolium (N744)2 has been well characterized
+2
+
+The abbreviations used are: N744, 3-(2-hydroxyethyl)-2-[2-[[3-(2-hydroxyethyl)-5-methoxy-2-benzthiazolylidene]methyl]-1-butenyl]-5-methoxybenzothiazolium; C11, 3,3⬘-diethyl-9-methyl-thiacarbocyanine iodide;
+
+VOLUME 284 • NUMBER 31 • JULY 31, 2009
+
+Downloaded from http://www.jbc.org/ at Georgian Court College on March 4, 2015
+
+In a host of neurodegenerative diseases Tau, a microtubuleassociated protein, aggregates into insoluble lesions within
+neurons. Previous studies have utilized cyanine dyes as Tau
+aggregation inhibitors in vitro. Herein we utilize cyanine dye
+3,3ⴕ-diethyl-9-methyl-thiacarbocyanine iodide (C11) to modulate Tau polymerization in two model systems, an organotypic
+slice culture model derived from Tau transgenic mice and a split
+green fluorescent protein complementation assay in Tau-expressing cells. In slice cultures, submicromolar concentrations
+(0.001 ␮M) of C11 produced a significant reduction of aggregated Tau and a corresponding increase in unpolymerized Tau.
+In contrast, treatment with a 1 ␮M dose promoted aggregation of
+Tau. These results were recapitulated in the complementation
+assay where administration of 1 ␮M C11 produced a significant
+increase in polymerized Tau relative to control, whereas treatment of cells with 0.01 ␮M C11 resulted in a marked reduction of
+aggregated Tau. In the organotypic slice cultures, modulation of
+Tau aggregation was independent of changes in phosphorylation at disease and microtubule binding relevant epitopes for
+both dosing regimes. Furthermore, treatment with 0.001 ␮M
+C11 resulted in a decrease in both total filament mass and number. There was no evidence of apoptosis or loss of synaptic integrity at either dose, however, whereas submicromolar concentrations of C11 did not interfere with microtubule binding, higher
+doses resulted in a decrease in the levels of microtubule-bound
+Tau. Overall, a cyanine dye can dissociate aggregated Tau in an
+ex vivo model of tauopathy with little toxicity and exploration of
+the use of these type of dyes as therapeutic agents is warranted.
+
+Tau Aggregation Inhibitor C11
+
+PARP, poly(ADP-ribose) polymerase; DMSO, dimethyl sulfoxide; GFP,
+green fluorescent protein; MES, 4-morpholineethanesulfonic acid.
+
+JULY 31, 2009 • VOLUME 284 • NUMBER 31
+
+tem allows for a high number of replicates as well as fast and
+quantitative measurements. Results show that C11 is capable of
+significantly reducing levels of aggregated Tau at submicromolar concentrations (0.001 ␮M) with no effects on polymerization
+with C2. In addition, these effects were not dependent on
+changes in phosphorylation state.
+
+EXPERIMENTAL PROCEDURES
+Animals—To generate the hTau line, transgenic mice (line 8c
+(30)) were crossed to a targeted line in which the endogenous
+mouse Tau gene was non-functional (31). Pups at postnatal day
+10 from the hTau mouse line (32) of either sex were utilized for
+organotypic slice cultures. The hTau line expresses all six isoforms of human wild-type Tau under the control of the human
+Tau promoter due to integration of a PAC-derived human
+genomic sequence. Animals were used in accordance with
+National Institute of Health/Institutional Animal Care and Use
+guidelines.
+Antibodies—The following monoclonal anti-Tau antibodies
+were used, CP27 (total human Tau) and PHF-1 (phosphoSer396/404) were gifts from Dr. Peter Davies (Albert Einstein,
+New York, NY). AT8 (phospho-Ser202/205) and phospho-Thr212
+monoclonal antibody were purchased from Thermo (Rockford,
+IL). Phospho-Ser262 and phospho-Ser396 were obtained from
+BIOSOURCE (Camarillo, CA). Monoclonal anti-␣-tubulin and
+synaptophysin antibodies were purchased from Sigma. Anticleaved poly(ADP-ribose) polymerase (PARP) antibody was
+obtained from Cell Signaling (Danvers, MA).
+Preparation of Organotypic Slices—Organotypic slice cultures were prepared utilizing protocols modified from Duff et
+al. (33) (depicted in Fig. 1). Brains were removed from hTau
+pups at postnatal day 10. Hemispheres (cortex and hippocampus) were sectioned into 400-␮m thick slices and separated in
+ice-cold buffer (pH 7.1). Slices (⬃18 per hemisphere) were
+transferred to membrane inserts containing 0.4-␮m pores
+(Laboratory Disposable Products, Wayne, NJ). Following sectioning, slices were allowed to incubate in culture for 14 days in
+media containing 25% serum. Media was exchanged every 2
+days. Following the incubation period slices comprising each
+hemisphere were treated with either C11 (Sigma, structure
+shown in Fig. 2) or DMSO vehicle (final concentration of
+DMSO in media 0.008%), thus allowing the DMSO-treated
+slices to serve as a within-animal control. C11-treated slices
+were dosed at 1.0, 0.1, or 0.001 ␮M (n ⫽ 6 mice per group). This
+compound is structurally similar to a previously identified Tau
+polymerization antagonist N744 and it has a similar dose-response curve in vitro. Additional slices (n ⫽ 5 mice) were
+treated with either 0.001 ␮M C2 (an inactive cyanine) or DMSO
+control (final concentration of DMSO in media 0.008%).
+Tissue Fractionation—Tissue fractionation procedures were
+adapted from Greenberg and Davies (34). Control and C11- or
+C2-treated slices were homogenized in RIPA buffer (50 mM
+Tris-HCl, pH 7.4, 150 mM NaCl, 1 mM EDTA, 1 mM sodium
+fluoride, 1 mM Na3VO4, 1 ␮g/ml protease inhibitors, 1 ␮g/ml
+phosphatase inhibitors) and centrifuged at 20,000 ⫻ g for 20
+min at 4 °C. The pellet fraction was discarded and the resulting
+supernatant assayed for total protein concentration. Samples
+were then diluted as necessary to achieve equivalent total proJOURNAL OF BIOLOGICAL CHEMISTRY
+
+20831
+
+Downloaded from http://www.jbc.org/ at Georgian Court College on March 4, 2015
+
+utilizing in vitro assays (25–27). N744 was capable of inhibiting
+filament formation at substoichiometric concentrations with
+an IC50 of 294 ⫾ 23 nM (25). Analysis utilizing electron microscopy revealed that N744 was capable of reducing both total
+filament mass and filament number. Also, substoichiometric
+concentrations of N744 were capable of disaggregating mature
+filaments. Over 19 h of incubation total filament length was
+reduced to 13 ⫾ 2% of the control (25). In contrast to other
+polymerization inhibitors, length distribution remained
+unchanged with N744 treatment. This is not inconsequential as
+these results indicate that disaggregation was endwise rather
+than the result of random breakage. Interestingly, further study
+revealed that N744 activity is biphasic with optimal inhibition
+occurring at ⬃4 ␮M (26). Above this concentration, inhibition
+is relieved and polymerization levels greater than control samples are observed at higher drug concentrations. These changes
+are reflected by changes in the equilibrium constant, or minimal concentration, for Tau polymerization. In the inhibitory
+range, increasing doses of N744 produced corresponding
+increases in the critical concentration. In contrast, higher concentrations of N744 resulted in a lowering of the equilibrium
+constant. Although N744 is not capable of directly triggering
+Tau polymerization, it appears capable of increasing the concentration of Tau available for incorporation into fibrils by
+competitively binding to the negatively charged surfaces presented by polymerization inducers (26). These findings demonstrate the potential usefulness of cyanine dyes as candidates for
+development as therapeutics and use in hypothesis testing.
+Within the cyanine dye family, there are multiple commercially available molecules that vary with respect to the meso
+substituent, bridge length, and N substituent. Of these, 3,3⬘diethyl-9-methylthiacarbocyanine iodide (C11) was found to
+have a similar potency in vitro to N744 (28). In addition, the
+molecular properties of C11 present distinct advantages compared with N744. Comparisons of topological polar surface
+area, octanol water partition coefficient (miLogP), and molecular weight indicate that C11 is more likely to cross the bloodbrain barrier, and thus was chosen for further study.
+Here we examine the effects of cyanine dye C11 over a wide
+concentration range in a transfected cell and an ex vivo culture
+system making aggregated, tangle-type Tau. An inactive cyanine, C2, was used to control for nonspecific effects of the cyanine scaffold. Two different culture systems were utilized to
+assay the effects of cyanine treatment on Tau polymerization.
+In the first, organotypic slices were cultured from the hTau
+mouse line that expresses all six isoforms of wild type human
+Tau. Slice cultures accumulate a robust level of aggregated Tau
+in a physiologically relevant milieu. In addition, because the
+hemispheres are plated separately, one hemisphere may be
+retained to serve as a within-animal control, thus eliminating
+the problem of variable aggregate levels between animals. A
+second culture system utilized human embryonic kidney cells
+transfected with split GFP-labeled Tau. In this assay, GFP fluorescence is altered upon Tau aggregation with higher degrees of
+polymerization resulting in reduced GFP signal (29). This sys-
+
+Tau Aggregation Inhibitor C11
+
+20832 JOURNAL OF BIOLOGICAL CHEMISTRY
+
+VOLUME 284 • NUMBER 31 • JULY 31, 2009
+
+Downloaded from http://www.jbc.org/ at Georgian Court College on March 4, 2015
+
+Preparation of Samples for Electron Microscopy—Sarkosyl-insoluble fractions from control and
+treated slices were prepared as
+described above with the exception
+that the final pellet was resuspended
+in 100 ␮l of phosphate-buffered
+saline. Samples were fixed with glutaraldehyde (2% final volume) and
+adsorbed onto 400-esh formvarcoated copper electron microscope
+grids (Electron Microscopy SciFIGURE 1. Preparation of organotypic slices. A, brains were removed from hTau pups between 9 and 11 days ences, Ft. Washington, PA) for 20
+postnatal. Olfactory bulb and brainstem are removed and the hemispheres (cortex/hippocampus) were separated. B, each hemisphere was sectioned into 400-␮m slices. C, slices from each hemisphere were plated in min. Grids were then washed with
+tissue culture inserts on different rows in six well plates. This method allows each animal to act as its own double distilled water. Grids were
+control thus eliminating the problem of variability due to differing pathology between individual animals.
+then stained with uranyl acetate
+(Electron Microscopy Sciences) at
+2% final volume for 5 min. Following staining, grids were
+washed a second time.
+Microtubule Binding Assay—Because C11 is capable of binding to the Tau protein it is important to ascertain whether the
+presence of the drug interferes with normal microtubule binding, which is potentially detrimental. Additional slices were
+FIGURE 2. Structure of cyanine dye C11.
+prepared and treated as described above with either 1.0 or 0.001
+␮M C11. Microtubule binding assays were conducted utilizing
+tein levels. To generate the heat stable (S) fraction an aliquot of methods adapted from Volgelsberg-Ragaglia (36). Samples
+the low speed supernatant was retained and boiled for 10 min. were homogenized in warm (37 oC) RAB buffer (0.1 M MES, pH
+After heating, the samples were centrifuged at 20,000 ⫻ g for 20 6.8, 0.5 mM MgSO4, 1 mM EGTA, 1% Triton X-100, 20 ␮M
+min at 4 °C and the supernatant was retained and diluted in O⫹ Taxol, 2 mM GTP, phosphatase inhibitor mixture, and protein
+buffer (62.5 mM Tris-HCl, pH 6.8, 5% glycerol, 2-mercaptoehta- inhibitor mixture) using a warmed Dounce homogenizer.
+nol, 2.3% SDS, 1 mM EGTA, 1 mM phenylmethylsulfonyl fluo- Samples were centrifuged at 3,000 ⫻ g for 4 min at 25 °C to
+ride, 1 mM NaVO4, 1 ␮g/ml protease inhibitors, 1 ␮g/ml phos- remove 

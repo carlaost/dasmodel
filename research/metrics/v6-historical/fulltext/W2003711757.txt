@@ -1,0 +1,256 @@
+ORIGINAL ARTICLE
+
+Predicting Cognitive Decline in Alzheimer Disease
+Role of Platelet Amyloid Precursor Protein
+Barbara Borroni, MD,* Francesca Colciaghi, PhD,† Silvana Archetti, PhD,‡ Elena Marcello, PhD,†
+Luigi Caimi, MD,§ Monica Di Luca, PhD,† and Alessandro Padovani, MD, PhD*
+
+Abstract: An altered pattern of platelet amyloid precursor protein
+(APP) forms, consisting of a reduced ratio of the upper (130 kDa) to
+the lower (110 to 106 kDa) immunoreactivity band (APPr), is associated with Alzheimer disease (AD), although in the early stages of AD
+this pattern shows high variability. To explore whether APPr values at
+baseline may predict the rate of cognitive decline, we evaluated patients with mild AD before and after 1 year of treatment with acetylcholinesterase inhibitors. Lower APPr at baseline was the only predictor of progressive cognitive decline, suggesting that this biomarker
+might be a useful indicator of prognosis for patients with AD.
+Key Words: amyloid precursor protein, acetylcholinesterase inhibitors, rate of cognitive decline
+(Alzheimer Dis Assoc Disord 2004;18:32–34)
+
+B
+
+ecause Alzheimer disease (AD) has a mean duration of 6 to
+10 years from diagnosis and is characterized by progressive cognitive impairment with great intraindividual and interindividual variability in rates of decline, one goal of research is
+to identify a biologic marker that would assist in predicting the
+rate of decline. At present, physicians can only give approximate answers, establishing the rate of decline by monitoring
+patients during the course of the disease. A specific biologic
+indicator of the rate of cognitive decline would help physicians
+and caregivers determine how long patients would be able attend to the activities of daily living before they require institutionalization. One predictor of decline in AD may be an alteration in protein metabolism.
+Amyloid precursor protein (APP) metabolism has been
+found to be specifically altered in the platelets of patients with
+sporadic AD.1,2 Although an altered pattern of platelet APP
+
+Received for publication February 14, 2003; accepted November 26, 2003.
+From the *Department of Neurology, University of Brescia, Brescia, Italy;
+†Institute of Pharmacological Sciences and Centre of Excellence for Neurodegenerative Diseases, University of Milan, Milan, Italy; ‡III Laboratory of Analysis, Brescia, Italy; and §Department of Biochemistry, University of Brescia, Brescia, Italy.
+Reprints: Barbara Borroni, MD, Clinica Neurologica, c/o Spedali Civili di
+Brescia, Università degli Studi di Brescia (e-mail: bborroni@inwind.it).
+Copyright © 2004 by Lippincott Williams & Wilkins
+
+32
+
+metabolism, consisting of a reduced ratio of the upper (130
+kDa) to the lower (110–106 kDa) immunoreactivity band
+(APPr), has been demonstrated in mild AD,3 at this stage,
+APPr scores are highly variable. Such variability might reflect
+a differential pattern of amyloid burden, which would exert a
+differential impact on progressive cognitive decline.4
+To explore the relationship between baseline APPr values and rate of decline, we evaluated cognitive changes before
+and after 1 year of treatment with cholinesterase inhibitors
+(ChEIs) in a sample of patients with mild AD.
+
+METHODS
+The study was carried out in a group of subjects with
+probable AD consecutively evaluated at the Clinica Neurologica, University of Brescia, Italy. The study was conducted
+in accordance with local clinical research regulations, and informed consent was obtained from all subjects and caregivers
+when indicated. The diagnosis of probable AD was based on
+criteria from the National Institute of Neurologic and Communicative Disorders and Stroke and Alzheimer’s Disease and
+Related Disorders Association. Dementia severity was measured by means of the Clinical Dementia Rating scale and the
+Mini-Mental State Examination (MMSE).5,6
+The exclusion criteria used to ensure that participants
+had probable AD as the cause of their dementia are reported
+elsewhere.3 Further, only patients with AD and a Clinical Dementia Rating score ⱕ1 were enrolled.
+
+Study Design
+We conducted a longitudinal, open study. Patients were
+evaluated at baseline and after 1 year of treatment with ChEIs
+(donepezil 10 mg/day). In particular, at baseline all patients
+underwent a clinical and neuropsychologic evaluation, genotyping of apolipoprotein E (ApoE), and venipuncture for platelet sample collection. According to the difference between the
+MMSE scores at baseline (T0) and after 1 year (T1) (⌬MMSE
+T1–T0), patients were classified as “no decliners” (⌬MMSE ⱖ
+0) and “decliners” (⌬MMSE < 0).
+
+Analysis of Platelet APP Forms
+Platelet collection and preparation and Western blot
+analysis were performed as previously described.3 The results
+
+Alzheimer Dis Assoc Disord • Volume 18, Number 1, January–March 2004
+
+Alzheimer Dis Assoc Disord • Volume 18, Number 1, January–March 2004
+
+TABLE 1. Demographic and Clinical Characteristics of Good
+(No Decliners) and Poor (Decliners) Responders
+Variable
+
+No Decliners
+(n = 20)
+
+Decliners
+(n = 28)
+
+p
+
+Sex (female/male)
+Age (yr)
+Age at onset (yr)
+ApoE ␧4 (%)
+MMSE T0
+MMSE T1
+APPr at baseline
+
+16/4
+71.2 ± 6.6
+68.3 ± 6.7
+47.4
+21.5 ± 4.8
+22.4 ± 5.2
+0.54 ± 0.34
+
+18/10
+70.3 ± 10.7
+66.9 ± 10.3
+61.5
+20.7 ± 4.8
+16.7 ± 5.9
+0.30 ± 0.16
+
+NS
+NS
+NS
+NS
+NS
+0.01
+0.01
+
+ApoE = apolipoprotein E; APPr = ratio of the upper (130 kDa) to the lower
+(110–106 kDa) immunoreactivity band; MMSE = Mini-Mental State Examination; T0 = scores at baseline; T1 = scores after 1 year; NS = not significant.
+
+were expressed as the ratio (APPr) of the optical density of the
+upper immunoreactivity band (130 kDa) to the lower band
+(106–110 kDa).
+
+ApoE Genotyping
+Genetic variation at the ApoE locus was determined by
+restriction isotyping with polymerase chain reaction amplification and subsequent digestion with HhaI (New England Biolabs, Beverly, MD).
+
+Statistical Methods
+The association of demographic and clinical parameters
+between groups and the differences in mean APPr values be-
+
+Predicting Cognitive Decline in AD
+
+tween ApoE genotypes (␧4 or ␧ non4) were investigated by the
+Student t test. Covariance between ⌬MMSE and clinical and
+laboratory measures was determined by Spearman rank correlation. Further analyses were carried out by using logistic regression analysis.
+
+RESULTS
+Forty-eight of 55 patients with AD from the Center for
+Ageing Brain and Neurodegenerative Diseases entered and
+completed the study and were reevaluated at follow-up visits.
+Seven patients dropped out because of adverse effects.
+At baseline, patients with AD (mean ± SD, age = 70.7 ±
+9.1 years, MMSE T0 = 21.2 ± 4.8) showed mean APPr values
+of 0.40 ± 0.28. No association was found between ApoE genotype and APPr values at baseline (p = 0.30).
+After 1 year, a significant cognitive decline was observed (MMSE T1 = 19.5 ± 5.6, MMSE T0 vs. MMSE T1, p <
+0.001). According to ⌬MMSE (T1–T0), there were 20 “no decliners” and 28 “decliners,” whose demographic and clinical
+characteristics are shown in Table 1.
+The difference in MMSE scores was found to be significantly associated with APPr at baseline (p < 0.01), and there
+was no association with demographic and clinical variables or
+with ApoE genotype.
+To evaluate further the relationship between cognitive
+decline and APPr, we grouped the patients with AD successively according to median APPr values at baseline (APPr
+<0.40, n = 25, mean APPr = 0.21 ± 0.09; APPr ⱖ 0.40, n = 23,
+mean APPr = 0.62 ± 0.26). The two subgroups were not different in terms of demographic characteristics, age at onset of
+the disease, or disease severity (APPr < 0.40, MMSE = 21.0 ±
+
+FIGURE 1. Correlation between APPr scores and ⌬MMSE. ⌬MMSE = MMSE at 1-year follow-up ⳮ MMSE baseline; MMSE =
+Mini-Mental State Examination; APPr = amyloid precursor protein forms ratio.
+© 2004 Lippincott Williams & Wilkins
+
+33
+
+Alzheimer Dis Assoc Disord • Volume 18, Number 1, January–March 2004
+
+Borroni et al
+
+4.8; APPr ⱖ 0.40, MMSE = 21.4 ± 4.9). Patients with lower
+APPr showed greater cognitive decline (APPr < 0.40, ⌬MMSE
+= −2.8 ± 3.0; APPr ⱖ 0.40, ⌬MMSE = −0.9 ± 2.3, p < 0.05)
+(Fig. 1).
+By logistic regression analysis, APPr was significantly
+associated with the designation of decliners/no decliners, after
+controlling for baseline MMSE (optical density = 5.99, confidence interval, 1.57–22.7, p = 0.007).
+
+DISCUSSION
+The main finding of this study is that cognitive decline at
+1-year follow-up inversely correlates with baseline platelet
+APPr in patients with AD treated with ChEIs. Indeed, patients
+with lower platelet APPr at baseline showed higher rates of
+decline despite ChEI therapy.
+Few data exist to explain different rates of progression in
+sporadic AD. Several authors have focused their attention on
+vascular risk factors, claiming that hypertension, hypercholesterolemia, and diabetes might play a role in disease progression.4 In genetic studies, the finding of less responsiveness to
+long-term ChEI therapy in subjects carrying ApoE ␧4 has not
+been confirmed.7,8 Most previous reports have failed to identify a clear-cut predictor, either clinical or biologic, for rate of
+decline and, similarly, for responsiveness to ChEIs.
+Our study follows previous reports about the significance of platelet APPr in clinical practice. As previously
+shown in a large sample of patients, platelet APPr is specifically associated with AD and is correlated with disease severity.3 Nevertheless, it was observed, especially in the early
+stages of AD, that there was a high variability in APPr values.2
+In this study, we confirmed that platelet APPr values are very
+scattered in mild AD and that a relatively large proportion of
+patients display very low APPr values. This finding is in agreement with autopsy studies showing that patients with AD and
+very similar clinical impairment might present very different
+degrees of neuropathologic changes.9 In this regard, the present study argues that in vivo a different rate of decline is determined by a different spectrum of amyloid burden. Indeed, it
+has been previously reported that APP abnormalities in platelets of patients with AD parallel a dysfunction of APP processing in the central nervous system,10,11 thus suggesting that patients with lower APPr have a more severe and widespread
+amyloid processing impairment.
+We acknowledge that this study has some limitations,
+and we admittedly understand that caution is needed before
+considering platelet APPr as a true prognostic indicator of cognitive decline over time.
+First, at a more general and theoretical level, neuropathologic verification and demonstration of the relationship
+
+34
+
+of platelet APPr with the peripheral compartment are still lacking. Moreover, the inclusion of a comparison group of untreated patients would have been helpful to fully answer the
+question of whether APPr predicts rate of progression or drug
+responsiveness, although it has been previously reported that
+the symptomatic efficacy of donepezil is independent of APPr
+values. Finally, the study was based on baseline APPr values,
+and change in this value at follow-up would have added further
+support to the association between biologic and clinical variables.
+Despite these limitations, our data indicate the usefulness of platelets as a peripheral delegate for study of central
+nervous system-related mechanisms beyond the diagnostic validity and further support the role of APP metabolism in the
+pathogenesis of disease.
+These findings shed some light on different rates of cognitive decline, suggesting that platelet APPr might be a useful
+tool for prognostic evaluation of patients with AD.
+ACKNOWLEDGMENT
+The authors thank Dr. Chiara Agosti for enrollment of
+patients and critical revision of the manuscript.
+REFERENCES
+1. Rosenberg RN, Baskin F, Fosmire JA, et al. Altered amyloid protein processing in platelets of patients with Alzheimer disease. Arch Neurol.
+1997;54:139–144.
+2. Padovani A, Borroni B, Colciaghi F, et al. Abnormalities in the pattern of
+platelet amyloid precursor protein forms in patients with mild cognitive
+impairment and Alzheimer disease. Arch Neurol. 2002;59:71–75.
+3. Padovani A, Pastorino L, Borroni B, et al. Amyloid precursor protein in
+platelets: a peripheral marker for the diagnosis of sporadic AD. Neurology. 2001;57:2243–2248.
+4. Kudo T, Imaizumi K, Tanimukai H, et al. Are cerebrovascular factors
+involved in Alzheimer disease? Neurobiol Aging. 2000;21:215–224.
+5. Burke WJ, Miller JP, Rubin EH, et al. Reliability of the Washington University Clinical Dementia Rating. Arch Neurol. 1998;45:31–32.
+6. Folstein MF, Folstein SE, McHugh PR. ‘Mini-Mental State’: a practical
+method for grading the cognitive state of patients for the clinician. J Psychiatr Res. 1975;12:189–198.
+7. Dal Forno G, Rasmusson DX, Brandt J, et al. Apolipoprotein E genotype
+and rate of decline in probable Alzheimer disease. Arch Neurol. 1996;53:
+345–350.
+8. Farlow MR, Lahiri DK, Poirier J, et al. Treatment outcome of tacrine
+therapy depends on apolipoprotein genotype and gender of the subjects
+with Alzheimer disease. Neurology. 1998;50:669–677.
+9. Armstrong RA, Nochlin D, Bird TD. Neuropathological heterogeneity in
+Alzheimer’s disease: a study of 80 cases using principal components
+analysis. Neuropathology. 2000;20:31–37.
+10. Bush AI, Tanzi RE. Alzheimer disease-related abnormalities of amyloid
+beta precursor protein isoforms in the platelet: the brain’s delegate in the
+periphery? Arch Neurol. 1998;55:1179–1180.
+11. Colciaghi F, Borroni B, Pastorino L, et al. ␣-Secretase ADAM10 as well
+as ␣APPs is reduced in platelets and CSF of Alzheimer disease patients.
+Mol Med. 2002;8:67–74.
+
+© 2004 Lippincott Williams & Wilkins
+
+

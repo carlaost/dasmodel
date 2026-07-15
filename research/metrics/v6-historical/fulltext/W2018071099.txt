@@ -1,0 +1,274 @@
+Serum lipoprotein pattern variations in
+dementia and ischemic stroke
+Giubilei F, DAntona R, Antonini R, Lenzi GL, Ricci G, Fieschi C. Serum
+lipoprotein pattern variations in dementia and ischemic stroke.
+Acta Neurol Scand 1990: 81: 84-86.
+Blood levels of triglycerides, total cholesterol, isolated lipoprotein fractions
+(VLDL- LDL- and HDL-cholesterol) and apoproteins (Apo-A1 and Apo-B)
+were examined in multi-infarct dementia, senile dementia of the Alzheimer
+type, ischemic stroke associated with carotid atherosclerosis and in control
+subjects. Forty patients divided into 10 consecutive patients for each
+group were studied. Alzheimer patients showed mean total cholesterol
+and Apo-B values significantly higher than control subjects. Apo-B was
+significantly higher in stroke patients than in controls. The mean lowest
+HDL-cholesterol (HDL-c) value was observed in stroke patients. No
+significant differences in mean HDL-c levels were found between patients
+with multi-infarct and Alzheimer dementia.
+
+Reduced levels of high density lipoprotein cholesterol (HDL-c) are associated with atherosclerosis and
+therefore with a risk factor for stroke (1-4) and
+multi-infarct dementia (MID) (5). Patients with
+senile dementia of the Alzheimer type (SDAT) have
+been reported to have high HDL-c levels (5). This
+difference has been proposed a a useful tool for
+differential diagnosis (5).
+We examined blood levels of triglycerides (TG),
+total cholesterol (CHO), isolated lipoprotein
+fractions (VLDL- LDL- and HDL-cholesterol), and
+apoproteins (Apo-A1 and Apo-B) in 4 groups of
+subjects: MID; SDAT; ischemic stroke associated
+with carotid atherosclerosis; and controls.
+Material and methods
+
+Forty patients divided into 10 consecutive patients
+for each group were studied. Patients presenting with
+alcoholism, severe obesity, diabetes, liver and renal
+diseases, and hypothyroidism were excluded.
+The decline of mental functions was assessed by
+administering the second part of the partially modified Blessed Dementia Scale (total score between 0
+and 34) (6). Clinical history, neurological examination, Hachinski score, laboratory tests and CT
+scan were used to differentiate SDAT from MID, as
+well as to exclude other types of dementia.
+Diagnosis of ischemic stroke was based on
+neurological examination and CT scan findings. The
+presence of carotid atherosclerosis was investigated
+by non-invasive techniques (Doppler sonography or
+echotomography) and/or cerebral angiography.
+All control subjects had normal cerebral CT scan,
+
+F. Giubilei’, R. DAntona’, R. Antonhi’,
+G. L. Lenzi’, G. Ricci’, C. Fieschi’
+
+’
+
+Department of Neurological Sciences, Institute of Medical Therapy, University of Rome
+La Sapienza, Rome, Italy
+
+Key words: lipoprotein; dementia; atherosclerosis; diagnosis
+Franco Giubilei, M.D., Department of
+Neurological Science, Viale dell’universita, 30,
+00185 Roma, Italy
+Accepted for publication June 13, 1989
+
+normal mental tests and no evidence of vascular
+disease.
+The patients were not following any dietary prescriptions, and did not take drugs associated with
+alteration of HDL levels. Two of 10 patients with
+stroke and 1 of 10 patients with MID had severe
+hemiparesis with functional impairment in daily activities. However, all patients were able to sit.
+Blood samples were collected into test-tubes and
+blindly processed by operators unaware of the clinical diagnosis. CHO and TG were determined in
+whole plasma and isolated lipoprotein fractions (7)
+by enzymatic colorimetric methods (8,9).
+HDL-c levels were determined after precipitation
+of apoprotein-B containing lipoprotein (10). Apoproteins (Apo-A1 and Apo-B) were essayed by
+radial immunodiffusion.
+Dunnett’s test was used for the statistical evaluation of the results.
+Results
+
+No significant differences were found between the 4
+groups with respect to sex, age and body weight
+(Table 1). Severity of dementia between MID and
+SDAT groups did not show any difference(Table 1).
+Fig. 1 shows HDL-c levels in the 4 groups. MID
+patients had mean HDL-c levels lower (12.5%) thari
+SDAT patients (NS). The group of patients with
+ischemic stroke showed the lowest HDL-c values,
+and the difference with the SDAT group (27.2%)
+was significant (P< 0.01). No significant differences
+were found in mean HDL-c levels between controls
+and the other groups. SDAT patients showed mean
+
+Serum lipoprotein & dementia
+Table 1. Sex, age, weight and degree of dementia (mean +SEI in the 4 groups of
+patients
+Group
+
+Sex
+
+SDAT
+MID
+Stroke
+Control
+
+80
+
+Age (years)
+
+Weight (kg)
+
+Blessed score
+
+3F,7M
+64.1t7.29
+2F,8M
+65.1t5.22
+3 ~ , 7 ~ 67.4t9.54
+2~,aM
+59.6t4.72
+
+7 0 . 8 t 7.07
+77.2+ 9.81
+75.itio.98
+74.1 t 11.38
+
+10.5t2.2
+11.4t2.2
+33.ato.4
+34
+
+0
+
+7 5-
+
+0
+0
+
+700
+
+0
+
+-
+
+63-
+
+60>
+E
+
+-
+
+0
+0
+
+0
+0
+0
+
+0
+
+i
+
+5-
+
+!!I
+L
+y 50-
+
+0
+
+0
+
+-
+
+0
+0
+
++
+
+0
+
+0
+
+0
+
+0
+0
+0
+
+0
+
+-
+
+0
+
+0
+
+0
+
+0
+
+301
+
+0
+
+20
+
+I
+
+00
+
+0
+0
+
+H
+
+Discussion
+
+Munckle et a1 ( 5 ) described HDL-c levels significantly lower in 5 MID patients compared with 12
+SDAT patients, while Lehtonen et a1 (1 1) found no
+difference in 68 patients, with SDAT (n = 22), MID
+(n = 23) or without dementia (n = 23). Our data
+confirm the latter observation of an overlap in HDL
+values between MID and SDAT patient with no
+significantdifference in the mean HDL-c levels. This
+lack of significance may be caused by the relatively
+small sample size. However, MID is not necessarily
+related to atherosclerosis. Cardiac embolism
+(12-14) or small vessel diseases secondary to hypertension (15-17) are frequently associated with the
+pathogenesis of MID. For example, 3 of 10 MID
+patients had a cardiac pathogenesis and no demonstrable atherosclerotic lesions.
+Our results in the stroke group indirectly confirm
+the importance of HDL-c levels as a risk factor in
+vascular disease (18-21), since this group had the
+lowest mean HDL value.
+The high levels of CHO and Apo-B observed in
+our SDAT patients remain unexplained at this time.
+CHO was also significantly elevated in our stroke
+group, and previous data show that high CHO is
+associated with a high incidence of intra- and extracranial atherosclerotic lesions in males, as documented by cerebral angiography (22).
+We could not confirm that the HDL-c value can
+be used to discriminate between MID and SDAT.
+
+25
+
+I
+
+'
+
+0
+
+SDAT
+
+I
+
+I
+
+I
+
+MID
+
+STROKE
+
+CONTROL
+
+~~~-
+
+*
+
+*~co.m
+Fig. 1 . Plasma HDL-cholesterol levels of the patients. The horizontal line indicates the mean value.
+
+CHO and Apo-B values significantly higher than
+control subjects (Table 2).
+Mean Apo-B values were significantly higher in
+stroke patients than in the control group (Table 2).

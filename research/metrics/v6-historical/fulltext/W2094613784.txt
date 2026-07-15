@@ -1,0 +1,299 @@
+CLINICAL EEG and NEUROSCIENCE
+
+02005 VOL. 36 NO. 2
+
+EEG Mapping and Low-ResoIut ion Brain EIectromagnetic
+Tomography (LORETA) in Diagnosis and Therapy of
+Psychiatric Disorders: Evidence for a Key-Lock Principle
+Bernd Saletu, Peter Anderer, Gerda M. Saletu-Zyhlarz and Roberto D. Pascual-Marqui
+
+Key Words
+EEG Mapping
+EEG Tomography
+Key-Lock Principle
+Low-Resolution Brain Electromagnetic Tomography
+(LOR ETA)
+Mental Disorders
+Psychotropic Drugs
+
+and beta activity. On the other hand, representative drugs
+of the main psychopharmacological classes, such as neuroleptics, antidepressants, tranquilizers, hypnotics, psychostimulants, nootropics or cognition-enhancing drugs,
+induce significant changes in the quantitatively analyzed
+EEG compared with placebo, which, graphically displayed,
+result in different pharmaco-EEG profiles based on singlelead analysis (mostly 02-Cz), and pharmaco-EEG maps
+(based on multi-lead analysis). Thus, it seems of interest to
+investigate the relationship between alterations induced by
+psychiatric disorders and psychopharmaceutical agents
+intended for their treatment.
+
+ABSTRACT
+Different psychiatric disorders, such as schizophrenia
+with predominantly positive and negative symptomatdogy,
+major depression, generalized anxiety disorder, agoraphobia, obsessive-compulsive disorder, multi-infarct dementia,
+senile dementia of the Alzheimer type and alcohol dependence, show EEG maps that differ statistically both from
+each other and from normal controls. Representative drugs
+of the main psychopharmacological classes, such as sedative and non-sedative neuroleptics and antidepressants,
+tranquilizers, hypnotics, psychostimulants and cognitionenhancing drugs, induce significant and typical changes to
+normal human brain function, which in many variables are
+opposite to the above-mentioned differences between psychiatric patients and normal controls. Thus, by considering
+these differences between psychotropic drugs and placebo
+in normal subjects, as well as between mental disorder
+patients and normal controls, it may be possible to choose
+the optimum drug for a specific patient according to a keylock principle, since the drug should normalize the deviant
+brain function. This is supported by 3-dimensional low-resolution brain electromagnetic tomography (LORETA), which
+identifies regions within the brain that are affected by psychiatric disorders and psychopharmacological substances.
+
+EEG MAPPING OF DIFFERENT
+PSYCHIATRIC DISORDERS
+Utilizing standardized recording and analyzing procedures,” we found that drug-free schizophrenics demonstrated a decrease in alpha activity, an increase in beta activity
+and an acceleration of the beta centroid compared with controls, which suggests a state of hyperarousal in schizophrenia. While schizophrenic patients with predominantly negative syniptomatology showed bitemporal and frontal augmentation of deltdtheta, patients with positive symptomatology exhibited an attenuation in these measures (Figure 1).
+The increase in slow activity suggests an organic factor in
+the pathogenesis of the negative syndrome.
+Major depression in the menopause was characterized
+by a decrease in absolute power in all frequency bands, a
+tendency towards an augmentation of relative deltdtheta
+and beta and a decrease in alpha activity as well as by a
+slowing of the deltdtheta centroid and an acceleration of the
+alpha and beta centroid, reflecting a decrease in vigilance.
+Generalized anxiety disorder (GAD) patients with
+nonorganic insomnia showed increased total, absolute
+deltdtheta and alpha as well as relative alpha power and
+decreased relative beta power, neurophysiologically
+
+INTRODUCTION
+As has been demonstrated by various investigators,
+clinically well-defined diagnostic subgroups of mental disorders show electrophysiological patterns that differ statistically both from each other and from normal controls.’ ’ In
+our studies, applying standardized recording and analyzing
+procedures,8 we indeed described distinct differences
+between psychiatric populations and normal controls in
+standardized EEG descriptors, such as absolute and relative power as well as the centroid of the deltdtheta, alpha
+
+From the Department of Psychiatry,Medical University of Vienna, Austria
+(6. Saletu, P. Anderer. G. Saletu-Zyhlarr), and The Key Institute for BrainMind Research, University Hospital of Psychiatry, Zurich, Switzerland (R D
+Pascual-Marqui).
+Address requests for reprints to Bernd Saletu, MD, Professor of
+Psychiatry, Department of Psychlatry, Medical Universily of Vienna.
+Wahringer Gurtel 18-20, A-1090 Vienna, Austria
+Email: bernd.saletu@rneduniwien.ac.at
+
+108
+Downloaded from eeg.sagepub.com at UCSF LIBRARY & CKM on March 4, 2015
+
+CLINICAL EEG and NEUROSCIENCE
+
+02005 VOL 36 NO. 2
+
+Figure 1.
+Maps on EEG differences between 9 mental disorder patients and normal controls. Statisticalprobability maps (SPM) depicting intergroup
+differences in total, absolute and relative power as well as the centroids of the delta, theta, alpha and beta frequency bands (from top to
+bottom) are shown (birds eye view, nose at the top, left ear left, right ear right, whiie dots indicate electrode positions). Orange, red and
+purple colors represent significant (p < 0.10,0.05 and 0.01, respecbvely) increases; dark green, light blue and dark Mue indicate significant (p < 0.10,0.05 and 0.01, respectively) decreases, as compared with normal controls. In columns from left to right, schizophrenics
+with a predominantly positive symptomatology (N: 18), for instance, exhibit an attenuated absolute delta and theta power, while schizophrenics
+a predominantly negative symptomatology (N: 30)show an increase. Major depression (N: So),generalized anxiety disorder
+(N: 41), agoraphobia (N: 21), obsessivecompulsivedisorder (N: 12), multi-infarctdementia (N: 24), senile dementia of the Alzheimer type
+(N: 24) and alcoholdependent patients currently abstinent (N: 29)show different EEG maps, as compared with normal controls.
+
+Downloaded from eeg.sagepub.com at UCSF LIBRARY & CKM on March 4, 2015
+
+CLINICAL EEG and NEUROSCIENCE
+
+02005 VOL. 36 NO. 2
+
+Figure 2.
+Demented patient
+On the electrophysiological key-lock
+(GM, 56a, female)
+principle in diagnosis and treatment of
+vs. healthy controls
+mental disorders. Maps on differences
+in total power, absolute delwheta,
+alpha and beta power (rows 1 and 2)
+and the total centroid, as well as, relaPyritinol600mg
+tive deltahheta, alpha and beta power
+vs. placebo in
+normals
+(rows 3 and 4) between a 56-year-old
+female patient with dementia of the
+Alzheimer type, atypical or mixed form
+(ICD-10: F00.2), and an age-matched
+Dementedpatient
+normal control group, expressed in
+(GM, 56a, female)
+terms of z-values (differences to the
+vs. healthy controls
+norm in number of standard deviations
+from the norm), are shown in the first
+and third rows. Differences between
+600 mg pyritinol and placebo in normal
+Pyritinol 600 mg
+volunteers are depicted in the second
+vs. placebo in
+normaIs
+and fourth rows. Yellow and light green
+colors represent increases or decreases
+wtthin 1 standard deviation from the
+norm, ocher and dark green show differences between 1 and 2 standard deviations, bright red colors represent significant increases of 2
+or more standard deviations, and blue colors show decreases of 2 or more standard deviations from the norm. Note that the EEG
+changes in normals after the nootropic drug are opposite to the alterations induced by the disease (key-lock principle).
+
+reflecting hypervigilance. This pattern is similar to another
+anxiety disorder, agoraphobia, with and without panic disorder, which, however, in contrast to GAD, also exhibits
+augmented beta activity and accelerated deltdtheta and
+alpha centroids. Obsessive-compulsive disorder showed a
+different pattern of activity, characterized by an attenuation
+of total and absolute deltdtheta and beta power, a
+decrease in relative deltdtheta and an increase in relative
+alpha activity, as well as a slowing of the deltdtheta centroid. Thus, different anxiety disorders show different electrophysiological patterns.
+
+Alcohol-dependent patients predominantly showed an
+increase in absolute and relative beta power and a
+decrease in alpha and deltdtheta power, with an additional deltdtheta slowing and acceleration of the beta centroid.
+For an individual psychiatric patient one may obtain
+routine EEG maps of 36 EEG variables and visualize the
+differences between the measures of the patient and those
+of a normal control group by plotting them in terms of the
+number of standard deviations from the norm (Z-scores).
+An increase in deltdtheta power, a decrease in alpha and
+beta power and a slowing of the total centroid, for instance,
+suggest dementia (Figure 2). The ideal drug for such a
+patient would be the one inducing EEG changes opposite
+to those caused by the disease and has to be chosen from
+one of the psychotropic drug classes described below.
+EEG MAPPING OF DIFFERENT
+PSYCHOTROPIC DRUG CUSSES
+As was already attempted by Hans Berger in the early
+days of the EEG, psychopharmacologistshave been eager
+to employ the EEG for classification purposes as well as for
+the determination of the bioavailability of drugs at the target organ - the human brain. Our own pharmaco-EEG
+studies in normal subjects11demonstrated that a sedative
+neuroleptic like 50 mg chlorpromazine attenuates total
+power, increases deltajtheta and decreases alpha and
+beta power, with a slowing of all centroids and also of the
+total centroid (Figure 3). In contrast, the non-sedative neuroleptic 3 mg haloperidol does not change total power,
+
+Demented patients, of both the vascular (multi-infarct
+dementia = MID) and the degenerative (senile
+dementidAlzheimer’s type = SDAT) subtypes, exhibited a
+massive augmentation of absolute deltdtheta power, an
+increase in relative deltdtheta, a decrease in alpha and
+beta power, as well as an acceleration of the deltdtheta
+and a slowing of the alpha and beta centroids. Thus, both
+subtypes of dementia show a vigilance decrement with differences between them lying in the asymmetry indices and
+in differences between minimum and maximum power.
+Under vigilance one understands (since Head) the availability and grade of organization of man’s adaptive behavior, which is in turn dependent on the dynamic state of the
+neuronal network. The latter can be measured objectively
+and quantitatively by computerized EEG analysis. Utilizing
+neuronal network statistics on absolute deltdtheta power
+findings, we correctly classified 90% of demented patients.
+110
+
+Downloaded from eeg.sagepub.com at UCSF LIBRARY & CKM on March 4, 2015
+
+CLINICAL EEG and NEUROSCIENCE
+
+02005 VOL. 36 NO. 2
+
+Figure 3.
+Maps on differences between 9 representativedrugs of the major psychopharmacological classes and placebo after acute oral drug
+administration (time of phannacodynamic peak effect, mostly 2nd hour post-drug). For technical descriptionsof the maps and the color
+key, see Figure 1. In columns from left to right, different drug-inducedchanges are topographically displayedafter single-dose administration of 50 mg chlorpromazine (N:15), 3 mg haloperidol (N: 20), 75 mg imipramine (N: 15). 20 mg citalopram (N: 20), 30 mg clobazam
+(N: 15), 2 mg brazepam (N: 15), 20 mg amphetamine (N:15), 20 mg metamphetamine (N: 20) and 600 mg pyritinol (N: 12). While, for
+instance, 50 mg chlorpromazine increases absolute delta and theta power and decreases alpha power (CNS sedation), 600 mg pyritinol
+increases absolute alpha-1 and beta power (vigilance improvement).
+
+111
+Downloaded from eeg.sagepub.com at UCSF LIBRARY & CKM on March 4, 2015
+
+CLINICAL EEG and NEUROSCIENCE
+
+02005 VOL. 36 NO. 2
+
+HaloDeridol 3ma vs. placebo in normals
+
+I
+
+Pascual-Marqui et al 1999
+
+I
+
+I
+
+Figure 4.
+LORETA images on differences in regional brain electrical activity of 9 schizophrenics as compared with 36 controls are shown in the left
+part of the figure; the right part depicts EEG differences between acute 3 mg haloperidol and placebo in 20 healthy subjects. Images show
+voxel-by-voxel1-statistics using LORETAfor the delta, theta, alpha-1 and alpha-2frequency bands. Hyperactivity (excess) in patients is
+indicated by red, hypoactivity (deficit) by blue. The frequency band is identified in the right upper corner of each set of three orthogonal
+brain views in Talairach space, sliced through the region of the extreme 1-value. Structural anatomy is shown in gray scale (white to black).
+Left: axial slices, seen from above, nose up; center; sagittal slices, seen from the left; right: coronal slices, seen from the rear. Talairach
+coordinates: X from left (L) to right (A); Y from posterior (P)to anterior (A); Z from inferior to superior. The locations of the extreme 1-values
+are given as (X, Y, Z)coordinates in Talairach space, and are graphically indicated by black triangles on the coordinate axes.
+As compared with placebo, haloperidol induces changes opposite to the differences between untreated schizophrenics and controls,
+thereby supportingthe hypothesis of a key-lock principle in diagnosis and pharmacotherapyof mental disorders.
+
+power. The deltaltheta centroid is slowed, as is partly the
+beta centroid, while the total centroid is accelerated. Nighttime tranquilizers attenuate total power, decrease absolute
+and relative alpha power, increase absolute and relative
+beta power as well as relative deltdtheta power, slow the
+centroid of deltahheta activity and accelerate that of alpha
+activity, as well as of total activity.
+Psychostimulants, such as 20 mg amphetamine, attenuate total power, decrease absolute deltahheta, alpha and
+beta power, decrease relative deltdtheta and increase relative alpha power. The total centroid is accelerated, while
+after 20 mg amphetamine or 20 mg methylphenidate, differential changes are observed in the centroid of the
+deltdtheta and beta band.
+Nootropics, such as 600 mg pyritinol, augment total
+power, as well as absolute alpha and beta power, attenuate
+
+increases deltdtheta (predominantly theta), slightly
+decreases alpha and increases beta activity, while the centroids remain unchanged.
+Sedative antidepressants of the imipramine-amitriptyline
+type attenuate total power, decrease absolute deltaltheta
+and specifically alpha power, increase relative deltaltheta
+and decrease relative alpha and to some extent also relative
+beta power and slow the total centroid. This is partly in contrast to non-sedative antidepressants, since 20 mg citalopram, for instance, also attenuates total power, absolute
+deltaltheta and alpha power, but increases absolute and relative beta power, slows the deltahheta centroid and accelerates the alpha and beta,as well as the total centroid.
+Daytime tranquilizers, such as 30 mg clobazam,
+decrease total power, absolute and relative deltdtheta and
+alpha power and increase absolute and relative beta
+112
+
+Downloaded from eeg.sagepub.com at UCSF LIBRARY & CKM on March 4, 2015
+
+CLINICAL EEG and NEUROSCIENCE
+
+02005 VOL. 36 NO. 2
+
+GENERALIZED ANXIETY DISORDER (GAD) PATIENTS
+vs. NORMAL CONTROLS (N = 2 x 44)
+MAX, W.18(psO01)atX=-lOY=45Z=5O(BA8, SlperiorFrontalGyrus,
+Frontal Labe); I ~ S I J P R AM~ hSp'H
+-O.Q
+m~
+R 387 W4.m)
+MAX2: t=2.90 (p4.01) at X=-24 Y=102 Z=i (BA 18, Cuneus, Occipital Lobe),
+nSUPRAMRE6HQI.Rwith ~ 4 . 0 5 Q= 314 b 4 . W )
+
+4 WEEKS SOMNIUM
+(1 mg LORAZEPAM + 25 rng DIPHENHYDRAMINE)
+
+AT BEDTIME VS. PRE-DRUG PLACEBO (N=22)
+Slices according to GAD vs. Controls
+
+MIN: t=-5.70 (pQ.01) at X=-3 Y= -462=22 (BA 30,Posterior Cingulurn,
+Parietal Lobe, Linbc Lobe); ~ S I J ~ ~ T H ~ ~ H Q
+withU )peO.05 = 2103 (pQ.05)
+
+VIGILANCECONTROLLED EEG
+
+I
+
+1
+
+1 power between generalized anxiety
+disorder patientsand normal controls
+(n=2x44) (upper part of the figure) as
+well as between 4 weeks of treatment
+with Somnium (1 mg lorazepam t 25 mg
+diphenhydramine) and placebo (n=22)
+(lower part of the figure). Images are
+based on voxel-by-voxel1-valuesof differences between patients and controls
+or drug and placebo. Red colors indicate

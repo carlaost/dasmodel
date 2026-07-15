@@ -1,0 +1,508 @@
+Original Paper
+Eur Neurol 2009;62:349–355
+DOI: 10.1159/000241881
+
+Received: January 21, 2009
+Accepted after revision: August 14, 2009
+Published online: September 26, 2009
+
+Evaluation of Cerebrospinal Fluid
+Tau/Beta-Amyloid(42) Ratio as Diagnostic
+Markers for Alzheimer Disease
+Mohamed Ali Smach a Bassem Charfeddine a Leila Ben Othman a
+Turkia Lammouchi b Hedi Dridi a Souhir Nafati a Afef Ltaief a
+Soufien Bennamou b Khalifa Limem a
+a
+Department of Biochemistry, Faculty of Medicine of Sousse, and b Department of Neurology, Sahloul Hospital,
+Sousse, Tunisia
+
+Abstract
+Background: Alzheimer’s disease (AD) is the leading cause
+of dementia. Currently, no definitive diagnostic test for AD
+exists. Cerebrospinal fluid (CSF) concentrations of amyloid ␤
+(A␤1-42) peptides and total tau proteins (T-tau) may serve as
+biomarkers for AD. Aim: The objective of this study was to
+investigate the usefulness of CSF A␤1-42 and T-tau analyses
+in the diagnosis of AD with Tunisians. Methods: We focused
+on three groups originating from Central Tunisian that
+matched in age (range 48–85): healthy controls (n = 53), AD
+patients (n = 93) and non-Alzheimer (nAD) dementia (n = 35)
+patients. A␤1-42 and T-tau levels were measured in CSF by
+sandwich enzyme-linked immunosorbent assay. Results:
+The ratio of T-tau/A␤1-42 at baseline yielded a sensitivity of
+85.3% for detection of AD and the specificity was 84.8% to
+differentiate controls and nAD dementia. Conclusion: Our
+findings confirm the use of T-tau/A␤1-42 ratio in the discrimination of AD patients from all other patients.
+Copyright © 2009 S. Karger AG, Basel
+
+© 2009 S. Karger AG, Basel
+0014–3022/09/0626–0349$26.00/0
+Fax +41 61 306 12 34
+E-Mail karger@karger.ch
+www.karger.com
+
+Accessible online at:
+www.karger.com/ene
+
+Introduction
+
+Alzheimer’s disease (AD) is the most common cause
+of dementia in the elderly [1] affecting more than 5% of
+all people aged 665 and about 25% of those aged 685 [2].
+In 2004, the Tunisian Study of Health and Aging estimated that the prevalence of AD is 3.7%. Nearly 25,000
+Tunisians met criteria for AD. This number is increasing
+every year because of the constant growth of the older
+population. It is estimated that the number of AD patients will reach 46,000 in Tunisia by 2014 [3]. Prevalence
+studies of AD have found higher rates of AD among elderly people with fewer years of education [4, 5].
+Without truly effective therapies, AD will soon become a public health crisis [6]. Meanwhile, the advent of
+new therapeutic avenues calls for an improved early and
+differential diagnosis of AD [7]. So far, the diagnosis of
+AD as outlined in the NINCDS-ADRDA criteria is based
+on clinical neuropsychological examinations, identification of typical symptoms of AD and exclusion of other
+known causes of dementia [2, 7]. The accuracy of the clinical diagnosis at the primary care level and in general
+hospitals is probably ever lower, especially in the early
+stages of the disease when the symptoms are vague and
+indistinct [8]. Currently, a definite diagnosis of the disMohamed Ali Smach
+Department of Biochemistry, Faculty of Medicine of Sousse
+Sousse (Tunisia)
+Tel. +216 7322 2600, Fax +216 7322 4899
+E Mail dalifms @ yahoo.fr
+
+Downloaded by:
+UCSF Library & CKM
+169.230.243.252 - 12/17/2014 12:25:59 PM
+
+Key Words
+Alzheimer’s disease ⴢ Dementia ⴢ Total tau protein ⴢ
+Beta-amyloid ⴢ Cerebrospinal fluid
+
+Materials and Methods
+Patients
+All assessments were carried out after obtaining written informing consent from patients and receiving approval from the
+local ethics committee. A total sample of 181 subjects, all from
+Central Tunisia, presented themselves to Sahloul University Hospital, between January 2005 and March 2008. All participants underwent a complete clinical investigation, including medical history, neurological and neuropsychological examination, MiniMental State Examination (MMSE), screening laboratory tests
+and neuroimaging consisting of magnetic resonance imaging
+(MRI). MRI has shown a great reduction in medial temporal lobe
+and hippocampal volume of patients with AD as compared to
+controls and to nAD dementias.
+The demographic data of patients are presented in table 1. The
+following groups of patients were investigated. The group of probable AD patients (n = 93) consists of patients diagnosed according
+to the criteria of the National Institute of Neurological and Communicative Disorders and Stoke-Alzheimer’s Disease and Related
+Disorders Association (NINCDS-ADRDA) [7]. These patients
+were further classified, according their MMSE scores, as follows:
+mild AD (MMSE 624), moderate AD (MMSE 11–23) and severe
+AD (MMSE ^10).
+
+350
+
+Eur Neurol 2009;62:349–355
+
+Table 1. Demographic and clinical data by diagnostic groups
+
+Number
+Female/male
+Age
+Age of onset
+Duration, years
+Higher education, n (%)
+MMSE
+
+Controls
+
+AD
+patients
+
+nAD
+patients
+
+53
+28/25
+72 (55–87)
+–
+–
+18 (34)
+28 (26–29)
+
+93
+49/44
+73 (48–85)
+70 (43–84)
+2 (1–9)
+15 (16)
+14 (0–26)
+
+35
+17/18
+69 (58–85)
+66 (53–80)
+2 (1–6)
+1 (3)
+18 (10–27)
+
+Values are expressed as medians (range) or as number of subjects (percentage of all subjects in the group).
+
+The patients with nAD dementia (n = 35) were diagnosed according to the criteria of the Diagnostic and Statistical Manual of
+Mental Disorders, 4th edition (DSM-IV) [15]. The following subjects were included in this group: vascular dementia (n = 18),
+mixed dementia (n = 7), frontotemporal dementia (n = 5), Lewy
+body dementia (n = 3) and unclassified dementia (n = 2). The control group consisted of 53 age-matched subjects. The controls
+were recruited at the center, the Department of Neurology, Sahloul
+Hospital in Tunisia. Inclusion criteria were: absence of memory
+complaints and some other cognitive symptoms; preservation of
+general cognitive functioning, and no active neurological or psychiatric disease. Individuals with other medical conditions that
+did not affect cognition were not excluded.
+Laboratory Procedures
+CSF was obtained from 38 controls, 73 AD patients and 35
+nAD patients. The CSF was stored in polypropylene tubes at
+–80 ° C, and analyzed after the clinical follow-up of the study was
+completed. For the 36 patients who did not undergo a successful
+lumbar puncture at baseline, the procedure did not deliver usable
+CSF.
+CSF T-tau and A␤1-42 Determination
+CSF T-tau and A␤1-42 levels were determined using a commercially available sandwich enzyme-linked immunosorbent assay (ELISA, Innotest hTAU-Ag, Innotest ␤-amyloid 1-42; Belgium). Briefly, to measure A␤1-42 levels in CSF, 25 ␮l of undiluted CSF from patients or standards included in the kit were
+applied to microtiter plates precoated with antibody. A second
+conjugate was applied to incubate for 30 min. The wells were then
+washed and substrate solution was applied. The reaction was
+stopped with sulfuric acid, and the color reaction was read at 450
+nm. To measure CSF T-tau, undiluted CSF or standards were applied to each well of the microtiter plate simultaneously with conjugate. After an overnight incubation at room temperature followed by washing steps, two biotinylated tau-specific monoclonal
+antibodies were applied to incubate for 30 min. The wells were
+then washed and substrate solution was applied. The reaction was
+stopped with sulfuric acid, and the color reaction was read at
+450 nm.
+
+Smach et al.
+
+Downloaded by:
+UCSF Library & CKM
+169.230.243.252 - 12/17/2014 12:25:59 PM
+
+ease is only possible by post-mortem examination of
+brain tissue pathology or brain biopsy [9, 10]. In view of
+this, the need for specific AD markers is great [11]. Biological markers are essential to help in the development
+of disease-modifying therapies and to identify individuals at high risk or in the earliest clinical stages. Since cerebrospinal fluid (CSF) is in direct contact with the extracellular space of the central nervous system, biochemical changes taking place in the brain should be reliably
+reflected. Three AD biomarkers extensively reported in
+the literature are A␤1-42, total tau protein (T-tau) and
+phospho-tau protein, which are the major components of
+brain senile plaque and neurofibrillary tangles respectively [10].
+Many studies have shown that CSF T-tau is increased
+and A␤1-42 is decreased in patients with dementia from
+AD relative to age-matched controls [7, 9]. The combination of CSF A␤1-42 and T-tau has also been assessed, either as a ratio or by using more complex approaches with
+improved specificity, sometimes at the expense of sensitivity, for dementia from AD [12–14]. In the present comparative study, we prospectively assessed CSF A␤1-42
+and T-tau and concentrations in a large cohort of Tunisian patients with AD and other types of dementia. Our
+intention was to confirm the usefulness of the CSF biomarkers for distinguishing AD patients from non-Alzheimer (nAD) dementias.
+
+Color version available online
+
+1,000.00
+
+750.00
+
+500.00
+
+1,250.00
+4,000
+1,000.00
+
+T-tau/A␤1-42 ratio
+
+T-tau concentration in CSF (pg/ml)
+
+A␤1-42 concentration in CSF (pg/ml)
+
+5,000
+1,250.00
+
+750.00
+
+500.00
+
+3,000
+
+2,000
+
+1,000
+250.00
+
+250.00
+
+a
+
+0
+Control
+
+0
+1.00
+1.50
+AD
+Groups investigated
+
+0.50
+
+2.00
+nAD
+
+b
+
+0
+Control
+
+0.50
+
+1.00
+1.50
+AD
+Groups investigated
+
+2.00
+nAD
+
+c
+
+0
+Control
+
+0.50
+
+1.00
+1.50
+AD
+Groups investigated
+
+2.00
+nAD
+
+Fig. 1. Individual concentrations of A␤1-42 (a), T-tau protein (b) in CSF and T-tau/A␤1-42 ratio (c) of patients
+
+Statistical Analyses
+All statistical analyses were performed by SPSS software for
+Windows version 10.1. Comparisons of medians across groups
+were separately assessed by non-parametric statistical design including the Kruskal-Wallis test. Pairwise comparisons between
+groups then were performed with the Mann-Whitney U test. ANCOVA was used to analyze the covariance of age and education
+in the variables under study. Correlations between different variables were calculated by Pearson’s correlation test or by Spearman’s correlation test. Diagnostic accuracy was assessed by using
+receiver operating characteristic curves (ROC). Statistical significance was set at p ! 0.05.
+
+Results
+
+Clinical and Cognitive Measures
+The clinical features and biochemical parameters of
+healthy, AD and nAD patients are summarized in table 1.
+There were no statistically significant differences in age
+(␹2 = 4.75, d.f. = 2, p = 0.093) and gender (␹2 = 0.175,
+d.f. = 2, p = 0.916) distribution among the three groups.
+MMSE scores differed significantly between patients
+with AD and nAD (M-W-U = 1,145, d.f. = 1, p = 0.015);
+AD and control subjects (M-W-U = 46, d.f. = 1, p = 0.0001),
+and between nAD and controls (M-W-U = 33, d.f. = 1,
+p ! 0.001).
+
+Evaluation of CSF ␶/␤-Amyloid(42) Ratio
+as Diagnostic Markers for AD
+
+CSF Measures of A␤1-42 and T-tau
+The concentrations of A␤1-42 and T-tau protein in the
+CSF as well as the ratio of T-tau/A␤1-42 are presented in
+figure 1. The concentration of A␤1-42 was significantly
+lower in the AD group (400 (240–980)) as compared to
+the controls (1,020 (890–1,350), p ! 0.001) as well as to
+nAD (680 (250–880), p ! 0.001). The concentrations of
+T-tau were significantly higher in the AD group (452
+(160–1,280)) compared to the controls (270 (160–410),
+p ! 0.001) and the nAD group (310 (210–780), p ! 0.001).
+Similar to T-tau concentrations, the T-tau/A␤1-42 ratio
+was significantly increased in AD (1.28 (0.23–4.9)) compared to the controls (0.25 (0.16–0.78), p ! 0.01) and to
+nAD (0.51 (0.27–2.51), p ! 0.01).
+It was important to evaluate the three subsets of AD
+patients, those with MMSE 624, those with MMSE 11–
+23, and those with MMSE ^10. In this context, the severe
+AD group with MMSE ^10 showed A␤1-42 levels significantly lower than those of the control group (p !
+0.0001). The moderate AD group with MMSE 11–23 presented A␤1-42 levels similar to mild AD but significantly lower than those of the control group (p ! 0.001) (table 2). With regard to T-tau protein, statistical analysis
+showed a significant difference among the groups with
+the Kruskal-Wallis test (␹2 = 36.34, d.f. = 2, p ! 0.001),
+since a relevant increase of CSF T-tau protein was obEur Neurol 2009;62:349–355
+
+351
+
+Downloaded by:
+UCSF Library & CKM
+169.230.243.252 - 12/17/2014 12:25:59 PM
+
+investigated. The horizontal bars represent medians.
+
+Sensitivity
+
+ROC curve
+
+Color version available online
+
+ROC curve
+
+ROC curve
+
+1.00
+
+1.00
+
+1.00
+
+0.75
+
+0.75
+
+0.75
+
+0.50
+
+0.50
+
+0.50
+
+0.25
+
+0.25
+
+0.25
+
+T-tau
+T-tau/A␤1-42 ratio
+A␤1-42
+
+0
+
+a
+
+0
+
+0
+
+0
+0.25
+
+0.50
+0.75
+1 – specificity
+
+1.00
+
+0
+
+0.25
+
+b
+
+0.50
+0.75
+1 – specificity
+
+0
+
+1.00
+
+0.25
+
+c
+
+0.50
+0.75
+1 – specificity
+
+1.00
+
+Fig. 2. ROC analysis of three assays: A␤1-42, T-tau protein and T-tau/A␤1-42 ratio for discriminating patients
+with AD from patients of the control group (a), patients of the nAD dementia group (b), and patients of both
+groups taken together (c).
+
+Diagnostic
+group
+
+n
+
+Female/
+male
+
+A␤1-42 pg/ml, median
+(25–75th percentile; ranges)
+
+T-tau, pg/ml, median
+(25–75th percentile; ranges)
+
+AD patients
+Mild AD
+Moderate AD
+Severe AD
+nAD patients
+Controls
+
+73
+7
+43
+23
+35
+38
+
+37/36
+4/3
+26/17
+14/9
+17/18
+21/17
+
+400 (320–450; 240–980)
+440 (410–470; 240–500)
+400 (340–440; 280–820)
+320 (280–500; 240–980)
+680 (430–810; 250–880)
+1,020 (930–1,065; 890–1,350)
+
+452 (390–580; 160–1,280)
+420 (390–550; 220–560)
+450 (390–640; 220–1,000)
+480 (380–540; 220–1,280)
+310 (270–360; 210–780)
+270 (245–287; 160–410)
+
+served in mild, moderate and severe AD with comparison to the control group (p ! 0.001) (table 2). In this context, the covariance of age and education was analyzed in
+different groups. Data indicated that none of these covariables affected the relationships previously established, and therefore, the differences observed for AD
+with respect to nAD and controls are not due to age or
+education.
+Cut-Off Values, Sensitivities and Specificities of the
+Assays
+To examine further the accuracy of A␤1-42 concentration, T-tau protein concentration and T-tau/A␤1-42
+352
+
+Eur Neurol 2009;62:349–355
+
+ratio to discriminate AD individuals from controls and
+from patients with nAD, we used the ROC curve analysis.
+ROC curves are presented in figure 2. The cut-off point
+of 505 pg/ml for A␤1-42 distinguished AD patients with
+a sensitivity of 82.2% (60/73). The specificities were 92.1%
+(35/38) for controls and 71.4% (25/35) for other dementias. The cut-off point of 355 pg/ml for T-tau resulted in
+a sensitivity of 80.8% (59/73) for AD. The specificities
+with this cut-off were 89.5% (34/38) for controls and
+68.6% (24/35) for other dementias. The CSF T-tau/A␤142 ratio (adjusted ratio 0.87) resulted in sensitivities of
+85.3% for probable AD. The specificity was 84.8% to differentiate controls and nAD.
+Smach et al.
+
+Downloaded by:
+UCSF Library & CKM
+169.230.243.252 - 12/17/2014 12:25:59 PM
+
+Table 2. Characteristics and CSF A␤1-42 and T-tau levels of the subjects in different groups
+
+Discussion
+
+These studies complementing the molecular and neuropsychological analysis open an avenue for research on
+potential biomarkers, especially with the purpose of optimizing early diagnostic tools for AD, and the groups at
+risk of a neurodegenerative disease [16–18]. Therefore, research on biological markers in general is not only of interest for therapeutic approaches, but also for the design
+of new AD drugs. Previous studies have used ELISA for
+T-tau and A␤1-42 determinations in AD and normal
+samples of CSF, and found a correlation with neuropathological observations [18, 19]. In this context, we
+compared the power of low CSF A␤1-42, high T-tau levels
+and the combination of these biomarkers to distinguish
+patients with AD from subjects with other dementias and
+controls. We have chosen the Tunisian population for genetic and geographic peculiarities that can represent a
+powerful tool in the study of a genetic and multifactorial
+disorder.
+Several studies performed so far have reported a decreased concentration of A␤1-42 in CSF of patients with
+AD, and our results are in agreement with these reports
+[12–15, 20, 21], although this is not the case in all studies
+[22]. T

@@ -1,0 +1,294 @@
+Imaging, Biomarkers, Genetics and Diagnostic Markers
+
+Diseases
+
+Neurodegenerative Dis 2010;7:143–147
+DOI: 10.1159/000289225
+
+Published online: March 3, 2010
+
+Increased CD44 Gene Expression in
+Lymphocytes Derived from Alzheimer
+Disease Patients
+D. Uberti a G. Cenini a S.A. Bonini a M. Barcikowska b M. Styczynska b
+A. Szybinska c M. Memo a
+a
+
+Department of Biomedical Sciences and Biotechnologies, University of Brescia, Brescia, Italy;
+Medical Research Centre, Polish Academy of Science, and c Laboratory of Neurodegeneration,
+International Institute of Molecular and Cell Biology, Warsaw, Poland
+b
+
+Abstract
+In this study, we demonstrated for the first time an increased
+CD44 gene expression in lymphocytes derived from Alzheimer’s disease (AD) patients in comparison with healthy
+subjects. CD44 is a surface antigen expressed by cells of the
+immune and central nervous system as well as in a variety of
+other tissues. Functioning as adhesion molecule, CD44 is furthermore involved in driving immune response into infected
+tissues, including the CNS. We also found that lymphocytes
+of the same patients expressed significant levels of unfolded
+p53 isoform, confirming what we already demonstrated in
+fibroblasts and lymphocytes derived from other cohorts of
+AD patients. A correlation between p53 and CD44 expression has been well demonstrated in cancer cells, suggesting
+that CD44 could be a target gene of mutant p53, or either
+mutant p53 could lack its ability to negatively regulate CD44
+expression. The contemporaneous increased expression of
+unfolded p53 and CD44 in AD lymphocytes may suggest
+
+© 2010 S. Karger AG, Basel
+1660–2854/10/0073–0143$26.00/0
+Fax +41 61 306 12 34
+E-Mail karger@karger.ch
+www.karger.com
+
+Accessible online at:
+www.karger.com/ndd
+
+that these two molecules cross-talk together participating in
+peripheral immune response during the development of the
+disease.
+Copyright © 2010 S. Karger AG, Basel
+
+Introduction
+
+Early diagnosis of Alzheimer’s disease (AD) is an important first step in the management of this disease. The
+prediction of the incipient disease allows an earlier pharmacological approach. In this context, identification of
+new putative biomarkers [1] can increase the accuracy of
+clinical diagnosis but, more importantly, it makes earlier
+diagnosis possible. In the last 20 years, independent scientific groups have looked for biological and biochemical alterations in peripheral tissues of AD patients, because of their easy accessibility. The concept of peripheral biomarker implies the involvement of many cell
+phenotypes in the disease and suggests that AD can be
+considered as a systemic disease. The major difficulty in
+the universal acceptance of a peripheral biomarker for
+CNS disease is its relevance in the pathogenesis of the
+Maurizio Memo, PhD
+Department of Biomedical Sciences and Biotechnologies
+Viale Europa 11
+IT–25124 Brescia (Italy)
+Tel. +39 030 371 7516, Fax +39 030 371 7409, E-Mail memo @ med.unibs.it
+
+Downloaded by:
+University of Hong Kong
+198.143.53.2 - 1/27/2016 8:07:20 AM
+
+Key Words
+Lymphocyte ⴢ Unfolded p53 isoform ⴢ CD44 gene ⴢ
+Peripheral marker
+
+144
+
+Neurodegenerative Dis 2010;7:143–147
+
+Table 1. Demographic and clinical details of all subjects (mean 8
+
+SD)
+
+Males/females
+Age, years
+LOI, months
+MMSE
+
+AD
+
+Controls
+
+11/5
+6585.5
+55831
+12810
+
+4/15
+76814
+2882.6
+
+LOI = Length of illness; MMSE = Mini-Mental State Examination.
+
+in immortalized lymphocytes derived from AD patients
+and (b) to investigate whether or not it correlated with
+p53 conformational status.
+Methods
+Subjects
+Sporadic AD patients and healthy subjects were enrolled at the
+Department of Neurology, MSWiA Hospital, Warsaw, Poland.
+The demographic and clinical information is reported in table 1.
+Control subjects were individuals with no clinical signs of neurological or psychiatric diseases. All these subjects were examined
+by a senior neurologist or geriatrician, and diagnosis of dementia
+was made according to DSM-IV and the NINCDS-ADRDA criteria. Dementia was diagnosed based upon interview, objective and
+neurological examination, cognitive evaluation, and laboratory
+and radiological (CT scan) investigation. Cognitive status was
+quantified using the Mini-Mental State Examination.
+Quantitative Real-Time PCR
+Real-time PCR was performed according to Ferrari-Toninelli
+et al. [24]. The oligonucleotide sequences of the primers used are
+as follows for CD44: forward primer 5ⴕ-TTC ATC CTC GGG TGT
+GCT AT-3ⴕ, reverse primer 5ⴕ-GTA CAC CCC AAC CTC AGT
+GG-3ⴕ. The PCR program was initiated by 10 min at 95 ° C before
+40 cycles, each for 15 s at 95 ° C and 1 min at 60 ° C.
+Immunoprecipitation Analysis
+p53 conformational state was analyzed by immunoprecipitation as previously detailed [2]. Briefly, 100 ␮g of protein extracts
+was used for immunoprecipitation experiments performed with
+1 ␮g of the conformation-specific antibodies PAb1620 (wild-type
+specific) or PAb240 (mutant specific).
+Statistical Evaluation
+Results are given as mean 8 standard error mean values. Statistical significance of differences was determined by t test. Significance was accepted at p ! 0.05.
+
+Uberti /Cenini /Bonini /Barcikowska /
+Styczynska /Szybinska /Memo
+
+Downloaded by:
+University of Hong Kong
+198.143.53.2 - 1/27/2016 8:07:20 AM
+
+illness. The study of accredited biomarkers found in CSF
+has failed when the same were looked for in periphery,
+suggesting that if metabolic and biochemical alterations
+occur in peripheral cells, they do not necessarily mirror
+events occurring in the AD brain. Our research group
+disclosed some years ago an anomalous conformational
+altered (unfolded) p53 isoform in fibroblasts and lymphocytes of AD [2, 3]. This marker apparently was very
+far from the known mechanisms involved in the pathogenesis of the disease. This opened two questions: (a)
+what is the significance of the expression of a conformational ‘mutant-like’ p53 isoform, and (b) secondarily,
+why is this isoform found exclusively in AD patients?
+Crystallographic studies on p53 tertiary structure have
+been often correlated with its gene mutations. Structural
+studies have allowed classification of p53 mutant protein
+into two large categories: (a) mutations which interfere
+with DNA sequence binding, and (b) mutations that determine an important conformational alteration. Interestingly, exposure of wild-type p53 to metal chelators
+such as EDTA, oxidant compounds [4–6], or synthetic
+nitric oxide donors (such as S nitro-N-acetylpenicilamine
+and S-nitrosoglutathione) [7] resulted in a rapid switch
+from wild-type to the unfolded ‘mutant-like’ form, suggesting that conformational changes can be also the result of posttranscriptional modifications. In addition,
+we demonstrated that the exposure to nanomolar concentrations of ␤-amyloid peptides 1–40 induced the expression of a mutant-like p53 isoform in different cellular models [8, 9]. It is noteworthy that mutant p53 was
+found to acquire new transcriptional functions [10–14].
+Whether unfolded p53 found in AD is endowed with
+such functional activity is not known. Anyway, learning
+from the cancer field, some genes, which correlated with
+mutant p53, may have relevance in the pathogenesis of
+AD. Genes such as IGF1R, IL6 and CD44 [15–17] attracted our attention because of their observed role in the immune system. In fact, in recent years the relevance of
+immune response in AD has been revised [18–20], suggesting a surveillance role of the immune system before
+disease onset, rather than a harmful event. Schwartz’s
+group has obtained a large body of evidence suggesting
+that under normal conditions CNS immune surveillance, primarily mediated by T lymphocytes recognizing
+CNS antigens, is important for maintaining cognitive
+abilities and the capacity for neuronal cell renewal in
+adulthood [21–23]. In this regard, we took into consideration the CD44 gene for its role in driving immune response in infected tissues, including the CNS. The aim
+of this study was (a) to measure CD44 mRNA expression
+
+*
+
+1.0
+
+0.5
+
+a
+
+0
+
+Control
+
+Results and Discussion
+
+p53 conformational state in lymphocytes derived from
+AD and non-AD subjects was studied by the immunoprecipitation technique using two conformational-specific
+antibodies, PAb1620 and PAb240, which discriminate
+folded versus unfolded p53 tertiary structure [8]. In particular, the PAb1620 epitope is exposed in the wild-type
+p53 form that is competent for DNA binding and depends
+on the tertiary folding of the protein. In contrast, the
+PAb240 epitope is cryptic in the protein that is competent
+for DNA binding but is exposed by denaturation. Immunoprecipitates were then analyzed by Western blot analysis with a rabbit polyclonal p53 antibody. Data were expressed as the ratio of PAb240/PAb1620. A statistically
+significant unfolded p53 increase was found in AD patients in comparison to control subjects (fig. 1a). These
+data confirmed what we already found in another cohort
+of patients [3].
+The new result of the present study is the expression
+of CD44 mRNA in AD patients (fig. 1b). CD44 has been
+extensively studied in the lymphoid compartment as a
+molecule involved in the development and differentiation of T and B cells and an activation marker increased
+on cell surface following stimulation by antigen and mitogen [25]. Furthermore, CD44 exerts an important role
+in addressing lymphocytes in infected tissues, including
+the CNS [26]. Increased expression of CD44 variant 6 on
+monocyte surface has been found to correlate with the
+development of encephalitis in HIV-1-infected macaques
+Increased CD44 Gene Expression in
+Lymphocytes from AD Patients
+
+AD
+
+b
+
+*
+
+0.00004
+
+0.00003
+
+0.00002
+
+0.00001
+
+0
+
+Control
+
+AD
+
+[27]. The same authors, in a longitudinal analysis of
+monocyte cell surface markers demonstrated that as early as 28 days after the inoculation, CD44v6 staining was
+able to distinguish pathological from control cases, suggesting that monocyte surface markers may serve as a
+marker for CNS disease. cDNA samples derived from 16
+AD patients and 19 control subjects were processed for
+real-time PCR analysis using specific primers for CD44
+standard transcript. A statistically significant enhancement of CD44 mRNA was found in AD in comparison to
+control subjects (fig. 1b).
+CD44 values in both AD and control were highly
+widespread, probably because its activation depends on
+different factors. In this regard, it has also been reported
+that CD44 expression correlates with T memory lymphocytes, and CD44-positive T lymphocytes correlate with
+aging [28, 29]. In the present study, only the standard isoform of CD44 was evaluated. In fact, nine variants (v2–
+v10) of the protein have been identified [30]. These variants differ from the standard CD44 molecule in that they
+contain additional peptide domains inserted into the extracellular portion of transmembrane protein. In contrast to standard CD44, which is almost ubiquitously expressed, the variety of CD44 isoforms (CD44v) has a
+much more restricted distribution. For example, CD44v6
+is expressed on activated lymphocytes and macrophages
+[30]. This suggests the need to further investigate the coexpression of CD44v protein on mononuclear cell surface, and especially variant 6.
+
+Neurodegenerative Dis 2010;7:143–147
+
+145
+
+Downloaded by:
+University of Hong Kong
+198.143.53.2 - 1/27/2016 8:07:20 AM
+
+Fig. 1. a p53 conformational state in control and AD lymphocytes. The graph
+shows the ratio between the intensity of
+PAb240 and PAb1620 immunoreactive
+bands obtained from controls (n = 19) and
+AD (n = 16) lymphocytes. Data are expressed as mean 8 SD. * p ! 0.001. b CD44
+gene expression in lymphocytes derived
+from 16 AD patients and 19 healthy subjects. Data represent starting quantity over
+total cDNA of each sample and are expressed as mean 8 SD. * p ! 0.01.
+
+PAb240/PAb1620
+
+1.5
+
+0.00005
+
+Starting quantity (ng)/cDNA total (ng)
+
+2.0
+
+CD44 is also studied as a tumor marker. Numerous
+studies correlated increased CD44 expression with tumor growth and metastatic potential of tumor cells [31–
+33]. In addition, in many tumor tissue samples the expression of CD44 correlates with high expression of p53.
+Godar et al. [34] demonstrated that high levels of CD44
+in breast cancer samples correlated with mutant p53, and
+they concluded that wild-type p53 negatively regulates
+CD44 expression. On the other hand, another study demonstrated that mutant p53 in lymphoblastoid cells induced the activation of CD44 gene, indicating CD44 as a
+
+target gene of mutant p53 [17]. Whether or not CD44 is a
+target gene of unfolded p53 is now matter of investigation. The correlation between CD44 and unfolded p53 in
+AD can assume an intriguing significance also in the
+possible role of the immune system in AD pathology. Recent evidence from animal models suggests that the activated microglia that surround senile plaques have been
+recruited from the blood [35]. Our working hypothesis is
+that cross-talk between unfolded p53 and CD44 in AD
+lymphocytes may have relevance in mediating immune
+response in AD pathology.

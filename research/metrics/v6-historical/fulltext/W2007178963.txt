@@ -1,0 +1,304 @@
+Current Immunology Reviews, 2005, 1, 139-155
+
+139
+
+Immunotherapy for Alzheimer’s Disease: Potential Problems and Possible
+Solutions
+David H. Cribbs1 and Michael G. Agadjanyan*,2
+1The Institute for Brain Aging and Dementia and Department of Neurology, University of California Irvine,
+
+Irvine, CA 92697-4540, USA
+2The Institute for Molecular Medicine, Department of Immunology, Huntington Beach, CA 92649, USA
+
+Abstract: The primary component of senile plaques is the β-amyloid peptide (Aβ), and the amyloid cascade
+hypothesis proposes that this putative neuropathological peptide is a causal factor in the onset and
+progression of Alzheimer’s disease (AD). Many of the strategies currently being investigated as therapies for
+AD are aimed at reducing the level of Aβ in the brain or blocking the assembly of the peptide into potentially
+pathological forms. Immunization of APP/Tg mice with fibrillar Aβ, induced anti-Aβ antibodies, which
+reduced Aβ plaque deposition and neuritic dystrophy, astrogliosis in the brains of APP/Tg mice, and
+diminished learning deficits in these mice. The first clinical trial was halted, however, when 6% of the
+participants developed some degree of meningoencephalitis. Preliminary analysis of the first clinical trial has
+produced some encouraging results including a reduction in plaque load and attenuation of cognitive decline
+in some vaccinated patients. In this review, we discuss the current status of Aβ-immunotherapy and offer our
+analysis of the probable cause of the failure of the clinical trial. We believe that the development of safe and
+effective Aβ-immunotherapy requires selection of an antigen that will induce an adequate anti-Aβ antibody
+response in the absence of potentially adverse self T cell- mediated events.
+
+Keywords: Alzheimer’s disease, β-amyloid peptide, Aβ-immunotherapy, anti-Aβ antibody, T cell response, epitope vaccine.
+IMMUNOTHERAPY FOR AD USING Aβ42 VACCINE:
+LESSONS FROM PRE-CLINICAL AND CLINICAL
+TRIALS
+
+immunogen that induces an adequate anti-Aβ antibody
+response, without generation of potentially harmful anti-Aβ
+T cell responses.
+
+Alzheimer disease (AD) is the most common form of
+dementia in the elderly and is characterized by a progressive
+loss of memory and general cognitive decline. The
+neuropathological features of the disease include
+neurofibrillary tangles (NFT), deposition of β-amyloid (Aβ)
+in senile plaques, and neuronal loss in affected brain regions
+[1]. The Aβ peptide is cleaved from the amyloid precursor
+protein (APP) by β- and γ -secretases [2-4] and is thought to
+have a central role in the onset and progression of AD,
+which has led to the amyloid cascade hypothesis [5, 6].
+Accordingly, many of the strategies currently being proposed
+as therapies for AD are aimed at reducing the level of Aβ in
+the brain or blocking the assembly of the peptide into
+pathological forms. One potentially powerful strategy for
+reducing the level of Aβ in the brain is immunotherapy, in
+which antibodies specific for Aβ facilitate the clearance of
+amyloid deposits. Over the last several years, a number of
+interesting reviews have been published on immunotherapy
+for AD [7-17]. In this report, we will discuss the current
+status of Aβ-immunotherapy, and will attempt to
+demonstrate that the development of safe and effective
+immunotherapy for AD is feasible by selection of an
+
+In 1999, Schenk and colleagues published a very
+intriguing paper [18]. They reported that a vaccine that
+contained fibrillar Aβ, when injected into mice genetically
+engineered to develop AD-like amyloid plaques in the brain
+(APP-transgenic mice), prevented the deposition of Aβ, and
+the development of dystrophic neurites and astrogliosis in
+their brains. More importantly, when older mice that had
+already developed Aβ plaques were immunized with Aβpeptide, the Aβ plaques were cleared from the brain. Thus,
+both protective (prophylactic) and therapeutic vaccinations§
+were effective in APP- transgenic mice (APP/Tg) [18]. Other
+researchers have reproduced and extended the original
+findings to include studies showing that immunotherapy
+with Aβ can block the loss of cognitive abilities in APP/Tg
+mice as they accumulate Aβ with aging [19, 20]. Subsequent
+studies using passive transfer of anti-Aβ antibodies,
+basically demonstrated the same reduction of AD-like
+pathology in APP/Tg mice [21-23]. These results clearly
+demonstrated that anti-Aβ-specific antibodies are sufficient
+for clearing amyloid deposits from the brains of APP/Tg
+mice. Collectively, the experimental data generated in
+animal models suggested that the Aβ-immunotherapy
+approach was worth pursuing as a therapeutic strategy for
+treating AD. There were no reports of any adverse
+autoimmune or inflammatory responses in peripheral tissues
+or in the brains of APP/Tg mice immunized with fibrillar
+
+*Address correspondence to this author at the Institute for Molecular
+Medicine, 16371 Gothard Street, H, Huntington Beach, CA 92647-3652,
+USA; Tel: 714-596-7821; Fax: 714-596-3791;
+E-mail: magadjanyan@immed.org
+
+§ A therapeutic vaccine (active or passive immunotherapy) is a vaccine
+
+used for the treatment of a disease rather than for its prevention (the latter
+is referred to as a prophylactic or protective vaccine).
+
+Both authors contributed equally to this work.
+1573-3955/05 $50.00+.00
+
+© 2005 Bentham Science Publishers Ltd.
+
+140
+
+Current Immunology Reviews, 2005, Vol. 1, No. 2
+
+Aβ42. The only adverse event observed was the increased
+incidence of cerebral hemorrhage detected in very old
+hemorrhage-prone APP/Tg-23 mice injected with high levels
+of an anti-Aβ monoclonal antibody [24]. More recently, it
+was demonstrated that passive immunization with anti-Aβ
+antibodies directed to aa 1-5, also resulted in significantly
+increased microhemorrhage [25]. There were no documented
+reports of APP/Tg models developing cerebral hemorrhages
+in response to active immunization, however. Thus, based
+on the impressive results in APP/Tg mice and the lack of
+adverse autoimmune-type reactions to Aβ-immunotherapy in
+several animal models including mice, rabbits, guinea pigs,
+and monkeys, Elan Inc. and Wyeth Inc. began clinical trials
+on AD patients with their AN-1792 vaccine, which consisted
+of fibrillar Aβ42 as the immunogen and a strongly Th1
+polarizing adjuvant, QS21.
+The Phase I safety study on a small number of
+individuals with mild to moderate AD did not produce any
+adverse events in response to active immunization with the
+AN-1792 vaccine. Unfortunately, the phase IIa portion of the
+AN-1792 immunotherapy vaccine trial was halted, because
+approximately 6% of the volunteers developed symptoms of
+an adverse inflammatory response in the brain [7, 26-29].
+The follow -up studies, however, demonstrated that despite
+the termination of the clinical trial, some patients may have
+benefited from vaccination. For example, AD patients from
+the Zurich cohort of the AN-1792 clinical trial that generated
+antibodies binding to Aβ plaques, showed significantly
+slower rates of decline in cognitive function and activities of
+daily living. The beneficial effects were also observed in two
+patients that suffered transient attacks of meningoencephalitis. Interestingly, the degree of protection was
+correlated with the titer of the antibodies binding to βamyloid plaques, but not to Aβ peptide attached to ELISA
+plates [28]. Patients who responded to vaccination by
+producing anti-Aβ plaque-specific antibodies, but not
+patients that did not produce such antibodies, showed
+stabilization of cognitive functions over 12 months [30].
+Recently, these data were confirmed after further monitoring
+of 300 patients who received the AN-1792 vaccine. The
+results reported at the 9th International Conference on AD
+and Related Disorders showed that vaccinated patients with
+mild or moderate AD produced anti-Aβ IgG antibodies (titer
+1:2200) and exhibited significant improvement in cognitive
+function and activities of daily living*. There were also
+some very promising changes in the neuropathology, which
+was consistent with much of the data generated in preclinical trials using APP/Tg mice. More specifically, the
+first case report from the AN-1792 clinical trial [33] showed
+that extensive areas of the neocortex were largely free of Aβ
+deposits. These same areas were free of dystrophic neurites
+and activated astrocytes, but did contain neurofibrillary
+*Gilman S, Koller M, Black RS,
+
+et al. Neuropsychological, CSF and
+neuropathological effects of A-beta immunotherapy (AN1792) of
+Alzheimer's disease in an interrupted trial. In: The 9th International
+Conference on Alzheimer's Disease and Related Disorders; 2004 July 1722; Philadelphia, Pennsylvania; 2004. [31];
+Fox NC, Black RS, Gilman S, et al. Effects of amyloid-beta
+immunotherapy (AN1792) on MRI measures of brain, ventricle and
+hippocampal volumes in Alzheimer's disease. In: The 9th International
+Conference on Alzheimer's Disease and Related Disorders; 2004 July 1722; Philadelphia, Pennsylvania; 2004. [32]
+
+Cribbs and Agadjanyan
+
+tangles, neuropil threads, and cerebral amyloid angiopathy
+(CAA). These remarkable results provide the first evidence
+that anti-Aβ antibodies may significantly reduce Aβ
+pathology in AD patients. The second case report was
+similar, demonstrating focal atypically low levels of diffuse
+and neuritic Aβ-plaques, but not regression of tau pathology
+in neurofibrillary tangles and threads, nor improvement of
+CAA [34]. Therefore, data generated from the AN-1792
+clinical trials suggest that Aβ-immunotherapy may have a
+significant impact on the progression of AD. AD
+immunotherapy is still in the early stages of development
+and will likely benefit from a thorough analysis of the
+results from the first clinical trail, and from gaining a better
+understanding of the anti-Aβ antibody-mediated plaque
+clearance mechanisms by pursuing additional studies in
+APP/Tg models.
+MECHANISMS
+OF
+ANTIBODY-MEDIATED
+CLEARANCE OF CEREBRAL EXTRACELLULAR
+Aβ DEPOSITS
+Both active and passive vaccinations have been shown to
+be effective in mouse models of AD, thus it is clear that the
+therapeutic effect is based on anti-Aβ humoral immune
+responses. The mechanism underlying this therapeutic effect,
+however, remains unclear. Two major mechanisms have now
+been proposed to account for the effect of anti-Aβ antibodies
+on the number of Aβ plaques in the brain following
+immunotherapy. The first mechanism is based on the
+clearance of Aβ from the brain by anti-Aβ antibodies that
+cross the blood brain barrier (BBB) [7, 21]. In the second
+mechanism, antibodies bind up only the free peripheral Aβ
+in the blood, which results in a net efflux of Aβ out of the
+brain (peripheral sink model) [16, 22, 23].
+CLEARANCE OF Aβ FROM THE BRAIN BY ANTIAβ ANTIBODIES THAT CROSS THE BBB
+Experiments in APP/Tg models have been informative,
+although not definitive, with regard to the antibodymediated mechanism/s involved in blocking cerebral Aβ
+accumulation [21, 22]. Passive administration of anti-Aβ
+monoclonal antibodies has established the fact that
+antibodies alone are sufficient for reducing amyloid
+deposition in APP/Tg mice, thus, demonstrating that the
+clearance of Aβ is not T cell dependent [21, 22]. Bard et al.
+showed that passive immunization resulted in a small
+amount of antibodies against Aβ in the central nervous
+system of APP/Tg mice [21]. Therefore, some anti-Aβ
+antibodies do cross the BBB and bind directly to amyloid
+plaques. It is likely that such binding facilitates clearance of
+antigen-antibody complexes by microglia cells as previously
+proposed [18, 21, 35]. In a subsequent study, Bard and
+colleagues [35] concluded that passively transferred anti-Aβ
+antibodies do cross the BBB and induce clearance of
+amyloid plaques via Fc receptor (FcR)-mediated
+phagocytosis by activated microglia. Ex vivo experiments
+demonstrated that exogenous microglia can be induced to
+clear amyloid plaques from brain tissue when co-incubated
+with certain anti-Aβ antibodies, but not Fab fragments of
+these antibodies. This finding suggests that the Fc fragment
+
+Immunotherapy for Alzheimer’s Disease
+
+of antibodies is instrumental in microglia-mediated Aβ
+clearance [21]. Furthermore, in vitro and ex vivo studies from
+the same group confirmed these results with IgG2a
+antibodies that bind to FcR with high affinity. Interestingly,
+complement activation was not required for plaque clearance
+[35]. Using multiphoton microscopy to analyze the brains of
+APP/Tg mice injected with high concentrations of anti-Aβ
+antibodies, Bacskai et al. demonstrated that microglial
+activation correlates with Aβ plaque clearance [36]. Use of
+Fab fragments of the same molecules instead of whole antiAβ antibodies demonstrated that non-Fc-mediated
+mechanisms are also involved in Aβ plaque clearance by
+anti-Aβ antibodies [37]. It is also possible, however, that
+direct binding of antibodies to Aβ-plaques or soluble Aβ
+species induce disaggregation of Aβ plaques or block
+cytotoxicity of this peptide, as has been demonstrated in
+several in vitro studies [8, 38-42].
+CLEARANCE OF Aβ BY ANTIBODY-MEDIATED
+DISAGGREGATION AND/OR INHIBITION OF
+ASSEMBLY OF EXTRACELLULAR Aβ DEPOSITS
+Another mechanism that may account for at least a
+portion of the clearance of extracellular Aβ deposits by antiAβ antibodies that cross the BBB and enter the brain, is
+based on the anti-Aβ antibodies inhibiting aggregation
+and/or inducing disaggregation of neurotoxic forms of Aβ.
+The first report of anti-Aβ antibodies inhibiting assembly or
+promoting disassembly of preformed fibrillar Aβ, were in
+vitro studies using a monoclonal antibody raised against the
+1-28 region of Aβ [38, 39]. This in vitro result is quite
+surprising because amyloid deposits are highly insoluble and
+protease resistant. Subsequently, the N-terminal EFRH
+sequence was proposed as the dominant epitope in blocking
+assembly of Aβ [40], and high affinity antibodies appear to
+be required for significant activity [41]. This suggests that at
+least in vitro, there is a critical concentration of Aβ
+monomers/dimers/oligomers in solution to maintain the
+assembly state of the fibrillar form of the peptide. Moreover,
+it has been shown that anti-Aβ4−10 polyclonal antibodies not
+only inhibit aggregation of Aβ1-42 , but also block
+cytotoxicity of this peptide [42]. Thus, the binding of
+antibodies to these soluble or semi-soluble forms of Aβ may
+reduce the free concentration of these species, which then
+causes the fibrils to disassemble until the critical
+concentration is reestablished. Whether the same assembly
+parameters exist in vivo for Aβ remains to be determined,
+because in vivo conditions may be quite different, due to the
+chemical cross-linking and glycation of fibrillar Aβ deposits
+as they age, and the co-deposition of plaque-associated
+pathological chaperones in AD [43]. Alternatively, it is
+possible that in vivo binding of antibodies to the EFRH
+epitope of fibrillar Aβ may induce a conformational change
+in the monomer that reduces the affinity of the monomer for
+the fibril, resulting in the sequential removal of monomers
+by antibodies. Regardless of the actual mechanism involved,
+these in vitro and in vivo data indicate that if anti-Aβ
+antibodies cross the BBB, they could directly interact with
+N-terminal region of Aβ in the brain and reduce AD
+pathology by clearing Aβ deposits. Analysis of additional
+cases from the first clinical trial, particularly those that did
+not suffer an adverse inflammatory event, may ultimately
+
+Current Immunology Reviews, 2005, Vol. 1, No. 2
+
+141
+
+reveal whether or not anti-Aβ antibodies generated in AD
+patients crossed the BBB and participated in the clearance of
+established plaques.
+CLEARANCE OF Aβ FROM THE BRAIN BY ANTIAβ
+ANTIBODIES
+RESTRICTED
+TO
+THE
+PERIPHERY:
+THE
+PERIPHERAL
+SINK
+HYPOTHESIS
+Another mechanism that may explain the results of preclinical and clinical Aβ-immunotherapy trials comes from
+the passive immunization studies of DeMattos et al.
+[22,44]. They demonstrated that passive ad

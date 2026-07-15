@@ -1,0 +1,324 @@
+J Neuropathol Exp Neurol
+Copyright Ó 2008 by the American Association of Neuropathologists, Inc.
+
+Vol. 67, No. 5
+May 2008
+pp. 428Y434
+
+ORIGINAL ARTICLE
+
+Coenzyme Q Induces Tau Aggregation, Tau Filaments,
+and Hirano Bodies
+Ismael Santa-MarNa, MSc, Gabriel Santpere, MSc, Michael J. MacDonald, MD,
+Elena Gomez de Barreda, MSc, Felix Hernandez, PhD, Francisco J. Moreno, PhD,
+Isidro Ferrer, MD, PhD, and Jesús Avila, PhD
+
+428
+
+J Neuropathol Exp Neurol  Volume 67, Number 5, May 2008
+
+Tau aggregation is a common feature of tauopathies such as
+Alzheimer disease (AD). In AD, tau assembles into ﬁbrillar
+polymers; it may also be present in other aberrant aggregates,
+including Hirano bodies. The mechanisms leading to tau polymerization in vivo are not understood. In this study, we found that
+coenzyme Q (ubiquinone) facilitates tau aggregation after binding to
+tau molecules at the region of the tau molecule involved in selfassembly. Consequently, after tau-tau interactions, this region is
+masked in ﬁbrillar tau polymers. Further in vitro studies showed that
+ubiquinone facilitates the interaction of tau protein with actin to
+form structures that are morphologically similar to Hirano bodies.
+Finally, studies in AD brains show that Hirano bodies react with an
+antibody raised against ubiquinone, indicating that ubiquinone is a
+component of Hirano bodies. Taken together, the in vitro models
+and ﬁndings in AD suggest that in the presence of ubiquinone,
+Hirano bodies may result from the interaction of actin and other
+proteins, including tau.
+Key Words: Actin, Alzheimer disease, Coenzyme Q, Hirano
+bodies, Tau, Ubiquinone.
+
+INTRODUCTION
+Tau is a microtubule-associated protein that in a
+monomeric form is very soluble in different buffer conditions. In several neurodegenerative disorders known as
+tauopathies (1), however, tau protein forms insoluble aggre-
+
+Copyright @ 2008 by the American Association of Neuropathologists, Inc. Unauthorized reproduction of this article is prohibited.
+
+Downloaded from http://jnen.oxfordjournals.org/ by guest on June 6, 2016
+
+From the Centro de Biologı́a Molecular ‘‘Severo Ochoa^ (CSIC-UAM),
+Universidad Autónoma de Madrid (IS-M, EGdB, FH, FJM, JA), Madrid;
+Institut de Neuropatologia, Servei Anatomia Patològica, IDIBELLHospital Universitari de Bellvitge, Universitat de Barcelona (GS, IF),
+Hospitalet de Llobregat, Barcelona, Spain; Children`s Diabetes Center,
+University of Wisconsin Medical School (MJM), Madison, Wisconsin;
+and CIBERNED (IF, JA), Instituto de Salud Carlos III, Madrid, Spain.
+Send correspondence and reprint requests to: Jesús Avila, PhD, Centro de
+Biologı́a Molecular ‘‘Severo Ochoa,^ Facultad de Ciencias, Campus de
+Cantoblanco, Universidad Autónoma de Madrid, 28049 Madrid, Spain;
+E-mail: javila@cbm.uam.es
+This work was supported by Grant No. FIS PIo40184 from the Instituto de
+Salud Carlos III, by grants from the Plan Nacional (Ministerio de
+Educación y Ciencia, Spain) and Comunidad de Madrid, Fundación
+Botin, and by an Institutional Grant from Fundación R. Areces.
+
+gates that are stable even in the presence of detergents and
+unusual solvents such as 2.5% perchloric acid solution (2).
+Tau aggregation resulting in the formation of ﬁbrillar
+polymers has been reported to take place in vitro (3). This
+polymerization is facilitated by the addition of assembly
+inducers such as heparin (4, 5) and other sulfated glycosaminoglycans (6), polyanions (7), fatty acids (8), and quinones
+(9). It is not clear, however, whether these in vitro inducers
+also induce tau assembly in vivo (10). Tau polymers in the
+tauopathies can be present in different brain areas (11), show
+different morphologies, and have different composition. For
+example, paired helical ﬁlaments (PHFs) and straight ﬁlaments are both found in the brains of AD patients, but they
+are morphologically different. Moreover, PHFs in AD but not
+Pick bodies are stained with dyes such as thioﬂavin S (12),
+indicating different protein composition. In addition, different
+tau polymers show different solubilities. Thus, tau ﬁlaments
+from patients with progressive supranuclear palsy are more
+labile than PHFs isolated from patients with AD (13).
+Tau can also be associated with other proteins in other
+structures such as Hirano bodies (14), the actin-rich paracrystalline inclusions found in AD (15). Recently, the
+formation of structures analogous to Hirano bodies in
+transgenic ﬂies that overexpress human tau protein was
+reported (16). The actin in Hirano bodies can associate with 2
+actin-binding proteins, actin depolymerizing factor and
+coﬁlin (17), and/or with tau protein (16). At present,
+however, little is known regarding the mechanism underlying
+the formation of Hirano bodies in vivo, although several
+mechanisms have been suggested (16, 17). Moreover, it is
+not known whether different tau-polymerization inducers
+might be involved in the formation of different tau polymers
+or of copolymers with other proteins. We previously found
+that coenzyme Q0 (CoQ0 or ubiquinone) (18) can bind to tau
+protein and induce its assembly into ﬁbrillar polymers (9),
+and that CoQ0 and other related quinones (19) can bind to
+tau not only in noncovalent form but also in a covalent form
+(9). The latter observation allows for the search for the
+modiﬁed protein or quinone-tau complex in the aberrant tau
+structures of tauopathies. Here, we report the presence of
+quinones in Hirano bodies, and because ubiquinone binds to
+the tau molecule at its self-assembly region, we suggest that
+tau-quinone complexes in other tau polymers may be in
+masked form.
+
+Abstract
+
+J Neuropathol Exp Neurol  Volume 67, Number 5, May 2008
+
+MATERIALS AND METHODS
+Tau Isolation
+
+Assembly of Tau Protein Into Filaments
+Filaments were grown by vapor diffusion in hanging
+drops in the standard way used for protein crystallization as
+previously described (5). In a typical experiment, 0.5 to 2 Kg
+of protein tau was resuspended in 10 to 15 KL of buffer A
+(0.1 mol/L of 2-[N-morpholino]ethanesulfonic acid [pH 6.4],
+0.5 mmol/L of MgCl2, and 2 mmol/L of EGTA) containing
+50 mmol/L of NaCl and 1 mmol/L of CoQ0. The reservoir
+contained 0.2 mol/L of NaCl in buffer A 5. Filaments were
+obtained after incubation for 4 days at 4-C. The samples were
+visualized by electron microscopy as previously described
+(22). Electron micrographs were obtained at a magniﬁcation
+of 80,000 on Kodak SO-163 ﬁlm. Micrographs were
+digitized using an Eikonix IEEE-488 camera with a pixel
+size equivalent to 7 Å in the specimen plane. Processing and
+measurements were performed using the Digital Micrograph
+2.1 software from Gatan, Inc. (Pleasanton, CA). Several
+standards were used for the control of the measurements.
+Alternatively, tau polymers were stained using a tau antibody
+(ab) and visualized by immunoﬂuorescence as previously
+described (23).
+
+with a Zeiss Axiovert 200 ﬂuorescent microscope. Fluorescence images were captured through a 100 oil-immersion
+objective on a high-resolution charge-coupled device camera
+(SPOT RT Slider, Diagnostic).
+
+Mass Spectrometry Analysis
+Mass spectrometry was performed following the
+method of Reynolds et al (25).
+
+PHF Isolation
+Brain samples supplied by Dr. Ravid (Netherlands
+Brain Bank, Amsterdam, The Netherlands) from AD patients
+were used to isolate PHFs. They were isolated by preparation
+of sarkosyl-insoluble extracts, as previously described (26).
+
+Gel Electrophoresis and Western Blot Analysis
+Tau protein samples obtained after 0 to 24 hours of
+incubation of tau protein in the presence of 1 mmol/L of CoQ0
+were analyzed by sodium dodecyl sulfate-polyacrylamide gel
+electrophoresis. Sodium dodecyl sulfate-polyacrylamide gel
+electrophoresis was performed according to the procedure of
+Laemmli on 10% gels (27). The gels were then stained with
+Coomassie blue R-250. Alternatively, in a similar experiment, tau samples incubated with CoQ0 were analyzed by
+Western blot using anti-tau (7.51) and anti-CoQ0 (73903)
+antibodies. Densitometry of the bands was determined using
+a BioRad GS740 densitometer.
+
+Immunoelectron Microscopy
+Immunoelectron microscopy was performed after
+adsorption of the samples to electron microscopy carboncoated grids and incubation with the ﬁrst ab (diluted 1/40) for 1
+hour at room temperature. After extensive washing with PBS,
+the grids were incubated with the secondary ab (diluted 1/40)
+conjugated with 5-nm-diameter gold particles (Biocell Laboratories, Inc., Rancho Dominguez, CA). Finally, the samples
+were negatively stained and observed as previously described.
+
+Human Tissue
+Tissue samples were from 2 men and 1 woman aged 76,
+68, and 74 years, respectively, with AD. The 3 patients had a
+progressive and severe cognitive impairment. The cause of
+death was respiratory failure in 2 cases and unknown in the
+
+Assembly of Hirano Body-Like Structures
+
+Tau protein (0.5Y2 Kg), actin (1 Kg; Cytoskeleton,
+Denver, CO), and CoQ0 (1 mmol/L) were mixed and grown
+using the hanging drop method as previously described. After
+4 days of incubation, samples were analyzed by immunoﬂuorescence using a modiﬁed version of the previously
+described protocol (23). Brieﬂy, a suspension of the samples
+was adsorbed to gelatinized glass slides and then allowed to
+dry at 37-C. The protein adsorbed to the slide was processed
+for double-immunoﬂuorescence experiments with antibodies
+raised against tau (Tau-5; Calbiochem, Darmstadt, Germany)
+and CoQ0 (73903, a kind gift of Dr. McDonald et al [24]),
+and with phodamine phalloidin (1/300; Sigma, Madrid,
+Spain) to stain polymerized actin, which is incubated at the
+same time of secondary antibodies. Samples were imaged
+
+Ó 2008 American Association of Neuropathologists, Inc.
+
+FIGURE 1. Tau assembly in the presence of coenzyme Q0.
+Electron microscopy micrographs of tau polymers assembled
+in the absence (A) and presence (B) of coenzyme Q0 are
+shown. Scale bars = 0.2 Km.
+
+429
+
+Copyright @ 2008 by the American Association of Neuropathologists, Inc. Unauthorized reproduction of this article is prohibited.
+
+Downloaded from http://jnen.oxfordjournals.org/ by guest on June 6, 2016
+
+Expression and isolation of recombinant protein htau
+42 (the longest human isoform of tau expressed in the CNS)
+was performed as previously described (20, 21). Brieﬂy,
+after induced expression of tau in Escherichia coli, protein
+puriﬁcation was performed by a protocol involving a heat
+resistance step in a buffer containing 100 mmol/L of
+Tris, pH 7.5, 0.5 mmol/L of MgCl2, 1 mmol/L of EGTA,
+1 mmol/L of 2-mercaptoethanol, 100 mmol/L of NaCl and
+protease inhibitors: 2 mmol/L of phenylmethanesulfonyl
+ﬂuoride, 10 Kg/ml of aprotinin, 10 Kg/ml of leupeptin, and
+10 Kg/ml of pepstatin. This step involves a treatment at
+100-C for 5 minutes. The soluble protein was isolated after
+centrifugation, and ammonium sulfate was added. The
+precipitated fraction between 25% and 50% was taken.
+The precipitated protein was resuspended in PBS and
+chromatographed on DEAE Sephacel-R, equilibrated in
+PBS, and the protein was eluted stepwise using 1 mol/L of
+NaCl in PBS.
+
+Coenzyme Q, Tau, and Hirano Bodies
+
+Santa-MarNa et al
+
+J Neuropathol Exp Neurol  Volume 67, Number 5, May 2008
+
+Immunohistochemistry
+Following the EnVision + system peroxidase procedure
+(Dako, Carpinteria, CA), 5-Km-thick dewaxed sections of the
+hippocampus from AD cases and controls were processed for
+immunohistochemistry. After incubation with methanol and
+H2O2 in PBS and normal serum, the sections were incubated
+with monoclonal ab to A-actin (Sigma) diluted 1:2500, and
+rabbit polyclonal anti-CoQ0 73903 was used at a dilution of
+1:200. The peroxidase reaction was visualized with diaminobenzidine and H2O2. Control of the immunostaining
+included omission of the primary ab; no signal was obtained
+after incubation with only the secondary ab. Sections were
+counterstained with hematoxylin.
+
+Double Labeling Immunoﬂuorescence and
+Confocal Microscopy
+
+third because the death was not observed. The postmortem
+delay was 6 and 4 hours and no more than 7 hours in the third
+case. Neuropathologic analyses were performed on selected
+parafﬁn sections of 25 different brain areas immunostained
+for A-amyloid 1-40 and 1-42, phospho-tau AT8, 3Rtau and
+4Rtau, >-synuclein, ubiquitin, >B-crystallin, TAR DNA
+binding protein 43, glial ﬁbrillary acidic protein, and CD68.
+The diagnoses of these cases were Braak and Braak AD
+stages VC and VIC. No other abnormalities, including >synuclein or TAR DNA binding protein 43 inclusions, were
+observed in these cases. Small-vessel disease mainly affecting the striatum was present in 1 case.
+Cases used as controls were 3 women aged 65, 69, and
+72 years with no neurologic impairment. The postmortem
+delay was between 3 and 6 hours. The brains were examined
+by studying the same corresponding regions with similar
+immunostaining protocol. No neuropathologic abnormalities,
+other than mild small-vessel disease in 1 case, were found in
+the control cases.
+
+430
+
+FIGURE 3. Localization of coenzyme Q0 (CoQ0) bound to tau
+molecule. The major binding sites of CoQ0 on tau protein were
+analyzed by nanoelectrospray. (A) Tau peptide (used as control
+without CoQ0 incubation) and its fragmentation peaks. (B) The
+main modiﬁcation by CoQ0, sequence, and fragmentation
+peaks. Essentially, lysine 321 of the whole tau protein is
+modiﬁed. Analysis of the reaction of assembled tau polymers
+with antibody (ab) raised against tau (ab 134) (C) and CoQ0
+(73903) (D). Arrows show gold particles. Scale bar = 200 nm.
+Ó 2008 American Association of Neuropathologists, Inc.
+
+Copyright @ 2008 by the American Association of Neuropathologists, Inc. Unauthorized reproduction of this article is prohibited.
+
+Downloaded from http://jnen.oxfordjournals.org/ by guest on June 6, 2016
+
+FIGURE 2. Coenzyme Q0 (CoQ0) induces the formation of
+covalently linked tau aggregates. (A) Tau protein (0. 5 Kg/KL)
+was mixed with 1 mmol/L CoQ0, and the mixture was
+incubated for 0 to 24 hours at 37-C. After that, the protein
+was characterized by gel electrophoresis, followed by Coomassie blue staining. The left lane shows the electrophoretic
+mobility markers. (B) Western blot analysis of the tau
+monomer species incubated in the presence (h) or absence
+(r) of CoQ0, as indicated in (A). (C) Just like (B), but the
+reaction with antibody raised against ubiquinone is tested.
+
+Dewaxed sections of the hippocampus were stained
+with a saturated solution of Sudan black B (Merck) for 30
+minutes to block the autoﬂuorescence of lipofuscin granules
+present in nerve cell bodies, rinsed in 70% ethanol, and
+washed in distilled water. The sections were then incubated at
+4-C overnight with the mouse anti-A-actin (Sigma) at a
+dilution of 1:2500, and rabbit polyclonal anti-CoQ0 73903
+(24) was used at a dilution of 1:500. After washing in PBS,
+the sections were incubated in the dark with the cocktail of
+secondary antibodies and then diluted in the same vehicle
+solution as the primary antibodies for 45 minutes at room
+temperature. Secondary antibodies were Alexa488 anti-rabbit
+
+J Neuropathol Exp Neurol  Volume 67, Number 5, May 2008
+
+Coenzyme Q, Tau, and Hirano Bodies
+
+sealed, and dried overnight. Sections were examined with a
+Leica TCS-SL confocal microscope.
+
+RESULTS
+CoQ0-Tau Binding and Aggregation
+
+FIGURE 4. Reaction of tau and coenzyme Q0 (CoQ0) antibodies with paired helical ﬁlaments from Alzheimer disease
+patients. (A) Isolated paired helical ﬁlaments were incubated
+with an antibody (ab) raised against tau (ab 134). (B) Just like
+(A), but in this case, an ab raised against CoQ0 (73903) was
+tested. Scale bar = 20 nm.
+
+Localization of CoQ0 Bound to Tau Molecule
+Coenzyme Q0 was bound to tau protein, and the
+complex was isolated by gel electrophoresis (Fig. 2). The
+
+FIGURE 5. Coenzyme Q0 (CoQ0) is present in Hirano bodies.
+Single label immunohistochemistry shows CoQ0 immunoreactivity in elongated and ovoid-shaped neuronal and
+perineural bodies (arrows) in the CA1 area of the hippocampus
+in Alzheimer disease. Parafﬁn section with
