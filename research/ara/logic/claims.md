@@ -286,3 +286,13 @@ Numbers are copied exactly from source; each load-bearing number carries a `**So
 - **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §9, corpus/codex_panel_scores.json]
 - **Dependencies**: [C20]
 - **Tags**: breakthrough-metric, shared-bias, cross-model, validation
+
+## C22: The publication-time metric does not predict real field step-changes (historical validation)
+- **Statement**: On 72 historical AD papers (2004–2010), the publication-time metric `max(peak,cwmean)` shows no reliable correlation with mature disruption (Funk–Owen-Smith mDI over the ≤5-year citer set): Spearman −0.13 (n=62, citers≥10), +0.23 (n=37, ≥30), +0.16 (n=23, ≥50) — near zero and sign-unstable; vs total citations −0.06. The same metric scored ρ≈0.58 against a same-family LLM panel. Against an LLM-free real-world ground truth it has ~no forecasting power.
+- **Sources**: [−0.13 / +0.23 / +0.16 ← research/metrics/v6-historical/correlate_historical.py «citers>=10 n=62 metric~mDI rho=-0.129 ; >=30 +0.228 ; >=50 +0.163» [result]]
+- **Status**: supported
+- **Provenance**: ai-executed
+- **Falsification criteria**: On a full-text (not abstract-only) historical corpus, or a larger multi-domain one, the publication-time metric correlates robustly (stable ρ well above 0) with mature disruption.
+- **Proof**: [research/metrics/v6-historical/, RESULTS_PAPER.md §10]
+- **Dependencies**: [C20, C21]
+- **Tags**: breakthrough-metric, historical-validation, longitudinal, negative-result, decisive

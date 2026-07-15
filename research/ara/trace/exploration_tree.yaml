@@ -1236,3 +1236,22 @@ tree:
     result: "held-out 0.576 vs Claude (tied with cwmean 0.571); adopted on the non-dilution property + user directive, not a measured edge."
     also_depends_on: [N66]
     status: resolved
+  - id: N73
+    type: experiment
+    provenance: ai-executed
+    timestamp: "2026-07-15T12:30"
+    title: "Historical/longitudinal validation: publication-time metric vs mature field disruption (LLM-free ground truth)"
+    description: >
+      Strongest test — removes the LLM from the ground truth. 72 AD papers 2004-2010, stratified across
+      impact (cites 13-3280). Predictor: max(peak,cwmean) typed by Claude from title+abstract at publication
+      time, no hindsight. Ground truth: Funk-Owen-Smith disruption (mDI) over each paper's <=5yr citer set
+      from OpenAlex (research/metrics/v6-historical/).
+    result: >
+      NO reliable predictive power. Spearman metric~mDI = -0.13 (n=62, citers>=10), +0.23 (n=37, >=30),
+      +0.16 (n=23, >=50) — near zero and sign-unstable; top-metric-quartile papers slightly LESS disruptive.
+      vs total citations rho=-0.06. The metric that scored 0.58 vs a same-family LLM panel forecasts real
+      field step-changes at ~0. Caveats: abstract-only typing compressed metric variance (weak test), mDI
+      proxy noisy, n=62 single-domain.
+    evidence: ["research/metrics/v6-historical/historical_result.json","research/metrics/v6-historical/correlate_historical.py","research/metrics/v5-breakthrough/RESULTS_PAPER.md §10"]
+    also_depends_on: [N71, N66]
+    status: resolved

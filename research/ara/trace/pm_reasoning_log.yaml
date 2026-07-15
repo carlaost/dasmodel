@@ -293,3 +293,8 @@ entries:
       - "C21 crystallized immediately (empirical resolution + it's the turn's headline); provenance ai-executed."
       - "N72 provenance user-revised (user directed the metric change: 'contrib_wmean is maybe not the right metric')."
       - "Did NOT overclaim the max(peak,cwmean) edge — logged as tied-with-cwmean, adopted on the non-dilution invariant."
+  - turn: "2026-07-15_001#1"
+    notes:
+      - "C22 crystallized immediately (empirical resolution + it's the decisive result). Marked supported; sign-instability + caveats recorded in Statement, not hidden."
+      - "Framed as decisive-but-weak: strongest test (LLM-free) yet abstract-only typing compressed variance — did NOT overclaim a hard zero."
+      - "N73 depends on N71 (shared-bias) — historical null is the real-world confirmation of the cross-model bias story."

@@ -1,0 +1,30 @@
+session:
+  id: "2026-07-15_001"
+  date: "2026-07-15"
+  started: "2026-07-15T12:00"
+  last_turn: "2026-07-15T12:40"
+  turn_count: 1
+  summary: >
+    Historical/longitudinal validation (N73) — the decisive LLM-free test. Built a clean stratified
+    72-paper AD corpus 2004-2010 (fixed prior contaminated/top-cited fetch). Predictor = publication-time
+    max(peak,cwmean) (Claude typing, no hindsight); ground truth = mature Funk-Owen-Smith disruption from
+    OpenAlex. RESULT: no reliable predictive power (rho -0.13 to +0.23, sign-unstable; vs citations -0.06).
+    The metric that scored 0.58 vs a same-family LLM panel forecasts real field step-changes at ~0 (C22).
+    Corroborates the shared-method-bias finding (§9). Caveat: abstract-only typing compressed variance ->
+    weak test. Also this turn: fixed the paradox figure (stale 4-panel), added 2x2 GPT-built-metric result.
+    Paper §10 (historical) + §11 + abstract rewritten.
+events_logged:
+  - { turn: 1, type: experiment, id: N73, routing: direct, provenance: ai-executed, summary: "historical validation: metric vs mature disruption ~0, sign-unstable" }
+claims_touched:
+  - { id: C22, action: created, turn: 1 }
+ai_actions:
+  - turn: 1
+    action: "Historical corpus fetch + disruption ground truth + Claude typing workflow + correlation; paper §10/§11; ARA capture"
+    provenance: ai-executed
+    files_changed: ["research/metrics/v6-historical/*","research/metrics/v5-breakthrough/RESULTS_PAPER.md"]
+key_context:
+  - turn: 1
+    excerpt: "User: historical corpus is the most decisive validation — does the metric predict step-changes from publication-time info alone. Answer: no reliable signal."
+open_threads:
+  - "Full-text (not abstract-only) historical compile to sharpen the §10 test — compressed metric variance is the main weakness"
+  - "Multi-domain / larger historical corpus; train against disruption rather than only correlate"

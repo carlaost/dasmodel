@@ -1,4 +1,11 @@
 sessions:
+  - id: "2026-07-15_001"
+    date: "2026-07-15"
+    summary: "DECISIVE historical validation (N73/C22): publication-time metric vs mature field disruption (LLM-free ground truth), 72 AD papers 2004-2010. No reliable predictive power (rho -0.13..+0.23, sign-unstable) — the metric that scored 0.58 vs an LLM panel forecasts real step-changes at ~0. Corroborates shared-method bias. Also: fixed paradox figure + 2x2 GPT-built-metric result. Caveat: abstract-only typing weakened the test."
+    turn_count: 1
+    events_count: 1
+    claims_touched: [C22]
+    open_threads: 2
   - id: "2026-07-11_001"
     date: "2026-07-11"
     summary: "Metric fix + shared-bias test. Adopted max(peak,cwmean) (count-independent, fixes cwmean dilution; N72/H08). GPT-5.5 cross-model panel (N71): panels agree 0.89 (ground truth real, C20->supported, C21), but metric-vs-GPT 0.34 vs -Claude 0.58 held-out => ~1/3 shared Claude bias, honest transferable perf ~0.34. Paper rewritten + rendered."
