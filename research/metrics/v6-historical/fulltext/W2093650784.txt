@@ -1,0 +1,992 @@
+Acta Neuropathol (2006) 112:389–404
+DOI 10.1007/s00401-006-0127-z
+
+M E TH O D S R E PO RT
+
+Staging of Alzheimer disease-associated neuroWbrillary
+pathology using paraYn sections and immunocytochemistry
+Heiko Braak · Irina AlafuzoV · Thomas Arzberger ·
+Hans Kretzschmar · Kelly Del Tredici
+
+Received: 8 June 2006 / Revised: 21 July 2006 / Accepted: 21 July 2006 / Published online: 12 August 2006
+© Springer-Verlag 2006
+
+Abstract Assessment of Alzheimer’s disease (AD)related neuroWbrillary pathology requires a procedure
+that permits a suYcient diVerentiation between initial,
+intermediate, and late stages. The gradual deposition
+of a hyperphosphorylated tau protein within select
+neuronal types in speciWc nuclei or areas is central to
+the disease process. The staging of AD-related neuroWbrillary pathology originally described in 1991 was performed on unconventionally thick sections (100 m)
+using a modern silver technique and reXected the progress of the disease process based chieXy on the topographic expansion of the lesions. To better meet the
+demands of routine laboratories this procedure is
+
+revised here by adapting tissue selection and processing to the needs of paraYn-embedded sections (5–15 m)
+and by introducing a robust immunoreaction (AT8) for
+hyperphosphorylated tau protein that can be processed
+on an automated basis. It is anticipated that this
+revised methodological protocol will enable a more
+uniform application of the staging procedure.
+Keywords Alzheimer’s disease · NeuroWbrillary
+changes · Immunocytochemistry ·
+Hyperphosphorylated tau protein · Neuropathologic
+staging · Pretangles
+
+Introduction
+This study was made possible by funding from the German
+Research Council (Deutsche Forschungsgemeinschaft) and
+BrainNet Europe II (European Commission LSHM-CT-2004503039). This publication reXects only the viewpoint of the
+authors, the European Community is not responsible for its use
+or contents.
+H. Braak (&) · K. Del Tredici
+Institute for Clinical Neuroanatomy,
+J.W. Goethe University Clinic, Theodor Stern Kai 7,
+60590 Frankfurt/Main, Germany
+e-mail: Braak@em.uni-frankfurt.de
+I. AlafuzoV
+Institute of Clinical Medicine, Pathology,
+Kuopio University and University Hospital,
+Harjulantie 1, P.O. Box 1627, 70211 Kuopio, Finland
+T. Arzberger · H. Kretzschmar
+Institute of Neuropathology, Ludwig Maximilians University,
+81377 Munich, Germany
+K. Del Tredici
+Clinic for Psychiatry and Neurology Winnenden,
+71364 Winnenden, Germany
+
+The development of intraneuronal lesions at selectively vulnerable brain sites is central to the pathological process in Alzheimer’s disease (AD) [42, 46, 55, 56,
+58, 94]. The lesions consist chieXy of hyperphosphorylated tau protein and include pretangle material, neuroWbrillary tangles (NFTs) in cell bodies, neuropil
+threads (NTs) in neuronal processes, and material in
+dystrophic nerve cell processes of neuritic plaques
+(NPs) [7, 19, 30].
+The AD-related pathological process spans decades
+and, during this time, the distribution pattern of the
+lesions develops according to a predictable sequence
+[8, 21, 89, 93, for a broader discussion of the histopathological diagnosis of AD, see 54, 69, 76]. A staging system for the intraneuronal lesions introduced in 1991
+diVerentiated initial, intermediate, and late phases of
+the disease process in both non-symptomatic and
+symptomatic individuals [21, 24–28, 39, 40, 43, 44, 63,
+71, 75, 79–82, 84, 85, 87]. In 1997, this staging system
+
+123
+
+390
+
+was incorporated into the NIH-Reagan criteria for the
+neuropathological diagnosis of AD [64, 66, 83]. The
+Braak system was based upon assessment of two
+100 m sections processed according to the silveriodate technique proposed by Gallyas [49–51, 67, 68,
+78]. The Wrst section included the hippocampal formation at uncal level, the anterior parahippocampal
+gyrus, and portions of the adjoining occipito-temporal
+gyrus. The second section, taken from the occipital
+neocortex, encompassed portions of the striate area,
+parastriate area, and peristriate region (Fig. 1). Distinctive diVerences in the topographical distribution
+pattern of the neuroWbrillary lesions enabled the
+observer to assign a given autopsy case to one of six
+stages [21, 22]. This simple system had the advantage
+of being reproducible without having to rely on quantitative assessments or knowledge of patient-related
+data (age, gender, cognitive status). Furthermore, the
+result of the silver reactions in unconventionally thick
+sections provided a means of “reading” a given stage
+with the unaided eye.
+For routine diagnostic purposes, however, such a
+system is problematic because it calls for unusually
+thick sections cut from blocks embedded in an unconventional medium [polyethylene glycol (PEG)] [91].
+In addition, the method requires that free Xoating sections be stained by experienced laboratory assistants
+using a non-automated silver technique. These features drastically limit the feasibility of the original
+staging protocol for routine diagnostic use in the
+majority of neuropathological laboratories [35]. At the
+same time, they account for the fact that the staging
+system has found broad acceptance in a research context while having been subjected to numerous modiWcations [9, 18, 36, 39, 40, 53, 59–62, 69–71, 75, 76, 83, 88].
+Neuropathologists in routine diagnostic praxis as well
+as reference centers that maintain brain banks are
+interested in a uniform staging procedure so that the
+material submitted by various participating institutions can be used and evaluated according to the same
+criteria. Such a staging system must be reproducible,
+cost-eVective, and easy.
+In recent years, sensitive immunocytochemical
+methods have been developed, the application of
+which makes it possible to reliably detect not only
+incipient neuroWbrillary pathology in mildly involved
+brain regions of non-symptomatic individuals but also,
+with disease progression, the full extent of the intraneuronal pathology in the end phase [19, 90]. NeuroWbrillary changes of the Alzheimer type consist of stable
+proteins that are impervious to postmortal delay or
+suboptimal Wxation conditions, and immunoreactions
+for demonstration of hyperphosphorylated tau protein
+
+123
+
+Acta Neuropathol (2006) 112:389–404
+
+can be carried out even on tissue that has been stored
+for decades in formaldehyde [1, 72].
+Immunoreactions against hyperphosphorylated tau,
+however, cannot fully replace the Gallyas silver staining method (see Technical addendum), inasmuch as
+both techniques identify partially diVerent structures.
+At the beginning of the intraneuronal changes, a soluble and non-argyrophilic material develops, Wlling the
+somata of involved nerve cells as well as dendritic processes and axons. Thereafter, the distal dendritic
+segments become snarled and develop dilated appendages. The soluble “pretangle” material is identiWable in
+immunoreactions for hyperphosphorylated tau protein
+but remains Gallyas-negative. It is the harbinger of an
+argyrophilic, insoluble, and non-biodegradable Wbrillary material that emerges after cross-linkage and
+aggregation of the soluble pretangle material [7, 19, 96].
+The Gallyas-positive neuroWbrillary aggregations gradually Wll the cytoplasm, sometimes inWltrating the proximal dendrites to form a neuroWbrillary tangle, and
+appear in dendritic segments as NTs without involving
+the axon [19, 45, 95]. Following neuronal death, the
+abnormal material remains visible in the tissue as
+extraneuronal ghost tangles or tombstone tangles.
+With time, ghost tangles are no longer immunoreactive
+for hyperphosphorylated tau protein and their argyrophilia gradually becomes less pronounced [17, 19, 34].
+In summary, the pretangle material can only be
+detected by immunocytochemistry and this fact has
+been taken into account in the revised staging procedure presented here (Fig. 2).
+In view of the progress that has been made in the
+demonstration of the neuroWbrillary changes of the
+Alzheimer type, it seemed expedient to revise the 1991
+staging procedure by introducing immunoreactions for
+visualization of hyperphosphorylated tau and by adapting the tissue selection and processing to the demands
+of the routine diagnostic laboratory. The goal remains
+the same, namely to stage the AD-related neuroWbrillary pathology in six stages, as previously, with emphasis this time on the plexuses formed of both pretangle
+and tangle material, but using paraYn sections immunostained for hyperphosphorylated tau and processed
+on an automated basis. To illustrate the advantages
+and disadvantages of both methods, required brain
+regions with lesions representing AD stages I–VI have
+been digitally photographed both in silver- and immunostained 100 m PEG sections and in 7 m paraYn
+sections immunostained for hyperphosphorylated tau
+protein (AT8–antibody). The revised procedure is
+intended to facilitate the uniform application of the
+staging procedure, which now can be performed with
+greater eYciency than previously.
+
+Acta Neuropathol (2006) 112:389–404
+
+391
+
+123
+
+392
+Fig. 1 Scheme showing the location of the three blocks of tissue
+required for staging of AD-related neuroWbrillary changes. The
+Wrst block at the far left (a) includes anteromedial portions of the
+temporal lobe. It is cut at the mid-uncal or amygdala level (frontal
+section at the level of the mamillary bodies) and includes the
+parahippocampal and adjoining occipito-temporal gyri (see enlarged insert below a). The cutting line runs through the rhinal sulcus. The second block comes from the same level and includes
+part of the medial and superior temporal gyri (a). The third block
+at the far right (c) is removed from basal portions of the occipital
+lobe. The cut is oriented perpendicular to the calcarine Wssure.
+The block includes the neocortex covering the lower bank of the
+calcarine Wssure and the adjoining basal occipital gyri. It thus
+shows portions of the peristriate region as well as of the parastriate and striate areas (see enlarged insert below c). (b) This block
+provides the classical view of the hippocampal formation and is
+removed at the level of the lateral geniculate nucleus. It is routinely dissected for diverse diagnostic purposes of the hippocampal formation. The cutting line runs through the collateral sulcus
+(d). The parahippocampal gyrus at this latitude abuts posteriorly
+on the lingual gyrus and contains either posterior portions of the
+entorhinal and transentorhinal regions or lingual neocortex. Insofar as the Wrst temporal block at mid-uncal level is essential for
+the evaluation of the transentorhinal and entorhinal regions
+(diagnosis of AD stages I–III), the classical hippocampus section
+is not absolutely required for staging. The middle drawing in the
+second row indicated by a double frame shows the anatomical
+landmarks of the entorhinal region seen basally. Note the wartlike elevations in anterior portions of the parahippocampal gyrus
+roughly outlining the extent of the entorhinal allocortex. The lower schemata highlight the lamination pattern of the areas that
+need to be evaluated for staging purposes. The various allocortical and neocortical laminae are indicated across the upper margins. 17, 18, 19 striate area, parastriate area, peristriate region.
+Abbreviations: CA1 Wrst sector of the Ammon’s horn, ent entorhinal region, parasubic parasubiculum, presubic presubiculum,
+temp. neocortex temporal neocortex, tre transentorhinal region
+(mesocortex), transentorhin. transentorhinal
+
+Processing
+
+Acta Neuropathol (2006) 112:389–404
+
+The Wrst block includes anteromedial portions of the
+temporal lobe cut at the mid-uncal or amygdala level
+(frontal section through the temporal lobe at the level
+of the mamillary bodies) encompassing anterior portions of both the parahippocampal gyrus and adjoining
+occipito-temporal gyrus. The cutting line runs through
+the rhinal sulcus (Fig. 1a, d). The sections from this
+block contain central portions of the entorhinal region
+and the adjoining transentorhinal region, the latter of
+which is concealed in the depths of the rhinal sulcus
+[23, 98]. This block is essential for assessment of neuroWbrillary AD stages I–III.
+The second block simpliWes assessment of stage IV.
+It is obtained from the same slice as the Wrst block and
+includes portions of the medial and superior temporal
+gyri (Fig. 1a, d). As an alternative to the Wrst two
+blocks, the entire slice through the temporal lobe can
+be used, provided slides of suYcient size are available.
+Reduction of this slice to two blocks is recommended
+to avoid exceeding the size of conventional tissue cassettes.
+The third block is removed halfway between the
+occipital pole and the junction of the parieto-occipital
+sulcus with the calcarine Wssure. The cut is oriented
+perpendicular to the calcarine Wssure (Fig. 1c, d).
+Again, the size of the block has been reduced to Wt
+standard tissue cassettes. Care has to be taken that the
+block includes part of the lower bank of the calcarine
+Wssure and the adjoining basal occipital gyri encompassing portions of the neocortex, i.e., the peristriate
+region, parastriate Weld, and a clearly deWnable primary Weld, the striate area (Brodmann Weld 17 with the
+macroscopically identiWable line of Gennari). This
+block is indispensable for recognition of the neuroWbrillary AD stages V and VI.
+
+Fixation and macroscopic preparation
+Brains obtained at autopsy should be Wxed by immersion in 10% formalin (4% aqueous solution of HCHO)
+for one week or longer. Partially remove the meninges
+to uncover the rhinal sulcus, collateral sulcus, and calcarine Wssure (Fig. 1a–d).
+Whereas the original staging procedure requires
+evaluation of thick silver-stained sections from two relatively large blocks of cortical tissue, the revised version
+uses immunostained paraYn sections microtomed from
+three blocks of conventional size that Wt routine tissue
+cassettes. Figure 1d shows the cutting lines for removal
+of the three blocks and, in addition, those for the classical view of the hippocampal formation. Alternatively,
+the tissue on one side of a cut can be used for conventional paraYn embedding (thin sections), and that on
+the other side for PEG embedding (thick sections).
+
+123
+
+Immunocytochemistry
+Mounted paraYn sections of 5–15 m thickness
+are de-waxed and re-hydrated.
+The monoclonal antibody AT8 (Innogenetics,
+Belgium) is one of several commercially available speciWc antibodies that show robust immunoreactivity for
+hyperphosphorylated tau protein, and a recently published immunocytochemical trial using this antibody
+has yielded reproducible results [1]. AT8 does not
+cross-react with normal tau epitopes or require special
+pre-treatments, and it is exceptionally reliable in
+human autopsy material regardless of the length of the
+Wxation time in formaldehyde and/or the condition of
+the preserved tissue [16, 19, 57, 77]. When performed
+on paraYn sections (5–15 m), AT8-immunoreactions
+permit counter-staining for other structures of interest,
+
+Acta Neuropathol (2006) 112:389–404
+
+provided that diaminobenzidine is used as a chromogen. Homogeneous immunoreactions can also be
+achieved using PEG sections (50–150 m) (Fig. 2). The
+sections are incubated for 40 h at 4°C with the AT8
+antibody (1:2,000) and thereafter processed for 2 h
+
+393
+
+with the second biotinylated antibody (anti-mouse
+IgG). Reactions are visualized with the ABC-complex
+(Vectastain) and 3,3-diaminobenzidine (Sigma).
+Prolonged Wxation of brain tissue in a formaldehyde solution may cause metachromatic precipitations
+
+123
+
+394
+Fig. 2 Comparison of Gallyas silver- and AT8-immunostaining
+of cortical neuroWbrillary pathology as seen in adjacent serial
+100 m polyethylene glycol-embedded sections. The distribution
+pattern of the lesions throughout the various cortical Welds that
+are necessary for staging purposes basically corresponds in both
+methods. It is possible with either technique to assess the progress
+of the neuroWbrillary pathology. In the revised staging procedure,
+however, the greater emphasis on the presence of abnormal plexuses, which also include non-argyrophilic pretangle material in
+AT8-ir sections, facilitates rapid diagnostic assessment of the
+stages. a–d stage I: Mild involvement is conWned to the transentorhinal region. Note that the plexus of AT8-ir nerve cell processes (b and d) is more conspicuous than that of argyrophilic
+neuropil threads (a and c). Sections originate from a non-demented 62-year-old male. e–h stage II: Lesional density increases and
+the pathology extends into the entorhinal region. Layer pre-
+gradually sinks into a deeper position at the border between entorhinal and transentorhinal region (arrowhead). Note the greater breadth of the ir-plexus in comparison to silverstained nerve
+cell processes (compare f and h with e and g). Immunoreactions
+begin to show the deep entorhinal plexus (pri-). The sections
+were obtained from a non-demented 78-year-old male. i–n stage
+III: The pathology in the outer and inner entorhinal (i, j) and
+transentorhinal (k, l) cellular layers worsens, and lesions extend
+into the adjoining neocortical association areas of the fusiform
+(occipito-temporal) gyrus (m, n). The sections originate from an
+85-year-old female. o–t stage IV: The density of the lesions
+increases in both the entorhinal region (o, p) and fusiform gyrus
+(q–r) with a gradual decrease of the pallid lines (lamina dissecans
+in p and outer line of Baillarger in r). The neuroWbrillary pathology now extends up to the medial temporal gyrus (s, t). Sections
+were taken from an 80-year-old female. u–x stage V: The lesions
+extend widely into the occipital lobe and appear in the peristriate
+region. Note the presence of a deep plexus in AT8-immunoreactions (v, x). Sections were obtained from a 66-year-old demented
+female. y-z⬘ stage VI: Lesions are visible even in the parastriate
+and striate areas of the occipital neocortex. Note the clear-cut line
+in layer V of the striate area (z⬘ and z⬙). The sections originate
+from a demented 75-year-old male. Scale bar in a applies to all
+overviews and that in c to all micrographs of cortical areas
+
+(Buscaino bodies or mucocytes) [73]. Components of
+this material partially react with silver methods and
+also may interfere with immunoreactions. The precipitations can be removed with pyridine or a tenside solution [1 unit volume Tween 20 (Merck-Schuchardt
+822184) and 9 unit volumes de-ionized water] at 80°C
+for 30 min or both. The sections are then rinsed thoroughly under running tap water and transferred to
+de-ionized water.
+
+Comparison between Gallyas silver- and
+AT8-immunostained thick (100 m) sections
+Figure 2 is designed to facilitate a direct comparison
+between selected cortical areas in 100 m thick PEGembedded sections. The Wrst section of each pair has
+been silverstained according to a modiWed version of
+the technique originally proposed by Gallyas [22, 31,
+
+123
+
+Acta Neuropathol (2006) 112:389–404
+
+49–51, 67, 68, 78], whereas the second serial section
+(i.e., back-to-back sections from the identical tissue
+block) underwent staining with the antibody AT8.
+Intraneuronal neuroWbrillary tangles are visualized
+with equal clarity by both methods (Fig. 2). Further, the
+plexuses of argyrophilic NTs are visible not only in the
+Gallyas sections but also in the AT8-immunostained sections—in the latter, however, the plexuses can be seen to
+include additional pathologically altered neuronal components (dendrites, axons) that contain non-argyrophilic
+“pretangle” material (see Fig. 2f, h). Such immunostained plexuses appear much more compact than those
+depicted by the silver stain, and their obvious advantage
+is that they can be recognized immediately with the
+naked eye (see Fig. 3). This applies particularly to the
+AT8-immunoreactive plexuses located in the deep cortical layers (see Fig. 2v, x, z, z⬙), whereas in Gallyas sections such macroscopic recognition is not always
+possible (compare Fig. 2v with Fig. 2u).
+Nonetheless, the distribution pattern of the immunoreactive cortical alterations throughout the various
+Welds that are crucial for staging purposes corresponds
+to that of the argyrophilic lesions (Fig. 2) and, as such,
+it allows the observer to trace the progress of the neuroWbrillary pathology in both silverstained (Fig. 2) and
+immunostained sections alike (Fig. 3). The greater
+emphasis on the abnormal plexuses in AT8-immunoreactive sections, however, facilitates the immediate
+diagnostic assessment of the stages, as, for instance, is
+readily evident even in the scaled down photographs of
+the hemisphere sections shown in Fig. 3. These immunopositive plexuses are still visible macroscopically in
+paraYn sections (5–15 m), and it is helpful, initially,
+without using the microscope, to view all three slides
+against a light background to assign them preliminarily
+to a given stage.
+The Wnal diagnosis is essentially based on recognition of the topographical distribution pattern of the
+neuroWbrillary pathology and calls for a precise knowledge of which regions in the cerebral cortex, in which
+sequence, develop the AD-related neuroWbrillary
+lesions. This decision can be made with almost the
+same degree of accuracy regardless of whether immunostained or silverstained sections are employed,
+although, based on experience, there is a slight tendency to assign a higher stage to the immunostained
+slides. The frequency of stage I cases, for example, is
+somewhat higher in AT8-immunostained sections
+because in the incipient phases of the disease process
+AT8-immunopositive nerve cells appear that still lack
+argyrophilic material. Thus, it is advisable to perform
+the staging procedure using either the Gallyas or AT8
+technique but not both methods.
+
+Acta Neuropathol (2006) 112:389–404
+
+395
+
+123
+
+396
+Fig. 3 Stages I–VI of cortical neuroWbrillary pathology in 100 m
+polyethylene glycol-embedded hemisphere sections immunostained for hyperphosphorylated tau (AT8, Innogenetics). a stage
+I: Involvement is slight and all but conWned to the transentorhinal
+region (part of the temporal mesocortex), located on the medial
+surface of the rhinal sulcus. The section originates from a non-demented 80-year-old female. b stage II: Additional immunoreactivity occurs in layer pre- or layer II of the entorhinal region. The
+layer gradually sinks into a deeper position in the transentorhinal
+region (arrow). The border between the entorhinal and transentorhinal regions is clearly recognizable in these early stages
+(arrowhead). Furthermore, the lesions make headway into the
+hippocampus (arrow). The section was obtained from a non-demented 80-year-old male. c stage III: The lesions in the hippocampal formation worsen. Entorhinal layers pre- and, additionally,
+pri- of the deep layers become strongly involved. Lesions extend
+through the transentorhinal region into the adjoining high order
+sensory association areas of the temporal neocortex. The lesions
+generally do not extend beyond the occipito-temporal gyrus laterally (arrow) and lingual gyrus posteriorly. The section originates from a 90-year-old female. d stage III: A Xat section through
+the entire basal surface of the temporal lobe reveals the severe
+involvement of the entorhinal cortex (anterior portions of the
+parahippocampal gyrus) at stage III and shows the tendency of
+the pathology to extend from there into the adjacent neocortex,
+i.e., occipito-temporal gyrus laterally (arrow) and lingual gyrus
+posteriorly (arrow). e stage IV: The third and fourth sectors of the
+Ammon’s horn and a large portion of the insular cortex (arrow)
+become aVected. The involvement of the neocortical high order
+sensory association cortex of the temporal lobe now extends up to
+the medial temporal gyrus and stops short of the superior temporal gyrus (arrow). The primary Welds of the neocortex (see transverse gyrus of Heschl) and, to a large extent, also the premotor
+and Wrst order sensory association areas of the neocortex remain
+intact. This section was taken from an 82-year-old demented female. f stage V: In addition to the presence of AD-related lesions
+in all of the regions involved in stage IV, pathological changes appear in the superior temporal gyrus and even encroach to a mild
+degree upon the premotor and Wrst order sensory association areas of the neocortex. g stage V: In the occipital lobe, the peristriate region shows varying degrees of aVection, and lesions
+occasionally can even be seen in the parastriate area. Stage V sections were obtained from a 90-year-old female with dementia.
+h–i stage VI: Strong immunoreactivity can be detected even in the
+Wrst order sensory association areas (e.g., the parastriate area)
+and the primary areas of the neocortex (e.g., the striate area) of
+the occipital neocortex. Compare the superior temporal gyrus
+and transverse gyrus of Heschl at stage V with the same structures
+at stage VI. Both stage VI sections originate from a severely demented 70-year-old female Alzheimer patient. Scale bar applies
+to all thick sections
+
+The staging system
+AD-related neuroWbrillary changes occur at predisposed cortical and subcortical sites. The distribution
+pattern and developmental sequence of the lesions are
+predictable and permit identiWcation of six stages,
+which can be subsumed under three more general
+units: I–II, III–IV, V–VI [4–6, 21, 28, 32, 37, 38, 47, 65,
+66, 83]. Initial diagnosis as to whether the bulk of the
+abnormal tau protein is detectable in the transentorhi-
+
+123
+
+Acta Neuropathol (2006) 112:389–404
+
+nal and entorhinal regions (stages I–II), in the limbic
+allocortex and adjoining neocortex (stages III–IV), or
+in the neocortex, including the secondary and primary
+Welds (stages V–VI), simpliWes the subsequent task of
+diVerentiation.
+Cases without cortical AD-related neuroWbrillary
+pathology The transentorhinal region as well as the
+entorhinal region and hippocampal formation remain
+devoid of AT8-immunoreactive nerve cells (Fig. 4a, b).
+Major characteristics of stages I–II
+Stage I: Lesions develop in the transentorhinal region
+(Figs. 2a–c, 3a, 4c, d) [23] Subcortical nuclei (i.e.,
+locus coeruleus, magnocellular nuclei of the basal forebrain) occasionally show the earliest alterations in the
+absence of cortical involvement [29]. The transentorhinal region is the Wrst site in the cerebral cortex to
+become involved. AT8-immunoreactive (ir) projection
+cells contain hyperphosphorylated tau in both the cell
+body and all of its neuronal processes (Fig. 4c, d). Late
+phases of the stage show abundant AT8-ir neurons that
+permit recognition of the descent of the superWcial
+entorhinal cellular layer (pre-, i.e., the outer layer-
+of the external principal lamina) from its uppermost
+position at the entorhinal border to its deepest position
+at the transition towards the adjoining temporal neocortex (Figs. 1, 3a) [23]. The entorhinal region proper
+remains uninvolved or minimally involved.
+Stage II: Lesions extend into the entorhinal region
+(Figs. 2e, f, 3b, 4e) From the transentorhinal region,
+the lesions encroach upon the entorhinal region, particularly its superWcial cellular layer, pre- (Figs. 1, 3b,
+4e–g). The deep layer, pri-, gradually becomes visible
+(Figs. 2f, 3b, 4e), shows sharply deWned upper and
+lower boundaries, and is separated from pre- by the
+broad, wedge-shaped lamina dissecans (myelinated
+Wber plexus) [23, 98]. AT8-ir pyramidal cells appear in
+sectors 1 and 2 of the hippocampal Ammon’s horn
+(CA1/CA2) (Fig. 3b). Dilations develop transiently in
+apical dendrites that pass through the stratum lacunosum moleculare of CA1 [20]. Scattered NPs appear in
+CA1. Fine networks of AT8-ir neurites form in both
+the stratum radiatum and stratum oriens.
+Major characteristics of stages III–IV
+Stage III: Lesions extend into the neocortex of the
+fusiform and lingual gyri (Figs. 2i–n, 3c, d, 4h) The
+lesions in stage II sites become more severe. The outer
+entorhinal cellular layers (pre-, pre-, pre-) and most
+
+Acta Neuropathol (2006) 112:389–404
+
+of the molecular layer become Wlled with intermeshing
+AT8-ir neurites, whereas the pale lamina dissecans
+contains a few radially oriented neurites. The deep
+layer pri- is heavily aVected and gradually thins in the
+transentorhinal region as it approaches the temporal
+neocortex (Figs. 3c, 4h). CA1 appears band-like, and
+transient dendritic changes in CA1 reach their culmination point [20]. CA2 is Wlled with large and strongly
+AT8-ir pyramidal cells. A moderate number of mossy
+cells with characteristic dendritic excrescences appear
+in CA3 and CA4 [97]. The granule cells of the fascia
+dentata remain uninvolved. AT8-ir sections showing
+the classical view of the hippocampal formation
+(Figs. 1b, d) facilitate recognition of lesions in the fascia dentata and Ammon’s horn [92].
+From the transentorhinal region, the lesions encroach
+upon the neocortex of the fusiform and lingual gyri,
+and then diminish markedly beyond this point
+(Figs. 3d, 4j). An AT8-ir plexus Wlls the cellular layers
+of the temporal neocortex (Figs. 2n, 4l). The outer line
+of Baillarger is barely developed and gradually
+becomes recognizable only with increasing distance
+from the transentorhinal region. A few NPs develop in
+the outer layers II–IV.
+Stage IV: The disease process progresses more widely
+into neocortical association areas (Figs. 2o–t, 3e,
+5a) Lesional density increases in sites aVected in
+stage III. A few AT8-ir pyramidal cells appear in the
+subiculum. The density of the neuritic plexuses of the
+entorhinal and transentorhinal regions increases and
+causes a corresponding blurring of the lamina dissecans. The deep plexus spans all of the deep layers: pri-,
+pri-, and pri-, and from there penetrates widely into
+the white substance. This aspect of maximum involvement undergoes little change until the end-phase of
+AD. Thus, the pathological features of the entorhinal
+and transentorhinal regions must not be taken into
+account for further diVerentiation of stages V and VI.
+CA1/CA2 are recognizable as dense bands. The varicose dendritic segments vanish from CA1 without
+leaving behind any remnants. Large numbers of mossy
+cells in CA3 and CA4 become AT8-ir. A few AT8-ir
+granule cells appear in the fascia dentata.
+In stage IV, the pathology extends broadly into the
+mature neocortex. A slight decrease in the immunoreactivity of neocortical NPs can be recognized starting
+at the border facing the transentorhinal region. Dense
+neuritic plexuses develop up to the middle temporal
+convolution (Figs. 2s, t, 4a–c), and a rapid decrease in
+the severity of the lesions occurs at the transition to the
+
+397
+Fig. 4 Progress of cortical neuroWbrillary pathology, as seen in
+paraYn sections immunostained for hyperphosphorylated tau
+(AT8, Innogenetics). a, b Control case displaying no AT8-ir
+intraneuronal changes. Note that even the transentorhinal region
+is devoid of immunoreactivity. c, d stage I: The Wrst AT8-ir pyramidal cells often are more easily detected in thick sections than in
+paraYn material. Closer inspection of the predilection site (transentorhinal region in d, framed area in c), however, reveals the
+initial lesions. The meshwork of ir-neurites is as yet not well
+developed. e–g stage II: Many AT8-ir projection neurons are seen
+in the transentorhinal region accompanied by a well-developed
+plexus of ir-neurites (f, g). The pathology also extends into the entorhinal layers pre- and pri- (arrowheads in e). h–l stage III:
+The transentorhinal and entorhinal regions are more severely
+involved than in the preceeding stage, and the pathology now extends into the adjoining temporal neocortex of the occipitotemporal and lingual gyri (h, j). The middle temporal gyrus remains uninvolved (i). Scale bar in a, c, e, h is also valid for i and
+Fig. 5 a, e, f, j, k, o below
+
+superior temporal gyrus (Fig. 3e). The occipital neocortex is unaVected (Fig. 5e, d) or contains blotch-like
+local accumulations of AT8-ir pyramidal cells and/or
+NPs in the peristriate region (Brodmann area 19).
+Major characteristics of stages V–VI:
+Stage V: The neocortical pathology extends fanlike in
+frontal, superolateral, and occipital directions, and
+reaches the peristriate region (Figs. 2u–x, 3f, g, 5f,
+j) From sites involved at stage IV, the lesions appear
+in hitherto uninvolved areas and extend widely into the
+Wrst temporal convolution (Fig. 3f) as well as into high
+order association areas of the frontal, parietal, and
+occipital neocortex (peristriate region, Figs. 2v–x, 3g).
+Initially, unevenly and loosely distributed NPs appear
+in layers II and III, followed by large numbers of AT8ir pyramidal cells in layers IIIa, b and V. The lower
+border of the outer neuritic plexus in layers II-IIIab
+blurs at its transition to the uninvolved layers IIIc and
+IV (outer line of Baillarger, Fig. 5g). In stage V, the
+deep plexus of layer V is narrow and tends not to
+extend into layer VI and the white matter (Fig. 5g, h).
+The same pattern (only less pronounced) is seen in secondary areas of the neocortex, where uneven accumulations of NPs predominate. AVection of layer V is
+weak (Fig. 5j). The primary visual Weld (striate area)
+contains only isolated signs of the pathology consisting
+of NPs (Fig. 5i, j). Isolated AT8-ir neurons also can be
+seen in layer IIIab (Fig. 5i, j).
+Stage VI: The pathology reaches the secondary and primary neocortical areas and, in the occipital lobe, extends
+into the striate area (Figs. 2y–z⬙, 3h, i) Most areas of the
+neocortex show severe aVection and nearly all layers
+are Wlled with AT8-ir neurites. As such, the outer line
+
+123
+
+398
+
+123
+
+Acta Neuropathol (2006) 112:389–404
+
+Acta Neuropathol (2006) 112:389–404
+
+399
+
+123
+
+400
+Fig. 5 Progress of cortical neuroWbrillary pathology, as seen in
+paraYn sections immunostained for hyperphosphorylated tau
+(AT8, Innogenetics). a–e stage IV: The disease process extends
+into the high order sensory association neocortex of the temporal
+lobe (temp.) and includes the medial temporal gyrus (a–c). The
+peristriate region as well as the parastriate Weld and striate area of
+the occipital lobe (occ.) still lack the neuroWbrillary pathology
+(e, d). f–j stage V: Large numbers of neuritic plaques appear in the
+neocortex (g, h). Pathological changes now encroach to a mild degree upon premotor areas and Wrst order sensory association
+Welds. In the occipital lobe (j), it is chieXy the peristriate region
+(h) that shows varying degrees of aVection, and lesions occasionally even develop in the parastriate area. The striate area remains
+uninvolved (i, j). k–o stage VI: Drastic aVection of the neocortex
+is seen at stage VI with involvement of almost all areas. Strong
+immunoreactivity can be recognized even in premotor areas and
+Wrst order sensory association areas (e.g., the parastriate area m),
+as well as in primary neocortical areas (e.g., the striate area n).
+The borderline between the striate and the parastriate areas is
+drawn easily and—owing to the sudden cessation of the line of
+Gennari (plexus of myelinated Wbers)—usually can be detected
+with the unaided eye. A key feature of stage VI is the involvement
+of the striate area (n), characterized by a dense neuritic mesh in
+layer V with sharply drawn upper and lower boundaries. Note
+that the myelin-rich line of Gennari (layer IVb n) is virtually devoid of neuroWbrillary pathology. Scale bar in n also applies to g,
+h, i, l, m
+
+of Baillarger—a pallid stripe in stage V—begins to blur
+(Fig. 5l). Layer V still appears as a recognizable band
+but continues into the neuritic plexus of layer VI. The
+underlying white substance contains AT8-ir axons. A
+decrease in immunoreactivity of NPs is seen in many
+neocortical areas and is most pronounced in the basal
+temporal Welds. In the occipital lobe, the pathology
+breaches the parastriate and striate areas (Figs. 2y–z⬙,
+3i, 5m–o). Large numbers of NPs and AT8-ir nerve
+cells appear in layers II and IIIab. Baillarger’s outer
+line or the line of Gennari maintains a light appearance, interrupted only by radially oriented AT8-ir neurites. A sharply drawn AT8-ir plexus follows in layer V
+(Figs. 2z, z⬙, 5n, o).
+
+Acta Neuropathol (2006) 112:389–404
+
+for a procedure to stage the development of the cortical AD-related neuroWbrillary pathology that gradually
+found international acceptance [64, 66, 83]. Nonetheless, one of the unavoidable pitfalls associated with
+using silverstaining techniques is that diVerent laboratories produce results of widely varying quality [1].
+Subsequently, the 1991 staging protocol, too, underwent a series of permutations, among them the application of various types of silver impregnations, the
+analysis of cortical sites that are fundamentally less
+well suited for the procedure, and the use of tissue sections, the thickness of which diVered from that originally proposed [8, 9, 18, 21, 22, 36, 39–41, 53, 54, 59–61,
+69–71, 75, 76, 78, 83]. A radical reduction of the diVerent stages also has been suggested [62].
+Since AD is an ongoing and not a static process,
+every staging procedure is, de facto, an artiWcial construct. It is the extent of brain involvement rather than
+qualitative changes in the neuroWbrillary pathology
+that increases with disease progression and, as such,
+the concept of six neuropathological stages (and only
+six stages) is not entirely amenable to pathological
+states of a “transitional” nature that do not fulWll the
+criteria for one of the six neuroWbrillary stages
+described above.
+Here, a revised version of the 1991 staging procedure is presented that can be performed on paraYn
+sections of conventional thickness, which have been
+immunostained with the AT8 antibody and processed
+on an automated basis, thereby fulWlling the demands
+of the routine laboratory. The simplicity and uniformity of any staging system is the prerequisite for eVective comparisons of results among laboratories and for
+reliable as well as reproducible classiWcation of a disease process [35, 86].
+
+Technical addendum
+Discussion
+By applying the silver technique proposed by Bielschowsky [11–15] Alzheimer [2, 3] became the Wrst to
+describe the NFTs that develop in the course of the disease that bears his name. This staining technique has
+been in use for decades but has been subjected to
+numerous modiWcations [10, 33, 36, 48, 52, 74, 99]. In
+systematic studies, Gallyas [49, 50] replaced the critical
+steps of the Bielschowsky technique by means of more
+manageable reactions and developed a reliable method
+for selectively demonstrating AD-related neuroWbrillary changes. Following its adaptation for use on
+100 m thick sections, this method was standardized
+
+123
+
+The previous staging protocol relied upon an advanced
+but inexpensive silver technique that exploits the physical development of the nucleation sites and in so doing
+permits careful control of the entire staining procedure
+[49–51]. Insoluble Wbrillary AD-related material can be
+visualized virtually in the absence of distracting background staining [66, 67, 78]. The technique can be
+applied to routinely Wxed autopsy material, even when
+the material has been stored for decades in formaldehyde solutions. It facilitates processing of large numbers
+and/or large sections (e.g., hemisphere sections). A
+homogeneous staining that permeates the entire thickness of a section is achieved even in 50–150 m sections
+[22]. Thin paraYn sections (5–15 m) can also be used
+
+Acta Neuropathol (2006) 112:389–404
+
+and counter-stained for easy identiWcation of cytoarchitectonic units or speciWc nuclei [31]. NeuroWbrillary
+changes of the Alzheimer type (NFTs, NTs, NPs)
+appear in black and, thus, contrast well against an
+almost unstained background. Connective tissue, glial
+Wlaments, normal components of the neuronal cytoskeleton, Pick bodies, Lewy bodies/neurites, and corpora
+amylacea remain unstained. Abnormal tau-protein in
+argyrophilic grain disease (AGD), in progressive supranuclear palsy (PSP), corticobasal degeneration (CBD),
+and Niemann Pick type C (NPC) can be visualized as
+well [46, 78].
+The staging procedure originally required sectioning at a thickness of 100 m. Silverstained or immunostained sections of such thickness are optimal for the
+demands of low power (stereo) microscopy and
+greatly facilitate recognition of the laminar and areal
+distribution pattern of the lesions (see hemisphere
+sections in Fig. 3). Sections of this thickness can be
+gained from non-embedded brain tissue with the aid
+of a vibratome or a freezing microtome. Alternatively, the tissue blocks can be embedded in PEG [91]
+and sectioned with a sliding microtome. Application
+of PEG (400 and 1,000: Merck-Schuchardt 807 485
+and 807 488) is rapid, simple, and causes little shrinkage [22].
+The blocks are transferred from 96% ethanol to
+PEG 400 and their surfaces covered with blotting
+paper. Blocks are placed on a rotating table and after
+having sunk to the bottom (this can take several days),
+they are transferred to fresh PEG 400 for an additional day. Then, transfer to PEG 1000 at 54°C for
+1 day. Embed in fresh PEG 1000, mount, and section
+at 50–150 m. Transfer sections to 70% ethanol to
+remove the embedding medium. Store sections in
+formaldehyde solutions. Prior to staining, transfer sections to de-ionized water. It is important to note that
+the Gallyas silver technique displays only highly
+aggregated Wbrillary material, whereas the AT8immunoreaction also visualizes the non-argyrophilic
+material that initially develops within involved neurons (pretangle material).
+Acknowledgments The skillful assistance (tissue processing and
+staining) of Dr. R.A. Kauppinen (Kuopio), Mr. M. Bouzrou
+(Frankfurt/Main), and (illustrations) Ms. I. Szász (Frankfurt/
+Main) is gratefully acknowledged.
+
+References
+1. AlafuzoV I, Pikkarainen M, Al-Sarraj S, Arzberger T, Bell J,
+Bodi I, Bogdanovic N, Budka H, Bugiani O, Ferrer I, Gelpi
+E, Gaiccone G, Graeber MB, Hauw JJ, Kamphorst W, King
+
+401
+A, Kopp N, Korkolopolou P, Kovacs GG, Meyronet D,
+Marchi P, Patsouris E, Preusser M, Ravid R, Roggendorf W,
+Seilhean D, Streichneberger N, Thal DR, BNE consortium,
+Kretzschmar H (2006) Inter-laboratory comparison of assessments of AD-related lesions. A study of the BrainNet Europe
+consortium. J Neuropathol Exp Neurol 65 (in press)
+2. Alzheimer A (1906) Über einen eigenartigen schweren Erkrankungsprozeß der Hirnrinde. Neurolog Centralbl
+23:1129–1136
+3. Alzheimer A (1911) Über eigenartige Krankheitsfälle des
+späteren Alters. Z ges Neurol Psychiatr 4:356–385
+4. Arnold SE, Hyman BT, Flory J, Damasio AR, van Hoesen
+GW (1991) The topographical and neuroanatomical distribution of neuroWbrillary tangles and neuritic plaques in the cerebral cortex of patients with Alzheimer’s disease. Cereb
+Cortex 1:103–116
+5. Arriagada PV, Growdon J, Hedley-Whyte E, Hyman BT
+(1992a) NeuroWbrillary tangles but not senile plaques parallel
+duration and severity of Alzheimer’s disease. Neurology
+42:631–639
+6. Arriagada PV, MarzloV K, Hyman BT (1992b) Distribution
+of Alzheimer-type pathologic changes in nondemented elderly individuals matches the pattern in Alzheimer’s disease.
+Neurology 42:1681–1688
+7. Bancher C, Brunner C, Lassmann H, Budka H, Jellinger K,
+Wiche G, Seitelberger F, Grundke-Iqbal I, Wisniewski HM
+(1989) Accumulation of abnormally phosphorylated tau precedes the formation of neuroWbrillary tangles in Alzheimer’s
+disease. Brain Res 477:90–99
+8. Bancher C, Braak H, Fischer P, Jellinger KA (1993) Neuropathological staging of Alzheimer lesions and intellectual status in Alzheimer’s and Parkinson’s disease patients. Neurosci
+Lett 162:179–182
+9. Bancher C, Paulus W, Paukner K, Jellinger K (1997) Neuropathologic diagnosis of Alzheimer’s disease: consensus between practicing neuropathologists? Alzheimer Dis Assoc
+Disord 11:207–219
+10. Beech RH, Davenport HA (1933) The Bielschowsky staining
+technique. A study of the factors inXuencing its speciWcity for
+nerve Wbers. Stain Technol 8:11–30
+11. Bielschowsky M (1902) Die Silberimprägnation der Axenzylinder. Neurol Centralb 13:579–584
+12. Bielschowsky M (1903) Die Silberimprägnation der NeuroWbrillen. Neurol Centralb 21:997–1006
+13. Bielschowsky M (1904) Die Silberimprägnation der NeuroWbrillen. Einige Bemerkungen zu der von mir angegebenen
+Methode und den von ihr gelieferten Bildern. J Psychol Neurol 3:169–189
+14. Bielschowsky M (1905) Die Darstellung der Axenzylinder
+peripherischer Nervenfasern und der Axenzylinder zentraler
+markhaltiger Nervenfasern. Ein Nachtrag zu der von mir
+angegebenen Imprägnationsmethode der NeuroWbrillen. J
+Psychol Neurol 4:228–231
+15. Bielschowsky M (1909) Eine ModiWkation meines Silberimprägnations-verfahrens zur Darstellung der NeuroWbrillen. J Psychol Neurol 12:135–137
+16. Biernat J, Mandelkow EM, Schröter E, Lichtenberg-Kraag B,
+Steiner B, Berling B, Meyer H, Mercken M, Vandermeeren
+A, Goedert M, Mandelkow E (1992) The switch of tau protein to an Alzheimer-like state includes the phosphorylation
+of two serin-proline motifs upstream of the microtubule binding region. EMBO J 11:1593–1597
+17. Bobinski M, Wegiel J, Tarnawski M, de Leon MJ, Reisberg B,
+Miller DC, Wisniewski HM (1998) Duration of neuroWbrillary changes in the hippocampal pyramidal neurons. Brain
+Res 799:156–158
+
+123
+
+402
+18. Bowler JV, Munoz DG, Merskey H, Haschinski V (1998) Fallacies in the pathological conWrmation of the diagnosis of Alzheimer’s disease. J Neurol Neurosurg Psychiatry 64:18–24
+19. Braak E, Braak H, Mandelkow EM (1994) A sequence of cytoskeleton changes related to the formation of neuroWbrillary
+tangles and neuropil threads. Acta Neuropathol 87:554–567
+20. Braak E, Braak H (1997a) Alzheimer’s disease: transiently
+developing dendritic changes in pyramidal cells of sector CA1
+of the Ammon’s horn. Acta Neuropathol 93:323–325
+21. Braak H, Braak E (1991a) Neuropathological stageing of
+Alzheimer-related changes. Acta Neuropathol 82:239–259
+22. Braak H, Braak E (1991b) Demonstration of amyloid deposits and neuroWbrillary changes in whole brain sections. Brain
+Pathol 1:213–216
+23. Braak H, Braak E (1992) The human entorhinal cortex. Normal morphology and lamina-speciWc pathology in various diseases. Neurosci Res 15:6–31
+24. Braak H, Braak E (1994) Pathology of Alzheimer’s disease.
+In: Calne DB (ed) Neurodegenerative diseases. Saunders,
+Philadelphia, pp 585–613
+25. Braak H, Braak E (1995) Staging of Alzheimer’s disease-related neuroWbrillary changes. Neurobiol Aging 16:271–284
+26. Braak H, Braak E (1997b) Frequency of stages of Alzheimerrelated lesions in diVerent age categories. Neurobiol Aging
+18:351–357
+27. Braak H, Braak E (1997c) Diagnostic criteria for neuropathologic assessment of Alzheimer’s disease. Neurobiol Aging
+18(Suppl 4):85–88
+28. Braak H, Braak E (1999) Temporal sequence of Alzheimer’s
+disease-related pathology. In: Peters A, Morrison JH (eds)
+Cerebral cortex, vol 14 Plenum Press, New York, pp 475–512
+29. Braak H, Del Tredici K (2004) Alzheimer’s disease: intraneuronal alterations precede insoluble amyloid- formation.
+Neurobiol Aging 25:713–718
+30. Braak H, Braak E, Grundke-Iqbal I, Iqbal K (1986) Occurrence of neuropil threads in the senile human brain and in
+Alzheimer’s disease: a third location of paired helical Wlaments outside of neuroWbrillary tangles and neuritic plaques.
+Neurosci Lett 65:351–355
+31. Braak H, Braak E, Ohm TG, Bohl J (1988) Silver impregnation of Alzheimer’s neuroWbrillary changes counterstained
+for basophilic material and lipofuscin pigment. Stain Technol
+63:197–200
+32. Braak H, Del Tredici K, Schultz C, Braak E (2000) Vulnerability of select neuronal types to Alzheimer’s disease. In:
+Khachaturian ZS, Mesulam MM (eds) Alzheimer’s disease.
+A compendium of current theories. Ann NY Acad Sci
+924:53–61
+33. Churukian CJ, Kazee AM, Lapham LW, Eskin TA (1992)
+Microwave modiWcation of Bielschowsky silver impregnation
+method for diagnosis of Alzheimer’s disease. J Histotechnol
+15:299–302
+34. Cras P, Smith MA, Richey PL, Siedlak SL, Mulvihill P, Perry
+G (1995) Extracellular neuroWbrillary tangles reXect neuronal loss and provide further evidence of extensive protein
+cross-linking in Alzheimer’s disease. Acta Neuropathol
+89:291–295
+35. Coleman PD (1997) Research uses of neuropathological data.
+Neurobiol Aging 18(Suppl 4):97–98
+36. Cullen KM, Halliday GM, Cartwright H, Kril JJ (1996) Improved selectivity and sensitivity in the visualization of neuroWbrillary tangles, plaques and neuropil threads.
+Neurodegeneration 5:177–187
+37. Delacourte A, David JP, Dergeant N, Buée L, Wattez A,
+Vermersch P, Ghozali F, Fallet-Bianco C, Pasquier F, Lebert
+F, Petit H, Di Menza C (1999) The biochemical pathway of
+
+123
+
+Acta Neuropathol (2006) 112:389–404
+neuroWbrillary degeneration in aging and Alzheimer’s disease. Neurology 52:1158–1165
+38. Dickson DW (1997) The value of cross sectional neuroanatomical studies as a conceptual framework for prospective
+clinicopathological studies. Neurobiol Aging 18:382–386
+39. Duyckaerts C, Hauw JJ (1997a) Diagnosis and staging of Alzheimer’s disease. Neurobiol Aging 18(Suppl 4):33–42
+40. Duyckaerts C, Hauw JJ (1997b) Prevalence, incidence and
+duration of Braak’s stages in the general population: can we
+know? Neurobiol Aging 18(Suppl 4):362–369
+41. Duyckaerts C, He Y, Seilhean D, Delaère P, Piette F, Braak
+H, Hauw JJ (1994) Diagnosis and staging of Alzheimer’s disease in a prospective study involving aged individuals. Neurobiol Aging 15(Suppl 1):140–141
+42. Duyckaerts C, Delaère P, He Y, Camilleri S, Braak H, Piette
+F, Hauw JJ (1995) The relative merits of tau- and amyloid
+markers in the neuropathology of Alzheimer’s disease. In:
+Bergener M, Finkel SI (eds) Treating Alzheimer’s and other
+dementias. Springer, Heidelberg Berlin New York, pp 81–89
+43. Duyckaerts C, Bennecib M, Grignon Y, Piette F, Hauw JJ
+(1996) Is the topography of Alzheimer’s disease lesions a clue
+to their pathogenesis? Bull Acad Natl Med 180:1703–1714
+44. Duyckaerts C, Bennecib M, Grignon Y, Uchihara T, He Y,
+Piette F, Hauw JJ (1997) Modeling the relation between neuroWbrillary tangles and intellectual status. Neurobiol Aging
+18(Suppl. 4):267–273
+45. Esiri MM, Hyman BT, Beyreuther K, Masters C (1997)
+Aging and dementia. In: Graham DL, Lantos PI (eds) GreenWeld’s neuropathology. Arnold, London, pp 153–234
+46. Feany MB, Dickson DW (1996) Neurodegenerative disorders with extensive tau pathology: a comparative study and
+review. Ann Neurol 40:139–148
+47. Fewster PH, GriYn-Brooks S, MacGregor J, Ojalvo-Rose E,
+Ball MJ (1991) A topographical pathway by which histopathological lesions disseminate through the brain of patients with
+Alzheimer’s disease. Dementia 2:121–132
+48. Flowers D, Harasty J, Halliday G, Kril J (1996) Microwave
+modiWcation of the methenamine silver technique for the
+demonstration of Alzheimer-type pathology. J Histotechnol
+19:33–38
+49. Gallyas F (1971) Silver staining of Alzheimer’s neuroWbrillary changes by means of physical development. Acta Morph
+Acad Sci Hung 19:1–8
+50. Gallyas F (1979) Light insensitive physical developers. Stain
+Technol 54:173–176
+51. Gallyas F, WolV JR (1986) Metal-catalyzed oxidation renders
+silver intensiWcation selective. Application for the histochemistry of diaminobenzidine and neuroWbrillary changes. J Histochem Cytochem 34:1667–1672
+52. Garvey W, Fathi A, Bigelow F, Jimenez CL, Carpenter BF
+(1991) Rapid, reliable and economical silver stain for neuroWbrillary tangles and senile plaques. J Histotechnol 14:39–42
+53. Geddes JW, Tekirian TL, Soultanian NS, Ashford JW, Davis
+DG, Markesbery WR (1997) Comparison of neuropathologic
+criteria for the diagnosis of Alzheimer’s disease. Neurobiol
+Aging 18(Suppl 4):99–105
+54. Gertz HJ, Xuereb JH, Huppert FA, Brayne C, McGee MA,
+Paykel ES, Harrington C, Mukaetova-Ladinska E, Arendt T,
+Wischik CM (1998) Examination of the validity of the hierarchical model of neuropathological staging in normal aging
+and Alzheimer’s disease. Acta Neuropathol 95:154–158
+55. Goedert M (1993) Tau protein and the neuroWbrillary pathology of Alzheimer’s disease. Trends Neurosci 16:460–465
+56. Goedert M (1999) Filamentous nerve cell inclusions in neurodegenerative diseases: tauopathies and -synucleinopathies.
+Phil Trans R Soc Lond B Biol Sci 354:1101–1108
+
+Acta Neuropathol (2006) 112:389–404
+57. Goedert M, Jakes R, Vanmechelen E (1995) Monoclonal
+antibody AT8 recognises tau protein phosphorylated at both
+serine 202 and threonine 205. Neurosci Lett 189:167–169
+58. Goedert M, Trojanowski JQ, Lee VMY (1997) The neuroWbrillary pathology of Alzheimer’s disease. In: Rosenberg RN
+(ed) The molecular and genetic basis of neurological disease.
+2nd edn. Butterworth-Heinemann, Boston, pp 613–627
+59. Gold G, Bouras C, Kövari E, Canuto A, González Glaría B,
+Malky A, Hof PR, Michel JP, Giannakopoulos P (2000) Clinical validity of Braak neuropathological staging in the oldestold. Acta Neuropathol 99:579–582
+60. Grober E, Dickson D, Sliwinski MJ, Buschke H, Katz M,
+Crystal H, Lipton RB (1999) Memory and mental status correlates of modiWed Braak staging. Neurobiol Aging 20:573–
+579
+61. Halliday G, Ng T, Rodriguez M, Harding A, Blumbergs P,
+Evans W, Fabian V, Fryer V, Gonzales M, Harper C, Kalnins
+R, Masters CL, McLean C, Milder DG, Pamphlett R, Scott G,
+Tannenberg A., Kril J (2002) Consensus neuropathological
+diagnosis of common dementia syndromes: testing and standardizing the use of multiple diagnostic criteria. Acta Neuropathol 104:72–78
+62. Harding AJ, Kril JJ, Halliday GM (2000) Practical measures
+to simplify the Braak tangle staging method for routine pathological screening. Acta Neuropathol 99:199–208
+63. Hyman BT (1997) The neuropathological diagnosis of Alzheimer’s disease: clinical-pathological studies. Neurobiol Aging 18(Suppl. 4):27–32
+64. Hyman BT (1998) New neuropathological criteria for Alzheimer’s disease. Arch Neurol 55:1174–1176
+65. Hyman BT, Gomez-Isla T (1994) Alzheimer’s disease is a
+laminar, regional, and neural system speciWc diasease, not a
+global brain disease. Neurobiol Aging 15:353–354
+66. Hyman BT, Trojanowski JQ (1997) Editorial on consensus
+recommendations for the postmortem diagnosis of Alzheimer disease from the National Institute on Aging and the
+Reagan Institute working group on diagnostic criteria for the
+neuropathological assessment of Alzheimer disease. J Neuropathol Exp Neurol 56:1095–1097
+67. Iqbal K, Braak E, Braak H, Zaidi T, Grundke-Iqbal I (1991)
+A silver impregnation method for labeling both Alzheimer
+paired helical Wlaments and their polypeptides separated by
+sodium dodecyl sulfate-polyacrylamide gel electrophoresis.
+Neurobiol Aging 12:357–361
+68. Iqbal K, Braak H, Braak E, Grundke-Iqbal I (1993) Silver
+labeling of Alzheimer neuroWbrillary changes and brain 
+amyloid. J Histotechnol 16:335–342
+69. Jellinger KA (1998) The neuropathological diagnosis of Alzheimer’s disease. J Neural Transm 53(Suppl):97–118
+70. Jellinger K (2000) Clinical validity of Braak staging in the oldest-old. Acta Neuropathol 99:583–584
+71. Jellinger KA, Bancher C (1997) Proposals for re-evaluation
+of current autopsy criteria for the diagnosis of Alzheimer’s
+disease. Neurobiol Aging 18(Suppl 4):55–65
+72. Kauppinen T, Martikainen P, AlafuzoV I (2006) Human postmortem brain tissue and 2 mm tissue microarrays. Appl Immunohistochem Mol Morphol (in press)
+73. Kreutzberg GW, Blakemore WF, Graeber MB (1997) Cellular pathology of the central nervous system. In: Graham DI,
+Lantos PL (eds) GreenWeld’s neuropathology. Arnold, London, pp 85–156
+74. Lamy C, Duyckaerts C, Delaère P, Payan C, Fermanian J,
+Poulain V, Hauw JJ (1989) Comparison of seven staining
+methods for senile plaques and neuroWbrillary tangles in a
+prospective series of 15 elderly patients. Neuropathol Appl
+Neurobiol 15:563–578
+
+403
+75. Markesbery WR (1997) Neuropathological criteria for the
+diagnosis of Alzheimer’s disease. Neurobiol Aging 18(Suppl
+4):13–19
+76. McKeel DW, Price JL, Miller JP, Grant EA, Xiong C, Berg
+L, Morris JC (2004) Neuropathologic criteria for diagnosing
+Alzheimer disease in persons with pure dementia of the Alzheimer type. J Neuropathol Exp Neurol 63:1028–1037
+77. Mercken M, Vandermeeren M, Lübke U, Six J, Boons J, Van
+de Voorde A, Martin J-J, Gheuens J (1992) Monoclonal antibodies with selective speciWty for Alzheimer tau are directed
+against phosphatase-sensitive epitopes. Acta Neuropathol
+84:265–272
+78. Munoz DG (1999) Stains for the diVerential diagnosis of
+degenerative diseases. Biotechn Histochem 74:311–320
+79. Nagy Zs, Vatter-Bittner B, Braak H, Braak E, Yilmazer D,
+Schultz C, Hanke J (1997) Staging of Alzheimer-type pathology: an interrater–intrarater study. Dementia 8:248–251
+80. Nagy S, Yilmazer-Hanke DM, Braak H, Braak E, Schultz C,
+Hanke J (1998) Assessment of the pathological stages of Alzheimer’s disease in thin paraYn sections: a comparative
+study. Dement Geriatr Cogn Disord 9:140–144
+81. Nagy S, Hindley NJ, Braak H, Braak E, Yilmazer-Hanke
+DM, Schultz C, Barnetson L, Jobst KA, Smith AD (1999a)
+Relationship between clinical and radiological diagnostic criteria for Alzheimer’s disease and the extent of neuropathology as reXected by “stages”: a prospective study. Dement
+Geriatr Cogn Disord 10:109–114
+82. Nagy S, Hindley NJ, Braak H, Braak E, Yilmazer-Hanke
+DM, Schultz C, Barnetson L, King EMF, Jobst KA, Smith
+AD (1999b) The progression of Alzheimer’s disease from
+limbic regions to the neocortex: clinical, radiological and
+pathological relationships. Dement Geriatr Cogn Disord
+10:115–120
+83. Newell KL, Hyman BT, Growdon JH, Hedley-Whyte ET
+(1999) Application of the National Institute on Aging (NIA)Reagan Institute criteria for the neuropathological diagnosis
+of Alzheimer’s disease. J Neuropathol Exp Neurol 58:1147–
+1155
+84. Ohm TG, Müller H, Braak H, Bohl J (1995) Close-meshed
+prevalence rates of diVerent stages as a tool to uncover the
+rate of Alzheimer’s disease-related neuroWbrillary changes.
+Neuroscience 64:209–217
+85. Ohm TG, Glöckner F, Distl R, Treiber-Held S, Meske V,
+Schönheit B (2003) Plasticity and the spread of Alzheimer’s
+disease-like changes. Neurochem Res 28:1715–1723
+86. Paulus W, Bancher C, Jellinger K (1992) Interrater reliability
+in the neuropathologic diagnosis of Alzheimer’s disease.
+Neurology 42:329–332
+87. Petersen RC, Parisi JE, Dickson DW, Johnson KA, Knopman DS, Boeve BF, Jicha GA, Ivnik RJ, Smith GE, Tangalos EG, Braak H, Kokmen E (2006) Neuropathologic
+features of amnestic mild cognitive impairment. Arch Neurol 63:665–672
+88. Price JL (1997) Diagnostic criteria for Alzheimer’s disease.
+Neurobiol Aging 18(Suppl 4):67–70
+89. Schönheit B, Zarski R, Ohm TG (2004) Spatial and temporal
+relationships between plaques and tangles in Alzheimerpathology. Neurobiol Aging 25:697–711
+90. Schmidt ML, Lee VMY, Trojanowski JQ (1991) Comparative epitope analysis of neuronal cytoskeletal proteins in Alzheimer’s disease senile plaque neurites and neuropil threads.
+Lab Invest 64:352–357
+91. Smithson KG, MacVicar BA, Hatton GI (1983) Polyethylene
+glycol embedding: a technique compatible with immunocytochemistry, enzyme histochemistry, histoXuorescence and
+intracellular staining. J Neurosci Methods 7:27–41
+
+123
+
+404
+92. Thal DR, Holzer M, Rüb U, Waldmann G, Günzel S, Zedlick
+D, Schober R (2000) Alzheimer-related -pathology in the
+perforant path target zone and in the hippocampal stratum
+oriens and radiatum correlates with onset and degree of
+dementia. Exp Neurol 163:98–110
+93. Thal DR, Del Tredici K, Braak H (2004) Neurodegeneration
+in normal brain aging and disease. SAGE 23, p 26
+94. Tolnay M, Probst A (1999) Review: tau protein pathology in
+Alzheimer’s disease and related disorders. Neuropathol Appl
+Neurobiol 25:171–187
+95. Trojanowski JQ, Shin RW, Schmidt ML, Lee VMY (1995)
+Relationship between plaques, tangles, and dystrophic processes in Alzheimer’s disease. Neurobiol Aging 16:335–345
+
+123
+
+Acta Neuropathol (2006) 112:389–404
+96. Uchihara T, Nakamura A, Yamazaki M, Moris O (2001) Evolution from pretangle neurons to neuroWbrillary tangles monitored by thiazin red combined with Gallyas method and
+double immunoXuorescence. Acta Neuropathol 101:535–539
+97. van Hoesen GW, Hyman BT (1990) Hippocampal formation:
+anatomy and the patterns of pathology in Alzheimer’s disease. Prog Brain Res 83:445–457
+98. van Hoesen GW, Hyman BT, Damasio AR (1991) Entorhinal
+cortex pathology in Alzheimer’s disease. Hippocampus 1:1–8
+99. Yamamoto T, Hirano A (1986) A comparative study of modiWed Bielschowsky, Bodian, and thioXavin S stains on Alzheimer’s neuroWbrillary tangles. Neuropathol Appl Neurobiol
+12:3–9
+
+

@@ -1,1 +1,10 @@
-{"primary_rho_mDI": -0.129, "n": 62}
+{
+ "rho": -0.129,
+ "ci": [
+  -0.375,
+  0.141
+ ],
+ "n": 62,
+ "landmark_metric_mean": 0.745,
+ "ordinary_metric_mean": 0.64
+}
