@@ -287,3 +287,9 @@ entries:
       - "Routed delta-hack and elaborate formulas as dead_ends (N67/N68) not experiments — both refuted on held-out data."
       - "GRO extensions O38-O40 STAGED not crystallized: ai-suggested, no user affirmation yet; potential_type constraint/architecture."
       - "N69 (adopt contrib_wmean) ai-suggested; did NOT upgrade provenance — user has not first-person affirmed the specific metric choice."
+  - turn: "2026-07-11_001#1"
+    notes:
+      - "C20 weakened->supported via empirical-resolution (N71 cross-model test), not silence — the test was designed to resolve exactly this claim's open disjunct."
+      - "C21 crystallized immediately (empirical resolution + it's the turn's headline); provenance ai-executed."
+      - "N72 provenance user-revised (user directed the metric change: 'contrib_wmean is maybe not the right metric')."
+      - "Did NOT overclaim the max(peak,cwmean) edge — logged as tied-with-cwmean, adopted on the non-dilution invariant."

@@ -77,3 +77,11 @@ as an observation and matured on artifact-commitment + the user's directive to a
 - **Provenance**: user-revised
 - **Sensitivity**: high
 - **Code ref**: [research/metrics/v5-breakthrough/corpus/FEATURES.md, RESULTS_PAPER.md §7]
+
+## H08: Aggregate contributions count-independently — max(peak, best-mean), never a plain mean
+- **Rationale**: A confidence-weighted mean dilutes a single landmark contribution when minor ones accompany it, so {one big} scores lower than it should vs {one big + ten small}. `max(peak, cwmean)` is count-independent: the score is the better-of standout-or-depth, so companions can't drag a genuine breakthrough down. Pure `peak` alone is too noisy (one over-confidently-typed contribution spikes it, held-out ρ 0.45); cwmean is the floor. Held-out 0.576 vs Claude panel (tied with cwmean 0.571) — adopted on the invariant, not a measured edge.
+- **Sources**: [peak 0.45 / max(peak,cwmean) 0.576 / cwmean 0.571 held-out ← research/metrics/v5-breakthrough/corpus/test_contrib2.py [result]]
+- **Status**: active
+- **Provenance**: user-revised
+- **Sensitivity**: medium
+- **Code ref**: [research/metrics/v5-breakthrough/corpus/test_contrib2.py, corpus/compute_corpus.py]

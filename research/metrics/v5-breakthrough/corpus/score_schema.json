@@ -1,0 +1,1 @@
+{"type": "object", "additionalProperties": false, "required": ["breakthrough_score", "tier"], "properties": {"breakthrough_score": {"type": "integer", "minimum": 0, "maximum": 100}, "tier": {"type": "string", "enum": ["landmark", "significant", "solid", "incremental", "non_contribution"]}}}

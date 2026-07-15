@@ -267,11 +267,22 @@ Numbers are copied exactly from source; each load-bearing number carries a `**So
 - **Tags**: breakthrough-metric, ceiling, expert-agreement, data-shape
 
 ## C20: The generalizing signal is the compiler's reading, not GRO's prior-art/delta machinery
-- **Statement**: The only feature that transfers to held-out data is the [PAPER→LLM] contribution typing (`contrib_wmean`); the [PRIOR-ART] anchor novelty and [PAPER→LLM/PRIOR-ART] delta-ledger shapes did not transfer (novelty ρ 0.63 train→0.27 test; delta a weak confound-proxy). This is either a genuine finding (contribution-typing is what matters) or an artifact of the metric and the LLM expert panel sharing a model bias — distinguishable only on a second, non-AD corpus.
+- **Statement**: The only feature that transfers to held-out data is the [PAPER→LLM] contribution typing (`contrib_wmean` / adopted `max(peak,cwmean)`); the [PRIOR-ART] anchor novelty and [PAPER→LLM/PRIOR-ART] delta-ledger shapes did not transfer (novelty ρ 0.63 train→0.27 test; delta a weak confound-proxy). A GPT-5.5 cross-model test (N71) resolves the ambiguity: the ground truth is largely model-INDEPENDENT (Claude↔GPT panels agree ρ 0.89) but the metric's skill is PARTLY shared-Claude bias — metric-vs-Claude 0.53–0.58 vs metric-vs-GPT 0.34 held-out. So contribution-typing is a real but weak transferable signal (~0.34 cross-model), inflated ~1.7× when scored against its own model family.
+- **Last revised**: 2026-07-11 (2026-07-11_001)
 - **Sources**: [novelty 0.627 train / 0.266 test ← research/metrics/v5-breakthrough/corpus/apply_formula.py «novelty alone ... 0.266» [result]]; [inter-judge ρ 0.96 ← RESULTS_PAPER.md §9 [result]]
-- **Status**: weakened
+- **Status**: supported
 - **Provenance**: ai-executed
 - **Falsification criteria**: On a second corpus with human raters, `contrib_wmean` retains ρ≈0.57 (→ real signal, promote); OR it collapses (→ shared-LLM-bias artifact, refute).
 - **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §7, §9]
 - **Dependencies**: [C18]
 - **Tags**: breakthrough-metric, provenance, shared-bias, open-validation
+
+## C21: Cross-model agreement shows the breakthrough ground truth is real, but the metric's headline is bias-inflated
+- **Statement**: A GPT-5.5 panel and the Claude panel agree on breakthrough ranking at ρ≈0.89 (all-66) / 0.90 (single-vs-single), so the expert ground truth is largely model-independent — not a Claude self-agreement artifact. However the adopted metric (`max(peak,cwmean)`, a Claude compiler feature) correlates with the same-family Claude panel at ρ≈0.53–0.58 held-out but only ρ≈0.34 against the independent GPT panel; a single Claude judge tracks the 3-persona mean at ρ 0.99, so the drop is a genuine model effect, not single-judge noise.
+- **Sources**: [panel agreement 0.89 ← research/metrics/v5-breakthrough/corpus (codex_panel_scores.json vs expert_scores.json) «Claude-panel vs GPT-5.5: rho=0.894» [result]]; [metric vs GPT 0.336 test / vs Claude-single 0.530 test ← apply_formula cross-tab «metric vs GPT-5.5 single: test 0.336 ; vs Claude metascientist single: test 0.530» [result]]; [single-vs-mean 0.99 ← «within-Claude single-vs-mean: 0.992» [result]]
+- **Status**: supported
+- **Provenance**: ai-executed
+- **Falsification criteria**: The two model families' panels disagree (ρ well below ~0.8); OR the metric-vs-GPT correlation matches metric-vs-Claude (no shared-bias gap); OR the gap is shown to be single-judge noise.
+- **Proof**: [research/metrics/v5-breakthrough/RESULTS_PAPER.md §9, corpus/codex_panel_scores.json]
+- **Dependencies**: [C20]
+- **Tags**: breakthrough-metric, shared-bias, cross-model, validation

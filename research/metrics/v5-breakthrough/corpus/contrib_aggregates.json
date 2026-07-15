@@ -1,0 +1,662 @@
+{
+ "zhu25b-global-burden-of-alzheimer-s-disease": {
+  "peak_wconf": 0.093,
+  "peak_w": 0.15,
+  "top2_mean": 0.07400000000000001,
+  "top3_mean": 0.07400000000000001,
+  "noisy_or": 0.14288500000000004,
+  "wmean": 0.07400000000000001,
+  "sum_capped": 0.04933333333333334,
+  "n_strong": 0.0
+ },
+ "amo25-regional-differences-in-the-incidence-of": {
+  "peak_wconf": 0.42,
+  "peak_w": 0.7,
+  "top2_mean": 0.40249999999999997,
+  "top3_mean": 0.32666666666666666,
+  "noisy_or": 0.7277933125,
+  "wmean": 0.26375,
+  "sum_capped": 0.3516666666666666,
+  "n_strong": 2.0
+ },
+ "als25-the-role-of-glial-cell-senescence": {
+  "peak_wconf": 0.3255,
+  "peak_w": 0.35,
+  "top2_mean": 0.32025000000000003,
+  "top3_mean": 0.3161666666666667,
+  "noisy_or": 0.68027351,
+  "wmean": 0.3161666666666667,
+  "sum_capped": 0.3161666666666667,
+  "n_strong": 0.0
+ },
+ "sor25-barriers-for-access-and-utilization-of": {
+  "peak_wconf": 0.301,
+  "peak_w": 0.35,
+  "top2_mean": 0.287,
+  "top3_mean": 0.2741666666666666,
+  "noisy_or": 0.6181079904999999,
+  "wmean": 0.2741666666666666,
+  "sum_capped": 0.2741666666666666,
+  "n_strong": 0.0
+ },
+ "sim26-multi-modal-graph-neural-network-with": {
+  "peak_wconf": 0.44000000000000006,
+  "peak_w": 0.8,
+  "top2_mean": 0.36,
+  "top3_mean": 0.36,
+  "noisy_or": 0.5968,
+  "wmean": 0.36,
+  "sum_capped": 0.24,
+  "n_strong": 2.0
+ },
+ "bec25-a-neuroimmune-cerebral-assembloid-model-to": {
+  "peak_wconf": 0.4,
+  "peak_w": 0.8,
+  "top2_mean": 0.375,
+  "top3_mean": 0.27,
+  "noisy_or": 0.6535630000000001,
+  "wmean": 0.21625000000000003,
+  "sum_capped": 0.2883333333333334,
+  "n_strong": 2.0
+ },
+ "xu25d-global-incidence-trends-and-projections-of": {
+  "peak_wconf": 0.1925,
+  "peak_w": 0.35,
+  "top2_mean": 0.14125,
+  "top3_mean": 0.14125,
+  "noisy_or": 0.26517499999999994,
+  "wmean": 0.14125,
+  "sum_capped": 0.09416666666666666,
+  "n_strong": 0.0
+ },
+ "zho25-microglia-networks-within-the-tapestry-of": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.35,
+  "top2_mean": 0.3115,
+  "top3_mean": 0.30916666666666665,
+  "noisy_or": 0.8356792045343875,
+  "wmean": 0.30310000000000004,
+  "sum_capped": 0.5051666666666667,
+  "n_strong": 0.0
+ },
+ "ami25-prevalence-deaths-and-disability-adjusted-life": {
+  "peak_wconf": 0.364,
+  "peak_w": 0.7,
+  "top2_mean": 0.242,
+  "top3_mean": 0.242,
+  "noisy_or": 0.44031999999999993,
+  "wmean": 0.242,
+  "sum_capped": 0.16133333333333333,
+  "n_strong": 1.0
+ },
+ "gon25b-stereo-seq-of-the-prefrontal-cortex": {
+  "peak_wconf": 0.385,
+  "peak_w": 0.7,
+  "top2_mean": 0.35,
+  "top3_mean": 0.3383333333333333,
+  "noisy_or": 0.711426625,
+  "wmean": 0.3383333333333333,
+  "sum_capped": 0.3383333333333333,
+  "n_strong": 3.0
+ },
+ "aku25b-effects-of-medicare-predictors-in-health": {
+  "peak_wconf": 0.504,
+  "peak_w": 0.8,
+  "top2_mean": 0.4445,
+  "top3_mean": 0.31883333333333336,
+  "noisy_or": 0.7326171880000001,
+  "wmean": 0.254125,
+  "sum_capped": 0.3388333333333333,
+  "n_strong": 2.0
+ },
+ "zha25-assessing-and-projecting-the-global-impacts": {
+  "peak_wconf": 0.20299999999999999,
+  "peak_w": 0.35,
+  "top2_mean": 0.16149999999999998,
+  "top3_mean": 0.14666666666666664,
+  "noisy_or": 0.38069911999999995,
+  "wmean": 0.14666666666666664,
+  "sum_capped": 0.14666666666666664,
+  "n_strong": 0.0
+ },
+ "wan25c-global-burden-of-alzheimer-s-disease": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.7,
+  "top2_mean": 0.315,
+  "top3_mean": 0.235,
+  "noisy_or": 0.565966875,
+  "wmean": 0.235,
+  "sum_capped": 0.235,
+  "n_strong": 2.0
+ },
+ "div25-the-microcirculation-the-blood-brain-barrier": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.35,
+  "top2_mean": 0.301,
+  "top3_mean": 0.2823333333333333,
+  "noisy_or": 0.631254225,
+  "wmean": 0.2823333333333333,
+  "sum_capped": 0.2823333333333333,
+  "n_strong": 0.0
+ },
+ "jes26-efficacy-and-safety-of-donanemab-in": {
+  "peak_wconf": 0.42,
+  "peak_w": 0.7,
+  "top2_mean": 0.413,
+  "top3_mean": 0.336,
+  "noisy_or": 0.7414325721999999,
+  "wmean": 0.272625,
+  "sum_capped": 0.3635,
+  "n_strong": 2.0
+ },
+ "liu25h-global-burden-of-alzheimer-s-disease": {
+  "peak_wconf": 0.21,
+  "peak_w": 0.35,
+  "top2_mean": 0.1425,
+  "top3_mean": 0.1425,
+  "noisy_or": 0.2692499999999999,
+  "wmean": 0.1425,
+  "sum_capped": 0.09499999999999999,
+  "n_strong": 0.0
+ },
+ "ali25-multimodal-self-supervised-learning-for-early": {
+  "peak_wconf": 0.21,
+  "peak_w": 0.35,
+  "top2_mean": 0.1515,
+  "top3_mean": 0.1285,
+  "noisy_or": 0.4950094669615118,
+  "wmean": 0.09150000000000001,
+  "sum_capped": 0.21350000000000002,
+  "n_strong": 0.0
+ },
+ "han26-tau-pathological-activity-in-plasma-before": {
+  "peak_wconf": 0.5599999999999999,
+  "peak_w": 0.8,
+  "top2_mean": 0.532,
+  "top3_mean": 0.5133333333333333,
+  "noisy_or": 0.95688712448,
+  "wmean": 0.462,
+  "sum_capped": 0.77,
+  "n_strong": 5.0
+ },
+ "afi25-vision-and-convolutional-transformers-for-alzheimer": {
+  "peak_wconf": 0.48999999999999994,
+  "peak_w": 0.7,
+  "top2_mean": 0.45499999999999996,
+  "top3_mean": 0.38033333333333336,
+  "noisy_or": 0.8420333196099999,
+  "wmean": 0.29469999999999996,
+  "sum_capped": 0.4911666666666666,
+  "n_strong": 2.0
+ },
+ "kes25-the-alzheimer-s-disease-diagnosis-and": {
+  "peak_wconf": 0.105,
+  "peak_w": 0.15,
+  "top2_mean": 0.099,
+  "top3_mean": 0.09600000000000002,
+  "noisy_or": 0.352834316108,
+  "wmean": 0.08320000000000001,
+  "sum_capped": 0.1386666666666667,
+  "n_strong": 0.0
+ },
+ "20225-2025-alzheimer-s-disease-facts-and": {
+  "peak_wconf": 0.46199999999999997,
+  "peak_w": 0.7,
+  "top2_mean": 0.37625,
+  "top3_mean": 0.3465,
+  "noisy_or": 0.9097398567365031,
+  "wmean": 0.2846428571428571,
+  "sum_capped": 0.6641666666666666,
+  "n_strong": 1.0
+ },
+ "yu25-global-mortality-prevalence-and-disability-adjusted": {
+  "peak_wconf": 0.27999999999999997,
+  "peak_w": 0.7,
+  "top2_mean": 0.18125,
+  "top3_mean": 0.14333333333333334,
+  "noisy_or": 0.3839905,
+  "wmean": 0.14333333333333334,
+  "sum_capped": 0.14333333333333334,
+  "n_strong": 1.0
+ },
+ "ave25-uncovering-plaque-glia-niches-in-human": {
+  "peak_wconf": 0.504,
+  "peak_w": 0.7,
+  "top2_mean": 0.49,
+  "top3_mean": 0.47833333333333333,
+  "noisy_or": 0.8972671871264,
+  "wmean": 0.3456,
+  "sum_capped": 0.5760000000000001,
+  "n_strong": 3.0
+ },
+ "smi25-contribution-of-modifiable-midlife-and-late": {
+  "peak_wconf": 0.385,
+  "peak_w": 0.7,
+  "top2_mean": 0.35,
+  "top3_mean": 0.35,
+  "noisy_or": 0.5787249999999999,
+  "wmean": 0.35,
+  "sum_capped": 0.2333333333333333,
+  "n_strong": 2.0
+ },
+ "wee25-early-intervention-anti-a-immunotherapy-attenuates": {
+  "peak_wconf": 0.385,
+  "peak_w": 0.7,
+  "top2_mean": 0.3675,
+  "top3_mean": 0.3336666666666666,
+  "noisy_or": 0.727709488,
+  "wmean": 0.26825,
+  "sum_capped": 0.35766666666666663,
+  "n_strong": 3.0
+ },
+ "liu25i-single-cell-multiregion-epigenomic-rewiring-in": {
+  "peak_wconf": 0.385,
+  "peak_w": 0.7,
+  "top2_mean": 0.35,
+  "top3_mean": 0.32666666666666666,
+  "noisy_or": 0.696682,
+  "wmean": 0.32666666666666666,
+  "sum_capped": 0.32666666666666666,
+  "n_strong": 3.0
+ },
+ "the25-blood-phosphorylated-tau-for-the-diagnosis": {
+  "peak_wconf": 0.385,
+  "peak_w": 0.7,
+  "top2_mean": 0.35,
+  "top3_mean": 0.35,
+  "noisy_or": 0.5787249999999999,
+  "wmean": 0.35,
+  "sum_capped": 0.2333333333333333,
+  "n_strong": 1.0
+ },
+ "20226-2026-alzheimer-s-disease-facts-and": {
+  "peak_wconf": 0.5319999999999999,
+  "peak_w": 0.7,
+  "top2_mean": 0.4129999999999999,
+  "top3_mean": 0.36866666666666664,
+  "noisy_or": 0.9023304268856978,
+  "wmean": 0.2702857142857143,
+  "sum_capped": 0.6306666666666666,
+  "n_strong": 2.0
+ },
+ "aks25-an-explainable-web-based-diagnostic-system": {
+  "peak_wconf": 0.175,
+  "peak_w": 0.35,
+  "top2_mean": 0.1325,
+  "top3_mean": 0.11083333333333334,
+  "noisy_or": 0.299925625,
+  "wmean": 0.11083333333333334,
+  "sum_capped": 0.11083333333333334,
+  "n_strong": 0.0
+ },
+ "aki26-molecular-signatures-of-resilience-to-alzheimer": {
+  "peak_wconf": 0.5599999999999999,
+  "peak_w": 0.7,
+  "top2_mean": 0.5425,
+  "top3_mean": 0.525,
+  "noisy_or": 0.9511604619999999,
+  "wmean": 0.441,
+  "sum_capped": 0.735,
+  "n_strong": 4.0
+ },
+ "ant26-mapea-project-evolution-of-care-for": {
+  "peak_wconf": 0.46199999999999997,
+  "peak_w": 0.7,
+  "top2_mean": 0.357,
+  "top3_mean": 0.2655,
+  "noisy_or": 0.6529294212000001,
+  "wmean": 0.214125,
+  "sum_capped": 0.28550000000000003,
+  "n_strong": 1.0
+ },
+ "ada26-adult-human-ex-vivo-brain-slices": {
+  "peak_wconf": 0.46399999999999997,
+  "peak_w": 0.8,
+  "top2_mean": 0.407,
+  "top3_mean": 0.29883333333333334,
+  "noisy_or": 0.7001617339999999,
+  "wmean": 0.23962499999999998,
+  "sum_capped": 0.31949999999999995,
+  "n_strong": 2.0
+ },
+ "huu25-apoe-e4-alzheimer-s-risk-converges": {
+  "peak_wconf": 0.5459999999999999,
+  "peak_w": 0.7,
+  "top2_mean": 0.49,
+  "top3_mean": 0.455,
+  "noisy_or": 0.8828644638394,
+  "wmean": 0.3276,
+  "sum_capped": 0.546,
+  "n_strong": 3.0
+ },
+ "xu25-epidemiological-and-sociodemographic-transitions-in-the": {
+  "peak_wconf": 0.42,
+  "peak_w": 0.7,
+  "top2_mean": 0.40249999999999997,
+  "top3_mean": 0.39666666666666667,
+  "noisy_or": 0.8786881135,
+  "wmean": 0.33999999999999997,
+  "sum_capped": 0.5666666666666667,
+  "n_strong": 4.0
+ },
+ "pal25-alzheimer-s-association-clinical-practice-guideline": {
+  "peak_wconf": 0.24499999999999997,
+  "peak_w": 0.35,
+  "top2_mean": 0.23624999999999996,
+  "top3_mean": 0.22749999999999995,
+  "noisy_or": 0.5392423749999999,
+  "wmean": 0.22749999999999995,
+  "sum_capped": 0.22749999999999995,
+  "n_strong": 0.0
+ },
+ "raz25-advancements-in-deep-learning-for-early": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.35,
+  "top2_mean": 0.2835,
+  "top3_mean": 0.2835,
+  "noisy_or": 0.48761999999999994,
+  "wmean": 0.2835,
+  "sum_capped": 0.18899999999999997,
+  "n_strong": 0.0
+ },
+ "bor25b-harmonized-prevalence-estimates-of-dementia-in": {
+  "peak_wconf": 0.434,
+  "peak_w": 0.7,
+  "top2_mean": 0.4095,
+  "top3_mean": 0.307,
+  "noisy_or": 0.6874151799999999,
+  "wmean": 0.307,
+  "sum_capped": 0.307,
+  "n_strong": 2.0
+ },
+ "guo25c-the-disease-burden-risk-factors-and": {
+  "peak_wconf": 0.294,
+  "peak_w": 0.7,
+  "top2_mean": 0.18075,
+  "top3_mean": 0.13383333333333333,
+  "noisy_or": 0.3679888000000001,
+  "wmean": 0.13383333333333333,
+  "sum_capped": 0.13383333333333333,
+  "n_strong": 1.0
+ },
+ "ala26-trends-in-alzheimer-s-disease-mortality": {
+  "peak_wconf": 0.27999999999999997,
+  "peak_w": 0.7,
+  "top2_mean": 0.20149999999999998,
+  "top3_mean": 0.20149999999999998,
+  "noisy_or": 0.36856,
+  "wmean": 0.20149999999999998,
+  "sum_capped": 0.13433333333333333,
+  "n_strong": 1.0
+ },
+ "alb26-early-detection-of-alzheimer-s-disease": {
+  "peak_wconf": 0.13999999999999999,
+  "peak_w": 0.35,
+  "top2_mean": 0.11349999999999999,
+  "top3_mean": 0.09666666666666666,
+  "noisy_or": 0.26428633999999995,
+  "wmean": 0.09666666666666666,
+  "sum_capped": 0.09666666666666666,
+  "n_strong": 0.0
+ },
+ "ard25-response-of-spatially-defined-microglia-states": {
+  "peak_wconf": 0.5599999999999999,
+  "peak_w": 0.7,
+  "top2_mean": 0.532,
+  "top3_mean": 0.518,
+  "noisy_or": 0.919275708352,
+  "wmean": 0.36940000000000006,
+  "sum_capped": 0.6156666666666667,
+  "n_strong": 3.0
+ },
+ "che25e-apoe4-reprograms-microglial-lipid-metabolism-in": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.35,
+  "top2_mean": 0.3115,
+  "top3_mean": 0.2916666666666667,
+  "noisy_or": 0.64543304,
+  "wmean": 0.2916666666666667,
+  "sum_capped": 0.2916666666666667,
+  "n_strong": 0.0
+ },
+ "gau25-single-nucleus-and-spatial-transcriptomic-profiling": {
+  "peak_wconf": 0.504,
+  "peak_w": 0.7,
+  "top2_mean": 0.497,
+  "top3_mean": 0.48533333333333334,
+  "noisy_or": 0.94136020003264,
+  "wmean": 0.3580833333333333,
+  "sum_capped": 0.7161666666666666,
+  "n_strong": 4.0
+ },
+ "kho25-explainable-artificial-intelligence-in-neuroimaging-of": {
+  "peak_wconf": 0.27299999999999996,
+  "peak_w": 0.35,
+  "top2_mean": 0.27299999999999996,
+  "top3_mean": 0.27299999999999996,
+  "noisy_or": 0.2729999999999999,
+  "wmean": 0.27299999999999996,
+  "sum_capped": 0.09099999999999998,
+  "n_strong": 0.0
+ },
+ "ji25-alzheimer-s-disease-patient-brain-extracts": {
+  "peak_wconf": 0.44000000000000006,
+  "peak_w": 0.8,
+  "top2_mean": 0.42300000000000004,
+  "top3_mean": 0.30450000000000005,
+  "noisy_or": 0.6898132,
+  "wmean": 0.30450000000000005,
+  "sum_capped": 0.30450000000000005,
+  "n_strong": 2.0
+ },
+ "zha25h-a-review-of-multimodal-fusion-based": {
+  "peak_wconf": 0.2975,
+  "peak_w": 0.35,
+  "top2_mean": 0.27125,
+  "top3_mean": 0.26016666666666666,
+  "noisy_or": 0.595844725,
+  "wmean": 0.26016666666666666,
+  "sum_capped": 0.26016666666666666,
+  "n_strong": 0.0
+ },
+ "cum26-alzheimer-s-disease-drug-development-pipeline": {
+  "peak_wconf": 0.42,
+  "peak_w": 0.7,
+  "top2_mean": 0.413,
+  "top3_mean": 0.4106666666666667,
+  "noisy_or": 0.8877359117296,
+  "wmean": 0.34500000000000003,
+  "sum_capped": 0.5750000000000001,
+  "n_strong": 4.0
+ },
+ "cav25-global-societal-burden-of-alzheimer-s": {
+  "peak_wconf": 0.259,
+  "peak_w": 0.35,
+  "top2_mean": 0.2345,
+  "top3_mean": 0.17566666666666664,
+  "noisy_or": 0.44856262,
+  "wmean": 0.17566666666666664,
+  "sum_capped": 0.17566666666666664,
+  "n_strong": 0.0
+ },
+ "sal25-trailblazer-alz-4-a-phase-3": {
+  "peak_wconf": 0.504,
+  "peak_w": 0.7,
+  "top2_mean": 0.4445,
+  "top3_mean": 0.3253333333333333,
+  "noisy_or": 0.73904407576,
+  "wmean": 0.25975,
+  "sum_capped": 0.3463333333333333,
+  "n_strong": 2.0
+ },
+ "qi25-alzheimer-s-disease-digital-biomarkers-multidimensional": {
+  "peak_wconf": 0.308,
+  "peak_w": 0.35,
+  "top2_mean": 0.259,
+  "top3_mean": 0.259,
+  "noisy_or": 0.45332000000000006,
+  "wmean": 0.259,
+  "sum_capped": 0.17266666666666666,
+  "n_strong": 0.0
+ },
+ "woj25-immunoassay-detection-of-multiphosphorylated-tau-proteoforms": {
+  "peak_wconf": 0.528,
+  "peak_w": 0.8,
+  "top2_mean": 0.4565,
+  "top3_mean": 0.421,
+  "noisy_or": 0.824903104,
+  "wmean": 0.33375,
+  "sum_capped": 0.445,
+  "n_strong": 3.0
+ },
+ "gie25-geographical-inequalities-in-dementia-diagnosis-and": {
+  "peak_wconf": 0.3255,
+  "peak_w": 0.35,
+  "top2_mean": 0.3115,
+  "top3_mean": 0.3033333333333333,
+  "noisy_or": 0.6621547537499999,
+  "wmean": 0.3033333333333333,
+  "sum_capped": 0.3033333333333333,
+  "n_strong": 0.0
+ },
+ "aku25-population-attributable-fractions-associated-with-alzheimer": {
+  "peak_wconf": 0.35,
+  "peak_w": 0.7,
+  "top2_mean": 0.20875,
+  "top3_mean": 0.20875,
+  "noisy_or": 0.393875,
+  "wmean": 0.20875,
+  "sum_capped": 0.13916666666666666,
+  "n_strong": 1.0
+ },
+ "val25-blood-biomarkers-of-alzheimer-s-disease": {
+  "peak_wconf": 0.48999999999999994,
+  "peak_w": 0.7,
+  "top2_mean": 0.476,
+  "top3_mean": 0.4573333333333333,
+  "noisy_or": 0.866691667579,
+  "wmean": 0.30829999999999996,
+  "sum_capped": 0.5138333333333333,
+  "n_strong": 3.0
+ },
+ "hao25-trend-analysis-and-future-predictions-of": {
+  "peak_wconf": 0.42,
+  "peak_w": 0.7,
+  "top2_mean": 0.255,
+  "top3_mean": 0.255,
+  "noisy_or": 0.47219999999999995,
+  "wmean": 0.255,
+  "sum_capped": 0.17,
+  "n_strong": 1.0
+ },
+ "sal26-plasma-emtbr-tau243-and-p-tau217": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.7,
+  "top2_mean": 0.2025,
+  "top3_mean": 0.16166666666666668,
+  "noisy_or": 0.42651799999999995,
+  "wmean": 0.16166666666666668,
+  "sum_capped": 0.16166666666666668,
+  "n_strong": 1.0
+ },
+ "wu25-a-2025-update-on-treatment-strategies": {
+  "peak_wconf": 0.301,
+  "peak_w": 0.35,
+  "top2_mean": 0.27649999999999997,
+  "top3_mean": 0.25199999999999995,
+  "noisy_or": 0.5832869559999999,
+  "wmean": 0.25199999999999995,
+  "sum_capped": 0.25199999999999995,
+  "n_strong": 0.0
+ },
+ "ali26-privacy-preserving-multimodal-fusion-for-alzheimer": {
+  "peak_wconf": 0.093,
+  "peak_w": 0.15,
+  "top2_mean": 0.0915,
+  "top3_mean": 0.08600000000000001,
+  "noisy_or": 0.28806678937499997,
+  "wmean": 0.081375,
+  "sum_capped": 0.1085,
+  "n_strong": 0.0
+ },
+ "tit26-automated-high-throughput-quantification-of-plasma": {
+  "peak_wconf": 0.434,
+  "peak_w": 0.7,
+  "top2_mean": 0.427,
+  "top3_mean": 0.42,
+  "noisy_or": 0.9118732371074985,
+  "wmean": 0.2795714285714286,
+  "sum_capped": 0.6523333333333333,
+  "n_strong": 4.0
+ },
+ "che26-diagnostic-performance-of-plasma-p-tau217": {
+  "peak_wconf": 0.504,
+  "peak_w": 0.7,
+  "top2_mean": 0.4445,
+  "top3_mean": 0.4246666666666667,
+  "noisy_or": 0.92589845815936,
+  "wmean": 0.3413333333333333,
+  "sum_capped": 0.6826666666666666,
+  "n_strong": 4.0
+ },
+ "zim25-donanemab-in-early-symptomatic-alzheimer-s": {
+  "peak_wconf": 0.42,
+  "peak_w": 0.7,
+  "top2_mean": 0.413,
+  "top3_mean": 0.4036666666666666,
+  "noisy_or": 0.8087784805,
+  "wmean": 0.32712499999999994,
+  "sum_capped": 0.4361666666666666,
+  "n_strong": 3.0
+ },
+ "als26-early-onset-alzheimer-s-disease-mortality": {
+  "peak_wconf": 0.40599999999999997,
+  "peak_w": 0.7,
+  "top2_mean": 0.248,
+  "top3_mean": 0.248,
+  "noisy_or": 0.45945999999999987,
+  "wmean": 0.248,
+  "sum_capped": 0.16533333333333333,
+  "n_strong": 1.0
+ },
+ "ahm26-machine-learning-and-deep-learning-for": {
+  "peak_wconf": 0.315,
+  "peak_w": 0.35,
+  "top2_mean": 0.30625,
+  "top3_mean": 0.29983333333333334,
+  "noisy_or": 0.6568954874999999,
+  "wmean": 0.29983333333333334,
+  "sum_capped": 0.29983333333333334,
+  "n_strong": 0.0
+ },
+ "ols25-microglial-mechanisms-drive-amyloid-clearance-in": {
+  "peak_wconf": 0.364,
+  "peak_w": 0.7,
+  "top2_mean": 0.32899999999999996,
+  "top3_mean": 0.31266666666666665,
+  "noisy_or": 0.6767084800000001,
+  "wmean": 0.31266666666666665,
+  "sum_capped": 0.31266666666666665,
+  "n_strong": 3.0
+ },
+ "ahm26b-trends-and-disparities-in-alzheimer-disease": {
+  "peak_wconf": 0.35,
+  "peak_w": 0.7,
+  "top2_mean": 0.21999999999999997,
+  "top3_mean": 0.21999999999999997,
+  "noisy_or": 0.4085,
+  "wmean": 0.21999999999999997,
+  "sum_capped": 0.14666666666666664,
+  "n_strong": 1.0
+ },
+ "iac25-a-practical-overview-of-the-use": {
+  "peak_wconf": 0.287,
+  "peak_w": 0.35,
+  "top2_mean": 0.2485,
+  "top3_mean": 0.2485,
+  "noisy_or": 0.43672999999999995,
+  "wmean": 0.2485,
+  "sum_capped": 0.16566666666666666,
+  "n_strong": 0.0
+ }
+}

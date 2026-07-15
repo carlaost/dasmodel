@@ -1,0 +1,44 @@
+session:
+  id: "2026-07-11_001"
+  date: "2026-07-11"
+  started: "2026-07-11T13:20"
+  last_turn: "2026-07-11T14:30"
+  turn_count: 1
+  summary: >
+    Two follow-ups to the breakthrough metric. (1) Fixed the contribution aggregate: contrib_wmean
+    dilutes a lone landmark -> adopted max(peak, cwmean), count-independent (N72/H08); held-out 0.576
+    vs Claude, tied with cwmean. (2) Ran the shared-LLM-bias test (N71): re-judged all 66 with GPT-5.5
+    (codex exec). Cross-model panel agreement rho 0.89 => ground truth is real/model-independent, NOT a
+    Claude artifact (C20 weakened->supported; C21 new). BUT metric-vs-GPT 0.34 vs metric-vs-Claude
+    0.53-0.58 held-out, and single Claude judge tracks 3-mean at 0.99, so the drop is a real model
+    effect => ~1/3 of the metric's apparent skill was shared Claude bias; honest transferable perf ~0.34.
+    Paper rewritten (abstract pt3, §5 adopt max, §6 dual ceiling, §9 cross-model bias) + re-rendered.
+    Open: second (non-AD, e.g. ALS/FTD) corpus + human ratings; validated overlap measure.
+events_logged:
+  - { turn: 1, type: experiment, id: N71, routing: direct, provenance: ai-executed, summary: "GPT-5.5 cross-model panel; agreement 0.89, metric-vs-GPT 0.34 vs -Claude 0.58 held-out" }
+  - { turn: 1, type: decision, id: N72, routing: direct, provenance: user-revised, summary: "adopt max(peak,cwmean) to fix cwmean dilution" }
+claims_touched:
+  - { id: C20, action: confirmed, turn: 1 }
+  - { id: C21, action: created, turn: 1 }
+logic_revisions:
+  - turn: 1
+    entry: C20
+    field: Status
+    before: "weakened"
+    after: "supported"
+    signal: empirical-resolution
+    provenance: ai-executed
+    note: "Cross-model test (N71) resolved the shared-bias ambiguity: ground truth model-independent (0.89), metric partly bias-inflated. Statement also revised to record the 0.53-vs-0.34 split."
+ai_actions:
+  - turn: 1
+    action: "GPT-5.5 panel (66 papers, codex exec), max(peak,cwmean) adoption, paper rewrite + render"
+    provenance: ai-executed
+    files_changed: ["research/metrics/v5-breakthrough/corpus/run_codex_panel.py","research/metrics/v5-breakthrough/corpus/codex_panel_scores.json","research/metrics/v5-breakthrough/corpus/test_contrib2.py","research/metrics/v5-breakthrough/corpus/compute_corpus.py","research/metrics/v5-breakthrough/RESULTS_PAPER.md"]
+key_context:
+  - turn: 1
+    excerpt: "User: 'contrib_wmean is maybe not the right metric... one standout... the mean is pretty bad' -> max(peak,cwmean) fix. And 'rerunning it with codex makes a lot of sense' -> GPT-5.5 bias test."
+open_threads:
+  - "Second corpus (non-AD; recommended ALS/FTD, anchor = tofersen) + human ratings — does 0.34 hold across domains?"
+  - "Validated overlap measure (SPECTER2 citation-space) before breakthrough-novelty or convergence metric is computable"
+ai_suggestions_pending:
+  - "ALS/FTD as corpus #2 (ai-suggested, not yet confirmed)"
